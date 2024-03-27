@@ -42,8 +42,8 @@ export default function Aosta_romana_e_medievale(props) {
                         Salassorum</b> doveva esssere una testa di ponte di collegamento con i due valichi alpini principali della Valle d'Aosta.
                     </p>
                     <p>
-                        Dell'epoca romana oggi si può ammirare il <Link href='/luoghi_visite/il_ponte_romano' className='text-decoration-none color_link'>ponte roamo sul torrente Buthier </Link> 
-                        che faceva parte della <Link href='/visite/strada_romana_gallie' className='text-decoration-none color_link'>Strada romana delle Gallie</Link>. <br/>
+                        Dell'epoca romana oggi si può ammirare il <Link href='/luoghi_visite/il_ponte_romano' className='text-decoration-none color_link'>ponte roamo sul torrente Buthier</Link> che
+                        faceva parte della <Link href='/visite/strada_romana_gallie' className='text-decoration-none color_link'>Strada romana delle Gallie</Link>. <br/>
                         L'<Link href='/luoghi_visite/arco_d_augusto' className='text-decoration-none color_link'>Arco d'Augusto</Link> eretto in ordine dell'imperatore accoglie il visitatore prima di entrare 
                         nel centro cittadino. La <Link href='/luoghi_visite/porta_praetoria' className='text-decoration-none color_link'>Porta Praetoria</Link> costituita l'ingesso monumentale 
                         della città ed è l'unica porta ancora conservatasi fino ad oggi.<br/>
@@ -53,10 +53,10 @@ export default function Aosta_romana_e_medievale(props) {
                     </p>
                     <p>
                         Il <b>Foro romano</b>, si tuato allínterno del Decumano Massimo e del Cardo Massimo, era la zona maggiormente trafficata della città dove si concludevano 
-                        affari e si adoravano gli dèi. Del <b>Foro romano di Aosta</b> oggi è visibile il <Link to='/luoghi_visite/criptoportico_forense' className='text-decoration-none color_link'>criptoportico forense</Link>,
+                        affari e si adoravano gli dèi. Del <b>Foro romano di Aosta</b> oggi è visibile il <Link href='/luoghi_visite/criptoportico_forense' className='text-decoration-none color_link'>criptoportico forense</Link>,
                         ovvero il porticato nascosto, un luogo ricco di fascino che circondava i due templi dell'area sacra. <br/>
-                        Passeggiando lungo il perimetro del centro storico è possibile inoltre ammirare parte della <Link to='/luoghi_visite/cinta_muraria' className='text-decoration-none color_link'>cinta muraria </Link>
-                        e dalle tori difensive.
+                        Passeggiando lungo il perimetro del centro storico è possibile inoltre ammirare parte della <Link href='/luoghi_visite/cinta_muraria' className='text-decoration-none color_link'>cinta muraria</Link> e 
+                        dalle tori difensive.
                     </p>
                 </div>
                 <div>
@@ -69,16 +69,16 @@ export default function Aosta_romana_e_medievale(props) {
                         Nel Medioevo la chiesa diventerà poi sede della parocchia per poi essere sconsacrata. Oggi ospita regolarmente alune mostre temporanee.
                     </p>
                     <p>
-                        Visiteremo poi la <Link to='/luoghi_visite/collegiata_di_sant_orso' className='text-decoration-none color_link'>Collegita di Sant'Orso</Link>, un vero e proprio 
+                        Visiteremo poi la <Link href='/luoghi_visite/collegiata_di_sant_orso' className='text-decoration-none color_link'>Collegita di Sant'Orso</Link>, un vero e proprio 
                         gioiello tardogotico che merita assolutamente di essere visto! Il complesso è costituito dalla torre campanaria, la <b>chiesa di Snt'Orso</b> con la crpta 
                         romanica ed il <b>celebre mosaico del coro</b>, il meraviglioso <b>chiostro romanico</b> coi suoi capitelli istoriati ed il Priorato unico edificio in cotto 
                         della Valle dÁosta. 
                     </p>
                     <p>
-                        Il <Link to='luoghi_visite/cattedrale_di_santa_maria_assunta' className='text-decoration-none color_link'>Cattedrale</Link>, sede vescovile, sorge a ridosso del <b>criptoportico
+                        Il <Link href='/luoghi_visite/cattedrale_di_santa_maria_assunta' className='text-decoration-none color_link'>Cattedrale</Link>, sede vescovile, sorge a ridosso del <b>criptoportico
                         romano</b> e sui resti di una domus che dalla età del IV secolo accole le assemblee di primi fedeli creistiano a cui veniva impartito il sacramento del Battesimo.
                         La Cattedrale costutuisce ancora oggi il polo spirituale principale della diocesi. <br/>
-                        Al suo interno si possono ammirare gli <Link to='/luoghi_visite/affreschi_ottoniani' className='text-decoration-none color_link'>affresci ottoniani</Link>, la cripta romanica, i pregevoli mosaici e stalli del 
+                        Al suo interno si possono ammirare gli <Link href='/luoghi_visite/affreschi_ottoniani' className='text-decoration-none color_link'>affresci ottoniani</Link>, la cripta romanica, i pregevoli mosaici e stalli del 
                         coro e le numerose cappelle.
                     </p>
                 </div>
@@ -93,7 +93,7 @@ export default function Aosta_romana_e_medievale(props) {
                     <h2 className='color-subtitle'>Gita scolastica ed Aosta</h2>
                     <p>
                         La vivita di Aosta romana con i suoi monumenti è particolarmente adatta per le scuole primarie per le quali sono stati studiati dei laboratori didattici.
-                        Visita l'apposita senzione dedicata ad <Link to='/gite_scolastiche_scuola_primaria' className='text-decoration-none color_link'>Aosta romana per la scuola primaria</Link>
+                        Visita l'apposita senzione dedicata ad <Link href='/gite_scolastiche_scuola_primaria' className='text-decoration-none color_link'>Aosta romana per la scuola primaria</Link>
                     </p>
                 </div>
                 <div>
@@ -132,7 +132,7 @@ export default function Aosta_romana_e_medievale(props) {
                             </Link>
                         </Card>
                         <Card className='my-card'>
-                            <Link to="/criptoportici-forense" className='d-flex text-decoration-none color_link'>
+                            <Link href="/luoghi_visite/criptoportico_forense" className='d-flex text-decoration-none color_link'>
                                 <Card.Img  src={Criptoportico} style={{width: "150px", height: "80px", backgroundSize: "cover", backgroundPosition: "center"}}/>
                                 <Card.Body>
                                     <Card.Title className='fs-6'>Criptoportico Forense</Card.Title>
@@ -140,7 +140,7 @@ export default function Aosta_romana_e_medievale(props) {
                             </Link>
                         </Card>
                         <Card className='my-card'>
-                            <Link to="/cinta_muraria" className='d-flex text-decoration-none color_link'>
+                            <Link href="/luoghi_visite/cinta_muraria" className='d-flex text-decoration-none color_link'>
                                 <Card.Img  src={Cinta_Muraria} style={{width: "150px", height: "80px", backgroundSize: "cover", backgroundPosition: "center"}}/>
                                 <Card.Body>
                                     <Card.Title className='fs-6'>Cinta muraria Aosta</Card.Title>
@@ -148,7 +148,7 @@ export default function Aosta_romana_e_medievale(props) {
                             </Link>
                         </Card>
                         <Card className='my-card'>
-                            <Link to="/collegiata_di_santarso" className='d-flex text-decoration-none color_link'>
+                            <Link href="/luoghi_visite/collegiata_di_sant_orso" className='d-flex text-decoration-none color_link'>
                                 <Card.Img  src={S_Orso} style={{width: "150px", height: "80px", backgroundSize: "cover", backgroundPosition: "center"}}/>
                                 <Card.Body>
                                     <Card.Title className='fs-6'>Calleggiata di Sant'Orso</Card.Title>
@@ -156,7 +156,7 @@ export default function Aosta_romana_e_medievale(props) {
                             </Link>
                         </Card>
                         <Card className='my-card'>
-                            <Link to="/cattedrale_di_santa_maria_assunta" className='d-flex text-decoration-none color_link'>
+                            <Link href="/luoghi_visite/cattedrale_di_santa_maria_assunta" className='d-flex text-decoration-none color_link'>
                                 <Card.Img  src={Cattedrale_S_Maria} style={{width: "150px", height: "80px", backgroundSize: "cover", backgroundPosition: "center"}}/>
                                 <Card.Body>
                                     <Card.Title className='fs-6'>Cattedrale di Santa Maria Assunta</Card.Title>
@@ -172,7 +172,7 @@ export default function Aosta_romana_e_medievale(props) {
                             </Link>
                         </Card>
                         <Card className='my-card'>
-                            <Link to="/affreschi_ottoniani" className='d-flex text-decoration-none color_link'>
+                            <Link href="/luoghi_visite/affreschi_ottoniani" className='d-flex text-decoration-none color_link'>
                                 <Card.Img  src={Affresci} style={{width: "150px", height: "80px", backgroundSize: "cover", backgroundPosition: "center"}}/>
                                 <Card.Body>
                                     <Card.Title className='fs-6'>Affreschi ottoniani</Card.Title>

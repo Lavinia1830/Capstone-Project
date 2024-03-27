@@ -11,7 +11,7 @@ export default function Il_ponte_romano(props) {
     <AuthenticatedLayout
         auth={props.auth}
         errors={props.errors}
-        header={<h2 className="font-semibold text-xl text-gray-800 leading-tight">Aosta romana e Aosta medievale</h2>}
+        header={<h2 className="font-semibold text-xl text-gray-800 leading-tight">Ponte Romano Aosta</h2>}
     >
         <main>
             <div className='margin'>

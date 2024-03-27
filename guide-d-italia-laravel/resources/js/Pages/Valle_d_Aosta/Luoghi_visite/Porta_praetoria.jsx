@@ -9,7 +9,7 @@ export default function Porta_praetoria(props) {
     <AuthenticatedLayout
         auth={props.auth}
         errors={props.errors}
-        header={<h2 className="font-semibold text-xl text-gray-800 leading-tight">Aosta romana e Aosta medievale</h2>}
+        header={<h2 className="font-semibold text-xl text-gray-800 leading-tight">Porta Praetoria Aosta</h2>}
     >
         <main>
             <div className='margin'>
@@ -43,13 +43,13 @@ export default function Porta_praetoria(props) {
                 <iframe
                     title="Google Map"
                     src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1392.3281290235539!2d7.323391!3d45.737988!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478920b03d6fec95%3A0x9fa0de3360fd0ba!2sPorta%20Pretoria!5e0!3m2!1sit!2sus!4v1711532461520!5m2!1sit!2sus"
+                    width="600"
+                    height="450"
                     style={{ border: 0 }}
                     allowFullScreen=""
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
                     className='mx-auto mappa'
-                    width="600"
-                    height="450"
                 > 
                 </iframe>
             </div>
