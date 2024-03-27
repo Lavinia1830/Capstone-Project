@@ -77,6 +77,33 @@ Route::get('/luoghi_visite/teatro_romano_di_aosta', function () {
     return Inertia::render('Valle_d_Aosta/Luoghi_visite/Teatro_romano_di_Aosta');
 })->middleware(['auth', 'verified'])->name('teatro_romano_di_aosta');
 
+Route::get('/luoghi_visite/criptoportico_forense', function () {
+    return Inertia::render('Valle_d_Aosta/Luoghi_visite/Criptoportico_Forense');
+})->middleware(['auth', 'verified'])->name('criptoportico_forense');
+
+Route::get('/luoghi_visite/cinta_muraria', function () {
+    return Inertia::render('Valle_d_Aosta/Luoghi_visite/Cinta_muraria');
+})->middleware(['auth', 'verified'])->name('cinta_muraria');
+
+Route::get('/luoghi_visite/collegiata_di_sant_orso', function () {
+    return Inertia::render('Valle_d_Aosta/Luoghi_visite/Collegiata_di_sant_orso');
+})->middleware(['auth', 'verified'])->name('collegiata_di_sant_orso');
+
+Route::get('/luoghi_visite/cattedrale_di_santa_maria_assunta', function () {
+    return Inertia::render('Valle_d_Aosta/Luoghi_visite/Cattedrale_di_Santa_Maria_Assunta');
+})->middleware(['auth', 'verified'])->name('cattedrale_di_santa_maria_assunta');
+
+Route::get('/luoghi_visite/affreschi_ottoniani', function () {
+    return Inertia::render('Valle_d_Aosta/Luoghi_visite/Affreschi_ottoniani');
+})->middleware(['auth', 'verified'])->name('affreschi_ottoniani');
+
+Route::get('/gite_scolastiche_scuola_primaria', function () {
+    return Inertia::render('Valle_d_Aosta/Gite_scolastiche_scuola_primaria');
+})->middleware(['auth', 'verified'])->name('gite_scolastiche_scuola_primaria');
+
+
+
+
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');

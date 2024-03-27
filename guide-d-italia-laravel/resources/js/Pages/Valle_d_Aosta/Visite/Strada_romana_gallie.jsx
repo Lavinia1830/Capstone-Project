@@ -30,7 +30,7 @@ export default function Strada_romana_gallie(props) {
                     la strada era frequentata anche da numerosi pellegrini, in questo costituiva un tratto dalla <b>Via Francigena</b>.
                 </p>
                 <p>
-                    La <b>visita guidata della Via delle Gallie</b> è particolarmente adatta per le <Link to='/gite_scolastiche_scuola_primaria' className='text-decoration-none color_link'>scuole primarie</Link>.
+                    La <b>visita guidata della Via delle Gallie</b> è particolarmente adatta per le <Link href='/gite_scolastiche_scuola_primaria' className='text-decoration-none color_link'>scuole primarie</Link>.
                 </p>
                 <p>
                     Scopri tutte le <b>visite guidate</b> legate ai <Link to='/siti_archeologici_romani' className='text-decoration-none color_link'>siti archeologici romani della Valle d'Aosta</Link>

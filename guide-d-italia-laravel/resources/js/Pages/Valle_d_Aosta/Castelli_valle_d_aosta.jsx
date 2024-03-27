@@ -75,7 +75,7 @@ export default function Castelli_valle_d_aosta(props) {
                     <h2 className='color-subtitle'>I castelli dei Savoia in Valle d'Aosta</h2>
                     <p>
                         Il <Link to='/castello_sisarre' className='text-decoration-none color_link'>Casteeelo Reale di Sarre</Link> Fu acquistato nel 1868 da Re Vittorio Emanuele II, detto il Re 
-                        Cacciatore per farne la sua residenza durante i periodi di caccia nelle valli del Gran Paradiso. Il <Link to='/calstel_savoia_gressoney' className='text-decoration-none color_link'>Castel Savoia</Link>
+                        Cacciatore per farne la sua residenza durante i periodi di caccia nelle valli del Gran Paradiso. Il <Link to='/calstel_savoia_gressoney' className='text-decoration-none color_link'>Castel Savoia </Link>
                         a Gressoney-Sanit-Jean è invece indissolubilmente legato alla figura della Regina Margherita e alle sue imprese alpinistiche nel massiccio del Monte Rosa all'inizio 
                         del XX secolo.
                     </p>
@@ -86,7 +86,7 @@ export default function Castelli_valle_d_aosta(props) {
                 <div className='bordo-superiore mb-3'>
                     <div className='blog'>
                         <div className='container d-flex justify-content-center flex-wrap'>
-                            <Card className='me-2 mb-2 carta mt-4'>
+                            <Card className='me-2 mb-2 carta_castelli mt-4'>
                                 <Link to="/visite/castello_di_aymavilles" className='text-decoration-none'>
                                     <Card.Img variant="top" 
                                         className={'img_card'} 
@@ -103,7 +103,7 @@ export default function Castelli_valle_d_aosta(props) {
                                     </Card.Body>
                                 </Link>
                             </Card>
-                            <Card className='me-2 mb-2 carta mt-4'>
+                            <Card className='me-2 mb-2 carta_castelli mt-4'>
                                 <Link to="/visite/castello_di_saint_pierre" className='text-decoration-none'>
                                     <Card.Img variant="top" 
                                         className={'img_card'} 
@@ -120,7 +120,7 @@ export default function Castelli_valle_d_aosta(props) {
                                     </Card.Body>
                                 </Link>
                             </Card>
-                            <Card className='me-2 mb-2 carta mt-4' >
+                            <Card className='me-2 mb-2 carta_castelli mt-4' >
                                 <Link to="/visite/castel_savoia_greesooney" className='text-decoration-none'>
                                     <Card.Img variant="top" 
                                         className={'img_card'} 
@@ -136,7 +136,7 @@ export default function Castelli_valle_d_aosta(props) {
                                     </Card.Body>
                                 </Link>
                             </Card>
-                            <Card className='me-2 mb-2 carta mt-4' >
+                            <Card className='me-2 mb-2 carta_castelli mt-4' >
                                 <Link to="/visite/castello_di_fenis" className='text-decoration-none'>
                                     <Card.Img variant="top" 
                                         className={'img_card'} 
@@ -153,7 +153,7 @@ export default function Castelli_valle_d_aosta(props) {
                                     </Card.Body>
                                 </Link>
                             </Card>
-                            <Card className='me-2 mb-2 carta mt-4' >
+                            <Card className='me-2 mb-2 carta_castelli mt-4' >
                                 <Link to="/visite/castello_di_issogne" className='text-decoration-none'>
                                     <Card.Img variant="top" 
                                         className={'img_card'} 
@@ -169,7 +169,7 @@ export default function Castelli_valle_d_aosta(props) {
                                     </Card.Body>
                                 </Link>
                             </Card>
-                            <Card className='me-2 mb-2 carta mt-4' >
+                            <Card className='me-2 mb-2 carta_castelli mt-4' >
                                 <Link to="/visite/castello_di_verres" className='text-decoration-none'>
                                     <Card.Img variant="top" 
                                         className={'img_card'} 
@@ -186,7 +186,7 @@ export default function Castelli_valle_d_aosta(props) {
                                     </Card.Body>
                                 </Link>
                             </Card>
-                            <Card className='me-2 mb-2 carta mt-4' >
+                            <Card className='me-2 mb-2 carta_castelli mt-4' >
                                 <Link to="/visite/castello_di_sarre" className='text-decoration-none'>
                                     <Card.Img variant="top" 
                                         className={'img_card'} 
@@ -203,7 +203,7 @@ export default function Castelli_valle_d_aosta(props) {
                                     </Card.Body>
                                 </Link>
                             </Card>
-                            <Card className='me-2 mb-2 carta mt-4' >
+                            <Card className='me-2 mb-2 carta_castelli mt-4' >
                                 <Link to="/visite/castello_sarriod_de_la_tour" className='text-decoration-none'>
                                     <Card.Img variant="top" 
                                         className={'img_card'} 
@@ -220,7 +220,7 @@ export default function Castelli_valle_d_aosta(props) {
                                     </Card.Body>
                                 </Link>
                             </Card>
-                            <Card className='me-2 mb-2 carta mt-4' >
+                            <Card className='me-2 mb-2 carta_castelli mt-4' >
                                 <Link to="/visite/castello_gamba" className='text-decoration-none'>
                                     <Card.Img variant="top" 
                                         className={'img_card'} 
@@ -237,7 +237,7 @@ export default function Castelli_valle_d_aosta(props) {
                                     </Card.Body>
                                 </Link>
                             </Card>
-                            <Card className='me-2 mb-2 carta mt-4' >
+                            <Card className='me-2 mb-2 carta_castelli mt-4' >
                                 <Link to="/visite/castello_sarriod_de_la_tour" className='text-decoration-none'>
                                     <Card.Img variant="top" 
                                         className={'img_card'} 
