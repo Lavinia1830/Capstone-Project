@@ -1,0 +1,295 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.logo{
+    width: 60px;
+}
+
+hr{
+  color: #77966d !important;
+}
+
+/*Inizio Comune*/
+    .color_link{
+        color: #BDC667;
+    }
+    .color_link:hover{
+        text-decoration: underline !important;
+        color: #000 !important;
+    }
+/*Fine Comune*/
+
+/*Inizio AuthenticatedLayout*/
+    .bg-navbar{
+        background-color: #626d58;
+        border-bottom: 0;
+    }
+    .link{
+        text-decoration: none !important;
+    }
+    
+/*Fine AuthenticatedLayout*/
+
+/*Inizio Valle d'Aosta*/
+  .color-title{
+    color: #56282d !important;
+  }
+  .color-subtitle{
+    color: #544343 !important;
+  }
+  .valle_d_aosta{
+    background: url('../assets/Valle_d_Aosta/Chiesa_di_Sant_Orso_Valle_d_Aosta.jpg') center/cover no-repeat;
+    padding: 150px;
+  }
+  .valle_d_aosta h1, .aosta h1, .castello_fenis h1, .forte_di_bard h1, .s_r_gallie h1{
+    color: #fff;
+    margin: 0 !important;
+  }
+  /*Inizio Card Valle d'Aosta*/
+    .card_Valle_d_Aosta{
+      display: flex;
+    }
+    .card_Valle_d_Aosta:nth-child(1){ 
+      background: url('../assets/Valle_d_Aosta/Teatro_Romano_Valle_d_Aosta.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Valle_d_Aosta:nth-child(2){ 
+      background: url('../assets/Valle_d_Aosta/Castello_di_Fenis_Valle_d_Aosta.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Valle_d_Aosta:nth-child(3){ 
+      background: url('../assets/Valle_d_Aosta/Forte-di-Bard_Valle_d_Aosta.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Valle_d_Aosta:nth-child(4){ 
+      background: url('../assets/Valle_d_Aosta/Antagnod_Vallw_d_Aosta.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Valle_d_Aosta:nth-child(5){ 
+      background: url('../assets/Valle_d_Aosta/Fiera_di_Sant_Orso_Valle_d_Aosta.jpg') center/cover no-repeat;
+      /* width: 100%; */
+      height: 400px;
+    }
+    .bottone_Valle_d_Aosta{
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding-top: 20px !important;
+      padding-bottom: 20px !important;
+      margin-top: 0 !important;
+      margin-bottom: 0 !important;
+      display: flex;
+      justify-content: center;
+      position: absolute;
+      bottom: 0;
+    }
+    .bottone_link{
+      font-size: 1em;
+      color: #fff;
+      text-decoration: none;
+      line-height: 1.7em;
+      border: 2px solid;
+      padding: 0.3em 1em;
+      border-radius: 3px;
+    }
+    .bottone_link:hover{
+      color: #fff !important;
+    }
+  /*Fine Card Valle d'Aosta
+  /*Inizio Castello dei Fenis*/
+    .castello_fenis{
+      background: url('../assets/Valle_d_Aosta/Castello_di_Fenis_Valle_d_Aosta.jpg') center/cover no-repeat;
+      padding: 150px;
+    }
+    .v-guidate{
+      border-bottom: 10px solid #626d58;
+    }
+    .bordo-superiore{
+      box-shadow: inset 0px 47px 18px -32px rgba(0,0,0,0.3);;
+    }
+  /*Fine Castello dei Fenis*/
+  /*Inizio Aosta*/
+    .aosta{
+      background: url('../assets/Valle_d_Aosta/Teatro_Romano_Valle_d_Aosta.jpg') center/cover no-repeat;
+      padding: 150px;
+    }
+    .container-categorie{
+      position: absolute;
+      bottom: 0; /* Posiziona il contenitore delle categorie in basso */
+    }
+    .categorie{
+      background-color: #fff;
+      width: 200px;
+      text-align: center;
+      border-radius: 5px;
+    }
+    .lista{
+      list-style-type: disc;
+    }
+  /*Fine Aosta*/
+  /*Inizio Forte di Bard*/
+    .forte_di_bard{
+      background: url('../assets/Valle_d_Aosta/Forte-di-Bard_Valle_d_Aosta.jpg') center/cover no-repeat;
+      padding: 150px;
+    }
+  /*Fine Forte di Bard*/
+  /*Inizio Luoghi vititati*/
+    .my-card {
+      border: 1px solid rgba(0, 0, 0, 0.2);
+      margin-bottom: 10px;
+      border-radius: 6px;
+      padding: 3px;
+      width: 450px !important;
+    }
+  /*Fine Luoghi visitati*/
+  /*Inizio Località Turichiste*/
+    .l_turistiche{
+      background: url('../assets/Valle_d_Aosta/Borghi_e_localita_turistiche_Valle_d_Aosta.jpg') center/cover no-repeat;
+      padding: 150px;
+    }
+  /*Fine Località Turichiste*/
+  /*Inizio Blog*/
+    .carta_l_turistiche, .carta_terrirorio{
+      border-radius: 1em !important;
+      width: 300px !important;
+    }
+    .carta{
+      border-radius: 1em !important;
+      width: 300px !important;
+      height: 600px !important;
+    }
+    
+    .image-hovered {
+      opacity: 0.5; /* Opacità dell'immagine */
+      transition: opacity 0.8s ease;
+    }
+    .img_card{
+      border-top-right-radius: 1em !important;
+      border-top-left-radius: 1em !important;
+    }
+    .title-card{
+      color: #56282d !important; 
+    }
+    .btn-card{
+      border: 1px solid #77966d !important;
+      background-color: #77966d !important;
+    }
+    .link-card{
+      color: #fff !important;
+    }
+  /*Fine Blog*/
+  /*Inizio Territorio*/
+    .territorio{
+      background: url('../assets/Valle_d_Aosta/Valle_del_cervino_Valle_d_Aosta.jpg') center/cover no-repeat;
+      padding: 150px;
+    }
+  /*Fine Territorio*/
+  /*Inizio Ponte Romano Aosta*/
+    .s_r_gallie{
+      background: url('../assets/Valle_d_Aosta/Strada_romana_delle_gallie_Valle_d_Aosta.jpg') center/cover no-repeat;
+      padding: 150px;
+    }
+  /*Fine Ponte Romano Aosta*/
+  
+/*Fine Valle d'Aosta*/
+
+
+
+
+/*Inizio Footer*/
+  .bg-footer{
+    background-color: #626d58;
+  }
+/*Fine Footer*/
+
+
+/*Media Query Smartphone*/
+@media screen and (max-width: 425px) {
+  /* Tablet */
+    .mappa-tablet {
+      display: none !important;
+    }
+  /* Desktop*/
+    .mappa-desktop {
+      display: none !important;
+    }
+    .margin{
+      margin: 0 15px;
+    }
+    /*Inizio Blog Valle d'Aosta*/
+      .blog{
+        margin: 0 10% !important;
+      }
+      .carta{
+        padding-bottom: 1em;
+      }
+    /*Fine Blog Valle d'Aosta*/
+    .mappa{
+      width: 300px;
+      height: 300px;
+    }
+}
+
+/*Media Query Tablet*/
+@media screen and (min-width: 426px) and (max-width: 768px){
+  /* Smartphone*/
+  .mappa-smartphone {
+    display: none !important;
+  }
+  /* Desktop*/
+  .mappa-desktop {
+    display: none !important;
+  }
+  .margin{
+    margin: 0 30px;
+  }
+  /*Inizio Blog Valle d'Aosta*/
+    .blog{
+      margin: 0 1% !important;
+    }
+  /*Fine Blog Valle d'Aosta*/
+  /*Inizio Luoghi visitati Valle d'Aosta*/
+    .my-card{
+      margin-right: 1em !important;
+    }
+  /*Fine Luoghi visitati Valle d'Aosta*/
+  .mappa{
+    width: 350px;
+    height: 300px;
+  }
+}
+
+
+@media screen and (min-width: 769px){
+    /* Smartphone*/
+    .mappa-smartphone {
+      display: none !important;
+    }
+    /* Tablet */
+    .mappa-tablet {
+      display: none !important;
+    }
+    .margin{
+      margin: 0 30px;
+    }
+  .castello_fenis{
+    padding: 250px;
+  }
+  /*Inizio Blog Valle d'Aosta*/
+    .blog{
+      margin: 0 8% !important;
+    }
+  /*Fine Blog Valle d'Aosta*/
+
+}
+
+@media screen and (min-width: 1400px){
+  .container{
+    max-width: 1250px !important;
+  }
+}
