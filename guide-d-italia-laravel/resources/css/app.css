@@ -154,7 +154,7 @@ hr{
     }
   /*Fine Località Turichiste*/
   /*Inizio Blog*/
-    .carta_l_turistiche, .carta_terrirorio{
+    .carta_l_turistiche, .carta_terrirorio, .carta_castelli, .carta_gite{
       border-radius: 1em !important;
       width: 300px !important;
     }

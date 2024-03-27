@@ -9,7 +9,7 @@ export default function Arco_d_Augusto(props) {
     <AuthenticatedLayout
         auth={props.auth}
         errors={props.errors}
-        header={<h2 className="font-semibold text-xl text-gray-800 leading-tight">Aosta romana e Aosta medievale</h2>}
+        header={<h2 className="font-semibold text-xl text-gray-800 leading-tight">Arco d'Augusto Aosta</h2>}
     >
         <main>
             <div className='margin'>
@@ -47,7 +47,7 @@ export default function Arco_d_Augusto(props) {
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
                     title="Google Map"
-                    className='mx-auto'
+                    className='mx-auto mappa'
                 >
                 </iframe>
             </div>
