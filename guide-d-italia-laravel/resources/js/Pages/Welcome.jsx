@@ -1,9 +1,27 @@
 import { Link, Head } from '@inertiajs/react';
 
-export default function Welcome(props) {
+export default function Welcome() {
     return (
         <>
-            <Head title="Welcome" />
+        <div className="container">
+            <div className="glass-effect">
+                <div className="row text-center">
+                    <div className="col">
+                        <a href="/register"><button type="button" className="btn btn-custom w-50" style={{height: '4dvh'}}>Registrati</button></a>
+                    </div>
+                    <div className="col">
+                        <a href="/login"><button type="button" className="btn btn-custom w-50" style={{height: '4dvh'}}>Accedi</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        </>
+    
+    );
+}
+            {/* <Head title="Welcome" />
             <div className="relative sm:flex sm:justify-center sm:items-center min-h-screen bg-dots-darker bg-center bg-gray-100 dark:bg-dots-lighter dark:bg-gray-900 selection:bg-red-500 selection:text-white">
                 <div className="sm:fixed sm:top-0 sm:right-0 p-6 text-right">
                     {props.auth.user ? (
@@ -352,6 +370,5 @@ export default function Welcome(props) {
                     }
                 }
             `}</style>
-        </>
-    );
-}
+        </> */}
+    
