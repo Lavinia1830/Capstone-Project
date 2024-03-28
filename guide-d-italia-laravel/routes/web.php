@@ -97,8 +97,13 @@ Route::get('/gite_scolastiche_scuola_primaria', function () {
     return Inertia::render('Valle_d_Aosta/Gite_scolastiche_scuola_primaria');
 })->middleware(['auth', 'verified'])->name('gite_scolastiche_scuola_primaria');
 
+Route::get('/luoghi_visite/basilica_paleocristiana_di_san_lorenzo', function () {
+    return Inertia::render('Valle_d_Aosta/Luoghi_visite/Basilica_paleocristiana_S_Lorenzo');
+})->middleware(['auth', 'verified'])->name('basilica_paleocristiana_di_san_lorenzo');
 
-
+Route::get('/articoli/cosa_vedere_ad_aosta_in_un_giorno', function () {
+    return Inertia::render('Valle_d_Aosta/Articoli/Cosa_vedere_Aosta_in_un_giorno');
+})->middleware(['auth', 'verified'])->name('cosa_vedere_ad_aosta_in_un_giorno');
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');

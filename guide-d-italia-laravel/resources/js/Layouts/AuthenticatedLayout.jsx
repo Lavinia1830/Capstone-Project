@@ -20,7 +20,7 @@ export default function Authenticated({ auth, header, children }) {
                                 </Link>
                             </div>
 
-                            <div className="flex items-center hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                            <div className="flex items-center hidden space-x-8 md:-my-px md:ml-10 md:flex">
                                 <Link href={route('home')} active={route().current('home')} className="text-decoration-none color_link">
                                     Home
                                 </Link>
@@ -92,7 +92,7 @@ export default function Authenticated({ auth, header, children }) {
                             </div>
                         </div>
 
-                        <div className="hidden sm:flex sm:items-center sm:ml-6">
+                        <div className="hidden md:flex md:items-center md:ml-6">
                             <div className="ml-3 relative">
                                 <Dropdown>
                                     <Dropdown.Trigger>
@@ -129,7 +129,7 @@ export default function Authenticated({ auth, header, children }) {
                             </div>
                         </div>
 
-                        <div className="-mr-2 flex items-center sm:hidden">
+                        <div className="-mr-2 flex items-center md:hidden">
                             <button
                                 onClick={() => setShowingNavigationDropdown((previousState) => !previousState)}
                                 className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out"
@@ -155,7 +155,7 @@ export default function Authenticated({ auth, header, children }) {
                     </div>
                 </div>
 
-                <div className={(showingNavigationDropdown ? 'block' : 'hidden') + ' sm:hidden'}>
+                <div className={(showingNavigationDropdown ? 'block' : 'hidden') + ' md:hidden'}>
                     <div className="ps-4 pt-2 pb-3 space-y-1">
                         <Link href={route('home')} active={route().current('home')} className="text-decoration-none color_link">
                             Home

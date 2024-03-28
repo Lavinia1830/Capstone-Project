@@ -75,7 +75,7 @@ export default function Affreschi_ottoniani(props) {
                 <h3 className='color-subtitle'>Articoli</h3>
                 <ul className='lista'>
                     <li>
-                        <Link to='/cosa_vedere_ad_aosta_in_un_giorno' className='text-decoration-none color_link'>Cosa vedere ad Aosta in un giorno</Link>
+                        <Link href='/articoli/cosa_vedere_ad_aosta_in_un_giorno' className='text-decoration-none color_link'>Cosa vedere ad Aosta in un giorno</Link>
                     </li>
                 </ul>
             </div>
