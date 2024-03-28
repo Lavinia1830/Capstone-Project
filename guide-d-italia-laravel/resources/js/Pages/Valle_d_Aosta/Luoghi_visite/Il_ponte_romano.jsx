@@ -41,7 +41,7 @@ export default function Il_ponte_romano(props) {
                     facendo perdere al ponte la sua funzione.
                 </p>
                 <p>
-                    Scopri la <b>visita guidata</b> legata ad <Link href='/visite/aosta' className='text-decoration-none color_link'>Aosta romana e medievale</Link>
+                    Scopri la <b>visita guidata</b> legata ad <Link href='/visite/aosta_romana_e_medievale' className='text-decoration-none color_link'>Aosta romana e medievale</Link>
                 </p>
             </div>
             <div className='margin mb-4'>
@@ -54,7 +54,7 @@ export default function Il_ponte_romano(props) {
                     allowFullScreen=""
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
-                    className='mx-auto'
+                    className='mx-auto mappa'
                 >
                 </iframe>            
             </div>
@@ -62,7 +62,7 @@ export default function Il_ponte_romano(props) {
                 <h3 className='color-subtitle'>Articoli</h3>
                 <ul className='lista'>
                     <li>
-                        <Link to='/cosa_vedere_ad_aosta_in_un_giorno' className='text-decoration-none color_link'>Cosa vedere ad Aosta in un giorno</Link>
+                        <Link href='/articoli/cosa_vedere_ad_aosta_in_un_giorno' className='text-decoration-none color_link'>Cosa vedere ad Aosta in un giorno</Link>
                     </li>
                 </ul>
             </div>
