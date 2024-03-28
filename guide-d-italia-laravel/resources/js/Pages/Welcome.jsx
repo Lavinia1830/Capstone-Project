@@ -3,20 +3,42 @@ import { Link, Head } from '@inertiajs/react';
 export default function Welcome() {
     return (
         <>
-        <div className="container">
-            <div className="glass-effect">
-                <div className="row text-center">
-                    <div className="col">
-                        <a href="/register"><button type="button" className="btn btn-custom w-50" style={{height: '4dvh'}}>Registrati</button></a>
+
+            <div className="login-page">
+                {/* Aggiungi qui il tuo codice per lo sfondo o altri elementi della pagina */}
+                <div className="login-form">
+                    <h2>Benvenuto!</h2>
+                    {/* Aggiungi qui altri elementi del form se necessario */}
+                    <div className='row'>
+                        <div className="col">
+                            <Link href='/register' className='text-decoration-none'><button type="button" className="btn-registrati">Registrati</button></Link>
+                        </div>
+                        <div className="col">
+                            <Link href='/login' className='text-decoration-none'><button type="button" className="btn-accedi">Accedi</button></Link>
+                        </div>
                     </div>
-                    <div className="col">
-                        <a href="/login"><button type="button" className="btn btn-custom w-50" style={{height: '4dvh'}}>Accedi</button></a>
-                    </div>
+                    
+                    
                 </div>
             </div>
-        </div>
-        
-        
+            {/* <div className="background-container">
+                <div className='page-container'>
+                    <div className="container">
+                        <div className="glass-effect">
+                            <div className="row text-center">
+                                <div className="col">
+                                    <a href="/register"><button type="button" className="btn btn-custom w-50" style={{height: '4dvh'}}>Registrati</button></a>
+                                </div>
+                                <div className="col">
+                                    <a href="/login"><button type="button" className="btn btn-custom w-50" style={{height: '4dvh'}}>Accedi</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> */}
+            
+            
         </>
     
     );

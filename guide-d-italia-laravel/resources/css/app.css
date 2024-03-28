@@ -11,6 +11,86 @@ hr{
   color: #77966d !important;
 }
 
+/*Inizio Welcome*/
+  .login-page, .bg-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Imposta l'altezza della pagina di login per coprire l'intera altezza della viewport */
+    background: url('../assets/Sfondo_access.jpeg') center/cover no-repeat ;
+    background-size: cover;
+  }
+
+  .login-form {
+    padding: 40px !important;
+    border-radius: 10px;
+    background-color: rgba(33, 107, 90, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
+    z-index: 1000;
+  }
+
+  .login-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #56282d;
+  }
+
+  .btn-registrati,
+  .btn-accedi{
+    display: inline;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #bdc667; /* Verde */
+    color: white;
+    transition: background-color 1s ease !important;
+    transition: color 1s ease !important;
+  }
+
+  .btn-registrati:hover, .btn-accedi:hover{
+    background-color: #77966d !important;
+  }
+
+/* .background-container{
+  background: url('../assets/Sfondo_access.jpeg') center/cover no-repeat;
+  background-size: 100%;
+}
+.page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 900px;
+}
+.glass-effect {
+  background-color: rgba(33, 107, 90, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 8px;
+  border: 1px solid rgba(33, 107, 90, 0.3);
+  padding: 40px !important;
+  z-index: 1000;
+}
+.btn-custom {
+  margin-top: 16px !important;
+  background-color: white !important;
+  color: #44b4b0 !important;
+  transition: background-color 1s ease !important;
+  transition: color 1s ease !important;
+}
+
+  .btn-custom:hover {
+    color: white !important;
+    background-color: #44b4b0 !important;
+  } */
+/*Fine Welcome*/
+
+
+
+
+
+
 /*Inizio Comune*/
     .color_link{
         color: #BDC667;
