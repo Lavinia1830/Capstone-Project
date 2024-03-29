@@ -14,7 +14,6 @@ export default function Forte_di_Bard(props) {
     <AuthenticatedLayout
         auth={props.auth}
         errors={props.errors}
-        header={<h2 className="font-semibold text-xl text-gray-800 leading-tight">Forte di Bard</h2>}
     >
         <main>
             <div className='forte_di_bard' style={{ position: 'relative' }}>
