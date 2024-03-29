@@ -16,17 +16,21 @@
         </style>
     </head>
     <body>
-        <div class="container">
-            <div class="glass-effect">
-                <img src="{{ asset('../assets/Logo.png') }}" alt="logo" style="width: 50dvh">
-                <div class="row text-center">
-                    <div class="col">
-                        <a href="/register"><button type="button" class="btn btn-custom w-50" style="height: 4dvh">Registrati</button></a>
+        <div className="login-page">
+            {/* Aggiungi qui il tuo codice per lo sfondo o altri elementi della pagina */}
+            <div className="login-form">
+                <h2>Benvenuto!</h2>
+                {/* Aggiungi qui altri elementi del form se necessario */}
+                <div className='row'>
+                    <div className="col">
+                        <Link href='/register' className='text-decoration-none'><button type="button" className="btn-registrati me-3">Registrati</button></Link>
                     </div>
-                    <div class="col">
-                        <a href="/login"><button type="button" class="btn btn-custom w-50" style="height: 4dvh">Accedi</button></a>
+                    <div className="col">
+                        <Link href='/login' className='text-decoration-none'><button type="button" className="btn-accedi">Accedi</button></Link>
                     </div>
                 </div>
+                
+                
             </div>
         </div>
     </body>

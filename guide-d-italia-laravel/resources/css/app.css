@@ -49,7 +49,6 @@ hr{
     transition: background-color 1s ease !important;
     transition: color 1s ease !important;
   }
-
   .btn-registrati:hover, .btn-accedi:hover{
     background-color: #77966d !important;
   }
@@ -262,11 +261,60 @@ hr{
     .alignright{
       float: right;
     }
-    
+    .bottone_link_contattaci{
+      font-size: 1em;
+      color: #77966d;
+      text-decoration: none;
+      line-height: 1.7em;
+      border: 2px solid #77966d;
+      padding: 0.3em 1em;
+      border-radius: 3px;
+    }
+    .bottone_link_contattaci:hover{
+      color: #77966d;
+      background-color:  #bdc667 !important;
+      border: 2px solid #bdc667;
+    }
+    .row{
+      --bs-gutter-x: 0 !important;
+    }
   /*Fine Cosa vedere ad Aosta in un giorno*/
 /*Fine Valle d'Aosta*/
 
+/* ImmagineComponent.css */
 
+.immagine-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 1em;
+}
+
+.immagine {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.descrizione-immagine {
+  font-size: 14px;
+  color: #333;
+  margin-top: 10px;
+  margin-left: 1em;
+}
+
+/* Aggiungi una media query per dispositivi con larghezza <= 768px (tablet e smartphone) */
+@media screen and (max-width: 768px) {
+  .immagine-container {
+    flex-direction: column; /* Imposta la direzione dei flex element a verticale */
+    align-items: flex-start; /* Allinea la descrizione a sinistra */
+  }
+
+  .immagine {
+    margin-bottom: 10px; /* Aggiungi spazio tra l'immagine e la descrizione */
+  }
+}
 
 
 /*Inizio Footer*/
@@ -289,7 +337,7 @@ hr{
       display: none !important;
     }
     .margin{
-      margin: 0 15px;
+      margin: 0 2em;
     }
     /*Inizio Blog Valle d'Aosta*/
       .blog{
@@ -332,11 +380,6 @@ hr{
     width: 350px;
     height: 300px;
   }
-  /*Inizio Cosa vedere ad Aosta in un giorno*/
-    .img-fluid {
-      width: 100%;
-    }
-  /*Fine Cosa vedere ad Aosta in un giorno*/
 }
 
 
@@ -360,7 +403,6 @@ hr{
       margin: 0 8% !important;
     }
   /*Fine Blog Valle d'Aosta*/
-
 }
 
 @media screen and (min-width: 1400px){

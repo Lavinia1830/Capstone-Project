@@ -32,7 +32,6 @@ export default function Valle_d_Aosta(props) {
     <AuthenticatedLayout
         auth={props.auth}
         errors={props.errors}
-        header={<h2 className="font-semibold text-xl text-gray-800 leading-tight">Valle d'Aosta</h2>}
     >
         <main>
             <div className='text-center valle_d_aosta'>

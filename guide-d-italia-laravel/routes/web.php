@@ -105,6 +105,16 @@ Route::get('/articoli/cosa_vedere_ad_aosta_in_un_giorno', function () {
     return Inertia::render('Valle_d_Aosta/Articoli/Cosa_vedere_Aosta_in_un_giorno');
 })->middleware(['auth', 'verified'])->name('cosa_vedere_ad_aosta_in_un_giorno');
 
+Route::get('/contatti_guida_turistica_valle_d_aosta', function () {
+    return Inertia::render('Valle_d_Aosta/Contatti_guida_turistica_Valle_d_Aosta');
+})->middleware(['auth', 'verified'])->name('contatti_guida_turistica_valle_d_aosta');
+
+Route::get('/articoli/cosa_visitare_aosta_romana', function () {
+    return Inertia::render('Valle_d_Aosta/Articoli/Cosa_visitare_aosta_romana');
+})->middleware(['auth', 'verified'])->name('cosa_visitare_aosta_romana');
+
+
+
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');

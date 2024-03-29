@@ -11,7 +11,7 @@ export default function Welcome() {
                     {/* Aggiungi qui altri elementi del form se necessario */}
                     <div className='row'>
                         <div className="col">
-                            <Link href='/register' className='text-decoration-none'><button type="button" className="btn-registrati">Registrati</button></Link>
+                            <Link href='/register' className='text-decoration-none'><button type="button" className="btn-registrati me-3">Registrati</button></Link>
                         </div>
                         <div className="col">
                             <Link href='/login' className='text-decoration-none'><button type="button" className="btn-accedi">Accedi</button></Link>

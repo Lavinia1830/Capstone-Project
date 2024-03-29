@@ -19,7 +19,6 @@ export default function Aosta_romana_e_medievale(props) {
     <AuthenticatedLayout
         auth={props.auth}
         errors={props.errors}
-        header={<h2 className="font-semibold text-xl text-gray-800 leading-tight">Aosta romana e Aosta medievale</h2>}
     >
         <main>
             <div className='aosta' style={{ position: 'relative' }}>
@@ -256,7 +255,7 @@ export default function Aosta_romana_e_medievale(props) {
                             <Link href='/articoli/cosa_vedere_ad_aosta_in_un_giorno' className='text-decoration-none color_link'>Cosa vedere ad Aosta in un giorno</Link>
                         </li>
                         <li>
-                            <Link to='/cosa_vedere_aosta_romana' className='text-decoration-none color_link'>Augusta Preatoria, visite alla scoperta di Aosta romana</Link>
+                            <Link href='/articoli/cosa_visitare_aosta_romana' className='text-decoration-none color_link'>Augusta Preatoria, visite alla scoperta di Aosta romana</Link>
                         </li>
                         <li>
                             <Link to='/aosta_medievale_tra_spiritualita_e_arte' className='text-decoration-none color_link'>Aosta Medievale tra spiritualità e arte</Link>

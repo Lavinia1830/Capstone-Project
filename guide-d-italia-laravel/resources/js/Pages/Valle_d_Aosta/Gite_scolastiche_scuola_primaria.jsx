@@ -18,7 +18,6 @@ export default function Gite_scolastiche_scuola_primaria(props) {
     <AuthenticatedLayout
         auth={props.auth}
         errors={props.errors}
-        header={<h2 className="font-semibold text-xl text-gray-800 leading-tight">Scuola Primarie - Informazione e gite scolastiche</h2>}
     >
         <main>
             <div className='margin'>
