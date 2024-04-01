@@ -77,7 +77,7 @@ export default function Cosa_vedere_Aosta_in_un_giorno(props) {
           <div className="card mb-3 margin">
             <div className="row g-0 ">
               <div className="col-md-4">
-                <Image src={Arco_di_Augusto} className="rounded-start" alt="Arco di Augusto di Aosta"/>
+                <Image src={Arco_di_Augusto} className="rounded-start photo-card-city" alt="Arco di Augusto di Aosta"/>
               </div>
               <div className="col-md-8 d-flex align-items-center">
                 <div className="card-body ">
@@ -97,7 +97,7 @@ export default function Cosa_vedere_Aosta_in_un_giorno(props) {
           <div className="card mb-3 margin">
             <div className="row g-0">
               <div className="col-md-4">
-                <Image src={Porta_Praetoria} className="rounded-start" alt="Porta Praetoria di Aosta"/>
+                <Image src={Porta_Praetoria} className="rounded-start photo-card-city" alt="Porta Praetoria di Aosta"/>
               </div>
               <div className="col-md-8 d-flex align-items-center">
                 <div className="card-body ">
@@ -116,7 +116,7 @@ export default function Cosa_vedere_Aosta_in_un_giorno(props) {
           <div className="card mb-3 margin">
             <div className="row g-0">
               <div className="col-md-4">
-                <Image src={Teatro_romano} className=" rounded-start" alt="Teatro Romano di Aosta"/>
+                <Image src={Teatro_romano} className="rounded-start photo-card-city" alt="Teatro Romano di Aosta"/>
               </div>
               <div className="col-md-8 d-flex align-items-center">
                 <div className="card-body ">
@@ -149,7 +149,7 @@ export default function Cosa_vedere_Aosta_in_un_giorno(props) {
           <div className="card mb-3 margin">
             <div className="row g-0">
               <div className="col-md-4">
-                <Image src={Collegiata_di_SantOrso} className="rounded-start" alt="Collegiata di Sant'Orso di Aosta" style={{height: '335px', width: '400px'}}/>
+                <Image src={Collegiata_di_SantOrso} className="rounded-start photo-card-city" alt="Collegiata di Sant'Orso di Aosta" />
               </div>
               <div className="col-md-8 d-flex align-items-center">
                 <div className="card-body ">
@@ -189,7 +189,7 @@ export default function Cosa_vedere_Aosta_in_un_giorno(props) {
           <div className="card mb-3 margin">
             <div className="row g-0">
               <div className="col-md-4">
-                <Image src={Cattedrale_di_Santa_Maria_Assunta} className="rounded-start" alt="Cattedrale di Santa Maria Assunta di Aosta"/>
+                <Image src={Cattedrale_di_Santa_Maria_Assunta} className="rounded-start photo-card-city" alt="Cattedrale di Santa Maria Assunta di Aosta"/>
               </div>
               <div className="col-md-8 d-flex align-items-center">
                 <div className="card-body ">
@@ -212,7 +212,7 @@ export default function Cosa_vedere_Aosta_in_un_giorno(props) {
           <div className="card mb-3 margin">
             <div className="row g-0">
               <div className="col-md-4">
-                <Image src={Piazza_Chanoux} className="rounded-start" alt="Piazza Chanoux di Aosta"/>
+                <Image src={Piazza_Chanoux} className="rounded-start photo-card-city" alt="Piazza Chanoux di Aosta"/>
               </div>
               <div className="col-md-8 d-flex align-items-center">
                 <div className="card-body ">
@@ -250,7 +250,7 @@ export default function Cosa_vedere_Aosta_in_un_giorno(props) {
           <div className="card mb-3 margin">
             <div className="row g-0">
               <div className="col-md-4">
-                <Image src={Area_Megalitica_Saint_Martin_de_Corleans_Aosta} className="rounded-start" alt="Area Megalitica di Saint Martin de Corléans Aosta"/>
+                <Image src={Area_Megalitica_Saint_Martin_de_Corleans_Aosta} className="rounded-start photo-card-city" alt="Area Megalitica di Saint Martin de Corléans Aosta"/>
               </div>
               <div className="col-md-8 d-flex align-items-center">
                 <div className="card-body ">
@@ -272,7 +272,7 @@ export default function Cosa_vedere_Aosta_in_un_giorno(props) {
           <div className="card mb-3 margin">
             <div className="row g-0">
               <div className="col-md-4">
-                <Image src={Ponte_acquedotto_Grand_Arvou_Aosta} className="rounded-start" alt="Ponte acquedotto Grand Arvou Aosta"/>
+                <Image src={Ponte_acquedotto_Grand_Arvou_Aosta} className="rounded-start photo-card-city" alt="Ponte acquedotto Grand Arvou Aosta"/>
               </div>
               <div className="col-md-8 d-flex align-items-center">
                 <div className="card-body ">

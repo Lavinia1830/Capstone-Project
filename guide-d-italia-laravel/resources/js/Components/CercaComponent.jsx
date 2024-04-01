@@ -58,10 +58,9 @@ export default function CercaComponent() {
                   aria-label="Search"
                   value={query}
                   onChange={handleChange}
-                  style={{width: '90%'}}
                 />
                 <button
-                  className="btn btn-outline-success my-2 my-sm-0"
+                  className="btn btn-outline-success my-2 my-sm-0 me-3"
                   type="submit"
                   id="searchsubmit"
                 >

@@ -382,6 +382,12 @@ hr{
   }
 }
 
+.photo-card-city{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
 
 @media screen and (min-width: 769px){
     /* Smartphone*/
@@ -403,6 +409,7 @@ hr{
       margin: 0 8% !important;
     }
   /*Fine Blog Valle d'Aosta*/
+  
 }
 
 @media screen and (min-width: 1400px){

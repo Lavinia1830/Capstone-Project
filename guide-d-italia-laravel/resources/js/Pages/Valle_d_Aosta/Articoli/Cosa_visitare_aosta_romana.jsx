@@ -4,9 +4,19 @@ import Footer from '@/Components/Footer';
 import Teatro_Romano from '../../../../assets/Valle_d_Aosta/Teatro_Romano_Valle_d_Aosta.jpg'
 import CercaComponent from '@/Components/CercaComponent';
 import { Link } from '@inertiajs/react';
-import Arco_dAugusto_Aosta from '../../../../assets/Valle_d_Aosta/Arco_dAugusto_Aosta_Valle_d_Aosta.jpg';
-import { Form, Image } from 'react-bootstrap';
-import Porta_praetoria from '../../../../assets/Valle_d_Aosta/Porta_praetoria_Aosta_Valle_d_Aosta.jpg';
+import { Image } from 'react-bootstrap';
+import Arco_di_Augusto from '../../../../assets/Valle_d_Aosta/Arco_dAugusto_Aosta_Valle_d_Aosta.jpg';
+import Porta_Praetoria_Aosta from '../../../../assets/Valle_d_Aosta/Porta_Praetoria_Aosta_Valle_d_Aosta1.jpg';
+import Teatro_romano_di_Aosta from '../../../../assets/Valle_d_Aosta/Teatro_romano_di_Aosta_Valle_d_Aosta.jpg';
+
+
+
+
+
+
+
+
+
 
 export default function Cosa_visitare_aosta_romana(props) {
   return (
@@ -55,66 +65,82 @@ export default function Cosa_visitare_aosta_romana(props) {
               </li>
             </ul>
           </div>
-          <h2 className="color-subtitle text-center" id='First_Point_Header'>L'Arco d'Augusto</h2>
-          <div className="immagine-container">
-            <Image src={Arco_dAugusto_Aosta} alt="Arco di Augusto di Aosta" style={{margin:'0 auto'}}/>
-            <p className="descrizione-immagine">
-              Arrivando ad Aosta il Primo monumento che si incontra è l'<Link href='/luoghi_visite/arco_d_augusto' className='text-decoration-none color_link'>Arco di Augusto</Link>. L'arco 
-              fu costruito per celebrare la figura dell'imperatore Augusto a cui era dedicata la colonia di <b>Auguta Praetoria Salassorum</b> (Aosta) e per celebarre la vittoria dei Romani 
-              sulla popolazione dei Salassi che abitava la zona. <br />
-              L'arco ha un unico fornice decorato con demi colonne corinzie e una trabeazione dorica. Al centro compeggia un Crocifisso aggiunto in epoca medievale. Sotto di esso in epoca 
-              romana passaba la <b>Via delle Gallie</b>, la strada romana che collegava Eporedia (ivrea) con Aosta e da qui proseguiva verso l'<i>Alpis Graia</i>, ovvero il colle del Piccolo 
-              San Bernardo. 
-            </p>
+          <div className="card margin mb-3 px-3 pt-3">
+            <div className="row g-0 ">
+              <h2 className='color-subtitle' id='First_Point_Header'>Augusta Praetoria ovvero Aosta romana</h2>
+              <p>
+                Augusta Praetoria fu fondata secondo il modello del <b>castrum romano</b>, ovvero una pianta rettangolare delimitata da forti mura fiancheggiate da ben 20 torri. L'accesso
+                alla città ara garantito da quattro porte, una per ogni punta cardinale. <br/>
+                Augusta Praetoria era inoltre attraversata da due strade principali: il <b>Decumano Massimo</b> da est a ovest ed il <b>Carlo Massimo</b> da nord a sud. I vari quartieri 
+                erano a loro volta delimitati da cardi e decumani minori. tutti gli edifici pubblici, come il foro, le terme, il teatro e l'anfitestro foruno costruiti nell'angolo nord-oriente 
+                della città e delimitati proprio delle due vie maggiori. <br/>
+                Al di fuori della cinta muraria si trovavano le necropoli, e nella zona sud gli orti ed i frutteti.
+              </p>
+            </div>
           </div>
           <div className="card mb-3 margin">
-            <div className="row g-0">
-              <div className="col-md-4" style={{width: "540px;", height:'265px'}}>
-                <Image src={Arco_dAugusto_Aosta} className="rounded-start" alt="Arco di Augusto di Aosta"/>
+            <div className="row g-0 ">
+              <div className="col-md-4">
+                <Image src={Arco_di_Augusto} className="rounded-start photo-card-city" id='Second_Point_Header' alt="Arco di Augusto di Aosta"/>
               </div>
               <div className="col-md-8 d-flex align-items-center">
                 <div className="card-body ">
-                  <h2 className="card-title color-subtitle" id='First_Point_Header'>L'Arco d'Augusto</h2>
+                  <h2 className="card-title color-subtitle">Arco di Augusto</h2>
                   <p className="card-text">
-                    Arrivando ad Aosta il Primo monumento che si incontra è l'<Link href='/luoghi_visite/arco_d_augusto' className='text-decoration-none color_link'>Arco di Augusto</Link>. L'arco 
-                    fu costruito per celebrare la figura dell'imperatore Augusto a cui era dedicata la colonia di <b>Auguta Praetoria Salassorum</b> (Aosta) e per celebarre la vittoria dei Romani 
-                    sulla popolazione dei Salassi che abitava la zona. <br />
-                    L'arco ha un unico fornice decorato con demi colonne corinzie e una trabeazione dorica. Al centro compeggia un Crocifisso aggiunto in epoca medievale. Sotto di esso in epoca 
-                    romana passaba la <b>Via delle Gallie</b>, la strada romana che collegava Eporedia (ivrea) con Aosta e da qui proseguiva verso l'<i>Alpis Graia</i>, ovvero il colle del Piccolo 
-                    San Bernardo.                  
+                    Il viaggiatore dell'epoca, in viaggio verso Augusta Praetoria, sarebbe stato accolto dal monumentale <Link href="/luoghi_visite/arco_d_augusto" className='text-decoration-none color_link'>Arco Orario d'Augusto</Link> che voleva essere un segno elequente della potenza di Roma. <br/>
+                    Esso aveva una funzione propagandistica e costituiva l'ingrasso monumentale della città. Si tratta di un orco ad un solo fornice incorniciato da 10 semicolonne con scanalature verticali con capitelli corinzi coronate da trabeazione dorica fragiata da metope e triglifi. Alla sommità 
+                    dell'arco, in epoca romana, avremmo visto un attico con una scritta dedicatoria in onore dell'imperatore Augusto.
                 </p>
                 </div>
               </div>
             </div>
           </div>
-          
-          <div className="margin" style={{marginBottom: '200px'}}>
-            <h3 className="card-title color-subtitle" id='First_Point_Header'>L'Arco d'Augusto</h3>
-            <div style={{width: '410px'}} class="wp-caption alignleft me-2">
-              <Image  class="size-medium" src={Arco_dAugusto_Aosta} alt="Arco di Augusto, Aosta" width="400" height="266"/>
-              <p class="text-light mb-0">Arco di Augusto, Aosta</p>
+          <div className="card mb-3 margin">
+            <div className="row g-0 ">
+              <div className="col-md-4">
+                <Image src={Porta_Praetoria_Aosta} className="rounded-start photo-card-city" id='Third_Point_Header' alt="Porta Preatoria"/>
+              </div>
+              <div className="col-md-8 d-flex align-items-center">
+                <div className="card-body ">
+                  <h2 className="card-title color-subtitle">Porta Praetoria</h2>
+                  <p className="card-text">
+                    La sciato alle proprie spalle il monumentale Arco d'Augusto a circa 300 metri sarebbe giunto alla <Link href='/luoghi_visite/porta_praetoria' className='text-decoration-none color_link'>Porta Praetoria</Link> che cstituisce la principale porta di ingresso della città ed è attualmente
+                    l'unica che si è conservata. <br/> 
+                    Essa si componeva di 2 torri rettangolari a tre piani, di un cortile interno usato come cortile d'armi ad era a tre fornici. Il fornice centrale era riservato ai carri, mentr quelli laterali riservati erano riservati ai pedoni. Controlla da guardi, la Porta Praetoria era ulteriormente 
+                    protetta da possenti saracinische.
+                </p>
+                </div>
+              </div>
             </div>
-            <p>
-              Il viaggiatore dell'epoca, in viaggio verso Augusta Praetoria, sarebbe stato accolto dal monumentale <Link href='/luoghi_visite/arco_d_augusto' className='text-decoration-none color_link'>Arco Onorario d'Augusto</Link>
-              che voleva essere un segno eloquente della potenza di Roma. <br/>
-              Esso aveva una funzione propagandistica e costituiva l'ingresso monumentale della città. Si tratta di un arco un solo fornice incorniciato da 10 semicolonne con scanalature verticali con capitelli corinzi corronate da
-              tra beazione dorica fragiata da metope e triglifi. Alla sommità dell'arco in epoca romana, avremmo visto un attico con una scritta dedicatoria in onore dell'imperatore Augusto.
-            </p>
           </div>
-          <div className="margin ">
-            <h3 className="card-title color-subtitle" id='Second_Point_Header'>Porta Praetoria</h3>
-            <div style={{width: '410px'}} class="wp-caption alignright me-2">
-              <Image  class="size-medium" src={Porta_praetoria} alt="Arco di Augusto, Aosta" width="400" height="266"/>
-              <p class="text-light mb-0">Porta Praetoria</p>
+          <div className="card mb-3 margin">
+            <div className="row g-0 ">
+              <div className="col-md-4">
+                <Image src={Teatro_romano_di_Aosta} className="rounded-start photo-card-city" id='Fourth_Point_Header' alt="Porta Preatoria"/>
+              </div>
+              <div className="col-md-8 d-flex align-items-center">
+                <div className="card-body ">
+                  <h2 className="card-title color-subtitle">Il Teatro di Augusta Praetoria</h2>
+                  <p className="card-text">
+                    Superata La Porta Praetoria, si entrava nel centro storico di Aosta dove vi era il quartiere degli spettacoli. <br/>
+                    Il <Link href='/luoghi_visite/teatro_romano_di_aosta' className='text-decoration-none color_link'>teatro</Link> doveva avere tre livelli diversi di cavea, la bassa, la media e l'altra cavea. Il palco era separato dal pubblico da una struttuta muraria (pulpitum) sul quale c'era il 
+                    palcoscenico dove gli attori recitavano tragedie e commedie usando costumi e maschere che aiutavano a meglio identificare i personaggi. <br/>
+                    Il tutto circondato e protetto da quattro eleganti facciate. <br/>
+                    Oggi il <strong>teatro romano di Aosta</strong> anche la <Link to='/visite/mercatini_aosta' className='text-decoration-none color_link'>location per i bei Mercatini di Natele nel periodo natalizio</Link>.
+                  </p>
+                </div>
+              </div>
             </div>
-            <p>
-              Il viaggiatore dell'epoca, in viaggio verso Augusta Praetoria, sarebbe stato accolto dal monumentale <Link href='/luoghi_visite/arco_d_augusto' className='text-decoration-none color_link'>Arco Onorario d'Augusto</Link>
-              che voleva essere un segno eloquente della potenza di Roma. <br/>
-              Esso aveva una funzione propagandistica e costituiva l'ingresso monumentale della città. Si tratta di un arco un solo fornice incorniciato da 10 semicolonne con scanalature verticali con capitelli corinzi corronate da
-              tra beazione dorica fragiata da metope e triglifi. Alla sommità dell'arco in epoca romana, avremmo visto un attico con una scritta dedicatoria in onore dell'imperatore Augusto.
-            </p>
           </div>
-          
+          <div className="card margin mb-3 px-3 pt-3">
+            <div className="row g-0 ">
+              <h2 className='color-subtitle' id='Fifth_Point_Header'>La cinta muraria</h2>
+              <p>
+                Prima di uscire dalla zona degli spettacoli, il viaggiatore non poteva non volgere lo sguardo verso la <strong>cinta muraria</strong> di epoca romana che qui si conserva ancora piuttosto bene. All'epoca i Romani avevano dotato la città di un monumentale cinta, che non aveva solo una 
+                funzione strategicomilitare, ma la cura posta nella sua realizzazione, l'imponenza delle porte e la funzione estetica oltre che bellica svolta dalle torri che ne scandivano il perimetro, ne facevano uno strumento politico e propagandistico.
+              </p>
+            </div>
+          </div>
         </div>
         <CercaComponent/>
       </main>
