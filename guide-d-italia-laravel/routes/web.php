@@ -113,7 +113,29 @@ Route::get('/articoli/cosa_visitare_aosta_romana', function () {
     return Inertia::render('Valle_d_Aosta/Articoli/Cosa_visitare_aosta_romana');
 })->middleware(['auth', 'verified'])->name('cosa_visitare_aosta_romana');
 
+Route::get('/articoli/aosta_medievale_tra_spiritualita_e_arte', function () {
+    return Inertia::render('Valle_d_Aosta/Articoli/Aosta_medievale_tra_spiritualità_e_arte');
+})->middleware(['auth', 'verified'])->name('aosta_medievale_tra_spiritualita_e_arte');
 
+Route::get('/articoli/orari_siti_romani_aosta', function () {
+    return Inertia::render('Valle_d_Aosta/Articoli/Orari_siti_romani_Aosta');
+})->middleware(['auth', 'verified'])->name('orari_siti_romani_aosta');
+
+Route::get('/visite/ponte_romano_pont_saint_martin', function () {
+    return Inertia::render('Valle_d_Aosta/Visite/Ponte_romano_pont_saint_martin');
+})->middleware(['auth', 'verified'])->name('ponte_romano_pont_saint_martin');
+
+Route::get('/visite/fiera_sa_orso', function () {
+    return Inertia::render('Valle_d_Aosta/Visite/Fiera_di_SantOrso_Aosta');
+})->middleware(['auth', 'verified'])->name('fiera_sa_orso');
+
+Route::get('/fiera_di_sant_orso', function () {
+    return Inertia::render('Valle_d_Aosta/Fiera_di_Sant_Orso');
+})->middleware(['auth', 'verified'])->name('fiera_di_sant_orso');
+
+Route::get('/artigianato_in_valle_d_aosta_una_tradizione_millenaria', function () {
+    return Inertia::render('Valle_d_Aosta/Artigianato_tradizione_millenaria');
+})->middleware(['auth', 'verified'])->name('artigianato_in_valle_d_aosta_una_tradizione_millenaria');
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');

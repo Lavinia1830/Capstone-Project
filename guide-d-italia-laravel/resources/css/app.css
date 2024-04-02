@@ -90,9 +90,9 @@ hr{
   }
   .valle_d_aosta{
     background: url('../assets/Valle_d_Aosta/Chiesa_di_Sant_Orso_Valle_d_Aosta.jpg') center/cover no-repeat;
-    padding: 150px;
+    padding: 250px;
   }
-  .valle_d_aosta h1, .aosta h1, .castello_fenis h1, .forte_di_bard h1, .s_r_gallie h1{
+  .valle_d_aosta h1, .aosta h1, .castello_fenis h1, .forte_di_bard h1, .s_r_gallie h1, .ponte_romano_pont_saint_martin h1, .fiera_sorso_aosta h1{
     color: #fff;
     margin: 0 !important;
   }
@@ -153,7 +153,7 @@ hr{
   /*Inizio Castello dei Fenis*/
     .castello_fenis{
       background: url('../assets/Valle_d_Aosta/Castello_di_Fenis_Valle_d_Aosta.jpg') center/cover no-repeat;
-      padding: 150px;
+      padding: 250px;
     }
     .v-guidate{
       border-bottom: 10px solid #626d58;
@@ -165,7 +165,7 @@ hr{
   /*Inizio Aosta*/
     .aosta{
       background: url('../assets/Valle_d_Aosta/Teatro_Romano_Valle_d_Aosta.jpg') center/cover no-repeat;
-      padding: 150px;
+      padding: 250px;
     }
     .container-categorie{
       position: absolute;
@@ -184,7 +184,7 @@ hr{
   /*Inizio Forte di Bard*/
     .forte_di_bard{
       background: url('../assets/Valle_d_Aosta/Forte-di-Bard_Valle_d_Aosta.jpg') center/cover no-repeat;
-      padding: 150px;
+      padding: 250px;
     }
   /*Fine Forte di Bard*/
   /*Inizio Luoghi vititati*/
@@ -199,7 +199,7 @@ hr{
   /*Inizio Località Turichiste*/
     .l_turistiche{
       background: url('../assets/Valle_d_Aosta/Borghi_e_localita_turistiche_Valle_d_Aosta.jpg') center/cover no-repeat;
-      padding: 150px;
+      padding: 250px;
     }
   /*Fine Località Turichiste*/
   /*Inizio Blog*/
@@ -235,13 +235,13 @@ hr{
   /*Inizio Territorio*/
     .territorio{
       background: url('../assets/Valle_d_Aosta/Valle_del_cervino_Valle_d_Aosta.jpg') center/cover no-repeat;
-      padding: 150px;
+      padding: 250px;
     }
   /*Fine Territorio*/
   /*Inizio Ponte Romano Aosta*/
     .s_r_gallie{
       background: url('../assets/Valle_d_Aosta/Strada_romana_delle_gallie_Valle_d_Aosta.jpg') center/cover no-repeat;
-      padding: 150px;
+      padding: 250px;
     }
   /*Fine Ponte Romano Aosta*/
   /*Inizio Cosa vedere ad Aosta in un giorno*/
@@ -279,6 +279,18 @@ hr{
       --bs-gutter-x: 0 !important;
     }
   /*Fine Cosa vedere ad Aosta in un giorno*/
+  /*Inizio Ponte Romano Pont Saint Martin*/
+    .ponte_romano_pont_saint_martin{
+      background: url('../assets/Valle_d_Aosta/Ponte_romano_di_pont_saint_martin_Valle_d_Aosta.jpg') center/cover no-repeat;
+      padding: 250px;
+    }
+  /*Fine Ponte Romano Pont Saint Martin*/
+  /*Inizio Fiera di SantOrso Aosta*/
+    .fiera_sorso_aosta{
+      background: url('../assets/Valle_d_Aosta/Fiera_di_Sant_Orso_Valle_d_Aosta.jpg') center/cover no-repeat;
+      padding: 250px;
+    }
+  /*Fine Fiera di SantOrso Aosta*/
 /*Fine Valle d'Aosta*/
 
 /* ImmagineComponent.css */
@@ -388,7 +400,7 @@ hr{
     object-fit: cover;
   }
 
-
+/*Media Query Desktop*/
 @media screen and (min-width: 769px){
     /* Smartphone*/
     .mappa-smartphone {
@@ -409,7 +421,6 @@ hr{
       margin: 0 8% !important;
     }
   /*Fine Blog Valle d'Aosta*/
-  
 }
 
 @media screen and (min-width: 1400px){

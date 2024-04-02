@@ -26,7 +26,7 @@ export default function Il_ponte_romano(props) {
                     appunto del Pont de Pierre, cioè del "ponte di pietra".
                 </p>
                 <p>
-                    Il <b>ponte romano Aosta</b> insieme al <Link to='/ponte_romano_pont_saint_martin' className='text-decoration-none color_link'>ponte romano di Pont Martin</Link> è l'unico 
+                    Il <b>ponte romano Aosta</b> insieme al <Link href='/visite/ponte_romano_pont_saint_martin' className='text-decoration-none color_link'>ponte romano di Pont Martin</Link> è l'unico 
                     conservatosi in Valle d'Aosta. Esso faceva parte della <Link to='/strada_romana_gallie' className='text-decoration-none color_link'>Strada delle Gallie</Link>, la strada che 
                     collegava Augusta Praetoria con Eporedia (Ivrea).
                 </p>

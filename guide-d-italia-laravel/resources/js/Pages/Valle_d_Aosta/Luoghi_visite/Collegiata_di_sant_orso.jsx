@@ -58,7 +58,7 @@ export default function Collegiata_di_sant_orso(props) {
             <div className="margin">
                 <h2 className="color-sutitle">La Fiera di Sant'Orso ad Aosta</h2>
                 <p>
-                    Un luogo affascinate ed intriso di storia il cui nome, <b>Sant'Orso</b>, ai più rivoca <Link to='/fiera_sa_orso' className='text-decoration-none color_link'>la millenaria fiera dell'artigianato</Link> si svolge
+                    Un luogo affascinate ed intriso di storia il cui nome, <b>Sant'Orso</b>, ai più rivoca <Link href='/visite/fiera_sa_orso' className='text-decoration-none color_link'>la millenaria fiera dell'artigianato</Link> si svolge
                     ad Aosta il 30 e 31 gennaio. <br/>
                     Secondo la tradizione proprio Sant'Orso era solito distribuire ai più poveri delle calzature in legno (sabot) sul sagrato della chiesa che porta il suo nome. 
                 </p>
@@ -109,10 +109,10 @@ export default function Collegiata_di_sant_orso(props) {
                         <Link href='/articoli/cosa_vedere_ad_aosta_in_un_giorno' className='text-decoration-none color_link'>Cosa vedere ad Aosta in un giorno</Link>
                     </li>
                     <li>
-                        <Link to='/fiera_di_dant_orso' className='text-decoration-none color_link'>La Millenaria Fiera di Sant'Orso Aosta</Link>
+                        <Link href='/fiera_di_sant_orso' className='text-decoration-none color_link'>La Millenaria Fiera di Sant'Orso Aosta</Link>
                     </li>
                     <li>
-                        <Link to='/artigianato_in_valle_d_aosta_una_tradizione_millenaria' className='text-decoration-none color_link'>Artigianato in Valle d'Aosta, una tradizione millenaria</Link>
+                        <Link href='/artigianato_in_valle_d_aosta_una_tradizione_millenaria' className='text-decoration-none color_link'>Artigianato in Valle d'Aosta, una tradizione millenaria</Link>
                     </li>
                 </ul>
             </div>
