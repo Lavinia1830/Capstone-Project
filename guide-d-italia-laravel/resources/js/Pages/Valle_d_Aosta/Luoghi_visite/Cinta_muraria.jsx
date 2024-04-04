@@ -13,7 +13,7 @@ export default function Cinta_muraria(props) {
     >
         <main>
             <div className='margin'>
-                <img src={Cinta_muraria_img} alt="Ponte Romano d'Aosta" className='mx-auto my-4' style={{width: 'auto', height: 'auto'}} />
+                <img src={Cinta_muraria_img} alt="Cinta muraria Aosta" className='mx-auto my-4' style={{width: 'auto', height: 'auto'}} />
                 <h1 className='color-title text-center mb-3'>Cinta muraria Aosta</h1>
                 <hr className='w-25 border-3'/>
             </div>
@@ -53,7 +53,7 @@ export default function Cinta_muraria(props) {
                 <h3 className='color-subtitle'>Articoli</h3>
                 <ul className='lista'>
                     <li>
-                        <Link to='/cosa_vedere_ad_aosta_in_un_giorno' className='text-decoration-none color_link'>Cosa vedere ad Aosta in un giorno</Link>
+                        <Link href='/articoli/cosa_vedere_ad_aosta_in_un_giorno' className='text-decoration-none color_link'>Cosa vedere ad Aosta in un giorno</Link>
                     </li>
                 </ul>
             </div>      

@@ -11,6 +11,55 @@ hr{
   color: #77966d !important;
 }
 
+/*Inizio Welcome*/
+  .login-page, .bg-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Imposta l'altezza della pagina di login per coprire l'intera altezza della viewport */
+    background: url('../assets/Sfondo_access.jpeg') center/cover no-repeat ;
+    background-size: cover;
+  }
+
+  .login-form {
+    padding: 40px !important;
+    border-radius: 10px;
+    background-color: rgba(33, 107, 90, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
+    z-index: 1000;
+  }
+
+  .login-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #56282d;
+  }
+
+  .btn-registrati,
+  .btn-accedi{
+    display: inline;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #bdc667; /* Verde */
+    color: white;
+    transition: background-color 1s ease !important;
+    transition: color 1s ease !important;
+  }
+  .btn-registrati:hover, .btn-accedi:hover{
+    background-color: #77966d !important;
+  }
+
+/*Fine Welcome*/
+
+
+
+
+
+
 /*Inizio Comune*/
     .color_link{
         color: #BDC667;
@@ -22,13 +71,13 @@ hr{
 /*Fine Comune*/
 
 /*Inizio AuthenticatedLayout*/
-    .bg-navbar{
-        background-color: #626d58;
-        border-bottom: 0;
-    }
-    .link{
-        text-decoration: none !important;
-    }
+  .bg-navbar{
+    background-color: #25612C;
+    border-bottom: 0;
+  }
+  .link{
+    text-decoration: none !important;
+  }
     
 /*Fine AuthenticatedLayout*/
 
@@ -41,9 +90,18 @@ hr{
   }
   .valle_d_aosta{
     background: url('../assets/Valle_d_Aosta/Chiesa_di_Sant_Orso_Valle_d_Aosta.jpg') center/cover no-repeat;
-    padding: 150px;
+    padding: 250px;
   }
-  .valle_d_aosta h1, .aosta h1, .castello_fenis h1, .forte_di_bard h1, .s_r_gallie h1{
+  .valle_d_aosta h1, 
+  .aosta h1, 
+  .castello_fenis h1, 
+  .forte_di_bard h1, 
+  .s_r_gallie h1, 
+  .ponte_romano_pont_saint_martin h1, 
+  .fiera_sorso_aosta h1, 
+  .museo_del_tesoro_aosta h1,
+  .musei_aosta h1,
+  .castello_gamba_img h1{
     color: #fff;
     margin: 0 !important;
   }
@@ -104,7 +162,7 @@ hr{
   /*Inizio Castello dei Fenis*/
     .castello_fenis{
       background: url('../assets/Valle_d_Aosta/Castello_di_Fenis_Valle_d_Aosta.jpg') center/cover no-repeat;
-      padding: 150px;
+      padding: 250px 0;
     }
     .v-guidate{
       border-bottom: 10px solid #626d58;
@@ -116,7 +174,7 @@ hr{
   /*Inizio Aosta*/
     .aosta{
       background: url('../assets/Valle_d_Aosta/Teatro_Romano_Valle_d_Aosta.jpg') center/cover no-repeat;
-      padding: 150px;
+      padding: 250px;
     }
     .container-categorie{
       position: absolute;
@@ -135,7 +193,7 @@ hr{
   /*Inizio Forte di Bard*/
     .forte_di_bard{
       background: url('../assets/Valle_d_Aosta/Forte-di-Bard_Valle_d_Aosta.jpg') center/cover no-repeat;
-      padding: 150px;
+      padding: 250px;
     }
   /*Fine Forte di Bard*/
   /*Inizio Luoghi vititati*/
@@ -150,11 +208,11 @@ hr{
   /*Inizio Località Turichiste*/
     .l_turistiche{
       background: url('../assets/Valle_d_Aosta/Borghi_e_localita_turistiche_Valle_d_Aosta.jpg') center/cover no-repeat;
-      padding: 150px;
+      padding: 250px;
     }
   /*Fine Località Turichiste*/
   /*Inizio Blog*/
-    .carta_l_turistiche, .carta_terrirorio, .carta_castelli, .carta_gite{
+    .carta_l_turistiche, .carta_terrirorio, .carta_castelli, .carta_gite, .carta_musei{
       border-radius: 1em !important;
       width: 300px !important;
     }
@@ -186,25 +244,124 @@ hr{
   /*Inizio Territorio*/
     .territorio{
       background: url('../assets/Valle_d_Aosta/Valle_del_cervino_Valle_d_Aosta.jpg') center/cover no-repeat;
-      padding: 150px;
+      padding: 250px;
     }
   /*Fine Territorio*/
   /*Inizio Ponte Romano Aosta*/
     .s_r_gallie{
       background: url('../assets/Valle_d_Aosta/Strada_romana_delle_gallie_Valle_d_Aosta.jpg') center/cover no-repeat;
-      padding: 150px;
+      padding: 250px;
     }
   /*Fine Ponte Romano Aosta*/
-  
+  /*Inizio Cosa vedere ad Aosta in un giorno*/
+
+    .wp-caption{
+      text-align: center;
+      background-color: #544343;
+      max-width: 96%;
+      padding: 8px;
+    }
+    .wp-caption p{
+      padding: 1em 0;
+    }
+    .alignleft{
+      float: left;
+    }
+    .alignright{
+      float: right;
+    }
+    .bottone_link_contattaci{
+      font-size: 1em;
+      color: #77966d;
+      text-decoration: none;
+      line-height: 1.7em;
+      border: 2px solid #77966d;
+      padding: 0.3em 1em;
+      border-radius: 3px;
+    }
+    .bottone_link_contattaci:hover{
+      color: #77966d;
+      background-color:  #bdc667 !important;
+      border: 2px solid #bdc667;
+    }
+    .row{
+      --bs-gutter-x: 0 !important;
+    }
+  /*Fine Cosa vedere ad Aosta in un giorno*/
+  /*Inizio Ponte Romano Pont Saint Martin*/
+    .ponte_romano_pont_saint_martin{
+      background: url('../assets/Valle_d_Aosta/Ponte_romano_di_pont_saint_martin_Valle_d_Aosta.jpg') center/cover no-repeat;
+      padding: 250px;
+    }
+  /*Fine Ponte Romano Pont Saint Martin*/
+  /*Inizio Fiera di SantOrso Aosta*/
+    .fiera_sorso_aosta{
+      background: url('../assets/Valle_d_Aosta/Fiera_di_Sant_Orso_Valle_d_Aosta.jpg') center/cover no-repeat;
+      padding: 250px;
+    }
+  /*Fine Fiera di SantOrso Aosta*/
+  /*Inizio Museo del Tesoro ad Aosta*/
+  .museo_del_tesoro_aosta{
+    background: url('../assets/Valle_d_Aosta/Museo_del_tesoro_Valle_d_Aosta.jpg') center/cover no-repeat;
+    padding: 250px;
+  }
+  /*Fine Museo del Tesoro ad Aosta*/
+  /*Inizio Musei Aosta*/
+    .musei_aosta{
+      background: url('../assets/Valle_d_Aosta/Museo_alpino_duca_degli_abruzzi_Valle_d_Aosta.jpg') center/cover no-repeat;
+      padding: 250px 0;
+    }
+  /*Fine Musei Aosta*/
+  /*Inizio Castello Gamba*/
+    .castello_gamba_img{
+      background: url('../assets/Valle_d_Aosta/Castello_Gamba_Valle_d_Aosta.jpg') center/cover no-repeat;
+      padding: 250px 0;
+    }
+  /*Fine Castello Gamba*/
 /*Fine Valle d'Aosta*/
 
+/* ImmagineComponent.css */
 
+.immagine-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 1em;
+}
+
+.immagine {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.descrizione-immagine {
+  font-size: 14px;
+  color: #333;
+  margin-top: 10px;
+  margin-left: 1em;
+}
+
+/* Aggiungi una media query per dispositivi con larghezza <= 768px (tablet e smartphone) */
+@media screen and (max-width: 768px) {
+  .immagine-container {
+    flex-direction: column; /* Imposta la direzione dei flex element a verticale */
+    align-items: flex-start; /* Allinea la descrizione a sinistra */
+  }
+
+  .immagine {
+    margin-bottom: 10px; /* Aggiungi spazio tra l'immagine e la descrizione */
+  }
+}
 
 
 /*Inizio Footer*/
+
   .bg-footer{
     background-color: #626d58;
   }
+
 /*Fine Footer*/
 
 
@@ -219,7 +376,7 @@ hr{
       display: none !important;
     }
     .margin{
-      margin: 0 15px;
+      margin: 0 2em;
     }
     /*Inizio Blog Valle d'Aosta*/
       .blog{
@@ -236,57 +393,66 @@ hr{
 }
 
 /*Media Query Tablet*/
-@media screen and (min-width: 426px) and (max-width: 768px){
-  /* Smartphone*/
-  .mappa-smartphone {
-    display: none !important;
-  }
-  /* Desktop*/
-  .mappa-desktop {
-    display: none !important;
-  }
-  .margin{
-    margin: 0 30px;
-  }
-  /*Inizio Blog Valle d'Aosta*/
-    .blog{
-      margin: 0 1% !important;
+  @media screen and (min-width: 426px) and (max-width: 768px){
+    /*Inizio Smartphone*/
+      .mappa-smartphone {
+        display: none !important;
+      }
+    /*Fine Smartphone*/
+    /*Inizio Desktop*/
+      .mappa-desktop {
+        display: none !important;
+      }
+      .margin{
+        margin: 0 30px;
+      }
+    /*Fine Desktop*/
+    /*Inizio Blog Valle d'Aosta*/
+      .blog{
+        margin: 0 1% !important;
+      }
+    /*Fine Blog Valle d'Aosta*/
+    /*Inizio Luoghi visitati Valle d'Aosta*/
+      .my-card{
+        margin-right: 1em !important;
+      }
+    /*Fine Luoghi visitati Valle d'Aosta*/
+    .mappa{
+      width: 350px;
+      height: 300px;
     }
-  /*Fine Blog Valle d'Aosta*/
-  /*Inizio Luoghi visitati Valle d'Aosta*/
-    .my-card{
-      margin-right: 1em !important;
-    }
-  /*Fine Luoghi visitati Valle d'Aosta*/
-  .mappa{
-    width: 350px;
-    height: 300px;
   }
-}
+/*Fine Media Query Tablet*/
 
-
-@media screen and (min-width: 769px){
-    /* Smartphone*/
-    .mappa-smartphone {
-      display: none !important;
-    }
-    /* Tablet */
-    .mappa-tablet {
-      display: none !important;
-    }
-    .margin{
-      margin: 0 30px;
-    }
-  .castello_fenis{
-    padding: 250px;
+.photo-card-city{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
-  /*Inizio Blog Valle d'Aosta*/
-    .blog{
-      margin: 0 8% !important;
-    }
-  /*Fine Blog Valle d'Aosta*/
 
-}
+/*Inizio Media Query Desktop*/
+  @media screen and (min-width: 769px){
+    /*Inizio Smartphone*/
+      .mappa-smartphone {
+        display: none !important;
+      }
+    /*Fine Smartphone*/
+    /*Inizio Tablet*/
+      .mappa-tablet {
+        display: none !important;
+      }
+      .margin{
+        margin: 0 30px;
+      }
+    /*Fine Tablet*/
+    /*Inizio Blog Valle d'Aosta*/
+      .blog{
+        margin: 0 8% !important;
+      }
+    /*Fine Blog Valle d'Aosta*/
+    
+  }
+/*Fine Media Query Desktop*/
 
 @media screen and (min-width: 1400px){
   .container{

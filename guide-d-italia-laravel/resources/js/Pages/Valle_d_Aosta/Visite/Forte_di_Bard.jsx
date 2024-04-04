@@ -3,18 +3,17 @@ import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout';
 import { Link } from '@inertiajs/react';
 import {Card} from 'react-bootstrap';
 import Footer from '@/Components/Footer';
-import Borgo_di_Bard from '../../../assets/Valle_d_Aosta/Borgo_di_Bard_Valle_d_Aosta.jpg';
-import Museo_delle_Alpi from '../../../assets/Valle_d_Aosta/Museo_delle_Alpi_Valle_d_Aosta.jpg';
-import Prigioni_forte_di_bard from '../../../assets/Valle_d_Aosta/Prigioni_forte_di_bard_Valle_d_Aosta.jpg';
-import Museo_forte_di_bard from '../../../assets/Valle_d_Aosta/Museo_forte_di_bard_Valle_d_Aosta.jpg';
-import Mostre_temporanee from '../../../assets/Valle_d_Aosta/Mostre_temporanee_Valle_d_Aosta.jpg';
+import Borgo_di_Bard from '../../../../assets/Valle_d_Aosta/Borgo_di_Bard_Valle_d_Aosta.jpg';
+import Museo_delle_Alpi from '../../../../assets/Valle_d_Aosta/Museo_delle_Alpi_Valle_d_Aosta.jpg';
+import Prigioni_forte_di_bard from '../../../../assets/Valle_d_Aosta/Prigioni_forte_di_bard_Valle_d_Aosta.jpg';
+import Museo_forte_di_bard from '../../../../assets/Valle_d_Aosta/Museo_forte_di_bard_Valle_d_Aosta.jpg';
+import Mostre_temporanee from '../../../../assets/Valle_d_Aosta/Mostre_temporanee_Valle_d_Aosta.jpg';
 
 export default function Forte_di_Bard(props) {
   return (
     <AuthenticatedLayout
         auth={props.auth}
         errors={props.errors}
-        header={<h2 className="font-semibold text-xl text-gray-800 leading-tight">Forte di Bard</h2>}
     >
         <main>
             <div className='forte_di_bard' style={{ position: 'relative' }}>

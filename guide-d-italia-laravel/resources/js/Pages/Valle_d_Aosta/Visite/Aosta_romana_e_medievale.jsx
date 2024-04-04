@@ -19,7 +19,6 @@ export default function Aosta_romana_e_medievale(props) {
     <AuthenticatedLayout
         auth={props.auth}
         errors={props.errors}
-        header={<h2 className="font-semibold text-xl text-gray-800 leading-tight">Aosta romana e Aosta medievale</h2>}
     >
         <main>
             <div className='aosta' style={{ position: 'relative' }}>
@@ -164,7 +163,7 @@ export default function Aosta_romana_e_medievale(props) {
                             </Link>
                         </Card>
                         <Card className='my-card'>
-                            <Link to="/basilica_paleocristiana_di_san_lorenzo" className='d-flex text-decoration-none color_link'>
+                            <Link href="/luoghi_visite/basilica_paleocristiana_di_san_lorenzo" className='d-flex text-decoration-none color_link'>
                                 <Card.Img  src={Basilica_S_Lorenzo} style={{width: "150px", height: "80px", backgroundSize: "cover", backgroundPosition: "center"}}/>
                                 <Card.Body>
                                     <Card.Title className='fs-6'>Basilica Paleocristiana di San Lorenzo</Card.Title>
@@ -224,7 +223,7 @@ export default function Aosta_romana_e_medievale(props) {
                         <b>Il Teatro romano sarà chiuso per lavori dal 7 novembre 2023 a maggio 2025</b>
                     </p>
                     <p>
-                        Orari oaggiornati <Link to='/architettura_roamana/aosta/teatro_romano/736' className='text-decoration-none color_link'>QUI</Link>
+                        Orari aggiornati <a href='/architettura_roamana/aosta/teatro_romano/736' className='text-decoration-none color_link'>QUI</a>
                     </p>  
                 </div>
                 <div>
@@ -245,7 +244,7 @@ export default function Aosta_romana_e_medievale(props) {
                         allowFullScreen=""
                         loading="lazy"
                         referrerPolicy="no-referrer-when-downgrade"
-                        className='mx-auto'
+                        className='mx-auto mappa'
                     >
                     </iframe>
                 </div>
@@ -253,20 +252,19 @@ export default function Aosta_romana_e_medievale(props) {
                     <h3 className='color-subtitle'>Articoli</h3>
                     <ul className='lista'>
                         <li>
-                            <Link to='/cosa_vedere_ad_aosta_in_un_giorno' className='text-decoration-none color_link'>Cosa vedere ad Aosta in un giorno</Link>
+                            <Link href='/articoli/cosa_vedere_ad_aosta_in_un_giorno' className='text-decoration-none color_link'>Cosa vedere ad Aosta in un giorno</Link>
                         </li>
                         <li>
-                            <Link to='/cosa_vedere_aosta_romana' className='text-decoration-none color_link'>Augusta Preatoria, visite alla scoperta di Aosta romana</Link>
+                            <Link href='/articoli/cosa_visitare_aosta_romana' className='text-decoration-none color_link'>Augusta Preatoria, visite alla scoperta di Aosta romana</Link>
                         </li>
                         <li>
-                            <Link to='/aosta_medievale_tra_spiritualita_e_arte' className='text-decoration-none color_link'>Aosta Medievale tra spiritualità e arte</Link>
+                            <Link href='/articoli/aosta_medievale_tra_spiritualita_e_arte' className='text-decoration-none color_link'>Aosta Medievale tra spiritualità e arte</Link>
                         </li>
                         <li>
-                            <Link to='/orari_siti_romani_aosta' className='text-decoration-none color_link'>Orari e Tariffe Siti archeologici Valle d'Aosta</Link>
+                            <Link href='/articoli/orari_siti_romani_aosta' className='text-decoration-none color_link'>Orari e Tariffe Siti archeologici Valle d'Aosta</Link>
                         </li>
                     </ul>
                 </div>
-                
             </div>
         </main>
         <Footer/>

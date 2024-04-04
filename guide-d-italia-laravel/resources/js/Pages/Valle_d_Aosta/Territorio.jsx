@@ -18,7 +18,6 @@ export default function Territorio(props) {
     <AuthenticatedLayout
         auth={props.auth}
         errors={props.errors}
-        header={<h2 className="font-semibold text-xl text-gray-800 leading-tight">Territorio della Valle d'Aosta</h2>}
     >
         <main>
             <div className='territorio'></div>

@@ -1,9 +1,49 @@
 import { Link, Head } from '@inertiajs/react';
 
-export default function Welcome(props) {
+export default function Welcome() {
     return (
         <>
-            <Head title="Welcome" />
+
+            <div className="login-page">
+                {/* Aggiungi qui il tuo codice per lo sfondo o altri elementi della pagina */}
+                <div className="login-form">
+                    <h2>Benvenuto!</h2>
+                    {/* Aggiungi qui altri elementi del form se necessario */}
+                    <div className='row'>
+                        <div className="col">
+                            <Link href='/register' className='text-decoration-none'><button type="button" className="btn-registrati me-3">Registrati</button></Link>
+                        </div>
+                        <div className="col">
+                            <Link href='/login' className='text-decoration-none'><button type="button" className="btn-accedi">Accedi</button></Link>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+            {/* <div className="background-container">
+                <div className='page-container'>
+                    <div className="container">
+                        <div className="glass-effect">
+                            <div className="row text-center">
+                                <div className="col">
+                                    <a href="/register"><button type="button" className="btn btn-custom w-50" style={{height: '4dvh'}}>Registrati</button></a>
+                                </div>
+                                <div className="col">
+                                    <a href="/login"><button type="button" className="btn btn-custom w-50" style={{height: '4dvh'}}>Accedi</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> */}
+            
+            
+        </>
+    
+    );
+}
+            {/* <Head title="Welcome" />
             <div className="relative sm:flex sm:justify-center sm:items-center min-h-screen bg-dots-darker bg-center bg-gray-100 dark:bg-dots-lighter dark:bg-gray-900 selection:bg-red-500 selection:text-white">
                 <div className="sm:fixed sm:top-0 sm:right-0 p-6 text-right">
                     {props.auth.user ? (
@@ -352,6 +392,5 @@ export default function Welcome(props) {
                     }
                 }
             `}</style>
-        </>
-    );
-}
+        </> */}
+    

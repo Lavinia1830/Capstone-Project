@@ -13,7 +13,7 @@ export default function Affreschi_ottoniani(props) {
     >
         <main>
             <div className='margin'>
-                <img src={Affreschi_ottoniani_img} alt="Ponte Romano d'Aosta" className='mx-auto my-4' style={{width: 'auto', height: 'auto'}} />
+                <img src={Affreschi_ottoniani_img} alt="Affreschi ottoventischi Aosta" className='mx-auto my-4' style={{width: 'auto', height: 'auto'}} />
                 <h1 className='color-title text-center mb-3'>Affreschi Ottoniani</h1>
                 <hr className='w-25 border-3'/>
             </div>
@@ -38,7 +38,7 @@ export default function Affreschi_ottoniani(props) {
             <div className="margin">
                 <h3 className="color-subtitle">Orari e tariffe per gli affreschi del sottotetto in Cattedrale</h3>
                 <p>
-                    Gli affreschi in Cattedrale sono visibili solo su richiesta ed è prevsto il pagamento di un biglietto di ingresso avventualmente in abbinato col <Link to='/visite/museo_del_tesoro' className='text-decoration-none color_link'>Museo del Tesoro</Link> <br/>
+                    Gli affreschi in Cattedrale sono visibili solo su richiesta ed è prevsto il pagamento di un biglietto di ingresso avventualmente in abbinato col <Link href='/visite/museo_del_tesoro' className='text-decoration-none color_link'>Museo del Tesoro</Link> <br/>
                     Museo: € 4,00 <br/>
                     Affreschi: € 5,00 <br/>
                     Ingresso museo + affreschi: € 6,00 <br/>
@@ -75,7 +75,7 @@ export default function Affreschi_ottoniani(props) {
                 <h3 className='color-subtitle'>Articoli</h3>
                 <ul className='lista'>
                     <li>
-                        <Link to='/cosa_vedere_ad_aosta_in_un_giorno' className='text-decoration-none color_link'>Cosa vedere ad Aosta in un giorno</Link>
+                        <Link href='/articoli/cosa_vedere_ad_aosta_in_un_giorno' className='text-decoration-none color_link'>Cosa vedere ad Aosta in un giorno</Link>
                     </li>
                 </ul>
             </div>
