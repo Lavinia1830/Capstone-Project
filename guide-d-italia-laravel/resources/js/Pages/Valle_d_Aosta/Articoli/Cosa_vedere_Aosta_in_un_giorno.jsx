@@ -26,7 +26,7 @@ export default function Cosa_vedere_Aosta_in_un_giorno(props) {
       <main className='row'>
         <div className='col-lg-8'>
           <div className='margin'>
-            <img src={Cosa_vedere_ad_aosta_in_un_giorno} alt="Ponte Romano d'Aosta" className='mx-auto my-4' style={{width: 'auto', height: 'auto'}}/>
+            <img src={Cosa_vedere_ad_aosta_in_un_giorno} alt="" className='mx-auto my-4' style={{width: 'auto', height: 'auto'}}/>
             <h1 className='color-title text-center mb-3'>Cosa vedere ad Aosta in un giorno</h1>
             <hr className='w-25 border-3'/>
           </div>

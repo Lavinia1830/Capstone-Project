@@ -13,7 +13,7 @@ export default function Porta_praetoria(props) {
     >
         <main>
             <div className='margin'>
-                <img src={Porta_praetoria_img} alt="Ponte Romano d'Aosta" className='mx-auto my-4' style={{width: 'auto', height: 'auto'}} />
+                <img src={Porta_praetoria_img} alt="Porta Praetoria Aosta" className='mx-auto my-4' style={{width: 'auto', height: 'auto'}} />
                 <h1 className='color-title text-center mb-3'>Porta Praetoria Aosta</h1>
                 <hr className='w-25 border-3' />
             </div>

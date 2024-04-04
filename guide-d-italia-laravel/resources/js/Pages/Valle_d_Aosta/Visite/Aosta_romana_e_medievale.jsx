@@ -258,14 +258,13 @@ export default function Aosta_romana_e_medievale(props) {
                             <Link href='/articoli/cosa_visitare_aosta_romana' className='text-decoration-none color_link'>Augusta Preatoria, visite alla scoperta di Aosta romana</Link>
                         </li>
                         <li>
-                            <Link to='/aosta_medievale_tra_spiritualita_e_arte' className='text-decoration-none color_link'>Aosta Medievale tra spiritualità e arte</Link>
+                            <Link href='/articoli/aosta_medievale_tra_spiritualita_e_arte' className='text-decoration-none color_link'>Aosta Medievale tra spiritualità e arte</Link>
                         </li>
                         <li>
-                            <Link to='/orari_siti_romani_aosta' className='text-decoration-none color_link'>Orari e Tariffe Siti archeologici Valle d'Aosta</Link>
+                            <Link href='/articoli/orari_siti_romani_aosta' className='text-decoration-none color_link'>Orari e Tariffe Siti archeologici Valle d'Aosta</Link>
                         </li>
                     </ul>
                 </div>
-                
             </div>
         </main>
         <Footer/>

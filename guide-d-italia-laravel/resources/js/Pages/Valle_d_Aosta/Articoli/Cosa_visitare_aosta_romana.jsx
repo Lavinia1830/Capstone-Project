@@ -8,7 +8,7 @@ import { Image } from 'react-bootstrap';
 import Arco_di_Augusto from '../../../../assets/Valle_d_Aosta/Arco_dAugusto_Aosta_Valle_d_Aosta.jpg';
 import Porta_Praetoria_Aosta from '../../../../assets/Valle_d_Aosta/Porta_Praetoria_Aosta_Valle_d_Aosta1.jpg';
 import Teatro_romano_di_Aosta from '../../../../assets/Valle_d_Aosta/Teatro_romano_di_Aosta_Valle_d_Aosta.jpg';
-
+import Criptoportico_forense_di_Aosta from '../../../../assets/Valle_d_Aosta/Criptoportico_forense_di_Aosta_Valle_d_Aosta.jpg';
 
 
 
@@ -28,7 +28,7 @@ export default function Cosa_visitare_aosta_romana(props) {
       <main className='row'>
         <div className='col-lg-8'>
           <div className='margin'>
-              <img src={Teatro_Romano} alt="Ponte Romano d'Aosta" className='mx-auto my-4' style={{width: 'auto', height: 'auto'}}/>
+              <img src={Teatro_Romano} alt="Teatro romano Aosta" className='mx-auto my-4' style={{width: 'auto', height: 'auto'}}/>
               <h1 className='color-title text-center mb-3'>Aosta Praetoria, visite alla scoperta di Aosta romana</h1>
               <hr className='w-25 border-3'/>
           </div>
@@ -68,7 +68,7 @@ export default function Cosa_visitare_aosta_romana(props) {
           <div className="card margin mb-3 px-3 pt-3">
             <div className="row g-0 ">
               <h2 className='color-subtitle' id='First_Point_Header'>Augusta Praetoria ovvero Aosta romana</h2>
-              <p>
+              <p className="card-text">
                 Augusta Praetoria fu fondata secondo il modello del <b>castrum romano</b>, ovvero una pianta rettangolare delimitata da forti mura fiancheggiate da ben 20 torri. L'accesso
                 alla città ara garantito da quattro porte, una per ogni punta cardinale. <br/>
                 Augusta Praetoria era inoltre attraversata da due strade principali: il <b>Decumano Massimo</b> da est a ovest ed il <b>Carlo Massimo</b> da nord a sud. I vari quartieri 
@@ -140,6 +140,45 @@ export default function Cosa_visitare_aosta_romana(props) {
                 funzione strategicomilitare, ma la cura posta nella sua realizzazione, l'imponenza delle porte e la funzione estetica oltre che bellica svolta dalle torri che ne scandivano il perimetro, ne facevano uno strumento politico e propagandistico.
               </p>
             </div>
+          </div>
+          <div className="card mb-3 margin">
+            <div className="row g-0 ">
+              <div className="col-md-4">
+                <Image src={Criptoportico_forense_di_Aosta} className="rounded-start photo-card-city" id='Sixth_Point_Header' alt="Il Foro di Augusta Praetoria"/>
+              </div>
+              <div className="col-md-8 d-flex align-items-center">
+                <div className="card-body ">
+                  <h2 className="card-title color-subtitle">Il Foro di Augusta Praetoria</h2>
+                  <p className="card-text">
+                    Usciti dalla zona degli spettacoli si ritorna al Decumano Massimo per raggiungere la centralissima <b>Piazza Chanoux</b>. La piazza attualmente costituisce il centro nevralgico della città, dove tutto converge.
+                  </p>
+                  <p className="card-text">
+                    L'itinerario proseguiva poi al foro, il cuore religioso e giuridico di Aosta romana. Del foro romano sappiamo che era costituito da due parti: asud la platea forense, fulcro della vita cittadina circondata da un porticato con botteghe e uffici; a nord l'area sacra sopraelevata 
+                    con due templi gemelli. <br/>
+                    I Romani in questa zona costruiscono il <Link href='/luoghi_visite/criptoportico_forense' className='text-decoration-none color_link'>criptoportico</Link> una struttura interrata in cui si respira ancora l'atmosfera del periodo augusteo.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="margin">
+            <p>
+              Numerosi sono i monumenti di epoca romana ad Aosta, una passeggiata di poche ore con una guida turistica catturerà sia grandi che i piccoli che possono andare alla scoperta di Augusta Praetoria con un'indimeticabile visita guidata di <Link href='/visite/aosta_romana_e_medievale' 
+              className='text-decoration-none color_link fw-bold'>Aosta romana</Link>
+            </p>
+          </div>
+          <div className="margin">
+            <p>
+              <b>Contattami per prenotare la vostra visita giudata della <Link href='/visite/aosta_romana_e_medievale' className='text-decoration-none color_link'>città di Aosta</Link></b>
+            </p>
+          </div>
+          <div className='margin'>
+            <h3 className='color-subtitle'>Leggi anche</h3>
+            <ul className='lista'>
+              <li>
+                  <Link href='/articoli/cosa_vedere_ad_aosta_in_un_giorno' className='text-decoration-none color_link'>Cosa vedere ad Aosta in un giorno</Link>
+              </li>
+            </ul>
           </div>
         </div>
         <CercaComponent/>

@@ -21,7 +21,7 @@ export default function Gite_scolastiche_scuola_primaria(props) {
     >
         <main>
             <div className='margin'>
-                <img src={Gita_scolastica_scuola_primaria_arco_d_augusto} alt="Ponte Romano d'Aosta" className='mx-auto my-4' style={{width: 'auto', height: 'auto'}} />
+                <img src={Gita_scolastica_scuola_primaria_arco_d_augusto} alt="" className='mx-auto my-4' style={{width: 'auto', height: 'auto'}} />
                 <h1 className='color-title text-center mb-3'>Scuola Primarie - Informazione e gite scolastiche</h1>
                 <hr className='w-25 border-3'/>
             </div>
