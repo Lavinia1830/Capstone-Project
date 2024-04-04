@@ -44,7 +44,7 @@ export default function Castello_di_Ussel(props) {
                 </div>
                 <Card className="mb-3 margin">
                     <div className="row g-0">
-                        <div className="col-md-8 d-flex align-items-center">
+                        <div className="d-flex align-items-center">
                             <Card.Body>
                                 <Card.Title><h2 className="card-title color-subtitle" id='First_Point_Header'>Storia del Castello di Ussel</h2></Card.Title>
                                 <Card.Text>
@@ -65,47 +65,45 @@ export default function Castello_di_Ussel(props) {
                     </div>
                 </Card>
                 <Card className="mb-3 margin">
-                    <div className="row g-0">
-                        <div className="col-md-8 d-flex align-items-center">
-                            <Card.Body>
-                                <Card.Title><h2 className="card-title color-subtitle" id='Second_Point_Header'>Castello di Ussel la struttura</h2></Card.Title>
-                                <Card.Text>
-                                    Un castello imponente con quattro piani fuori terra, ma all'interno a causa della presenza delle rocce sulle quali è stata costruito i piani utili sono tre. Le facciate sono scandite da eleganti bifore su colonnine
-                                    e stipiti in pietra tutte diverse le une delle altre. L'unica decorazione esterna è una fascia ad archetti ciechi scolpiti in pietra. Agli angoli della facciata svettano due torrette pensili, aggettanti mentre al 
-                                    centro sopra l'ingresso una torretta aggettante con caditoie. Sul lato opposto tre torri rettangolari sporgenti, di cui quella centrale costruisce il mastio simbolo del potente del signore feudale. <br/>
-                                    Il cammino di ronda era protetto da una merlatura e percorre tutto il perimetro del castello.
-                                </Card.Text>
-                                <Card.Text>
-                                    Nonostante l'apparenza e pue essendo protetto su tre lati dello strapiombo della roccia il castello non ha sistemi difensivi importanti. Ebalo probabilmente voveva realizzare più una residenza singolare che 
-                                    un castello difensivo.
-                                </Card.Text>
-                                <Card.Text>
-                                    A causa dei secoli di abbandono il castello subì gravi danni. Si presume che al suo interno fosse diviso in tre vani e che la parte centrale fosse la vera e propria dimora signorile. Le parti laterali ospitavano 
-                                    i locali di servizio, le cucine e le latrine. <br/>
-                                    Il castello veniva scaldato mediamente monumentali camini sovrapposti tra loro in modo da usare un'unica canna fumaria.
-                                </Card.Text>
-                            </Card.Body>
-                            
+                    <div className=" d-flex align-items-center">
+                        <Card.Body>
+                            <Card.Title><h2 className="card-title color-subtitle" id='Second_Point_Header'>Castello di Ussel la struttura</h2></Card.Title>
+                            <Card.Text>
+                                Un castello imponente con quattro piani fuori terra, ma all'interno a causa della presenza delle rocce sulle quali è stata costruito i piani utili sono tre. Le facciate sono scandite da eleganti bifore su colonnine
+                                e stipiti in pietra tutte diverse le une delle altre. L'unica decorazione esterna è una fascia ad archetti ciechi scolpiti in pietra. Agli angoli della facciata svettano due torrette pensili, aggettanti mentre al 
+                                centro sopra l'ingresso una torretta aggettante con caditoie. Sul lato opposto tre torri rettangolari sporgenti, di cui quella centrale costruisce il mastio simbolo del potente del signore feudale. <br/>
+                                Il cammino di ronda era protetto da una merlatura e percorre tutto il perimetro del castello.
+                            </Card.Text>
+                            <Card.Text>
+                                Nonostante l'apparenza e pue essendo protetto su tre lati dello strapiombo della roccia il castello non ha sistemi difensivi importanti. Ebalo probabilmente voveva realizzare più una residenza singolare che 
+                                un castello difensivo.
+                            </Card.Text>
+                            <Card.Text>
+                                A causa dei secoli di abbandono il castello subì gravi danni. Si presume che al suo interno fosse diviso in tre vani e che la parte centrale fosse la vera e propria dimora signorile. Le parti laterali ospitavano 
+                                i locali di servizio, le cucine e le latrine. <br/>
+                                Il castello veniva scaldato mediamente monumentali camini sovrapposti tra loro in modo da usare un'unica canna fumaria.
+                            </Card.Text>
+                        </Card.Body>
+                        
+                    </div>
+                    <div className="d-flex flex-row justify-content-center">
+                        <div className='mx-2'>
+                            <Card.Img src={Arrivando_al_Castello_di_Ussel} className="mb-2"  alt="Attivando al Castello di Ussel" title='Attivando al Castello di Ussel'/>
+                            <p className='text-center'>
+                                Arrivando al Castello di Ussel
+                            </p>
                         </div>
-                        <div className="d-flex flex-row justify-content-center">
-                            <div className='mx-2'>
-                                <Card.Img src={Arrivando_al_Castello_di_Ussel} className="mb-2"  alt="Attivando al Castello di Ussel" title='Attivando al Castello di Ussel'/>
-                                <p className='text-center'>
-                                    Arrivando al Castello di Ussel
-                                </p>
-                            </div>
-                            <div className='mx-2'>
-                                <Card.Img src={Facciata_del_Castello_di_Ussel} className="mb-2"  alt="Affreschi della facciata Cattedrale di Aosta" title='Affreschi della facciata Cattedrale di Aosta'/>
-                                <p className='text-center'>
-                                    Affreschi della facciata Cattedrale di Aosta
-                                </p>
-                            </div>
+                        <div className='mx-2'>
+                            <Card.Img src={Facciata_del_Castello_di_Ussel} className="mb-2"  alt="Affreschi della facciata Cattedrale di Aosta" title='Affreschi della facciata Cattedrale di Aosta'/>
+                            <p className='text-center'>
+                                Affreschi della facciata Cattedrale di Aosta
+                            </p>
                         </div>
                     </div>
                 </Card>
                 <Card className="mb-3 margin">
                     <div className="row g-0">
-                        <div className="col-md-8 d-flex align-items-center">
+                        <div className="d-flex align-items-center">
                             <Card.Body>
                                 <Card.Title><h2 className="card-title color-subtitle" id='Third_Point_Header'>Marcel Bich, l'inventore della biro</h2></Card.Title>
                                 <Card.Text>
@@ -124,7 +122,7 @@ export default function Castello_di_Ussel(props) {
                 </Card>
                 <Card className="mb-3 margin">
                     <div className="row g-0">
-                        <div className="col-md-8 d-flex align-items-center">
+                        <div className="d-flex align-items-center">
                             <Card.Body>
                                 <Card.Title><h2 className="card-title color-subtitle" id='Fourth_Point_Header'>Catello di Ussel e dintorni</h2></Card.Title>
                                 <Card.Text>
@@ -156,7 +154,7 @@ export default function Castello_di_Ussel(props) {
                             <Link href='/chatillon_cosa_vedere' className='text-decoration-none color_link'>Chatillon cosa vedere nel paese dei castelli</Link>
                         </li>
                         <li>
-                            <Link to='/le_piu_belle_passeggiate_lungo_i_ru_della_valle_daosta' className='text-decoration-none color_link'>Le più belle passeggiate lungo i ru della Valle d’Aosta</Link>
+                            <Link href='/le_piu_belle_passeggiate_lungo_i_ru_della_valle_d_aosta' className='text-decoration-none color_link'>Le più belle passeggiate lungo i ru della Valle d’Aosta</Link>
                         </li>
                     </ul>
                 </div>

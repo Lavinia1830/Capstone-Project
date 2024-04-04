@@ -161,7 +161,9 @@ Route::get('/chatillon_cosa_vedere', function () {
     return Inertia::render('Valle_d_Aosta/Chatillon_cosa_vedere');
 })->middleware(['auth', 'verified'])->name('chatillon_cosa_vedere');
 
-
+Route::get('/le_piu_belle_passeggiate_lungo_i_ru_della_valle_d_aosta', function () {
+    return Inertia::render('Valle_d_Aosta/Articoli/Le_passeggiate_lungo_i_ru_della_valle_d_aosta');
+})->middleware(['auth', 'verified'])->name('le_piu_belle_passeggiate_lungo_i_ru_della_valle_d_aosta');
 
 
 
