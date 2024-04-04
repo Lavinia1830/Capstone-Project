@@ -13,7 +13,7 @@ export default function Cattedrale_di_Santa_Maria_Assunta(props) {
     >
         <main>
             <div className='margin'>
-                <img src={Cattedrale_di_S_M_Assunta} alt="Ponte Romano d'Aosta" className='mx-auto my-4' style={{width: 'auto', height: 'auto'}} />
+                <img src={Cattedrale_di_S_M_Assunta} alt="Cattedrale di Santa Maria Assunta" className='mx-auto my-4' style={{width: 'auto', height: 'auto'}} />
                 <h1 className='color-title text-center mb-3'>Cattedrale di Santa Maria Assinta</h1>
                 <hr className='w-25 border-3'/>
             </div>
@@ -40,7 +40,7 @@ export default function Cattedrale_di_Santa_Maria_Assunta(props) {
                     Sul lato settentrionale si trova inoltre il <b>chiostro</b>, realizzato nel XV secolo e che nel XIX secolo venne in parte denominato per lasciare spazio alla cappella del Rosario.
                 </p>
                 <p>
-                    Il <Link to='/visite/museo_del_tesoro' className='text-decoration-none color_link'>Museo del Tesoro</Link>
+                    Il <Link href='/visite/museo_del_tesoro' className='text-decoration-none color_link'>Museo del Tesoro</Link> e gli affreschi ottoniani della Cattedrale sono visibili solo su richiesta.
                 </p>
                 <p>
                     Scopri la <b>visita guidata</b> <Link href='/visite/aosta_romana_e_medievale' className='text-decoration-none color_link'>Aosta romana e medievale</Link>
@@ -67,7 +67,7 @@ export default function Cattedrale_di_Santa_Maria_Assunta(props) {
                         <Link href='/articoli/cosa_vedere_ad_aosta_in_un_giorno' className='text-decoration-none color_link'>Cosa vedere ad Aosta in un giorno</Link>
                     </li>
                     <li>
-                        <Link to='/fiera_di_sant_orso' className='text-decoration-none color_link'>La Millenaria Fiera di Sant'Orso Aosta</Link>
+                        <Link href='/fiera_di_sant_orso' className='text-decoration-none color_link'>La Millenaria Fiera di Sant'Orso Aosta</Link>
                     </li>
                 </ul>
             </div>

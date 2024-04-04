@@ -26,7 +26,7 @@ export default function Artigianato_tradizione_millenaria(props) {
         <main className='row'>
             <div className='col-lg-8'>
                 <div className='margin'>
-                    <img src={Artigianato} alt="Ponte Romano d'Aosta" className='mx-auto my-4' style={{width: 'auto', height: 'auto'}}/>
+                    <img src={Artigianato} alt="" className='mx-auto my-4' style={{width: 'auto', height: 'auto'}}/>
                     <h1 className='color-title text-center mb-3'>Artigianato in Valle d'Aosta, una tradizione millenaria</h1>
                     <hr className='w-25 border-3'/>
                 </div>
@@ -131,14 +131,32 @@ export default function Artigianato_tradizione_millenaria(props) {
                         <div className="d-flex flex-row justify-content-center">
                             <div className='mx-2'>
                                 <Image src={Galletti_tradizionali_valdstani} className="mb-2"  alt="Galletti tradizionali valdostani" title="Galletti tradizionali valdostani"/>
-                                <Image src={Scultura_in_legno_fiera_sant_orso} className="mb-2"  alt="Galletti tradizionali valdostani" title="Galletti tradizionali valdostani"/>
+                                <Image src={Scultura_in_legno_fiera_sant_orso} className="mb-2"  alt="Scultura in legno Fiera Sant Orso Aosta" title="Scultura in legno Fiera Sant Orso Aosta"/>
                             </div>
                             <div className="mx-2">
                                 <Image src={Scultura_fiera_di_sant_orso} className="mb-2"  alt="Scultura fiera di sant orso Aosta" title="Scultura fiera di sant orso Aosta"/>
                                 <Image src={Scultura_legno_fiera_di_sant_orso} className="mb-2"  alt="Scultura fiera di sant orso Aosta" title="Scultura fiera di sant orso Aosta"/>
                             </div>
                         </div>
+                        <div className="card-body">
+                            <p className='card-text'>
+                                Fatevi accompagnare da una <b>guida turistica della Valle d'Aosta</b> alla scoperta delle tradizioni artigiane della Valle d'Aosta per conoscere appieno questo territorio straordinario.
+                            </p>
+                        </div>
                     </div>
+                </div>
+                <div className="margin">
+                    <p>
+                        <b>Contattami per prenotare la vostra visita giudata in Valle d'Aosta</b>
+                    </p>
+                </div>
+                <div className='margin'>
+                    <h3 className='color-subtitle'>Leggi anche</h3>
+                    <ul className="lista">
+                        <li>
+                            <Link href='/fiera_di_sant_orso' className='text-decoration-none color_link'>La Millenaria Fiera di Sant'Orso Aosta</Link>
+                        </li>
+                    </ul>
                 </div>
             </div>
             <CercaComponent/>

@@ -22,7 +22,7 @@ export default function Orari_siti_romani_Aosta(props) {
         <main className='row'>
             <div className='col-lg-8'>
                 <div className='margin'>
-                    <img src={Orari_costi_siti_archeologici} alt="Ponte Romano d'Aosta" className='mx-auto my-4' style={{width: 'auto', height: 'auto'}}/>
+                    <img src={Orari_costi_siti_archeologici} alt="" className='mx-auto my-4' style={{width: 'auto', height: 'auto'}}/>
                     <h1 className='color-title text-center mb-3'>Orari e Tariffe Siti archeologici Valle d'Aosta</h1>
                     <hr className='w-25 border-3'/>
                 </div>

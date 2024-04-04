@@ -13,7 +13,7 @@ export default function Collegiata_di_sant_orso(props) {
     >
         <main>
             <div className='margin'>
-                <img src={Collegiata_Sant_Orso} alt="Ponte Romano d'Aosta" className='mx-auto my-4' style={{width: 'auto', height: 'auto'}} />
+                <img src={Collegiata_Sant_Orso} alt="Colleggiata Sant'Orso Aosta" className='mx-auto my-4' style={{width: 'auto', height: 'auto'}} />
                 <h1 className='color-title text-center mb-3'>Colleggiata di Sant'Orso</h1>
                 <hr className='w-25 border-3'/>
             </div>

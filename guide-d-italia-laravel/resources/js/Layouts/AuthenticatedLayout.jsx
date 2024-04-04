@@ -1,9 +1,10 @@
 import { useState } from 'react';
-
-import Dropdown from '@/Components/Dropdown';
-import ResponsiveNavLink from '@/Components/ResponsiveNavLink';
 import { Link } from '@inertiajs/react';
 import {NavDropdown} from 'react-bootstrap';
+import Dropdown from '@/Components/Dropdown';
+import ResponsiveNavLink from '@/Components/ResponsiveNavLink';
+import ApplicationLogo from '@/Components/ApplicationLogo';
+import NavLink from '@/Components/NavLink';
 
 export default function Authenticated({ auth, header, children }) {
     const [showingNavigationDropdown, setShowingNavigationDropdown] = useState(false);
@@ -16,83 +17,82 @@ export default function Authenticated({ auth, header, children }) {
                         <div className="flex">
                             <div className="shrink-0 flex items-center">
                                 <Link href="/home" className='text-decoration-none text-dark'>
-                                    <strong className=''>Guide d'Italia</strong>
+                                    <ApplicationLogo/>
                                 </Link>
                             </div>
-
-                            <div className="flex items-center hidden space-x-8 md:-my-px md:ml-10 md:flex">
-                                <Link href={route('home')} active={route().current('home')} className="text-decoration-none color_link">
+                            <div className="flex items-center hidden space-x-8 lg:-my-px lg:ml-10 lg:flex">
+                                <NavLink href={route('home')} active={route().current('home')} className="text-decoration-none color_link">
                                     Home
-                                </Link>
-                                <NavDropdown title="Regioni" style={{ marginTop: '2px' }} id="basic-nav-dropdown">
+                                </NavLink>
+                                <NavDropdown title="Regioni" style={{ marginTop: '3px'}} id="basic-nav-dropdown">
                                     <NavDropdown.Item>
-                                        <Link className='text-decoration-none color_link' to="/abruzzo">Abruzzo</Link>
+                                        <NavLink className='text-decoration-none color_link' to="/abruzzo">Abruzzo</NavLink>
                                     </NavDropdown.Item>
                                     <NavDropdown.Item>
-                                        <Link className='text-decoration-none color_link' to="/basilicata">Basilicata</Link>
+                                        <NavLink className='text-decoration-none color_link' to="/basilicata">Basilicata</NavLink>
                                     </NavDropdown.Item>
                                     <NavDropdown.Item>
-                                        <Link className='text-decoration-none color_link' to="/calabria">Calabria</Link>
+                                        <NavLink className='text-decoration-none color_link' to="/calabria">Calabria</NavLink>
                                     </NavDropdown.Item>
                                     <NavDropdown.Item>
-                                        <Link className='text-decoration-none color_link' to="/campania">Campania</Link>
+                                        <NavLink className='text-decoration-none color_link' to="/campania">Campania</NavLink>
                                     </NavDropdown.Item>
                                     <NavDropdown.Item>
-                                        <Link className='text-decoration-none color_link' to="/emilia_romagna">Emilia Romagna</Link>
+                                        <NavLink className='text-decoration-none color_link' to="/emilia_romagna">Emilia Romagna</NavLink>
                                     </NavDropdown.Item>
                                     <NavDropdown.Item>
-                                        <Link className='text-decoration-none color_link' to="/friuli_venezia_giulia">Friuli Venezia Giulia</Link>
+                                        <NavLink className='text-decoration-none color_link' to="/friuli_venezia_giulia">Friuli Venezia Giulia</NavLink>
                                     </NavDropdown.Item>
                                     <NavDropdown.Item>
-                                        <Link className='text-decoration-none color_link' to="/lazio">Lazio</Link>
+                                        <NavLink className='text-decoration-none color_link' to="/lazio">Lazio</NavLink>
                                     </NavDropdown.Item>
                                     <NavDropdown.Item>
-                                        <Link className='text-decoration-none color_link' to="/liguria">Liguria</Link>
+                                        <NavLink className='text-decoration-none color_link' to="/liguria">Liguria</NavLink>
                                     </NavDropdown.Item>
                                     <NavDropdown.Item>
-                                        <Link className='text-decoration-none color_link' to="/lombardia">Lombardia</Link>
+                                        <NavLink className='text-decoration-none color_link' to="/lombardia">Lombardia</NavLink>
                                     </NavDropdown.Item>
                                     <NavDropdown.Item>
-                                        <Link className='text-decoration-none color_link' to="/marche">Marche</Link>
+                                        <NavLink className='text-decoration-none color_link' to="/marche">Marche</NavLink>
                                     </NavDropdown.Item>
                                     <NavDropdown.Item>
-                                        <Link className='text-decoration-none color_link' to="/molise">Molise</Link>
+                                        <NavLink className='text-decoration-none color_link' to="/molise">Molise</NavLink>
                                     </NavDropdown.Item>
                                     <NavDropdown.Item>
-                                        <Link className='text-decoration-none color_link' to="/piemonte">Piemonte</Link>
+                                        <NavLink className='text-decoration-none color_link' to="/piemonte">Piemonte</NavLink>
                                     </NavDropdown.Item>
                                     <NavDropdown.Item>
-                                        <Link className='text-decoration-none color_link' to="/puglia">Puglia</Link>
+                                        <NavLink className='text-decoration-none color_link' to="/puglia">Puglia</NavLink>
                                     </NavDropdown.Item>
                                     <NavDropdown.Item>
-                                        <Link className='text-decoration-none color_link' to="/sardegna">Sardegna</Link>
+                                        <NavLink className='text-decoration-none color_link' to="/sardegna">Sardegna</NavLink>
                                     </NavDropdown.Item>
                                     <NavDropdown.Item>
-                                        <Link className='text-decoration-none color_link' to="/sicilia">Sicilia</Link>
+                                        <NavLink className='text-decoration-none color_link' to="/sicilia">Sicilia</NavLink>
                                     </NavDropdown.Item>
                                     <NavDropdown.Item>
-                                        <Link className='text-decoration-none color_link' to="/toscana">Toscana</Link>
+                                        <NavLink className='text-decoration-none color_link' to="/toscana">Toscana</NavLink>
                                     </NavDropdown.Item>
                                     <NavDropdown.Item>
-                                        <Link className='text-decoration-none color_link' to="/trentino_alto_adige">Trentino Alto Adige</Link>
+                                        <NavLink className='text-decoration-none color_link' to="/trentino_alto_adige">Trentino Alto Adige</NavLink>
                                     </NavDropdown.Item>
                                     <NavDropdown.Item>
-                                        <Link className='text-decoration-none color_link' to="/umbria">Umbria</Link>
+                                        <NavLink className='text-decoration-none color_link' to="/umbria">Umbria</NavLink>
                                     </NavDropdown.Item>
                                     <NavDropdown.Item>
-                                        <Link className='text-decoration-none color_link' href="/valle_d_aosta">Valle d'Aosta</Link>
+                                        <NavLink className='text-decoration-none color_link' href="/valle_d_aosta">Valle d'Aosta</NavLink>
                                     </NavDropdown.Item>
                                     <NavDropdown.Item>
-                                        <Link className='text-decoration-none color_link' to="/veneto">Veneto</Link>
+                                        <NavLink className='text-decoration-none color_link' to="/veneto">Veneto</NavLink>
                                     </NavDropdown.Item>
                                 </NavDropdown>
-                                <Link className='text-decoration-none color_link' to="#link">Mare</Link>
-                                <Link className='text-decoration-none color_link' to="#link">Montagna</Link>
-                                <Link className='text-decoration-none color_link' to="#link">Laghi</Link>
+                                <NavLink className='text-decoration-none color_link' to="#link">Mare</NavLink>
+                                <NavLink className='text-decoration-none color_link' to="#link">Montagna</NavLink>
+                                <NavLink className='text-decoration-none color_link' to="#link">Laghi</NavLink>
                             </div>
                         </div>
 
-                        <div className="hidden md:flex md:items-center md:ml-6">
+                        <div className="hidden lg:flex lg:items-center lg:ml-6">
                             <div className="ml-3 relative">
                                 <Dropdown>
                                     <Dropdown.Trigger>
@@ -120,16 +120,16 @@ export default function Authenticated({ auth, header, children }) {
                                     </Dropdown.Trigger>
 
                                     <Dropdown.Content>
-                                        <Dropdown.Link href={route('profile.edit')}>Profile</Dropdown.Link>
-                                        <Dropdown.Link href={route('logout')} method="post" as="button">
+                                        <ResponsiveNavLink href={route('profile.edit')}>Profile</ResponsiveNavLink>
+                                        <ResponsiveNavLink href={route('logout')} method="post" as="button">
                                             Log Out
-                                        </Dropdown.Link>
+                                        </ResponsiveNavLink>
                                     </Dropdown.Content>
                                 </Dropdown>
                             </div>
                         </div>
 
-                        <div className="-mr-2 flex items-center md:hidden">
+                        <div className="-mr-2 flex items-center lg:hidden">
                             <button
                                 onClick={() => setShowingNavigationDropdown((previousState) => !previousState)}
                                 className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out"
@@ -155,84 +155,85 @@ export default function Authenticated({ auth, header, children }) {
                     </div>
                 </div>
 
-                <div className={(showingNavigationDropdown ? 'block' : 'hidden') + ' md:hidden'}>
+                <div className={(showingNavigationDropdown ? 'block' : 'hidden') + ' lg:hidden'}>
                     <div className="ps-4 pt-2 pb-3 space-y-1">
-                        <Link href={route('home')} active={route().current('home')} className="text-decoration-none color_link">
+                        <NavLink href={route('home')} active={route().current('home')} className="text-decoration-none color_link">
                             Home
-                        </Link>
-                        <NavDropdown title="Regioni" style={{ marginTop: '2px' }} id="basic-nav-dropdown">
+                        </NavLink>
+                        <h6 className='ms-1 fw-bold'>Regioni</h6>
+                        <div className="ms-3">
                             <NavDropdown.Item>
-                                <Link className='text-decoration-none color_link' to="/abruzzo">Abruzzo</Link>
+                                <NavLink className='text-decoration-none color_link' to="/abruzzo">Abruzzo</NavLink>
                             </NavDropdown.Item>
                             <NavDropdown.Item>
-                                <Link className='text-decoration-none color_link' to="/basilicata">Basilicata</Link>
+                                <NavLink className='text-decoration-none color_link' to="/basilicata">Basilicata</NavLink>
                             </NavDropdown.Item>
                             <NavDropdown.Item>
-                                <Link className='text-decoration-none color_link' to="/calabria">Calabria</Link>
+                                <NavLink className='text-decoration-none color_link' to="/calabria">Calabria</NavLink>
                             </NavDropdown.Item>
                             <NavDropdown.Item>
-                                <Link className='text-decoration-none color_link' to="/campania">Campania</Link>
+                                <NavLink className='text-decoration-none color_link' to="/campania">Campania</NavLink>
                             </NavDropdown.Item>
                             <NavDropdown.Item>
-                                <Link className='text-decoration-none color_link' to="/emilia_romagna">Emilia Romagna</Link>
+                                <NavLink className='text-decoration-none color_link' to="/emilia_romagna">Emilia Romagna</NavLink>
                             </NavDropdown.Item>
                             <NavDropdown.Item>
-                                <Link className='text-decoration-none color_link' to="/friuli_venezia_giulia">Friuli Venezia Giulia</Link>
+                                <NavLink className='text-decoration-none color_link' to="/friuli_venezia_giulia">Friuli Venezia Giulia</NavLink>
                             </NavDropdown.Item>
                             <NavDropdown.Item>
-                                <Link className='text-decoration-none color_link' to="/lazio">Lazio</Link>
+                                <NavLink className='text-decoration-none color_link' to="/lazio">Lazio</NavLink>
                             </NavDropdown.Item>
                             <NavDropdown.Item>
-                                <Link className='text-decoration-none color_link' to="/liguria">Liguria</Link>
+                                <NavLink className='text-decoration-none color_link' to="/liguria">Liguria</NavLink>
                             </NavDropdown.Item>
                             <NavDropdown.Item>
-                                <Link className='text-decoration-none color_link' to="/lombardia">Lombardia</Link>
+                                <NavLink className='text-decoration-none color_link' to="/lombardia">Lombardia</NavLink>
                             </NavDropdown.Item>
                             <NavDropdown.Item>
-                                <Link className='text-decoration-none color_link' to="/marche">Marche</Link>
+                                <NavLink className='text-decoration-none color_link' to="/marche">Marche</NavLink>
                             </NavDropdown.Item>
                             <NavDropdown.Item>
-                                <Link className='text-decoration-none color_link' to="/molise">Molise</Link>
+                                <NavLink className='text-decoration-none color_link' to="/molise">Molise</NavLink>
                             </NavDropdown.Item>
                             <NavDropdown.Item>
-                                <Link className='text-decoration-none color_link' to="/piemonte">Piemonte</Link>
+                                <NavLink className='text-decoration-none color_link' to="/piemonte">Piemonte</NavLink>
                             </NavDropdown.Item>
                             <NavDropdown.Item>
-                                <Link className='text-decoration-none color_link' to="/puglia">Puglia</Link>
+                                <NavLink className='text-decoration-none color_link' to="/puglia">Puglia</NavLink>
                             </NavDropdown.Item>
                             <NavDropdown.Item>
-                                <Link className='text-decoration-none color_link' to="/sardegna">Sardegna</Link>
+                                <NavLink className='text-decoration-none color_link' to="/sardegna">Sardegna</NavLink>
                             </NavDropdown.Item>
                             <NavDropdown.Item>
-                                <Link className='text-decoration-none color_link' to="/sicilia">Sicilia</Link>
+                                <NavLink className='text-decoration-none color_link' to="/sicilia">Sicilia</NavLink>
                             </NavDropdown.Item>
                             <NavDropdown.Item>
-                                <Link className='text-decoration-none color_link' to="/toscana">Toscana</Link>
+                                <NavLink className='text-decoration-none color_link' to="/toscana">Toscana</NavLink>
                             </NavDropdown.Item>
                             <NavDropdown.Item>
-                                <Link className='text-decoration-none color_link' to="/trentino_alto_adige">Trentino Alto Adige</Link>
+                                <NavLink className='text-decoration-none color_link' to="/trentino_alto_adige">Trentino Alto Adige</NavLink>
                             </NavDropdown.Item>
                             <NavDropdown.Item>
-                                <Link className='text-decoration-none color_link' to="/umbria">Umbria</Link>
+                                <NavLink className='text-decoration-none color_link' to="/umbria">Umbria</NavLink>
                             </NavDropdown.Item>
                             <NavDropdown.Item>
-                                <Link className='text-decoration-none color_link' href="/valle_d_aosta">Valle d'Aosta</Link>
+                                <NavLink className='text-decoration-none color_link' href="/valle_d_aosta">Valle d'Aosta</NavLink>
                             </NavDropdown.Item>
                             <NavDropdown.Item>
-                                <Link className='text-decoration-none color_link' to="/veneto">Veneto</Link>
+                                <NavLink className='text-decoration-none color_link' to="/veneto">Veneto</NavLink>
                             </NavDropdown.Item>
-                        </NavDropdown>
-                        <Link className='text-decoration-none color_link' to="#link">Mare</Link> <br/>
-                        <Link className='text-decoration-none color_link' to="#link">Montagna</Link> <br/>
-                        <Link className='text-decoration-none color_link' to="#link">Laghi</Link>
+                        </div>
+                        <NavLink className='text-decoration-none color_link' to="#link">Mare</NavLink> <br/>
+                        <NavLink className='text-decoration-none color_link' to="#link">Montagna</NavLink> <br/>
+                        <NavLink className='text-decoration-none color_link' to="#link">Laghi</NavLink>
                     </div>
 
                     <div className="pt-4 pb-1 border-t border-gray-200">
                         <div className="px-4">
-                            <div className="font-medium text-base text-gray-800">
+                            <div className="font-medium fw-bold">
                                 {auth.user.name}
                             </div>
-                            <div className="font-medium text-sm text-gray-500">{auth.user.email}</div>
+                            <div className="font-medium">{auth.user.email}</div>
                         </div>
 
                         <div className="mt-3 space-y-1">

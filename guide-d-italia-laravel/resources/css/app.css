@@ -92,7 +92,16 @@ hr{
     background: url('../assets/Valle_d_Aosta/Chiesa_di_Sant_Orso_Valle_d_Aosta.jpg') center/cover no-repeat;
     padding: 250px;
   }
-  .valle_d_aosta h1, .aosta h1, .castello_fenis h1, .forte_di_bard h1, .s_r_gallie h1, .ponte_romano_pont_saint_martin h1, .fiera_sorso_aosta h1{
+  .valle_d_aosta h1, 
+  .aosta h1, 
+  .castello_fenis h1, 
+  .forte_di_bard h1, 
+  .s_r_gallie h1, 
+  .ponte_romano_pont_saint_martin h1, 
+  .fiera_sorso_aosta h1, 
+  .museo_del_tesoro_aosta h1,
+  .musei_aosta h1,
+  .castello_gamba_img h1{
     color: #fff;
     margin: 0 !important;
   }
@@ -153,7 +162,7 @@ hr{
   /*Inizio Castello dei Fenis*/
     .castello_fenis{
       background: url('../assets/Valle_d_Aosta/Castello_di_Fenis_Valle_d_Aosta.jpg') center/cover no-repeat;
-      padding: 250px;
+      padding: 250px 0;
     }
     .v-guidate{
       border-bottom: 10px solid #626d58;
@@ -203,7 +212,7 @@ hr{
     }
   /*Fine Località Turichiste*/
   /*Inizio Blog*/
-    .carta_l_turistiche, .carta_terrirorio, .carta_castelli, .carta_gite{
+    .carta_l_turistiche, .carta_terrirorio, .carta_castelli, .carta_gite, .carta_musei{
       border-radius: 1em !important;
       width: 300px !important;
     }
@@ -291,6 +300,24 @@ hr{
       padding: 250px;
     }
   /*Fine Fiera di SantOrso Aosta*/
+  /*Inizio Museo del Tesoro ad Aosta*/
+  .museo_del_tesoro_aosta{
+    background: url('../assets/Valle_d_Aosta/Museo_del_tesoro_Valle_d_Aosta.jpg') center/cover no-repeat;
+    padding: 250px;
+  }
+  /*Fine Museo del Tesoro ad Aosta*/
+  /*Inizio Musei Aosta*/
+    .musei_aosta{
+      background: url('../assets/Valle_d_Aosta/Museo_alpino_duca_degli_abruzzi_Valle_d_Aosta.jpg') center/cover no-repeat;
+      padding: 250px 0;
+    }
+  /*Fine Musei Aosta*/
+  /*Inizio Castello Gamba*/
+    .castello_gamba_img{
+      background: url('../assets/Valle_d_Aosta/Castello_Gamba_Valle_d_Aosta.jpg') center/cover no-repeat;
+      padding: 250px 0;
+    }
+  /*Fine Castello Gamba*/
 /*Fine Valle d'Aosta*/
 
 /* ImmagineComponent.css */
@@ -366,33 +393,36 @@ hr{
 }
 
 /*Media Query Tablet*/
-@media screen and (min-width: 426px) and (max-width: 768px){
-  /* Smartphone*/
-  .mappa-smartphone {
-    display: none !important;
-  }
-  /* Desktop*/
-  .mappa-desktop {
-    display: none !important;
-  }
-  .margin{
-    margin: 0 30px;
-  }
-  /*Inizio Blog Valle d'Aosta*/
-    .blog{
-      margin: 0 1% !important;
+  @media screen and (min-width: 426px) and (max-width: 768px){
+    /*Inizio Smartphone*/
+      .mappa-smartphone {
+        display: none !important;
+      }
+    /*Fine Smartphone*/
+    /*Inizio Desktop*/
+      .mappa-desktop {
+        display: none !important;
+      }
+      .margin{
+        margin: 0 30px;
+      }
+    /*Fine Desktop*/
+    /*Inizio Blog Valle d'Aosta*/
+      .blog{
+        margin: 0 1% !important;
+      }
+    /*Fine Blog Valle d'Aosta*/
+    /*Inizio Luoghi visitati Valle d'Aosta*/
+      .my-card{
+        margin-right: 1em !important;
+      }
+    /*Fine Luoghi visitati Valle d'Aosta*/
+    .mappa{
+      width: 350px;
+      height: 300px;
     }
-  /*Fine Blog Valle d'Aosta*/
-  /*Inizio Luoghi visitati Valle d'Aosta*/
-    .my-card{
-      margin-right: 1em !important;
-    }
-  /*Fine Luoghi visitati Valle d'Aosta*/
-  .mappa{
-    width: 350px;
-    height: 300px;
   }
-}
+/*Fine Media Query Tablet*/
 
 .photo-card-city{
     width: 100%;
@@ -400,28 +430,29 @@ hr{
     object-fit: cover;
   }
 
-/*Media Query Desktop*/
-@media screen and (min-width: 769px){
-    /* Smartphone*/
-    .mappa-smartphone {
-      display: none !important;
-    }
-    /* Tablet */
-    .mappa-tablet {
-      display: none !important;
-    }
-    .margin{
-      margin: 0 30px;
-    }
-  .castello_fenis{
-    padding: 250px;
+/*Inizio Media Query Desktop*/
+  @media screen and (min-width: 769px){
+    /*Inizio Smartphone*/
+      .mappa-smartphone {
+        display: none !important;
+      }
+    /*Fine Smartphone*/
+    /*Inizio Tablet*/
+      .mappa-tablet {
+        display: none !important;
+      }
+      .margin{
+        margin: 0 30px;
+      }
+    /*Fine Tablet*/
+    /*Inizio Blog Valle d'Aosta*/
+      .blog{
+        margin: 0 8% !important;
+      }
+    /*Fine Blog Valle d'Aosta*/
+    
   }
-  /*Inizio Blog Valle d'Aosta*/
-    .blog{
-      margin: 0 8% !important;
-    }
-  /*Fine Blog Valle d'Aosta*/
-}
+/*Fine Media Query Desktop*/
 
 @media screen and (min-width: 1400px){
   .container{

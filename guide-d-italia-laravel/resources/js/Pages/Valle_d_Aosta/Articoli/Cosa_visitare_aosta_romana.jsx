@@ -28,7 +28,7 @@ export default function Cosa_visitare_aosta_romana(props) {
       <main className='row'>
         <div className='col-lg-8'>
           <div className='margin'>
-              <img src={Teatro_Romano} alt="Ponte Romano d'Aosta" className='mx-auto my-4' style={{width: 'auto', height: 'auto'}}/>
+              <img src={Teatro_Romano} alt="Teatro romano Aosta" className='mx-auto my-4' style={{width: 'auto', height: 'auto'}}/>
               <h1 className='color-title text-center mb-3'>Aosta Praetoria, visite alla scoperta di Aosta romana</h1>
               <hr className='w-25 border-3'/>
           </div>

@@ -42,7 +42,7 @@ Route::get('/castelli_valle_d_aosta', function () {
 })->middleware(['auth', 'verified'])->name('castelli_valle_d_aosta');
 
 Route::get('/visite/forte_di_bard', function () {
-    return Inertia::render('Valle_d_Aosta/Forte_di_Bard');
+    return Inertia::render('Valle_d_Aosta/Visite/Forte_di_Bard');
 })->middleware(['auth', 'verified'])->name('forte_di_bard');
 
 Route::get('/localita_turistiche', function () {
@@ -136,6 +136,61 @@ Route::get('/fiera_di_sant_orso', function () {
 Route::get('/artigianato_in_valle_d_aosta_una_tradizione_millenaria', function () {
     return Inertia::render('Valle_d_Aosta/Artigianato_tradizione_millenaria');
 })->middleware(['auth', 'verified'])->name('artigianato_in_valle_d_aosta_una_tradizione_millenaria');
+
+Route::get('/visite/museo_del_tesoro', function () {
+    return Inertia::render('Valle_d_Aosta/Visite/Museo_del_tesoro');
+})->middleware(['auth', 'verified'])->name('museo_del_tesoro');
+
+Route::get('/musei_aosta', function () {
+    return Inertia::render('Valle_d_Aosta/Musei_Aosta');
+})->middleware(['auth', 'verified'])->name('museo_aosta');
+
+Route::get('/visite/castello_gamba', function () {
+    return Inertia::render('Valle_d_Aosta/Visite/Castello_Gamba');
+})->middleware(['auth', 'verified'])->name('castello_gamba');
+
+Route::get('/i_castelli_della_valle_d_asota_piu_belli_da_visitare', function () {
+    return Inertia::render('Valle_d_Aosta/I_Castelli_piu_belli_Valle_d_Aosta');
+})->middleware(['auth', 'verified'])->name('i_castelli_della_valle_d_asota_piu_belli_da_visitare');
+
+Route::get('/castello_di_ussel', function () {
+    return Inertia::render('Valle_d_Aosta/Castello_di_Ussel');
+})->middleware(['auth', 'verified'])->name('castello_di_ussel');
+
+Route::get('/chatillon_cosa_vedere', function () {
+    return Inertia::render('Valle_d_Aosta/Chatillon_cosa_vedere');
+})->middleware(['auth', 'verified'])->name('chatillon_cosa_vedere');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');

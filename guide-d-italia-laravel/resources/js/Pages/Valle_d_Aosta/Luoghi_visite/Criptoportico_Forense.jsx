@@ -13,7 +13,7 @@ export default function Criptoportico_Forense(props) {
     >
         <main>
             <div className='margin'>
-                <img src={Criptoportico_Forense_img} alt="Ponte Romano d'Aosta" className='mx-auto my-4' style={{width: 'auto', height: 'auto'}} />
+                <img src={Criptoportico_Forense_img} alt="Criptoportico Forense Aosta" className='mx-auto my-4' style={{width: 'auto', height: 'auto'}} />
                 <h1 className='color-title text-center mb-3'>Criptoportico Forense</h1>
                 <hr className='w-25 border-3'/>
             </div>

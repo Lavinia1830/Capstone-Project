@@ -225,9 +225,9 @@ export default function Aosta_medievale_tra_spiritualità_e_arte(props) {
                         <div className='margin'>
                             <h3 className='color-subtitle'>Leggi anche</h3>
                             <ul className='lista'>
-                            <li>
-                                <Link to='/via_francigena_valle_d_aosta' className='text-decoration-none color_link'>La via Francigena Valle d'Aosta: l'itinerario lungo il primo tratto italiano</Link>
-                            </li>
+                                <li>
+                                    <Link to='/via_francigena_valle_d_aosta' className='text-decoration-none color_link'>La via Francigena Valle d'Aosta: l'itinerario lungo il primo tratto italiano</Link>
+                                </li>
                             </ul>
                         </div>
                     </div>

@@ -24,7 +24,7 @@ export default function Fiera_di_Sant_Orso(props) {
         <main className='row'>
             <div className='col-lg-8'>
                 <div className='margin'>
-                    <img src={Fiera_di_Sant_Orso_Aosta} alt="Ponte Romano d'Aosta" className='mx-auto my-4' style={{width: 'auto', height: 'auto'}}/>
+                    <img src={Fiera_di_Sant_Orso_Aosta} alt="Fiera di Sant'Orso Aosta" className='mx-auto my-4' style={{width: 'auto', height: 'auto'}}/>
                     <h1 className='color-title text-center mb-3'>La Millenaria Fiera di Sant'Orso Aosta</h1>
                     <hr className='w-25 border-3'/>
                 </div>
@@ -54,7 +54,7 @@ export default function Fiera_di_Sant_Orso(props) {
                             <Link href='#Sixth_Point_Header' className='text-decoration-none color_link'>6 Il MAV: Museo dell'Artigianato Valdostano</Link>
                         </li>
                         <li>
-                            <Link href='#Seventh_Point_Header' className='text-decoration-none color_link'>6 Visita guidata durante la Fiera di Sant'Orso</Link>
+                            <Link href='#Seventh_Point_Header' className='text-decoration-none color_link'>7 Visita guidata durante la Fiera di Sant'Orso</Link>
                         </li>
                     </ul>
                 </div>

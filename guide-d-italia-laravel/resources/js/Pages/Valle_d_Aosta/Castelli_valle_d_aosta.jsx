@@ -159,7 +159,7 @@ export default function Castelli_valle_d_aosta(props) {
                                         src={Castello_di_issogne} 
                                     />
                                     <Card.Body>
-                                        <Card.Title className=' border-bottom text-black'>Castello di Fénis</Card.Title>
+                                        <Card.Title className=' border-bottom text-black'>Castello di Issogne</Card.Title>
                                         <Card.Text className='mb-5 text-black'>
                                             <p className='fw-normal'>
                                                 Sontuosa residenza signorile del XV secolo riccamente affrescata dal colto mecenate Giorgio di Challant divenne nel XIX secolo il "Castello dei Sogni".
@@ -220,7 +220,7 @@ export default function Castelli_valle_d_aosta(props) {
                                 </Link>
                             </Card>
                             <Card className='me-2 mb-2 carta_castelli mt-4' >
-                                <Link to="/visite/castello_gamba" className='text-decoration-none'>
+                                <Link href="/visite/castello_gamba" className='text-decoration-none'>
                                     <Card.Img variant="top" 
                                         className={'img_card'} 
                                         src={Castello_Gamba} 

@@ -51,7 +51,8 @@ export default function Fiera_di_SantOrso_Aosta(props) {
             <div className='margin mb-4'>
                 <iframe
                     title="Google Map"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d696.1716093518177!2d7.3196411107710935!3d45.73738283422174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478920b092674883%3A0x76cd9ed3cff37fb4!2sPiazza%20%C3%89mile%20Chanoux%2C%2011100%20Aosta%20AO!5e0!3m2!1sit!2sit!4v1712062726399!5m2!1sit!2sit"                    width="600"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d696.1716093518177!2d7.3196411107710935!3d45.73738283422174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478920b092674883%3A0x76cd9ed3cff37fb4!2sPiazza%20%C3%89mile%20Chanoux%2C%2011100%20Aosta%20AO!5e0!3m2!1sit!2sit!4v1712062726399!5m2!1sit!2sit"
+                    width="600"
                     height="450"
                     style={{ border: 0 }}
                     allowFullScreen=""
