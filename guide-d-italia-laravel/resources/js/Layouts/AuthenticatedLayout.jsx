@@ -59,7 +59,7 @@ export default function Authenticated({ auth, header, children }) {
                                         <NavLink className='text-decoration-none color_link' to="/molise">Molise</NavLink>
                                     </NavDropdown.Item>
                                     <NavDropdown.Item>
-                                        <NavLink className='text-decoration-none color_link' to="/piemonte">Piemonte</NavLink>
+                                        <NavLink className='text-decoration-none color_link' href="/piemonte">Piemonte</NavLink>
                                     </NavDropdown.Item>
                                     <NavDropdown.Item>
                                         <NavLink className='text-decoration-none color_link' to="/puglia">Puglia</NavLink>
@@ -196,7 +196,7 @@ export default function Authenticated({ auth, header, children }) {
                                 <NavLink className='text-decoration-none color_link' to="/molise">Molise</NavLink>
                             </NavDropdown.Item>
                             <NavDropdown.Item>
-                                <NavLink className='text-decoration-none color_link' to="/piemonte">Piemonte</NavLink>
+                                <NavLink className='text-decoration-none color_link' href="/piemonte">Piemonte</NavLink>
                             </NavDropdown.Item>
                             <NavDropdown.Item>
                                 <NavLink className='text-decoration-none color_link' to="/puglia">Puglia</NavLink>

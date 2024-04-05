@@ -89,8 +89,8 @@ hr{
     color: #544343 !important;
   }
   .valle_d_aosta{
-    background: url('../assets/Valle_d_Aosta/Chiesa_di_Sant_Orso_Valle_d_Aosta.jpg') center/cover no-repeat;
-    padding: 250px;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Chiesa_di_Sant_Orso_Valle_d_Aosta.jpg') center/cover no-repeat;
+    padding: 250px 0;
   }
   .valle_d_aosta h1, 
   .aosta h1, 
@@ -101,7 +101,10 @@ hr{
   .fiera_sorso_aosta h1, 
   .museo_del_tesoro_aosta h1,
   .musei_aosta h1,
-  .castello_gamba_img h1{
+  .castello_gamba_img h1,
+  .piemonte h1,
+  .torino h1,
+  .palazzo_reale h1{
     color: #fff;
     margin: 0 !important;
   }
@@ -134,7 +137,7 @@ hr{
       /* width: 100%; */
       height: 400px;
     }
-    .bottone_Valle_d_Aosta{
+    .bottone{
       width: 100%;
       background-color: rgba(0, 0, 0, 0.5);
       padding-top: 20px !important;
@@ -174,7 +177,7 @@ hr{
   /*Inizio Aosta*/
     .aosta{
       background: url('../assets/Valle_d_Aosta/Teatro_Romano_Valle_d_Aosta.jpg') center/cover no-repeat;
-      padding: 250px;
+      padding: 250px 0;
     }
     .container-categorie{
       position: absolute;
@@ -193,7 +196,7 @@ hr{
   /*Inizio Forte di Bard*/
     .forte_di_bard{
       background: url('../assets/Valle_d_Aosta/Forte-di-Bard_Valle_d_Aosta.jpg') center/cover no-repeat;
-      padding: 250px;
+      padding: 250px 0;
     }
   /*Fine Forte di Bard*/
   /*Inizio Luoghi vititati*/
@@ -208,7 +211,7 @@ hr{
   /*Inizio Località Turichiste*/
     .l_turistiche{
       background: url('../assets/Valle_d_Aosta/Borghi_e_localita_turistiche_Valle_d_Aosta.jpg') center/cover no-repeat;
-      padding: 250px;
+      padding: 250px 0;
     }
   /*Fine Località Turichiste*/
   /*Inizio Blog*/
@@ -244,13 +247,13 @@ hr{
   /*Inizio Territorio*/
     .territorio{
       background: url('../assets/Valle_d_Aosta/Valle_del_cervino_Valle_d_Aosta.jpg') center/cover no-repeat;
-      padding: 250px;
+      padding: 250px 0;
     }
   /*Fine Territorio*/
   /*Inizio Ponte Romano Aosta*/
     .s_r_gallie{
       background: url('../assets/Valle_d_Aosta/Strada_romana_delle_gallie_Valle_d_Aosta.jpg') center/cover no-repeat;
-      padding: 250px;
+      padding: 250px 0;
     }
   /*Fine Ponte Romano Aosta*/
   /*Inizio Cosa vedere ad Aosta in un giorno*/
@@ -291,19 +294,19 @@ hr{
   /*Inizio Ponte Romano Pont Saint Martin*/
     .ponte_romano_pont_saint_martin{
       background: url('../assets/Valle_d_Aosta/Ponte_romano_di_pont_saint_martin_Valle_d_Aosta.jpg') center/cover no-repeat;
-      padding: 250px;
+      padding: 250px 0;
     }
   /*Fine Ponte Romano Pont Saint Martin*/
   /*Inizio Fiera di SantOrso Aosta*/
     .fiera_sorso_aosta{
       background: url('../assets/Valle_d_Aosta/Fiera_di_Sant_Orso_Valle_d_Aosta.jpg') center/cover no-repeat;
-      padding: 250px;
+      padding: 250px 0;
     }
   /*Fine Fiera di SantOrso Aosta*/
   /*Inizio Museo del Tesoro ad Aosta*/
   .museo_del_tesoro_aosta{
     background: url('../assets/Valle_d_Aosta/Museo_del_tesoro_Valle_d_Aosta.jpg') center/cover no-repeat;
-    padding: 250px;
+    padding: 250px 0;
   }
   /*Fine Museo del Tesoro ad Aosta*/
   /*Inizio Musei Aosta*/
@@ -343,6 +346,206 @@ hr{
   margin-left: 1em;
 }
 
+/*Inizio Footer*/
+
+  .bg-footer{
+    background-color: #25612C;
+  }
+
+/*Fine Footer*/
+
+
+/*Inizio Piemonte*/
+  .piemonte{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Piemonte.jpg') center/cover no-repeat;
+    padding: 250px 0;
+  }
+  /*Inizio Card Piemonte*/
+    .card_Piemonte{
+      display: flex;
+    }
+    .card_Piemonte:nth-child(1){ 
+      background: url('../assets/Piemonte/Torino.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Piemonte:nth-child(2){ 
+      background: url('../assets/Piemonte/Il_nord_e_i_laghi_maggiore_e_d_orta_Piemonte.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Piemonte:nth-child(3){ 
+      background: url('../assets/Piemonte/Novara_Piemonte.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Piemonte:nth-child(4){ 
+      background: url('../assets/Piemonte/Biella_Piemonte.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Piemonte:nth-child(5){ 
+      background: url('../assets/Piemonte/Vercelli_Piemonte.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Piemonte:nth-child(6){ 
+      background: url('../assets/Piemonte/Canavese_gran_paradiso_e_valli_di_lanzo_Piemonte.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Piemonte:nth-child(7){ 
+      background: url('../assets/Piemonte/Ivrea_Piemonte.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Piemonte:nth-child(8){ 
+      background: url('../assets/Piemonte/Cuneo_Pimonte.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Piemonte:nth-child(9){ 
+      background: url('../assets/Piemonte/Saluzzo_Piemonte.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Piemonte:nth-child(10){ 
+      background: url('../assets/Piemonte/Asti_alessandria_e_il_monferrato_Piemonte.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Piemonte:nth-child(11){ 
+      background: url('../assets/Piemonte/Langhe_e_roero_Piemonte.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+  /*Fine Card Piemonte*/
+  /*Inizion Torino*/
+    .torino {
+      background: url('../assets/Piemonte/Torino.jpg') center/cover no-repeat;
+      padding: 250px 0;
+    }
+    .card_Torino{
+      display: flex;
+    }
+    .card_Torino:nth-child(1){ 
+      background: url('../assets/Piemonte/Palazzo_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Torino:nth-child(2){ 
+      background: url('../assets/Piemonte/Museo_nazionale_del_cinema_Torino_Piemonte.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Torino:nth-child(3){ 
+      background: url('../assets/Piemonte/Museo_egizio_Torino_Piemonte.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Torino:nth-child(4){ 
+      background: url('../assets/Piemonte/Porta_palazzo_e_il_balon_Torino_Piemonte.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Torino:nth-child(5){ 
+      background: url('../assets/Piemonte/Palazzo_madama_Torino_Piemote.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Torino:nth-child(6){ 
+      background: url('../assets/Piemonte/Duomo_di_san_giovanni_Torino_Piemonte.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Torino:nth-child(7){ 
+      background: url('../assets/Piemonte/Po_e_parco_del_valentino_Torino_Piemonte.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Torino:nth-child(8){ 
+      background: url('../assets/Piemonte/Reggia_di_venaria_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Torino:nth-child(9){ 
+      background: url('../assets/Piemonte/Monte_dei_cappuccini_Torino_Piemonte.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Torino:nth-child(10){ 
+      background: url('../assets/Piemonte/Piazza_san_carlo_Torino_Piemonte.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Torino:nth-child(11){ 
+      background: url('../assets/Piemonte/Basilica_di_superga_Torino_Piemonte.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Torino:nth-child(12){ 
+      background: url('../assets/Piemonte/Gran_madre_di_dio_Torino_Piemonte.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Torino:nth-child(13){ 
+      background: url('../assets/Piemonte/Eataly_Torino_Piemonte.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Torino:nth-child(14){ 
+      background: url('../assets/Piemonte/GAM_Torino_Piemonte.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Torino:nth-child(15){ 
+      background: url('../assets/Piemonte/MAO_Torino_Piemonte.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Torino:nth-child(16){ 
+      background: url('../assets/Piemonte/Murazzi_Torino_Piemonte.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Torino:nth-child(17){ 
+      background: url('../assets/Piemonte/Facciata_Palazzo_Carignano_Torino_Piemonte.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Torino:nth-child(18){ 
+      background: url('../assets/Piemonte/Museo_dell_Automobile_Torino_Piemonte.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Torino:nth-child(19){ 
+      background: url('../assets/Piemonte/Museo_delle_Sindole_Torino_Piemonte.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Torino:nth-child(20){ 
+      background: url('../assets/Piemonte/Quadrilatero_romano_Torino_Piemonte.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    /*Inizio Palazzo Reaele*/
+      .palazzo_reale{
+        background: url('../assets/Piemonte/Palazzo_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .carta-percorsi{
+        border-radius: 1em !important;
+        width: 400px !important;
+        height: auto !important;
+      }
+      .photo-pianta{
+        width: 100% !important;
+      }
+    /*Fine Palazzo Reale*/
+  /*Fine Torino*/
+/*Fine Piemonte*/
+
+
 /* Aggiungi una media query per dispositivi con larghezza <= 768px (tablet e smartphone) */
 @media screen and (max-width: 768px) {
   .immagine-container {
@@ -356,13 +559,7 @@ hr{
 }
 
 
-/*Inizio Footer*/
 
-  .bg-footer{
-    background-color: #626d58;
-  }
-
-/*Fine Footer*/
 
 
 /*Media Query Smartphone*/
@@ -417,10 +614,10 @@ hr{
         margin-right: 1em !important;
       }
     /*Fine Luoghi visitati Valle d'Aosta*/
-    .mappa{
-      width: 350px;
-      height: 300px;
-    }
+      .mappa{
+        width: 350px;
+        height: 300px;
+      }
   }
 /*Fine Media Query Tablet*/
 
