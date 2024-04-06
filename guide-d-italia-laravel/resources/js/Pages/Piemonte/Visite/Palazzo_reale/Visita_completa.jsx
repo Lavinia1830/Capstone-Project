@@ -3,6 +3,7 @@ import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout';
 import Footer from '@/Components/Footer';
 import { CardText, CardImg, Image, CardBody, CardTitle } from 'react-bootstrap';
 import {Card} from 'react-bootstrap';
+import Visita_completa_img from '../../../../../assets/Piemonte/Visita_completa_Torino_Piemonte.jpg';
 import Pianta from '../../../../../assets/Piemonte/Palazzo_reale_armeria_reale_e_cappella_della_sindone.jpg';
 import Salone_delle_guardie_svizzere from '../../../../../assets/Piemonte/Salone_delle_guardie_svizzere_Torino_Piemonte.jpg';
 import Sala_del_Consiglio from '../../../../../assets/Piemonte/Sala_del_Consiglio_Torino_Piemonte.jpg';
@@ -11,18 +12,39 @@ import Armeria_Reale from '../../../../../assets/Piemonte/Armeria_Reale_Torino_P
 import Le_armature_dei_Samurai from '../../../../../assets/Piemonte/Le_armature_dei_Samurai_Torino_Piemonte.jpg';
 import Sala_da_Ballo from '../../../../../assets/Piemonte/Sala_da_Ballo_Torino_Piemonte.jpg';
 import Cappella_della_Sindone from '../../../../../assets/Piemonte/Cappella_della_Sindone_Torino_Piemonte.jpg';
+import Bibblioteca_reale from '../../../../../assets/Piemonte/Bibblioteca_reale_Torino_Piemonte.jpg';
 
 
 
 
-export default function Palazzo_reale_armeria_reale_e_cappella_della_sindone(props) {
+
+export default function Visita_completa(props) {
   return (
     <AuthenticatedLayout
         auth={props.auth}
         errors={props.errors}
     >
         <main>
-            <h1 className='color-title text-center'>Palazzo Reale, Armeria reale e cappella della Sindone</h1>
+            <h1 className='color-title text-center'>Museo di Antichità</h1>
+            <Image src={Visita_completa_img} className='mb-3 mx-auto'></Image>
+            <div className='margin mt-3'>
+                <p className='sft-italic'>
+                    I Musei Reali propongono un affascinante itinerario di storia, arte e natura, con testimonianze che datano dalla Preistoria all’età moderna. Il <strong>Palazzo Reale</strong>, centro di comando dei Savoia, conserva ambienti, arredi e opere d’arte realizzati tra Seicento e Novecento.
+                </p>
+                <p>
+                    La facciata cela interni sfarzosi, progettati e decorati da grandi artisti come Daniel Seiter, Claudio Francesco Beaumont, Francesco De Mura, e da noti architetti come Filippo Juvarra e Benedetto Alfieri. <b>L’Armeria Reale</b>, aperta al pubblico nel 1837, accoglie una ricchissima collezione di armi e armature che datano dall’antichità all’Ottocento. 
+                    Dopo un lungo restauro, è visitabile anche la <b>Cappella della Sindone</b>, mirabile architettura barocca progettata da Guarino Guarini nella seconda metà del Seicento.
+                </p>
+                <p>
+                    La <b>Galleria Sabauda</b> conserva grandi capolavori delle principali scuole europee, da van Eyck a Rubens e van Dyck, da Mantegna, a Paolo Veronese, a Orazio Gentileschi, a Guido Reni. La Galleria ha sede nella Manica Nuova di Palazzo Reale e accoglie anche due importanti collezioni: quella di pittura fiamminga e olandese del Principe Eugenio di 
+                    Savoia-Soissons, e quella del finanziere Riccardo Gualino. Il piano terreno è arricchito dalla sezione tematica dedicata alla pittura del Rinascimento in Piemonte. Sull’area archeologica del <b>Teatro Romano</b> si affaccia il <b>Museo di Antichità</b>, fondato nel 1724, che ospita la raccolta nata nel Cinquecento come collezione dinastica e i reperti 
+                    provenienti da scavi condotti sul territorio piemontese, tra i quali il Tesoro di Marengo. 
+                </p>
+                <p>
+                    La <b>Galleria Archeologica</b> arricchisce il percorso, esponendo importanti collezioni del Mediterraneo antico. Infine i <b>Giardini Reali</b>, realizzati dal Duparc e ampliati a fine Seicento da André le Nôtre, sono liberamente accessibili. Con un’estensione di sette ettari, rappresentano il cuore verde del complesso museale.
+                </p>
+            </div>
+            <h2 className='color-title text-center'>Palazzo Reale, Armeria reale e cappella della Sindone</h2>
             <Image src={Pianta} className='mb-3 mx-auto'></Image>
             <div className='margin'>
                 <p className='fst-italic'>
@@ -300,6 +322,32 @@ export default function Palazzo_reale_armeria_reale_e_cappella_della_sindone(pro
                                     All’interno dell’aula si dispiega una fitta trama di simboli: le stelle si alternano agli esagoni, forma ispiratrice della cupola e richiamo all’empireo; le croci alludono alla redenzione dell’umanità. Sui capitelli scolpiti alla 
                                     sommità dei pilastri, compaiono i fiori della passiflora (o fiore della passione), mentre ai rami di ulivo si intrecciano corone di spine. Nel 1694 la Sindone viene trasferita nella cassa dell’altare posto al centro della Cappella e 
                                     progettato dall’ingegnere Antonio Bertola.
+                                </CardText>
+                            </CardBody>
+                        </div>
+                    </div>
+                </Card>
+            </div>
+            <h2 className='color-title text-center'>Biblioteca Reale</h2>
+            
+            <div className='margin'>
+                <Card className="mb-3 margin">
+                    <div className="row g-0">
+                        <div className="col-lg-4">
+                            <CardImg src={Bibblioteca_reale} className='mb-3 mx-auto' alt='Bibblioteca reale Torino'></CardImg>
+                        </div>
+                        <div className="col-lg-8 d-flex align-items-center">
+                            <CardBody>
+                                <CardText className='fst-italic'>
+                                    Nella Biblioteca Reale è conservata una ricca collezioni di volumi a stampa, incunaboli, manoscritti, carte antiche, incisioni e disegni, che compongono un patrimonio di oltre 200.000 beni.
+                                </CardText>
+                                <CardText>
+                                    L’attuale sede, inaugurata nel 1842 durante il regno di Carlo Alberto, trovò spazio nel monumentale salone costruito al di sotto dell’Armeria Reale, riallestito per l’occasione da Pelagio Palagi, che ne disegnò i raffinati arredi e ideò 
+                                    il soggetto della volta, dedicata alle Arti e alle Scienze e decorata a grisaglie con soggetti allegorici e busti di personaggi illustri della cultura europea. Le raccolte della Biblioteca Reale vantano un prezioso nucleo di disegni 
+                                    realizzati da Leonardo Da Vinci, tra i quali il celebre Autoritratto e il Codice sul volo degli uccelli, oltre a numerosi fogli disegnati da importanti artisti: Michelangelo, Giulio Romano, Perin del Vaga, Perugino e Girolamo da Carpi. 
+                                    Il patrimonio della Biblioteca Reale vanta inoltre codici di primario interesse, che testimoniano l’amore dei primi duchi di casa Savoia per i manoscritti miniati e i libri d’ore, con oltre 4.000 esemplari. A questi si aggiungono stampe, 
+                                    incisioni e trattati di carattere militare e geografico, come le carte nautiche del Cinquecento o le incisioni del Theatrum Sabaudiae, strumento di propaganda, pubblicato per la prima volta nel 1682, che illustra monumenti, castelli, 
+                                    possedimenti e località del Piemonte. Alla Biblioteca Reale di Torino appartengono anche collezioni di rilegature, trattati scientifici, raccolte di araldica, album naturalistici e volumi splendidamente decorati destinati a doni di nozze.
                                 </CardText>
                             </CardBody>
                         </div>

@@ -178,19 +178,25 @@ Route::get('/destinazioni/torino', function () {
     return Inertia::render('Piemonte/Destinazioni/Torino');
 })->middleware(['auth', 'verified'])->name('torino');
 
-Route::get('/visite/palazzo_reale', function () {
-    return Inertia::render('Piemonte/Visite/Palazzo_reale');
+Route::get('/visite/torino/palazzo_reale', function () {
+    return Inertia::render('Piemonte/Visite/Torino/Palazzo_reale');
 })->middleware(['auth', 'verified'])->name('palazzo_reale');
 
 Route::get('/visite/torino/palazzo_reale/palazzo_reale_armeria_reale_e_cappella_della_sindone', function () {
     return Inertia::render('Piemonte/Visite/Palazzo_reale/Palazzo_reale_armeria_reale_e_cappella_della_sindone');
 })->middleware(['auth', 'verified'])->name('palazzo_reale_armeria_reale_e_cappella_della_sindone');
 
+Route::get('/visite/torino/palazzo_reale/visita_archeologica', function () {
+    return Inertia::render('Piemonte/Visite/Palazzo_reale/Visita_Archeologica');
+})->middleware(['auth', 'verified'])->name('visita_archeologica');
 
+Route::get('/visite/torino/palazzo_reale/capolavori_della_pittura', function () {
+    return Inertia::render('Piemonte/Visite/Palazzo_reale/Capolavori_della_pittura');
+})->middleware(['auth', 'verified'])->name('capolavori_della_pittura');
 
-
-
-
+Route::get('/visite/torino/palazzo_reale/visita_completa', function () {
+    return Inertia::render('Piemonte/Visite/Palazzo_reale/Visita_completa');
+})->middleware(['auth', 'verified'])->name('visita_completa');
 
 
 
