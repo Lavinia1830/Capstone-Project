@@ -31,7 +31,9 @@ Route::get('/home', function () {
 
 Route::get('/valle_d_aosta', function () {
     return Inertia::render('Valle_d_Aosta');
-})->middleware(['auth', 'verified'])->name('valled_d_aosta');
+})->middleware(['auth', 'verified'])->name('valle_d_aosta');
+
+
 
 Route::get('/visite/aosta_romana_e_medievale', function () {
     return Inertia::render('Valle_d_Aosta/Visite/Aosta_romana_e_medievale');
@@ -168,18 +170,33 @@ Route::get('/le_piu_belle_passeggiate_lungo_i_ru_della_valle_d_aosta', function 
 
 
 
+Route::get('/piemonte', function () {
+    return Inertia::render('Piemonte');
+})->middleware(['auth', 'verified'])->name('piemonte');
 
+Route::get('/destinazioni/torino', function () {
+    return Inertia::render('Piemonte/Destinazioni/Torino');
+})->middleware(['auth', 'verified'])->name('torino');
 
+Route::get('/visite/torino/palazzo_reale', function () {
+    return Inertia::render('Piemonte/Visite/Torino/Palazzo_reale');
+})->middleware(['auth', 'verified'])->name('palazzo_reale');
 
+Route::get('/visite/torino/palazzo_reale/palazzo_reale_armeria_reale_e_cappella_della_sindone', function () {
+    return Inertia::render('Piemonte/Visite/Palazzo_reale/Palazzo_reale_armeria_reale_e_cappella_della_sindone');
+})->middleware(['auth', 'verified'])->name('palazzo_reale_armeria_reale_e_cappella_della_sindone');
 
+Route::get('/visite/torino/palazzo_reale/visita_archeologica', function () {
+    return Inertia::render('Piemonte/Visite/Palazzo_reale/Visita_Archeologica');
+})->middleware(['auth', 'verified'])->name('visita_archeologica');
 
+Route::get('/visite/torino/palazzo_reale/capolavori_della_pittura', function () {
+    return Inertia::render('Piemonte/Visite/Palazzo_reale/Capolavori_della_pittura');
+})->middleware(['auth', 'verified'])->name('capolavori_della_pittura');
 
-
-
-
-
-
-
+Route::get('/visite/torino/palazzo_reale/visita_completa', function () {
+    return Inertia::render('Piemonte/Visite/Palazzo_reale/Visita_completa');
+})->middleware(['auth', 'verified'])->name('visita_completa');
 
 
 
