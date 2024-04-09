@@ -22,7 +22,7 @@ export default function Capolavori_della_pittura(props) {
         errors={props.errors}
     >
         <main>
-            <h1 className='color-title text-center'>Museo di Antichità</h1>
+            <h1 className='color-title text-center'>Galleria Sabauda</h1>
             <Image src={Galleria_Sabauda} className='mb-3 mx-auto'></Image>
             <p className='margin fst-italic'>
                 Fondata nel 1832, la Galleria Sabauda ripercorre la storia della pittura europea dal Tardogotico al Novecento, testimoniando il gusto collezionistico dei Savoia lungo i secoli. Arricchita con importanti acquisizioni, conserva opere di maestri italiani del 

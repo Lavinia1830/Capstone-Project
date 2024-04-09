@@ -130,8 +130,20 @@ export default function Palazzo_reale(props) {
                     </a>
                 </Card>
             </div>
-            
-            
+        </div>
+        <div className='margin mb-4'>
+            <h3 className='color-subtitle text-center'>Mappa</h3>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3334.9399116370937!2d7.6841430174438425!3d45.07283369999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47886d7072d7ea0b%3A0xdf6d7e7371a2af8c!2sPalazzo%20Reale%20di%20Torino!5e1!3m2!1sit!2sit!4v1712565789267!5m2!1sit!2sit"
+                width="600"
+                height="450"
+                style={{ border: 0 }}
+                allowFullScreen=""
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Google Map"
+                className='mx-auto mappa'
+            ></iframe>
         </div>
     </main>
     <Footer/>
