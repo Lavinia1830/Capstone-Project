@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout';
 import { Link } from '@inertiajs/react';
-import {Card, Button} from 'react-bootstrap';
+import {Card, CardBody} from 'react-bootstrap';
 import Footer from '@/Components/Footer';
 
 export default function Torino(props) {
@@ -73,7 +73,7 @@ export default function Torino(props) {
         </div>
         <div className='row d-flex justify-content-center mx-0 mb-4'>
           <Card className='col-sm-12 col-md-6 col-lg-2 px-0 card_Torino'>
-            <Card.Body className='bottone'>
+            <CardBody className='bottone'>
               <Link 
                 className="bottone_link" 
                 href='/visite/torino/palazzo_reale'
@@ -81,10 +81,10 @@ export default function Torino(props) {
                 onMouseLeave={() => setIsHoveredPalazzoReale(false)}
                 >Palazzo Reale {isHoveredPalazzoReale && <i className="bi bi-chevron-right"></i>}
               </Link>
-            </Card.Body>
+            </CardBody>
           </Card>
           <Card className='col-sm-12 col-md-6 col-lg-2 px-0 card_Torino'>
-            <Card.Body className='bottone'>
+            <CardBody className='bottone'>
               <Link 
                 className="bottone_link" 
                 href='/visite/torino/museo_nazionale_del_cinema'
@@ -92,10 +92,10 @@ export default function Torino(props) {
                 onMouseLeave={() => setIsHoveredMuseoCinema(false)}
                 >Museo Nazionale del Cinama {isHoveredMuseoCinema && <i className="bi bi-chevron-right"></i>}
               </Link>
-            </Card.Body>
+            </CardBody>
           </Card>
           <Card className='col-sm-12 col-md-6 col-lg-2 px-0 card_Torino'>
-            <Card.Body className='bottone'>
+            <CardBody className='bottone'>
               <Link 
                 className="bottone_link" 
                 href='/visite/torino/museo_egizio'
@@ -103,21 +103,21 @@ export default function Torino(props) {
                 onMouseLeave={() => setIsHoveredMuseoEgizio(false)}
                 >Museo Egizio {isHoveredMuseoEgizio && <i className="bi bi-chevron-right"></i>}
               </Link>
-            </Card.Body>
+            </CardBody>
           </Card>
           <Card className='col-sm-12 col-md-6 col-lg-2 px-0 card_Torino'>
-            <Card.Body className='bottone'>
+            <CardBody className='bottone'>
               <Link 
                 className="bottone_link" 
-                href='/visite/torino/porta_palazzo_e_il_balon'
+                href='/visite/torino/porta_palazzo_e_il_balôn'
                 onMouseEnter={() => setIsHoveredPortaPalazzo(true)}
                 onMouseLeave={() => setIsHoveredPortaPalazzo(false)}
                 >Porta Palazzo e Il Balôn {isHoveredPortaPalazzo && <i className="bi bi-chevron-right"></i>}
               </Link>
-            </Card.Body>
+            </CardBody>
           </Card>
           <Card className='col-sm-12 col-md-6 col-lg-2 px-0 card_Torino'>
-            <Card.Body className='bottone'>
+            <CardBody className='bottone'>
               <Link 
                 className="bottone_link" 
                 href='/visite/torino/palazzo_madama'
@@ -125,10 +125,10 @@ export default function Torino(props) {
                 onMouseLeave={() => setIsHoveredPalazzoMadama(false)}
                 >Palazzo Madama {isHoveredPalazzoMadama && <i className="bi bi-chevron-right"></i>}
               </Link>
-            </Card.Body>
+            </CardBody>
           </Card>
           <Card className='col-sm-12 col-md-6 col-lg-2 px-0 card_Torino'>
-            <Card.Body className='bottone'>
+            <CardBody className='bottone'>
               <Link 
                 className="bottone_link" 
                 href='/visite/torino/duomo_di_san_giovanni'
@@ -136,10 +136,10 @@ export default function Torino(props) {
                 onMouseLeave={() => setIsHoveredDuomoSanGiovanni(false)}
                 >Duomo di San Giovanni {isHoveredDuomoSanGiovanni && <i className="bi bi-chevron-right"></i>}
               </Link>
-            </Card.Body>
+            </CardBody>
           </Card>
           <Card className='col-sm-12 col-md-6 col-lg-2 px-0 card_Torino'>
-            <Card.Body className='bottone'>
+            <CardBody className='bottone'>
               <Link 
                 className="bottone_link" 
                 href='/visite/torino/po_e_parco_del_valentino'
@@ -147,10 +147,10 @@ export default function Torino(props) {
                 onMouseLeave={() => setIsHoveredPoeParcoValentino(false)}
                 >Po e Parco del Valentino {isHoveredPoeParcoValentino && <i className="bi bi-chevron-right"></i>}
               </Link>
-            </Card.Body>
+            </CardBody>
           </Card>
           <Card className='col-sm-12 col-md-6 col-lg-2 px-0 card_Torino'>
-            <Card.Body className='bottone'>
+            <CardBody className='bottone'>
               <Link 
                 className="bottone_link" 
                 href='/visite/torino/reggia_di_venaria_reale'
@@ -158,10 +158,10 @@ export default function Torino(props) {
                 onMouseLeave={() => setIsHoveredReggiadiVenariareale(false)}
                 >Reggia di Venaria Reale {isHoveredReggiadiVenariareale && <i className="bi bi-chevron-right"></i>}
               </Link>
-            </Card.Body>
+            </CardBody>
           </Card>
           <Card className='col-sm-12 col-md-6 col-lg-2 px-0 card_Torino'>
-            <Card.Body className='bottone'>
+            <CardBody className='bottone'>
               <Link 
                 className="bottone_link" 
                 href='/visite/torino/monte_dei_cappuccini'
@@ -169,10 +169,10 @@ export default function Torino(props) {
                 onMouseLeave={() => setIsHoveredMontedeiCappuccini(false)}
                 >Monte dei Cappuccini {isHoveredMontedeiCappuccini && <i className="bi bi-chevron-right"></i>}
               </Link>
-            </Card.Body>
+            </CardBody>
           </Card>
           <Card className='col-sm-12 col-md-6 col-lg-2 px-0 card_Torino'>
-            <Card.Body className='bottone'>
+            <CardBody className='bottone'>
               <Link 
                 className="bottone_link" 
                 href='/visite/torino/piazza_san_carlo'
@@ -180,10 +180,10 @@ export default function Torino(props) {
                 onMouseLeave={() => setIsHoveredPiazzaSanCarlo(false)}
                 >Piazza San Carlo {isHoveredPiazzaSanCarlo && <i className="bi bi-chevron-right"></i>}
               </Link>
-            </Card.Body>
+            </CardBody>
           </Card>
           <Card className='col-sm-12 col-md-6 col-lg-2 px-0 card_Torino'>
-            <Card.Body className='bottone'>
+            <CardBody className='bottone'>
               <Link 
                 className="bottone_link" 
                 href='/visite/torino/basilica_di_superga'
@@ -191,21 +191,21 @@ export default function Torino(props) {
                 onMouseLeave={() => setIsHoveredBasilicadiSuperga(false)}
                 >Basilica di Superga {isHoveredBasilicadiSuperga && <i className="bi bi-chevron-right"></i>}
               </Link>
-            </Card.Body>
+            </CardBody>
           </Card>
           <Card className='col-sm-12 col-md-6 col-lg-2 px-0 card_Torino'>
-            <Card.Body className='bottone'>
+            <CardBody className='bottone'>
               <Link 
                 className="bottone_link" 
-                href='/visite/torino/chiesa_della_grande_maria_di_dio'
+                href='/visite/torino/chiesa_della_gran_maria_di_dio'
                 onMouseEnter={() => setIsHoveredChiesaGranMadre(true)}
                 onMouseLeave={() => setIsHoveredChiesaGranMadre(false)}
                 >Chiesa della Grande Madre di Dio {isHoveredChiesaGranMadre && <i className="bi bi-chevron-right"></i>}
               </Link>
-            </Card.Body>
+            </CardBody>
           </Card>
           <Card className='col-sm-12 col-md-6 col-lg-2 px-0 card_Torino'>
-            <Card.Body className='bottone'>
+            <CardBody className='bottone'>
               <Link 
                 className="bottone_link" 
                 href='/visite/torino/eataly'
@@ -213,10 +213,10 @@ export default function Torino(props) {
                 onMouseLeave={() => setIsHoveredEataly(false)}
                 >Eataly {isHoveredEataly && <i className="bi bi-chevron-right"></i>}
               </Link>
-            </Card.Body>
+            </CardBody>
           </Card>
           <Card className='col-sm-12 col-md-6 col-lg-2 px-0 card_Torino'>
-            <Card.Body className='bottone'>
+            <CardBody className='bottone'>
               <Link 
                 className="bottone_link" 
                 href='/visite/torino/gam'
@@ -224,21 +224,21 @@ export default function Torino(props) {
                 onMouseLeave={() => setIsHoveredGAM(false)}
                 >GAM {isHoveredGAM && <i className="bi bi-chevron-right"></i>}
               </Link>
-            </Card.Body>
+            </CardBody>
           </Card>
           <Card className='col-sm-12 col-md-6 col-lg-2 px-0 card_Torino'>
-            <Card.Body className='bottone'>
+            <CardBody className='bottone'>
               <Link 
                 className="bottone_link" 
                 href='/visite/torino/museo_d_arte_orientale'
                 onMouseEnter={() => setIsHoveredMAO(true)}
                 onMouseLeave={() => setIsHoveredMAO(false)}
-                >MAO - Museo d'Arte Orientale {isHoveredMAO && <i className="bi bi-chevron-right"></i>}
+                >MAO - Museo di Arte Orientale {isHoveredMAO && <i className="bi bi-chevron-right"></i>}
               </Link>
-            </Card.Body>
+            </CardBody>
           </Card>
           <Card className='col-sm-12 col-md-6 col-lg-2 px-0 card_Torino'>
-            <Card.Body className='bottone'>
+            <CardBody className='bottone'>
               <Link 
                 className="bottone_link" 
                 href='/visite/torino/murazzi'
@@ -246,10 +246,10 @@ export default function Torino(props) {
                 onMouseLeave={() => setIsHoveredMurazzi(false)}
                 >Murazzi {isHoveredMurazzi && <i className="bi bi-chevron-right"></i>}
               </Link>
-            </Card.Body>
+            </CardBody>
           </Card>
           <Card className='col-sm-12 col-md-6 col-lg-2 px-0 card_Torino'>
-            <Card.Body className='bottone'>
+            <CardBody className='bottone'>
               <Link 
                 className="bottone_link" 
                 href='/visite/torino/museo_nazionale_del_risorgimento_italiano'
@@ -257,10 +257,10 @@ export default function Torino(props) {
                 onMouseLeave={() => setIsHoveredMuseoNRisorgimentoI(false)}
                 >Museo Risorgimento Italiano {isHoveredMuseoNRisorgimentoI && <i className="bi bi-chevron-right"></i>}
               </Link>
-            </Card.Body>
+            </CardBody>
           </Card>
           <Card className='col-sm-12 col-md-6 col-lg-2 px-0 card_Torino'>
-            <Card.Body className='bottone'>
+            <CardBody className='bottone'>
               <Link 
                 className="bottone_link" 
                 href='/visite/torino/museo_dell_automobile'
@@ -268,10 +268,10 @@ export default function Torino(props) {
                 onMouseLeave={() => setIsHoveredMuseoAutomobile(false)}
                 >Museo dell'Automobile {isHoveredMuseoAutomobile && <i className="bi bi-chevron-right"></i>}
               </Link>
-            </Card.Body>
+            </CardBody>
           </Card>
           <Card className='col-sm-12 col-md-6 col-lg-2 px-0 card_Torino'>
-            <Card.Body className='bottone'>
+            <CardBody className='bottone'>
               <Link 
                 className="bottone_link" 
                 href='/visite/torino/museo_della_sindone'
@@ -279,18 +279,18 @@ export default function Torino(props) {
                 onMouseLeave={() => setIsHoveredMuseoSindone(false)}
                 >Museo della Sindone {isHoveredMuseoSindone && <i className="bi bi-chevron-right"></i>}
               </Link>
-            </Card.Body>
+            </CardBody>
           </Card>
           <Card className='col-sm-12 col-md-6 col-lg-2 px-0 card_Torino'>
-            <Card.Body className='bottone'>
+            <CardBody className='bottone'>
               <Link 
                 className="bottone_link" 
-                href='/visite/torino/museo_della_sindone'
+                href='/visite/torino/quadrilateo_romano'
                 onMouseEnter={() => setIsHoveredQuadrilateroRomano(true)}
                 onMouseLeave={() => setIsHoveredQuadrilateroRomano(false)}
-                >Museo della Sindone {isHoveredQuadrilateroRomano && <i className="bi bi-chevron-right"></i>}
+                >Quadrilatero romano {isHoveredQuadrilateroRomano && <i className="bi bi-chevron-right"></i>}
               </Link>
-            </Card.Body>
+            </CardBody>
           </Card>
         </div>
       </main>
