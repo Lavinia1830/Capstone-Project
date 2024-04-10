@@ -19,6 +19,7 @@ export default function Piemonte(props) {
     const [isHoveredVercelli, setIsHoveredVercelli] = useState(false);
     const [isHoveredCanavese, setIsHoveredCanavese] = useState(false);
     const [isHoveredIvrea, setIsHoveredIvrea] = useState(false);
+    const [isHoveredVSCPG, setIsHoveredVSCPG] = useState(false);
     const [isHoveredCuneo, setIsHoveredCuneo] = useState(false);
     const [isHoveredSaluzzo, setIsHoveredSaluzzo] = useState(false);
     const [isHoveredAsti, setIsHoveredAsti] = useState(false);
@@ -73,7 +74,7 @@ export default function Piemonte(props) {
                     <Card.Body className='bottone'>
                         <Link 
                             className="bottone_link" 
-                            href='/visite/il_nord_e_i_laghi_maggiore_e_d_orta'
+                            href='/territori/il_nord_e_i_laghi_maggiore_e_d_orta'
                             onMouseEnter={() => setIsHoveredLaghinord(true)}
                             onMouseLeave={() => setIsHoveredLaghinord(false)}
                             >Il nord e i Laghi maggiore... {isHoveredLaghinord && <i className="bi bi-chevron-right"></i>}
@@ -121,7 +122,7 @@ export default function Piemonte(props) {
                     <Card.Body className='bottone'>
                         <Link 
                             className="bottone_link" 
-                            href='/visite/canadese_gran_paradiso_e_valli_di_lanzo'
+                            href='/territori/canadese_gran_paradiso_e_valli_di_lanzo'
                             onMouseEnter={() => setIsHoveredCanavese(true)}
                             onMouseLeave={() => setIsHoveredCanavese(false)}
                             >Canavese, Gran paradiso... {isHoveredCanavese && <i className="bi bi-chevron-right"></i>}
@@ -145,6 +146,18 @@ export default function Piemonte(props) {
                     <Card.Body className='bottone'>
                         <Link 
                             className="bottone_link" 
+                            href='/territori/valle_di_susa_chisone_pallice_germanasca'
+                            onMouseEnter={() => setIsHoveredVSCPG(true)}
+                            onMouseLeave={() => setIsHoveredVSCPG(false)}
+                            >Valle di Susa, Chisone, Pellise... {isHoveredVSCPG && <i className="bi bi-chevron-right"></i>}
+                            
+                        </Link>
+                    </Card.Body>
+                </Card>
+                <Card className='col-sm-12 col-md-6 col-lg-2 px-0 card_Piemonte'>
+                    <Card.Body className='bottone'>
+                        <Link 
+                            className="bottone_link" 
                             href='/destinazioni/cuneo'
                             onMouseEnter={() => setIsHoveredCuneo(true)}
                             onMouseLeave={() => setIsHoveredCuneo(false)}
@@ -157,7 +170,7 @@ export default function Piemonte(props) {
                     <Card.Body className='bottone'>
                         <Link 
                             className="bottone_link" 
-                            href='/destinazioni/Saluzzo'
+                            href='/destinazioni/saluzzo'
                             onMouseEnter={() => setIsHoveredSaluzzo(true)}
                             onMouseLeave={() => setIsHoveredSaluzzo(false)}
                             >Saluzzo {isHoveredSaluzzo && <i className="bi bi-chevron-right"></i>}
@@ -169,7 +182,7 @@ export default function Piemonte(props) {
                     <Card.Body className='bottone'>
                         <Link 
                             className="bottone_link" 
-                            href='/visite/asti_alessandra_e_il_monderrato'
+                            href='/territori/asti_alessandra_e_il_monferrato'
                             onMouseEnter={() => setIsHoveredAsti(true)}
                             onMouseLeave={() => setIsHoveredAsti(false)}
                             >Asti, Alessandria e il Monferrato{isHoveredAsti && <i className="bi bi-chevron-right"></i>}
@@ -181,7 +194,7 @@ export default function Piemonte(props) {
                     <Card.Body className='bottone'>
                         <Link 
                             className="bottone_link" 
-                            href='/visite/langhe_e_roero'
+                            href='/territori/langhe_e_roero'
                             onMouseEnter={() => setIsHoveredLangheeRoero(true)}
                             onMouseLeave={() => setIsHoveredLangheeRoero(false)}
                             >Langhe e Roero {isHoveredLangheeRoero && <i className="bi bi-chevron-right"></i>}
