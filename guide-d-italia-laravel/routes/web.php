@@ -170,33 +170,448 @@ Route::get('/le_piu_belle_passeggiate_lungo_i_ru_della_valle_d_aosta', function 
 
 
 
-Route::get('/piemonte', function () {
-    return Inertia::render('Piemonte');
-})->middleware(['auth', 'verified'])->name('piemonte');
 
-Route::get('/destinazioni/torino', function () {
-    return Inertia::render('Piemonte/Destinazioni/Torino');
-})->middleware(['auth', 'verified'])->name('torino');
+/*Inizio Piemonte */
+    Route::get('/piemonte', function () {
+        return Inertia::render('Piemonte');
+    })->middleware(['auth', 'verified'])->name('piemonte');
 
-Route::get('/visite/torino/palazzo_reale', function () {
-    return Inertia::render('Piemonte/Visite/Torino/Palazzo_reale');
-})->middleware(['auth', 'verified'])->name('palazzo_reale');
+    Route::get('/destinazioni/torino', function () {
+        return Inertia::render('Piemonte/Destinazioni/Torino');
+    })->middleware(['auth', 'verified'])->name('torino');
 
-Route::get('/visite/torino/palazzo_reale/palazzo_reale_armeria_reale_e_cappella_della_sindone', function () {
-    return Inertia::render('Piemonte/Visite/Palazzo_reale/Palazzo_reale_armeria_reale_e_cappella_della_sindone');
-})->middleware(['auth', 'verified'])->name('palazzo_reale_armeria_reale_e_cappella_della_sindone');
+    Route::get('/visite/torino/palazzo_reale', function () {
+        return Inertia::render('Piemonte/Visite/Torino/Palazzo_reale');
+    })->middleware(['auth', 'verified'])->name('palazzo_reale');
 
-Route::get('/visite/torino/palazzo_reale/visita_archeologica', function () {
-    return Inertia::render('Piemonte/Visite/Palazzo_reale/Visita_Archeologica');
-})->middleware(['auth', 'verified'])->name('visita_archeologica');
+    Route::get('/visite/torino/palazzo_reale/palazzo_reale_armeria_reale_e_cappella_della_sindone', function () {
+        return Inertia::render('Piemonte/Visite/Palazzo_reale/Palazzo_reale_armeria_reale_e_cappella_della_sindone');
+    })->middleware(['auth', 'verified'])->name('palazzo_reale_armeria_reale_e_cappella_della_sindone');
 
-Route::get('/visite/torino/palazzo_reale/capolavori_della_pittura', function () {
-    return Inertia::render('Piemonte/Visite/Palazzo_reale/Capolavori_della_pittura');
-})->middleware(['auth', 'verified'])->name('capolavori_della_pittura');
+    Route::get('/visite/torino/palazzo_reale/visita_archeologica', function () {
+        return Inertia::render('Piemonte/Visite/Palazzo_reale/Visita_Archeologica');
+    })->middleware(['auth', 'verified'])->name('visita_archeologica');
 
-Route::get('/visite/torino/palazzo_reale/visita_completa', function () {
-    return Inertia::render('Piemonte/Visite/Palazzo_reale/Visita_completa');
-})->middleware(['auth', 'verified'])->name('visita_completa');
+    Route::get('/visite/torino/palazzo_reale/capolavori_della_pittura', function () {
+        return Inertia::render('Piemonte/Visite/Palazzo_reale/Capolavori_della_pittura');
+    })->middleware(['auth', 'verified'])->name('capolavori_della_pittura');
+
+    Route::get('/visite/torino/palazzo_reale/visita_completa', function () {
+        return Inertia::render('Piemonte/Visite/Palazzo_reale/Visita_completa');
+    })->middleware(['auth', 'verified'])->name('visita_completa');
+
+    Route::get('/visite/torino/palazzo_reale/visita_ai_giardini', function () {
+        return Inertia::render('Piemonte/Visite/Palazzo_reale/Visita_ai_giardini');
+    })->middleware(['auth', 'verified'])->name('visita_ai_giardini');
+
+    Route::get('/visite/torino/museo_nazionale_del_cinema', function () {
+        return Inertia::render('Piemonte/Visite/Torino/Museo_Nazionale_del_Cinema');
+    })->middleware(['auth', 'verified'])->name('museo_nazionale_del_cinema');
+
+    Route::get('/visite/torino/museo_egizio', function () {
+        return Inertia::render('Piemonte/Visite/Torino/Museo_egizio');
+    })->middleware(['auth', 'verified'])->name('museo_egizio');
+
+    Route::get('/visite/torino/porta_palazzo_e_il_balôn', function () {
+        return Inertia::render('Piemonte/Visite/Torino/Porta_Palazzo_e_il_Balôn');
+    })->middleware(['auth', 'verified'])->name('porta_palazzo_e_il_balôn');
+
+    Route::get('/visite/torino/palazzo_madama', function () {
+        return Inertia::render('Piemonte/Visite/Torino/Palazzo_Madama');
+    })->middleware(['auth', 'verified'])->name('palazzo_madama');
+
+    Route::get('/visite/torino/duomo_di_san_giovanni', function () {
+        return Inertia::render('Piemonte/Visite/Torino/Duomo_di_San_Giovanni');
+    })->middleware(['auth', 'verified'])->name('duomo_di_san_giovanni');
+
+    Route::get('/visite/torino/po_e_parco_del_valentino', function () {
+        return Inertia::render('Piemonte/Visite/Torino/Po_e_Parco_del_Valentino');
+    })->middleware(['auth', 'verified'])->name('po_e_parco_del_valentino');
+
+    Route::get('/visite/torino/reggia_di_venaria_reale', function () {
+        return Inertia::render('Piemonte/Visite/Torino/Reggia_di_Venaria_Reale');
+    })->middleware(['auth', 'verified'])->name('reggia_di_venaria_reale');
+
+    Route::get('/visite/torino/reggia_di_venaria_reale/la_reggia', function () {
+        return Inertia::render('Piemonte/Visite/Torino/Reggia_di_Venaria_Reale/La_Reggia');
+    })->middleware(['auth', 'verified'])->name('la_reggia');
+
+    Route::get('/visite/torino/reggia_di_venaria_reale/la_reggia/mappa_interattiva', function () {
+        return Inertia::render('Piemonte/Visite/Torino/Reggia_di_Venaria_Reale/Mappa_interattiva');
+    })->middleware(['auth', 'verified'])->name('mappa_interattiva');
+
+    Route::get('/visite/torino/reggia_di_venaria_reale/la_reggia/breve_storia', function () {
+        return Inertia::render('Piemonte/Visite/Torino/Reggia_di_Venaria_Reale/Breve_Storia');
+    })->middleware(['auth', 'verified'])->name('breve_storia');
+
+    Route::get('/visite/torino/reggia_di_venaria_reale/la_reggia/percorso_espositivo', function () {
+        return Inertia::render('Piemonte/Visite/Torino/Reggia_di_Venaria_Reale/Percorso_Espositivo');
+    })->middleware(['auth', 'verified'])->name('breve_storia');
+
+    Route::get('/visite/torino/monte_dei_cappuccini', function () {
+        return Inertia::render('Piemonte/Visite/Torino/Monte_dei_Cappuccini');
+    })->middleware(['auth', 'verified'])->name('monte_dei_cappuccini');
+
+    Route::get('/visite/torino/piazza_san_carlo', function () {
+        return Inertia::render('Piemonte/Visite/Torino/Piazza_san_Carlo');
+    })->middleware(['auth', 'verified'])->name('piazza_san_carlo');
+
+    Route::get('/visite/torino/basilica_di_superga', function () {
+        return Inertia::render('Piemonte/Visite/Torino/Basilica_di_Superga');
+    })->middleware(['auth', 'verified'])->name('basilica_di_superga');
+
+    Route::get('/visite/torino/chiesa_della_gran_maria_di_dio', function () {
+        return Inertia::render('Piemonte/Visite/Torino/Chiesa_della_gran_madre_di_dio');
+    })->middleware(['auth', 'verified'])->name('chiesa_della_gran_maria_di_dio');
+
+    Route::get('/visite/torino/eataly', function () {
+        return Inertia::render('Piemonte/Visite/Torino/Eataly');
+    })->middleware(['auth', 'verified'])->name('eataly');
+
+    Route::get('/visite/torino/gam', function () {
+        return Inertia::render('Piemonte/Visite/Torino/GAM');
+    })->middleware(['auth', 'verified'])->name('gam');
+
+    Route::get('/visite/torino/museo_d_arte_orientale', function () {
+        return Inertia::render('Piemonte/Visite/Torino/MAO');
+    })->middleware(['auth', 'verified'])->name('museo_d_arte_orientale');
+
+    Route::get('/visite/torino/murazzi', function () {
+        return Inertia::render('Piemonte/Visite/Torino/Murazzi');
+    })->middleware(['auth', 'verified'])->name('murazzi');
+
+    Route::get('/visite/torino/museo_nazionale_del_risorgimento_italiano', function () {
+        return Inertia::render('Piemonte/Visite/Torino/Mn_del_R_italiano');
+    })->middleware(['auth', 'verified'])->name('museo_nazionale_del_risorgimento_italiano');
+
+    Route::get('/visite/torino/museo_dell_automobile', function () {
+        return Inertia::render('Piemonte/Visite/Torino/Museo_dell_Automobile');
+    })->middleware(['auth', 'verified'])->name('museo_dell_automobile');
+
+    Route::get('/visite/torino/museo_della_sindone', function () {
+        return Inertia::render('Piemonte/Visite/Torino/Museo_della_Sindone');
+    })->middleware(['auth', 'verified'])->name('museo_nazionale_del_risorgimento_italiano');
+
+    Route::get('/visite/torino/quadrilateo_romano', function () {
+        return Inertia::render('Piemonte/Visite/Torino/Quadrilatero_Romano');
+    })->middleware(['auth', 'verified'])->name('quadrilateo_romano');
+
+    Route::get('/territori/il_nord_e_i_laghi_maggiore_e_d_orta', function () {
+        return Inertia::render('Piemonte/Territori/Il_nord_e_i_laghi_maggiore_e_d_Orta');
+    })->middleware(['auth', 'verified'])->name('il_nord_e_i_laghi_maggiore_e_d_orta');
+
+    Route::get('/destinazioni/novara', function () {
+        return Inertia::render('Piemonte/Destinazioni/Novara');
+    })->middleware(['auth', 'verified'])->name('novara');
+
+    Route::get('/destinazioni/biella', function () {
+        return Inertia::render('Piemonte/Destinazioni/Biella');
+    })->middleware(['auth', 'verified'])->name('biella');
+
+    Route::get('/destinazioni/vercelli', function () {
+        return Inertia::render('Piemonte/Destinazioni/Vercelli');
+    })->middleware(['auth', 'verified'])->name('vercelli');
+
+    Route::get('/territori/canadese_gran_paradiso_e_valli_di_lanzo', function () {
+        return Inertia::render('Piemonte/Territori/Canavese_Gran_paradiso');
+    })->middleware(['auth', 'verified'])->name('canadese_gran_paradiso_e_valli_di_lanzo');
+
+    Route::get('/destinazioni/ivrea', function () {
+        return Inertia::render('Piemonte/Destinazioni/Ivrea');
+    })->middleware(['auth', 'verified'])->name('ivrea');
+
+    Route::get('/destinazioni/cuneo', function () {
+        return Inertia::render('Piemonte/Destinazioni/Cuneo');
+    })->middleware(['auth', 'verified'])->name('cuneo');
+
+    Route::get('/destinazioni/saluzzo', function () {
+        return Inertia::render('Piemonte/Destinazioni/Saluzzo');
+    })->middleware(['auth', 'verified'])->name('saluzzo');
+
+    Route::get('/territori/asti_alessandra_e_il_monferrato', function () {
+        return Inertia::render('Piemonte/Territori/Asti_Alessandria_e_il_Monferrato');
+    })->middleware(['auth', 'verified'])->name('asti_alessandra_e_il_monferrato');
+
+    Route::get('/territori/valle_di_susa_chisone_pallice_germanasca', function () {
+        return Inertia::render('Piemonte/Territori/Valle_di_Susa_Chisone_Pellice_e_Germanasca');
+    })->middleware(['auth', 'verified'])->name('valle_di_susa_chisone_pallice_germanasca');
+
+    Route::get('/territori/langhe_e_roero', function () {
+        return Inertia::render('Piemonte/Territori/Langhe_e_Roero');
+    })->middleware(['auth', 'verified'])->name('langhe_e_roero');
+/*Fine Piemonte */
+
+
+/*Inizio Lombardia*/
+    Route::get('/lombardia', function () {
+        return Inertia::render('Lombardia');
+    })->middleware(['auth', 'verified'])->name('lombardia');
+    /*Inzio Milano*/
+        Route::get('/destinazioni/milano', function () {
+            return Inertia::render('Lombardia/Destinazioni/Milano');
+        })->middleware(['auth', 'verified'])->name('milano');
+
+        Route::get('/visite/milano/duomo', function () {
+            return Inertia::render('Lombardia/Visite/Duomo');
+        })->middleware(['auth', 'verified'])->name('duomo');
+
+        Route::get('/visite/milano/castello_sforzesco', function () {
+            return Inertia::render('Lombardia/Visite/Castello_Sforzesco');
+        })->middleware(['auth', 'verified'])->name('castello_sforzesco');
+
+        Route::get('/visite/milano/pinacoteca_di_brera', function () {
+            return Inertia::render('Lombardia/Visite/Pinacoteca_di_Brea');
+        })->middleware(['auth', 'verified'])->name('pinacoteca_di_brera');
+
+        Route::get('/visite/milano/cenacolo_vinciano', function () {
+            return Inertia::render('Lombardia/Visite/Cenacolo_Vinciano');
+        })->middleware(['auth', 'verified'])->name('cenacolo_vinciano');
+
+        Route::get('/visite/milano/museo_nazionale_della_scienza_e_della_tecnologia_leonardo_da_vinci', function () {
+            return Inertia::render('Lombardia/Visite/Museo_Nazionale_della_scienza_e_della_tecnologia_Leonrdo_da_Vinci');
+        })->middleware(['auth', 'verified'])->name('museo_nazionale_della_scienza_e_della_tecnologia_leonardo_da_vinci');
+
+        Route::get('/visite/milano/museo_civico_di_storia_naturale', function () {
+            return Inertia::render('Lombardia/Visite/Museo_civico_di_storia_naturale');
+        })->middleware(['auth', 'verified'])->name('museo_civico_di_storia_naturale');
+
+        Route::get('/visite/milano/cimitero_monumentale', function () {
+            return Inertia::render('Lombardia/Visite/Cimitero_Monumentale');
+        })->middleware(['auth', 'verified'])->name('cimitero_monumentale');
+
+        Route::get('/visite/milano/dolce_e_gabbana', function () {
+            return Inertia::render('Lombardia/Visite/Dolce_e_Gabbana');
+        })->middleware(['auth', 'verified'])->name('dolce_e_gabbana');
+
+        Route::get('/visite/milano/museo_teatrale_alla_scala', function () {
+            return Inertia::render('Lombardia/Visite/Museo_teatrale_alla_scala');
+        })->middleware(['auth', 'verified'])->name('museo_teatrale_alla_scala');
+
+        Route::get('/visite/milano/fondazione_prada', function () {
+            return Inertia::render('Lombardia/Visite/Fondazione_Prada');
+        })->middleware(['auth', 'verified'])->name('fondazione_prada');
+    /*Fine Milano*/
+    /*Inizio Brescia*/
+        Route::get('/destinazioni/brescia', function () {
+            return Inertia::render('Lombardia/Destinazioni/Brescia');
+        })->middleware(['auth', 'verified'])->name('brescia');
+
+        Route::get('/visite/brescia/castello_di_brescia', function () {
+            return Inertia::render('Lombardia/Visite/Castello_di_Brescia');
+        })->middleware(['auth', 'verified'])->name('castello_di_brescia');
+
+        Route::get('/visite/brescia/museo_di_santa_giulia', function () {
+            return Inertia::render('Lombardia/Visite/Museo_di_Santa_Giulia');
+        })->middleware(['auth', 'verified'])->name('museo_di_santa_giulia');
+
+        Route::get('/visite/brescia/palazzo_martinengo_di_brescia', function () {
+            return Inertia::render('Lombardia/Visite/Palazzo_Martinengo_di_Brescia');
+        })->middleware(['auth', 'verified'])->name('palazzo_martinengo_di_brescia');
+
+        Route::get('/visite/brescia/piazza_arnaldo', function () {
+            return Inertia::render('Lombardia/Visite/Piazza_Arnaldo');
+        })->middleware(['auth', 'verified'])->name('piazza_arnaldo');
+    /*Fine Brescia*/
+    /*Inizio Bergamo*/
+        Route::get('/destinazioni/bergamo', function () {
+            return Inertia::render('Lombardia/Destinazioni/Bergamo');
+        })->middleware(['auth', 'verified'])->name('bergamo');
+
+        Route::get('/visite/bergamo/piazza_mercato_delle_scarpe', function () {
+            return Inertia::render('Lombardia/Visite/Piazza_Mercato_delle_scarpe');
+        })->middleware(['auth', 'verified'])->name('piazza_mercato_delle_scarpe');
+
+        Route::get('/visite/bergamo/piazza_vecchia', function () {
+            return Inertia::render('Lombardia/Visite/Piazza_Vecchia');
+        })->middleware(['auth', 'verified'])->name('piazza_vecchia');
+
+        Route::get('/visite/bergamo/palazzo_della_regione', function () {
+            return Inertia::render('Lombardia/Visite/Palazzo_della_Regione');
+        })->middleware(['auth', 'verified'])->name('palazzo_della_regione');
+
+        Route::get('/visite/bergamo/museo_e_tesoro_della_cattedrale', function () {
+            return Inertia::render('Lombardia/Visite/Museo_e_Tesoro_della_Cattedrale');
+        })->middleware(['auth', 'verified'])->name('museo_e_tesoro_della_cattedrale');
+    
+        Route::get('/visite/bergamo/accademia_carrara', function () {
+            return Inertia::render('Lombardia/Visite/Accademia_Carrara');
+        })->middleware(['auth', 'verified'])->name('accademia_carrara');
+    
+        Route::get('/visite/bergamo/palazzo_e_giardini_moroni', function () {
+            return Inertia::render('Lombardia/Visite/Palazzo_e_Giardini_Moroni');
+        })->middleware(['auth', 'verified'])->name('palazzo_e_giardini_moroni');
+    
+        Route::get('/visite/bergamo/cappella_colleoni', function () {
+            return Inertia::render('Lombardia/Visite/Cappella_Colleoni');
+        })->middleware(['auth', 'verified'])->name('cappella_colleoni');
+    /*Fine Bergamo*/
+/*Fine Lombardia */
+
+/*Inizio Liguria*/
+    Route::get('/liguria', function () {
+        return Inertia::render('Liguria');
+    })->middleware(['auth', 'verified'])->name('liguria');
+
+    Route::get('/destinazioni/genova', function () {
+        return Inertia::render('Liguria/Destinazioni/Genova');
+    })->middleware(['auth', 'verified'])->name('genova');
+
+    Route::get('/destinazioni/camogli', function () {
+        return Inertia::render('Liguria/Destinazioni/Camogli');
+    })->middleware(['auth', 'verified'])->name('camogli');
+
+    Route::get('/destinazioni/golfo_del_tigullio', function () {
+        return Inertia::render('Liguria/Destinazioni/Camogli');
+    })->middleware(['auth', 'verified'])->name('golfo_del_tigullio');
+
+    Route::get('/destinazioni/abbazia_di_san_fruttuoso', function () {
+        return Inertia::render('Liguria/Destinazioni/Camogli');
+    })->middleware(['auth', 'verified'])->name('abbazia_di_san_fruttuoso');
+    /*Inizio Genova*/
+        Route::get('/visite/genova/acquario_di_genova', function () {
+            return Inertia::render('Liguria/Visite/Acquario_di_Genova');
+        })->middleware(['auth', 'verified'])->name('acquario_di_genova');
+
+        Route::get('/visite/genova/lanterna_di_genova', function () {
+            return Inertia::render('Liguria/Visite/Lanterna_di_Genova');
+        })->middleware(['auth', 'verified'])->name('lanterna_di_genova');
+
+        Route::get('/visite/genova/museo_di_palazzo_reale', function () {
+            return Inertia::render('Liguria/Visite/Museo_di_Palazzo_Reale');
+        })->middleware(['auth', 'verified'])->name('museo_di_palazzo_reale');
+
+        Route::get('/visite/genova/palazzo_ducale_di_genova', function () {
+            return Inertia::render('Liguria/Visite/Palazzo_ducale_di_Genova');
+        })->middleware(['auth', 'verified'])->name('palazzo_ducale_di_genova');
+        /*Inizio Palazzo Ducale di Genova*/
+            Route::get('/visite/genova/palazzo_ducale_di_genova/facciata_piazza_matteotti', function () {
+                return Inertia::render('Liguria/Visite/Palazzo_ducale_di_Genova/Facciata_piazza_Matteotti');
+            })->middleware(['auth', 'verified'])->name('facciata_piazza_matteotti');
+
+            Route::get('/visite/genova/palazzo_ducale_di_genova/la_torre_e_le_carceri', function () {
+                return Inertia::render('Liguria/Visite/Palazzo_ducale_di_Genova/La_torre_e_le_carceri');
+            })->middleware(['auth', 'verified'])->name('la_torre_e_le_carceri');
+
+            Route::get('/visite/genova/palazzo_ducale_di_genova/i_saloni', function () {
+                return Inertia::render('Liguria/Visite/Palazzo_ducale_di_Genova/I_Saloni');
+            })->middleware(['auth', 'verified'])->name('i_saloni');
+
+            Route::get('/visite/genova/palazzo_ducale_di_genova/la_cappella', function () {
+                return Inertia::render('Liguria/Visite/Palazzo_ducale_di_Genova/La_Cappella');
+            })->middleware(['auth', 'verified'])->name('la_cappella');
+        /*Fine Palazzo Ducale di Genova*/
+        Route::get('/visite/genova/villa_durazzo_pallavicini', function () {
+            return Inertia::render('Liguria/Visite/Villa_Durazzo_Pallavicini');
+        })->middleware(['auth', 'verified'])->name('villa_durazzo_pallavicini');
+
+        Route::get('/visite/genova/cimitero_monumentale_di_staglieno', function () {
+            return Inertia::render('Liguria/Visite/Cimitero_Monumentale_di_Staglieno');
+        })->middleware(['auth', 'verified'])->name('cimitero_monumentale_di_staglieno');
+        
+        Route::get('/visite/genova/palazzo_della_meridiana_di_genova', function () {
+            return Inertia::render('Liguria/Visite/Palazzo_della_Meridiana');
+        })->middleware(['auth', 'verified'])->name('palazzo_della_meridiana_di_genova');
+        
+        Route::get('/visite/genova/l_ascensore_castello_d_albertis_montegalletto', function () {
+            return Inertia::render('Liguria/Visite/Ascensore_Castello_d_Albertis_Montegalletto');
+        })->middleware(['auth', 'verified'])->name('l_ascensore_castello_d_albertis_montegalletto');
+        
+        Route::get('/visite/genova/truogoli_di_santa_brigida', function () {
+            return Inertia::render('Liguria/Visite/Truogoli_di_Santa_Brigida');
+        })->middleware(['auth', 'verified'])->name('truogoli_di_santa_brigida');
+        
+        Route::get('/visite/genova/quartiere_del_carmine', function () {
+            return Inertia::render('Liguria/Visite/Quartiere_del_Carmine');
+        })->middleware(['auth', 'verified'])->name('quartiere_del_carmine');
+
+        Route::get('/visite/genova/ascensore_spianata_castelletto', function () {
+            return Inertia::render('Liguria/Visite/Ascensore_Spianata_Castelletto');
+        })->middleware(['auth', 'verified'])->name('ascensore_spianata_castelletto');
+
+        Route::get('/visite/genova/porto_antico_di_genova', function () {
+            return Inertia::render('Liguria/Visite/Porto_Antico_di_Genova');
+        })->middleware(['auth', 'verified'])->name('porto_antico_di_genova');
+
+        Route::get('/visite/genova/chiesa_del_gesu', function () {
+            return Inertia::render('Liguria/Visite/Chiesa_di_Gesu');
+        })->middleware(['auth', 'verified'])->name('chiesa_del_gesu');
+    /*Fine Genova*/
+    /*Inizio Camogli*/
+        Route::get('/visite/camongli/golfo_paradiso', function () {
+            return Inertia::render('Liguria/Visite/Golfo_Paradiso');
+        })->middleware(['auth', 'verified'])->name('golfo_paradiso');
+
+        Route::get('/visite/camongli/castello_della_dragonaria', function () {
+            return Inertia::render('Liguria/Visite/Castello_della_Dragonaria');
+        })->middleware(['auth', 'verified'])->name('castello_della_dragonaria');
+    /*Fine Camogli*/
+/*Fine Liguria*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
