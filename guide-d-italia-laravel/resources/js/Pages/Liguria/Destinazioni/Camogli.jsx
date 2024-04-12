@@ -9,6 +9,8 @@ export default function Camogli(props) {
     const [isHoveredGolfoParadiso, setIsHoveredGolfoParadiso] = useState(false);
     const [isHoveredCastelloDragonaria, setIsHoveredCastelloDragonaria] = useState(false);
     const [isHoveredMuseoMarinaro, setIsHoveredMuseoMarinaro] = useState(false);
+    const [isHoveredASantaFruttuoso, setIsHoveredASantaFruttuoso] = useState(false);
+
 
     return (
         <AuthenticatedLayout
@@ -71,10 +73,21 @@ export default function Camogli(props) {
                             </Link>
                             </CardBody>
                         </Card>
+                        <Card className='col-sm-12 col-md-6 col-lg-2 px-0 card_Camogli'>
+                            <CardBody className='bottone'>
+                            <Link 
+                                className="bottone_link" 
+                                href='/visite/camongli/abbazia_di_san_fruttuoso'
+                                onMouseEnter={() => setIsHoveredASantaFruttuoso(true)}
+                                onMouseLeave={() => setIsHoveredASantaFruttuoso(false)}
+                                >Abbazia di San Fruttuoso {isHoveredASantaFruttuoso && <i className="bi bi-chevron-right"></i>}
+                            </Link>
+                            </CardBody>
+                        </Card>
                     </div>
                 </div>
             </main>
             <Footer/>
         </AuthenticatedLayout>
-  )
+    )
 }
