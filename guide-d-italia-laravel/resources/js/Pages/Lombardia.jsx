@@ -1,7 +1,7 @@
 import React, {useState}  from 'react';
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout';
 import Footer from '@/Components/Footer';
-import {Card, Button} from 'react-bootstrap';
+import {Card, CardBody} from 'react-bootstrap';
 import { Link } from '@inertiajs/react';
 
 export default function Lombardia(props) {
@@ -28,7 +28,7 @@ export default function Lombardia(props) {
             </div>
             <div className='row d-flex justify-content-center mx-0 mb-4'>
                 <Card className='col-sm-12 col-md-6 col-lg-2 px-0 card_Lombardia'>
-                    <Card.Body className='bottone'>
+                    <CardBody className='bottone'>
                         <Link 
                             className="bottone_link" 
                             href='/destinazioni/milano'
@@ -36,10 +36,10 @@ export default function Lombardia(props) {
                             onMouseLeave={() => setIsHoveredMilano(false)}
                             >Milano {isHoveredMilano && <i className="bi bi-chevron-right"></i>}
                         </Link>
-                    </Card.Body>
+                    </CardBody>
                 </Card>
                 <Card className='col-sm-12 col-md-6 col-lg-2 px-0 card_Lombardia'>
-                    <Card.Body className='bottone'>
+                    <CardBody className='bottone'>
                         <Link 
                             className="bottone_link" 
                             href='/destinazioni/brescia'
@@ -47,10 +47,10 @@ export default function Lombardia(props) {
                             onMouseLeave={() => setIsHoveredBrescia(false)}
                             >Brescia {isHoveredBrescia && <i className="bi bi-chevron-right"></i>}
                         </Link>
-                    </Card.Body>
+                    </CardBody>
                 </Card>
                 <Card className='col-sm-12 col-md-6 col-lg-2 px-0 card_Lombardia'>
-                    <Card.Body className='bottone'>
+                    <CardBody className='bottone'>
                         <Link 
                             className="bottone_link" 
                             href='/destinazioni/bergamo'
@@ -58,7 +58,7 @@ export default function Lombardia(props) {
                             onMouseLeave={() => setIsHoveredBergamo(false)}
                             >Bergamo {isHoveredBergamo && <i className="bi bi-chevron-right"></i>}
                         </Link>
-                    </Card.Body>
+                    </CardBody>
                 </Card>
             </div>
         </main>
