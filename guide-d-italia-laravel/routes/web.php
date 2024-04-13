@@ -547,9 +547,118 @@ Route::get('/le_piu_belle_passeggiate_lungo_i_ru_della_valle_d_aosta', function 
     /*Fine Camogli*/
 /*Fine Liguria*/
 
+/*Inizio Trentino Alto Adige*/
+    Route::get('/trentino_alto_adige', function () {
+        return Inertia::render('Trentino_Alto_Adige');
+    })->middleware(['auth', 'verified'])->name('trentino_alto_adige');
 
+    Route::get('/destinazioni/trento', function () {
+        return Inertia::render('Trentino_Alto_Adige/Destinazioni/Trento');
+    })->middleware(['auth', 'verified'])->name('trento');
+    /*Inizio Trento*/
+        Route::get('/visite/trento/castello_del_buonconsiglio', function () {
+            return Inertia::render('Trentino_Alto_Adige/Visite/Castello_del_Buonconsiglio');
+        })->middleware(['auth', 'verified'])->name('trento');
 
+        Route::get('/visite/trento/tridentum', function () {
+            return Inertia::render('Trentino_Alto_Adige/Visite/Tridentum');
+        })->middleware(['auth', 'verified'])->name('tridentum');
 
+        Route::get('/visite/trento/museo_diocesano_tridentino', function () {
+            return Inertia::render('Trentino_Alto_Adige/Visite/Museo_Diocesano_Tridentino');
+        })->middleware(['auth', 'verified'])->name('museo_diocesano_tridentino');
+
+        Route::get('/visite/trento/museo_delle_scienze', function () {
+            return Inertia::render('Trentino_Alto_Adige/Visite/MUSE');
+        })->middleware(['auth', 'verified'])->name('museo_delle_scienze');
+
+        Route::get('/visite/trento/piazza_del_duomo', function () {
+            return Inertia::render('Trentino_Alto_Adige/Visite/Piazza_del_Duomo');
+        })->middleware(['auth', 'verified'])->name('piazza_del_duomo');
+
+        Route::get('/visite/trento/cappella_del_crocifisso', function () {
+            return Inertia::render('Trentino_Alto_Adige/Visite/Cappella_del_Crocifisso');
+        })->middleware(['auth', 'verified'])->name('cappella_del_crocifisso');
+
+        Route::get('/visite/trento/concilio', function () {
+            return Inertia::render('Trentino_Alto_Adige/Visite/Concilio');
+        })->middleware(['auth', 'verified'])->name('concilio');
+
+        Route::get('/visite/trento/palazzo_cazuffi', function () {
+            return Inertia::render('Trentino_Alto_Adige/Visite/Palazzo_Cazuffi');
+        })->middleware(['auth', 'verified'])->name('palazzo_cazuffi');
+
+        Route::get('/visite/trento/torre_civica', function () {
+            return Inertia::render('Trentino_Alto_Adige/Visite/Torre_Civica');
+        })->middleware(['auth', 'verified'])->name('torre_civica');
+
+        Route::get('/visite/trento/fontana_di_nettuno', function () {
+            return Inertia::render('Trentino_Alto_Adige/Visite/Fontana_di_Nettuno');
+        })->middleware(['auth', 'verified'])->name('fontana_di_nettuno');
+
+        Route::get('/laghi/lago_di_garda', function () {
+            return Inertia::render('Laghi/Lago_di_Garda');
+        })->middleware(['auth', 'verified'])->name('lago_di_garda');
+
+        Route::get('/montagna/monte_bondone', function () {
+            return Inertia::render('Montagna/Monte_Bondone');
+        })->middleware(['auth', 'verified'])->name('monte_bondone');
+
+        Route::get('/fiumi/fiume_adige', function () {
+            return Inertia::render('Fiumi/Fiume_Adige');
+        })->middleware(['auth', 'verified'])->name('fiume_adige');
+    /*Fine Trento*/
+    /*Inizio Rovereto*/
+        Route::get('/destinazioni/rovereto', function () {
+            return Inertia::render('Trentino_Alto_Adige/Destinazioni/Rovereto');
+        })->middleware(['auth', 'verified'])->name('rovereto');
+
+        Route::get('/visite/rovereto/mart_museo_di_arte_moderna_e_contemporanea', function () {
+            return Inertia::render('Trentino_Alto_Adige/Visite/Mart');
+        })->middleware(['auth', 'verified'])->name('mart_museo_di_arte_moderna_e_contemporanea');
+    /*Fine Rovereto*/
+/*Fine Trentino Alto Adige*/
+
+/*Inizio Veneto*/
+    Route::get('/veneto', function () {
+        return Inertia::render('Veneto');
+    })->middleware(['auth', 'verified'])->name('veneto');
+
+    Route::get('/destinazioni/venezia', function () {
+        return Inertia::render('Veneto/Destinazioni/Venezia');
+    })->middleware(['auth', 'verified'])->name('venezia');
+    /*Inizio Venezia*/
+        Route::get('/visite/venezia/basilica_di_san_marco', function () {
+            return Inertia::render('Veneto/Visite/Basilica_di_San_Marco');
+        })->middleware(['auth', 'verified'])->name('basilica_di_san_marco');
+
+        Route::get('/visite/venezia/palazzo_ducale', function () {
+            return Inertia::render('Veneto/Visite/Palazzo_Ducale');
+        })->middleware(['auth', 'verified'])->name('palazzo_ducale');
+
+        Route::get('/visite/venezia/peggy_guggenheim_collection', function () {
+            return Inertia::render('Veneto/Visite/Peggy_Guggenheim_Collection');
+        })->middleware(['auth', 'verified'])->name('peggy_guggenheim_collection');
+
+        Route::get('/visite/venezia/il_ghetto', function () {
+            return Inertia::render('Veneto/Visite/Il_Ghetto');
+        })->middleware(['auth', 'verified'])->name('il_ghetto');
+
+        Route::get('/visite/venezia/ponte_di_rialto', function () {
+            return Inertia::render('Veneto/Visite/Ponte_di_Rialto');
+        })->middleware(['auth', 'verified'])->name('ponte_di_rialto');
+
+        Route::get('/visite/venezia/punta_della_dogana', function () {
+            return Inertia::render('Veneto/Visite/Punta_della_Dogana');
+        })->middleware(['auth', 'verified'])->name('punta_della_dogana');
+
+        Route::get('/visite/venezia/ca_d_oro', function () {
+            return Inertia::render('Veneto/Visite/Ca_d_Oro');
+        })->middleware(['auth', 'verified'])->name('ca_d_oro');
+    /*Fine Venezia*/
+/*Fine Veneto*/
+
+    
 
 
 
