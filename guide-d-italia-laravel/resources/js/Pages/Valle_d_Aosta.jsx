@@ -15,17 +15,17 @@ import Valdigne_e_Veduta_del_Monte_Bianco from '../../assets/Valle_d_Aosta/Valdi
 export default function Valle_d_Aosta(props) {
 
     const [isHoveredAosta, setIsHoveredAosta] = useState(false);
-    const [isHoveredCastelli, setIsHoverdCastelli] = useState(false);
-    const [isHoveredForteBard, setIsHoverdForteBard] = useState(false);
-    const [isHoveredLTuristiche, setIsHoverdLTuristiche] = useState(false);
-    const [isHoveredTerritorio, setIsHoverdTerritorio] = useState(false);
+    const [isHoveredCastelli, setIsHoveredCastelli] = useState(false);
+    const [isHoveredForteBard, setIsHoveredForteBard] = useState(false);
+    const [isHoveredLTuristiche, setIsHoveredLTuristiche] = useState(false);
+    const [isHoveredTerritorio, setIsHoveredTerritorio] = useState(false);
     const [isHoveredImageGressoney, setIsHoveredImageGressoney] = useState(false);
     const [isHoveredImageChemp, setIsHoveredImageChemp] = useState(false);
     const [isHoveredImageFortediBard, setIsHoveredImageFortediBard] = useState(false);
     const [isHoveredImageFontinaValdostana, setIsHoveredImageFontinaValdostana] = useState(false);
     const [isHoveredImageBorghi, setIsHoveredImageBorghi] = useState(false);
     const [isHoveredImageValdigne, setIsHoveredImageValdigne] = useState(false);
-    const [isHoveredArticoli, setIsHoverdArticoli] = useState(false);
+    const [isHoveredArticoli, setIsHoveredArticoli] = useState(false);
 
 
   return (
@@ -52,7 +52,7 @@ export default function Valle_d_Aosta(props) {
             </div>
             <div className='row d-flex justify-content-center mx-0 mb-4'>
                 <Card className='col-sm-12 col-md-6 col-lg-2 px-0 card_Valle_d_Aosta'>
-                    <Card.Body className='bottone_Valle_d_Aosta'>
+                    <Card.Body className='bottone'>
                         <Link 
                             className="bottone_link" 
                             href='/visite/aosta_romana_e_medievale'
@@ -64,42 +64,42 @@ export default function Valle_d_Aosta(props) {
                     </Card.Body>
                 </Card>
                 <Card className='col-sm-12 col-md-6 col-lg-2 px-0 card_Valle_d_Aosta '>
-                    <Card.Body className='bottone_Valle_d_Aosta'>
+                    <Card.Body className='bottone'>
                         <Link 
                             className="bottone_link" 
                             href='/castelli_valle_d_aosta'
-                            onMouseEnter={() => setIsHoverdCastelli(true)}
-                            onMouseLeave={() => setIsHoverdCastelli(false)}
+                            onMouseEnter={() => setIsHoveredCastelli(true)}
+                            onMouseLeave={() => setIsHoveredCastelli(false)}
                         >Castelli {isHoveredCastelli && <i className="bi bi-chevron-right"></i>}</Link>
                     </Card.Body>
                 </Card>
                 <Card className='col-sm-12 col-md-6 col-lg-2 px-0 card_Valle_d_Aosta '>
-                    <Card.Body className='bottone_Valle_d_Aosta'>
+                    <Card.Body className='bottone'>
                         <Link 
                             className="bottone_link" 
                             href='/visite/forte_di_bard'
-                            onMouseEnter={() => setIsHoverdForteBard(true)}
-                            onMouseLeave={() => setIsHoverdForteBard(false)}
+                            onMouseEnter={() => setIsHoveredForteBard(true)}
+                            onMouseLeave={() => setIsHoveredForteBard(false)}
                         >Forte di Bard {isHoveredForteBard && <i className="bi bi-chevron-right"></i>}</Link>
                     </Card.Body>
                 </Card>
                 <Card className='col-sm-12 col-md-6 col-lg-2 px-0 card_Valle_d_Aosta '>
-                    <Card.Body className='bottone_Valle_d_Aosta'>
+                    <Card.Body className='bottone'>
                         <Link 
                             className="bottone_link" 
                             href='/localita_turistiche'
-                            onMouseEnter={() => setIsHoverdLTuristiche(true)}
-                            onMouseLeave={() => setIsHoverdLTuristiche(false)}
+                            onMouseEnter={() => setIsHoveredLTuristiche(true)}
+                            onMouseLeave={() => setIsHoveredLTuristiche(false)}
                         >Località {isHoveredLTuristiche && <i className="bi bi-chevron-right"></i>}</Link>
                     </Card.Body>
                 </Card>
                 <Card className='col-sm-12 col-md-6 col-lg-2 px-0 card_Valle_d_Aosta '>
-                    <Card.Body className='bottone_Valle_d_Aosta'>
+                    <Card.Body className='bottone'>
                         <Link 
                             className="bottone_link" 
                             href='/territorio'
-                            onMouseEnter={() => setIsHoverdTerritorio(true)}
-                            onMouseLeave={() => setIsHoverdTerritorio(false)} 
+                            onMouseEnter={() => setIsHoveredTerritorio(true)}
+                            onMouseLeave={() => setIsHoveredTerritorio(false)} 
                         >Territorio {isHoveredTerritorio && <i className="bi bi-chevron-right"></i>}</Link>
                     </Card.Body>
                 </Card>
@@ -238,8 +238,8 @@ export default function Valle_d_Aosta(props) {
                         <Button variant="primary" className='btn-card articoli'>
                             <Link className='link-card text-decoration-none' 
                                 to="/articoli" 
-                                onMouseEnter={() => setIsHoverdArticoli(true)}
-                                onMouseLeave={() => setIsHoverdArticoli(false)}>Vedi tutti gli articoli {isHoveredArticoli && <i className="bi bi-chevron-right"></i>}
+                                onMouseEnter={() => setIsHoveredArticoli(true)}
+                                onMouseLeave={() => setIsHoveredArticoli(false)}>Vedi tutti gli articoli {isHoveredArticoli && <i className="bi bi-chevron-right"></i>}
                             </Link>
                         </Button>
                     </div>
