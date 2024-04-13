@@ -1556,11 +1556,417 @@ hr{
       }
     /*Fine Golfo Paradiso*/
   /*Fine Camogli*/
-    
-  
-    
 /*Fine Liguria*/
 
+/*Inizio Trentino Alto Adige*/
+  .trentino_alto_adige{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Trentino_Alto_Adige/Trentino_Alto_Adige.jpg') center/cover no-repeat;
+    padding: 250px 0;
+  }
+  .trentino_alto_adige h1{
+    color: #fff;
+    margin: 0 !important;
+  }
+  .card_Trentino_Alto_Adige{
+    display: flex;
+  }
+  .card_Trentino_Alto_Adige:nth-child(1){
+    background: url('../assets/Trentino_Alto_Adige/Trento_Trentino_Alto_Adige.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Trentino_Alto_Adige:nth-child(2){
+    background: url('../assets/Trentino_Alto_Adige/Rovereto_Trentino_Alto_Adige.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  /*Inizio Trento*/
+    .trento{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Trentino_Alto_Adige/Trento_Trentino_Alto_Adige.jpg') center/cover no-repeat;
+      padding: 250px 0;
+    }
+    .trento h1{
+      color: #fff;
+      margin: 0 !important;
+    }
+    .card_Trento{
+      display: flex;
+    }
+    .card_Trento:nth-child(1){
+      background: url('../assets/Trentino_Alto_Adige/Castello_del_Buonconsiglio_Trento_Trentino_Alto_Adige.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Trento:nth-child(2){
+      background: url('../assets/Trentino_Alto_Adige/Tridentum_Trento_Trentino_Alto_Adige.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Trento:nth-child(3){
+      background: url('../assets/Trentino_Alto_Adige/Museo_Diocesano_Tridentino_Trento_Trentino_Alto_Adige.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Trento:nth-child(4){
+      background: url('../assets/Trentino_Alto_Adige/MUSE_Museo_delle_Scienze_Trento_Trentino_Alto_Adige.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Trento:nth-child(5){
+      background: url('../assets/Trentino_Alto_Adige/Piazza_del_Duomo_Trento_Trentino_Alto_Adige.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Trento:nth-child(6){
+      background: url('../assets/Trentino_Alto_Adige/Cappella_del_Crocifisso_Trento_Trentino_Alto_Adige.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Trento:nth-child(7){
+      background: url('../assets/Trentino_Alto_Adige/Concilio_di_Trento_Trentino_Alto_Adige.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Trento:nth-child(8){
+      background: url('../assets/Trentino_Alto_Adige/Palazzo_Cazuffi_Trento_Trentino_Alto_Adige.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Trento:nth-child(9){
+      background: url('../assets/Trentino_Alto_Adige/Torre_Civica_Trento_Trentino_Alto_Adige.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Trento:nth-child(10){
+      background: url('../assets/Trentino_Alto_Adige/Fontana_del_Nettuno_Trento_Trentino_Alto_Adige.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Trento:nth-child(11){
+      background: url('../assets/Laghi/Lago_di_Garda_Trento_Trentino_Alto_Adige.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Trento:nth-child(12){
+      background: url('../assets/Montagna/Monte_Bondone_Trento_Trentino_Alto_Adige.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Trento:nth-child(13){
+      background: url('../assets/Fiumi/Fiume_Adige_Trento_Trentino_Alto_Adige.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    /*Inizio Castello del Buonconsiglio*/
+      .castello_del_buonconsiglio{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Trentino_Alto_Adige/Castello_del_Buonconsiglio_Trento_Trentino_Alto_Adige.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .castello_del_buonconsiglio h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Castello del Buonconsiglio*/
+    /*Inizio Tridentum*/
+      .tridentum{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Trentino_Alto_Adige/Tridentum_Trento_Trentino_Alto_Adige.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .tridentum h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Tridentum*/
+    /*Inizio Museo Diocesano Tridentino*/
+      .museo_diocesano_tridentino{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Trentino_Alto_Adige/Museo_diocesano_tridentino_Trento_Trentino_Alto_Adige.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .museo_diocesano_tridentino h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Museo Diocesano Tridentino*/
+    /*Inizio MUSE - Museo delle Scienze*/
+      .muse{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Trentino_Alto_Adige/MUSE_Museo_delle_Scienze_Trento_Trentino_Alto_Adige.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .muse h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine MUSE - Museo delle Scienze*/
+    /*Inizio Piazza del Duomo*/
+      .piazza_del_duomo{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Trentino_Alto_Adige/Piazza_del_Duomo_Trento_Trentino_Alto_Adige.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .piazza_del_duomo h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Piazza del Duomo*/
+    /*Inizio Cappella del Crocifisso*/
+      .capella_del_crocifisso{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Trentino_Alto_Adige/Cappella_del_Crocifisso_Trento_Trentino_Alto_Adige.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .capella_del_crocifisso h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Cappella del Crocifisso*/
+    /*Inizio Concilio*/
+      .concilio{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Trentino_Alto_Adige/Concilio_di_Trento_Trentino_Alto_Adige.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .concilio h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Concilio*/
+    /*Inizio Palazzo Cazuffi*/
+      .palazzo_cazuffi{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Trentino_Alto_Adige/Palazzo_Cazuffi_Trento_Trentino_Alto_Adige.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .palazzo_cazuffi h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Palazzo Cazuffi*/
+    /*Inizio Torre Civica*/
+      .torre_civica{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Trentino_Alto_Adige/Torre_Civica_Trento_Trentino_Alto_Adige.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .torre_civica h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Torre Civica*/
+    /*Inizio Fontana del Nettuno*/
+      .fontana_del_nettuno{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Trentino_Alto_Adige/Fontana_del_Nettuno_Trento_Trentino_Alto_Adige.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .fontana_del_nettuno h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Fontana del Nettuno*/
+  /*Fine Trento*/
+  /*Inizio Rovereto*/
+    .rovereto{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Trentino_Alto_Adige/Rovereto_Trentino_Alto_Adige.jpg') center/cover no-repeat;
+      padding: 250px 0;
+    }
+    .rovereto h1{
+      color: #fff;
+      margin: 0 !important;
+    }
+    .card_Rovereto{
+      display: flex;
+    }
+    .card_Rovereto:nth-child(1){
+      background: url('../assets/Trentino_Alto_Adige/Mart_Museo_di_arte_moderna_e_contemporanea_Trento_Trentino_Alto_Adige.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    /*Inizio Mart - Museo di arte moderna e contemporanea*/
+      .mart{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Trentino_Alto_Adige/Mart_Museo_di_arte_moderna_e_contemporanea_Trento_Trentino_Alto_Adige.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .mart h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Mart - Museo di arte moderna e contemporanea*/
+  /*Fine Rovereto*/
+/*Fine Trentino Alto Adige*/
+
+/*Inizio Veneto*/
+  .veneto{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Veneto/Veneto.jpg') center/cover no-repeat;
+    padding: 250px 0;
+  }
+  .veneto h1{
+    color: #fff;
+    margin: 0 !important;
+  }
+  .card_Veneto{
+    display: flex;
+  }
+  .card_Veneto:nth-child(1){
+    background: url('../assets/Veneto/Venezia_Veneto.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  /*Inizio Venezia*/
+    .venezia{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Veneto/Venezia_Veneto.jpg') center/cover no-repeat;
+      padding: 250px 0;
+    }
+    .venezia h1{
+      color: #fff;
+      margin: 0 !important;
+    }
+    .card_Venezia{
+      display: flex;
+    }
+    .card_Venezia:nth-child(1){
+      background: url('../assets/Veneto/Basilica_San_Marco_Venezia_Veneto.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Venezia:nth-child(2){
+      background: url('../assets/Veneto/Palazzo_Ducale_Venezia_Veneto.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Venezia:nth-child(3){
+      background: url('../assets/Veneto/Peggy_Guggenheim_Collection_Vento_Venezia.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Venezia:nth-child(4){
+      background: url('../assets/Veneto/Il_Ghetto_Venezia_Veneto.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Venezia:nth-child(5){
+      background: url('../assets/Veneto/Ponte_di_Rialto_Venezia_Veneto.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Venezia:nth-child(6){
+      background: url('../assets/Veneto/Punta_della_Dogana_Venezia_Veneto.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Venezia:nth-child(7){
+      background: url('../assets//Veneto/Ca_d_oro_Venezia_Veneto.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    /*Inizio Basilica di San Marco*/
+      .basilica_di_san_marco{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Veneto/Basilica_San_Marco_Venezia_Veneto.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .basilica_di_san_marco h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Basilica di San Marco*/
+    /*Inizio Palazzo Ducale*/
+      .palazzo_ducale_venezia{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Veneto/Palazzo_Ducale_Venezia_Veneto.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .palazzo_ducale_venezia h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Palazo Ducale*/
+    /*Inizio Peggy Guggenheim Collection*/
+      .peggy_guggenheim_collection{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Veneto/Peggy_Guggenheim_Collection_Vento_Venezia.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .peggy_guggenheim_collection h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Peggy Guggenheim Collection*/
+    /*Inizio Il Ghetto*/
+      .il_ghetto{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Veneto/Il_Ghetto_Venezia_Veneto.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .il_ghetto h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Il Ghetto*/
+    /*Inizio Ponte di Rialto*/
+      .ponte_di_rialto{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Veneto/Ponte_di_Rialto_Venezia_Veneto.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .ponte_di_rialto h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Ponte di Rialto*/
+    /*Inizio Punta della Dogana*/
+      .punta_della_dogana{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Veneto/Punta_della_Dogana_Venezia_Veneto.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .punta_della_dogana h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Punta della Dogana*/
+    /*Inizio Ca' d’Oro*/
+      .ca_d_oro{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Veneto/Ca_d_oro_Venezia_Veneto.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .ca_d_oro h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+  /*Fine Venezia*/
+/*Fine Veneto*/
+
+/*Inizio Emilia Romagna*/
+/*Fine Emilia Romagna*/
+
+
+/*Inizio Laghi*/
+  /*Inizio Lago di Garda*/
+    .lago_di_garda{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Laghi/Lago_di_Garda_Trento_Trentino_Alto_Adige.jpg') center/cover no-repeat;
+      padding: 250px 0;
+    }
+    .lago_di_garda h1{
+      color: #fff;
+      margin: 0 !important;
+    }
+  /*Fine Lago di Garda*/
+/*Fine Laghi*/
+
+/*Inizio Montagna*/
+  /*Inizio Monte Bondone*/
+    .monte_bondone{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Montagna/Monte_Bondone_Trento_Trentino_Alto_Adige.jpg') center/cover no-repeat;
+      padding: 250px 0;
+    }
+    .monte_bondone h1{
+      color: #fff;
+      margin: 0 !important;
+    }
+  /*Fine Monte Bondone*/
+/*Fine Montagna*/
+
+
+/*Inizio Fiumi*/
+  /*Inizio Fiume Adige*/
+    .fiume_adige{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Fiumi/Fiume_Adige_Trento_Trentino_Alto_Adige.jpg') center/cover no-repeat;
+      padding: 250px 0;
+    }
+    .fiume_adige h1{
+      color: #fff;
+      margin: 0 !important;
+    }
+  /*Fine Fiume Adige*/
+/*Fine Fiumi*/
 
 /* Aggiungi una media query per dispositivi con larghezza <= 768px (tablet e smartphone) */
 @media screen and (max-width: 768px) {
