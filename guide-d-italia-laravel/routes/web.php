@@ -658,6 +658,41 @@ Route::get('/le_piu_belle_passeggiate_lungo_i_ru_della_valle_d_aosta', function 
     /*Fine Venezia*/
 /*Fine Veneto*/
 
+/*Inizio Emilia-Romagna*/
+    Route::get('/emilia_romagna', function () {
+        return Inertia::render('Emilia_Romagna');
+    })->middleware(['auth', 'verified'])->name('emilia_romagna');
+
+    Route::get('/destinazioni/bologna', function () {
+        return Inertia::render('Emilia_Romagna/Destinazioni/Bologna');
+    })->middleware(['auth', 'verified'])->name('bologna');
+    /*Inizio Bologna*/
+        Route::get('/visite/bologna/basilica_di_san_petronio', function () {
+            return Inertia::render('Emilia_Romagna/Visite/Basilica_di_San_Petronio');
+        })->middleware(['auth', 'verified'])->name('basilica_di_san_petronio');
+
+        Route::get('/visite/bologna/piazza_maggiore', function () {
+            return Inertia::render('Emilia_Romagna/Visite/Piazza_Maggiore');
+        })->middleware(['auth', 'verified'])->name('piazza_maggiore');
+
+        Route::get('/visite/bologna/le_due_torri', function () {
+            return Inertia::render('Emilia_Romagna/Visite/Le_Due_Torri');
+        })->middleware(['auth', 'verified'])->name('le_due_torri');
+
+        Route::get('/visite/bologna/mambo', function () {
+            return Inertia::render('Emilia_Romagna/Visite/Mambo');
+        })->middleware(['auth', 'verified'])->name('mambo');
+
+        Route::get('/visite/bologna/antico_mercatio_di_bologna', function () {
+            return Inertia::render('Emilia_Romagna/Visite/Antico_Mercato_di_Bologna');
+        })->middleware(['auth', 'verified'])->name('antico_mercato_di_bologna');
+
+        Route::get('/visite/bologna/archiginnasio', function () {
+            return Inertia::render('Emilia_Romagna/Visite/Archiginnasio');
+        })->middleware(['auth', 'verified'])->name('archiginnasio');
+    /*Fine Bologna*/
+/*Fine Emilia-Romagna*/
+
     
 
 

@@ -16,8 +16,8 @@ export default function Venezia(props) {
 
     return (
         <AuthenticatedLayout
-        auth={props.auth}
-        errors={props.errors}
+            auth={props.auth}
+            errors={props.errors}
         >
             <main>
                 <div className='venezia' style={{ position: 'relative' }}>
