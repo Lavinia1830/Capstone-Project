@@ -1852,28 +1852,80 @@ hr{
       /* width: 30%; */
       height: 400px;
     }
+    /*Inizio Basilica di San Marco*/
+      .basilica_di_san_marco{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Veneto/Basilica_San_Marco_Venezia_Veneto.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .basilica_di_san_marco h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Basilica di San Marco*/
+    /*Inizio Palazzo Ducale*/
+      .palazzo_ducale_venezia{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Veneto/Palazzo_Ducale_Venezia_Veneto.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .palazzo_ducale_venezia h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Palazo Ducale*/
+    /*Inizio Peggy Guggenheim Collection*/
+      .peggy_guggenheim_collection{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Veneto/Peggy_Guggenheim_Collection_Vento_Venezia.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .peggy_guggenheim_collection h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Peggy Guggenheim Collection*/
+    /*Inizio Il Ghetto*/
+      .il_ghetto{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Veneto/Il_Ghetto_Venezia_Veneto.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .il_ghetto h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Il Ghetto*/
+    /*Inizio Ponte di Rialto*/
+      .ponte_di_rialto{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Veneto/Ponte_di_Rialto_Venezia_Veneto.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .ponte_di_rialto h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Ponte di Rialto*/
+    /*Inizio Punta della Dogana*/
+      .punta_della_dogana{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Veneto/Punta_della_Dogana_Venezia_Veneto.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .punta_della_dogana h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Punta della Dogana*/
+    /*Inizio Ca' d’Oro*/
+      .ca_d_oro{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Veneto/Ca_d_oro_Venezia_Veneto.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .ca_d_oro h1{
+        color: #fff;
+        margin: 0 !important;
+      }
   /*Fine Venezia*/
-  /*Inizio Basilica di San Marco*/
-    .basilica_di_san_marco{
-      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Veneto/Basilica_San_Marco_Venezia_Veneto.jpg') center/cover no-repeat;
-      padding: 250px 0;
-    }
-    .basilica_di_san_marco h1{
-      color: #fff;
-      margin: 0 !important;
-    }
-  /*Fine Basilica di San Marco*/
-  /*Inizio Palazzo Ducale*/
-    .palazzo_ducale_venezia{
-      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Veneto/Palazzo_Ducale_Venezia_Veneto.jpg') center/cover no-repeat;
-      padding: 250px 0;
-    }
-    .palazzo_ducale_venezia h1{
-      color: #fff;
-      margin: 0 !important;
-    }
-  /*Fine Palazo Ducale*/
 /*Fine Veneto*/
+
+/*Inizio Emilia Romagna*/
+/*Fine Emilia Romagna*/
 
 
 /*Inizio Laghi*/
