@@ -745,9 +745,54 @@ Route::get('/le_piu_belle_passeggiate_lungo_i_ru_della_valle_d_aosta', function 
         return Inertia::render('Toscana');
     })->middleware(['auth', 'verified'])->name('toscana');
 
-    Route::get('/destinazioni/firenze', function () {
+    Route::get('/destinazioni/toscana/firenze', function () {
         return Inertia::render('Toscana/Destinazioni/Firenze');
     })->middleware(['auth', 'verified'])->name('firenze');
+    /*Inizio Firenze*/
+        Route::get('/visite/toscana/firenze/duomo', function () {
+            return Inertia::render('Toscana/Visite/Duomo_di_Firenze');
+        })->middleware(['auth', 'verified'])->name('duomo');
+
+        Route::get('/visite/toscana/firenze/battistero', function () {
+            return Inertia::render('Toscana/Visite/Battistero');
+        })->middleware(['auth', 'verified'])->name('battistero');
+
+        Route::get('/visite/toscana/firenze/galleria_degli_uffizi', function () {
+            return Inertia::render('Toscana/Visite/Galleria_degli_Uffizi');
+        })->middleware(['auth', 'verified'])->name('galleria_degli_uffizi');
+
+        Route::get('/visite/toscana/firenze/ponte_vecchio', function () {
+            return Inertia::render('Toscana/Visite/Ponte_Vecchio');
+        })->middleware(['auth', 'verified'])->name('ponte_vecchio');
+
+        Route::get('/visite/toscana/firenze/palazzo_vecchio', function () {
+            return Inertia::render('Toscana/Visite/Palazzo_Vecchio');
+        })->middleware(['auth', 'verified'])->name('palazzo_vecchio');
+
+        Route::get('/visite/toscana/firenze/palazzo_pitti', function () {
+            return Inertia::render('Toscana/Visite/Palazzo_Pitti');
+        })->middleware(['auth', 'verified'])->name('palazzo_pitti');
+
+        Route::get('/visite/toscana/firenze/basilica_di_santa_croce', function () {
+            return Inertia::render('Toscana/Visite/Basilica_di_Santa_Croce');
+        })->middleware(['auth', 'verified'])->name('basilica_di_santa_croce');
+
+        Route::get('/visite/toscana/firenze/basilica_di_santa_maria_del_carmine', function () {
+            return Inertia::render('Toscana/Visite/Basilica_di_Santa_Maria_del_Carmine');
+        })->middleware(['auth', 'verified'])->name('basilica_di_santa_maria_del_carmine');
+
+        Route::get('/visite/toscana/firenze/cappelle_medicee', function () {
+            return Inertia::render('Toscana/Visite/Cappelle_Medicee');
+        })->middleware(['auth', 'verified'])->name('cappelle_medicee');
+
+        Route::get('/visite/toscana/firenze/casa_di_dante', function () {
+            return Inertia::render('Toscana/Visite/Casa_di_Dante');
+        })->middleware(['auth', 'verified'])->name('casa_di_dante');
+
+        Route::get('/visite/toscana/firenze/galleria_dell_accademia', function () {
+            return Inertia::render('Toscana/Visite/Galleria_dell_Accademia');
+        })->middleware(['auth', 'verified'])->name('galleria_dell_accademia');
+    /*Fine Firenze*/
 /*Fine Toscana*/
 
     
