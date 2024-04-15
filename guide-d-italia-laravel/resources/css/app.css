@@ -1974,7 +1974,7 @@ hr{
       height: 400px;
     }
     .card_Bologna:nth-child(5){
-      background: url('../assets/Emilia_Romagna/Antico-mercato-del-quadrilatero_Bologna_Emilia_Romagna.jpg') center/cover no-repeat;
+      background: url('../assets/Emilia_Romagna/Antico_mercato_del_quadrilatero_Bologna_Emilia_Romagna.jpg') center/cover no-repeat;
       /* width: 30%; */
       height: 400px;
     }
@@ -1984,22 +1984,22 @@ hr{
       height: 400px;
     }
     .card_Bologna:nth-child(7){
-      background: url('../assets/Emilia_Romagna/Pinacoteca-nazionaleBologna_Emili_Romagna.jpg') center/cover no-repeat;
+      background: url('../assets/Emilia_Romagna/Pinacoteca_Nazionale_Bologna_Emilia_Romagna.jpg') center/cover no-repeat;
       /* width: 30%; */
       height: 400px;
     }
     .card_Bologna:nth-child(8){
-      background: url('../assets/Emilia_Romagna/Piazza-Santo-Stefano_Bologna_Emilia_Romagna.jpg') center/cover no-repeat;
+      background: url('../assets/Emilia_Romagna/Piazza_Santo_Stefano_Bologna_Emilia_Romagna.jpg') center/cover no-repeat;
       /* width: 30%; */
       height: 400px;
     }
     .card_Bologna:nth-child(9){
-      background: url('../assets/Emilia_Romagna/Certosa-di-Bologna_Emilia_Romagna.jpg') center/cover no-repeat;
+      background: url('../assets/Emilia_Romagna/Certosa_di_Bologna_Emilia_Romagna.jpg') center/cover no-repeat;
       /* width: 30%; */
       height: 400px;
     }
     .card_Bologna:nth-child(10){
-      background: url('../assets/Emilia_Romagna/Museo-civico-medievale_Bologna_Emilia_Romagna.jpg') center/cover no-repeat;
+      background: url('../assets/Emilia_Romagna/Museo_civico_medievale_Bologna_Emilia_Romagna.jpg') center/cover no-repeat;
       /* width: 30%; */
       height: 400px;
     }
@@ -2045,7 +2045,7 @@ hr{
     /*Fine Mambo - Museo d'Arte Moderna di Bologna*/
     /*Inizio Antico mercato del quadrilatero di Bologna*/
       .antico_mercato_del_quadrilatero{
-        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Emilia_Romagna/Antico-mercato-del-quadrilatero_Bologna_Emilia_Romagna.jpg') center/cover no-repeat;
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Emilia_Romagna/Antico_mercato_del_quadrilatero_Bologna_Emilia_Romagna.jpg') center/cover no-repeat;
         padding: 250px 0;
       }
       .antico_mercato_del_quadrilatero h1{
@@ -2086,6 +2086,46 @@ hr{
     /*Inizio Certosa di Bologna*/
       .certosa_di_bologna{
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Emilia_Romagna/Certosa_di_Bologna_Bologna_Emilia_Romagna.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .certosa_di_bologna h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Certosa di Bologna*/
+    /*Inizio Museo civico medievale*/
+      .museo_civico_medievale{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Emilia_Romagna/Museo_civico_medievale_Bologna_Emilia_Romagna.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .museo_civico_medievale h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Museo civico medievale*/
+    /*Inizio Pinacoteca Nazionale */
+      .pinacoteca_nazionale{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Emilia_Romagna/Pinacoteca_Nazionale_Bologna_Emilia_Romagna.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .pinacoteca_nazionale h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Pinacoteca Nazionale */
+    /*Inizio Piazza Santo Stefano*/
+      .piazza_santo_stefano{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Emilia_Romagna/Piazza_Santo_Stefano_Bologna_Emilia_Romagna.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .piazza_santo_stefano h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Piazza Santo Stefano*/
+    /*Inizio Certosa di Bologna*/
+      .certosa_di_bologna{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Emilia_Romagna/Certosa_di_Bologna_Emilia_Romagna.jpg') center/cover no-repeat;
         padding: 250px 0;
       }
       .certosa_di_bologna h1{

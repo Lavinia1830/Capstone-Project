@@ -690,6 +690,22 @@ Route::get('/le_piu_belle_passeggiate_lungo_i_ru_della_valle_d_aosta', function 
         Route::get('/visite/bologna/archiginnasio', function () {
             return Inertia::render('Emilia_Romagna/Visite/Archiginnasio');
         })->middleware(['auth', 'verified'])->name('archiginnasio');
+
+        Route::get('/visite/bologna/pinacoteca_nazionale', function () {
+            return Inertia::render('Emilia_Romagna/Visite/Pinacoteca_Nazionale');
+        })->middleware(['auth', 'verified'])->name('pinacoteca_nazionale');
+
+        Route::get('/visite/bologna/piazza_santo_stefano', function () {
+            return Inertia::render('Emilia_Romagna/Visite/Piazza_Santo_Stefano');
+        })->middleware(['auth', 'verified'])->name('piazza_santo_stefano');
+
+        Route::get('/visite/bologna/certosa_di_bologna', function () {
+            return Inertia::render('Emilia_Romagna/Visite/Certosa_di_Bologna');
+        })->middleware(['auth', 'verified'])->name('certosa_di_bologna');
+
+        Route::get('/visite/bologna/museo_civico_medievale', function () {
+            return Inertia::render('Emilia_Romagna/Visite/Museo_Civico_Medievale');
+        })->middleware(['auth', 'verified'])->name('museo_civico_medievale');
     /*Fine Bologna*/
 /*Fine Emilia-Romagna*/
 

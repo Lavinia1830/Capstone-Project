@@ -139,7 +139,7 @@ export default function Bologna(props) {
                         <CardBody className='bottone'>
                         <Link 
                             className="bottone_link" 
-                            href='/visite/bologna/museo_civico_medivale'
+                            href='/visite/bologna/museo_civico_medievale'
                             onMouseEnter={() => setIsHoveredMuseoCivicoMedievale(true)}
                             onMouseLeave={() => setIsHoveredMuseoCivicoMedievale(false)}
                             >Museo Civico Medievale {isHoveredMuseoCivicoMedievale && <i className="bi bi-chevron-right"></i>}
