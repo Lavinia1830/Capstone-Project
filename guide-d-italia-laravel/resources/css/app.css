@@ -2252,7 +2252,202 @@ hr{
   /*Fine Trieste*/
 /*Fine Friuli Venezia Giulia*/
 
-
+/*Inizio Toscana*/
+  .toscana{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Toscana/Toscana.jpg') center/cover no-repeat;
+    padding: 250px 0;
+  }
+  .toscana h1{
+    color: #fff;
+    margin: 0 !important;
+  }
+  .card_Toscana{
+    display: flex;
+  }
+  .card_Toscana:nth-child(1){
+    background: url('../assets/Toscana/Firenze_Toscana.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  /*Inizio Firenze*/
+    .firenze{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Toscana/Firenze_Toscana.jpg') center/cover no-repeat;
+      padding: 250px 0;
+    }
+    .firenze h1{
+      color: #fff;
+      margin: 0 !important;
+    }
+    .card_Firenze{
+      display: flex;
+    }
+    .card_Firenze:nth-child(1){
+      background: url('../assets/Toscana/Duomo_Firenze_Toscana.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Firenze:nth-child(2){
+      background: url('../assets/Toscana/Battistero_Firenze_Toscana.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Firenze:nth-child(3){
+      background: url('../assets/Toscana/Galleria_degli_Uffizi_Firenze_Toscana.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Firenze:nth-child(4){
+      background: url('../assets/Toscana/Ponte_Vecchio_Firenze_Toscana.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Firenze:nth-child(5){
+      background: url('../assets/Toscana/Palazzo_Vecchio_Firenze_Toscana.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Firenze:nth-child(6){
+      background: url('../assets/Toscana/Palazzo_Pitti_Firenze_Toscana.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Firenze:nth-child(7){
+      background: url('../assets/Toscana/Basilica_di_Santa_Croce_Firenze_Toscana.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Firenze:nth-child(8){
+      background: url('../assets/Toscana/Basilica_di_Santa_Maria_del_Carmine_Firenze_Toscana.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Firenze:nth-child(9){
+      background: url('../assets/Toscana/Cappelle_Medicee_Firenze_Toscana.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Firenze:nth-child(10){
+      background: url('../assets/Toscana/Casa_di_Dante_Firenze_Toscana.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Firenze:nth-child(11){
+      background: url('../assets/Toscana/Galleria_dell_Accademia_Firenze_Toscana.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    /*Inizio Duomo di Firenze*/
+      .duomo_di_firenze{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Toscana/Duomo_Firenze_Toscana.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .duomo_di_firenze h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Duomo di Firenze*/
+    /*Inizio Battistero di Firenze*/
+      .battistero{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Toscana/Battistero_Firenze_Toscana.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .battistero h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Battistero di Firenze*/
+    /*Inizio Galleria degli Uffizi*/
+      .galleria_degli_uffizi{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Toscana/Galleria_degli_Uffizi_Firenze_Toscana.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .galleria_degli_uffizi h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Galleria degli Uffizi*/
+    /*Inizio Ponte Vecchio*/
+      .ponte_vecchio{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Toscana/Ponte_Vecchio_Firenze_Toscana.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .ponte_vecchio h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Ponte Vecchio*/
+    /*Inizio Palazzo Vecchio*/
+      .palazzo_vecchio{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Toscana/Palazzo_Vecchio_Firenze_Toscana.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .palazzo_vecchio h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Palazo Vecchio*/
+    /*Inizio Palazzo Pitti*/
+      .palazzo_pitti{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Toscana/Palazzo_Pitti_Firenze_Toscana.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .palazzo_pitti h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Palazo Pitti*/
+    /*Inizio Basilica di Santa Croce*/
+      .basilica_di_santa_croce{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Toscana/Basilica_di_Santa_Croce_Firenze_Toscana.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .basilica_di_santa_croce h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Basilica di Santa Croce*/
+    /*Inizio Basilica di Santa Maria del Carmine*/
+      .basilica_di_santa_maria_del_carmine{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Toscana/Basilica_di_Santa_Maria_del_Carmine_Firenze_Toscana.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .basilica_di_santa_maria_del_carmine h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Basilica di Santa Maria del Carmine*/
+    /*Inizio Cappelle Medicee*/
+      .cappelle_medicee{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Toscana/Cappelle_Medicee_Firenze_Toscana.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .cappelle_medicee h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Cappelle Medicee*/
+    /*Inizio Casa di Dante*/
+      .casa_di_dante{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Toscana/Casa_di_Dante_Firenze_Toscana.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .casa_di_dante h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Casa di Dante*/
+    /*Inizio Galleria dell'Accademia*/
+      .galleria_dell_accademia{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Toscana/Galleria_dell_Accademia_Firenze_Toscana.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .galleria_dell_accademia h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Galleria dell'Accademia*/
+  /*Fine Firenze*/
+/*Fine Toscana*/
 
 /*Inizio Laghi*/
   /*Inizio Lago di Garda*/
