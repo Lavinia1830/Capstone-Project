@@ -1925,6 +1925,226 @@ hr{
 /*Fine Veneto*/
 
 /*Inizio Emilia Romagna*/
+  .emilia_romagna{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Emilia_Romagna/Emilia_Romagna.jpg') center/cover no-repeat;
+    padding: 250px 0;
+  }
+  .emilia_romagna h1{
+    color: #fff;
+    margin: 0 !important;
+  }
+  .card_Emilia_Romagna{
+    display: flex;
+  }
+  .card_Emilia_Romagna:nth-child(1){
+    background: url('../assets/Emilia_Romagna/Bologna_Emilia_Romagna.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  /*Inizio Bologna*/
+    .bologna{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Emilia_Romagna/Bologna_Emilia_Romagna.jpg') center/cover no-repeat;
+      padding: 250px 0;
+    }
+    .bologna h1{
+      color: #fff;
+      margin: 0 !important;
+    }
+    .card_Bologna{
+      display: flex;
+    }
+    .card_Bologna:nth-child(1){
+      background: url('../assets/Emilia_Romagna/Basilica_di_san_petronio_Bologna_Emilia_Romagna.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Bologna:nth-child(2){
+      background: url('../assets/Emilia_Romagna/Piazza_Maggiore_Bologna_Emilia_Romagna.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Bologna:nth-child(3){
+      background: url('../assets/Emilia_Romagna/Le_Due_Torri_Bologna_Emilia_Romagna.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Bologna:nth-child(4){
+      background: url('../assets/Emilia_Romagna/Mambo_Il_Museo_d_Arte_Moderna_Bologna_Emilia_Romagna.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Bologna:nth-child(5){
+      background: url('../assets/Emilia_Romagna/Antico_mercato_del_quadrilatero_Bologna_Emilia_Romagna.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Bologna:nth-child(6){
+      background: url('../assets/Emilia_Romagna/Archiginnasio_Bologna_Emilia_Romagna.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Bologna:nth-child(7){
+      background: url('../assets/Emilia_Romagna/Pinacoteca_Nazionale_Bologna_Emilia_Romagna.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Bologna:nth-child(8){
+      background: url('../assets/Emilia_Romagna/Piazza_Santo_Stefano_Bologna_Emilia_Romagna.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Bologna:nth-child(9){
+      background: url('../assets/Emilia_Romagna/Certosa_di_Bologna_Emilia_Romagna.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Bologna:nth-child(10){
+      background: url('../assets/Emilia_Romagna/Museo_civico_medievale_Bologna_Emilia_Romagna.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    /*Inizio Basilica di San Petronio*/
+      .basilica_di_san_petronio{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Emilia_Romagna/Basilica_di_san_petronio_Bologna_Emilia_Romagna.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .basilica_di_san_petronio h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Basilica di San Petronio*/
+    /*Inizio Piazza Maggiore*/
+      .piazza_maggiore{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Emilia_Romagna/Piazza_Maggiore_Bologna_Emilia_Romagna.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .piazza_maggiore h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Piazza Maggiore*/
+    /*Inizio Le Due Torri*/
+      .le_due_torri{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Emilia_Romagna/Le_Due_Torri_Bologna_Emilia_Romagna.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .le_due_torri h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Le Due Torri*/
+    /*Inizio Mambo - Museo d'Arte Moderna di Bologna*/
+      .mambo{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Emilia_Romagna/Mambo_Il_Museo_d_Arte_Moderna_Bologna_Emilia_Romagna.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .mambo h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Mambo - Museo d'Arte Moderna di Bologna*/
+    /*Inizio Antico mercato del quadrilatero di Bologna*/
+      .antico_mercato_del_quadrilatero{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Emilia_Romagna/Antico_mercato_del_quadrilatero_Bologna_Emilia_Romagna.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .antico_mercato_del_quadrilatero h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Antico mercato del quadrilatero di Bologna*/
+    /*Inizio Archiginnasio*/
+      .archiginnasio{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Emilia_Romagna/Archiginnasio_Bologna_Emilia_Romagna.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .archiginnasio h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Archiginnasio*/
+    /*Inizio Pinacoteca Nazionale*/
+      .pinacoteca_nazionale{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Emilia_Romagna/Pinacoteca_Nazionale_Bologna_Emilia_Romagna.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .pinacoteca_nazionale h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Pinacoteca Nazionale*/
+    /*Inizio Piazza Santo Stefano*/
+      .piazza_santo_stefano{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Emilia_Romagna/Piazza_Santo_Stefano_Bologna_Emilia_Romagna.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .piazza_santo_stefano h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Piazza Santo Stefano*/
+    /*Inizio Certosa di Bologna*/
+      .certosa_di_bologna{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Emilia_Romagna/Certosa_di_Bologna_Bologna_Emilia_Romagna.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .certosa_di_bologna h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Certosa di Bologna*/
+    /*Inizio Museo civico medievale*/
+      .museo_civico_medievale{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Emilia_Romagna/Museo_civico_medievale_Bologna_Emilia_Romagna.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .museo_civico_medievale h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Museo civico medievale*/
+    /*Inizio Pinacoteca Nazionale */
+      .pinacoteca_nazionale{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Emilia_Romagna/Pinacoteca_Nazionale_Bologna_Emilia_Romagna.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .pinacoteca_nazionale h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Pinacoteca Nazionale */
+    /*Inizio Piazza Santo Stefano*/
+      .piazza_santo_stefano{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Emilia_Romagna/Piazza_Santo_Stefano_Bologna_Emilia_Romagna.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .piazza_santo_stefano h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Piazza Santo Stefano*/
+    /*Inizio Certosa di Bologna*/
+      .certosa_di_bologna{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Emilia_Romagna/Certosa_di_Bologna_Emilia_Romagna.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .certosa_di_bologna h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Certosa di Bologna*/
+    /*Inizio Museo civico medievale*/
+      .museo_civico_medievale{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Emilia_Romagna/Museo_civico_medievale_Bologna_Emilia_Romagna.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .museo_civico_medievale h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Museo civico medievale*/
+  /*Fine Bologna*/
+  
 /*Fine Emilia Romagna*/
 
 
