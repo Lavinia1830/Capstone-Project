@@ -78,7 +78,7 @@ export default function Genova(props) {
                     </p>
                 </div>
                 <div className='row d-flex justify-content-center mx-0 mb-4'>
-                    <Card className='col-sm-12 col-md-6 col-lg-2 px-0 card_Genova'>
+                    <Card className='col-sm-12 col-md-6 col-lg-4 px-0 card_Genova'>
                         <CardBody className='bottone'>
                         <Link 
                             className="bottone_link" 
@@ -89,7 +89,7 @@ export default function Genova(props) {
                         </Link>
                         </CardBody>
                     </Card>
-                    <Card className='col-sm-12 col-md-6 col-lg-2 px-0 card_Genova'>
+                    <Card className='col-sm-12 col-md-6 col-lg-4 px-0 card_Genova'>
                         <CardBody className='bottone'>
                         <Link 
                             className="bottone_link" 
@@ -100,7 +100,7 @@ export default function Genova(props) {
                         </Link>
                         </CardBody>
                     </Card>
-                    <Card className='col-sm-12 col-md-6 col-lg-2 px-0 card_Genova'>
+                    <Card className='col-sm-12 col-md-6 col-lg-4 px-0 card_Genova'>
                         <CardBody className='bottone'>
                         <Link 
                             className="bottone_link" 
@@ -111,7 +111,7 @@ export default function Genova(props) {
                         </Link>
                         </CardBody>
                     </Card>
-                    <Card className='col-sm-12 col-md-6 col-lg-2 px-0 card_Genova'>
+                    <Card className='col-sm-12 col-md-6 col-lg-4 px-0 card_Genova'>
                         <CardBody className='bottone'>
                         <Link 
                             className="bottone_link" 
@@ -122,7 +122,7 @@ export default function Genova(props) {
                         </Link>
                         </CardBody>
                     </Card>
-                    <Card className='col-sm-12 col-md-6 col-lg-2 px-0 card_Genova'>
+                    <Card className='col-sm-12 col-md-6 col-lg-4 px-0 card_Genova'>
                         <CardBody className='bottone'>
                         <Link 
                             className="bottone_link" 
@@ -133,7 +133,7 @@ export default function Genova(props) {
                         </Link>
                         </CardBody>
                     </Card>
-                    <Card className='col-sm-12 col-md-6 col-lg-2 px-0 card_Genova'>
+                    <Card className='col-sm-12 col-md-6 col-lg-4 px-0 card_Genova'>
                         <CardBody className='bottone'>
                         <Link 
                             className="bottone_link" 
@@ -144,7 +144,7 @@ export default function Genova(props) {
                         </Link>
                         </CardBody>
                     </Card>
-                    <Card className='col-sm-12 col-md-6 col-lg-2 px-0 card_Genova'>
+                    <Card className='col-sm-12 col-md-6 col-lg-4 px-0 card_Genova'>
                         <CardBody className='bottone'>
                         <Link 
                             className="bottone_link" 
@@ -155,7 +155,7 @@ export default function Genova(props) {
                         </Link>
                         </CardBody>
                     </Card>
-                    <Card className='col-sm-12 col-md-6 col-lg-2 px-0 card_Genova'>
+                    <Card className='col-sm-12 col-md-6 col-lg-4 px-0 card_Genova'>
                         <CardBody className='bottone'>
                         <Link 
                             className="bottone_link" 
@@ -166,7 +166,7 @@ export default function Genova(props) {
                         </Link>
                         </CardBody>
                     </Card>
-                    <Card className='col-sm-12 col-md-6 col-lg-2 px-0 card_Genova'>
+                    <Card className='col-sm-12 col-md-6 col-lg-4 px-0 card_Genova'>
                         <CardBody className='bottone'>
                         <Link 
                             className="bottone_link" 
@@ -177,7 +177,7 @@ export default function Genova(props) {
                         </Link>
                         </CardBody>
                     </Card>
-                    <Card className='col-sm-12 col-md-6 col-lg-2 px-0 card_Genova'>
+                    <Card className='col-sm-12 col-md-6 col-lg-4 px-0 card_Genova'>
                         <CardBody className='bottone'>
                         <Link 
                             className="bottone_link" 
@@ -188,7 +188,7 @@ export default function Genova(props) {
                         </Link>
                         </CardBody>
                     </Card>
-                    <Card className='col-sm-12 col-md-6 col-lg-2 px-0 card_Genova'>
+                    <Card className='col-sm-12 col-md-6 col-lg-4 px-0 card_Genova'>
                         <CardBody className='bottone'>
                         <Link 
                             className="bottone_link" 
@@ -199,7 +199,7 @@ export default function Genova(props) {
                         </Link>
                         </CardBody>
                     </Card>
-                    <Card className='col-sm-12 col-md-6 col-lg-2 px-0 card_Genova'>
+                    <Card className='col-sm-12 col-md-6 col-lg-4 px-0 card_Genova'>
                         <CardBody className='bottone'>
                         <Link 
                             className="bottone_link" 
@@ -210,7 +210,7 @@ export default function Genova(props) {
                         </Link>
                         </CardBody>
                     </Card>
-                    <Card className='col-sm-12 col-md-6 col-lg-2 px-0 card_Genova'>
+                    <Card className='col-sm-12 col-md-6 col-lg-4 px-0 card_Genova'>
                         <CardBody className='bottone'>
                         <Link 
                             className="bottone_link" 
