@@ -32,7 +32,7 @@ export default function Emilia_Romagna(props) {
                     </p>
                 </div>
                 <div className='row d-flex justify-content-center mx-0 mb-4'>
-                    <Card className='col-sm-12 col-md-6 col-lg-2 px-0 card_Emilia_Romagna'>
+                    <Card className='col-sm-12 col-md-6 col-lg-4 px-0 card_Emilia_Romagna'>
                         <CardBody className='bottone'>
                             <Link 
                                 className="bottone_link" 

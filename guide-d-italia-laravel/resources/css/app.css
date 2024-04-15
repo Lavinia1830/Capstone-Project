@@ -118,7 +118,6 @@ hr{
     }
     .card_Valle_d_Aosta:nth-child(2){ 
       background: url('../assets/Valle_d_Aosta/Castello_di_Fenis_Valle_d_Aosta.jpg') center/cover no-repeat;
-      /* width: 30%; */
       height: 400px;
     }
     .card_Valle_d_Aosta:nth-child(3){ 
@@ -2144,8 +2143,115 @@ hr{
       }
     /*Fine Museo civico medievale*/
   /*Fine Bologna*/
-  
 /*Fine Emilia Romagna*/
+
+/*Inizio Friuli Venezia Giulia*/
+  .friuli_venezia_giulia{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Friuli_Venezia_Giulia/Friuli_Venezia_Giulia.jpg') center/cover no-repeat;
+    padding: 250px 0;
+  }
+  .friuli_venezia_giulia h1{
+    color: #fff;
+    margin: 0 !important;
+  }
+  .card_Friuli_Venezia_Giulia{
+    display: flex;
+  }
+  .card_Friuli_Venezia_Giulia:nth-child(1){
+    background: url('../assets/Friuli_Venezia_Giulia/Trieste_Friuli_Venezia_Giulia.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  /*Inizio Trieste*/
+    .trieste{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Friuli_Venezia_Giulia/Trieste_Friuli_Venezia_Giulia.jpg') center/cover no-repeat;
+      padding: 250px 0;
+    }
+    .trieste h1{
+      color: #fff;
+      margin: 0 !important;
+    }
+    .card_Trieste{
+      display: flex;
+    }
+    .card_Trieste:nth-child(1){
+      background: url('../assets/Friuli_Venezia_Giulia/Riserva_di_San_Sabba_Trieste_Friuli_Venezia_Giulia.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Trieste:nth-child(2){
+      background: url('../assets/Friuli_Venezia_Giulia/Museo_Revoltella_Trieste_Friuli_Venezia_Giulia.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Trieste:nth-child(3){
+      background: url('../assets/Friuli_Venezia_Giulia/Castello_di_San_Giusto_Trieste_Friuli_Venezia_Giulia.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Trieste:nth-child(4){
+      background: url('../assets/Friuli_Venezia_Giulia/Castello_di_Miramare_Trieste_Friuli_Venezia_Giulia.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Trieste:nth-child(5){
+      background: url('../assets/Friuli_Venezia_Giulia/Teatro_Romano_Trieste_Friuli_Venezia_Giulia.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    /*Inizio Risiera di San Sabba*/
+      .risiera_di_san_sabba{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Friuli_Venezia_Giulia/Riserva_di_San_Sabba_Trieste_Friuli_Venezia_Giulia.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .risiera_di_san_sabba h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Risiera di San Sabba*/
+    /*Inizio Museo Revoltella*/
+      .museo_revoltella{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Friuli_Venezia_Giulia/Museo_Revoltella_Trieste_Friuli_Venezia_Giulia.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .museo_revoltella h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Museo Revoltella*/
+    /*Inizio Castello di San Giusto*/
+      .castello_di_san_giusto{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Friuli_Venezia_Giulia/Castello_di_San_Giusto_Trieste_Friuli_Venezia_Giulia.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .castello_di_san_giusto h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Castello di San Giusto*/
+    /*Inizio Castello di Miaramare*/
+      .castello_di_miramare{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Friuli_Venezia_Giulia/Castello_di_Miramare_Trieste_Friuli_Venezia_Giulia.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .castello_di_miramare h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Castello di Miaramare*/
+    /*Inizio Teatro Romano*/
+      .teatro_romano{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Friuli_Venezia_Giulia/Teatro_Romano_Trieste_Friuli_Venezia_Giulia.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .teatro_romano h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Teatro Romano*/
+  /*Fine Trieste*/
+/*Fine Friuli Venezia Giulia*/
+
 
 
 /*Inizio Laghi*/

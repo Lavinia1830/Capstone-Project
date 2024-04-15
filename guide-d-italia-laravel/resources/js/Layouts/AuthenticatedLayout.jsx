@@ -26,25 +26,25 @@ export default function Authenticated({ auth, header, children }) {
                                 </NavLink>
                                 <NavDropdown title="Regioni" style={{ marginTop: '3px'}} id="basic-nav-dropdown">
                                     <NavDropdown.Item>
-                                        <NavLink className='text-decoration-none color_link' to="/abruzzo">Abruzzo</NavLink>
+                                        <NavLink className='text-decoration-none color_link' href="/abruzzo">Abruzzo</NavLink>
                                     </NavDropdown.Item>
                                     <NavDropdown.Item>
-                                        <NavLink className='text-decoration-none color_link' to="/basilicata">Basilicata</NavLink>
+                                        <NavLink className='text-decoration-none color_link' href="/basilicata">Basilicata</NavLink>
                                     </NavDropdown.Item>
                                     <NavDropdown.Item>
-                                        <NavLink className='text-decoration-none color_link' to="/calabria">Calabria</NavLink>
+                                        <NavLink className='text-decoration-none color_link' href="/calabria">Calabria</NavLink>
                                     </NavDropdown.Item>
                                     <NavDropdown.Item>
-                                        <NavLink className='text-decoration-none color_link' to="/campania">Campania</NavLink>
+                                        <NavLink className='text-decoration-none color_link' href="/campania">Campania</NavLink>
                                     </NavDropdown.Item>
                                     <NavDropdown.Item>
-                                        <NavLink className='text-decoration-none color_link' to="/emilia_romagna">Emilia Romagna</NavLink>
+                                        <NavLink className='text-decoration-none color_link' href="/emilia_romagna">Emilia Romagna</NavLink>
                                     </NavDropdown.Item>
                                     <NavDropdown.Item>
-                                        <NavLink className='text-decoration-none color_link' to="/friuli_venezia_giulia">Friuli Venezia Giulia</NavLink>
+                                        <NavLink className='text-decoration-none color_link' href="/friuli_venezia_giulia">Friuli Venezia Giulia</NavLink>
                                     </NavDropdown.Item>
                                     <NavDropdown.Item>
-                                        <NavLink className='text-decoration-none color_link' to="/lazio">Lazio</NavLink>
+                                        <NavLink className='text-decoration-none color_link' href="/lazio">Lazio</NavLink>
                                     </NavDropdown.Item>
                                     <NavDropdown.Item>
                                         <NavLink className='text-decoration-none color_link' href="/liguria">Liguria</NavLink>
@@ -53,37 +53,37 @@ export default function Authenticated({ auth, header, children }) {
                                         <NavLink className='text-decoration-none color_link' href="/lombardia">Lombardia</NavLink>
                                     </NavDropdown.Item>
                                     <NavDropdown.Item>
-                                        <NavLink className='text-decoration-none color_link' to="/marche">Marche</NavLink>
+                                        <NavLink className='text-decoration-none color_link' href="/marche">Marche</NavLink>
                                     </NavDropdown.Item>
                                     <NavDropdown.Item>
-                                        <NavLink className='text-decoration-none color_link' to="/molise">Molise</NavLink>
+                                        <NavLink className='text-decoration-none color_link' href="/molise">Molise</NavLink>
                                     </NavDropdown.Item>
                                     <NavDropdown.Item>
                                         <NavLink className='text-decoration-none color_link' href="/piemonte">Piemonte</NavLink>
                                     </NavDropdown.Item>
                                     <NavDropdown.Item>
-                                        <NavLink className='text-decoration-none color_link' to="/puglia">Puglia</NavLink>
+                                        <NavLink className='text-decoration-none color_link' href="/puglia">Puglia</NavLink>
                                     </NavDropdown.Item>
                                     <NavDropdown.Item>
-                                        <NavLink className='text-decoration-none color_link' to="/sardegna">Sardegna</NavLink>
+                                        <NavLink className='text-decoration-none color_link' href="/sardegna">Sardegna</NavLink>
                                     </NavDropdown.Item>
                                     <NavDropdown.Item>
-                                        <NavLink className='text-decoration-none color_link' to="/sicilia">Sicilia</NavLink>
+                                        <NavLink className='text-decoration-none color_link' href="/sicilia">Sicilia</NavLink>
                                     </NavDropdown.Item>
                                     <NavDropdown.Item>
-                                        <NavLink className='text-decoration-none color_link' to="/toscana">Toscana</NavLink>
+                                        <NavLink className='text-decoration-none color_link' href="/toscana">Toscana</NavLink>
                                     </NavDropdown.Item>
                                     <NavDropdown.Item>
                                         <NavLink className='text-decoration-none color_link' href="/trentino_alto_adige">Trentino Alto Adige</NavLink>
                                     </NavDropdown.Item>
                                     <NavDropdown.Item>
-                                        <NavLink className='text-decoration-none color_link' to="/umbria">Umbria</NavLink>
+                                        <NavLink className='text-decoration-none color_link' href="/umbria">Umbria</NavLink>
                                     </NavDropdown.Item>
                                     <NavDropdown.Item>
                                         <NavLink className='text-decoration-none color_link' href="/valle_d_aosta">Valle d'Aosta</NavLink>
                                     </NavDropdown.Item>
                                     <NavDropdown.Item>
-                                        <NavLink className='text-decoration-none color_link' to="/veneto">Veneto</NavLink>
+                                        <NavLink className='text-decoration-none color_link' href="/veneto">Veneto</NavLink>
                                     </NavDropdown.Item>
                                 </NavDropdown>
                                 <NavDropdown title="Fiumi" style={{ marginTop: '3px'}} id="basic-nav-dropdown">
@@ -177,25 +177,25 @@ export default function Authenticated({ auth, header, children }) {
                         <h6 className='ms-1 fw-bold'>Regioni</h6>
                         <div className="ms-3">
                             <NavDropdown.Item>
-                                <NavLink className='text-decoration-none color_link' to="/abruzzo">Abruzzo</NavLink>
+                                <NavLink className='text-decoration-none color_link' href="/abruzzo">Abruzzo</NavLink>
                             </NavDropdown.Item>
                             <NavDropdown.Item>
-                                <NavLink className='text-decoration-none color_link' to="/basilicata">Basilicata</NavLink>
+                                <NavLink className='text-decoration-none color_link' href="/basilicata">Basilicata</NavLink>
                             </NavDropdown.Item>
                             <NavDropdown.Item>
-                                <NavLink className='text-decoration-none color_link' to="/calabria">Calabria</NavLink>
+                                <NavLink className='text-decoration-none color_link' href="/calabria">Calabria</NavLink>
                             </NavDropdown.Item>
                             <NavDropdown.Item>
-                                <NavLink className='text-decoration-none color_link' to="/campania">Campania</NavLink>
+                                <NavLink className='text-decoration-none color_link' href="/campania">Campania</NavLink>
                             </NavDropdown.Item>
                             <NavDropdown.Item>
-                                <NavLink className='text-decoration-none color_link' to="/emilia_romagna">Emilia Romagna</NavLink>
+                                <NavLink className='text-decoration-none color_link' href="/emilia_romagna">Emilia Romagna</NavLink>
                             </NavDropdown.Item>
                             <NavDropdown.Item>
-                                <NavLink className='text-decoration-none color_link' to="/friuli_venezia_giulia">Friuli Venezia Giulia</NavLink>
+                                <NavLink className='text-decoration-none color_link' href="/friuli_venezia_giulia">Friuli Venezia Giulia</NavLink>
                             </NavDropdown.Item>
                             <NavDropdown.Item>
-                                <NavLink className='text-decoration-none color_link' to="/lazio">Lazio</NavLink>
+                                <NavLink className='text-decoration-none color_link' href="/lazio">Lazio</NavLink>
                             </NavDropdown.Item>
                             <NavDropdown.Item>
                                 <NavLink className='text-decoration-none color_link' href="/liguria">Liguria</NavLink>
@@ -204,37 +204,37 @@ export default function Authenticated({ auth, header, children }) {
                                 <NavLink className='text-decoration-none color_link' href="/lombardia">Lombardia</NavLink>
                             </NavDropdown.Item>
                             <NavDropdown.Item>
-                                <NavLink className='text-decoration-none color_link' to="/marche">Marche</NavLink>
+                                <NavLink className='text-decoration-none color_link' href="/marche">Marche</NavLink>
                             </NavDropdown.Item>
                             <NavDropdown.Item>
-                                <NavLink className='text-decoration-none color_link' to="/molise">Molise</NavLink>
+                                <NavLink className='text-decoration-none color_link' href="/molise">Molise</NavLink>
                             </NavDropdown.Item>
                             <NavDropdown.Item>
                                 <NavLink className='text-decoration-none color_link' href="/piemonte">Piemonte</NavLink>
                             </NavDropdown.Item>
                             <NavDropdown.Item>
-                                <NavLink className='text-decoration-none color_link' to="/puglia">Puglia</NavLink>
+                                <NavLink className='text-decoration-none color_link' href="/puglia">Puglia</NavLink>
                             </NavDropdown.Item>
                             <NavDropdown.Item>
-                                <NavLink className='text-decoration-none color_link' to="/sardegna">Sardegna</NavLink>
+                                <NavLink className='text-decoration-none color_link' href="/sardegna">Sardegna</NavLink>
                             </NavDropdown.Item>
                             <NavDropdown.Item>
-                                <NavLink className='text-decoration-none color_link' to="/sicilia">Sicilia</NavLink>
+                                <NavLink className='text-decoration-none color_link' href="/sicilia">Sicilia</NavLink>
                             </NavDropdown.Item>
                             <NavDropdown.Item>
-                                <NavLink className='text-decoration-none color_link' to="/toscana">Toscana</NavLink>
+                                <NavLink className='text-decoration-none color_link' href="/toscana">Toscana</NavLink>
                             </NavDropdown.Item>
                             <NavDropdown.Item>
                                 <NavLink className='text-decoration-none color_link' href="/trentino_alto_adige">Trentino Alto Adige</NavLink>
                             </NavDropdown.Item>
                             <NavDropdown.Item>
-                                <NavLink className='text-decoration-none color_link' to="/umbria">Umbria</NavLink>
+                                <NavLink className='text-decoration-none color_link' href="/umbria">Umbria</NavLink>
                             </NavDropdown.Item>
                             <NavDropdown.Item>
                                 <NavLink className='text-decoration-none color_link' href="/valle_d_aosta">Valle d'Aosta</NavLink>
                             </NavDropdown.Item>
                             <NavDropdown.Item>
-                                <NavLink className='text-decoration-none color_link' to="/veneto">Veneto</NavLink>
+                                <NavLink className='text-decoration-none color_link' href="/veneto">Veneto</NavLink>
                             </NavDropdown.Item>
                         </div>
                         <h6 className='ms-1 fw-bold'>Fiumi</h6>

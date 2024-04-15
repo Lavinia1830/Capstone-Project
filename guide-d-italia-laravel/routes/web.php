@@ -709,6 +709,47 @@ Route::get('/le_piu_belle_passeggiate_lungo_i_ru_della_valle_d_aosta', function 
     /*Fine Bologna*/
 /*Fine Emilia-Romagna*/
 
+/*Inizio Friuli Venezia Giulia*/
+    Route::get('/friuli_venezia_giulia', function () {
+        return Inertia::render('Friuli_Venezia_Giulia');
+    })->middleware(['auth', 'verified'])->name('friuli_venezia_giulia');
+    
+    Route::get('/destinazioni/trieste', function () {
+        return Inertia::render('Friuli_Venezia_Giulia/Destinazioni/Trieste');
+    })->middleware(['auth', 'verified'])->name('trieste');
+    /*Inizio Trieste*/
+        Route::get('/visite/trieste/risiera_di_san_sabba', function () {
+            return Inertia::render('Friuli_Venezia_Giulia/Visite/Risiera_di_San_Sabba');
+        })->middleware(['auth', 'verified'])->name('risiera_di_san_sabba');
+
+        Route::get('/visite/trieste/museo_revoltella', function () {
+            return Inertia::render('Friuli_Venezia_Giulia/Visite/Museo_Revoltella');
+        })->middleware(['auth', 'verified'])->name('museo_revoltella');
+
+        Route::get('/visite/trieste/castello_di_san_giusto', function () {
+            return Inertia::render('Friuli_Venezia_Giulia/Visite/Castello_di_San_Giusto');
+        })->middleware(['auth', 'verified'])->name('castello_di_san_giusto');
+
+        Route::get('/visite/trieste/castello_di_miramare', function () {
+            return Inertia::render('Friuli_Venezia_Giulia/Visite/Castello_di_Miramare');
+        })->middleware(['auth', 'verified'])->name('castello_di_miramare');
+
+        Route::get('/visite/trieste/teatro_romano', function () {
+            return Inertia::render('Friuli_Venezia_Giulia/Visite/Teatro_Romano');
+        })->middleware(['auth', 'verified'])->name('teatro_romano');
+    /*Fine Trieste*/
+/*Fine Friuli Venezia Giulia*/
+
+/*Inizio Toscana*/
+    Route::get('/toscana', function () {
+        return Inertia::render('Toscana');
+    })->middleware(['auth', 'verified'])->name('toscana');
+
+    Route::get('/destinazioni/firenze', function () {
+        return Inertia::render('Toscana/Destinazioni/Firenze');
+    })->middleware(['auth', 'verified'])->name('firenze');
+/*Fine Toscana*/
+
     
 
 
