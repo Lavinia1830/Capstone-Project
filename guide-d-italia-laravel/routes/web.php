@@ -807,6 +807,22 @@ Route::get('/le_piu_belle_passeggiate_lungo_i_ru_della_valle_d_aosta', function 
         Route::get('/visite/umbria/perugia/perugina', function () {
             return Inertia::render('Umbria/Visite/Perugina');
         })->middleware(['auth', 'verified'])->name('perugina');
+    /*Fine Perugia*/
+/*Fine Umbria*/
+
+/*Inizio Marche*/
+    Route::get('/marche', function () {
+        return Inertia::render('Marche');
+    })->middleware(['auth', 'verified'])->name('marche');
+
+    Route::get('/destinazioni/marche/ancona', function () {
+        return Inertia::render('Marche/Destinazioni/Ancona');
+    })->middleware(['auth', 'verified'])->name('ancona');
+    /*Inizio Ancona*/
+        Route::get('/visite/marche/ancona/museo_archeologico_nazionale_delle_marche', function () {
+            return Inertia::render('Marche/Visite/Museo_Archeologico_Nazionale_delle_Marche');
+        })->middleware(['auth', 'verified'])->name('museo_archeologico_nazionale_delle_marche');
+    /*Fine Ancona*/
 
 
 
