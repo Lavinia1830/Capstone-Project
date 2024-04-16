@@ -2496,57 +2496,209 @@ hr{
   /*Fine Perugia*/
 /*Fine Umbria*/
 
-
 /*Inizio Marche*/
-.marche{
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Marche/Marche.jpg') center/cover no-repeat;
-  padding: 250px 0;
-}
-.marche h1{
-  color: #fff;
-  margin: 0 !important;
-}
-.card_Marche{
-  display: flex;
-}
-.card_Marche:nth-child(1){
-  background: url('../assets/Marche/Ancona_Marche.jpg') center/cover no-repeat;
-  /* width: 30%; */
-  height: 400px;
-}
-/*Inizio Ancona*/
-  .ancona{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Marche/Ancona_Marche.jpg') center/cover no-repeat;
+  .marche{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Marche/Marche.jpg') center/cover no-repeat;
     padding: 250px 0;
   }
-  .ancona h1{
+  .marche h1{
     color: #fff;
     margin: 0 !important;
   }
-  .card_Ancona{
+  .card_Marche{
     display: flex;
   }
-  .card_Ancona:nth-child(1){
-    background: url('../assets/Marche/Museo_archeologico_nazionale_delle_marche_Ancona.jpg') center/cover no-repeat;
+  .card_Marche:nth-child(1){
+    background: url('../assets/Marche/Ancona_Marche.jpg') center/cover no-repeat;
     /* width: 30%; */
     height: 400px;
   }
-  /*Inizio Museo archeologico nazionale delle Marche*/
-    .museo_archeologico_nazionale_delle_marche{
-      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Marche/Museo_archeologico_nazionale_delle_marche_Ancona.jpg') center/cover no-repeat;
+  /*Inizio Ancona*/
+    .ancona{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Marche/Ancona_Marche.jpg') center/cover no-repeat;
       padding: 250px 0;
     }
-    .museo_archeologico_nazionale_delle_marche h1{
+    .ancona h1{
       color: #fff;
       margin: 0 !important;
     }
-  /*Fine Museo archeologico nazionale delle Marche*/
-/*Fine Ancona*/
+    .card_Ancona{
+      display: flex;
+    }
+    .card_Ancona:nth-child(1){
+      background: url('../assets/Marche/Museo_archeologico_nazionale_delle_marche_Ancona.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    /*Inizio Museo archeologico nazionale delle Marche*/
+      .museo_archeologico_nazionale_delle_marche{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Marche/Museo_archeologico_nazionale_delle_marche_Ancona.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .museo_archeologico_nazionale_delle_marche h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Museo archeologico nazionale delle Marche*/
+  /*Fine Ancona*/
 /*Fine Marche*/
 
-
-
-
+/*Inizio Lazio*/
+  .lazio{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Lazio/Lazio.jpg') center/cover no-repeat;
+    padding: 250px 0;
+  }
+  .lazio h1{
+    color: #fff;
+    margin: 0 !important;
+  }
+  .card_Lazio{
+    display: flex;
+  }
+  .card_Lazio:nth-child(1){
+    background: url('../assets/Lazio/Roma_Lazio.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  /*Inizio Roma*/
+    .roma{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Lazio/Roma_Lazio.jpg') center/cover no-repeat;
+      padding: 250px 0;
+    }
+    .roma h1{
+      color: #fff;
+      margin: 0 !important;
+    }
+    .card_Roma{
+      display: flex;
+    }
+    .card_Roma:nth-child(1){
+      background: url('../assets/Lazio/Colosseo_Roma_Lazio.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Roma:nth-child(2){
+      background: url('../assets/Lazio/Museo_e_galleria_borghese_Roma_Lazio.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Roma:nth-child(3){
+      background: url('../assets/Lazio/Pantheon_Roma_Lazio.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Roma:nth-child(4){
+      background: url('../assets/Lazio/Foro_romano_Roma_Lazio.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Roma:nth-child(5){
+      background: url('../assets/Lazio/Fontana_di_trevi_Roma_Lazio.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Roma:nth-child(6){
+      background: url('../assets/Lazio/Castel_sant_angelo_Roma_Lazio.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Roma:nth-child(7){
+      background: url('../assets/Lazio/Piazza_venezia_Roma_Lazio.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Roma:nth-child(8){
+      background: url('../assets/Lazio/Piazza_navona_Roma_Lazio.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Roma:nth-child(9){
+      background: url('../assets/Lazio/Piazza_di_spagna_Roma_Lazio.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Roma:nth-child(10){
+      background: url('../assets/Lazio/Circo_massimo_Roma_Lazio.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Roma:nth-child(11){
+      background: url('../assets/Lazio/Bocca_della_verità_Roma_Lazio.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Roma:nth-child(12){
+      background: url('../assets/Lazio/Piazza_san_pietro_Roma_Lazio.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Roma:nth-child(13){
+      background: url('../assets/Lazio/Campidoglio_Roma_Lazio.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Roma:nth-child(14){
+      background: url('../assets/Lazio/Isola_tiberina_Roma_Lazio.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Roma:nth-child(15){
+      background: url('../assets/Lazio/Terme_di_caracalla_Roma_Lazio.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Roma:nth-child(16){
+      background: url('../assets/Lazio/Quirinale_Roma_Lazio.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Roma:nth-child(17){
+      background: url('../assets/Lazio/Villa_borghese_Roma_Lazio.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Roma:nth-child(18){
+      background: url('../assets/Lazio/Parco_appia_antica_Roma_Lazio.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Roma:nth-child(19){
+      background: url('../assets/Lazio/Fosse_ardeatine_Roma_Lazio.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Roma:nth-child(20){
+      background: url('../assets/Lazio/Ghetto_Roma_Lazio.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Roma:nth-child(21){
+      background: url('../assets/Lazio/Museo_della_liberazione_Roma_Lazio.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Roma:nth-child(22){
+      background: url('../assets/Lazio/Terrazza_del_pincio_Roma_Lazio.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Roma:nth-child(23){
+      background: url('../assets/Lazio/Parco_degli_acquedotti_Roma_Lazio.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    /*Inizio Colosseo*/
+      .colosseo{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Lazio/Colosseo_Roma_Lazio.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .colosseo h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Colosseo*/
+  /*Fine Roma*/
+/*Fine Lazio*/
 
 
 

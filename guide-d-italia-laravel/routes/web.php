@@ -823,6 +823,22 @@ Route::get('/le_piu_belle_passeggiate_lungo_i_ru_della_valle_d_aosta', function 
             return Inertia::render('Marche/Visite/Museo_Archeologico_Nazionale_delle_Marche');
         })->middleware(['auth', 'verified'])->name('museo_archeologico_nazionale_delle_marche');
     /*Fine Ancona*/
+/*Fine Marche*/
+
+/*Inizio Lazio*/
+    Route::get('/lazio', function () {
+        return Inertia::render('Lazio');
+    })->middleware(['auth', 'verified'])->name('lazio');
+
+    Route::get('/destinazioni/lazio/roma', function () {
+        return Inertia::render('Lazio/Destinazioni/Roma');
+    })->middleware(['auth', 'verified'])->name('roma');
+    /*Inizio Roma*/
+        Route::get('/visite/lazio/roma/colosseo', function () {
+            return Inertia::render('Lazio/Visite/Colosseo');
+        })->middleware(['auth', 'verified'])->name('colosseo');
+    /*Fine Roma*/
+/*Fine Lazio*/
 
 
 

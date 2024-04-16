@@ -2,7 +2,7 @@ import React from 'react'
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout';
 import Footer from '@/Components/Footer';
 
-export default function Museo_Archeologico_Nazionale_delle_Marche() {
+export default function Museo_Archeologico_Nazionale_delle_Marche(props) {
     return (
         <AuthenticatedLayout
             auth={props.auth}
