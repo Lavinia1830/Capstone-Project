@@ -795,6 +795,21 @@ Route::get('/le_piu_belle_passeggiate_lungo_i_ru_della_valle_d_aosta', function 
     /*Fine Firenze*/
 /*Fine Toscana*/
 
+/*Inizio Umbria*/
+    Route::get('/umbria', function () {
+        return Inertia::render('Umbria');
+    })->middleware(['auth', 'verified'])->name('umbria');
+
+    Route::get('/destinazioni/umbria/perugia', function () {
+        return Inertia::render('Umbria/Destinazioni/Perugia');
+    })->middleware(['auth', 'verified'])->name('perugia');
+    /*Inizio Perugia*/
+        Route::get('/visite/umbria/perugia/perugina', function () {
+            return Inertia::render('Umbria/Visite/Perugina');
+        })->middleware(['auth', 'verified'])->name('perugina');
+
+
+
     
 
 

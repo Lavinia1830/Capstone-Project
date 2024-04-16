@@ -2449,6 +2449,80 @@ hr{
   /*Fine Firenze*/
 /*Fine Toscana*/
 
+/*Inizio Umbria*/
+  .umbria{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Umbria/Umbria.jpg') center/cover no-repeat;
+    padding: 250px 0;
+  }
+  .umbria h1{
+    color: #fff;
+    margin: 0 !important;
+  }
+  .card_Umbria{
+    display: flex;
+  }
+  .card_Umbria:nth-child(1){
+    background: url('../assets/Umbria/Perugia_Umbria.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  /*Inizio Perugia*/
+    .perugia{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Umbria/Perugia_Umbria.jpg') center/cover no-repeat;
+      padding: 250px 0;
+    }
+    .perugia h1{
+      color: #fff;
+      margin: 0 !important;
+    }
+    .card_Perugia{
+      display: flex;
+    }
+    .card_Perugia:nth-child(1){
+      background: url('../assets/Umbria/Perugina_Perugia_Umbria.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    /*Inizio Perugina*/
+      .perugina{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Umbria/Perugina_Perugia_Umbria.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .perugina h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Perugina*/
+  /*Fine Perugia*/
+/*Fine Umbria*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*Inizio Laghi*/
   /*Inizio Lago di Garda*/
     .lago_di_garda{
