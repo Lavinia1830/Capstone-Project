@@ -2700,7 +2700,67 @@ hr{
   /*Fine Roma*/
 /*Fine Lazio*/
 
-
+/*Inizio Abruzzo*/
+  .abruzzo{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Abruzzo/Abruzzo.jpg') center/cover no-repeat;
+    padding: 250px 0;
+  }
+  .abruzzo h1{
+    color: #fff;
+    margin: 0 !important;
+  }
+  .card_Abruzzo{
+    display: flex;
+  }
+  .card_Abruzzo:nth-child(1){
+    background: url('../assets/Abruzzo/L_Aquila_Abruzzo.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  /*Inizio L'Aquila*/
+    .l_aquila{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Abruzzo/L_Aquila_Abruzzo.jpg') center/cover no-repeat;
+      padding: 250px 0;
+    }
+    .l_aquila h1{
+      color: #fff;
+      margin: 0 !important;
+    }
+    .card_L_Aquila{
+      display: flex;
+    }
+    .card_L_Aquila:nth-child(1){
+      background: url('../assets/Abruzzo/Anfiteatro_romano_di_amiternum_L_Aquila_Abruzzo.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_L_Aquila:nth-child(2){
+      background: url('../assets/Abruzzo/Basilica_di_san_bernardino_L_Aquila_Abruzzo.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    /*Inizio Anfirìteatro Romano di Amiternum*/
+      .anfiteatro_romano_di_amiternum{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Abruzzo/Anfiteatro_romano_di_amiternum_L_Aquila_Abruzzo.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .anfiteatro_romano_di_amiternum h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Anfirìteatro Romano di Amiternum*/
+    /*Inizio Basilica di San Bernardino*/
+      .basilica_di_san_bernardino{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Abruzzo/Basilica_di_san_bernardino_L_Aquila_Abruzzo.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .basilica_di_san_bernardino h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Basilica di San Bernardino*/
+  /*Fine L'Aquila*/
+/*Fine Abruzzo*/
 
 
 

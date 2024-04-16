@@ -840,6 +840,25 @@ Route::get('/le_piu_belle_passeggiate_lungo_i_ru_della_valle_d_aosta', function 
     /*Fine Roma*/
 /*Fine Lazio*/
 
+/*Inizio Abruzzo*/
+    Route::get('/abruzzo', function () {
+        return Inertia::render('Abruzzo');
+    })->middleware(['auth', 'verified'])->name('abruzzo');
+
+    Route::get('/destinazioni/abruzzo/l_aquila', function () {
+        return Inertia::render('Abruzzo/Destinazioni/L_Aquila');
+    })->middleware(['auth', 'verified'])->name('l_aquila');
+    /*Inizio L'Aquila*/
+        Route::get('/visite/abruzzo/l_aquila/anfiteatro_romano_di_amiternum', function () {
+            return Inertia::render('Abruzzo/Visite/Anfiteatro_Romano_di_Amiternum');
+        })->middleware(['auth', 'verified'])->name('anfiteatro_romano_di_amiternum');
+
+        Route::get('/visite/abruzzo/l_aquila/basilica_di_san_bernardino', function () {
+            return Inertia::render('Abruzzo/Visite/Basilica_di_San_Bernardino');
+        })->middleware(['auth', 'verified'])->name('basilica_di_san_bernardino');
+    /*Fine L'Aquila*/
+/*Fine Abruzzo*/
+
 
 
     
