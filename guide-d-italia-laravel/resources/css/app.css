@@ -2497,6 +2497,53 @@ hr{
 /*Fine Umbria*/
 
 
+/*Inizio Marche*/
+.marche{
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Marche/Marche.jpg') center/cover no-repeat;
+  padding: 250px 0;
+}
+.marche h1{
+  color: #fff;
+  margin: 0 !important;
+}
+.card_Marche{
+  display: flex;
+}
+.card_Marche:nth-child(1){
+  background: url('../assets/Marche/Ancona_Marche.jpg') center/cover no-repeat;
+  /* width: 30%; */
+  height: 400px;
+}
+/*Inizio Ancona*/
+  .ancona{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Marche/Ancona_Marche.jpg') center/cover no-repeat;
+    padding: 250px 0;
+  }
+  .ancona h1{
+    color: #fff;
+    margin: 0 !important;
+  }
+  .card_Ancona{
+    display: flex;
+  }
+  .card_Ancona:nth-child(1){
+    background: url('../assets/Marche/Museo_archeologico_nazionale_delle_marche_Ancona.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  /*Inizio Museo archeologico nazionale delle Marche*/
+    .museo_archeologico_nazionale_delle_marche{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Marche/Museo_archeologico_nazionale_delle_marche_Ancona.jpg') center/cover no-repeat;
+      padding: 250px 0;
+    }
+    .museo_archeologico_nazionale_delle_marche h1{
+      color: #fff;
+      margin: 0 !important;
+    }
+  /*Fine Museo archeologico nazionale delle Marche*/
+/*Fine Ancona*/
+/*Fine Marche*/
+
 
 
 
