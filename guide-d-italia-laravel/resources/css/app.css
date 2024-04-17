@@ -2762,7 +2762,187 @@ hr{
   /*Fine L'Aquila*/
 /*Fine Abruzzo*/
 
-
+/*Inizio Molise*/
+  .molise{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Molise/Molise.jpg') center/cover no-repeat;
+    padding: 250px 0;
+  }
+  .molise h1{
+    color: #fff;
+    margin: 0 !important;
+  }
+  .card_Molise{
+    display: flex;
+  }
+  .card_Molise:nth-child(1){
+    background: url('../assets/Molise/Campobasso_Molise.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Molise:nth-child(2){
+    background: url('../assets/Molise/Termoli_Molise.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Molise:nth-child(3){
+    background: url('../assets/Molise/Isernia_Molise.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Molise:nth-child(4){
+    background: url('../assets/Molise/Ferrazzano_Molise.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Molise:nth-child(5){
+    background: url('../assets/Molise/Pietrabbondante.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Molise:nth-child(6){
+    background: url('../assets/Molise/Trivento_Molise.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Molise:nth-child(7){
+    background: url('../assets/Molise/Fornelli_Molise.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Molise:nth-child(8){
+    background: url('../assets/Molise/Agnone_Molise.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Molise:nth-child(9){
+    background: url('../assets/Molise/Frosolone_Molise.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Molise:nth-child(10){
+    background: url('../assets/Molise/Oratino_Molise.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Molise:nth-child(11){
+    background: url('../assets/Molise/Campitello_matese_Molise.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Molise:nth-child(12){
+    background: url('../assets/Molise/Parco_Nazionale _d_Abruzzo_Lazio_e_Molise.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Molise:nth-child(13){
+    background: url('../assets/Molise/Costa_molisana_Molise.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  /*Inizio Campobasso*/
+    .campobasso{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Molise/Campobasso_Molise.jpg') center/cover no-repeat;
+      padding: 250px 0;
+    }
+    .campobasso h1{
+      color: #fff;
+      margin: 0 !important;
+    }
+    .card_Campobasso{
+      display: flex;
+    }
+    .card_Campobasso:nth-child(1){
+      background: url('../assets/Molise/Castello_monforte_Campobasso_Molise.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Campobasso:nth-child(2){
+      background: url('../assets/Molise/Museo_dei_misteri_Campobasso_Molise.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Campobasso:nth-child(3){
+      background: url('../assets/Molise/Museo_di_palazzo_pistilli_Campobasso_Molise.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Campobasso:nth-child(4){
+      background: url('../assets/Molise/Museo_della_scuola _e _dell_educazione_Campobasso_Molise.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Campobasso:nth-child(5){
+      background: url('../assets/Molise/Museo_internazionale_del_presepio_in_miniatura_Campobasso_Molise.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Campobasso:nth-child(6){
+      background: url('../assets/Molise/Museo_sannitico_Campobasso_Molise.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    /*Inizio Castello Monforte*/
+      .castello_monforte{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Molise/Castello_monforte_Campobasso_Molise.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .castello_monforte h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Castello Monforte*/
+    /*Inizio Museo dei Misteri*/
+      .museo_dei_misteri{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Molise/Museo_dei_misteri_Campobasso_Molise.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .museo_dei_misteri h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Museo dei Misteri*/
+    /*Inizio Museo di palazzo pistilli*/
+      .museo_di_palazzo_pistilli{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Molise/Museo_di_palazzo_pistilli_Campobasso_Molise.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .museo_di_palazzo_pistilli h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Museo di palazo pistilli*/
+    /*Inizio Museo di scuola e dell'educazione*/
+      .museo_di_scuola_e_dell_educazione_popolare{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Molise/Museo_della_scuola _e _dell_educazione_Campobasso_Molise.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .museo_di_scuola_e_dell_educazione_popolare h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Museo di scuola e dell'educazione*/
+    /*Inizio Museo internazionale del presepio in miniatura*/
+      .museo_internazionale_del_presepio_in_miniatura{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Molise/Museo_internazionale_del_presepio_in_miniatura_Campobasso_Molise.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .museo_internazionale_del_presepio_in_miniatura h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Museo internazionale del presepio in miniatura*/
+    /*Inizio Museo sannitico*/
+      .museo_sannitico{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Molise/Museo_sannitico_Campobasso_Molise.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .museo_sannitico h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Museo sannitico*/
+  /*Fine Campobasso*/
+/*Fine Molise*/
 
 
 

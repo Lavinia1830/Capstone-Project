@@ -859,8 +859,40 @@ Route::get('/le_piu_belle_passeggiate_lungo_i_ru_della_valle_d_aosta', function 
     /*Fine L'Aquila*/
 /*Fine Abruzzo*/
 
+/*Inizio Molise*/
+    Route::get('/molise', function () {
+        return Inertia::render('Molise');
+    })->middleware(['auth', 'verified'])->name('molise');
 
+    Route::get('/destinazioni/molise/campobasso', function () {
+        return Inertia::render('Molise/Destinazioni/Campobasso');
+    })->middleware(['auth', 'verified'])->name('campobasso');
+    /*Inizio Campobasso*/
+        Route::get('/visite/molise/campobasso/castello_monforte', function () {
+            return Inertia::render('Molise/Visite/Castello_Monforte');
+        })->middleware(['auth', 'verified'])->name('castello_monforte');
 
+        Route::get('/visite/molise/campobasso/museo_dei_misteri', function () {
+            return Inertia::render('Molise/Visite/Museo_dei_Misteri');
+        })->middleware(['auth', 'verified'])->name('museo_dei_misteri');
+
+        Route::get('/visite/molise/campobasso/museo_di_palazzo_pistilli', function () {
+            return Inertia::render('Molise/Visite/Museo_di_Palazzo_Pistilli');
+        })->middleware(['auth', 'verified'])->name('museo_di_palazzo_pistilli');
+
+        Route::get('/visite/molise/campobasso/museo_della_scuola_e_dell_educazione_popolare', function () {
+            return Inertia::render('Molise/Visite/Museo_della_Scuola_e_dell_Educazione_Popolare');
+        })->middleware(['auth', 'verified'])->name('museo_della_scuola_e_dell_educazione_popolare');
+
+        Route::get('/visite/molise/campobasso/museo_internazione_del_pesepio_in_miniatura', function () {
+            return Inertia::render('Molise/Visite/Museo_internazionale_del_Presepio_in_Miniatura');
+        })->middleware(['auth', 'verified'])->name('museo_internazione_del_pesepio_in_miniatura');
+
+        Route::get('/visite/molise/campobasso/museo_sannitico', function () {
+            return Inertia::render('Molise/Visite/Museo_Sannitico');
+        })->middleware(['auth', 'verified'])->name('museo_sannitico');
+    /*Fine Campobasso*/
+/*Fine Molise*/
     
 
 
