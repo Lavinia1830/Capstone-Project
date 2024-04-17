@@ -2944,6 +2944,244 @@ hr{
   /*Fine Campobasso*/
 /*Fine Molise*/
 
+/*Inizio Campiania*/
+  .campania{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Campania/Campania.jpg') center/cover no-repeat;
+    padding: 250px 0;
+  }
+  .campania h1{
+    color: #fff;
+    margin: 0 !important;
+  }
+  .card_Campania{
+    display: flex;
+  }
+  .card_Campania:nth-child(1){
+    background: url('../assets/Campania/Napoli_Campania.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Campania:nth-child(2){
+    background: url('../assets/Campania/Pompei_Campania.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Campania:nth-child(3){
+    background: url('../assets/Campania/Salerno_Campania.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Campania:nth-child(4){
+    background: url('../assets/Campania/Caserta_Campania.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Campania:nth-child(5){
+    background: url('../assets/Campania/Cilento_Salerno_Campania.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Campania:nth-child(6){
+    background: url('../assets/Campania/Ischia_Napoli_Campania.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Campania:nth-child(7){
+    background: url('../assets/Campania/Capri_Napoli_Campania.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Campania:nth-child(8){
+    background: url('../assets/Campania/Costiera_Amalfitana_Salerno_Campania.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Campania:nth-child(9){
+    background: url('../assets/Campania/Amalfi_SalernoCamapnia.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  /*Inizio Napoli*/
+    .napoli{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Campania/Napoli_Campania.jpg') center/cover no-repeat;
+      padding: 250px 0;
+    }
+    .napoli h1{
+      color: #fff;
+      margin: 0 !important;
+    }
+    .card_Napoli{
+      display: flex;
+    }
+    .card_Napoli:nth-child(1){
+      background: url('../assets/Campania/Duomo_Napoli_Campania.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Napoli:nth-child(2){
+      background: url('../assets/Campania/Piazza_del_plebiscito_Napoli_Cmapania.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Napoli:nth-child(3){
+      background: url('../assets/Campania/Basilica_di_santa_chiara_Napoli_Campania.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Napoli:nth-child(4){
+      background: url('../assets/Campania/Palazzo_reale_Napoli_Campania.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Napoli:nth-child(5){
+      background: url('../assets/Campania/Basilica_di_san_lorenzo_maggiore_Napoli_Campania.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Napoli:nth-child(6){
+      background: url('../assets/Campania/Teatro_san_carlo_Napoli_Campania.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Napoli:nth-child(7){
+      background: url('../assets/Campania/Galleria_umberto_i_Napoli_Campania.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Napoli:nth-child(8){
+      background: url('../assets/Campania/Castel_nuovo_Napoli_Campania.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Napoli:nth-child(9){
+      background: url('../assets/Campania/Castel_dell_ovo_Napoli_Campania.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Napoli:nth-child(10){
+      background: url('../assets/Campania/Vesuvio_Napoli_Campania.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Napoli:nth-child(11){
+      background: url('../assets/Campania/Catacombe_di_san_gennaro_Napoli_Campania.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    /*Inizio Duomo di Napoli*/
+      .duomo_di_napoli{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Campania/Duomo_Napoli_Campania.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .duomo_di_napoli h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Duomo di Napoli*/
+    /*Inizio Piazza del Plebiscito*/
+      .piazza_del_plebiscito{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Campania/Piazza_del_plebiscito_Napoli_Cmapania.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .piazza_del_plebiscito h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Piazza del Plebiscito*/
+    /*Inizio Basilica di Santa Chiara*/
+      .basilica_di_santa_chiara{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Campania/Basilica_di_santa_chiara_Napoli_Campania.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .basilica_di_santa_chiara h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Basilica di Santa Chiara*/
+    /*Inizio Palazzo Reale*/
+      .palazzo_reale_napoli{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Campania/Palazzo_reale_Napoli_Campania.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .palazzo_reale_napoli h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Palazzo Reale*/
+    /*Inizio Basilica di San Lorenzo Maggiore*/
+      .basilica_di_san_lorenzo_maggiore{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Campania/Basilica_di_san_lorenzo_maggiore_Napoli_Campania.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .basilica_di_san_lorenzo_maggiore h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Basilica di San Lorenzo Maggiore*/
+    /*Inizio Teatro San Lorenzo*/
+      .teatro_san_carlo{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Campania/Teatro_san_carlo_Napoli_Campania.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .teatro_san_carlo h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Teatro San Lorenzo*/
+    /*Inizio Galleria Umberto I*/
+      .galleria_umberto_1{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Campania/Galleria_Umberto_I_Napoli_Campania.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .galleria_umberto_1 h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Galleria Umberto I*/
+    /*Inizio Castel Nuovo*/
+      .castel_nuovo{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Campania/Castel_Nuovo_Napoli_Campania.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .castel_nuovo h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Castel Nuovo*/
+    /*Inizio Castel dell'Ovo*/
+      .castel_dell_ovo{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Campania/Castel_dell_ovo_Napoli_Campania.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .castel_dell_ovo h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Castel dell'Ovo*/
+    /*Inizio Vesuvio*/
+      .vesuvio{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Campania/Vesuvio_Napoli_Campania.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .vesuvio h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Vesuvio*/
+    /*Inizio Catacombe di San Gennaro*/
+      .catacombe_di_san_gennaro{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Campania/Catacombe_di_San_Gennaro_Napoli_Campania.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .catacombe_di_san_gennaro h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Catacombe di San Gennaro*/
+  /*Fine Napoli*/
+/*Fine Campiania*/
+
+
 
 
 

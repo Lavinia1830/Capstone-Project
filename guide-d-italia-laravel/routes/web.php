@@ -893,6 +893,63 @@ Route::get('/le_piu_belle_passeggiate_lungo_i_ru_della_valle_d_aosta', function 
         })->middleware(['auth', 'verified'])->name('museo_sannitico');
     /*Fine Campobasso*/
 /*Fine Molise*/
+
+/*Inizio Campania*/
+    Route::get('/campania', function () {
+        return Inertia::render('Campania');
+    })->middleware(['auth', 'verified'])->name('campania');
+
+    Route::get('/destinazioni/campania/napoli', function () {
+        return Inertia::render('Campania/Destinazioni/Napoli');
+    })->middleware(['auth', 'verified'])->name('napoli');
+    /*Inizio Napoli*/
+        Route::get('/visite/campania/napoli/duomo', function () {
+            return Inertia::render('Campania/Visite/Duomo_di_Napoli');
+        })->middleware(['auth', 'verified'])->name('duomo');
+
+        Route::get('/visite/campania/napoli/piazza_del_plebiscito', function () {
+            return Inertia::render('Campania/Visite/Piazza_del_Plebiscito');
+        })->middleware(['auth', 'verified'])->name('piazza_del_plebiscito');
+
+        Route::get('/visite/campania/napoli/basilica_di_santa_chiara', function () {
+            return Inertia::render('Campania/Visite/Basilica_di_Santa_Chiara');
+        })->middleware(['auth', 'verified'])->name('basilica_di_santa_chiara');
+
+        Route::get('/visite/campania/napoli/palazzo_reale', function () {
+            return Inertia::render('Campania/Visite/Palazzo_Reale');
+        })->middleware(['auth', 'verified'])->name('palazzo_reale');
+
+        Route::get('/visite/campania/napoli/basilica_di_san_lorenzo_maggiore', function () {
+            return Inertia::render('Campania/Visite/Basilica_di_San_Lorenzo_Maggiore');
+        })->middleware(['auth', 'verified'])->name('basilica_di_san_lorenzo_maggiore');
+
+        Route::get('/visite/campania/napoli/teatro_san_carlo', function () {
+            return Inertia::render('Campania/Visite/Teatro_San_Carlo');
+        })->middleware(['auth', 'verified'])->name('teatro_san_carlo');
+
+        Route::get('/visite/campania/napoli/galleria_umberto_1', function () {
+            return Inertia::render('Campania/Visite/Galleria_Umberto_I');
+        })->middleware(['auth', 'verified'])->name('galleria_umberto_1');
+
+        Route::get('/visite/campania/napoli/castel_nuovo', function () {
+            return Inertia::render('Campania/Visite/Castel_Nuovo');
+        })->middleware(['auth', 'verified'])->name('castel_nuovo');
+
+        Route::get('/visite/campania/napoli/castel_dell_ovo', function () {
+            return Inertia::render('Campania/Visite/Castel_dell_Ovo');
+        })->middleware(['auth', 'verified'])->name('castel_dell_ovo');
+
+        Route::get('/visite/campania/napoli/vesuvio', function () {
+            return Inertia::render('Campania/Visite/Vesuvio');
+        })->middleware(['auth', 'verified'])->name('vesuvio');
+
+        Route::get('/visite/campania/napoli/catacombe_di_san_gennaro', function () {
+            return Inertia::render('Campania/Visite/Catacombe_di_San_Gennaro');
+        })->middleware(['auth', 'verified'])->name('catacombe_di_san_gennaro');
+    /*Fine Napoli*/
+/*Fine Campania*/
+        
+
     
 
 
