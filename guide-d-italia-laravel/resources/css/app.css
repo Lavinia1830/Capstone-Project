@@ -3181,6 +3181,128 @@ hr{
   /*Fine Napoli*/
 /*Fine Campiania*/
 
+/*Inizio Basilicata*/
+  .basilicata{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Basilicata/Basilicata.jpg') center/cover no-repeat;
+    padding: 250px 0;
+  }
+  .basilicata h1{
+    color: #fff;
+    margin: 0 !important;
+  }
+  .card_Basilicata{
+    display: flex;
+  }
+  .card_Basilicata:nth-child(1){
+    background: url('../assets/Basilicata/Matera_Basilicata.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Basilicata:nth-child(2){
+    background: url('../assets/Basilicata/Potenza_Basilicata.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Basilicata:nth-child(3){
+    background: url('../assets/Basilicata/Maratea_Basilicata.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Basilicata:nth-child(4){
+    background: url('../assets/Basilicata/Melfi_Basilicata.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Basilicata:nth-child(5){
+    background: url('../assets/Basilicata/Venosa_Basilicata.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Basilicata:nth-child(6){
+    background: url('../assets/Basilicata/Pietrapertosa_Basilicata.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Basilicata:nth-child(7){
+    background: url('../assets/Basilicata/Castelmezzano_Basilicata.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Basilicata:nth-child(8){
+    background: url('../assets/Basilicata/Tricarico_Basilicata.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Basilicata:nth-child(9){
+    background: url('../assets/Basilicata/Parco_nazionale_del_pollino_Basilicata.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  /*Inizio Matera*/
+    .matera{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Basilicata/Matera_Basilicata.jpg') center/cover no-repeat;
+      padding: 250px 0;
+    }
+    .matera h1{
+      color: #fff;
+      margin: 0 !important;
+    }
+    .card_Matera{
+      display: flex;
+    }
+    .card_Matera:nth-child(1){
+      background: url('../assets/Basilicata/Casa_grotta_nei_sassi_di_Matera_Basilicata.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Matera:nth-child(2){
+      background: url('../assets/Basilicata/Punti_panoramici_Matera_Basilicata.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    /*Inizio Casa Grotta nei Sassi di Matera*/
+      .casa_grotta_nei_sassi_di_matera{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Basilicata/Casa_grotta_nei_sassi_di_Matera_Basilicata.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .casa_grotta_nei_sassi_di_matera h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Cella Grotta nei Sassi di Matera*/
+    /*Inizio Punti Panoramici*/
+      .punti_panoramici{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Basilicata/Punti_panoramici_Matera_Basilicata.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .punti_panoramici h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Punti Panoramici*/
+    /*Inizio Belvedere di Murgia Timone*/
+      .belvedere_di_murgia_timone{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Basilicata/Belvedere_di_murgia_timone_Matera_Basilicata.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .belvedere_di_murgia_timone h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Belvedere di Murgia Timone*/
+    /*Inizio Parco della Murgia*/
+      .parco_della_murgia{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Basilicata/Parco_della_murgia_Matera_Basilicata.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .parco_della_murgia h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Parco della Murgia*/
+  /*Fine Matera*/
+/*Fine Basilicata*/
+
 
 
 

@@ -949,7 +949,31 @@ Route::get('/le_piu_belle_passeggiate_lungo_i_ru_della_valle_d_aosta', function 
     /*Fine Napoli*/
 /*Fine Campania*/
         
+/*Inizio Basilicata*/
+    Route::get('/basilicata', function () {
+        return Inertia::render('Basilicata');
+    })->middleware(['auth', 'verified'])->name('basilicata');
 
+    Route::get('/destinazioni/basilicata/matera', function () {
+        return Inertia::render('Basilicata/Destinazioni/Matera');
+    })->middleware(['auth', 'verified'])->name('matera');
+    /*Inizio Matara*/
+        Route::get('/visite/basilicata/matera/casa_grotta_nei_sassi_di_matera', function () {
+            return Inertia::render('Basilicata/Visite/Casa_Grotta_nei_Sassi_di_Matera');
+        })->middleware(['auth', 'verified'])->name('casa_grotta_nei_sassi_di_matera');
+
+        Route::get('/visite/basilicata/matera/punti_panoramici', function () {
+            return Inertia::render('Basilicata/Visite/Punti_Panoramici');
+        })->middleware(['auth', 'verified'])->name('punti_panoramici');
+
+        Route::get('/visite/basilicata/matera/belvedere_di_murgia_timone', function () {
+            return Inertia::render('Basilicata/Visite/Belvedere_Murgia_Timone');
+        })->middleware(['auth', 'verified'])->name('belvedere_di_murgia_timone');
+
+        Route::get('/montagna/basilicata/parco_della_murgia', function () {
+            return Inertia::render('Montagna/Parco_della_Murgia');
+        })->middleware(['auth', 'verified'])->name('parco_della_murgia');
+/*Fine Basilicata*/
     
 
 
