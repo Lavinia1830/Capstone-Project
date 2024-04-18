@@ -3410,6 +3410,134 @@ hr{
   /*Fine Bari*/
 /*Fine Puglia*/
 
+/*Inizio Calabria*/
+  .calabria{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Calabria/Calabria.jpg') center/cover no-repeat;
+    padding: 250px 0;
+  }
+  .calabria h1{
+    color: #fff;
+    margin: 0 !important;
+  }
+  .card_Calabria{
+    display: flex;
+  }
+  .card_Calabria:nth-child(1){
+    background: url('../assets/Calabria/Catanzaro_Calabria.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Calabria:nth-child(2){
+    background: url('../assets/Calabria/Reggio_Calabria_Calabria.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Calabria:nth-child(3){
+    background: url('../assets/Calabria/Cosenza_Calabria.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Calabria:nth-child(4){
+    background: url('../assets/Calabria/Crotone_Calabria.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Calabria:nth-child(5){
+    background: url('../assets/Calabria/Tropea_Calabria.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  /*Inizio Catanzaro*/
+    .catanzaro{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Calabria/Catanzaro_Calabria.jpg') center/cover no-repeat;
+      padding: 250px 0;
+    }
+    .catanzaro h1{
+      color: #fff;
+      margin: 0 !important;
+    }
+    .card_Catanzaro{
+      display: flex;
+    }
+    .card_Catanzaro:nth-child(1){
+      background: url('../assets/Calabria/Duomo_di_Catanzaro_Calabria.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Catanzaro:nth-child(2){
+      background: url('../assets/Calabria/Basilica_dell_immacolata_Catanzaro_Calabria.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Catanzaro:nth-child(3){
+      background: url('../assets/Calabria/Ponte_Bisantis_Catanzaro_Calabria.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Catanzaro:nth-child(4){
+      background: url('../assets/Calabria/Complesso_monumentale_del_san_giovanni_Catanzaro_Calabria.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Catanzaro:nth-child(5){
+      background: url('../assets/Calabria/Teatro_Politeama_Catanzaro_Calabria.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    /*Inizio Duomo di Catanzaro*/
+      .duomo_di_catanzaro{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Calabria/Duomo_di_Catanzaro_Calabria.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .duomo_di_catanzaro h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Duomo di Catanzaro*/
+    /*Inizio Basilica dell'immacolata*/
+      .basilica_dell_immacolata{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Calabria/Basilica_dell_immacolata_Catanzaro_Calabria.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .basilica_dell_immacolata h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Basilica dell'immacolata*/
+    /*Inizio Ponte Bisantis*/
+      .ponte_bisantis{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Calabria/Ponte_Bisantis_Catanzaro_Calabria.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .ponte_bisantis h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Ponte Bisantis*/
+    /*Inizio Complesso monumentale San Giovanni*/
+      .complesso_monumentale_san_giovanni{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Calabria/Complesso_monumentale_del_san_giovanni_Catanzaro_Calabria.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .complesso_monumentale_san_giovanni h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Complesso monumentale San Giovanni*/
+    /*Inizio Teatro Politeama*/
+      .teatro_politeama{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Calabria/Teatro_Politeama_Catanzaro_Calabria.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .teatro_politeama h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Teatro Politeama*/
+  /*Fine Catanzaro*/
+/*Fine Calabria*/
+    
+
 
 
 

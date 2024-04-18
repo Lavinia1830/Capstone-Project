@@ -999,7 +999,35 @@ Route::get('/le_piu_belle_passeggiate_lungo_i_ru_della_valle_d_aosta', function 
     /*Fine Bari*/
 /*Fine Puglia*/
 
+/*Inizio Calabria*/
+    Route::get('/calabria', function () {
+        return Inertia::render('Calabria');
+    })->middleware(['auth', 'verified'])->name('calabria');
 
+    Route::get('/destinazioni/calabria/catanzaro', function () {
+        return Inertia::render('Calabria/Destinazioni/Catanzaro');
+    })->middleware(['auth', 'verified'])->name('catanzaro');
+    /*Inizio Catanzaro*/
+        Route::get('/visite/calabria/catanzaro/duomo_di_catanzaro', function () {
+            return Inertia::render('Calabria/Visite/Duomo_di_Catanzaro');
+        })->middleware(['auth', 'verified'])->name('duomo_di_catanzaro');
+
+        Route::get('/visite/calabria/catanzaro/basilica_dell_immacolata', function () {
+            return Inertia::render('Calabria/Visite/Basilica_dell_Immacolata');
+        })->middleware(['auth', 'verified'])->name('basilica_dell_immacolata');
+
+        Route::get('/visite/calabria/catanzaro/ponte_bisantis', function () {
+            return Inertia::render('Calabria/Visite/Ponte_Bisantis');
+        })->middleware(['auth', 'verified'])->name('ponte_bisantis');
+
+        Route::get('/visite/calabria/catanzaro/complesso_monumentale_san_giovanni', function () {
+            return Inertia::render('Calabria/Visite/Complesso_Monumentale_San_Giovanni');
+        })->middleware(['auth', 'verified'])->name('complesso_monumentale_san_giovanni');
+
+        Route::get('/visite/calabria/catanzaro/teatro_politeama', function () {
+            return Inertia::render('Calabria/Visite/Teatro_Politeama');
+        })->middleware(['auth', 'verified'])->name('teatro_politeama');
+/*Inizio Calabria*/
 
 
 
