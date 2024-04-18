@@ -973,10 +973,31 @@ Route::get('/le_piu_belle_passeggiate_lungo_i_ru_della_valle_d_aosta', function 
         Route::get('/montagna/basilicata/parco_della_murgia', function () {
             return Inertia::render('Montagna/Parco_della_Murgia');
         })->middleware(['auth', 'verified'])->name('parco_della_murgia');
+    /*Fine Matara*/
 /*Fine Basilicata*/
-    
 
+/*Inizio Puglia*/
+    Route::get('/puglia', function () {
+        return Inertia::render('Puglia');
+    })->middleware(['auth', 'verified'])->name('puglia');
 
+    Route::get('/destinazioni/puglia/bari', function () {
+        return Inertia::render('Puglia/Destinazioni/Bari');
+    })->middleware(['auth', 'verified'])->name('bari');
+    /*Inizio Bari*/
+        Route::get('/visite/puglia/bari/castello_normanno_svevo', function () {
+            return Inertia::render('Puglia/Visite/Castello_Normanno_Svevo');
+        })->middleware(['auth', 'verified'])->name('castello_normanno_svevo');
+
+        Route::get('/visite/puglia/bari/basilica_di_san_nicola', function () {
+            return Inertia::render('Puglia/Visite/Basilica_di_San_Nicola');
+        })->middleware(['auth', 'verified'])->name('basilica_di_san_nicola');
+
+        Route::get('/visite/puglia/bari/grotte_di_castellana', function () {
+            return Inertia::render('Puglia/Visite/Grotte_di_Castellana');
+        })->middleware(['auth', 'verified'])->name('grotte_di_castellana');
+    /*Fine Bari*/
+/*Fine Puglia*/
 
 
 
