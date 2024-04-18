@@ -8,15 +8,6 @@ export default function Matera(props) {
 
     const [isHoveredCasaGrottaneiSassidiMatera, setIsHoveredCasaGrottaneiSassidiMatera] = useState(false);
     const [isHoveredSassidiMatera, setIsHoveredSassidiMatera] = useState(false);
-    const [isHoveredBasilicadiSantaChiara, setIsHoveredBasilicadiSantaChiara] = useState(false);
-    const [isHoveredPalazzoReale, setIsHoveredPalazzoReale] = useState(false);
-    const [isHoveredBasilicadiSanLorenzoMaggiore, setIsHoveredBasilicadiSanLorenzoMaggiore] = useState(false);
-    const [isHoveredTeatroSanCarlo, setIsHoveredTeatroSanCarlo] = useState(false);
-    const [isHoveredGalleriaUmbertoI, setIsHoveredGalleriaUmbertoI] = useState(false);
-    const [isHoveredCastelNuovo, setIsHoveredCastelNuovo] = useState(false);
-    const [isHoveredCasteldellOvo, setIsHoveredCasteldellOvo] = useState(false);
-    const [isHoveredVesuvio, setIsHoveredVesuvio] = useState(false);
-    const [isHoveredCatacombediSanGennaro, setIsHoveredCatacombediSanGennaro] = useState(false);
 
     return (
         <AuthenticatedLayout

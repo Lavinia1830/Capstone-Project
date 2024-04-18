@@ -3303,6 +3303,112 @@ hr{
   /*Fine Matera*/
 /*Fine Basilicata*/
 
+/*Inizio Puglia*/
+  .puglia{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Puglia/Puglia.jpg') center/cover no-repeat;
+    padding: 250px 0;
+  }
+  .puglia h1{
+    color: #fff;
+    margin: 0 !important;
+  }
+  .card_Puglia{
+    display: flex;
+  }
+  .card_Puglia:nth-child(1){
+    background: url('../assets/Puglia/Bari_Puglia.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Puglia:nth-child(2){
+    background: url('../assets/Puglia/Le_gravine_Puglia.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Puglia:nth-child(3){
+    background: url('../assets/Puglia/Trani_Puglia.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Puglia:nth-child(4){
+    background: url('../assets/Puglia/Taranto_Puglia.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Puglia:nth-child(5){
+    background: url('../assets/Puglia/Altamura_Puglia.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Puglia:nth-child(6){
+    background: url('../assets/Puglia/Lecce_Puglia.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Puglia:nth-child(7){
+    background: url('../assets/Puglia/Ostuni_Puglia.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  /*Inizio Bari*/
+    .bari{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Puglia/Bari_Puglia.jpg') center/cover no-repeat;
+      padding: 250px 0;
+    }
+    .bari h1{
+      color: #fff;
+      margin: 0 !important;
+    }
+    .card_Bari{
+      display: flex;
+    }
+    .card_Bari:nth-child(1){
+      background: url('../assets/Puglia/Castello_normanno_svevo_Bari_Puglia.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Bari:nth-child(2){
+      background: url('../assets/Puglia/Basilica_di_san_nicola_Bari_Puglia.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Bari:nth-child(3){
+      background: url('../assets/Puglia/Grotte_di_castellana_Bari_Puglia.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    /*Inizio Castello Normanno Svevo*/
+      .castello_normanno_svevo{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Puglia/Castello_normanno_svevo_Bari_Puglia.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .castello_normanno_svevo h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Castello Normanno Svevo*/
+    /*Inizio Basilica di San Nicola*/
+      .basilica_di_san_nicola{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Puglia/Basilica_di_san_nicola_Bari_Puglia.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .basilica_di_san_nicola h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Basilica di San Nicola*/
+    /*Inizio Grotte di Castellana*/
+      .grotte_di_castellana{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Puglia/Grotte_di_castellana_Bari_Puglia.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .grotte_di_castellana h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Grotte di Castellana*/
+  /*Fine Bari*/
+/*Fine Puglia*/
 
 
 
