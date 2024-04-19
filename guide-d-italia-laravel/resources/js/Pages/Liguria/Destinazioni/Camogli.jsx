@@ -40,7 +40,7 @@ export default function Camogli(props) {
                         Il borgo dedito inizialmente alle <b>attività marittime</b> e <b>commerciali</b> nel corso degli anni ha sviluppato alcune caratteristiche <b>attività artigianali</b> come la filatura, la tessitura e la tintura dei tessuti.
                     </p>
                     <div className='row d-flex justify-content-center mx-0 mb-4'>
-                        <Card className='col-sm-12 col-md-6 col-lg-2 px-0 card_Camogli'>
+                        <Card className='col-sm-12 col-md-6 col-lg-4 px-0 card_Camogli'>
                             <CardBody className='bottone'>
                             <Link 
                                 className="bottone_link" 
@@ -51,7 +51,7 @@ export default function Camogli(props) {
                             </Link>
                             </CardBody>
                         </Card>
-                        <Card className='col-sm-12 col-md-6 col-lg-2 px-0 card_Camogli'>
+                        <Card className='col-sm-12 col-md-6 col-lg-4 px-0 card_Camogli'>
                             <CardBody className='bottone'>
                             <Link 
                                 className="bottone_link" 
@@ -62,7 +62,7 @@ export default function Camogli(props) {
                             </Link>
                             </CardBody>
                         </Card>
-                        <Card className='col-sm-12 col-md-6 col-lg-2 px-0 card_Camogli'>
+                        <Card className='col-sm-12 col-md-6 col-lg-4 px-0 card_Camogli'>
                             <CardBody className='bottone'>
                             <Link 
                                 className="bottone_link" 
@@ -73,7 +73,7 @@ export default function Camogli(props) {
                             </Link>
                             </CardBody>
                         </Card>
-                        <Card className='col-sm-12 col-md-6 col-lg-2 px-0 card_Camogli'>
+                        <Card className='col-sm-12 col-md-6 col-lg-4 px-0 card_Camogli'>
                             <CardBody className='bottone'>
                             <Link 
                                 className="bottone_link" 

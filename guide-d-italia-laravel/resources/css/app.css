@@ -118,7 +118,6 @@ hr{
     }
     .card_Valle_d_Aosta:nth-child(2){ 
       background: url('../assets/Valle_d_Aosta/Castello_di_Fenis_Valle_d_Aosta.jpg') center/cover no-repeat;
-      /* width: 30%; */
       height: 400px;
     }
     .card_Valle_d_Aosta:nth-child(3){ 
@@ -1925,7 +1924,1826 @@ hr{
 /*Fine Veneto*/
 
 /*Inizio Emilia Romagna*/
+  .emilia_romagna{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Emilia_Romagna/Emilia_Romagna.jpg') center/cover no-repeat;
+    padding: 250px 0;
+  }
+  .emilia_romagna h1{
+    color: #fff;
+    margin: 0 !important;
+  }
+  .card_Emilia_Romagna{
+    display: flex;
+  }
+  .card_Emilia_Romagna:nth-child(1){
+    background: url('../assets/Emilia_Romagna/Bologna_Emilia_Romagna.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  /*Inizio Bologna*/
+    .bologna{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Emilia_Romagna/Bologna_Emilia_Romagna.jpg') center/cover no-repeat;
+      padding: 250px 0;
+    }
+    .bologna h1{
+      color: #fff;
+      margin: 0 !important;
+    }
+    .card_Bologna{
+      display: flex;
+    }
+    .card_Bologna:nth-child(1){
+      background: url('../assets/Emilia_Romagna/Basilica_di_san_petronio_Bologna_Emilia_Romagna.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Bologna:nth-child(2){
+      background: url('../assets/Emilia_Romagna/Piazza_Maggiore_Bologna_Emilia_Romagna.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Bologna:nth-child(3){
+      background: url('../assets/Emilia_Romagna/Le_Due_Torri_Bologna_Emilia_Romagna.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Bologna:nth-child(4){
+      background: url('../assets/Emilia_Romagna/Mambo_Il_Museo_d_Arte_Moderna_Bologna_Emilia_Romagna.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Bologna:nth-child(5){
+      background: url('../assets/Emilia_Romagna/Antico_mercato_del_quadrilatero_Bologna_Emilia_Romagna.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Bologna:nth-child(6){
+      background: url('../assets/Emilia_Romagna/Archiginnasio_Bologna_Emilia_Romagna.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Bologna:nth-child(7){
+      background: url('../assets/Emilia_Romagna/Pinacoteca_Nazionale_Bologna_Emilia_Romagna.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Bologna:nth-child(8){
+      background: url('../assets/Emilia_Romagna/Piazza_Santo_Stefano_Bologna_Emilia_Romagna.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Bologna:nth-child(9){
+      background: url('../assets/Emilia_Romagna/Certosa_di_Bologna_Emilia_Romagna.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Bologna:nth-child(10){
+      background: url('../assets/Emilia_Romagna/Museo_civico_medievale_Bologna_Emilia_Romagna.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    /*Inizio Basilica di San Petronio*/
+      .basilica_di_san_petronio{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Emilia_Romagna/Basilica_di_san_petronio_Bologna_Emilia_Romagna.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .basilica_di_san_petronio h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Basilica di San Petronio*/
+    /*Inizio Piazza Maggiore*/
+      .piazza_maggiore{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Emilia_Romagna/Piazza_Maggiore_Bologna_Emilia_Romagna.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .piazza_maggiore h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Piazza Maggiore*/
+    /*Inizio Le Due Torri*/
+      .le_due_torri{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Emilia_Romagna/Le_Due_Torri_Bologna_Emilia_Romagna.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .le_due_torri h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Le Due Torri*/
+    /*Inizio Mambo - Museo d'Arte Moderna di Bologna*/
+      .mambo{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Emilia_Romagna/Mambo_Il_Museo_d_Arte_Moderna_Bologna_Emilia_Romagna.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .mambo h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Mambo - Museo d'Arte Moderna di Bologna*/
+    /*Inizio Antico mercato del quadrilatero di Bologna*/
+      .antico_mercato_del_quadrilatero{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Emilia_Romagna/Antico_mercato_del_quadrilatero_Bologna_Emilia_Romagna.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .antico_mercato_del_quadrilatero h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Antico mercato del quadrilatero di Bologna*/
+    /*Inizio Archiginnasio*/
+      .archiginnasio{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Emilia_Romagna/Archiginnasio_Bologna_Emilia_Romagna.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .archiginnasio h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Archiginnasio*/
+    /*Inizio Pinacoteca Nazionale*/
+      .pinacoteca_nazionale{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Emilia_Romagna/Pinacoteca_Nazionale_Bologna_Emilia_Romagna.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .pinacoteca_nazionale h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Pinacoteca Nazionale*/
+    /*Inizio Piazza Santo Stefano*/
+      .piazza_santo_stefano{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Emilia_Romagna/Piazza_Santo_Stefano_Bologna_Emilia_Romagna.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .piazza_santo_stefano h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Piazza Santo Stefano*/
+    /*Inizio Certosa di Bologna*/
+      .certosa_di_bologna{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Emilia_Romagna/Certosa_di_Bologna_Bologna_Emilia_Romagna.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .certosa_di_bologna h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Certosa di Bologna*/
+    /*Inizio Museo civico medievale*/
+      .museo_civico_medievale{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Emilia_Romagna/Museo_civico_medievale_Bologna_Emilia_Romagna.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .museo_civico_medievale h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Museo civico medievale*/
+    /*Inizio Pinacoteca Nazionale */
+      .pinacoteca_nazionale{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Emilia_Romagna/Pinacoteca_Nazionale_Bologna_Emilia_Romagna.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .pinacoteca_nazionale h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Pinacoteca Nazionale */
+    /*Inizio Piazza Santo Stefano*/
+      .piazza_santo_stefano{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Emilia_Romagna/Piazza_Santo_Stefano_Bologna_Emilia_Romagna.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .piazza_santo_stefano h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Piazza Santo Stefano*/
+    /*Inizio Certosa di Bologna*/
+      .certosa_di_bologna{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Emilia_Romagna/Certosa_di_Bologna_Emilia_Romagna.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .certosa_di_bologna h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Certosa di Bologna*/
+    /*Inizio Museo civico medievale*/
+      .museo_civico_medievale{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Emilia_Romagna/Museo_civico_medievale_Bologna_Emilia_Romagna.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .museo_civico_medievale h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Museo civico medievale*/
+  /*Fine Bologna*/
 /*Fine Emilia Romagna*/
+
+/*Inizio Friuli Venezia Giulia*/
+  .friuli_venezia_giulia{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Friuli_Venezia_Giulia/Friuli_Venezia_Giulia.jpg') center/cover no-repeat;
+    padding: 250px 0;
+  }
+  .friuli_venezia_giulia h1{
+    color: #fff;
+    margin: 0 !important;
+  }
+  .card_Friuli_Venezia_Giulia{
+    display: flex;
+  }
+  .card_Friuli_Venezia_Giulia:nth-child(1){
+    background: url('../assets/Friuli_Venezia_Giulia/Trieste_Friuli_Venezia_Giulia.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  /*Inizio Trieste*/
+    .trieste{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Friuli_Venezia_Giulia/Trieste_Friuli_Venezia_Giulia.jpg') center/cover no-repeat;
+      padding: 250px 0;
+    }
+    .trieste h1{
+      color: #fff;
+      margin: 0 !important;
+    }
+    .card_Trieste{
+      display: flex;
+    }
+    .card_Trieste:nth-child(1){
+      background: url('../assets/Friuli_Venezia_Giulia/Riserva_di_San_Sabba_Trieste_Friuli_Venezia_Giulia.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Trieste:nth-child(2){
+      background: url('../assets/Friuli_Venezia_Giulia/Museo_Revoltella_Trieste_Friuli_Venezia_Giulia.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Trieste:nth-child(3){
+      background: url('../assets/Friuli_Venezia_Giulia/Castello_di_San_Giusto_Trieste_Friuli_Venezia_Giulia.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Trieste:nth-child(4){
+      background: url('../assets/Friuli_Venezia_Giulia/Castello_di_Miramare_Trieste_Friuli_Venezia_Giulia.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Trieste:nth-child(5){
+      background: url('../assets/Friuli_Venezia_Giulia/Teatro_Romano_Trieste_Friuli_Venezia_Giulia.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    /*Inizio Risiera di San Sabba*/
+      .risiera_di_san_sabba{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Friuli_Venezia_Giulia/Riserva_di_San_Sabba_Trieste_Friuli_Venezia_Giulia.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .risiera_di_san_sabba h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Risiera di San Sabba*/
+    /*Inizio Museo Revoltella*/
+      .museo_revoltella{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Friuli_Venezia_Giulia/Museo_Revoltella_Trieste_Friuli_Venezia_Giulia.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .museo_revoltella h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Museo Revoltella*/
+    /*Inizio Castello di San Giusto*/
+      .castello_di_san_giusto{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Friuli_Venezia_Giulia/Castello_di_San_Giusto_Trieste_Friuli_Venezia_Giulia.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .castello_di_san_giusto h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Castello di San Giusto*/
+    /*Inizio Castello di Miaramare*/
+      .castello_di_miramare{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Friuli_Venezia_Giulia/Castello_di_Miramare_Trieste_Friuli_Venezia_Giulia.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .castello_di_miramare h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Castello di Miaramare*/
+    /*Inizio Teatro Romano*/
+      .teatro_romano{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Friuli_Venezia_Giulia/Teatro_Romano_Trieste_Friuli_Venezia_Giulia.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .teatro_romano h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Teatro Romano*/
+  /*Fine Trieste*/
+/*Fine Friuli Venezia Giulia*/
+
+/*Inizio Toscana*/
+  .toscana{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Toscana/Toscana.jpg') center/cover no-repeat;
+    padding: 250px 0;
+  }
+  .toscana h1{
+    color: #fff;
+    margin: 0 !important;
+  }
+  .card_Toscana{
+    display: flex;
+  }
+  .card_Toscana:nth-child(1){
+    background: url('../assets/Toscana/Firenze_Toscana.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  /*Inizio Firenze*/
+    .firenze{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Toscana/Firenze_Toscana.jpg') center/cover no-repeat;
+      padding: 250px 0;
+    }
+    .firenze h1{
+      color: #fff;
+      margin: 0 !important;
+    }
+    .card_Firenze{
+      display: flex;
+    }
+    .card_Firenze:nth-child(1){
+      background: url('../assets/Toscana/Duomo_Firenze_Toscana.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Firenze:nth-child(2){
+      background: url('../assets/Toscana/Battistero_Firenze_Toscana.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Firenze:nth-child(3){
+      background: url('../assets/Toscana/Galleria_degli_Uffizi_Firenze_Toscana.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Firenze:nth-child(4){
+      background: url('../assets/Toscana/Ponte_Vecchio_Firenze_Toscana.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Firenze:nth-child(5){
+      background: url('../assets/Toscana/Palazzo_Vecchio_Firenze_Toscana.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Firenze:nth-child(6){
+      background: url('../assets/Toscana/Palazzo_Pitti_Firenze_Toscana.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Firenze:nth-child(7){
+      background: url('../assets/Toscana/Basilica_di_Santa_Croce_Firenze_Toscana.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Firenze:nth-child(8){
+      background: url('../assets/Toscana/Basilica_di_Santa_Maria_del_Carmine_Firenze_Toscana.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Firenze:nth-child(9){
+      background: url('../assets/Toscana/Cappelle_Medicee_Firenze_Toscana.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Firenze:nth-child(10){
+      background: url('../assets/Toscana/Casa_di_Dante_Firenze_Toscana.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Firenze:nth-child(11){
+      background: url('../assets/Toscana/Galleria_dell_Accademia_Firenze_Toscana.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    /*Inizio Duomo di Firenze*/
+      .duomo_di_firenze{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Toscana/Duomo_Firenze_Toscana.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .duomo_di_firenze h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Duomo di Firenze*/
+    /*Inizio Battistero di Firenze*/
+      .battistero{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Toscana/Battistero_Firenze_Toscana.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .battistero h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Battistero di Firenze*/
+    /*Inizio Galleria degli Uffizi*/
+      .galleria_degli_uffizi{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Toscana/Galleria_degli_Uffizi_Firenze_Toscana.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .galleria_degli_uffizi h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Galleria degli Uffizi*/
+    /*Inizio Ponte Vecchio*/
+      .ponte_vecchio{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Toscana/Ponte_Vecchio_Firenze_Toscana.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .ponte_vecchio h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Ponte Vecchio*/
+    /*Inizio Palazzo Vecchio*/
+      .palazzo_vecchio{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Toscana/Palazzo_Vecchio_Firenze_Toscana.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .palazzo_vecchio h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Palazo Vecchio*/
+    /*Inizio Palazzo Pitti*/
+      .palazzo_pitti{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Toscana/Palazzo_Pitti_Firenze_Toscana.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .palazzo_pitti h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Palazo Pitti*/
+    /*Inizio Basilica di Santa Croce*/
+      .basilica_di_santa_croce{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Toscana/Basilica_di_Santa_Croce_Firenze_Toscana.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .basilica_di_santa_croce h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Basilica di Santa Croce*/
+    /*Inizio Basilica di Santa Maria del Carmine*/
+      .basilica_di_santa_maria_del_carmine{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Toscana/Basilica_di_Santa_Maria_del_Carmine_Firenze_Toscana.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .basilica_di_santa_maria_del_carmine h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Basilica di Santa Maria del Carmine*/
+    /*Inizio Cappelle Medicee*/
+      .cappelle_medicee{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Toscana/Cappelle_Medicee_Firenze_Toscana.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .cappelle_medicee h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Cappelle Medicee*/
+    /*Inizio Casa di Dante*/
+      .casa_di_dante{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Toscana/Casa_di_Dante_Firenze_Toscana.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .casa_di_dante h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Casa di Dante*/
+    /*Inizio Galleria dell'Accademia*/
+      .galleria_dell_accademia{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Toscana/Galleria_dell_Accademia_Firenze_Toscana.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .galleria_dell_accademia h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Galleria dell'Accademia*/
+  /*Fine Firenze*/
+/*Fine Toscana*/
+
+/*Inizio Umbria*/
+  .umbria{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Umbria/Umbria.jpg') center/cover no-repeat;
+    padding: 250px 0;
+  }
+  .umbria h1{
+    color: #fff;
+    margin: 0 !important;
+  }
+  .card_Umbria{
+    display: flex;
+  }
+  .card_Umbria:nth-child(1){
+    background: url('../assets/Umbria/Perugia_Umbria.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  /*Inizio Perugia*/
+    .perugia{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Umbria/Perugia_Umbria.jpg') center/cover no-repeat;
+      padding: 250px 0;
+    }
+    .perugia h1{
+      color: #fff;
+      margin: 0 !important;
+    }
+    .card_Perugia{
+      display: flex;
+    }
+    .card_Perugia:nth-child(1){
+      background: url('../assets/Umbria/Perugina_Perugia_Umbria.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    /*Inizio Perugina*/
+      .perugina{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Umbria/Perugina_Perugia_Umbria.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .perugina h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Perugina*/
+  /*Fine Perugia*/
+/*Fine Umbria*/
+
+/*Inizio Marche*/
+  .marche{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Marche/Marche.jpg') center/cover no-repeat;
+    padding: 250px 0;
+  }
+  .marche h1{
+    color: #fff;
+    margin: 0 !important;
+  }
+  .card_Marche{
+    display: flex;
+  }
+  .card_Marche:nth-child(1){
+    background: url('../assets/Marche/Ancona_Marche.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  /*Inizio Ancona*/
+    .ancona{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Marche/Ancona_Marche.jpg') center/cover no-repeat;
+      padding: 250px 0;
+    }
+    .ancona h1{
+      color: #fff;
+      margin: 0 !important;
+    }
+    .card_Ancona{
+      display: flex;
+    }
+    .card_Ancona:nth-child(1){
+      background: url('../assets/Marche/Museo_archeologico_nazionale_delle_marche_Ancona.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    /*Inizio Museo archeologico nazionale delle Marche*/
+      .museo_archeologico_nazionale_delle_marche{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Marche/Museo_archeologico_nazionale_delle_marche_Ancona.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .museo_archeologico_nazionale_delle_marche h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Museo archeologico nazionale delle Marche*/
+  /*Fine Ancona*/
+/*Fine Marche*/
+
+/*Inizio Lazio*/
+  .lazio{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Lazio/Lazio.jpg') center/cover no-repeat;
+    padding: 250px 0;
+  }
+  .lazio h1{
+    color: #fff;
+    margin: 0 !important;
+  }
+  .card_Lazio{
+    display: flex;
+  }
+  .card_Lazio:nth-child(1){
+    background: url('../assets/Lazio/Roma_Lazio.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  /*Inizio Roma*/
+    .roma{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Lazio/Roma_Lazio.jpg') center/cover no-repeat;
+      padding: 250px 0;
+    }
+    .roma h1{
+      color: #fff;
+      margin: 0 !important;
+    }
+    .card_Roma{
+      display: flex;
+    }
+    .card_Roma:nth-child(1){
+      background: url('../assets/Lazio/Colosseo_Roma_Lazio.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Roma:nth-child(2){
+      background: url('../assets/Lazio/Museo_e_galleria_borghese_Roma_Lazio.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Roma:nth-child(3){
+      background: url('../assets/Lazio/Pantheon_Roma_Lazio.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Roma:nth-child(4){
+      background: url('../assets/Lazio/Foro_romano_Roma_Lazio.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Roma:nth-child(5){
+      background: url('../assets/Lazio/Fontana_di_trevi_Roma_Lazio.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Roma:nth-child(6){
+      background: url('../assets/Lazio/Castel_sant_angelo_Roma_Lazio.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Roma:nth-child(7){
+      background: url('../assets/Lazio/Piazza_venezia_Roma_Lazio.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Roma:nth-child(8){
+      background: url('../assets/Lazio/Piazza_navona_Roma_Lazio.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Roma:nth-child(9){
+      background: url('../assets/Lazio/Piazza_di_spagna_Roma_Lazio.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Roma:nth-child(10){
+      background: url('../assets/Lazio/Circo_massimo_Roma_Lazio.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Roma:nth-child(11){
+      background: url('../assets/Lazio/Bocca_della_verità_Roma_Lazio.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Roma:nth-child(12){
+      background: url('../assets/Lazio/Piazza_san_pietro_Roma_Lazio.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Roma:nth-child(13){
+      background: url('../assets/Lazio/Campidoglio_Roma_Lazio.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Roma:nth-child(14){
+      background: url('../assets/Lazio/Isola_tiberina_Roma_Lazio.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Roma:nth-child(15){
+      background: url('../assets/Lazio/Terme_di_caracalla_Roma_Lazio.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Roma:nth-child(16){
+      background: url('../assets/Lazio/Quirinale_Roma_Lazio.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Roma:nth-child(17){
+      background: url('../assets/Lazio/Villa_borghese_Roma_Lazio.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Roma:nth-child(18){
+      background: url('../assets/Lazio/Parco_appia_antica_Roma_Lazio.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Roma:nth-child(19){
+      background: url('../assets/Lazio/Fosse_ardeatine_Roma_Lazio.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Roma:nth-child(20){
+      background: url('../assets/Lazio/Ghetto_Roma_Lazio.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Roma:nth-child(21){
+      background: url('../assets/Lazio/Museo_della_liberazione_Roma_Lazio.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Roma:nth-child(22){
+      background: url('../assets/Lazio/Terrazza_del_pincio_Roma_Lazio.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Roma:nth-child(23){
+      background: url('../assets/Lazio/Parco_degli_acquedotti_Roma_Lazio.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    /*Inizio Colosseo*/
+      .colosseo{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Lazio/Colosseo_Roma_Lazio.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .colosseo h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Colosseo*/
+  /*Fine Roma*/
+/*Fine Lazio*/
+
+/*Inizio Abruzzo*/
+  .abruzzo{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Abruzzo/Abruzzo.jpg') center/cover no-repeat;
+    padding: 250px 0;
+  }
+  .abruzzo h1{
+    color: #fff;
+    margin: 0 !important;
+  }
+  .card_Abruzzo{
+    display: flex;
+  }
+  .card_Abruzzo:nth-child(1){
+    background: url('../assets/Abruzzo/L_Aquila_Abruzzo.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  /*Inizio L'Aquila*/
+    .l_aquila{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Abruzzo/L_Aquila_Abruzzo.jpg') center/cover no-repeat;
+      padding: 250px 0;
+    }
+    .l_aquila h1{
+      color: #fff;
+      margin: 0 !important;
+    }
+    .card_L_Aquila{
+      display: flex;
+    }
+    .card_L_Aquila:nth-child(1){
+      background: url('../assets/Abruzzo/Anfiteatro_romano_di_amiternum_L_Aquila_Abruzzo.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_L_Aquila:nth-child(2){
+      background: url('../assets/Abruzzo/Basilica_di_san_bernardino_L_Aquila_Abruzzo.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    /*Inizio Anfirìteatro Romano di Amiternum*/
+      .anfiteatro_romano_di_amiternum{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Abruzzo/Anfiteatro_romano_di_amiternum_L_Aquila_Abruzzo.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .anfiteatro_romano_di_amiternum h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Anfirìteatro Romano di Amiternum*/
+    /*Inizio Basilica di San Bernardino*/
+      .basilica_di_san_bernardino{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Abruzzo/Basilica_di_san_bernardino_L_Aquila_Abruzzo.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .basilica_di_san_bernardino h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Basilica di San Bernardino*/
+  /*Fine L'Aquila*/
+/*Fine Abruzzo*/
+
+/*Inizio Molise*/
+  .molise{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Molise/Molise.jpg') center/cover no-repeat;
+    padding: 250px 0;
+  }
+  .molise h1{
+    color: #fff;
+    margin: 0 !important;
+  }
+  .card_Molise{
+    display: flex;
+  }
+  .card_Molise:nth-child(1){
+    background: url('../assets/Molise/Campobasso_Molise.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Molise:nth-child(2){
+    background: url('../assets/Molise/Termoli_Molise.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Molise:nth-child(3){
+    background: url('../assets/Molise/Isernia_Molise.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Molise:nth-child(4){
+    background: url('../assets/Molise/Ferrazzano_Molise.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Molise:nth-child(5){
+    background: url('../assets/Molise/Pietrabbondante.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Molise:nth-child(6){
+    background: url('../assets/Molise/Trivento_Molise.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Molise:nth-child(7){
+    background: url('../assets/Molise/Fornelli_Molise.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Molise:nth-child(8){
+    background: url('../assets/Molise/Agnone_Molise.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Molise:nth-child(9){
+    background: url('../assets/Molise/Frosolone_Molise.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Molise:nth-child(10){
+    background: url('../assets/Molise/Oratino_Molise.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Molise:nth-child(11){
+    background: url('../assets/Molise/Campitello_matese_Molise.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Molise:nth-child(12){
+    background: url('../assets/Molise/Parco_Nazionale _d_Abruzzo_Lazio_e_Molise.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Molise:nth-child(13){
+    background: url('../assets/Molise/Costa_molisana_Molise.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  /*Inizio Campobasso*/
+    .campobasso{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Molise/Campobasso_Molise.jpg') center/cover no-repeat;
+      padding: 250px 0;
+    }
+    .campobasso h1{
+      color: #fff;
+      margin: 0 !important;
+    }
+    .card_Campobasso{
+      display: flex;
+    }
+    .card_Campobasso:nth-child(1){
+      background: url('../assets/Molise/Castello_monforte_Campobasso_Molise.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Campobasso:nth-child(2){
+      background: url('../assets/Molise/Museo_dei_misteri_Campobasso_Molise.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Campobasso:nth-child(3){
+      background: url('../assets/Molise/Museo_di_palazzo_pistilli_Campobasso_Molise.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Campobasso:nth-child(4){
+      background: url('../assets/Molise/Museo_della_scuola _e _dell_educazione_Campobasso_Molise.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Campobasso:nth-child(5){
+      background: url('../assets/Molise/Museo_internazionale_del_presepio_in_miniatura_Campobasso_Molise.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Campobasso:nth-child(6){
+      background: url('../assets/Molise/Museo_sannitico_Campobasso_Molise.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    /*Inizio Castello Monforte*/
+      .castello_monforte{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Molise/Castello_monforte_Campobasso_Molise.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .castello_monforte h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Castello Monforte*/
+    /*Inizio Museo dei Misteri*/
+      .museo_dei_misteri{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Molise/Museo_dei_misteri_Campobasso_Molise.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .museo_dei_misteri h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Museo dei Misteri*/
+    /*Inizio Museo di palazzo pistilli*/
+      .museo_di_palazzo_pistilli{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Molise/Museo_di_palazzo_pistilli_Campobasso_Molise.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .museo_di_palazzo_pistilli h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Museo di palazo pistilli*/
+    /*Inizio Museo di scuola e dell'educazione*/
+      .museo_di_scuola_e_dell_educazione_popolare{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Molise/Museo_della_scuola _e _dell_educazione_Campobasso_Molise.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .museo_di_scuola_e_dell_educazione_popolare h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Museo di scuola e dell'educazione*/
+    /*Inizio Museo internazionale del presepio in miniatura*/
+      .museo_internazionale_del_presepio_in_miniatura{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Molise/Museo_internazionale_del_presepio_in_miniatura_Campobasso_Molise.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .museo_internazionale_del_presepio_in_miniatura h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Museo internazionale del presepio in miniatura*/
+    /*Inizio Museo sannitico*/
+      .museo_sannitico{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Molise/Museo_sannitico_Campobasso_Molise.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .museo_sannitico h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Museo sannitico*/
+  /*Fine Campobasso*/
+/*Fine Molise*/
+
+/*Inizio Campiania*/
+  .campania{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Campania/Campania.jpg') center/cover no-repeat;
+    padding: 250px 0;
+  }
+  .campania h1{
+    color: #fff;
+    margin: 0 !important;
+  }
+  .card_Campania{
+    display: flex;
+  }
+  .card_Campania:nth-child(1){
+    background: url('../assets/Campania/Napoli_Campania.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Campania:nth-child(2){
+    background: url('../assets/Campania/Pompei_Campania.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Campania:nth-child(3){
+    background: url('../assets/Campania/Salerno_Campania.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Campania:nth-child(4){
+    background: url('../assets/Campania/Caserta_Campania.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Campania:nth-child(5){
+    background: url('../assets/Campania/Cilento_Salerno_Campania.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Campania:nth-child(6){
+    background: url('../assets/Campania/Ischia_Napoli_Campania.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Campania:nth-child(7){
+    background: url('../assets/Campania/Capri_Napoli_Campania.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Campania:nth-child(8){
+    background: url('../assets/Campania/Costiera_Amalfitana_Salerno_Campania.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Campania:nth-child(9){
+    background: url('../assets/Campania/Amalfi_SalernoCamapnia.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  /*Inizio Napoli*/
+    .napoli{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Campania/Napoli_Campania.jpg') center/cover no-repeat;
+      padding: 250px 0;
+    }
+    .napoli h1{
+      color: #fff;
+      margin: 0 !important;
+    }
+    .card_Napoli{
+      display: flex;
+    }
+    .card_Napoli:nth-child(1){
+      background: url('../assets/Campania/Duomo_Napoli_Campania.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Napoli:nth-child(2){
+      background: url('../assets/Campania/Piazza_del_plebiscito_Napoli_Cmapania.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Napoli:nth-child(3){
+      background: url('../assets/Campania/Basilica_di_santa_chiara_Napoli_Campania.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Napoli:nth-child(4){
+      background: url('../assets/Campania/Palazzo_reale_Napoli_Campania.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Napoli:nth-child(5){
+      background: url('../assets/Campania/Basilica_di_san_lorenzo_maggiore_Napoli_Campania.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Napoli:nth-child(6){
+      background: url('../assets/Campania/Teatro_san_carlo_Napoli_Campania.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Napoli:nth-child(7){
+      background: url('../assets/Campania/Galleria_umberto_i_Napoli_Campania.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Napoli:nth-child(8){
+      background: url('../assets/Campania/Castel_nuovo_Napoli_Campania.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Napoli:nth-child(9){
+      background: url('../assets/Campania/Castel_dell_ovo_Napoli_Campania.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Napoli:nth-child(10){
+      background: url('../assets/Campania/Vesuvio_Napoli_Campania.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Napoli:nth-child(11){
+      background: url('../assets/Campania/Catacombe_di_san_gennaro_Napoli_Campania.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    /*Inizio Duomo di Napoli*/
+      .duomo_di_napoli{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Campania/Duomo_Napoli_Campania.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .duomo_di_napoli h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Duomo di Napoli*/
+    /*Inizio Piazza del Plebiscito*/
+      .piazza_del_plebiscito{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Campania/Piazza_del_plebiscito_Napoli_Cmapania.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .piazza_del_plebiscito h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Piazza del Plebiscito*/
+    /*Inizio Basilica di Santa Chiara*/
+      .basilica_di_santa_chiara{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Campania/Basilica_di_santa_chiara_Napoli_Campania.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .basilica_di_santa_chiara h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Basilica di Santa Chiara*/
+    /*Inizio Palazzo Reale*/
+      .palazzo_reale_napoli{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Campania/Palazzo_reale_Napoli_Campania.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .palazzo_reale_napoli h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Palazzo Reale*/
+    /*Inizio Basilica di San Lorenzo Maggiore*/
+      .basilica_di_san_lorenzo_maggiore{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Campania/Basilica_di_san_lorenzo_maggiore_Napoli_Campania.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .basilica_di_san_lorenzo_maggiore h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Basilica di San Lorenzo Maggiore*/
+    /*Inizio Teatro San Lorenzo*/
+      .teatro_san_carlo{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Campania/Teatro_san_carlo_Napoli_Campania.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .teatro_san_carlo h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Teatro San Lorenzo*/
+    /*Inizio Galleria Umberto I*/
+      .galleria_umberto_1{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Campania/Galleria_Umberto_I_Napoli_Campania.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .galleria_umberto_1 h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Galleria Umberto I*/
+    /*Inizio Castel Nuovo*/
+      .castel_nuovo{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Campania/Castel_Nuovo_Napoli_Campania.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .castel_nuovo h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Castel Nuovo*/
+    /*Inizio Castel dell'Ovo*/
+      .castel_dell_ovo{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Campania/Castel_dell_ovo_Napoli_Campania.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .castel_dell_ovo h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Castel dell'Ovo*/
+    /*Inizio Vesuvio*/
+      .vesuvio{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Campania/Vesuvio_Napoli_Campania.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .vesuvio h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Vesuvio*/
+    /*Inizio Catacombe di San Gennaro*/
+      .catacombe_di_san_gennaro{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Campania/Catacombe_di_San_Gennaro_Napoli_Campania.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .catacombe_di_san_gennaro h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Catacombe di San Gennaro*/
+  /*Fine Napoli*/
+/*Fine Campiania*/
+
+/*Inizio Basilicata*/
+  .basilicata{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Basilicata/Basilicata.jpg') center/cover no-repeat;
+    padding: 250px 0;
+  }
+  .basilicata h1{
+    color: #fff;
+    margin: 0 !important;
+  }
+  .card_Basilicata{
+    display: flex;
+  }
+  .card_Basilicata:nth-child(1){
+    background: url('../assets/Basilicata/Matera_Basilicata.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Basilicata:nth-child(2){
+    background: url('../assets/Basilicata/Potenza_Basilicata.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Basilicata:nth-child(3){
+    background: url('../assets/Basilicata/Maratea_Basilicata.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Basilicata:nth-child(4){
+    background: url('../assets/Basilicata/Melfi_Basilicata.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Basilicata:nth-child(5){
+    background: url('../assets/Basilicata/Venosa_Basilicata.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Basilicata:nth-child(6){
+    background: url('../assets/Basilicata/Pietrapertosa_Basilicata.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Basilicata:nth-child(7){
+    background: url('../assets/Basilicata/Castelmezzano_Basilicata.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Basilicata:nth-child(8){
+    background: url('../assets/Basilicata/Tricarico_Basilicata.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Basilicata:nth-child(9){
+    background: url('../assets/Basilicata/Parco_nazionale_del_pollino_Basilicata.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  /*Inizio Matera*/
+    .matera{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Basilicata/Matera_Basilicata.jpg') center/cover no-repeat;
+      padding: 250px 0;
+    }
+    .matera h1{
+      color: #fff;
+      margin: 0 !important;
+    }
+    .card_Matera{
+      display: flex;
+    }
+    .card_Matera:nth-child(1){
+      background: url('../assets/Basilicata/Casa_grotta_nei_sassi_di_Matera_Basilicata.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Matera:nth-child(2){
+      background: url('../assets/Basilicata/Punti_panoramici_Matera_Basilicata.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    /*Inizio Casa Grotta nei Sassi di Matera*/
+      .casa_grotta_nei_sassi_di_matera{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Basilicata/Casa_grotta_nei_sassi_di_Matera_Basilicata.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .casa_grotta_nei_sassi_di_matera h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Cella Grotta nei Sassi di Matera*/
+    /*Inizio Punti Panoramici*/
+      .punti_panoramici{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Basilicata/Punti_panoramici_Matera_Basilicata.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .punti_panoramici h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Punti Panoramici*/
+    /*Inizio Belvedere di Murgia Timone*/
+      .belvedere_di_murgia_timone{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Basilicata/Belvedere_di_murgia_timone_Matera_Basilicata.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .belvedere_di_murgia_timone h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Belvedere di Murgia Timone*/
+    /*Inizio Parco della Murgia*/
+      .parco_della_murgia{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Basilicata/Parco_della_murgia_Matera_Basilicata.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .parco_della_murgia h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Parco della Murgia*/
+  /*Fine Matera*/
+/*Fine Basilicata*/
+
+/*Inizio Puglia*/
+  .puglia{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Puglia/Puglia.jpg') center/cover no-repeat;
+    padding: 250px 0;
+  }
+  .puglia h1{
+    color: #fff;
+    margin: 0 !important;
+  }
+  .card_Puglia{
+    display: flex;
+  }
+  .card_Puglia:nth-child(1){
+    background: url('../assets/Puglia/Bari_Puglia.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Puglia:nth-child(2){
+    background: url('../assets/Puglia/Le_gravine_Puglia.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Puglia:nth-child(3){
+    background: url('../assets/Puglia/Trani_Puglia.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Puglia:nth-child(4){
+    background: url('../assets/Puglia/Taranto_Puglia.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Puglia:nth-child(5){
+    background: url('../assets/Puglia/Altamura_Puglia.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Puglia:nth-child(6){
+    background: url('../assets/Puglia/Lecce_Puglia.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Puglia:nth-child(7){
+    background: url('../assets/Puglia/Ostuni_Puglia.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  /*Inizio Bari*/
+    .bari{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Puglia/Bari_Puglia.jpg') center/cover no-repeat;
+      padding: 250px 0;
+    }
+    .bari h1{
+      color: #fff;
+      margin: 0 !important;
+    }
+    .card_Bari{
+      display: flex;
+    }
+    .card_Bari:nth-child(1){
+      background: url('../assets/Puglia/Castello_normanno_svevo_Bari_Puglia.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Bari:nth-child(2){
+      background: url('../assets/Puglia/Basilica_di_san_nicola_Bari_Puglia.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Bari:nth-child(3){
+      background: url('../assets/Puglia/Grotte_di_castellana_Bari_Puglia.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    /*Inizio Castello Normanno Svevo*/
+      .castello_normanno_svevo{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Puglia/Castello_normanno_svevo_Bari_Puglia.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .castello_normanno_svevo h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Castello Normanno Svevo*/
+    /*Inizio Basilica di San Nicola*/
+      .basilica_di_san_nicola{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Puglia/Basilica_di_san_nicola_Bari_Puglia.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .basilica_di_san_nicola h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Basilica di San Nicola*/
+    /*Inizio Grotte di Castellana*/
+      .grotte_di_castellana{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Puglia/Grotte_di_castellana_Bari_Puglia.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .grotte_di_castellana h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Grotte di Castellana*/
+  /*Fine Bari*/
+/*Fine Puglia*/
+
+/*Inizio Calabria*/
+  .calabria{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Calabria/Calabria.jpg') center/cover no-repeat;
+    padding: 250px 0;
+  }
+  .calabria h1{
+    color: #fff;
+    margin: 0 !important;
+  }
+  .card_Calabria{
+    display: flex;
+  }
+  .card_Calabria:nth-child(1){
+    background: url('../assets/Calabria/Catanzaro_Calabria.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Calabria:nth-child(2){
+    background: url('../assets/Calabria/Reggio_Calabria_Calabria.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Calabria:nth-child(3){
+    background: url('../assets/Calabria/Cosenza_Calabria.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Calabria:nth-child(4){
+    background: url('../assets/Calabria/Crotone_Calabria.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Calabria:nth-child(5){
+    background: url('../assets/Calabria/Tropea_Calabria.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  /*Inizio Catanzaro*/
+    .catanzaro{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Calabria/Catanzaro_Calabria.jpg') center/cover no-repeat;
+      padding: 250px 0;
+    }
+    .catanzaro h1{
+      color: #fff;
+      margin: 0 !important;
+    }
+    .card_Catanzaro{
+      display: flex;
+    }
+    .card_Catanzaro:nth-child(1){
+      background: url('../assets/Calabria/Duomo_di_Catanzaro_Calabria.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Catanzaro:nth-child(2){
+      background: url('../assets/Calabria/Basilica_dell_immacolata_Catanzaro_Calabria.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Catanzaro:nth-child(3){
+      background: url('../assets/Calabria/Ponte_Bisantis_Catanzaro_Calabria.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Catanzaro:nth-child(4){
+      background: url('../assets/Calabria/Complesso_monumentale_del_san_giovanni_Catanzaro_Calabria.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Catanzaro:nth-child(5){
+      background: url('../assets/Calabria/Teatro_Politeama_Catanzaro_Calabria.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    /*Inizio Duomo di Catanzaro*/
+      .duomo_di_catanzaro{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Calabria/Duomo_di_Catanzaro_Calabria.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .duomo_di_catanzaro h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Duomo di Catanzaro*/
+    /*Inizio Basilica dell'immacolata*/
+      .basilica_dell_immacolata{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Calabria/Basilica_dell_immacolata_Catanzaro_Calabria.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .basilica_dell_immacolata h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Basilica dell'immacolata*/
+    /*Inizio Ponte Bisantis*/
+      .ponte_bisantis{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Calabria/Ponte_Bisantis_Catanzaro_Calabria.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .ponte_bisantis h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Ponte Bisantis*/
+    /*Inizio Complesso monumentale San Giovanni*/
+      .complesso_monumentale_san_giovanni{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Calabria/Complesso_monumentale_del_san_giovanni_Catanzaro_Calabria.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .complesso_monumentale_san_giovanni h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Complesso monumentale San Giovanni*/
+    /*Inizio Teatro Politeama*/
+      .teatro_politeama{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Calabria/Teatro_Politeama_Catanzaro_Calabria.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .teatro_politeama h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Teatro Politeama*/
+  /*Fine Catanzaro*/
+/*Fine Calabria*/
+    
+/*Inizio Sicilia*/
+  .sicilia{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Sicilia/Sicilia.jpg') center/cover no-repeat;
+    padding: 250px 0;
+  }
+  .sicilia h1{
+    color: #fff;
+    margin: 0 !important;
+  }
+  .card_Sicilia{
+    display: flex;
+  }
+  .card_Sicilia:nth-child(1){
+    background: url('../assets/Sicilia/Siracusa_Sicilia.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Sicilia:nth-child(2){
+    background: url('../assets/Sicilia/Catania_Sicilia.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Sicilia:nth-child(3){
+    background: url('../assets/Sicilia/Selinunte_Sicilia.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Sicilia:nth-child(4){
+    background: url('../assets/Sicilia/Agrigento_Sicilia.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Sicilia:nth-child(5){
+    background: url('../assets/Sicilia/Gela_Sicilia.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Sicilia:nth-child(6){
+    background: url('../assets/Sicilia/Messina_Sicilia.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Sicilia:nth-child(7){
+    background: url('../assets/Sicilia/Termini_Imerese_Palermo_Sicilia.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Sicilia:nth-child(8){
+    background: url('../assets/Sicilia/Tindari_Messina_Sicilia.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Sicilia:nth-child(9){
+    background: url('../assets/Sicilia/Taormina_Messina_Sicilia.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Sicilia:nth-child(10){
+    background: url('../assets/Sicilia/Palermo_Sicilia.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Sicilia:nth-child(11){
+    background: url('../assets/Sicilia/Isole_Eolie_Messina_Sicilia.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Sicilia:nth-child(12){
+    background: url('../assets/Sicilia/Vulcano_Isole_Eolie_Messina_Sicilia.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Sicilia:nth-child(13){
+    background: url('../assets/Sicilia/Stromboli_Isole_Eolie_Messina_Sicilia.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Sicilia:nth-child(14){
+    background: url('../assets/Sicilia/Lipari_Isole_Eolie_Messina_Sicilia.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Sicilia:nth-child(15){
+    background: url('../assets/Sicilia/Panarea_Isole_Eolie_Messina_Sicilia.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Sicilia:nth-child(16){
+    background: url('../assets/Sicilia/Alicudi_Isole_Eolie_Messina_Sicilia.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Sicilia:nth-child(17){
+    background: url('../assets/Sicilia/Filicudi_Isole_Eolie_Messina_Sicilia.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Sicilia:nth-child(18){
+    background: url('../assets/Sicilia/Salina_Isole_Elolie_Messina_Sicilia.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  /*Inizio Palermo*/
+    .palermo{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Sicilia/Palermo_Sicilia.jpg') center/cover no-repeat;
+      padding: 250px 0;
+    }
+    .palermo h1{
+      color: #fff;
+      margin: 0 !important;
+    }
+    .card_Palermo{
+      display: flex;
+    }
+    .card_Palermo:nth-child(1){
+      background: url('../assets/Sicilia/Palazzo_dei_normanni_Palermo_Sicilia.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Palermo:nth-child(2){
+      background: url('../assets/Sicilia/Teatro_Massimo_Palermo_Sicilia.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Palermo:nth-child(3){
+      background: url('../assets/Sicilia/Cattedrale_di_Palermo_Sicilia.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Palermo:nth-child(4){
+      background: url('../assets/Sicilia/Santa_Maria_dell_Ammiraglio_Palermo_Sicilia.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Palermo:nth-child(5){
+      background: url('../assets/Sicilia/Duomo_di_Monreale_Palermo_Sicilia.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    /*Inizio Palazzo dei Normanni*/
+      .palazzo_dei_normanni{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Sicilia/Palazzo_dei_normanni_Palermo_Sicilia.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .palazzo_dei_normanni h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Palazzo dei Normanni*/
+    /*Inizio Teatro Massimo*/
+      .teatro_massimo{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Sicilia/Teatro_Massimo_Palermo_Sicilia.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .teatro_massimo h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Teatro Massimo*/
+    /*Inizio Cattedrale di Palermo*/
+      .cattedrale_di_palermo{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Sicilia/Cattedrale_di_Palermo_Sicilia.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .cattedrale_di_palermo h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Cattedrale di Palermo*/
+    /*Inizio Santa Maria dell'Ammiraglio*/
+      .santa_maria_dell_ammiraglio{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Sicilia/Santa_Maria_dell_Ammiraglio_Palermo_Sicilia.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .santa_maria_dell_ammiraglio h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Santa Maria dell'Ammiraglio*/
+    /*Inizio Duomo di Monreale*/
+      .duomo_di_monreale{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Sicilia/Duomo_di_Monreale_Palermo_Sicilia.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .duomo_di_monreale h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Duomo di Monreale*/
+  /*Fine Palermo*/
+/*Fine Sicilia*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*Inizio Laghi*/

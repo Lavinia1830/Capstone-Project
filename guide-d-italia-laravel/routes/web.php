@@ -658,13 +658,393 @@ Route::get('/le_piu_belle_passeggiate_lungo_i_ru_della_valle_d_aosta', function 
     /*Fine Venezia*/
 /*Fine Veneto*/
 
+/*Inizio Emilia-Romagna*/
+    Route::get('/emilia_romagna', function () {
+        return Inertia::render('Emilia_Romagna');
+    })->middleware(['auth', 'verified'])->name('emilia_romagna');
+
+    Route::get('/destinazioni/bologna', function () {
+        return Inertia::render('Emilia_Romagna/Destinazioni/Bologna');
+    })->middleware(['auth', 'verified'])->name('bologna');
+    /*Inizio Bologna*/
+        Route::get('/visite/bologna/basilica_di_san_petronio', function () {
+            return Inertia::render('Emilia_Romagna/Visite/Basilica_di_San_Petronio');
+        })->middleware(['auth', 'verified'])->name('basilica_di_san_petronio');
+
+        Route::get('/visite/bologna/piazza_maggiore', function () {
+            return Inertia::render('Emilia_Romagna/Visite/Piazza_Maggiore');
+        })->middleware(['auth', 'verified'])->name('piazza_maggiore');
+
+        Route::get('/visite/bologna/le_due_torri', function () {
+            return Inertia::render('Emilia_Romagna/Visite/Le_Due_Torri');
+        })->middleware(['auth', 'verified'])->name('le_due_torri');
+
+        Route::get('/visite/bologna/mambo', function () {
+            return Inertia::render('Emilia_Romagna/Visite/Mambo');
+        })->middleware(['auth', 'verified'])->name('mambo');
+
+        Route::get('/visite/bologna/antico_mercatio_di_bologna', function () {
+            return Inertia::render('Emilia_Romagna/Visite/Antico_Mercato_di_Bologna');
+        })->middleware(['auth', 'verified'])->name('antico_mercato_di_bologna');
+
+        Route::get('/visite/bologna/archiginnasio', function () {
+            return Inertia::render('Emilia_Romagna/Visite/Archiginnasio');
+        })->middleware(['auth', 'verified'])->name('archiginnasio');
+
+        Route::get('/visite/bologna/pinacoteca_nazionale', function () {
+            return Inertia::render('Emilia_Romagna/Visite/Pinacoteca_Nazionale');
+        })->middleware(['auth', 'verified'])->name('pinacoteca_nazionale');
+
+        Route::get('/visite/bologna/piazza_santo_stefano', function () {
+            return Inertia::render('Emilia_Romagna/Visite/Piazza_Santo_Stefano');
+        })->middleware(['auth', 'verified'])->name('piazza_santo_stefano');
+
+        Route::get('/visite/bologna/certosa_di_bologna', function () {
+            return Inertia::render('Emilia_Romagna/Visite/Certosa_di_Bologna');
+        })->middleware(['auth', 'verified'])->name('certosa_di_bologna');
+
+        Route::get('/visite/bologna/museo_civico_medievale', function () {
+            return Inertia::render('Emilia_Romagna/Visite/Museo_Civico_Medievale');
+        })->middleware(['auth', 'verified'])->name('museo_civico_medievale');
+    /*Fine Bologna*/
+/*Fine Emilia-Romagna*/
+
+/*Inizio Friuli Venezia Giulia*/
+    Route::get('/friuli_venezia_giulia', function () {
+        return Inertia::render('Friuli_Venezia_Giulia');
+    })->middleware(['auth', 'verified'])->name('friuli_venezia_giulia');
     
+    Route::get('/destinazioni/trieste', function () {
+        return Inertia::render('Friuli_Venezia_Giulia/Destinazioni/Trieste');
+    })->middleware(['auth', 'verified'])->name('trieste');
+    /*Inizio Trieste*/
+        Route::get('/visite/trieste/risiera_di_san_sabba', function () {
+            return Inertia::render('Friuli_Venezia_Giulia/Visite/Risiera_di_San_Sabba');
+        })->middleware(['auth', 'verified'])->name('risiera_di_san_sabba');
 
+        Route::get('/visite/trieste/museo_revoltella', function () {
+            return Inertia::render('Friuli_Venezia_Giulia/Visite/Museo_Revoltella');
+        })->middleware(['auth', 'verified'])->name('museo_revoltella');
 
+        Route::get('/visite/trieste/castello_di_san_giusto', function () {
+            return Inertia::render('Friuli_Venezia_Giulia/Visite/Castello_di_San_Giusto');
+        })->middleware(['auth', 'verified'])->name('castello_di_san_giusto');
 
+        Route::get('/visite/trieste/castello_di_miramare', function () {
+            return Inertia::render('Friuli_Venezia_Giulia/Visite/Castello_di_Miramare');
+        })->middleware(['auth', 'verified'])->name('castello_di_miramare');
 
+        Route::get('/visite/trieste/teatro_romano', function () {
+            return Inertia::render('Friuli_Venezia_Giulia/Visite/Teatro_Romano');
+        })->middleware(['auth', 'verified'])->name('teatro_romano');
+    /*Fine Trieste*/
+/*Fine Friuli Venezia Giulia*/
 
+/*Inizio Toscana*/
+    Route::get('/toscana', function () {
+        return Inertia::render('Toscana');
+    })->middleware(['auth', 'verified'])->name('toscana');
 
+    Route::get('/destinazioni/toscana/firenze', function () {
+        return Inertia::render('Toscana/Destinazioni/Firenze');
+    })->middleware(['auth', 'verified'])->name('firenze');
+    /*Inizio Firenze*/
+        Route::get('/visite/toscana/firenze/duomo', function () {
+            return Inertia::render('Toscana/Visite/Duomo_di_Firenze');
+        })->middleware(['auth', 'verified'])->name('duomo');
+
+        Route::get('/visite/toscana/firenze/battistero', function () {
+            return Inertia::render('Toscana/Visite/Battistero');
+        })->middleware(['auth', 'verified'])->name('battistero');
+
+        Route::get('/visite/toscana/firenze/galleria_degli_uffizi', function () {
+            return Inertia::render('Toscana/Visite/Galleria_degli_Uffizi');
+        })->middleware(['auth', 'verified'])->name('galleria_degli_uffizi');
+
+        Route::get('/visite/toscana/firenze/ponte_vecchio', function () {
+            return Inertia::render('Toscana/Visite/Ponte_Vecchio');
+        })->middleware(['auth', 'verified'])->name('ponte_vecchio');
+
+        Route::get('/visite/toscana/firenze/palazzo_vecchio', function () {
+            return Inertia::render('Toscana/Visite/Palazzo_Vecchio');
+        })->middleware(['auth', 'verified'])->name('palazzo_vecchio');
+
+        Route::get('/visite/toscana/firenze/palazzo_pitti', function () {
+            return Inertia::render('Toscana/Visite/Palazzo_Pitti');
+        })->middleware(['auth', 'verified'])->name('palazzo_pitti');
+
+        Route::get('/visite/toscana/firenze/basilica_di_santa_croce', function () {
+            return Inertia::render('Toscana/Visite/Basilica_di_Santa_Croce');
+        })->middleware(['auth', 'verified'])->name('basilica_di_santa_croce');
+
+        Route::get('/visite/toscana/firenze/basilica_di_santa_maria_del_carmine', function () {
+            return Inertia::render('Toscana/Visite/Basilica_di_Santa_Maria_del_Carmine');
+        })->middleware(['auth', 'verified'])->name('basilica_di_santa_maria_del_carmine');
+
+        Route::get('/visite/toscana/firenze/cappelle_medicee', function () {
+            return Inertia::render('Toscana/Visite/Cappelle_Medicee');
+        })->middleware(['auth', 'verified'])->name('cappelle_medicee');
+
+        Route::get('/visite/toscana/firenze/casa_di_dante', function () {
+            return Inertia::render('Toscana/Visite/Casa_di_Dante');
+        })->middleware(['auth', 'verified'])->name('casa_di_dante');
+
+        Route::get('/visite/toscana/firenze/galleria_dell_accademia', function () {
+            return Inertia::render('Toscana/Visite/Galleria_dell_Accademia');
+        })->middleware(['auth', 'verified'])->name('galleria_dell_accademia');
+    /*Fine Firenze*/
+/*Fine Toscana*/
+
+/*Inizio Umbria*/
+    Route::get('/umbria', function () {
+        return Inertia::render('Umbria');
+    })->middleware(['auth', 'verified'])->name('umbria');
+
+    Route::get('/destinazioni/umbria/perugia', function () {
+        return Inertia::render('Umbria/Destinazioni/Perugia');
+    })->middleware(['auth', 'verified'])->name('perugia');
+    /*Inizio Perugia*/
+        Route::get('/visite/umbria/perugia/perugina', function () {
+            return Inertia::render('Umbria/Visite/Perugina');
+        })->middleware(['auth', 'verified'])->name('perugina');
+    /*Fine Perugia*/
+/*Fine Umbria*/
+
+/*Inizio Marche*/
+    Route::get('/marche', function () {
+        return Inertia::render('Marche');
+    })->middleware(['auth', 'verified'])->name('marche');
+
+    Route::get('/destinazioni/marche/ancona', function () {
+        return Inertia::render('Marche/Destinazioni/Ancona');
+    })->middleware(['auth', 'verified'])->name('ancona');
+    /*Inizio Ancona*/
+        Route::get('/visite/marche/ancona/museo_archeologico_nazionale_delle_marche', function () {
+            return Inertia::render('Marche/Visite/Museo_Archeologico_Nazionale_delle_Marche');
+        })->middleware(['auth', 'verified'])->name('museo_archeologico_nazionale_delle_marche');
+    /*Fine Ancona*/
+/*Fine Marche*/
+
+/*Inizio Lazio*/
+    Route::get('/lazio', function () {
+        return Inertia::render('Lazio');
+    })->middleware(['auth', 'verified'])->name('lazio');
+
+    Route::get('/destinazioni/lazio/roma', function () {
+        return Inertia::render('Lazio/Destinazioni/Roma');
+    })->middleware(['auth', 'verified'])->name('roma');
+    /*Inizio Roma*/
+        Route::get('/visite/lazio/roma/colosseo', function () {
+            return Inertia::render('Lazio/Visite/Colosseo');
+        })->middleware(['auth', 'verified'])->name('colosseo');
+    /*Fine Roma*/
+/*Fine Lazio*/
+
+/*Inizio Abruzzo*/
+    Route::get('/abruzzo', function () {
+        return Inertia::render('Abruzzo');
+    })->middleware(['auth', 'verified'])->name('abruzzo');
+
+    Route::get('/destinazioni/abruzzo/l_aquila', function () {
+        return Inertia::render('Abruzzo/Destinazioni/L_Aquila');
+    })->middleware(['auth', 'verified'])->name('l_aquila');
+    /*Inizio L'Aquila*/
+        Route::get('/visite/abruzzo/l_aquila/anfiteatro_romano_di_amiternum', function () {
+            return Inertia::render('Abruzzo/Visite/Anfiteatro_Romano_di_Amiternum');
+        })->middleware(['auth', 'verified'])->name('anfiteatro_romano_di_amiternum');
+
+        Route::get('/visite/abruzzo/l_aquila/basilica_di_san_bernardino', function () {
+            return Inertia::render('Abruzzo/Visite/Basilica_di_San_Bernardino');
+        })->middleware(['auth', 'verified'])->name('basilica_di_san_bernardino');
+    /*Fine L'Aquila*/
+/*Fine Abruzzo*/
+
+/*Inizio Molise*/
+    Route::get('/molise', function () {
+        return Inertia::render('Molise');
+    })->middleware(['auth', 'verified'])->name('molise');
+
+    Route::get('/destinazioni/molise/campobasso', function () {
+        return Inertia::render('Molise/Destinazioni/Campobasso');
+    })->middleware(['auth', 'verified'])->name('campobasso');
+    /*Inizio Campobasso*/
+        Route::get('/visite/molise/campobasso/castello_monforte', function () {
+            return Inertia::render('Molise/Visite/Castello_Monforte');
+        })->middleware(['auth', 'verified'])->name('castello_monforte');
+
+        Route::get('/visite/molise/campobasso/museo_dei_misteri', function () {
+            return Inertia::render('Molise/Visite/Museo_dei_Misteri');
+        })->middleware(['auth', 'verified'])->name('museo_dei_misteri');
+
+        Route::get('/visite/molise/campobasso/museo_di_palazzo_pistilli', function () {
+            return Inertia::render('Molise/Visite/Museo_di_Palazzo_Pistilli');
+        })->middleware(['auth', 'verified'])->name('museo_di_palazzo_pistilli');
+
+        Route::get('/visite/molise/campobasso/museo_della_scuola_e_dell_educazione_popolare', function () {
+            return Inertia::render('Molise/Visite/Museo_della_Scuola_e_dell_Educazione_Popolare');
+        })->middleware(['auth', 'verified'])->name('museo_della_scuola_e_dell_educazione_popolare');
+
+        Route::get('/visite/molise/campobasso/museo_internazione_del_pesepio_in_miniatura', function () {
+            return Inertia::render('Molise/Visite/Museo_internazionale_del_Presepio_in_Miniatura');
+        })->middleware(['auth', 'verified'])->name('museo_internazione_del_pesepio_in_miniatura');
+
+        Route::get('/visite/molise/campobasso/museo_sannitico', function () {
+            return Inertia::render('Molise/Visite/Museo_Sannitico');
+        })->middleware(['auth', 'verified'])->name('museo_sannitico');
+    /*Fine Campobasso*/
+/*Fine Molise*/
+
+/*Inizio Campania*/
+    Route::get('/campania', function () {
+        return Inertia::render('Campania');
+    })->middleware(['auth', 'verified'])->name('campania');
+
+    Route::get('/destinazioni/campania/napoli', function () {
+        return Inertia::render('Campania/Destinazioni/Napoli');
+    })->middleware(['auth', 'verified'])->name('napoli');
+    /*Inizio Napoli*/
+        Route::get('/visite/campania/napoli/duomo', function () {
+            return Inertia::render('Campania/Visite/Duomo_di_Napoli');
+        })->middleware(['auth', 'verified'])->name('duomo');
+
+        Route::get('/visite/campania/napoli/piazza_del_plebiscito', function () {
+            return Inertia::render('Campania/Visite/Piazza_del_Plebiscito');
+        })->middleware(['auth', 'verified'])->name('piazza_del_plebiscito');
+
+        Route::get('/visite/campania/napoli/basilica_di_santa_chiara', function () {
+            return Inertia::render('Campania/Visite/Basilica_di_Santa_Chiara');
+        })->middleware(['auth', 'verified'])->name('basilica_di_santa_chiara');
+
+        Route::get('/visite/campania/napoli/palazzo_reale', function () {
+            return Inertia::render('Campania/Visite/Palazzo_Reale');
+        })->middleware(['auth', 'verified'])->name('palazzo_reale');
+
+        Route::get('/visite/campania/napoli/basilica_di_san_lorenzo_maggiore', function () {
+            return Inertia::render('Campania/Visite/Basilica_di_San_Lorenzo_Maggiore');
+        })->middleware(['auth', 'verified'])->name('basilica_di_san_lorenzo_maggiore');
+
+        Route::get('/visite/campania/napoli/teatro_san_carlo', function () {
+            return Inertia::render('Campania/Visite/Teatro_San_Carlo');
+        })->middleware(['auth', 'verified'])->name('teatro_san_carlo');
+
+        Route::get('/visite/campania/napoli/galleria_umberto_1', function () {
+            return Inertia::render('Campania/Visite/Galleria_Umberto_I');
+        })->middleware(['auth', 'verified'])->name('galleria_umberto_1');
+
+        Route::get('/visite/campania/napoli/castel_nuovo', function () {
+            return Inertia::render('Campania/Visite/Castel_Nuovo');
+        })->middleware(['auth', 'verified'])->name('castel_nuovo');
+
+        Route::get('/visite/campania/napoli/castel_dell_ovo', function () {
+            return Inertia::render('Campania/Visite/Castel_dell_Ovo');
+        })->middleware(['auth', 'verified'])->name('castel_dell_ovo');
+
+        Route::get('/visite/campania/napoli/vesuvio', function () {
+            return Inertia::render('Campania/Visite/Vesuvio');
+        })->middleware(['auth', 'verified'])->name('vesuvio');
+
+        Route::get('/visite/campania/napoli/catacombe_di_san_gennaro', function () {
+            return Inertia::render('Campania/Visite/Catacombe_di_San_Gennaro');
+        })->middleware(['auth', 'verified'])->name('catacombe_di_san_gennaro');
+    /*Fine Napoli*/
+/*Fine Campania*/
+        
+/*Inizio Basilicata*/
+    Route::get('/basilicata', function () {
+        return Inertia::render('Basilicata');
+    })->middleware(['auth', 'verified'])->name('basilicata');
+
+    Route::get('/destinazioni/basilicata/matera', function () {
+        return Inertia::render('Basilicata/Destinazioni/Matera');
+    })->middleware(['auth', 'verified'])->name('matera');
+    /*Inizio Matara*/
+        Route::get('/visite/basilicata/matera/casa_grotta_nei_sassi_di_matera', function () {
+            return Inertia::render('Basilicata/Visite/Casa_Grotta_nei_Sassi_di_Matera');
+        })->middleware(['auth', 'verified'])->name('casa_grotta_nei_sassi_di_matera');
+
+        Route::get('/visite/basilicata/matera/punti_panoramici', function () {
+            return Inertia::render('Basilicata/Visite/Punti_Panoramici');
+        })->middleware(['auth', 'verified'])->name('punti_panoramici');
+
+        Route::get('/visite/basilicata/matera/belvedere_di_murgia_timone', function () {
+            return Inertia::render('Basilicata/Visite/Belvedere_Murgia_Timone');
+        })->middleware(['auth', 'verified'])->name('belvedere_di_murgia_timone');
+
+        Route::get('/montagna/basilicata/parco_della_murgia', function () {
+            return Inertia::render('Montagna/Parco_della_Murgia');
+        })->middleware(['auth', 'verified'])->name('parco_della_murgia');
+    /*Fine Matara*/
+/*Fine Basilicata*/
+
+/*Inizio Puglia*/
+    Route::get('/puglia', function () {
+        return Inertia::render('Puglia');
+    })->middleware(['auth', 'verified'])->name('puglia');
+
+    Route::get('/destinazioni/puglia/bari', function () {
+        return Inertia::render('Puglia/Destinazioni/Bari');
+    })->middleware(['auth', 'verified'])->name('bari');
+    /*Inizio Bari*/
+        Route::get('/visite/puglia/bari/castello_normanno_svevo', function () {
+            return Inertia::render('Puglia/Visite/Castello_Normanno_Svevo');
+        })->middleware(['auth', 'verified'])->name('castello_normanno_svevo');
+
+        Route::get('/visite/puglia/bari/basilica_di_san_nicola', function () {
+            return Inertia::render('Puglia/Visite/Basilica_di_San_Nicola');
+        })->middleware(['auth', 'verified'])->name('basilica_di_san_nicola');
+
+        Route::get('/visite/puglia/bari/grotte_di_castellana', function () {
+            return Inertia::render('Puglia/Visite/Grotte_di_Castellana');
+        })->middleware(['auth', 'verified'])->name('grotte_di_castellana');
+    /*Fine Bari*/
+/*Fine Puglia*/
+
+/*Inizio Calabria*/
+    Route::get('/calabria', function () {
+        return Inertia::render('Calabria');
+    })->middleware(['auth', 'verified'])->name('calabria');
+
+    Route::get('/destinazioni/calabria/catanzaro', function () {
+        return Inertia::render('Calabria/Destinazioni/Catanzaro');
+    })->middleware(['auth', 'verified'])->name('catanzaro');
+    /*Inizio Catanzaro*/
+        Route::get('/visite/calabria/catanzaro/duomo_di_catanzaro', function () {
+            return Inertia::render('Calabria/Visite/Duomo_di_Catanzaro');
+        })->middleware(['auth', 'verified'])->name('duomo_di_catanzaro');
+
+        Route::get('/visite/calabria/catanzaro/basilica_dell_immacolata', function () {
+            return Inertia::render('Calabria/Visite/Basilica_dell_Immacolata');
+        })->middleware(['auth', 'verified'])->name('basilica_dell_immacolata');
+
+        Route::get('/visite/calabria/catanzaro/ponte_bisantis', function () {
+            return Inertia::render('Calabria/Visite/Ponte_Bisantis');
+        })->middleware(['auth', 'verified'])->name('ponte_bisantis');
+
+        Route::get('/visite/calabria/catanzaro/complesso_monumentale_san_giovanni', function () {
+            return Inertia::render('Calabria/Visite/Complesso_Monumentale_San_Giovanni');
+        })->middleware(['auth', 'verified'])->name('complesso_monumentale_san_giovanni');
+
+        Route::get('/visite/calabria/catanzaro/teatro_politeama', function () {
+            return Inertia::render('Calabria/Visite/Teatro_Politeama');
+        })->middleware(['auth', 'verified'])->name('teatro_politeama');
+/*Inizio Calabria*/
+
+/*Inizio Sicilia*/
+    Route::get('/sicilia', function () {
+        return Inertia::render('Sicilia');
+    })->middleware(['auth', 'verified'])->name('sicilia');
+
+    Route::get('/destinazioni/sicilia/palermo', function () {
+        return Inertia::render('Sicilia/Destinazioni/Palermo');
+    })->middleware(['auth', 'verified'])->name('palermo');
+    /*Inizia Palermo*/
+        Route::get('/visite/sicilia/palermo/palazzo_dei_normanni', function () {
+            return Inertia::render('Sicilia/Visite/Palazzo_dei_Normanni');
+        })->middleware(['auth', 'verified'])->name('palazzo_dei_normanni');
+
+        Route::get('/visite/sicilia/palermo/teatro_massimo', function () {
+            return Inertia::render('Sicilia/Visite/Teatro_Massimo');
+        })->middleware(['auth', 'verified'])->name('teatro_massimo');
 
 
 

@@ -49,7 +49,7 @@ export default function Trento(props) {
                     </p>
                 </div>
                 <div className='row d-flex justify-content-center mx-0 mb-4'>
-                    <Card className='col-sm-12 col-md-6 col-lg-2 px-0 card_Trento'>
+                    <Card className='col-sm-12 col-md-6 col-lg-4 px-0 card_Trento'>
                         <CardBody className='bottone'>
                         <Link 
                             className="bottone_link" 
@@ -60,7 +60,7 @@ export default function Trento(props) {
                         </Link>
                         </CardBody>
                     </Card>
-                    <Card className='col-sm-12 col-md-6 col-lg-2 px-0 card_Trento'>
+                    <Card className='col-sm-12 col-md-6 col-lg-4 px-0 card_Trento'>
                         <CardBody className='bottone'>
                         <Link 
                             className="bottone_link" 
@@ -71,7 +71,7 @@ export default function Trento(props) {
                         </Link>
                         </CardBody>
                     </Card>
-                    <Card className='col-sm-12 col-md-6 col-lg-2 px-0 card_Trento'>
+                    <Card className='col-sm-12 col-md-6 col-lg-4 px-0 card_Trento'>
                         <CardBody className='bottone'>
                         <Link 
                             className="bottone_link" 
@@ -82,7 +82,7 @@ export default function Trento(props) {
                         </Link>
                         </CardBody>
                     </Card>
-                    <Card className='col-sm-12 col-md-6 col-lg-2 px-0 card_Trento'>
+                    <Card className='col-sm-12 col-md-6 col-lg-4 px-0 card_Trento'>
                         <CardBody className='bottone'>
                         <Link 
                             className="bottone_link" 
@@ -93,7 +93,7 @@ export default function Trento(props) {
                         </Link>
                         </CardBody>
                     </Card>
-                    <Card className='col-sm-12 col-md-6 col-lg-2 px-0 card_Trento'>
+                    <Card className='col-sm-12 col-md-6 col-lg-4 px-0 card_Trento'>
                         <CardBody className='bottone'>
                         <Link 
                             className="bottone_link" 
@@ -104,7 +104,7 @@ export default function Trento(props) {
                         </Link>
                         </CardBody>
                     </Card>
-                    <Card className='col-sm-12 col-md-6 col-lg-2 px-0 card_Trento'>
+                    <Card className='col-sm-12 col-md-6 col-lg-4 px-0 card_Trento'>
                         <CardBody className='bottone'>
                         <Link 
                             className="bottone_link" 
@@ -115,7 +115,7 @@ export default function Trento(props) {
                         </Link>
                         </CardBody>
                     </Card>
-                    <Card className='col-sm-12 col-md-6 col-lg-2 px-0 card_Trento'>
+                    <Card className='col-sm-12 col-md-6 col-lg-4 px-0 card_Trento'>
                         <CardBody className='bottone'>
                         <Link 
                             className="bottone_link" 
@@ -126,7 +126,7 @@ export default function Trento(props) {
                         </Link>
                         </CardBody>
                     </Card>
-                    <Card className='col-sm-12 col-md-6 col-lg-2 px-0 card_Trento'>
+                    <Card className='col-sm-12 col-md-6 col-lg-4 px-0 card_Trento'>
                         <CardBody className='bottone'>
                         <Link 
                             className="bottone_link" 
@@ -137,7 +137,7 @@ export default function Trento(props) {
                         </Link>
                         </CardBody>
                     </Card>
-                    <Card className='col-sm-12 col-md-6 col-lg-2 px-0 card_Trento'>
+                    <Card className='col-sm-12 col-md-6 col-lg-4 px-0 card_Trento'>
                         <CardBody className='bottone'>
                         <Link 
                             className="bottone_link" 
@@ -148,7 +148,7 @@ export default function Trento(props) {
                         </Link>
                         </CardBody>
                     </Card>
-                    <Card className='col-sm-12 col-md-6 col-lg-2 px-0 card_Trento'>
+                    <Card className='col-sm-12 col-md-6 col-lg-4 px-0 card_Trento'>
                         <CardBody className='bottone'>
                         <Link 
                             className="bottone_link" 
@@ -159,7 +159,7 @@ export default function Trento(props) {
                         </Link>
                         </CardBody>
                     </Card>
-                    <Card className='col-sm-12 col-md-6 col-lg-2 px-0 card_Trento'>
+                    <Card className='col-sm-12 col-md-6 col-lg-4 px-0 card_Trento'>
                         <CardBody className='bottone'>
                         <Link 
                             className="bottone_link" 
@@ -170,7 +170,7 @@ export default function Trento(props) {
                         </Link>
                         </CardBody>
                     </Card>
-                    <Card className='col-sm-12 col-md-6 col-lg-2 px-0 card_Trento'>
+                    <Card className='col-sm-12 col-md-6 col-lg-4 px-0 card_Trento'>
                         <CardBody className='bottone'>
                         <Link 
                             className="bottone_link" 
@@ -181,7 +181,7 @@ export default function Trento(props) {
                         </Link>
                         </CardBody>
                     </Card>
-                    <Card className='col-sm-12 col-md-6 col-lg-2 px-0 card_Trento'>
+                    <Card className='col-sm-12 col-md-6 col-lg-4 px-0 card_Trento'>
                         <CardBody className='bottone'>
                         <Link 
                             className="bottone_link" 
