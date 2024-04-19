@@ -1062,7 +1062,43 @@ Route::get('/le_piu_belle_passeggiate_lungo_i_ru_della_valle_d_aosta', function 
     /*Fine Palermo*/
 /*Fine Sicilia*/
 
+/*Inizio Sardegna*/
+    Route::get('/sardegna', function () {
+        return Inertia::render('Sardegna');
+    })->middleware(['auth', 'verified'])->name('sardegna');
 
+    Route::get('/destinazioni/sardegna/cagliari', function () {
+        return Inertia::render('Sardegna/Destinazioni/Cagliari');
+    })->middleware(['auth', 'verified'])->name('cagliari');
+    /*Inizia Palermo*/
+        Route::get('/visite/sardegna/cagliari/bastione_saint_remy', function () {
+            return Inertia::render('Sardegna/Visite/Bastione_Saint_Remy');
+        })->middleware(['auth', 'verified'])->name('bastione_saint_remy');
+
+        Route::get('/visite/sardegna/cagliari/palazzo_civico', function () {
+            return Inertia::render('Sardegna/Visite/Palazzo_Civico');
+        })->middleware(['auth', 'verified'])->name('palazzo_civico');
+
+        Route::get('/visite/sardegna/cagliari/duomo_di_cagliari', function () {
+            return Inertia::render('Sardegna/Visite/Duomo_di_Cagliari');
+        })->middleware(['auth', 'verified'])->name('duomo_di_cagliari');
+
+        Route::get('/visite/sardegna/cagliari/torri_di_san_pancrazio_e_dell_elefante', function () {
+            return Inertia::render('Sardegna/Visite/Torri_San_Pancrazio_e_dell_Elefante');
+        })->middleware(['auth', 'verified'])->name('torri_di_san_pancrazio_e_dell_elefante');
+
+        Route::get('/visite/sardegna/cagliari/parco_di_molentargius_e_saline', function () {
+            return Inertia::render('Sardegna/Visite/Parco_di_Molentargius_e_Saline');
+        })->middleware(['auth', 'verified'])->name('parco_di_molentargius_e_saline');
+
+        Route::get('/mare/sardegna/cagliari/sella_del_diavolo', function () {
+            return Inertia::render('Mare/Sella_del_Diavolo');
+        })->middleware(['auth', 'verified'])->name('sella_del_diavolo');
+
+        Route::get('/mare/sardegna/cagliari/spiaggia_del_poetto ', function () {
+            return Inertia::render('Mare/Spiaggia_del_Poetto');
+        })->middleware(['auth', 'verified'])->name('spiaggia_del_poetto ');
+    
 
 
 
