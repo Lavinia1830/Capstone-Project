@@ -3537,7 +3537,197 @@ hr{
   /*Fine Catanzaro*/
 /*Fine Calabria*/
     
-
+/*Inizio Sicilia*/
+  .sicilia{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Sicilia/Sicilia.jpg') center/cover no-repeat;
+    padding: 250px 0;
+  }
+  .sicilia h1{
+    color: #fff;
+    margin: 0 !important;
+  }
+  .card_Sicilia{
+    display: flex;
+  }
+  .card_Sicilia:nth-child(1){
+    background: url('../assets/Sicilia/Siracusa_Sicilia.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Sicilia:nth-child(2){
+    background: url('../assets/Sicilia/Catania_Sicilia.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Sicilia:nth-child(3){
+    background: url('../assets/Sicilia/Selinunte_Sicilia.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Sicilia:nth-child(4){
+    background: url('../assets/Sicilia/Agrigento_Sicilia.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Sicilia:nth-child(5){
+    background: url('../assets/Sicilia/Gela_Sicilia.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Sicilia:nth-child(6){
+    background: url('../assets/Sicilia/Messina_Sicilia.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Sicilia:nth-child(7){
+    background: url('../assets/Sicilia/Termini_Imerese_Palermo_Sicilia.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Sicilia:nth-child(8){
+    background: url('../assets/Sicilia/Tindari_Messina_Sicilia.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Sicilia:nth-child(9){
+    background: url('../assets/Sicilia/Taormina_Messina_Sicilia.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Sicilia:nth-child(10){
+    background: url('../assets/Sicilia/Palermo_Sicilia.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Sicilia:nth-child(11){
+    background: url('../assets/Sicilia/Isole_Eolie_Messina_Sicilia.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Sicilia:nth-child(12){
+    background: url('../assets/Sicilia/Vulcano_Isole_Eolie_Messina_Sicilia.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Sicilia:nth-child(13){
+    background: url('../assets/Sicilia/Stromboli_Isole_Eolie_Messina_Sicilia.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Sicilia:nth-child(14){
+    background: url('../assets/Sicilia/Lipari_Isole_Eolie_Messina_Sicilia.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Sicilia:nth-child(15){
+    background: url('../assets/Sicilia/Panarea_Isole_Eolie_Messina_Sicilia.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Sicilia:nth-child(16){
+    background: url('../assets/Sicilia/Alicudi_Isole_Eolie_Messina_Sicilia.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Sicilia:nth-child(17){
+    background: url('../assets/Sicilia/Filicudi_Isole_Eolie_Messina_Sicilia.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Sicilia:nth-child(18){
+    background: url('../assets/Sicilia/Salina_Isole_Elolie_Messina_Sicilia.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  /*Inizio Palermo*/
+    .palermo{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Sicilia/Palermo_Sicilia.jpg') center/cover no-repeat;
+      padding: 250px 0;
+    }
+    .palermo h1{
+      color: #fff;
+      margin: 0 !important;
+    }
+    .card_Palermo{
+      display: flex;
+    }
+    .card_Palermo:nth-child(1){
+      background: url('../assets/Sicilia/Palazzo_dei_normanni_Palermo_Sicilia.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Palermo:nth-child(2){
+      background: url('../assets/Sicilia/Teatro_Massimo_Palermo_Sicilia.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Palermo:nth-child(3){
+      background: url('../assets/Sicilia/Cattedrale_di_Palermo_Sicilia.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Palermo:nth-child(4){
+      background: url('../assets/Sicilia/Santa_Maria_dell_Ammiraglio_Palermo_Sicilia.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Palermo:nth-child(5){
+      background: url('../assets/Sicilia/Duomo_di_Monreale_Palermo_Sicilia.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    /*Inizio Palazzo dei Normanni*/
+      .palazzo_dei_normanni{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Sicilia/Palazzo_dei_normanni_Palermo_Sicilia.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .palazzo_dei_normanni h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Palazzo dei Normanni*/
+    /*Inizio Teatro Massimo*/
+      .teatro_massimo{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Sicilia/Teatro_Massimo_Palermo_Sicilia.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .teatro_massimo h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Teatro Massimo*/
+    /*Inizio Cattedrale di Palermo*/
+      .cattedrale_di_palermo{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Sicilia/Cattedrale_di_Palermo_Sicilia.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .cattedrale_di_palermo h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Cattedrale di Palermo*/
+    /*Inizio Santa Maria dell'Ammiraglio*/
+      .santa_maria_dell_ammiraglio{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Sicilia/Santa_Maria_dell_Ammiraglio_Palermo_Sicilia.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .santa_maria_dell_ammiraglio h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Santa Maria dell'Ammiraglio*/
+    /*Inizio Duomo di Monreale*/
+      .duomo_di_monreale{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Sicilia/Duomo_di_Monreale_Palermo_Sicilia.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .duomo_di_monreale h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Duomo di Monreale*/
+  /*Fine Palermo*/
+/*Fine Sicilia*/
 
 
 
