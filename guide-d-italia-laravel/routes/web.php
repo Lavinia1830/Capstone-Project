@@ -1029,7 +1029,22 @@ Route::get('/le_piu_belle_passeggiate_lungo_i_ru_della_valle_d_aosta', function 
         })->middleware(['auth', 'verified'])->name('teatro_politeama');
 /*Inizio Calabria*/
 
+/*Inizio Sicilia*/
+    Route::get('/sicilia', function () {
+        return Inertia::render('Sicilia');
+    })->middleware(['auth', 'verified'])->name('sicilia');
 
+    Route::get('/destinazioni/sicilia/palermo', function () {
+        return Inertia::render('Sicilia/Destinazioni/Palermo');
+    })->middleware(['auth', 'verified'])->name('palermo');
+    /*Inizia Palermo*/
+        Route::get('/visite/sicilia/palermo/palazzo_dei_normanni', function () {
+            return Inertia::render('Sicilia/Visite/Palazzo_dei_Normanni');
+        })->middleware(['auth', 'verified'])->name('palazzo_dei_normanni');
+
+        Route::get('/visite/sicilia/palermo/teatro_massimo', function () {
+            return Inertia::render('Sicilia/Visite/Teatro_Massimo');
+        })->middleware(['auth', 'verified'])->name('teatro_massimo');
 
 
 
