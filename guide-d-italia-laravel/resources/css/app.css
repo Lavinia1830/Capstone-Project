@@ -3729,6 +3729,172 @@ hr{
   /*Fine Palermo*/
 /*Fine Sicilia*/
 
+/*Inizio Sardegna*/
+  .sardegna{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Sardegna/Sardegna.jpg') center/cover no-repeat;
+    padding: 250px 0;
+  }
+  .sardegna h1{
+    color: #fff;
+    margin: 0 !important;
+  }
+  .card_Sardegna{
+    display: flex;
+  }
+  .card_Sardegna:nth-child(1){
+    background: url('../assets/Sardegna/Cagliari_Sardegna.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Sardegna:nth-child(2){
+    background: url('../assets/Sardegna/Alghero_Sardegna.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Sardegna:nth-child(3){
+    background: url('../assets/Sardegna/Olbia_Sardegna.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Sardegna:nth-child(4){
+    background: url('../assets/Sardegna/Sassari_Sardegna.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Sardegna:nth-child(5){
+    background: url('../assets/Sardegna/Oristano_Sardegna.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Sardegna:nth-child(6){
+    background: url('../assets/Sardegna/Porto_Cervo_Sardegna.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Sardegna:nth-child(7){
+    background: url('../assets/Sardegna/Costa_Smeralda_Sardegna.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  /*Inizio Cagliari*/
+    .cagliari{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Sardegna/Cagliari_Sardegna.jpg') center/cover no-repeat;
+      padding: 250px 0;
+    }
+    .cagliari h1{
+      color: #fff;
+      margin: 0 !important;
+    }
+    .card_Cagliari{
+      display: flex;
+    }
+    .card_Cagliari:nth-child(1){
+      background: url('../assets/Sardegna/Bastione_di_saint_remy_Cagliari_Sardegna.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Cagliari:nth-child(2){
+      background: url('../assets/Sardegna/Palazzo_Civico_Cagliari_Sardegna.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Cagliari:nth-child(3){
+      background: url('../assets/Sardegna/Duomo_di_Cagliari_Sardegna.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Cagliari:nth-child(4){
+      background: url('../assets/Sardegna/Torri_di_san_pancrazio_e_dell_elefante_Cagliari_Sardegna.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Cagliari:nth-child(5){
+      background: url('../assets/Sardegna/Parco_di_molentargius_e_saline_Cagliari_Sardegna.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Cagliari:nth-child(6){
+      background: url('../assets/Sardegna/Sella_del_diavolo_Cagliari_Sardegna.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Cagliari:nth-child(7){
+      background: url('../assets/Sardegna/Spiaggia_di_poetto_Cagliari_Sardegna.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    /*Inizio Bastione di Saint-Remy*/
+      .bastione_di_saint_remy{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Sardegna/Bastione_di_saint_remy_Cagliari_Sardegna.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .bastione_di_saint_remy h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Bastione di Saint-Remy*/
+    /*Inizio Palazzo Civico*/
+      .palazzo_civico{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Sardegna/Palazzo_Civico_Cagliari_Sardegna.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .palazzo_civico h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Palazzo Civico*/
+    /*Inizio Duomo di Cagliari*/
+      .duomo_di_cagliari{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Sardegna/Duomo_di_Cagliari_Sardegna.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .duomo_di_cagliari h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Duomo di Cagliari*/
+    /*Inizio Torri di San Pancrazio e Dell'Elefante*/
+      .torri_di_san_pancrazio_e_dell_elefante{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Sardegna/Torri_di_san_pancrazio_e_dell_elefante_Cagliari_Sardegna.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .torri_di_san_pancrazio_e_dell_elefante h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Torri di San Pancrazio e Dell'Elefante*/
+    /*Inizio Parco di Molentargius e Saline*/
+      .parco_di_molentargius_e_saline{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Sardegna/Parco_di_molentargius_e_saline_Cagliari_Sardegna.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .parco_di_molentargius_e_saline h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Parco di Molentargius e Saline*/
+    /*Inizio Sella del Diavolo*/
+      .sella_del_diavolo{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Sardegna/Sella_del_diavolo_Cagliari_Sardegna.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .sella_del_diavolo h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Sella del Diavolo*/
+    /*Inizio Spiaggia di Poetto*/
+      .spiaggia_di_poetto{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Sardegna/Spiaggia_di_poetto_Cagliari_Sardegna.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .spiaggia_di_poetto h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Spiaggia di Poetto*/
+  /*Fine Cagliari*/
+/*Fine Sardegna*/
 
 
 
