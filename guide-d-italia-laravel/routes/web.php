@@ -2,8 +2,10 @@
 
 use App\Http\Controllers\ProfileController;
 use Illuminate\Foundation\Application;
+use Illuminate\Routing\Router;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
+use Illuminate\Support\Facades\Mail;
 
 /*
 |--------------------------------------------------------------------------
@@ -1046,43 +1048,19 @@ Route::get('/le_piu_belle_passeggiate_lungo_i_ru_della_valle_d_aosta', function 
             return Inertia::render('Sicilia/Visite/Teatro_Massimo');
         })->middleware(['auth', 'verified'])->name('teatro_massimo');
 
+        Route::get('/visite/sicilia/palermo/cattedrale_di_palermo', function () {
+            return Inertia::render('Sicilia/Visite/Cattedrale_di_Palermo');
+        })->middleware(['auth', 'verified'])->name('cattedrale_di_palermo');
 
+        Route::get('/visite/sicilia/palermo/santa_maria_dell_ammiraglio', function () {
+            return Inertia::render('Sicilia/Visite/Santa_Maria_dell_Ammiraglio');
+        })->middleware(['auth', 'verified'])->name('santa_maria_dell_ammiraglio');
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        Route::get('/visite/sicilia/palermo/duomo_di_monreale', function () {
+            return Inertia::render('Sicilia/Visite/Duomo_di_Monreale');
+        })->middleware(['auth', 'verified'])->name('duomo_di_monreale');
+    /*Fine Palermo*/
+/*Fine Sicilia*/
 
 
 
