@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from '../../assets/Logo.png';
+import Logo from '../../../public/favicon.ico';
 
 export default function ApplicationLogo() {
     return (
