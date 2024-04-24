@@ -136,7 +136,6 @@ hr{
     color: #fff;
     margin: 0 !important;
   }
-  /*Inizio Card Valle d'Aosta*/
     .card_Valle_d_Aosta{
       display: flex;
     }
@@ -150,7 +149,21 @@ hr{
       /* width: 30%; */
       height: 400px;
     }
-  /*Fine Card Valle d'Aosta*/
+    .card_Valle_d_Aosta:nth-child(3){ 
+      background: url('../assets/Valle_d_Aosta/Cervinia_valtournanche_Valle_d_Aosta.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Valle_d_Aosta:nth-child(4){ 
+      background: url('../assets/Valle_d_Aosta/Champoluc_Valle_d_Aosta.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Valle_d_Aosta:nth-child(5){ 
+      background: url('../assets/Valle_d_Aosta/Valpelline_Valle_d_Aosta.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
   /*Inizio Aosta*/
     .aosta{
       background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Aosta_Valle_d_Aosta.jpg') center/cover no-repeat;
@@ -701,7 +714,286 @@ hr{
         margin: 0 !important;
       }
     /*Fine Lago Blu*/
+    /*Inizio Marmitte dei Giganti*/
+      .marmitte_dei_giganti{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Marmitte_dei_giganti_Cervinia_Valtournanche.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .marmitte_dei_giganti h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Marmitte dei Giganti*/
+    /*Inizio Grotte delle Busserailles*/
+      .grotte_delle_busserailles{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Grotte_delle_busserailles_Cervinia_Valtournanche_Valle_d_Aosta.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .grotte_delle_busserailles h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Grotte delle Busserailles*/
+    /*Inizio Monte Cervino*/
+      .monte_cervino{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Monte_cervino_Valle_d_Aosta.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .monte_cervino h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Monte Cervino*/
+    /*Inizio Lago di Goillet*/
+      .lago_di_goillet{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Lago_di_goillet_Valle_d_Aosta.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .lago_di_goillet h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Lago di Goillet*/
   /*Fine Cervinia Valtournanche*/
+  /*Inizio Enogastronomia*/
+    /*Inizio Specialità Tipiche Valdostane*/
+      .specialità_tipiche_valdostane{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Specialità_tipiche_valdostane_Valle_d_Aosta.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .specialità_tipiche_valdostane h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+      .card-Specitalità_Tipiche_Valdostane{
+        display: flex;
+      }
+      .card_Specitalità_Tipiche_Valdostane:nth-child(1){
+        background: url('../assets/Valle_d_Aosta/Aosta_Valle_d_Aosta.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Specitalità_Tipiche_Valdostane:nth-child(2){
+        background: url('../assets/Valle_d_Aosta/Courmayeur_Valle_d_Aosta.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Specitalità_Tipiche_Valdostane:nth-child(3){
+        background: url('../assets/Valle_d_Aosta/Monte_bianco_Valle_d_Aosta.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+    /*Fine Specialità Tipiche Valdostane*/
+    /*Inizio Prodotti Tipici Valdostani*/
+      .prodotti_tipici_valdostani{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Prodotti_tipici_valdostani_Valle_d_Aosta.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .prodotti_tipici_valdostani h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Prodotti Tipici Valdostani*/
+    /*Inizio Grappa Valdostana*/
+      .grappa_valdostana{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Grappa_valdostana_Valle_d_Aosta.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .grappa_valdostana h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+      .card_Grappa_Valdostana{
+        display: flex;
+      }
+      .card_Grappa_Valdostana:nth-child(1){
+        background: url('../assets/Valle_d_Aosta/Aosta_Valle_d_Aosta.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+    /*Fine Grappa Valdostana*/
+  /*Fine Enogastronomia*/
+  /*Inizio Champoluc*/
+    .champoluc{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Champoluc_Valle_d_Aosta.jpg') center/cover no-repeat;
+      padding: 250px 0;
+    }
+    .champoluc h1{
+      color: #fff;
+      margin: 0 !important;
+    }
+    .card_Champoluc{
+      display: flex;
+    }
+    .card_Champoluc:nth-child(1){
+      background: url('../assets/Valle_d_Aosta/La_chiesa_parrocciale_di_san_martino_Champoluc_Valle_d_Aosta.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Champoluc:nth-child(2){
+      background: url('../assets/Valle_d_Aosta/La_mostra_permanente_dell_artigianato_tipico_Champoluc_Valle_d_Aosta.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Champoluc:nth-child(3){
+      background: url('../assets/Valle_d_Aosta/Santuario_notre_dame_du_bon_secours_Champoluc_Valle_d_Aosta.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    } 
+    /*Inizio La Chiesa Parrocciale di San Martino*/
+      .la_chiesa_parrocchiale_di_san_martino{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/La_chiesa_parrocciale_di_san_martino_Champoluc_Valle_d_Aosta.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .la_chiesa_parrocchiale_di_san_martino h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine La Chiesa Parrocciale di San Martino*/
+    /*Inizio La mostra permanente dell'artigianato tipico*/
+      .la_mostra_permanente_dell_artigianato_tipico{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/La_mostra_permanente_dell_artigianato_tipico_Champoluc_Valle_d_Aosta.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .la_mostra_permanente_dell_artigianato_tipico h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine La mostra permanente dell'artigianato tipico*/
+    /*Inizio Santuario Notre Dame du Bon Secours*/
+      .il_santuario_notre_dame_du_bon_secours{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Santuario_notre_dame_du_bon_secours_Champoluc_Valle_d_Aosta.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .il_santuario_notre_dame_du_bon_secours h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Santuario Notre Dame du Bon Secours*/
+  /*Fine Champoluc*/
+  /*Inizio festa delle Guide Apine*/
+    .festa_delle_guide_alpine{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Festa_delle_guide_alpine_Champoluc_Valle_d_Aosta.jpg') center/cover no-repeat;
+      padding: 250px 0;
+    }
+    .festa_delle_guide_alpine h1{
+      color: #fff;
+      margin: 0 !important;
+    }
+  /*Fine festa delle Guide Alpine*/
+  /*Inizio Fioccolata dei Maestri di Scii*/
+    .fioccolata_dei_maestri_di_scii{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Fioccolata_dei_maestri_di_scii_Champoluc_Valle_d_Aosta.jpg') center/cover no-repeat;
+      padding: 250px 0;
+    }
+    .fioccolata_dei_maestri_di_scii h1{
+      color: #fff;
+      margin: 0 !important;
+    }
+  /*Fine Fioccolata dei Maestri di Scii*/
+  /*Inizia Valpelline*/
+    .valpelline{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Valpelline_Valle_d_Aosta.jpg') center/cover no-repeat;
+      padding: 250px 0;
+    }
+    .valpelline h1{
+      color: #fff;
+      margin: 0 !important;
+    }
+    .card_Valpelline{
+      display: flex;
+    }
+    .card_Valpelline:nth-child(1){
+      background: url('../assets/Valle_d_Aosta/Casaforte_la_tour_de_Valpelline_Valle_d_Aosta.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Valpelline:nth-child(2){
+      background: url('../assets/Valle_d_Aosta/La_tornalla_Valpelline_Valle_d_Aosta.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Valpelline:nth-child(3){
+      background: url('../assets/Valle_d_Aosta/Il_ponte_della_betenda_Valpelline_Valle_d_Aosta.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Valpelline:nth-child(4){
+      background: url('../assets/Valle_d_Aosta/La_porta_del_bouyoz_Valpelline_Valle_d_Aosta.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Valpelline:nth-child(5){
+      background: url('../assets/Valle_d_Aosta/Il_faggio_monumentale_di_voisinal_Valpelline_Valle_d_Aosta.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Valpelline:nth-child(6){
+      background: url('../assets/Valle_d_Aosta/La_brenva_foula_di_gorzé_Valpelline_Valle_d_Aosta.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    /*Inizio Maison la tour de Valpelline*/
+      .maison_la_tour_de_valpelline{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Casaforte_la_tour_de_Valpelline_Valle_d_Aosta.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .maison_la_tour_de_valpelline h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Maison la tour de Valpelline*/
+    /*Inizio La Tornella*/
+      .la_tornella{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/La_tornalla_Valpelline_Valle_d_Aosta.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .la_tornella h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine La Tornella*/
+    /*Inizio Il ponte della betenda*/
+      .il_ponte_della_betenda{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Il_ponte_della_betenda_Valpelline_Valle_d_Aosta.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .il_ponte_della_betenda h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Il ponte della betenda*/
+    /*Inizio La porta del bouyoz*/
+      .la_porta_del_bouyoz{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/La_porta_del_bouyoz_Valpelline_Valle_d_Aosta.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .la_porta_del_bouyoz h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine La porta del bouyoz*/
+    /*Inizio  il Faggio Monumentale di Voisinale*/
+      .il_faggio_monumentale_di_voisinal{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Il_faggio_monumentale_di_voisinal_Valpelline_Valle_d_Aosta.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .il_faggio_monumentale_di_voisinal h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine  il Faggio Monumentale di Voisinale*/
+    /*Inizio La Brenva Foula di Gorzé*/
+      .la_brenva_foula_di_gorzé{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/La_brenva_foula_di_gorzé_Valpelline_Valle_d_Aosta.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .la_brenva_foula_di_gorzé h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine La Brenva Foula di Gorzé*/
+  /*Fine Valpelline*/
 /*Fine Valle d'Aosta*/
 
 

@@ -12,7 +12,7 @@ export default function Festa_della_Badoche(props) {
                 <div className='festa_della_badoche' style={{ position: 'relative' }}>
                     <h1 className='text-center' style={{ position: 'absolute', top: 20, left: 20 }}>Festa della Badoche</h1>
                     <span className='text-light' style={{ position: 'absolute', bottom: 50, left: 20 }}>CATEGORIE</span>
-                    <p className='categorie' style={{ position: 'absolute', bottom: 10, left: 20 }}>Da vedere</p>
+                    <p className='categorie' style={{ position: 'absolute', bottom: 10, left: 20 }}>Eventi</p>
                 </div>
                 <div className="margin mt-3">
                     <p>
