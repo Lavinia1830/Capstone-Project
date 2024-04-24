@@ -199,15 +199,107 @@ Route::get('/home', function () {
 
     /*Fine Courmayeur*/
 
-    Route::get('/destinazioni/valle_d_aosta/cervinia_valtounernche', function () {
+    Route::get('/destinazioni/valle_d_aosta/cervinia_valtournanche', function () {
         return Inertia::render('Valle_d_Aosta/Destinazioni/Cervinia_Valtournanche');
     })->middleware(['auth', 'verified'])->name('cervinia_valtournanche');
 
     /*Inizio Cervinia Valtournanche*/
 
         Route::get('/laghi/valle_d_aosta/lago_blu', function () {
-            return Inertia::render('Valle_d_Aosta/Visite/Lago_Blu');
+            return Inertia::render('Laghi/Lago_Blu');
         })->middleware(['auth', 'verified'])->name('lago_blu');
+
+        Route::get('/visite/valle_d_aosta/cervinia_valtournanche/marmitte_dei_giganti', function () {
+            return Inertia::render('Valle_d_Aosta/Visite/Marmitte_dei_Giganti');
+        })->middleware(['auth', 'verified'])->name('marmitte_dei_giganti');
+
+        Route::get('/visite/valle_d_asota/cervinia_valtournanche/grotte_delle_busserailles', function () {
+            return Inertia::render('Valle_d_Aosta/Visite/Grotte_delle_Busserailles');
+        })->middleware(['auth', 'verified'])->name('grotte_delle_busserailles');
+    
+    /*Fine Cervinia Valtournanche*/
+
+    Route::get('/montagna/valle_d_aosta/monte_cervino', function () {
+        return Inertia::render('Montagna/Monte_Cervino');
+    })->middleware(['auth', 'verified'])->name('monte_cervino');
+
+    Route::get('/laghi/valle_d_aosta/lago_di_goillet', function () {
+        return Inertia::render('Laghi/Lago_di_Goillet');
+    })->middleware(['auth', 'verified'])->name('lago_di_goillet');
+
+    /*Enogastronomia Valle d'Aosta*/
+
+        Route::get('/enogastonomia/valle_d_aosta/specialità_tipiche_valdostane', function () {
+            return Inertia::render('Enogastronomia/Specialità_Tipiche_Valdostane');
+        })->middleware(['auth', 'verified'])->name('specialità_tipiche_valdostane');
+
+        Route::get('/enogastronomia/valle_d_aosta/prodotti_tipici_valdostani', function () {
+            return Inertia::render('Enogastronomia/Prodotti_Tipici_Valdostani');
+        })->middleware(['auth', 'verified'])->name('prodotti_tipici_valdostani');
+
+        Route::get('/enogastronomia/valle_d_aosta/grappa_valdostana', function () {
+            return Inertia::render('Enogastronomia/Grappa_Valdostana');
+        })->middleware(['auth', 'verified'])->name('grappa_valdostana');
+    
+    /*Fine Enogastronomia Valle d'Aosta*/
+
+    Route::get('/destinazioni/valle_d_aosta/champoluc', function () {
+        return Inertia::render('Valle_d_Aosta/Destinazioni/Champoluc');
+    })->middleware(['auth', 'verified'])->name('champoluc');
+
+    /*Inizio Chamoluc*/
+
+        Route::get('/visite/valle_d_aosta/champoluc/la_chiesa_parocchiale_di_san_martino', function () {
+            return Inertia::render('Valle_d_Aosta/Visite/La_Chiesa_Parrocchiale_di_San_Martino');
+        })->middleware(['auth', 'verified'])->name('la_chiesa_parocchiale_di_san_martino');
+
+        Route::get('/visite/valle_d_aosta/champoluc/la_mostra_permanente_dell_artigianato_tipico', function () {
+            return Inertia::render('Valle_d_Aosta/Visite/La_mostra_permanente_dell_artigianato_tipico');
+        })->middleware(['auth', 'verified'])->name('la_mostra_permanente_dell_artigianato_tipico');
+
+        Route::get('/visite/valle_d_aosta/champoluc/il_santuario_di_notre_dame_du_bon_secours', function () {
+            return Inertia::render('Valle_d_Aosta/Visite/Il_Santuario_di_Notre_Dame_Du_Bon_Secours');
+        })->middleware(['auth', 'verified'])->name('il_santuario_di_notre_dame_du_bon_secours');
+
+        Route::get('/valle_d_aosta/eventi/champoluc/festa_delle_guide_alpine', function () {
+            return Inertia::render('Valle_d_Aosta/Eventi/Festa_delle_Guide_Alpine');
+        })->middleware(['auth', 'verified'])->name('festa_delle_guide_alpine');
+
+        Route::get('/valle_d_aosta/eventi/courmayeur/fiaccolata_dei_maestri_di_scii', function () {
+            return Inertia::render('Valle_d_Aosta/Eventi/Fiaccolata_dei_Maestri_di_Scii');
+        })->middleware(['auth', 'verified'])->name('fiaccolata_dei_maestri_di_scii');
+    
+    /*Fine Chamoluc*/
+
+    Route::get('/destinazioni/valle_d_aosta/valpelline', function () {
+        return Inertia::render('Valle_d_Aosta/Destinazioni/Valpelline');
+    })->middleware(['auth', 'verified'])->name('valpelline');
+
+    /*Inizio Valpelline*/
+
+        Route::get('/visite/valle_d_aosta/valpelline/maison_la_tour_de_valpelline', function () {
+            return Inertia::render('Valle_d_Aosta/Visite/Maison_la_tour_de_Valpelline');
+        })->middleware(['auth', 'verified'])->name('maison_la_tour_de_valpelline');
+
+        Route::get('/visite/valle_d_aosta/valpelline/la_tornalla', function () {
+            return Inertia::render('Valle_d_Aosta/Visite/La_Tornalla');
+        })->middleware(['auth', 'verified'])->name('la_tornalla');
+
+        Route::get('/visite/valle_d_aosta/valpelline/il_ponte_della_betenda', function () {
+            return Inertia::render('Valle_d_Aosta/Visite/Il_Ponte_della_Betenda');
+        })->middleware(['auth', 'verified'])->name('il_ponte_della_betenda');
+
+        Route::get('/visite/valle_d_aosta/valpelline/la_porta_del_bouyoz', function () {
+            return Inertia::render('Valle_d_Aosta/Visite/La_porta_del_Bouyoz');
+        })->middleware(['auth', 'verified'])->name('la_porta_del_bouyoz');
+
+        Route::get('/visite/valle_d_aosta/valpelline/il_faggio_monumentale_di_voisinal', function () {
+            return Inertia::render('Valle_d_Aosta/Visite/Il_Faggio_Monumentale_di_Voisinal');
+        })->middleware(['auth', 'verified'])->name('il_faggio_monumentale_di_voisinal');
+
+        Route::get('/visite/valle_d_aosta/valpelline/la_brenva_foula_di_gorzé', function () {
+            return Inertia::render('Valle_d_Aosta/Visite/La_Brenva_Foula_di_Gorzé');
+        })->middleware(['auth', 'verified'])->name('la_brenva_foula_di_gorzé');
 
 /*Fine Valle d'Aosta*/
     

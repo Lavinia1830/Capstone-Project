@@ -10,6 +10,9 @@ export default function Valle_d_Aosta(props) {
 
     const [isHoveredAosta, setIsHoveredAosta] = useState(false);
     const [isHoveredCourmayeur, setIsHoveredCourmayeur] = useState(false);
+    const [isHoveredCerviniaValtournanche, setIsHoveredCerviniaValtournanche] = useState(false);
+    const [isHoveredChampoluc, setIsHoveredChampoluc] = useState(false);
+    const [isHoveredValpelline, setIsHoveredValpelline] = useState(false);
     /* const [isHoveredImageGressoney , setIsImageGressoney] = useState(false); */
 
 
@@ -61,13 +64,13 @@ export default function Valle_d_Aosta(props) {
             <div className="margin mt-3">
                 <h2 className='color-subtitle'>Cosa vedere in Valle d'Aosta</h2>
                 <p>
-                    Nel paradiso naturale della Valle d’Aosta., tra le vette più alte d'Europa come il <Link href='/montagna/valle_d_aosta/monte_rosa' className='text-decoration-none color_link'>Monte Rosa</Link> e il <Link href='/montagna/valle_d_aosta/monte_cervinio' 
+                    Nel paradiso naturale della Valle d’Aosta., tra le vette più alte d'Europa come il <Link href='/montagna/valle_d_aosta/monte_rosa' className='text-decoration-none color_link'>Monte Rosa</Link> e il <Link href='/montagna/valle_d_aosta/monte_cervino' 
                     className='text-decoration-none color_link'>Cervino</Link>, e bagnato dalla Dora Baltea, c'è l'imbarazzo della scelta quando si tratta di decidere cosa vedere.
                 </p>
                 <p>
                     Nell'area alle pendici delle due montagne potete mettervi alla prova nella stazione turistica di <Link href='/destinazioni/valle_d_aosta/cervinia_valtounernche' className='text-decoration-none color_link'>Cervinia - Valtournenche</Link>, sia d'inverno 
-                    che d'estate, e farvi incantare dalle magiche acque del <Link href='/laghi/valle_d_aosta/lago_blu_di_cervinia' className='text-decoration-none color_link'>Lago Blu di Cervinia</Link> a 1981 metri di altezza o dalla fiabesca Valle d'Ayas in cui 
-                    sorge <Link href='/destinazioni/valle_d_aosta/aosta/champoluc' className='text-decoration-none color_link'>Champoluc</Link>.
+                    che d'estate, e farvi incantare dalle magiche acque del <Link href='/laghi/valle_d_aosta/lago_blu' className='text-decoration-none color_link'>Lago Blu di Cervinia</Link> a 1981 metri di altezza o dalla fiabesca Valle d'Ayas in cui 
+                    sorge <Link href='/destinazioni/valle_d_aosta/champoluc' className='text-decoration-none color_link'>Champoluc</Link>.
                 </p>
                 <p>
                     Più a sud il <b>Gran Paradiso</b> si lascia scoprire pian piano tra natura incontaminata, castelli, valli, impianti sciistici e tracce dell'antica Roma come il <b>ponte-acquedotto di Pont d'Ael</b>.
@@ -88,7 +91,7 @@ export default function Valle_d_Aosta(props) {
                     Borgo. Qui si trovano i sepolcri dei 3 vescovi vissuti tra il V e il VI secolo.
                 </p>
                 <p>
-                    La <Link href='/borghi/valle_d_aosta/valpelline' className='text-decoration-none color_link'>Valpelline</Link>, la più lunga valle laterale della regione, è un luogo incontaminato in cui passeggiare tra valloni, laghetti alpini e rifugi lontani dalle 
+                    La <Link href='/destinazioni/valle_d_aosta/valpelline' className='text-decoration-none color_link'>Valpelline</Link>, la più lunga valle laterale della regione, è un luogo incontaminato in cui passeggiare tra valloni, laghetti alpini e rifugi lontani dalle 
                     solite rotte turistiche.
                 </p>
                 <p>
@@ -115,6 +118,39 @@ export default function Valle_d_Aosta(props) {
                             onMouseEnter={() => setIsHoveredCourmayeur(true)}
                             onMouseLeave={() => setIsHoveredCourmayeur(false)}
                             >Courmayeur {isHoveredCourmayeur && <i className="bi bi-chevron-right"></i>}
+                        </Link>
+                    </Card.Body>
+                </Card>
+                <Card className='col-sm-12 col-md-6 col-lg-4 px-0 card_Valle_d_Aosta'>
+                    <Card.Body className='bottone'>
+                        <Link 
+                            className="bottone_link" 
+                            href='/destinazioni/valle_d_aosta/cervinia_valtournanche'
+                            onMouseEnter={() => setIsHoveredCerviniaValtournanche(true)}
+                            onMouseLeave={() => setIsHoveredCerviniaValtournanche(false)}
+                            >Cervinia - Valtournanche {isHoveredCerviniaValtournanche && <i className="bi bi-chevron-right"></i>}
+                        </Link>
+                    </Card.Body>
+                </Card>
+                <Card className='col-sm-12 col-md-6 col-lg-4 px-0 card_Valle_d_Aosta'>
+                    <Card.Body className='bottone'>
+                        <Link 
+                            className="bottone_link" 
+                            href='/destinazioni/valle_d_aosta/champoluc'
+                            onMouseEnter={() => setIsHoveredChampoluc(true)}
+                            onMouseLeave={() => setIsHoveredChampoluc(false)}
+                            >Champoluc {isHoveredChampoluc && <i className="bi bi-chevron-right"></i>}
+                        </Link>
+                    </Card.Body>
+                </Card>
+                <Card className='col-sm-12 col-md-6 col-lg-4 px-0 card_Valle_d_Aosta'>
+                    <Card.Body className='bottone'>
+                        <Link 
+                            className="bottone_link" 
+                            href='/destinazioni/valle_d_aosta/valpelline'
+                            onMouseEnter={() => setIsHoveredValpelline(true)}
+                            onMouseLeave={() => setIsHoveredValpelline(false)}
+                            >Valpelline {isHoveredValpelline && <i className="bi bi-chevron-right"></i>}
                         </Link>
                     </Card.Body>
                 </Card>
