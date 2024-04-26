@@ -1,0 +1,104 @@
+{
+    "search": [
+        { 
+            "id": "1", 
+            "title": "Abruzzo", 
+            "url": "http://127.0.0.1:8000/abruzzo" 
+        },
+        { 
+            "id": "2", 
+            "title": "Basilicata", 
+            "url": "http://127.0.0.1:8000/basilicata" 
+        },
+        { 
+            "id": "3", 
+            "title": "Calabria", 
+            "url": "http://127.0.0.1:8000/calabria" 
+        },
+        { 
+            "id": "4", 
+            "title": "Campania", 
+            "url": "http://127.0.0.1:8000/campania" 
+        },
+        { 
+            "id": "4", 
+            "title": "Emilia Romagna", 
+            "url": "http://127.0.0.1:8000/emilia_romagna" 
+        },
+        {
+            "id": "5",
+            "title": "Friuli-Venezia Giulia",
+            "url": "http://127.0.0.1:8000/friuli-venezia_giulia"
+        },
+        {
+            "id": "6",
+            "title": "Lazio",
+            "url": "http://127.0.0.1:8000/lazio"
+        },
+        {
+            "id": "7",
+            "title": "Liguria",
+            "url": "http://127.0.0.1:8000/liguria"
+        },
+        {
+            "id": "8",
+            "title": "Lombardia",
+            "url": "http://127.0.0.1:8000/lombardia"    
+        },
+        {
+            "id": "9",
+            "title": "Marche",
+            "url": "http://127.0.0.1:8000/marche"
+        },
+        {
+            "id": "10",
+            "title": "Molise",
+            "url": "http://127.0.0.1:8000/molise"
+        },
+        {
+            "id": "11",
+            "title": "Piemonte",
+            "url": "http://127.0.0.1:8000/piemonte"
+        },
+        {
+            "id": "12",
+            "title": "Puglia",
+            "url": "http://127.0.0.1:8000/puglia"
+        },
+        {   
+            "id": "13",
+            "title": "Sardegna",
+            "url": "http://127.0.0.1:8000/sardegna"
+        },
+        {
+            "id": "14",
+            "title": "Sicilia",
+            "url": "http://127.0.0.1:8000/sicilia"
+        },
+        {
+            "id": "15",
+            "title": "Toscana",
+            "url": "http://127.0.0.1:8000/toscana"
+        },
+        {
+            "id": "16", 
+            "title": "Trentino Alto Adige",
+            "url": "http://127.0.0.1:8000/trentino_alto_adige"
+        },  
+        {
+            "id": "17",
+            "title": "Umbria",
+            "url": "http://127.0.0.1:8000/umbria"
+        },
+        {
+            "id": "18",
+            "title": "Valle d'Aosta",
+            "url": "http://127.0.0.1:8000/valle_d_aosta"
+        },
+        {
+            "id": "19",
+            "title": "Veneto",
+            "url": "http://127.0.0.1:8000/veneto"
+        }
+    ]
+  }
