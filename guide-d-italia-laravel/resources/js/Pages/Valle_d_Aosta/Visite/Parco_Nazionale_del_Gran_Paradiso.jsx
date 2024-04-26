@@ -35,7 +35,7 @@ export default function Parco_Nazionale_del_Gran_Paradiso(props) {
                 <div className="margin mt-3">
                     <h2 className="color-subtitle">Sport praticabili</h2>
                     <p>
-                        Negli oltre <b>70.000 ettari di territorio</b> su cui si estende il Parco, sono <b>diverse le attività sportive praticabili</b>. In inverno, presso le <b>stazioni sciistiche</b> come <Link href='/montagna/valle_d_aosta/cogne' className='text-decoration-none color_link'>Cogne</Link> o <b>Valsavarenche</b>, 
+                        Negli oltre <b>70.000 ettari di territorio</b> su cui si estende il Parco, sono <b>diverse le attività sportive praticabili</b>. In inverno, presso le <b>stazioni sciistiche</b> come <Link href='/destinazioni/valle_d_aosta/cogne' className='text-decoration-none color_link'>Cogne</Link> o <b>Valsavarenche</b>, 
                         si può fare <b>sci di fondo e da discesa</b>. Con la bella stagione ci si può cimentare nell’<b>arrampicata su roccia o ghiaccio</b>, disciplina ricca di sfide e di storia che nel Parco Nazionale Gran Paradiso è di casa. Cinque valli incontaminate dove scegliere tra <b>pareti di solida 
                         roccia e cascate di ghiaccio lucente nel totale silenzio</b>, immersi in uno scenario unico al mondo. Sempre nel Parco o nelle aree limitrofe, è possibile <b>pedalare nella natura</b>, magari aiutati da una e-bike.
                     </p>

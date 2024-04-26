@@ -13,6 +13,7 @@ export default function Valle_d_Aosta(props) {
     const [isHoveredCerviniaValtournanche, setIsHoveredCerviniaValtournanche] = useState(false);
     const [isHoveredChampoluc, setIsHoveredChampoluc] = useState(false);
     const [isHoveredValpelline, setIsHoveredValpelline] = useState(false);
+    const [isHoveredCogne, setIsHoveredCogne] = useState(false);
     /* const [isHoveredImageGressoney , setIsImageGressoney] = useState(false); */
 
 
@@ -153,6 +154,17 @@ export default function Valle_d_Aosta(props) {
                                 onMouseEnter={() => setIsHoveredValpelline(true)}
                                 onMouseLeave={() => setIsHoveredValpelline(false)}
                                 >Valpelline {isHoveredValpelline && <i className="bi bi-chevron-right"></i>}
+                            </Link>
+                        </Card.Body>
+                    </Card>
+                    <Card className='col-sm-12 col-md-6 col-lg-4 px-0 card_Valle_d_Aosta'>
+                        <Card.Body className='bottone'>
+                            <Link 
+                                className="bottone_link" 
+                                href='/destinazioni/valle_d_aosta/cogne'
+                                onMouseEnter={() => setIsHoveredCogne(true)}
+                                onMouseLeave={() => setIsHoveredCogne(false)}
+                                >Cogne {isHoveredCogne && <i className="bi bi-chevron-right"></i>}
                             </Link>
                         </Card.Body>
                     </Card>

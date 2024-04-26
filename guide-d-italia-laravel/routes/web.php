@@ -298,6 +298,17 @@ Route::get('/home', function () {
         Route::get('/visite/valle_d_aosta/valpelline/la_brenva_foula_di_gorzé', function () {
             return Inertia::render('Valle_d_Aosta/Visite/La_Brenva_Foula_di_Gorzé');
         })->middleware(['auth', 'verified'])->name('la_brenva_foula_di_gorzé');
+    /*Fine Valpelline*/
+
+    Route::get('/destinazioni/valle_d_aosta/cogne', function () {
+        return Inertia::render('Valle_d_Aosta/Destinazioni/Cogne');
+    })->middleware(['auth', 'verified'])->name('cogne');
+
+    /*Inizio Cogne*/
+
+        Route::get('/visite/valle_d_aosta/cogne/la_brenva_foula_di_gorzé', function () {
+            return Inertia::render('Valle_d_Aosta/Visite/La_Brenva_Foula_di_Gorzé');
+        })->middleware(['auth', 'verified'])->name('la_brenva_foula_di_gorzé');
 
 /*Fine Valle d'Aosta*/
     

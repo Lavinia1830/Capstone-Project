@@ -164,6 +164,11 @@ hr{
       /* width: 30%; */
       height: 400px;
     }
+    .card_Valle_d_Aosta:nth-child(6){ 
+      background: url('../assets/Valle_d_Aosta/Cogne_Valle_d_Aosta.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
   /*Inizio Aosta*/
     .aosta{
       background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Aosta_Valle_d_Aosta.jpg') center/cover no-repeat;
@@ -994,6 +999,69 @@ hr{
       }
     /*Fine La Brenva Foula di Gorzé*/
   /*Fine Valpelline*/
+  /*Inizio Cogne*/
+    .cogne{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Cogne_Valle_d_Aosta.jpg') center/cover no-repeat;
+      padding: 250px 0;
+    }
+    .cogne h1{
+      color: #fff;
+      margin: 0 !important;
+    }
+    .card_Cogne{
+      display: flex;
+    }
+    .card_Cogne:nth-child(1){
+      background: url('../assets/Valle_d_Aosta/Chiesa_si_Sant_Orso_Cogne_Valle_d_Aosta.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Cogne:nth-child(2){
+      background: url('../assets/Valle_d_Aosta/Casa_dei_pizzi_Cogne_Valle_d_Aosta.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Cogne:nth-child(3){
+      background: url('../assets/Valle_d_Aosta/Torre_del_vescovo_Cogne_Valle_d_Aosta.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Cogne:nth-child(4){
+      background: url('../assets/Valle_d_Aosta/La_grandze_place_commune_Cogne_Valle_d_Aosta.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Cogne:nth-child(5){
+      background: url('../assets/Valle_d_Aosta/Prato_di_sant_orso_Cogne_Valle_d_Aosta.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Cogne:nth-child(6){
+      background: url('../assets/Valle_d_Aosta/Fontana_di_ferro_Cogne_Valle_d_Aosta.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Cogne:nth-child(7){
+      background: url('../assets/Valle_d_Aosta/Casa_dell_orologio_Cogne_Valle_d_Aosta.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Cogne:nth-child(8){
+      background: url('../assets/Valle_d_Aosta/Piazza_chanoux_Cogne_Valle_d_Aosta.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Cogne:nth-child(9){
+      background: url('../assets/Valle_d_Aosta/Maison_de_cogne_gerard_dayné_Valle_d_Aosta.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Cogne:nth-child(10){
+      background: url('../assets/Valle_d_Aosta/Atelier_d_arts_et_métiers_Cogne_Valle_d_Aosta.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+  /*Fine Cogne*/
 /*Fine Valle d'Aosta*/
 
 
