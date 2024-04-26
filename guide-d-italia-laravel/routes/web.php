@@ -31,8 +31,6 @@ Route::get('/home', function () {
     return Inertia::render('Home');
 })->middleware(['auth', 'verified'])->name('home');
 
-
-
 /*Valle d'Aosta*/
 
     Route::get('/valle_d_aosta', function () {
@@ -1333,7 +1331,7 @@ Route::get('/le_piu_belle_passeggiate_lungo_i_ru_della_valle_d_aosta', function 
     Route::get('/destinazioni/sardegna/cagliari', function () {
         return Inertia::render('Sardegna/Destinazioni/Cagliari');
     })->middleware(['auth', 'verified'])->name('cagliari');
-    /*Inizia Palermo*/
+    /*Inizia Cagliari*/
         Route::get('/visite/sardegna/cagliari/bastione_saint_remy', function () {
             return Inertia::render('Sardegna/Visite/Bastione_Saint_Remy');
         })->middleware(['auth', 'verified'])->name('bastione_saint_remy');
@@ -1361,6 +1359,8 @@ Route::get('/le_piu_belle_passeggiate_lungo_i_ru_della_valle_d_aosta', function 
         Route::get('/mare/sardegna/cagliari/spiaggia_del_poetto ', function () {
             return Inertia::render('Mare/Spiaggia_del_Poetto');
         })->middleware(['auth', 'verified'])->name('spiaggia_del_poetto ');
+    /*Fine Cagliari*/
+/*Fine Sardegna*/
     
 
 
