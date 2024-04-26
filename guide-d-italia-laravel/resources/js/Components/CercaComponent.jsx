@@ -1,38 +1,53 @@
-import React, {useState} from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from '@inertiajs/react';
+
+const apiUrl = 'http://localhost:3000/';
 
 export default function CercaComponent() {
 
     const [isHoveredContattami, setIsHoveredContattami] = useState(false);
-
     const [query, setQuery] = useState('');
     const [searchResults, setSearchResults] = useState([]);
     const [error, setError] = useState(null);
+    const [searched, setSearched] = useState(false); // Nuovo stato per tenere traccia se la ricerca è stata eseguita
   
+    useEffect(() => {
+      getAllSearch();
+    }, []);
+  
+    const getAllSearch = () => {
+      fetch(apiUrl + 'search', {
+        method: "GET"
+      })
+      .then(response => response.json())
+      .then(data => {
+        setSearchResults(data);
+        setError('');
+      })
+      .catch(err => {
+        console.log(err);
+        setError('Si è verificato un errore durante il recupero dei dati.');
+      });
+    }
+
     const handleChange = (event) => {
       setQuery(event.target.value);
     };
-  
+
     const handleSubmit = (event) => {
       event.preventDefault();
-      
-      // Esegui qui la logica per la ricerca
-      fetch(`https://api.example.com/search?q=${query}`)
-        .then(response => {
-          if (!response.ok) {
-            throw new Error('Errore durante la ricerca');
-          }
-          return response.json();
-        })
-        .then(data => {
-          setSearchResults(data.results); // Aggiorna lo stato con i risultati della ricerca
-          setError(null); // Resetta eventuali errori precedenti
-        })
-        .catch(error => {
-          console.error('Si è verificato un errore durante la ricerca:', error);
-          setSearchResults([]); // Resetta i risultati della ricerca
-          setError('Si è verificato un errore durante la ricerca');
-        });
+      // Esegui la ricerca solo se è stata inserita una query
+      if (query.trim() !== '') {
+        // Filtra i risultati in base alla query
+        const filteredResults = searchResults.filter(result =>
+          result.title.toLowerCase().includes(query.toLowerCase())
+        );
+        setSearchResults(filteredResults);
+        setError('');
+        setSearched(true); // Imposta searched a true dopo aver eseguito la ricerca
+      } else {
+        setError('Inserisci un termine di ricerca valido.');
+      }
     };
 
   return (
@@ -61,20 +76,24 @@ export default function CercaComponent() {
       </div>
       {/* Qui aggiungi il codice per mostrare i risultati della ricerca e gestire gli errori */}
       {error && <div className="alert alert-danger" role="alert">{error}</div>}
-      {searchResults.length > 0 ? (
-        <div>
-          <h4>Risultati della ricerca</h4>
-          <ul>
-            {searchResults.map((result, index) => (
-              <li key={index}>
-                <Link href={result.url} className='text-decoration-none color_link'>{result.title}</Link>
-                <p className="m-0 text-secondary">{result.date}</p>
-              </li>
-            ))}
-          </ul>
-        </div>
-      ) : (
-        <p>Nessun risultato trovato.</p>
+      {/* Visualizza i risultati solo se la ricerca è stata eseguita */}
+      {searched && (
+        <>
+          {searchResults.length > 0 ? (
+            <div>
+              <h4>Risultati della ricerca</h4>
+              <ul>
+                {searchResults.map((result, index) => (
+                  <li key={index}>
+                    <Link href={result.url} className='text-decoration-none color_link'>{result.title}</Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ) : (
+            <p>Nessun risultato trovato.</p>
+          )}
+        </>
       )}
 
       <div className='d-flex justify-content-center'>
