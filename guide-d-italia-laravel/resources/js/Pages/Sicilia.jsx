@@ -97,7 +97,7 @@ export default function Sicilia(props) {
                         <CardBody className='bottone'>
                         <Link 
                             className="bottone_link" 
-                            href='/destinazioni/Sicilia/siracusa'
+                            href='/destinazioni/sicilia/siracusa'
                             onMouseEnter={() => setIsHoveredSiracusa(true)}
                             onMouseLeave={() => setIsHoveredSiracusa(false)}
                             >Siracusa {isHoveredSiracusa && <i className="bi bi-chevron-right"></i>}

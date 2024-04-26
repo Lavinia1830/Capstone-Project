@@ -3,7 +3,7 @@ import { Link, Head } from '@inertiajs/react';
 export default function Welcome() {
     return (
         <>
-
+            <Head title="Welcome" />
             <div className="login-page">
                 {/* Aggiungi qui il tuo codice per lo sfondo o altri elementi della pagina */}
                 <div className="login-form">

@@ -62,15 +62,54 @@ hr{
 
 
 
-/*Inizio Comune*/
-    .color_link{
-        color: #BDC667;
-    }
-    .color_link:hover{
-        text-decoration: underline !important;
-        color: #000 !important;
-    }
-/*Fine Comune*/
+/*Inizio in comune*/
+  .color_link{
+      color: #BDC667;
+  }
+  .color_link:hover{
+      text-decoration: underline !important;
+      color: #000 !important;
+  }
+  .color-title{
+    color: #56282d !important;
+  }
+  .color-subtitle{
+    color: #544343 !important;
+  }
+  .bottone{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+  }
+  .bottone_link{
+    font-size: 1em;
+    color: #fff;
+    text-decoration: none;
+    line-height: 1.7em;
+    border: 2px solid;
+    padding: 0.3em 1em;
+    border-radius: 3px;
+  }
+  .bottone_link:hover{
+    color: #fff !important;
+  }
+  .lista{
+    list-style-type: disc;
+  }
+  .categorie{
+    background-color: #fff;
+    width: 200px;
+    text-align: center;
+    border-radius: 5px;
+  }
+/*Fine in comune*/
 
 /*Inizio AuthenticatedLayout*/
   .bg-navbar{
@@ -80,277 +119,950 @@ hr{
   .link{
     text-decoration: none !important;
   }
-    
 /*Fine AuthenticatedLayout*/
 
+/*Inizio Footer*/
+  .bg-footer{
+    background-color: #25612C;
+  }
+/*Fine Footer*/
+
 /*Inizio Valle d'Aosta*/
-  .color-title{
-    color: #56282d !important;
-  }
-  .color-subtitle{
-    color: #544343 !important;
-  }
   .valle_d_aosta{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Chiesa_di_Sant_Orso_Valle_d_Aosta.jpg') center/cover no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Valle_d_Aosta.jpg') center/cover no-repeat;
     padding: 250px 0;
   }
-  .valle_d_aosta h1, 
-  .aosta h1, 
-  .castello_fenis h1, 
-  .forte_di_bard h1, 
-  .s_r_gallie h1, 
-  .ponte_romano_pont_saint_martin h1, 
-  .fiera_sorso_aosta h1, 
-  .museo_del_tesoro_aosta h1,
-  .musei_aosta h1,
-  .castello_gamba_img h1{
+  .valle_d_aosta h1{
     color: #fff;
     margin: 0 !important;
   }
-  /*Inizio Card Valle d'Aosta*/
     .card_Valle_d_Aosta{
       display: flex;
     }
     .card_Valle_d_Aosta:nth-child(1){ 
-      background: url('../assets/Valle_d_Aosta/Teatro_Romano_Valle_d_Aosta.jpg') center/cover no-repeat;
+      background: url('../assets/Valle_d_Aosta/Aosta_Valle_d_Aosta.jpg') center/cover no-repeat;
       /* width: 30%; */
       height: 400px;
     }
     .card_Valle_d_Aosta:nth-child(2){ 
-      background: url('../assets/Valle_d_Aosta/Castello_di_Fenis_Valle_d_Aosta.jpg') center/cover no-repeat;
+      background: url('../assets/Valle_d_Aosta/Courmayeur_Valle_d_Aosta.jpg') center/cover no-repeat;
+      /* width: 30%; */
       height: 400px;
     }
     .card_Valle_d_Aosta:nth-child(3){ 
-      background: url('../assets/Valle_d_Aosta/Forte-di-Bard_Valle_d_Aosta.jpg') center/cover no-repeat;
+      background: url('../assets/Valle_d_Aosta/Cervinia_valtournanche_Valle_d_Aosta.jpg') center/cover no-repeat;
       /* width: 30%; */
       height: 400px;
     }
     .card_Valle_d_Aosta:nth-child(4){ 
-      background: url('../assets/Valle_d_Aosta/Antagnod_Vallw_d_Aosta.jpg') center/cover no-repeat;
+      background: url('../assets/Valle_d_Aosta/Champoluc_Valle_d_Aosta.jpg') center/cover no-repeat;
       /* width: 30%; */
       height: 400px;
     }
     .card_Valle_d_Aosta:nth-child(5){ 
-      background: url('../assets/Valle_d_Aosta/Fiera_di_Sant_Orso_Valle_d_Aosta.jpg') center/cover no-repeat;
-      /* width: 100%; */
+      background: url('../assets/Valle_d_Aosta/Valpelline_Valle_d_Aosta.jpg') center/cover no-repeat;
+      /* width: 30%; */
       height: 400px;
     }
-    .bottone{
-      width: 100%;
-      background-color: rgba(0, 0, 0, 0.5);
-      padding-top: 20px !important;
-      padding-bottom: 20px !important;
-      margin-top: 0 !important;
-      margin-bottom: 0 !important;
-      display: flex;
-      justify-content: center;
-      position: absolute;
-      bottom: 0;
+    .card_Valle_d_Aosta:nth-child(6){ 
+      background: url('../assets/Valle_d_Aosta/Cogne_Valle_d_Aosta.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
     }
-    .bottone_link{
-      font-size: 1em;
-      color: #fff;
-      text-decoration: none;
-      line-height: 1.7em;
-      border: 2px solid;
-      padding: 0.3em 1em;
-      border-radius: 3px;
-    }
-    .bottone_link:hover{
-      color: #fff !important;
-    }
-  /*Fine Card Valle d'Aosta
-  /*Inizio Castello dei Fenis*/
-    .castello_fenis{
-      background: url('../assets/Valle_d_Aosta/Castello_di_Fenis_Valle_d_Aosta.jpg') center/cover no-repeat;
-      padding: 250px 0;
-    }
-    .v-guidate{
-      border-bottom: 10px solid #626d58;
-    }
-    .bordo-superiore{
-      box-shadow: inset 0px 47px 18px -32px rgba(0,0,0,0.3);;
-    }
-  /*Fine Castello dei Fenis*/
   /*Inizio Aosta*/
     .aosta{
-      background: url('../assets/Valle_d_Aosta/Teatro_Romano_Valle_d_Aosta.jpg') center/cover no-repeat;
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Aosta_Valle_d_Aosta.jpg') center/cover no-repeat;
       padding: 250px 0;
     }
-    .container-categorie{
-      position: absolute;
-      bottom: 0; /* Posiziona il contenitore delle categorie in basso */
+    .aosta h1{
+      color: #fff;
+      margin: 0 !important;
     }
-    .categorie{
-      background-color: #fff;
-      width: 200px;
-      text-align: center;
-      border-radius: 5px;
+    .card_Aosta{
+      display: flex;
     }
-    .lista{
-      list-style-type: disc;
+    .card_Aosta:nth-child(1){ 
+      background: url('../assets/Valle_d_Aosta/Forte_di_bard_Aosta_Valle_d_Aosta.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
     }
+    .card_Aosta:nth-child(2){ 
+      background: url('../assets/Valle_d_Aosta/Arco_di_augusto_Aosta_Valle_d_Aosta.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Aosta:nth-child(3){ 
+      background: url('../assets/Valle_d_Aosta/Via_francigena_Aosta_Valle_d_Aosta.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Aosta:nth-child(4){ 
+      background: url('../assets/Valle_d_Aosta/Parco_nazionale_del_gran_paradiso_Aosta_Valle_d_Aosta.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Aosta:nth-child(5){ 
+      background: url('../assets/Valle_d_Aosta/Torre_di_bramafam_Aosta_Valle_d_Aosta.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Aosta:nth-child(6){ 
+      background: url('../assets/Valle_d_Aosta/Chiesa_paleocristiana_di_san_lorenzo_Aosta_Valle_d_Aosta.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Aosta:nth-child(7){ 
+      background: url('../assets/Valle_d_Aosta/Monumenti_romani_ad_Aosta_Valle_d_Aosta.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Aosta:nth-child(8){ 
+      background: url('../assets/Valle_d_Aosta/Porta_praetoria_Aosta_Valle_d_Aosta.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Aosta:nth-child(9){ 
+      background: url('../assets/Valle_d_Aosta/Piazza_émile_chanoux_Aosta_Valle_d_Aosta.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Aosta:nth-child(10){ 
+      background: url('../assets/Valle_d_Aosta/Cattedrale_di_Aosta_Valle_d_Aosta.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Aosta:nth-child(11){ 
+      background: url('../assets/Valle_d_Aosta/Castello_di_aymavilles_Valle_d_Aosta.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Aosta:nth-child(12){ 
+      background: url('../assets/Valle_d_Aosta/Castello_reale_di_sarre_Valle_d_Aosta.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    /*Inizio Forte di Bard*/
+      .forte_di_bard{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Forte_di_bard_Aosta_Valle_d_Aosta.jpg') center/cover no-repeat;
+        padding: 250px 0;  
+      }
+      .forte_di_bard h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Forte di Bard*/
+    /*Inizio Arco di Augusto*/
+      .arco_di_augusto{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Arco_di_augusto_Aosta_Valle_d_Aosta.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .arco_di_augusto h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Arco di Augusto*/
+    /*Inizio Via Francigena*/
+      .via_francigena{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Via_francigena_Aosta_Valle_d_Aosta.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .via_francigena h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Via Francigena*/
+    /*Inizio Parco Nazionale del Gran Paradiso*/
+      .parco_nazionale_del_gran_paradiso{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Parco_nazionale_del_gran_paradiso_Aosta_Valle_d_Aosta.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .parco_nazionale_del_gran_paradiso h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Parco Nazionale del Gran Paradiso*/
+    /*Inizio Castelli Medievali*/
+      .castelli_medievali{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Castello_di_fenis_shutterstock_Aosta_Valle_d_Aosta.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .castelli_medievali h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+      .card_Castelli_Medievali{
+        display: flex;
+      }
+      .card_Castel_Savoia:nth-child(1){
+        background: url('../assets/Valle_d_Aosta/Castel_savoia_Valle_d_Aosta.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Castello_di_Issogne:nth-child(1){
+        background: url('../assets/Valle_d_Aosta/Castello_di_issogne_Valle_d_Aosta.jpg') center/cover no-repeat;
+        /* width: 100%; */
+        height: 400px;
+      }
+      .card_Castello_di_Verrès:nth-child(1){
+        background: url('../assets/Valle_d_Aosta/Castello_di_verrès_Valle_d_Aosta.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Castello_di_Ussel:nth-child(1){
+        background: url('../assets/Valle_d_Aosta/Castello_di_ussel_Valle_d_Aosta.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Castello_di_Cly:nth-child(1){
+        background: url('../assets/Valle_d_Aosta/Castello_di_cly_Valle_d_Aosta.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Castello_di_Fénis:nth-child(1){
+        background: url('../assets/Valle_d_Aosta/Castello_di_fénis_Valle_d_Aosta.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Forte_di_Bard:nth-child(1){
+        background: url('../assets/Valle_d_Aosta/Forte_di_bard_Aosta_Valle_d_Aosta.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Castello_Reale_di_Sarre:nth-child(1){
+        background: url('../assets/Valle_d_Aosta/Castello_reale_di_sarre_Valle_d_Aosta.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Castello_di_Aymavilles:nth-child(1){
+        background: url('../assets/Valle_d_Aosta/Castello_di_aymavilles_Valle_d_Aosta.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Castello_Sarriod_de_la_Tour:nth-child(1){
+        background: url('../assets/Valle_d_Aosta/Castello_sarriod_de_la_tour_Valle_d_Aosta.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      /*Inizio Castel Savoia*/
+        .castel_savoia{
+          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Castel_savoia_Valle_d_Aosta.jpg') center/cover no-repeat;
+          padding: 250px 0;
+        }
+        .castel_savoia h1{
+          color: #fff;
+          margin: 0 !important;
+        }
+      /*Fine Castel Savoia*/
+      /*Inizio Castello di Issogne*/
+        .castello_di_issogne{
+          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Castello_di_issogne_Valle_d_Aosta.jpg') center/cover no-repeat;
+          padding: 250px 0;
+        }
+        .castello_di_issogne h1{
+          color: #fff;
+          margin: 0 !important;
+        }
+      /*Fine Castello di Issogne*/
+      /*Inizio Castello di Verrés*/
+        .castello_di_verres{
+          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Castello_di_verrès_Valle_d_Aosta.jpg') center/cover no-repeat;
+          padding: 250px 0;
+        }
+        .castello_di_verres h1{
+          color: #fff;
+          margin: 0 !important;
+        }
+      /*Fine Castello di Verrés*/
+      /*Inizio Castello di Ussel*/
+        .castello_di_ussel{
+          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Castello_di_ussel_Valle_d_Aosta.jpg') center/cover no-repeat;
+          padding: 250px 0;
+        }
+        .castello_di_ussel h1{
+          color: #fff;
+          margin: 0 !important;
+        }
+      /*Fine Castello di Ussel*/
+      /*Inizio Castello di Cły*/
+        .castello_di_cly{
+          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Castello_di_cly_Valle_d_Aosta.jpg') center/cover no-repeat;
+          padding: 250px 0;
+        }
+        .castello_di_cly h1{
+          color: #fff;
+          margin: 0 !important;
+        }
+      /*Fine Castello di Cły*/
+      /*Inizio Castello di Fénis*/
+        .castello_di_fénis{
+          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Castello_di_fénis_Valle_d_Aosta.jpg') center/cover no-repeat;
+          padding: 250px 0;
+        }
+        .castello_di_fénis h1{
+          color: #fff;
+          margin: 0 !important;
+        }
+      /*Fine Castello di Fénis*/
+      /*Inizio Castello Reale di Sarre*/
+        .castello_reale_di_sarre{
+          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Castello_reale_di_sarre_Valle_d_Aosta.jpg') center/cover no-repeat;
+          padding: 250px 0;
+        }
+        .castello_reale_di_sarre h1{
+          color: #fff;
+          margin: 0 !important;
+        }
+      /*Fine Castello Reale di Sarre*/
+      /*Inizio Castello Aymavilles*/
+        .castello_di_aymavilles{
+          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Castello_di_aymavilles_Valle_d_Aosta.jpg') center/cover no-repeat;
+          padding: 250px 0;
+        }
+        .castello_di_aymavilles h1{
+          color: #fff;
+          margin: 0 !important;
+        }
+      /*Fine Castello Aymavilles*/
+      /*Inizio Castello Sarriod de la Tour*/
+        .castello_sarriod_de_la_tour{
+          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Castello_sarriod_de_la_tour_Valle_d_Aosta.jpg') center/cover no-repeat;
+          padding: 250px 0;
+        }
+        .castello_sarriod_de_la_tour h1{
+          color: #fff;
+          margin: 0 !important;
+        }
+      /*Fine Castello Sarriod de la Tour*/
+    /*Fine Castelli Medievali*/
+    /*Inizio Torre di Bramafam*/
+      .torre_di_bramafam{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Torre_di_bramafam_Aosta_Valle_d_Aosta.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .torre_di_bramafam h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Torre di Bramafam*/
+    /*Inizio Chiesa Paleocristiana di San Lorenzo*/
+      .chiesa_paleocristiana_di_san_lorenzo{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Chiesa_paleocristiana_di_san_lorenzo_Aosta_Valle_d_Aosta.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .chiesa_paleocristiana_di_san_lorenzo h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Chiesa Paleocristiana di San Lorenzo*/
+    /*Inizio Monumenti Romani ad Aosta*/
+      .monumenti_romani_ad_aosta{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Monumenti_romani_ad_Aosta_Valle_d_Aosta.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .monumenti_romani_ad_aosta h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Monumenti Romani ad Aosta*/
+    /*Inizio Ponte Romano*/
+      .ponte_romano{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Ponte_romano_Aosta_Valle_d_Aosta.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .ponte_romano h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Ponte Romano*/
+    /*Inizio Porta Praetoria*/
+      .porta_praetoria{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Porta_praetoria_Aosta_Valle_d_Aosta.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .porta_praetoria h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Porta Praetoria*/
+    /*Inizio Teatro Romano*/
+      .teatro_romano_aosta{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Teatro_romano_Aosta_Valle_d_Aosta.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .teatro_romano_aosta h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Teatro Romano*/
+    /*Inizio Criptoportico Forense*/
+      .criptoportico_forense{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Criptoportico_forense_Aosta_Valle_d_Aosta.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .criptoportico_forense h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Criptoportico Forense*/
+    /*Inizio Aosta Romana*/
+      .aosta_romana{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Aosta_romana_Valle_d_Aosta.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .aosta_romana h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Aosta Romana*/
+    /*Inizio Museo Archeologico Regionale*/
+      .museo_archeologico_regionale{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Museo_archeologico_regionale_Aosta_Valle_d_Aosta.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .museo_archeologico_regionale h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Museo Archeologico Regionale*/
+    /*Inizio Piazza Chanoux*/
+      .piazza_chanoux{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Piazza_émile_chanoux_Aosta_Valle_d_Aosta.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .piazza_chanoux h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Piazza Chanoux*/
+    /*Inizio Cattedrale di Aosta*/
+      .cattedrale_di_aosta{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Cattedrale_di_Aosta_Valle_d_Aosta.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .cattedrale_di_aosta h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Cattedrale di Aosta*/
+    /*Inzio Eventi ad Valle d'Aosta*/
+      /*Inizio Eventi Aosta*/
+        .fiera_di_sant_orso{
+          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Fiera_di_sant_orso_Aosta_Valle_d_Aosta.jpg') center/cover no-repeat;
+          padding: 250px 0;
+        }
+        .fiera_di_sant_orso h1{
+          color: #fff;
+          margin: 0 !important;
+        }
+      /*Fine Eventi Aosta*/
+    /*Fine Eventi ad Valle d'Aosta*/
   /*Fine Aosta*/
-  /*Inizio Forte di Bard*/
-    .forte_di_bard{
-      background: url('../assets/Valle_d_Aosta/Forte-di-Bard_Valle_d_Aosta.jpg') center/cover no-repeat;
+  /*Inzio Courmayeur*/
+    .courmayeur{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Courmayeur_Valle_d_Aosta.jpg') top/cover  no-repeat;
       padding: 250px 0;
     }
-  /*Fine Forte di Bard*/
-  /*Inizio Luoghi vititati*/
-    .my-card {
-      border: 1px solid rgba(0, 0, 0, 0.2);
-      margin-bottom: 10px;
-      border-radius: 6px;
-      padding: 3px;
-      width: 450px !important;
+    .courmayeur h1{
+      color: #fff;
+      margin: 0 !important;
     }
-  /*Fine Luoghi visitati*/
-  /*Inizio Località Turichiste*/
-    .l_turistiche{
-      background: url('../assets/Valle_d_Aosta/Borghi_e_localita_turistiche_Valle_d_Aosta.jpg') center/cover no-repeat;
+    .card_Courmayeur_Montagna:nth-child(1){ 
+      background: url('../assets/Valle_d_Aosta/Courmayeur_Montagna_Valle_d_Aosta.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Val_Ferret:nth-child(1){ 
+      background: url('../assets/Valle_d_Aosta/Val_ferret_Valle_d_Aosta.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Courmayeur:nth-child(1){ 
+      background: url('../assets/Valle_d_Aosta/Monte_bianco_Valle_d_Aosta.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Courmayeur:nth-child(2){ 
+      background: url('../assets/Valle_d_Aosta/Skyway_monte_bianco_Valle_d_Asota.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    /*Inizio Monte Bianco*/
+      .monte_bianco{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Monte_bianco_Valle_d_Aosta.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .monte_bianco h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Monte Bianco*/
+    /*Inzio Chiesa dei Santi Pantaleone e Valantino*/
+      .chiesa_dei_santi_pantaleone_e_valentino{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Chiesa_dei_santi_pantaleone_e_valantino_Courmayeur_Valle_d_Aosta.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .chiesa_dei_santi_pantaleone_e_valentino h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Chiesa dei Santi Pantaleone e Valantino*/
+    /*Inizio Museo Duca degli Abruzzi*/
+      .museo_duca_degli_abruzzi{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Museo_duca_degli_abruzzi_Courmayeur_Valle_d_Aosta.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .museo_duca_degli_abruzzi h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Museo Duca degli Abruzzi*/
+    /*Inzio Festa della Badoche*/
+      .festa_della_badoche{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Festa_della_badoche_Courmayeur_Valle_d_Aosta.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .festa_della_badoche h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Festa della Badoche*/
+    /*Inizio Courmayeur Montagna*/
+      .courmayeur_montagna{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Courmayeur_Montagna_Valle_d_Aosta.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .courmayeur_montagna h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+      /*Inizio Val Ferret*/
+        .val_ferret{
+          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Val_ferret_Valle_d_Aosta.jpg') center/cover no-repeat;
+          padding: 250px 0;
+        }
+        .val_ferret h1{
+          color: #fff;
+          margin: 0 !important;
+        }
+      /*Fine Val Ferret*/
+      /*Inizio Funivia Skyway Monte Bianco*/
+        .funivia_skyway_monte_bianco{
+          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Funivia_skyway _monte_bianco_Courmayeur_Valle_d_Aosta.jpg') center/cover no-repeat;
+          padding: 250px 0;
+        }
+        .funivia_skyway_monte_bianco h1{
+          color: #fff;
+          margin: 0 !important;
+        }
+        .card_Funivia_Skyway_MB:nth-child(1){
+          background: url('../assets/Valle_d_Aosta/Courmayeur_Montagna_Valle_d_Aosta.jpg') center/cover no-repeat;
+          /* width: 30%; */
+          height: 400px;
+        }
+        .card_Funivia_Skyway_MB:nth-child(2){
+          background: url('../assets/Valle_d_Aosta/Monte_bianco_Valle_d_Aosta.jpg') center/cover no-repeat;
+          /* width: 30%; */
+          height: 400px;
+        }
+        .card_Funivia_Skyway_MB_Aosta:nth-child(1){
+          background: url('../assets/Valle_d_Aosta/Aosta_Valle_d_Aosta.jpg') center/cover no-repeat;
+          /* width: 30%; */
+          height: 400px;
+        }
+      /*Fine Funivia Skyway Monte Bianco*/
+      /*Inizio Monte Rosa*/
+        .monte_rosa{
+          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Monte_rosa_Courmayeur_Valle_d_Aosta.jpg') center/cover no-repeat;
+          padding: 250px 0;
+        }
+        .monte_rosa h1{
+          color: #fff;
+          margin: 0 !important;
+        }
+      /*Fine Monte Rosa*/
+    /*Fine Courmayeur Montagna*/
+  /*Fine Courmayeur*/
+  /*Inizio Cervinia Valtournanche*/
+    .cervinia_valtournanche{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Cervinia_valtournanche_Valle_d_Aosta.jpg') center/cover no-repeat;
       padding: 250px 0;
     }
-  /*Fine Località Turichiste*/
-  /*Inizio Blog*/
-    .carta_l_turistiche, .carta_terrirorio, .carta_castelli, .carta_gite, .carta_musei{
-      border-radius: 1em !important;
-      width: 300px !important;
+    .cervinia_valtournanche h1{
+      color: #fff;
+      margin: 0 !important;
     }
-    .carta{
-      border-radius: 1em !important;
-      width: 300px !important;
-      height: 600px !important;
+    .card_Cervinia_Valtournenche{
+      display: flex;
     }
-    
-    .image-hovered {
-      opacity: 0.5; /* Opacità dell'immagine */
-      transition: opacity 0.8s ease;
+    .card_Cervinia_Valtournenche:nth-child(1){
+      background: url('../assets/Valle_d_Aosta/Lago_blu_Cervinia_Valtournanche_Valle_d_Aosta.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
     }
-    .img_card{
-      border-top-right-radius: 1em !important;
-      border-top-left-radius: 1em !important;
+    .card_Cervinia_Valtournenche:nth-child(2){
+      background: url('../assets/Valle_d_Aosta/Marmitte_dei_giganti_Cervinia_Valtournanche.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
     }
-    .title-card{
-      color: #56282d !important; 
+    .card_Cervinia_Valtournenche:nth-child(3){
+      background: url('../assets/Valle_d_Aosta/Grotte_delle_busserailles_Cervinia_Valtournanche_Valle_d_Aosta.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
     }
-    .btn-card{
-      border: 1px solid #77966d !important;
-      background-color: #77966d !important;
-    }
-    .link-card{
-      color: #fff !important;
-    }
-  /*Fine Blog*/
-  /*Inizio Territorio*/
-    .territorio{
-      background: url('../assets/Valle_d_Aosta/Valle_del_cervino_Valle_d_Aosta.jpg') center/cover no-repeat;
+    /*Inizio Lago Blu*/
+      .lago_blu{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Lago_blu_Cervinia_Valtournanche_Valle_d_Aosta.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .lago_blu h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Lago Blu*/
+    /*Inizio Marmitte dei Giganti*/
+      .marmitte_dei_giganti{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Marmitte_dei_giganti_Cervinia_Valtournanche.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .marmitte_dei_giganti h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Marmitte dei Giganti*/
+    /*Inizio Grotte delle Busserailles*/
+      .grotte_delle_busserailles{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Grotte_delle_busserailles_Cervinia_Valtournanche_Valle_d_Aosta.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .grotte_delle_busserailles h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Grotte delle Busserailles*/
+    /*Inizio Monte Cervino*/
+      .monte_cervino{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Monte_cervino_Valle_d_Aosta.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .monte_cervino h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Monte Cervino*/
+    /*Inizio Lago di Goillet*/
+      .lago_di_goillet{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Lago_di_goillet_Valle_d_Aosta.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .lago_di_goillet h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Lago di Goillet*/
+  /*Fine Cervinia Valtournanche*/
+  /*Inizio Enogastronomia*/
+    /*Inizio Specialità Tipiche Valdostane*/
+      .specialità_tipiche_valdostane{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Specialità_tipiche_valdostane_Valle_d_Aosta.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .specialità_tipiche_valdostane h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+      .card-Specitalità_Tipiche_Valdostane{
+        display: flex;
+      }
+      .card_Specitalità_Tipiche_Valdostane:nth-child(1){
+        background: url('../assets/Valle_d_Aosta/Aosta_Valle_d_Aosta.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Specitalità_Tipiche_Valdostane:nth-child(2){
+        background: url('../assets/Valle_d_Aosta/Courmayeur_Valle_d_Aosta.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Specitalità_Tipiche_Valdostane:nth-child(3){
+        background: url('../assets/Valle_d_Aosta/Monte_bianco_Valle_d_Aosta.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+    /*Fine Specialità Tipiche Valdostane*/
+    /*Inizio Prodotti Tipici Valdostani*/
+      .prodotti_tipici_valdostani{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Prodotti_tipici_valdostani_Valle_d_Aosta.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .prodotti_tipici_valdostani h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Prodotti Tipici Valdostani*/
+    /*Inizio Grappa Valdostana*/
+      .grappa_valdostana{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Grappa_valdostana_Valle_d_Aosta.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .grappa_valdostana h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+      .card_Grappa_Valdostana{
+        display: flex;
+      }
+      .card_Grappa_Valdostana:nth-child(1){
+        background: url('../assets/Valle_d_Aosta/Aosta_Valle_d_Aosta.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+    /*Fine Grappa Valdostana*/
+  /*Fine Enogastronomia*/
+  /*Inizio Champoluc*/
+    .champoluc{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Champoluc_Valle_d_Aosta.jpg') center/cover no-repeat;
       padding: 250px 0;
     }
-  /*Fine Territorio*/
-  /*Inizio Ponte Romano Aosta*/
-    .s_r_gallie{
-      background: url('../assets/Valle_d_Aosta/Strada_romana_delle_gallie_Valle_d_Aosta.jpg') center/cover no-repeat;
+    .champoluc h1{
+      color: #fff;
+      margin: 0 !important;
+    }
+    .card_Champoluc{
+      display: flex;
+    }
+    .card_Champoluc:nth-child(1){
+      background: url('../assets/Valle_d_Aosta/La_chiesa_parrocciale_di_san_martino_Champoluc_Valle_d_Aosta.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Champoluc:nth-child(2){
+      background: url('../assets/Valle_d_Aosta/La_mostra_permanente_dell_artigianato_tipico_Champoluc_Valle_d_Aosta.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Champoluc:nth-child(3){
+      background: url('../assets/Valle_d_Aosta/Santuario_notre_dame_du_bon_secours_Champoluc_Valle_d_Aosta.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    } 
+    /*Inizio La Chiesa Parrocciale di San Martino*/
+      .la_chiesa_parrocchiale_di_san_martino{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/La_chiesa_parrocciale_di_san_martino_Champoluc_Valle_d_Aosta.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .la_chiesa_parrocchiale_di_san_martino h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine La Chiesa Parrocciale di San Martino*/
+    /*Inizio La mostra permanente dell'artigianato tipico*/
+      .la_mostra_permanente_dell_artigianato_tipico{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/La_mostra_permanente_dell_artigianato_tipico_Champoluc_Valle_d_Aosta.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .la_mostra_permanente_dell_artigianato_tipico h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine La mostra permanente dell'artigianato tipico*/
+    /*Inizio Santuario Notre Dame du Bon Secours*/
+      .il_santuario_notre_dame_du_bon_secours{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Santuario_notre_dame_du_bon_secours_Champoluc_Valle_d_Aosta.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .il_santuario_notre_dame_du_bon_secours h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Santuario Notre Dame du Bon Secours*/
+  /*Fine Champoluc*/
+  /*Inizio festa delle Guide Apine*/
+    .festa_delle_guide_alpine{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Festa_delle_guide_alpine_Champoluc_Valle_d_Aosta.jpg') center/cover no-repeat;
       padding: 250px 0;
     }
-  /*Fine Ponte Romano Aosta*/
-  /*Inizio Cosa vedere ad Aosta in un giorno*/
-
-    .wp-caption{
-      text-align: center;
-      background-color: #544343;
-      max-width: 96%;
-      padding: 8px;
+    .festa_delle_guide_alpine h1{
+      color: #fff;
+      margin: 0 !important;
     }
-    .wp-caption p{
-      padding: 1em 0;
-    }
-    .alignleft{
-      float: left;
-    }
-    .alignright{
-      float: right;
-    }
-    .bottone_link_contattaci{
-      font-size: 1em;
-      color: #77966d;
-      text-decoration: none;
-      line-height: 1.7em;
-      border: 2px solid #77966d;
-      padding: 0.3em 1em;
-      border-radius: 3px;
-    }
-    .bottone_link_contattaci:hover{
-      color: #77966d;
-      background-color:  #bdc667 !important;
-      border: 2px solid #bdc667;
-    }
-    .row{
-      --bs-gutter-x: 0 !important;
-    }
-  /*Fine Cosa vedere ad Aosta in un giorno*/
-  /*Inizio Ponte Romano Pont Saint Martin*/
-    .ponte_romano_pont_saint_martin{
-      background: url('../assets/Valle_d_Aosta/Ponte_romano_di_pont_saint_martin_Valle_d_Aosta.jpg') center/cover no-repeat;
+  /*Fine festa delle Guide Alpine*/
+  /*Inizio Fioccolata dei Maestri di Scii*/
+    .fioccolata_dei_maestri_di_scii{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Fioccolata_dei_maestri_di_scii_Champoluc_Valle_d_Aosta.jpg') center/cover no-repeat;
       padding: 250px 0;
     }
-  /*Fine Ponte Romano Pont Saint Martin*/
-  /*Inizio Fiera di SantOrso Aosta*/
-    .fiera_sorso_aosta{
-      background: url('../assets/Valle_d_Aosta/Fiera_di_Sant_Orso_Valle_d_Aosta.jpg') center/cover no-repeat;
+    .fioccolata_dei_maestri_di_scii h1{
+      color: #fff;
+      margin: 0 !important;
+    }
+  /*Fine Fioccolata dei Maestri di Scii*/
+  /*Inizia Valpelline*/
+    .valpelline{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Valpelline_Valle_d_Aosta.jpg') center/cover no-repeat;
       padding: 250px 0;
     }
-  /*Fine Fiera di SantOrso Aosta*/
-  /*Inizio Museo del Tesoro ad Aosta*/
-  .museo_del_tesoro_aosta{
-    background: url('../assets/Valle_d_Aosta/Museo_del_tesoro_Valle_d_Aosta.jpg') center/cover no-repeat;
-    padding: 250px 0;
-  }
-  /*Fine Museo del Tesoro ad Aosta*/
-  /*Inizio Musei Aosta*/
-    .musei_aosta{
-      background: url('../assets/Valle_d_Aosta/Museo_alpino_duca_degli_abruzzi_Valle_d_Aosta.jpg') center/cover no-repeat;
+    .valpelline h1{
+      color: #fff;
+      margin: 0 !important;
+    }
+    .card_Valpelline{
+      display: flex;
+    }
+    .card_Valpelline:nth-child(1){
+      background: url('../assets/Valle_d_Aosta/Casaforte_la_tour_de_Valpelline_Valle_d_Aosta.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Valpelline:nth-child(2){
+      background: url('../assets/Valle_d_Aosta/La_tornalla_Valpelline_Valle_d_Aosta.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Valpelline:nth-child(3){
+      background: url('../assets/Valle_d_Aosta/Il_ponte_della_betenda_Valpelline_Valle_d_Aosta.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Valpelline:nth-child(4){
+      background: url('../assets/Valle_d_Aosta/La_porta_del_bouyoz_Valpelline_Valle_d_Aosta.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Valpelline:nth-child(5){
+      background: url('../assets/Valle_d_Aosta/Il_faggio_monumentale_di_voisinal_Valpelline_Valle_d_Aosta.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Valpelline:nth-child(6){
+      background: url('../assets/Valle_d_Aosta/La_brenva_foula_di_gorzé_Valpelline_Valle_d_Aosta.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    /*Inizio Maison la tour de Valpelline*/
+      .maison_la_tour_de_valpelline{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Casaforte_la_tour_de_Valpelline_Valle_d_Aosta.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .maison_la_tour_de_valpelline h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Maison la tour de Valpelline*/
+    /*Inizio La Tornella*/
+      .la_tornella{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/La_tornalla_Valpelline_Valle_d_Aosta.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .la_tornella h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine La Tornella*/
+    /*Inizio Il ponte della betenda*/
+      .il_ponte_della_betenda{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Il_ponte_della_betenda_Valpelline_Valle_d_Aosta.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .il_ponte_della_betenda h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Il ponte della betenda*/
+    /*Inizio La porta del bouyoz*/
+      .la_porta_del_bouyoz{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/La_porta_del_bouyoz_Valpelline_Valle_d_Aosta.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .la_porta_del_bouyoz h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine La porta del bouyoz*/
+    /*Inizio  il Faggio Monumentale di Voisinale*/
+      .il_faggio_monumentale_di_voisinal{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Il_faggio_monumentale_di_voisinal_Valpelline_Valle_d_Aosta.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .il_faggio_monumentale_di_voisinal h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine  il Faggio Monumentale di Voisinale*/
+    /*Inizio La Brenva Foula di Gorzé*/
+      .la_brenva_foula_di_gorzé{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/La_brenva_foula_di_gorzé_Valpelline_Valle_d_Aosta.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .la_brenva_foula_di_gorzé h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine La Brenva Foula di Gorzé*/
+  /*Fine Valpelline*/
+  /*Inizio Cogne*/
+    .cogne{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Cogne_Valle_d_Aosta.jpg') center/cover no-repeat;
       padding: 250px 0;
     }
-  /*Fine Musei Aosta*/
-  /*Inizio Castello Gamba*/
-    .castello_gamba_img{
-      background: url('../assets/Valle_d_Aosta/Castello_Gamba_Valle_d_Aosta.jpg') center/cover no-repeat;
-      padding: 250px 0;
+    .cogne h1{
+      color: #fff;
+      margin: 0 !important;
     }
-  /*Fine Castello Gamba*/
+    .card_Cogne{
+      display: flex;
+    }
+    .card_Cogne:nth-child(1){
+      background: url('../assets/Valle_d_Aosta/Chiesa_si_Sant_Orso_Cogne_Valle_d_Aosta.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Cogne:nth-child(2){
+      background: url('../assets/Valle_d_Aosta/Casa_dei_pizzi_Cogne_Valle_d_Aosta.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Cogne:nth-child(3){
+      background: url('../assets/Valle_d_Aosta/Torre_del_vescovo_Cogne_Valle_d_Aosta.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Cogne:nth-child(4){
+      background: url('../assets/Valle_d_Aosta/La_grandze_place_commune_Cogne_Valle_d_Aosta.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Cogne:nth-child(5){
+      background: url('../assets/Valle_d_Aosta/Prato_di_sant_orso_Cogne_Valle_d_Aosta.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Cogne:nth-child(6){
+      background: url('../assets/Valle_d_Aosta/Fontana_di_ferro_Cogne_Valle_d_Aosta.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Cogne:nth-child(7){
+      background: url('../assets/Valle_d_Aosta/Casa_dell_orologio_Cogne_Valle_d_Aosta.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Cogne:nth-child(8){
+      background: url('../assets/Valle_d_Aosta/Piazza_chanoux_Cogne_Valle_d_Aosta.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Cogne:nth-child(9){
+      background: url('../assets/Valle_d_Aosta/Maison_de_cogne_gerard_dayné_Valle_d_Aosta.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Cogne:nth-child(10){
+      background: url('../assets/Valle_d_Aosta/Atelier_d_arts_et_métiers_Cogne_Valle_d_Aosta.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+  /*Fine Cogne*/
 /*Fine Valle d'Aosta*/
-
-/* ImmagineComponent.css */
-
-.immagine-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-left: 1em;
-}
-
-.immagine {
-  max-width: 100%;
-  height: auto;
-  border: 1px solid #ccc;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.descrizione-immagine {
-  font-size: 14px;
-  color: #333;
-  margin-top: 10px;
-  margin-left: 1em;
-}
-
-/*Inizio Footer*/
-
-  .bg-footer{
-    background-color: #25612C;
-  }
-
-/*Fine Footer*/
 
 
 /*Inizio Piemonte*/
@@ -3729,6 +4441,172 @@ hr{
   /*Fine Palermo*/
 /*Fine Sicilia*/
 
+/*Inizio Sardegna*/
+  .sardegna{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Sardegna/Sardegna.jpg') center/cover no-repeat;
+    padding: 250px 0;
+  }
+  .sardegna h1{
+    color: #fff;
+    margin: 0 !important;
+  }
+  .card_Sardegna{
+    display: flex;
+  }
+  .card_Sardegna:nth-child(1){
+    background: url('../assets/Sardegna/Cagliari_Sardegna.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Sardegna:nth-child(2){
+    background: url('../assets/Sardegna/Alghero_Sardegna.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Sardegna:nth-child(3){
+    background: url('../assets/Sardegna/Olbia_Sardegna.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Sardegna:nth-child(4){
+    background: url('../assets/Sardegna/Sassari_Sardegna.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Sardegna:nth-child(5){
+    background: url('../assets/Sardegna/Oristano_Sardegna.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Sardegna:nth-child(6){
+    background: url('../assets/Sardegna/Porto_Cervo_Sardegna.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Sardegna:nth-child(7){
+    background: url('../assets/Sardegna/Costa_Smeralda_Sardegna.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  /*Inizio Cagliari*/
+    .cagliari{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Sardegna/Cagliari_Sardegna.jpg') center/cover no-repeat;
+      padding: 250px 0;
+    }
+    .cagliari h1{
+      color: #fff;
+      margin: 0 !important;
+    }
+    .card_Cagliari{
+      display: flex;
+    }
+    .card_Cagliari:nth-child(1){
+      background: url('../assets/Sardegna/Bastione_di_saint_remy_Cagliari_Sardegna.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Cagliari:nth-child(2){
+      background: url('../assets/Sardegna/Palazzo_Civico_Cagliari_Sardegna.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Cagliari:nth-child(3){
+      background: url('../assets/Sardegna/Duomo_di_Cagliari_Sardegna.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Cagliari:nth-child(4){
+      background: url('../assets/Sardegna/Torri_di_san_pancrazio_e_dell_elefante_Cagliari_Sardegna.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Cagliari:nth-child(5){
+      background: url('../assets/Sardegna/Parco_di_molentargius_e_saline_Cagliari_Sardegna.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Cagliari:nth-child(6){
+      background: url('../assets/Sardegna/Sella_del_diavolo_Cagliari_Sardegna.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Cagliari:nth-child(7){
+      background: url('../assets/Sardegna/Spiaggia_di_poetto_Cagliari_Sardegna.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    /*Inizio Bastione di Saint-Remy*/
+      .bastione_di_saint_remy{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Sardegna/Bastione_di_saint_remy_Cagliari_Sardegna.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .bastione_di_saint_remy h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Bastione di Saint-Remy*/
+    /*Inizio Palazzo Civico*/
+      .palazzo_civico{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Sardegna/Palazzo_Civico_Cagliari_Sardegna.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .palazzo_civico h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Palazzo Civico*/
+    /*Inizio Duomo di Cagliari*/
+      .duomo_di_cagliari{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Sardegna/Duomo_di_Cagliari_Sardegna.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .duomo_di_cagliari h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Duomo di Cagliari*/
+    /*Inizio Torri di San Pancrazio e Dell'Elefante*/
+      .torri_di_san_pancrazio_e_dell_elefante{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Sardegna/Torri_di_san_pancrazio_e_dell_elefante_Cagliari_Sardegna.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .torri_di_san_pancrazio_e_dell_elefante h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Torri di San Pancrazio e Dell'Elefante*/
+    /*Inizio Parco di Molentargius e Saline*/
+      .parco_di_molentargius_e_saline{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Sardegna/Parco_di_molentargius_e_saline_Cagliari_Sardegna.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .parco_di_molentargius_e_saline h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Parco di Molentargius e Saline*/
+    /*Inizio Sella del Diavolo*/
+      .sella_del_diavolo{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Sardegna/Sella_del_diavolo_Cagliari_Sardegna.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .sella_del_diavolo h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Sella del Diavolo*/
+    /*Inizio Spiaggia di Poetto*/
+      .spiaggia_di_poetto{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Sardegna/Spiaggia_di_poetto_Cagliari_Sardegna.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .spiaggia_di_poetto h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Spiaggia di Poetto*/
+  /*Fine Cagliari*/
+/*Fine Sardegna*/
 
 
 
