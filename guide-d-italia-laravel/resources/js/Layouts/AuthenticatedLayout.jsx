@@ -105,7 +105,6 @@ export default function Authenticated({ auth, header, children }) {
                                 
                             </div>
                         </div>
-
                         <div className="hidden lg:flex lg:items-center lg:ml-6">
                             <div className="ml-3 relative">
                                 <Dropdown>
