@@ -1,7 +1,7 @@
 import React from 'react';
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout';
 import Footer from '@/Components/Footer';
-import { Head } from '@inertiajs/inertia-react';
+import { Head } from '@inertiajs/react';
 
 export default function Chiesa_dei_Santi_Pantaleone_e_Valentino(props) {
     return (

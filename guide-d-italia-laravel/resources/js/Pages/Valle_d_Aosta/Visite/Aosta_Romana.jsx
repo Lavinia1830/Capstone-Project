@@ -1,7 +1,7 @@
 import React from 'react';
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout';
 import Footer from '@/Components/Footer';
-import { Link, Head } from '@inertiajs/inertia-react';
+import { Link, Head } from '@inertiajs/react';
 
 export default function Aosta_Romana(props) {
     return (

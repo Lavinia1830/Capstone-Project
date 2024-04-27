@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout';
 import Footer from '@/Components/Footer';
-import { Link, Head } from '@inertiajs/inertia-react';
+import { Link, Head } from '@inertiajs/react';
 import {Card, CardBody} from 'react-bootstrap';
 
 export default function Cervinia_Valtournanche(props) {

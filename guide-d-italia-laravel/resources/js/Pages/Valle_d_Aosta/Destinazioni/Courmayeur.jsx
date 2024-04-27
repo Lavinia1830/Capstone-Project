@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout';
 import Footer from '@/Components/Footer';
 import {Card, CardBody, Image} from 'react-bootstrap';
-import { Link, Head } from '@inertiajs/inertia-react';
+import { Link, Head } from '@inertiajs/react';
 import Courmayeur_Piste from '../../../../assets/Valle_d_Aosta/Courmayeur_Piste_Valle_d_Aosta.jpg';
 
 export default function Courmayeur(props) {
