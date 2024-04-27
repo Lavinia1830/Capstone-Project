@@ -32,7 +32,7 @@ export default function Courmayeur(props) {
                         alla fine del ‘600 come stazione termale per le virtù delle sue acque minerali, conferma in ogni momento dell’anno la sua lunga tradizione di ospitalità, con strutture ricettive di prim’ordine e un’offerta molteplice di sport praticabili nelle sue valli Ferret e Veny, 
                         sullo sfondo di scenari impagabili. Amata da escursionisti e appassionati di montagna tanto d’inverno che d’estate, è conosciuta come la più famosa e antica stazione alpina italiana; se ne trova testimonianza negli storici cimeli della Casa delle Guide, sede 
                         del <Link href='/visite/valle_d_aosta/courmayeur/musei_duca_degli_abruzzi' className='text-decoration-none color_link'>Museo Duca degli Abruzzi</Link>. Custode della sua antica vocazione di comunità agricola è la <Link 
-                        href='/valle_d_aosta/eventi/courmayeur/festa_della_badoche' className='text-decoration-none color_link'>festa della Badoche</Link>, folcloristica manifestazione legata ai riti di maggio, che oggi condivide le celebrazioni del santo patrono in tutti i comuni della 
+                        href='/eventi/valle_d_aosta/courmayeur/festa_della_badoche' className='text-decoration-none color_link'>festa della Badoche</Link>, folcloristica manifestazione legata ai riti di maggio, che oggi condivide le celebrazioni del santo patrono in tutti i comuni della 
                         Valdigne.
                     </p>
                 </div>

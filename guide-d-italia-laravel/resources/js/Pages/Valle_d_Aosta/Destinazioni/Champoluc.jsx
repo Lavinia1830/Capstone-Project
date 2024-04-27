@@ -58,13 +58,13 @@ export default function Champoluc(props) {
                     <ul className="lista">
                         <li>
                             <p>
-                                <Link href='/valle_d_aosta/eventi/champoluc/festa_delle_guide_alpine' className='text-decoration-none color_link'>Festa delle Guide Alpine</Link>: ogni estate, il 15 agosto, le guide alpine valdostane organizzano, in varie località della Valle d’Aosta, sfilate in divisa di 
+                                <Link href='/eventi/valle_d_aosta/champoluc/festa_delle_guide_alpine' className='text-decoration-none color_link'>Festa delle Guide Alpine</Link>: ogni estate, il 15 agosto, le guide alpine valdostane organizzano, in varie località della Valle d’Aosta, sfilate in divisa di 
                                 rappresentanza e dimostrazioni delle discipline della montagna.
                             </p>
                         </li>
                         <li>
                             <p>
-                                <Link href='/valle_d_aosta/eventi/courmayeur/fiaccolata_dei_maestri_di_scii' className='text-decoration-none color_link'>Fiaccolata dei maestri di sci</Link>: tradizionale appuntamento di fine anno con le fiaccolate dei maestri di sci, che illuminano con le loro spettacolari 
+                                <Link href='/eventi/valle_d_aosta/champoluc/fiaccolata_dei_maestri_di_scii' className='text-decoration-none color_link'>Fiaccolata dei maestri di sci</Link>: tradizionale appuntamento di fine anno con le fiaccolate dei maestri di sci, che illuminano con le loro spettacolari 
                                 scie i pendii delle piste del Crest.
                             </p>
                         </li>

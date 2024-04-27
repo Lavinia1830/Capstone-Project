@@ -97,7 +97,7 @@ export default function Aosta(props) {
                             Oltre a perdersi tra le sue montagne, la natura incontaminata e le tante testimonianze storiche, la città offre tantissime attrattive per tutta la famiglia. 3 sono i suggerimenti per chi vuole vivere una vacanza piena:
                         </p>
                         <p>
-                            La <Link href='/valle_d_aosta/eventi/aosta/fiera_di_sant_orso' className='text-decoration-none color_link'>Fiera di Sant’Orso</Link>, che si tiene il 30 e il 31 di gennaio, è un evento che vede artisti e artigiani valdostani esporre sculture e intagli su legno, oggetti in 
+                            La <Link href='/eventi/valle_d_aosta/aosta/fiera_di_sant_orso' className='text-decoration-none color_link'>Fiera di Sant’Orso</Link>, che si tiene il 30 e il 31 di gennaio, è un evento che vede artisti e artigiani valdostani esporre sculture e intagli su legno, oggetti in 
                             ferro e in cuoio e tanto altro.
                         </p>
                         <p>
