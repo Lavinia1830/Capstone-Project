@@ -1,7 +1,7 @@
 import React from 'react';
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout';
 import Footer from '@/Components/Footer';
-import { Head } from '@inertiajs/react';
+import { Head } from '@inertiajs/inertia-react';
 
 export default function Fontana_di_Ferro(props) {
     return (
