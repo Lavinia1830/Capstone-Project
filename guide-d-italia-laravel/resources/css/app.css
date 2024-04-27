@@ -1012,7 +1012,7 @@ hr{
       display: flex;
     }
     .card_Cogne:nth-child(1){
-      background: url('../assets/Valle_d_Aosta/Chiesa_si_Sant_Orso_Cogne_Valle_d_Aosta.jpg') center/cover no-repeat;
+      background: url('../assets/Valle_d_Aosta/Chiesa_di_Sant_Orso_Cogne_Valle_d_Aosta.jpg') center/cover no-repeat;
       /* width: 30%; */
       height: 400px;
     }
@@ -1061,6 +1061,105 @@ hr{
       /* width: 30%; */
       height: 400px;
     }
+    /*Inizio Chiesa di Sant'Orso*/
+      .chiesa_di_sant_orso{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Chiesa_di_Sant_Orso_Cogne_Valle_d_Aosta.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .chiesa_di_sant_orso h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Chiesa di Sant'Orso*/
+    /*Inizio Casa dei Pizzi*/
+      .casa_dei_pizzi{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Casa_dei_pizzi_Cogne_Valle_d_Aosta.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .casa_dei_pizzi h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Casa dei Pizzi*/
+    /*Inizio Torre del Vescovo*/
+      .torre_del_vescovo{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Casa_dei_pizzi_Cogne_Valle_d_Aosta.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .torre_del_vescovo h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Torre del Vescovo*/
+    /*Inizio La Grandeze Plaze Commune*/
+      .la_grandze_plaze_commune{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/La_grandze_place_commune_Cogne_Valle_d_Aosta.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .la_grandze_plaze_commune h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine La Grandeze Plaze Commune*/
+    /*Inizio Prato di Sant'Orso*/
+      .prato_di_sant_orso{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Prato_di_sant_orso_Cogne_Valle_d_Aosta.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .prato_di_sant_orso h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Prato di Sant'Orso*/
+    /*Inizio Fontana dei Ferro*/
+      .fontana_di_ferro{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Fontana_di_ferro_Cogne_Valle_d_Aosta.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .fontana_di_ferro{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Fontana dei Ferro*/
+    /*Inizio Casa dell'Orologio*/
+      .casa_dell_orologio{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Casa_dell_orologio_Cogne_Valle_d_Aosta.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .casa_dell_orologio h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Casa dell'Orologio*/
+    /*Inizio Piazza Chanoux Cogne*/
+      .piazza_chanoux_cogne{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Piazza_chanoux_Cogne_Valle_d_Aosta.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .piazza_chanoux_cogne h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Piazza Chanoux Cogne*/
+    /*Inizio Maison de Cogne Gerard Dayné*/
+      .maison_de_cogne_gerard_dayné{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Maison_de_cogne_gerard_dayné_Valle_d_Aosta.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .maison_de_cogne_gerard_dayné h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Maison de Cogne Gerard Dayné*/
+    /*Inizio Atelier d'arts et Métiers*/
+      .atelier_d_arts_et_métiers{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Atelier_d_arts_et_métiers_Cogne_Valle_d_Aosta.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .atelier_d_arts_et_métiers h1{
+        color: #fff;
+        margin: 0 !important;
+      }
   /*Fine Cogne*/
 /*Fine Valle d'Aosta*/
 
