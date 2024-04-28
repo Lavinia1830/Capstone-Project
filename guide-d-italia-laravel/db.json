@@ -1,6 +1,21 @@
 {
     "search": [
         {
+            "id": "",
+            "title": "Piemonte",
+            "url": "http://127.0.0.1:8000/piemonte"
+        },
+        {
+            "id": "",
+            "title": "Torino",
+            "url": "http://127.0.0.1:8000/destinazioni/piemonte/torino"
+        },
+        {
+            "id": "18",
+            "title": "Valle d'Aosta",
+            "url": "http://127.0.0.1:8000/valle_d_aosta"
+        },
+        {
             "id": "19",
             "title": "Aosta",
             "url": "http://127.0.0.1:8000/destinazioni/valle_d_aosta/aosta"
