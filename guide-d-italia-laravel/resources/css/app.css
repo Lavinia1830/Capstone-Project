@@ -39,7 +39,8 @@ hr{
   }
 
   .btn-registrati,
-  .btn-accedi{
+  .btn-accedi,
+  .btn-card{
     display: inline;
     padding: 10px 20px;
     border: none;
@@ -51,7 +52,7 @@ hr{
     transition: background-color 1s ease !important;
     transition: color 1s ease !important;
   }
-  .btn-registrati:hover, .btn-accedi:hover{
+  .btn-registrati:hover, .btn-accedi:hover, .btn-card:hover{
     background-color: #77966d !important;
   }
 
