@@ -405,6 +405,14 @@ Route::get('/home', function () {
             return Inertia::render('Piemonte/Visite/Palazzo_Madama');
         })->middleware(['auth', 'verified'])->name('palazzo_madama');
 
+        /*Inizio Palazzo Madama*/
+
+            Route::get('/visite/piemonte/torino/palazzo_madama/giardino_botanico_medievale', function () {
+                return Inertia::render('Piemonte/Visite/Palazzo_Madama/Il_Giardino_Botanico_Medievale');
+            })->middleware(['auth', 'verified'])->name('palazzo_madama');
+        
+        /*Fine Palazzo Madama*/
+
         Route::get('/visite/piemonte/torino/duomo_di_san_giovanni', function () {
             return Inertia::render('Piemonte/Visite/Duomo_di_San_Giovanni');
         })->middleware(['auth', 'verified'])->name('duomo_di_san_giovanni');
@@ -417,21 +425,54 @@ Route::get('/home', function () {
             return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale');
         })->middleware(['auth', 'verified'])->name('reggia_di_venaria_reale');
 
-        Route::get('/visite/torino/reggia_di_venaria_reale/la_reggia', function () {
-            return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/La_Reggia');
-        })->middleware(['auth', 'verified'])->name('la_reggia');
+        /*Inizio Reggia di Venaria Reale*/
 
-        Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/la_reggia/mappa_interattiva', function () {
-            return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Mappa_interattiva');
-        })->middleware(['auth', 'verified'])->name('mappa_interattiva');
+            Route::get('/visite/torino/reggia_di_venaria_reale/la_reggia', function () {
+                return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/La_Reggia');
+            })->middleware(['auth', 'verified'])->name('la_reggia');
 
-        Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/la_reggia/breve_storia', function () {
-            return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Breve_Storia');
-        })->middleware(['auth', 'verified'])->name('breve_storia');
+            /*Inizio La Reggia*/
 
-        Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/la_reggia/percorso_espositivo', function () {
-            return Inertia::render('Piemonte/Visite/Torino/Reggia_di_Venaria_Reale/Percorso_Espositivo');
-        })->middleware(['auth', 'verified'])->name('breve_storia');
+                Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/la_reggia/mappa_interattiva', function () {
+                    return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Mappa_interattiva');
+                })->middleware(['auth', 'verified'])->name('mappa_interattiva');
+
+                Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/la_reggia/breve_storia', function () {
+                    return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Breve_Storia');
+                })->middleware(['auth', 'verified'])->name('breve_storia');
+
+                Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/la_reggia/percorso_espositivo', function () {
+                    return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Percorso_Espositivo');
+                })->middleware(['auth', 'verified'])->name('percorso_espositivo');
+
+                /*Inizio I Capolavori*/
+
+                    Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/i_capolavori/sala_di_diana', function () {
+                        return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Sala_di_Diana');
+                    })->middleware(['auth', 'verified'])->name('sala_di_diana');
+
+                    Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/i_capolavori/galleria_grande', function () {
+                        return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Galleria_Grande');
+                    })->middleware(['auth', 'verified'])->name('galleria_grande');
+
+                    Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/i_capolavori/cappella_di_sant_uberto', function () {
+                        return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Cappella_di_Sant_Uberto');
+                    })->middleware(['auth', 'verified'])->name('cappella_di_sant_uberto');
+
+                    Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/i_capolavori/scuderie_juvarriane', function () {
+                        return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Scuderie_Juvarriane');
+                    })->middleware(['auth', 'verified'])->name('scuderie_juvarriane');
+                
+                /*Fine I Capolavori*/
+
+                Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/la_sacrestia_rinnovata', function () {
+                    return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/La_Sacrestia_Rinnovata');
+                })->middleware(['auth', 'verified'])->name('la_sacrestia_rinnovata');
+
+            /*Fine La Reggia*/
+        /*Fine Reggia di Venaria Reale*/
+
+        
 
         Route::get('/visite/piemonte/torino/monte_dei_cappuccini', function () {
             return Inertia::render('Piemonte/Visite/Torino/Monte_dei_Cappuccini');
