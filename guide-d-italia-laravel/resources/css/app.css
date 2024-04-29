@@ -1408,16 +1408,44 @@ hr{
         color: #fff;
         margin: 0 !important;
       }
-      .card-overlay-content{
-        position: absolute;
-        bottom: 0;
-        margin-bottom: 1em;
+      .card_Palazzo_Madama{
+        display: flex;
       }
-      .current{
-        display: 'flex'; 
-        justify-content: 'center'; 
-        align-items: 'center'; 
+      .card_Palazzo_Madama:nth-child(1){ 
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Piano_Fossato_Palazzo_Madama_Torino_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
       }
+      .card_Palazzo_Madama:nth-child(2){ 
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Piano_terra_Sala_Staffarda_Palazzo_Madama_Torino_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Palazzo_Madama:nth-child(3){ 
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Piano_Primo_Camera_di_Madama_Reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Palazzo_Madama:nth-child(4){ 
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Piano_Secondo_Arte_decorative_palazzo_Madama_Torino_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Palazzo_Madama:nth-child(5){ 
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Il_giardino_del_Castello_Palazzo_Madama_Torino_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      /*Inizio Il Giardino Botanico Medievale*/
+        .il_giardino_botanico_medievale{
+          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Il_giardino_del_Castello_Palazzo_Madama_Torino_Piemonte.jpg') center/cover no-repeat;
+          padding: 250px 0;
+        }
+        .il_giardino_botanico_medievale h1{
+          color: #fff;
+          margin: 0 !important;
+        }
+      /*Fine Il Giardino Botanico Medievale*/
     /*Fine Palazzo Madama*/
     /*Inizio Duomo di San Giovanni*/
       .duomo_di_san_giovanni{
@@ -1459,6 +1487,66 @@ hr{
         margin: 0 !important;
       }
     /*Fine La reggia*/
+    /*Inizio Percorso Espositivo*/
+      .percorso_espositivo{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Percorso_Espositivo_La_Reggia_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .percorso_espositivo h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Percorso Esportivo*/
+    /*Inizio Sala di Diana*/
+      .sala_di_diana{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Sala_di_diana_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .sala_di_diana h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Sala di Diana*/
+    /*Inizio Galleria Grande*/
+      .galleria_grande{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Galleria_grande_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .galleria_grande h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Galleria Grande*/
+    /*Inizio Cappella di Sant'Uberto*/
+      .cappella_di_sant_uberto{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Cappella_di_sant_uberto_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .cappella_di_sant_uberto h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Cappella di Sant'Uberto*/
+    /*Inizio La Sacrestia Rinnovata*/
+      .la_sacrestia_rinnovata{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/La_sacrestia_rinnovata_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .la_sacrestia_rinnovata h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine La Sacrestia Rinnovata*/
+    /*Inizio Scuderia Juvarriane*/
+      .scuderia_juvarriane{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Scuderie_juvarriane_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .scuderia_juvarriane h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Scuderia Juvarriane*/
     /*Inizio Breve storia*/
       .breve_storia, .mappa_interattiva{
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Reggia_Interno_Torino_Piemonte.jpg') center/cover no-repeat;

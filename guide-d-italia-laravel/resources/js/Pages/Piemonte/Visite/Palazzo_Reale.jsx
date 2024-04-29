@@ -9,17 +9,6 @@ import Footer from '@/Components/Footer';
 
 export default function Palazzo_Reale(props) {
 
-    const [isHoveredImagePRARCS, setIsHoveredPRARCS] = useState(false);
-    const [isHoveredImageVisisitaArcheologica, setIsHoveredVisisitaArcheologica] = useState(false);
-    const [isHoveredImageCapolavoriPittura, setIsHoveredCapolavoriPittura] = useState(false);
-    const [isHoveredImageVisitaCompleta, setIsHoveredVisitaCompleta] = useState(false);
-    const [isHoveredImageVisitaGiardini, setIsHoveredVisitaGiardini] = useState(false);
-
-    
-
-
-
-
     return (
         <>
             <Head title="Palazzo Reale"/>
@@ -55,11 +44,9 @@ export default function Palazzo_Reale(props) {
                 <div className='margin mt-3'>
                     <h3 className='color-subtitle text-center'>Percorsi Consigliati</h3>
                     <div className='d-flex justify-content-center flex-wrap'>
-                        <Card className='me-2 mb-2 carta-percorsi'
-                            onMouseEnter={() => setIsHoveredPRARCS(true)}
-                            onMouseLeave={() => setIsHoveredPRARCS(false)}>
+                        <Card className='me-2 mb-2 carta-percorsi'>
                             <Link href="/visite/piemonte/torino/palazzo_reale/palazzo_reale_armeria_reale_e_cappella_della_sindone" className='text-decoration-none'>
-                                <h2 className={`color-title p-3 ${isHoveredImagePRARCS ? 'image-hovered' : 'image-normal'}`}>Palazzo reale, armeria reale e cappella della sindone</h2>
+                                <h2 className='color-title p-3'>Palazzo reale, armeria reale e cappella della sindone</h2>
                                 <Card.Body>
                                     <Card.Text className='mb-5 text-dark'>
                                     <p>
@@ -71,11 +58,9 @@ export default function Palazzo_Reale(props) {
                                 </Card.Body>
                             </Link>
                         </Card>
-                        <Card className='me-2 mb-2 carta-percorsi'
-                            onMouseEnter={() => setIsHoveredVisisitaArcheologica(true)}
-                            onMouseLeave={() => setIsHoveredVisisitaArcheologica(false)}>
+                        <Card className='me-2 mb-2 carta-percorsi'>
                             <Link href="/visite/piemonte/torino/palazzo_reale/visita_archeologica" className='text-decoration-none'>
-                                <h2 className={`color-title p-3 ${isHoveredImageVisisitaArcheologica ? 'image-hovered' : 'image-normal'}`}>Visita Archeologica</h2>
+                                <h2 className='color-title p-3'>Visita Archeologica</h2>
                                 <Card.Body>
                                     <Card.Text className='mb-5 text-dark'>
                                         Un percorso attraverso le diverse sezioni del Museo di Antichità, divenuto nei secoli tra i più ricchi d'Europa. <br/>
@@ -86,11 +71,9 @@ export default function Palazzo_Reale(props) {
                                 </Card.Body>
                             </Link>
                         </Card>
-                        <Card className='me-2 mb-2 carta-percorsi'
-                            onMouseEnter={() => setIsHoveredCapolavoriPittura(true)}
-                            onMouseLeave={() => setIsHoveredCapolavoriPittura(false)}>
+                        <Card className='me-2 mb-2 carta-percorsi'>
                             <Link href="/visite/piemonte/torino/palazzo_reale/capolavori_della_pittura" className='text-decoration-none'>
-                                <h2 className={`color-title p-3 ${isHoveredImageCapolavoriPittura ? 'image-hovered' : 'image-normal'}`}>Capolavori della Pittura</h2>
+                                <h2 className='color-title p-3'>Capolavori della Pittura</h2>
                                 <Card.Body>
                                     <Card.Text className='mb-5 text-dark'>
                                         Con il naso all’insù attraverso le diverse sezioni dei Musei Reali si potranno ammirare i soffitti lignei di Palazzo Reale con le tele seicentesche del fiammingo Jan Miel, la volta della Galleria del Daniel e quella 
@@ -101,11 +84,9 @@ export default function Palazzo_Reale(props) {
                                 </Card.Body>
                             </Link>
                         </Card>
-                        <Card className='me-2 mb-2 carta-percorsi'
-                            onMouseEnter={() => setIsHoveredVisitaCompleta(true)}
-                            onMouseLeave={() => setIsHoveredVisitaCompleta(false)}>
+                        <Card className='me-2 mb-2 carta-percorsi'>
                             <Link href="/visite/piemonte/torino/palazzo_reale/visita_completa" className='text-decoration-none'>
-                                <h2 className={`color-title p-3 ${isHoveredImageVisitaCompleta ? 'image-hovered' : 'image-normal'}`}>Visita Completa</h2>
+                                <h2 className='color-title p-3'>Visita Completa</h2>
                                 <Card.Body>
                                     <Card.Text className='mb-5 text-dark'>
                                         Partenza dal Palazzo Reale, con le sale di rappresentanza del primo piano nobile, l’Armeria e la Cappella della Sindone. Da qui si procede attraverso il primo piano Galleria Sabauda, che espone oltre 500 opere delle 
@@ -116,11 +97,9 @@ export default function Palazzo_Reale(props) {
                                 </Card.Body>
                             </Link>
                         </Card>
-                        <Card className='me-2 mb-2 carta-percorsi'
-                            onMouseEnter={() => setIsHoveredVisitaGiardini(true)}
-                            onMouseLeave={() => setIsHoveredVisitaGiardini(false)}>
+                        <Card className='me-2 mb-2 carta-percorsi'>
                             <Link href="/visite/piemonte/torino/palazzo_reale/visita_ai_giardini" className='text-decoration-none'>
-                                <h2 className={`color-title p-3 ${isHoveredImageVisitaGiardini ? 'image-hovered' : 'image-normal'}`}>Visita ai Giardini</h2>
+                                <h2 className='color-title p-3'>Visita ai Giardini</h2>
                                 <Card.Body>
                                     <Card.Text className='mb-5 text-dark'>
                                         I Giardini Reali si estendono su una superficie di oltre sette ettari e sono liberamente accessibili. Il percorso comprende il Giardino Ducale, nucleo più antico di matrice cinquecentesca, il Boschetto e i Giardini 
@@ -131,10 +110,8 @@ export default function Palazzo_Reale(props) {
                                 </Card.Body>
                             </Link>
                         </Card>
-                        <Card className='me-2 mb-2 carta-percorsi'
-                            onMouseEnter={() => setIsHoveredVisitaGiardini(true)}
-                            onMouseLeave={() => setIsHoveredVisitaGiardini(false)}>
-                            <h2 className={`color-title p-3 ${isHoveredImageVisitaGiardini ? 'image-hovered' : 'image-normal'}`}>Palazzo Reale per i più piccoli</h2>
+                        <Card className='me-2 mb-2 carta-percorsi'>
+                            <h2 className='color-title p-3'>Palazzo Reale per i più piccoli</h2>
                             <Card.Body>
                                 <Card.Text className='mb-5 text-dark'>
                                     La visita a Palazzo Reale con i bambini inizia dallo Scalone d’Onore, dal quale si accede al grande Salone delle Guardie Svizzere. Attraversate le anticamere di rappresentanza ci si sofferma davanti al trono del re, 
@@ -144,10 +121,8 @@ export default function Palazzo_Reale(props) {
                                 </Card.Text> 
                             </Card.Body>
                         </Card>
-                        <Card className='me-2 mb-2 carta-percorsi'
-                            onMouseEnter={() => setIsHoveredVisitaGiardini(true)}
-                            onMouseLeave={() => setIsHoveredVisitaGiardini(false)}>
-                            <h2 className={`color-title p-3 ${isHoveredImageVisitaGiardini ? 'image-hovered' : 'image-normal'}`}>Galleria Sabauda per i più piccoli</h2>
+                        <Card className='me-2 mb-2 carta-percorsi'>
+                            <h2 className='color-title p-3'>Galleria Sabauda per i più piccoli</h2>
                             <Card.Body>
                                 <Card.Text className='mb-5 text-dark'>
                                     Attraversando le sale della Galleria Sabauda, i bambini e le bambine scopriranno tanti capolavori della pittura del passato, incontrando personaggi e storie raffigurate con una varietà di materiali, tecniche e stili 
@@ -157,10 +132,8 @@ export default function Palazzo_Reale(props) {
                                 </Card.Text> 
                             </Card.Body>
                         </Card>
-                        <Card className='me-2 mb-2 carta-percorsi'
-                            onMouseEnter={() => setIsHoveredVisitaGiardini(true)}
-                            onMouseLeave={() => setIsHoveredVisitaGiardini(false)}>
-                            <h2 className={`color-title p-3 ${isHoveredImageVisitaGiardini ? 'image-hovered' : 'image-normal'}`}>Il seicento a Palazzo Reale e nella Galleria Sabauda</h2>
+                        <Card className='me-2 mb-2 carta-percorsi'>
+                            <h2 className='color-title p-3'>Il seicento a Palazzo Reale e nella Galleria Sabauda</h2>
                             <Card.Body>
                                 <Card.Text className='mb-5 text-dark'>
                                     Comprende le sale di rappresentanza del piano nobile di Palazzo Reale, dove numerosi soffitti conservano l’originale decorazione barocca, tra questi ricordiamo le <b>Vittorie</b> della Sala dei Paggi, il <b>Trionfo 
@@ -172,10 +145,8 @@ export default function Palazzo_Reale(props) {
                                 </Card.Text> 
                             </Card.Body>
                         </Card>
-                        <Card className='me-2 mb-2 carta-percorsi'
-                            onMouseEnter={() => setIsHoveredVisitaGiardini(true)}
-                            onMouseLeave={() => setIsHoveredVisitaGiardini(false)}>
-                            <h2 className={`color-title p-3 ${isHoveredImageVisitaGiardini ? 'image-hovered' : 'image-normal'}`}>Scultura</h2>
+                        <Card className='me-2 mb-2 carta-percorsi'>
+                            <h2 className='color-title p-3'>Scultura</h2>
                             <Card.Body>
                                 <Card.Text className='mb-5 text-dark'>
                                     Alla base dello Scalone d’Onore di Palazzo Reale si trova la più antica scultura equestre della città di Torino dedicata a Vittorio Amedeo I. Lungo le sale di facciata del piano nobile si incontrano i camini scolpiti 
