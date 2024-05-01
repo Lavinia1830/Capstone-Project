@@ -42,7 +42,7 @@ export default function Scuderie_Juvarriane(props) {
                             Napoleone proveniente dalla Palazzina di Caccia di Stupinigi.
                         </p>
                         <p>
-                            Nella Scuderia Grande attualmente è ospitata <Link href='/visite/piemonte/torino/reggia_di_venaria_reale/la_regia_scuderia' className='text-decoration-none color_link'>La Regia Scuderia</Link>, un allestimento che comprende 
+                            Nella Scuderia Grande attualmente è ospitata <Link href='/visite/piemonte/torino/reggia_di_venaria_reale/la_regia_scuderia_il_bucintoro_e_le_carrozze_regali' className='text-decoration-none color_link'>La Regia Scuderia</Link>, un allestimento che comprende 
                             il Bucintoro dei Savoia e alcune carrozze di gala e portantine. L'allestimento si è arricchito, dal 2021, della <Link href='/visite/piemonte/torino/reggia_di_venaria_reale/la_carrozza_di_napoleone_alla_reggia_di_venaria' 
                             className='text-decoration-none color_link fst-italic'>Carrozza di Napoleone</Link> proveniente dalla Palazzina di Caccia di Stupinigi.
                         </p>
