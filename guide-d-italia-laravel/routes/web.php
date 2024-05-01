@@ -499,7 +499,7 @@ Route::get('/home', function () {
         
 
         Route::get('/visite/piemonte/torino/monte_dei_cappuccini', function () {
-            return Inertia::render('Piemonte/Visite/Torino/Monte_dei_Cappuccini');
+            return Inertia::render('Piemonte/Visite/Monte_dei_Cappuccini');
         })->middleware(['auth', 'verified'])->name('monte_dei_cappuccini');
 
         Route::get('/visite/piemonte/torino/piazza_san_carlo', function () {
