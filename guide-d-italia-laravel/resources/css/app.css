@@ -1547,6 +1547,46 @@ hr{
         margin: 0 !important;
       }
     /*Fine Scuderia Juvarriane*/
+    /*Inizio La Regia Scuderia Il Bucintoro e le Carrozze Regali*/
+      .la_regia_scuderia_il_bucintoro_e_le_carrozze_regali{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/La_regia_scuderia_il_bucintoro_e_le_carrozze_regali_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .la_regia_scuderia_il_bucintoro_e_le_carrozze_regali h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine La Regia Scuderia Il Bucintoro e le Carrozze Regali*/
+    /*Inizio La Carrozza di Napoleone alla Reggia di Venaria*/
+      .la_carrozza_di_napoleone_alla_reggia_di_venaria{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Carrozza_napoleone_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .la_carrozza_di_napoleone_alla_reggia_di_venaria h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine La Carrozza di Napoleone alla Reggia di Venaria*/
+    /*Inizio Ripopolare la Reggia di Peter Greenaway*/
+      .ripopolare_la_reggia_di_peter_greenaway{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Greenaway_processione_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .ripopolare_la_reggia_di_peter_greenaway h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Ripopolare la Reggia di Peter Greenaway*/
+    /*Inizio Esposizione del dipinto rastaurato di Palma il Giovane*/
+      .esposizione_del_dipinto_restaurato_di_palma_il_giovane{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Battaglia_lepanto_palma_il_giovane_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .esposizione_del_dipinto_rastaurato_di_palma_il_giovane h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Esposizione del dipinto rastaurato di Palma il Giovane*/
     /*Inizio Breve storia*/
       .breve_storia, .mappa_interattiva{
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Reggia_Interno_Torino_Piemonte.jpg') center/cover no-repeat;
