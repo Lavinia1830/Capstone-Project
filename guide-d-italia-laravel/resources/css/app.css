@@ -1587,6 +1587,86 @@ hr{
         margin: 0 !important;
       }
     /*Fine Esposizione del dipinto rastaurato di Palma il Giovane*/
+    /*Inizio Reggia - Giardini - Castello della Mandria*/
+      .reggia_giardini_castello_della_mandria{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Reggia_giardini_castello_mandria_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .reggia_giardini_castello_della_mandria h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Reggia - Giardini - Castello della Mandria*/
+    /*Inizio Ingressi Ridotti*/
+      .ingressi_ridotti{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Ingressi_ridotti_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .ingressi_ridotti h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Ingressi Ridotti*/
+    /*Ingressi Gratuiti*/
+      .ingressi_gratuiti{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Ingressi_gratuiti_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .ingressi_gratuiti h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Ingressi Gratuiti*/
+    /*Inizio Passaporto Culturale*/
+      .passaporto_culturale{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Passaporto_culturale_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .passaporto_culturale h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Passaporto Culturale*/
+    /*Inizio Gratuiti e Ridotti*/
+      .gratuiti_e_ridotti{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Galleria_grande_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .gratuiti_e_ridotti h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Gratuiti e Ridotti*/
+    /*Inizio Convenzioni*/
+      .convenzioni{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Convenzioni_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .convenzioni h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Convenzioni*/
+    /*Inizio Biglietterie*/
+      .biglietterie{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Biglietterie_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .biglietterie h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Biglietterie*/
+    /*Inizio Orari*/
+      .orari{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Orari_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .orari h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Orari*/
     /*Inizio Breve storia*/
       .breve_storia, .mappa_interattiva{
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Reggia_Interno_Torino_Piemonte.jpg') center/cover no-repeat;

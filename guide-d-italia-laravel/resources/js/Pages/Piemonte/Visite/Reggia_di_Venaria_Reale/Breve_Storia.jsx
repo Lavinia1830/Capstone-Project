@@ -19,7 +19,7 @@ export default function Breve_Storia(props) {
                         <p className='categorie' style={{ position: 'absolute', bottom: 10, left: 20 }}>Da vedere</p>
                     </div>
                     <div className="margin mt-3">
-                        <p className='fst-italic'>
+                        <p className='fst-italic text-center'>
                             La Venaria Reale è un grande “progetto culturale permanente” che offre opportunità di conoscenza ed emozioni.
                         </p>
                     </div>
