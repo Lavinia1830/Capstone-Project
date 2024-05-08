@@ -1667,6 +1667,16 @@ hr{
         margin: 0 !important;
       }
     /*Fine Orari*/
+    /*Inizio Prenotazioni*/
+      .prenotazioni{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Prenotazioni_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .prenotazioni h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Prenotazioni*/
     /*Inizio Breve storia*/
       .breve_storia, .mappa_interattiva{
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Reggia_Interno_Torino_Piemonte.jpg') center/cover no-repeat;

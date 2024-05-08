@@ -47,7 +47,7 @@ export default function Biglietterie(props) {
                             Per la vendita della <i>Torino+Piemonte Card</i> e della <i>Royal Card</i>, la biglietteria segue gli <Link href='/visite/piemonte/torino/reggia_di_venaria_reale/orari' className='text-decoration-none color_link'>orari di apertura della Reggia</Link>.
                         </p>
                     </div>
-                    <hr />
+                    <hr className='margin'/>
                     <div className="margin mt-3">
                         <h2 className="color-subtitle">Biglietteria Carlo Emanuele II (Patio dei Giardini)</h2>
                         <p>
@@ -68,7 +68,7 @@ export default function Biglietterie(props) {
                     </div>
                     <div className="margin my-3 d-flex justify-content-between">
                         <p className="btn-card">
-                            <Link href='/visite/piemonte/torino/reggia_di_venaria_reale/gratuiti_ridotti' className='text-decoration-none text-light'>Gratuiti e Ridotti</Link>
+                            <Link href='/visite/piemonte/torino/reggia_di_venaria_reale/gratuiti_e_ridotti' className='text-decoration-none text-light'>Gratuiti e Ridotti</Link>
                         </p>
                         <p className="btn-card">
                             <Link href='/visite/piemonte/torino/reggia_di_venaria_reale/impara_con_la_venaria_reale' className='text-decoration-none text-light'>Impara con La Venaria Reale</Link>

@@ -507,9 +507,9 @@ Route::get('/home', function () {
                 return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Passaporto_Culturale');
             })->middleware(['auth', 'verified'])->name('passaporto_culturale');
 
-            Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/gratuiti_ridotti', function () {
+            Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/gratuiti_e_ridotti', function () {
                 return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Gratuiti_e_Ridotti');
-            })->middleware(['auth', 'verified'])->name('gratuiti_ridotti');
+            })->middleware(['auth', 'verified'])->name('gratuiti_e_ridotti');
 
             Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/convenzioni', function () {
                 return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Convenzioni');
@@ -526,6 +526,11 @@ Route::get('/home', function () {
             Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/impara_con_la_venaria_reale', function () {
                 return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Impara_con_La_Venaria_Reale');
             })->middleware(['auth', 'verified'])->name('impara_con_la_venaria_reale');
+
+            Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/prenotazioni', function () {
+                return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Prenotazioni');
+            })->middleware(['auth', 'verified'])->name('prenotazioni');
+
 
             /*Fine La Reggia*/
         /*Fine Reggia di Venaria Reale*/
