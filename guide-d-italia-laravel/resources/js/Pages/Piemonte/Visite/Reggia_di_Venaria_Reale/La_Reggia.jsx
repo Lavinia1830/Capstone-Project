@@ -43,21 +43,21 @@ export default function La_Reggia(props) {
                         <CardBody>
                             <CardTitle className='text-center'>Mappa interattiva</CardTitle>
                             <CardText>Aspora la mappa e scopri i principali punti di interesse della Reggia</CardText>
-                            <Link href='/visite/torino/reggia_di_venaria_reale/la_reggia/mappa_interattiva' className='text-decoration-none color_link'>Scopri di più</Link>
+                            <Link href='/visite/piemonte/torino/reggia_di_venaria_reale/la_reggia/mappa_interattiva' className='text-decoration-none color_link'>Scopri di più</Link>
                         </CardBody>
                     </Card>
                     <Card style={{ width: '18rem' }}>
                         <CardBody>
                             <CardTitle className='text-center'>Breve Storia</CardTitle>
                             <CardText>Ripercorri la storia della Reggia e delle sue fasi costruttive</CardText>
-                            <Link href='/visite/torino/reggia_di_venaria_reale/la_reggia/breve_storia' className='text-decoration-none color_link'>Scopri di più</Link>
+                            <Link href='/visite/piemonte/torino/reggia_di_venaria_reale/la_reggia/breve_storia' className='text-decoration-none color_link'>Scopri di più</Link>
                         </CardBody>
                     </Card>
                     <Card style={{ width: '18rem' }}>
                         <CardBody>
                             <CardTitle className='text-center'>Percorso espositivo</CardTitle>
                             <CardText>Scopri Il Teatro di Storia e Magnificenza, il percorso espositivo della Reggia</CardText>
-                            <Link href='/visite/torino/reggia_di_venaria_reale/la_reggia/percorso_espositivo' className='text-decoration-none color_link'>Scopri di più</Link>
+                            <Link href='/visite/piemonte/torino/reggia_di_venaria_reale/la_reggia/percorso_espositivo' className='text-decoration-none color_link'>Scopri di più</Link>
                         </CardBody>
                     </Card>
                 </div>

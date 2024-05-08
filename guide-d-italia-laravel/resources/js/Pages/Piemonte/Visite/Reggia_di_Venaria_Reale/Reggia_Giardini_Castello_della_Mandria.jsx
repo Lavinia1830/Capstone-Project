@@ -12,7 +12,7 @@ export default function Reggia_Giardini_Castello_della_Mandria(props) {
                 errors={props.errors}
             >
                 <main>
-                    <div className='reggia_giardini_castello_mandria' style={{ position: 'relative' }}>
+                    <div className='reggia_giardini_castello_della_mandria' style={{ position: 'relative' }}>
                         <h1 className='text-center' style={{ position: 'absolute', top: 20, left: 20 }}>Reggia - Giardini - Castello della Mandria</h1>
                         <span className='text-light' style={{ position: 'absolute', bottom: 50, left: 20 }}>CATEGORIE</span>
                         <p className='categorie' style={{ position: 'absolute', bottom: 10, left: 20 }}>Da vedere</p>
@@ -34,7 +34,7 @@ export default function Reggia_Giardini_Castello_della_Mandria(props) {
                             <li>
                                 <p>
                                     Ridotto: <b>14 euro</b><br/>
-                                    <i>Gruppi accompagnati di min. 12, max. 25 persone, quanti previsti da <Link href='/visite/piemonte/torino/reggia_di_venaria_reale/prezzi/reggia_giardini_castello_mandria/ingressi_ridotti' 
+                                    <i>Gruppi accompagnati di min. 12, max. 25 persone, quanti previsti da <Link href='/visite/piemonte/torino/reggia_di_venaria_reale/ingressi_ridotti' 
                                     className='text-decoration-none color_link'>Ridotti</Link></i>
                                 </p>
                             </li>
@@ -54,8 +54,8 @@ export default function Reggia_Giardini_Castello_della_Mandria(props) {
                             <li>
                                 <b>Gratuito</b>
                                 <p>
-                                    <i>Minori di 6 anni e quanti previsti da</i> <Link href='/visite/piemonte/torino/reggia_di_venaria_reale/prezzi/gratuiti_ridotti' 
-                                    className='text-decoration-none color_link'>Gratuiti</Link> (compresi i Possessori del <b>Passaporto culturale</b> + 2 accompagnatori, fino al compimento del primo anno di età del bambino/a intestatario del Passaporto) 
+                                    <i>Minori di 6 anni e quanti previsti da</i> <Link href='/visite/piemonte/torino/reggia_di_venaria_reale/gratuiti_e_ridotti' 
+                                    className='text-decoration-none color_link fst-italic'>Gratuiti</Link> (compresi i Possessori del <b>Passaporto culturale</b> + 2 accompagnatori, fino al compimento del primo anno di età del bambino/a intestatario del Passaporto) 
                                 </p>
                             </li>
                         </ul>
@@ -63,8 +63,12 @@ export default function Reggia_Giardini_Castello_della_Mandria(props) {
                             È raccomandato prenotare e acquistare in anticipo, scegliendo giorno e ora, il proprio ingresso: 
                         </p>
                         <p>
-                            <a href='https://lavenaria.museitorino.it/' className='text-decoration-none color_link'>Acquista on line</a><br/>
-                            <Link href='/visite/piemonte/torino/reggia_di_venaria_reale/prenostazioni' className='text-decoration-none color_link'>Modalità di prenotazione per i <b>gruppi</b></Link><br/>
+                            <Link href='/visite/piemonte/torino/reggia_si_venaria_reale/acquista_online' className='text-decoration-none btn-card '>Acquista on line</Link>
+                        </p>
+                    </div>    
+                    <div className="margin mt-5">
+                        <p>
+                            <Link href='/visite/piemonte/torino/reggia_di_venaria_reale/prenotazioni' className='text-decoration-none color_link'>Modalità di prenotazione per i <b>gruppi</b></Link><br/>
                             <b>Diritti di prenotazione</b> sull’acquisto dei titoli d’accesso per i <b>gruppi</b>  (minimo 12, massimo 25 persone): 15 euro a gruppo - 7 euro a classe  
                         </p>
                     </div>
@@ -78,7 +82,7 @@ export default function Reggia_Giardini_Castello_della_Mandria(props) {
                             <li>
                                 <p>
                                     Ridotto: <b>4 euro</b><br/>
-                                    <i>Gruppi accompagnati di min. 12. max. 25 persone, quanti previsti da <Link href='/visite/piemonte/torino/reggia_di_venaria_reale/prezzi/reggia_giardini_castello_mandria/ingressi_ridotti' 
+                                    <i>Gruppi accompagnati di min. 12. max. 25 persone, quanti previsti da <Link href='/visite/piemonte/torino/reggia_di_venaria_reale/gratuiti_e_ridotti' 
                                     className='text-decoration-none color_link'>Ridotti</Link></i>
                                 </p>
                             </li>
@@ -98,7 +102,7 @@ export default function Reggia_Giardini_Castello_della_Mandria(props) {
                             <li>
                                 <b>Gratuito</b>
                                 <p>
-                                    Minori di 6 anni e quanti previsti da <Link href='/visite/piemonte/torino/reggia_di_venaria_reale/prezzi/gratuiti_ridotti' className='text-decoration-none color_link'>Gratuiti</Link> 
+                                    Minori di 6 anni e quanti previsti da <Link href='/visite/piemonte/torino/reggia_di_venaria_reale/gratuiti_e_ridotti' className='text-decoration-none color_link'>Gratuiti</Link> 
                                 </p>
                             </li>
                         </ul>
@@ -117,11 +121,15 @@ export default function Reggia_Giardini_Castello_della_Mandria(props) {
                             È raccomandato prenotare e acquistare in anticipo, scegliendo giorno e ora, il proprio ingresso:
                         </p>
                         <p>
-                            <a href='https://lavenaria.museitorino.it/' className='text-decoration-none color_link'>Acquista on line</a><br/>
-                            <Link href='/visite/piemonte/torino/reggia_di_venaria_reale/prenostazioni' className='text-decoration-none color_link'>Modalità di prenotazione per i <b>gruppi</b></Link><br/>
+                            <Link href='/visite/piemonte/torino/reggia_si_venaria_reale/acquista_online' className='text-decoration-none btn-card'>Acquista on line</Link>
+                        </p>
+                    </div>  
+                    <div className="margin mt-5">
+                        <p>
+                            <Link href='/visite/piemonte/torino/reggia_di_venaria_reale/prenotazioni' className='text-decoration-none color_link'>Modalità di prenotazione per i <b>gruppi</b></Link><br/>
                             <b>Diritti di prenotazione</b> sull’acquisto dei titoli d’accesso per i <b>gruppi</b> (minimo 12, massimo 25 persone): 15 euro a gruppo - 7 euro a classe  
                         </p>
-                    </div>
+                    </div> 
                     <hr />
                     <div className="margin mt-3">
                         <h2 className="color-subtitle">Castello della Mandria</h2>
@@ -137,7 +145,8 @@ export default function Reggia_Giardini_Castello_della_Mandria(props) {
                             <li>
                                 <p>
                                     Ridotto: <b>6 euro</b><br/>
-                                    <i>Gruppi accompagnati di min. 12, max. 25 persone, quanti previsti da <Link href='/visite/piemonte/torino/reggia_di_venaria_reale/prezzi/reggia_giardini_castello_mandria/ingressi_ridotti'>Ridotti</Link></i>
+                                    <i>Gruppi accompagnati di min. 12, max. 25 persone, quanti previsti da <Link href='/visite/piemonte/torino/reggia_di_venaria_reale/ingressi_ridotti' 
+                                    className='text-decoration-none color_link'>Ridotti</Link></i>
                                 </p>
                             </li>
                             <li>
@@ -156,7 +165,7 @@ export default function Reggia_Giardini_Castello_della_Mandria(props) {
                             <li>
                                 <p>
                                     <b>Gratuito</b><br/>
-                                    <i>Minori di 6 anni e quanti previsti da <Link href='/visite/piemonte/torino/reggia_di_venaria_reale/prezzi/gratuiti_ridotti' className='text-decoration-none color_link'>Gratuiti</Link></i>
+                                    <i>Minori di 6 anni e quanti previsti da <Link href='/visite/piemonte/torino/reggia_di_venaria_reale/ingressi_gratuiti' className='text-decoration-none color_link'>Gratuiti</Link></i>
                                 </p>
                             </li>
                         </ul>
@@ -167,15 +176,29 @@ export default function Reggia_Giardini_Castello_della_Mandria(props) {
                             È raccomandato prenotare e acquistare in anticipo, scegliendo giorno e ora, il proprio ingresso:
                         </p>
                         <p>
-                            <a href='https://lavenaria.museitorino.it/' className='text-decoration-none color_link'>Acquista on line</a><br/>
-                            <Link href='/visite/piemonte/torino/reggia_di_venaria_reale/prenostazioni' className='text-decoration-none color_link'>Modalità di prenotazione per i <b>gruppi</b></Link><br/>
+                            <Link href='/visite/piemonte/torino/reggia_si_venaria_reale/acquista_online' className='text-decoration-none btn-card '>Acquista on line</Link>
+                        </p>
+                        <p>
+                            <Link href='/visite/piemonte/torino/reggia_di_venaria_reale/prenotazioni' className='text-decoration-none color_link'>Modalità di prenotazione per i <b>gruppi</b></Link><br/>
                         </p>
                     </div>
                     <hr />
-                    <p>
-                        <b>Si consiglia di prenotare i biglietti on line.</b>
-                        <i>Per informazioni e prenotazioni: tel. + 39 011 4992333</i>
-                    </p>
+                    <div className='margin mt-3'>
+                        <p className='fw-bold'>
+                            Si consiglia di prenotare i biglietti on line.
+                        </p>
+                        <p className='fst-italic'>
+                            Per informazioni e prenotazioni: tel. + 39 011 4992333
+                        </p>
+                    </div>
+                    <div className="margin my-3 d-flex justify-content-between">
+                        <p className="btn-card">
+                            <Link href='/visite/piemonte/torino/reggia_di_venaria_reale/quanto_costa/tutta_in_una_reggia' className='text-decoration-none text-light'>Tutta in una Reggia</Link>
+                        </p>
+                        <p className="btn-card">
+                            <Link href='/visite/piemonte/torino/reggia_di_venaria_reale/quanto_costa/biglietti_cumulativi' className='text-decoration-none text-light'>Biglietti cumulativi</Link>
+                        </p>
+                    </div>
                 </main>
                 <Footer/>
             </AuthenticatedLayout>
