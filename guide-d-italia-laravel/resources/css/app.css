@@ -1667,6 +1667,45 @@ hr{
         margin: 0 !important;
       }
     /*Fine Anafora di Giuseppe Penone*/
+    /*Inizio Breve Storia Giardini*/
+      .breve_storia_giardini{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/I_giardini_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .breve_storia_giardini h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Breve storia Giardini*/
+    /*Inizio La freccia di Diana: il trenino dei Giardini*/
+      .la_freccia_di_diana{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Freccia_di_diana_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .la_freccia_di_diana h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine La freccia di Diana: il trenino dei Giardini*/
+    /*Inizio l'Hercole Colosso*/
+      .l_hercole_colosso{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/L_Hercole_colosso_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .l_hercole_colosso h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine l'Hercole Colosso*/
+    /*Inizio La Fontana d'Ercole*/
+      .la_fontana_d_ercole{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/La_fontana_d_ercole_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .la_fontana_d_ercole h1{
+        color: #fff;
+        margin: 0 !important;
+      }
     /**/
       .monte_dei_cappuccini{
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Monte_dei_cappuccini_Torino_Piemonte.jpg') center/cover no-repeat;

@@ -431,10 +431,6 @@ Route::get('/home', function () {
                 return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/La_Reggia');
             })->middleware(['auth', 'verified'])->name('la_reggia');
 
-            Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/i_giardini', function () {
-                return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/I_Giardini');
-            })->middleware(['auth', 'verified'])->name('i_giardini');
-
             /*Inizio La Reggia*/
 
                 Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/la_reggia/breve_storia', function () {
@@ -507,6 +503,10 @@ Route::get('/home', function () {
                 return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Anafora_di_Giuseppe_Penone');
             })->middleware(['auth', 'verified'])->name('anafora_di_giuseppe_penone');
             
+            Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/la_reggia/arte_contemporanea', function () {
+                return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Arte_Contemporanea');
+            })->middleware(['auth', 'verified'])->name('arte_contemporanea');
+
             /* Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/passaporto_culturale', function () {
                 return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Passaporto_Culturale');
             })->middleware(['auth', 'verified'])->name('passaporto_culturale');
@@ -514,14 +514,32 @@ Route::get('/home', function () {
             Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/impara_con_la_venaria_reale', function () {
                 return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Impara_con_La_Venaria_Reale');
             })->middleware(['auth', 'verified'])->name('impara_con_la_venaria_reale'); */
-
-           
-
             
-
-            
-
             /*Fine La Reggia*/
+
+            Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/i_giardini', function () {
+                return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/I_Giardini');
+            })->middleware(['auth', 'verified'])->name('i_giardini');
+
+            /*Inizio I Giardini*/
+
+                Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/i_giardini/breve_storia', function () {
+                    return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Breve_Storia_Giardini');
+                })->middleware(['auth', 'verified'])->name('breve_storia_giardini');
+            
+                Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/i_giardini/la_freccia_di_diana_il_trenino_dei_giardini', function () {
+                    return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/La_Freccia_di_Diana_il_trenino_dei_Giardini');
+                })->middleware(['auth', 'verified'])->name('la_freccia_di_diana_il_trenino_dei_giardini');
+
+                Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/l_hercole_colosso', function () {
+                    return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/L_Hercole_Colosso');
+                })->middleware(['auth', 'verified'])->name('la_freccia_di_diana_il_trenino_dei_giardini');
+
+                Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/la_fontana_d_ercole', function () {
+                    return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/La_Fontana_d_Ercole');
+                })->middleware(['auth', 'verified'])->name('la_fontana_d_ercole');
+            
+            /*Fine I Giardini*/
         /*Fine Reggia di Venaria Reale*/
 
         
