@@ -1587,36 +1587,6 @@ hr{
         margin: 0 !important;
       }
     /*Fine Esposizione del dipinto rastaurato di Palma il Giovane*/
-    /*Inizio Reggia - Giardini - Castello della Mandria*/
-      .reggia_giardini_castello_della_mandria{
-        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Reggia_giardini_castello_mandria_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
-        padding: 250px 0;
-      }
-      .reggia_giardini_castello_della_mandria h1{
-        color: #fff;
-        margin: 0 !important;
-      }
-    /*Fine Reggia - Giardini - Castello della Mandria*/
-    /*Inizio Ingressi Ridotti*/
-      .ingressi_ridotti{
-        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Ingressi_ridotti_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
-        padding: 250px 0;
-      }
-      .ingressi_ridotti h1{
-        color: #fff;
-        margin: 0 !important;
-      }
-    /*Fine Ingressi Ridotti*/
-    /*Ingressi Gratuiti*/
-      .ingressi_gratuiti{
-        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Ingressi_gratuiti_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
-        padding: 250px 0;
-      }
-      .ingressi_gratuiti h1{
-        color: #fff;
-        margin: 0 !important;
-      }
-    /*Fine Ingressi Gratuiti*/
     /*Inizio Passaporto Culturale*/
       .passaporto_culturale{
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Passaporto_culturale_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
@@ -1627,56 +1597,6 @@ hr{
         margin: 0 !important;
       }
     /*Fine Passaporto Culturale*/
-    /*Inizio Gratuiti e Ridotti*/
-      .gratuiti_e_ridotti{
-        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Galleria_grande_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
-        padding: 250px 0;
-      }
-      .gratuiti_e_ridotti h1{
-        color: #fff;
-        margin: 0 !important;
-      }
-    /*Fine Gratuiti e Ridotti*/
-    /*Inizio Convenzioni*/
-      .convenzioni{
-        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Convenzioni_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
-        padding: 250px 0;
-      }
-      .convenzioni h1{
-        color: #fff;
-        margin: 0 !important;
-      }
-    /*Fine Convenzioni*/
-    /*Inizio Biglietterie*/
-      .biglietterie{
-        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Biglietterie_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
-        padding: 250px 0;
-      }
-      .biglietterie h1{
-        color: #fff;
-        margin: 0 !important;
-      }
-    /*Fine Biglietterie*/
-    /*Inizio Orari*/
-      .orari{
-        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Orari_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
-        padding: 250px 0;
-      }
-      .orari h1{
-        color: #fff;
-        margin: 0 !important;
-      }
-    /*Fine Orari*/
-    /*Inizio Prenotazioni*/
-      .prenotazioni{
-        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Prenotazioni_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
-        padding: 250px 0;
-      }
-      .prenotazioni h1{
-        color: #fff;
-        margin: 0 !important;
-      }
-    /*Fine Prenotazioni*/
     /*Inizio Breve storia*/
       .breve_storia, .mappa_interattiva{
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Reggia_Interno_Torino_Piemonte.jpg') center/cover no-repeat;
@@ -1687,6 +1607,66 @@ hr{
         margin: 0 !important;
       }
     /*Fine Breve storia*/
+    /*Inizio I Giardini*/
+      .i_giardini{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/I_giardini_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .i_giardini h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine I Giardini*/
+    /*Inizio Arte Contemporanea*/
+      .arte_contemporanea{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Arte_contemporanea_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .arte_contemporanea h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Arte Contemporanea*/
+    /*Inizio Storyboard Paladino alla Reggia di Venaria*/
+      .storyboard_paladino_alla_reggia_di_venaria{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Soryboard_Paladino_alla_Reggia_di_Venaria_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .storyboard_paladino_alla_reggia_di_venaria h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Storyboard Paladino alla Reggia di Venaria*/
+    /*Inizio Dove_le_stelle_si_avvicinano_di_una_spanna*/
+      .dove_le_stelle_si_avvicinano_di_una_spanna{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Dove_le_stelle_si_avvicinano_di_una_spanna_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .dove_le_stelle_si_avvicinano_di_una_spanna h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Dove_le_stelle_si_avvicinano_di_una_spanna*/
+    /*Inizio Giardino delle Sculture Fluide*/
+      .giardino_delle_sculture_fluide{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Giardino_sculture_fluide_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .giardino_delle_sculture_fluide h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Giardino delle Sculture Fluide*/
+    /*Inizio Anafora di Giuseppe Penone*/
+      .anafora_di_giuseppe_penone{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Anafora_giuseppe_penone_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .anafora_di_giuseppe_penone h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Anafora di Giuseppe Penone*/
     /**/
       .monte_dei_cappuccini{
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Monte_dei_cappuccini_Torino_Piemonte.jpg') center/cover no-repeat;

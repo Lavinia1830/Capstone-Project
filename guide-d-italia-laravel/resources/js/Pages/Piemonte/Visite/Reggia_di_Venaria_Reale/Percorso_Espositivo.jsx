@@ -98,11 +98,11 @@ export default function Percorso_Espositivo(props) {
                             Insieme si ammirano anche alcune fra le più sontuose <b>carrozze di gala</b> utilizzate dai Savoia nell'Ottocento, tra cui la <i>Berlina dorata</i>, in prestito dal Palazzo del Quirinale di Roma.
                         </p>
                         <p>
-                            Bucintoro e Carrozze sono raccontate in un unico affascinante percorso in quanto capolavori integranti e rappresentativi delle attività della <Link href='/visite/piemonte/torino/reggia_di_venaria_reale/regia_scuderia_bucintoro_carrozze_regali' className='text-decoration-none color_link fst-italic'>Regia 
+                            Bucintoro e Carrozze sono raccontate in un unico affascinante percorso in quanto capolavori integranti e rappresentativi delle attività della <Link href='/visite/piemonte/torino/reggia_di_venaria_reale/la_regia_scuderia_il_bucintoro_e_le_carrozze_regali' className='text-decoration-none color_link fst-italic'>Regia 
                             Scuderia</Link> a Corte, intese come alte funzioni preposte agli spostamenti del Sovrano e del suo seguito.
                         </p>
                         <p>
-                            Dal 5 maggio 2021 è visitabile, presso la Regia Scuderia, anche la <Link href='/visite/piemonte/torino/reggia_di_venaria_reale/carrozza_napoleone_reggia_venaria' className='text-decoration-none color_link'>Carrozza di Napoleone</Link>, dopo gli accurati interventi di restauro del Centro Conservazione e 
+                            Dal 5 maggio 2021 è visitabile, presso la Regia Scuderia, anche la <Link href='/visite/piemonte/torino/reggia_di_venaria_reale/la_carrozza_di_napoleone_alla_reggia_di_venaria' className='text-decoration-none color_link fw-bold'>Carrozza di Napoleone</Link>, dopo gli accurati interventi di restauro del Centro Conservazione e 
                             Restauro "La Venaria Reale".
                         </p>
                         <p>

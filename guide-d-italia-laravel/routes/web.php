@@ -427,15 +427,15 @@ Route::get('/home', function () {
 
         /*Inizio Reggia di Venaria Reale*/
 
-            Route::get('/visite/torino/reggia_di_venaria_reale/la_reggia', function () {
+            Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/la_reggia', function () {
                 return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/La_Reggia');
             })->middleware(['auth', 'verified'])->name('la_reggia');
 
-            /*Inizio La Reggia*/
+            Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/i_giardini', function () {
+                return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/I_Giardini');
+            })->middleware(['auth', 'verified'])->name('i_giardini');
 
-                Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/la_reggia/mappa_interattiva', function () {
-                    return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Mappa_interattiva');
-                })->middleware(['auth', 'verified'])->name('mappa_interattiva');
+            /*Inizio La Reggia*/
 
                 Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/la_reggia/breve_storia', function () {
                     return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Breve_Storia');
@@ -444,6 +444,10 @@ Route::get('/home', function () {
                 Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/la_reggia/percorso_espositivo', function () {
                     return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Percorso_Espositivo');
                 })->middleware(['auth', 'verified'])->name('percorso_espositivo');
+
+                Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/esplora/la_reggia/arte_contemporanea', function () {
+                    return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Arte_Contemporanea');
+                })->middleware(['auth', 'verified'])->name('arte_contemporanea');
             
             /*Fine La Reggia*/
 
@@ -487,50 +491,35 @@ Route::get('/home', function () {
                 return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Esposizione_del_dipinto_restaurato_di_Palma_il_Giovane');
             })->middleware(['auth', 'verified'])->name('esposizione_del_dipinto_restaurato_di_palma_il_giovane');
 
-            Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/prezzi/reggia_giardini_castello_della_mandria', function () {
-                return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Reggia_Giardini_Castello_della_Mandria');
+            Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/esposizioni_permanenti/storyboard_paladino_reggia_venaria', function () {
+                return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Storyboard_Paladino_Reggia_Venaria');
             })->middleware(['auth', 'verified'])->name('reggia_giardini_castello_della_mandria');
 
-            Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/i_giardini', function () {
-                return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/I_Giardini');
-            })->middleware(['auth', 'verified'])->name('i_giardini');
+            Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/esposizioni_permanenti/dove_stelle_si_avvicinano_spanna', function () {
+                return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Dove_le_stelle_si_avvicinano_di_una_spanna');
+            })->middleware(['auth', 'verified'])->name('dove_stelle_si_avvicinano_spanna');
 
-            Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/ingressi_ridotti', function () {
-                return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Ingressi_Ridotti');
-            })->middleware(['auth', 'verified'])->name('ingressi_ridotti');
+            Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/i_capolavori/giardino_delle_sculture_fluide', function () {
+                return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Giardino_delle_Sculture_Fluide');
+            })->middleware(['auth', 'verified'])->name('giardino_delle_sculture_fluide');
 
-            Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/ingressi_gratuiti', function () {
-                return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Ingressi_Gratuiti');
-            })->middleware(['auth', 'verified'])->name('ingressi_gratuiti');
-
-            Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/passaporto_culturale', function () {
+            Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/esposizioni_permanenti/anafora_di_giuseppe_penone', function () {
+                return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Anafora_di_Giuseppe_Penone');
+            })->middleware(['auth', 'verified'])->name('anafora_di_giuseppe_penone');
+            
+            /* Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/passaporto_culturale', function () {
                 return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Passaporto_Culturale');
             })->middleware(['auth', 'verified'])->name('passaporto_culturale');
 
-            Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/gratuiti_e_ridotti', function () {
-                return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Gratuiti_e_Ridotti');
-            })->middleware(['auth', 'verified'])->name('gratuiti_e_ridotti');
-
-            Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/convenzioni', function () {
-                return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Convenzioni');
-            })->middleware(['auth', 'verified'])->name('convenzioni');
-
-            Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/biglietterie', function () {
-                return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Biglietterie');
-            })->middleware(['auth', 'verified'])->name('biglietterie');
-
-            Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/orari', function () {
-                return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Orari');
-            })->middleware(['auth', 'verified'])->name('orari');
-            
             Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/impara_con_la_venaria_reale', function () {
                 return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Impara_con_La_Venaria_Reale');
-            })->middleware(['auth', 'verified'])->name('impara_con_la_venaria_reale');
+            })->middleware(['auth', 'verified'])->name('impara_con_la_venaria_reale'); */
 
-            Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/prenotazioni', function () {
-                return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Prenotazioni');
-            })->middleware(['auth', 'verified'])->name('prenotazioni');
+           
 
+            
+
+            
 
             /*Fine La Reggia*/
         /*Fine Reggia di Venaria Reale*/

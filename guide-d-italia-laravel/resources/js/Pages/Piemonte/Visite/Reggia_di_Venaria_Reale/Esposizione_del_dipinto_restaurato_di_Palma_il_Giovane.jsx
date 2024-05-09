@@ -36,8 +36,8 @@ export default function Esposizione_del_dipinto_restaurato_di_Palma_il_Giovane(p
                             “La Venaria Reale”</a>.
                         </p>
                         <p>
-                            L'esposizione è inclusa nel percorso di visita ed è visitabile con i biglietti <Link href='/visite/piemonte/torino/reggia_di_venaria_reale/prezzi/reggia_giardini_castello_della_mandria' 
-                            className='text-decoration-none color_link'>Reggia</Link> e <Link href='/visite/piemonte/torino/reggia_di_venaria_reale/prezzi/tutta_in_un_reggia' className='text-decoration-none color_link'>Tutto in una Reggia</Link>.
+                            L'esposizione è inclusa nel percorso di visita ed è visitabile con i biglietti <a href='https://lavenaria.it/it/visita/quanto-costa/reggia-giardini-castello-mandria' 
+                            className='text-decoration-none color_link'>Reggia</a> e <a href='https://lavenaria.it/it/visita/quanto-costa/tutto-reggia' className='text-decoration-none color_link'>Tutto in una Reggia</a>.
                         </p>
                         <hr />
                         <p>
