@@ -2,10 +2,12 @@
 
 use App\Http\Controllers\ProfileController;
 use Illuminate\Foundation\Application;
+use Illuminate\Routing\RouteFileRegistrar;
 use Illuminate\Routing\Router;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\Response;
 
 /*
 |--------------------------------------------------------------------------
@@ -530,16 +532,53 @@ Route::get('/home', function () {
                 Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/i_giardini/la_freccia_di_diana_il_trenino_dei_giardini', function () {
                     return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/La_Freccia_di_Diana_il_trenino_dei_Giardini');
                 })->middleware(['auth', 'verified'])->name('la_freccia_di_diana_il_trenino_dei_giardini');
-
-                Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/l_hercole_colosso', function () {
-                    return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/L_Hercole_Colosso');
-                })->middleware(['auth', 'verified'])->name('la_freccia_di_diana_il_trenino_dei_giardini');
-
-                Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/la_fontana_d_ercole', function () {
-                    return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/La_Fontana_d_Ercole');
-                })->middleware(['auth', 'verified'])->name('la_fontana_d_ercole');
             
+                Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/i_giardini/parco_alto', function () {
+                    return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Parco_Alto');
+                })->middleware(['auth', 'verified'])->name('parco_alto');
+
+                Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/i_giardini/parco_basso', function () {
+                    return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Parco_Basso');
+                })->middleware(['auth', 'verified'])->name('parco_basso');
+
             /*Fine I Giardini*/
+
+            Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/l_hercole_colosso', function () {
+                return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/L_Hercole_Colosso');
+            })->middleware(['auth', 'verified'])->name('la_freccia_di_diana_il_trenino_dei_giardini');
+
+            Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/la_fontana_d_ercole', function () {
+                return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/La_Fontana_d_Ercole');
+            })->middleware(['auth', 'verified'])->name('la_fontana_d_ercole');
+
+            Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/mostre/igloo_di_mario_merz_alla_reggia_di_venaria', function () {
+                return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Igloo_di_Mario_Marz');
+            })->middleware(['auth', 'verified'])->name('igloo_di_mario_merz_alla_reggia_di_venaria');
+
+            Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/sinergie_esapodi', function () {
+                return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Sinergie_Esapodi');
+            })->middleware(['auth', 'verified'])->name('sinergie_esapodi');
+            
+            Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/castello_mandria', function () {
+                return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Il_Castello_della_Mandria');
+            })->middleware(['auth', 'verified'])->name('il_castello_della_mandria');
+
+            /*Inizio Il castello della Mandria*/
+
+                Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/castello_mandria/breve_storia_castello_mandria', function () {
+                    return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Breve_Storia_Castello_Mandria');
+                })->middleware(['auth', 'verified'])->name('breve_storia_giardini');
+
+                Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/castello_mandria/il_parco_della_mandria', function () {
+                    return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Il_Parco_della_Mandria');
+                })->middleware(['auth', 'verified'])->name('il_parco_della_mandria');
+
+                Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/castello_mandria/appartamenti_reali', function () {
+                    return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Gli_Appartamenti_Reali');
+                })->middleware(['auth', 'verified'])->name('appartamenti_reali');
+            
+            /*Fine il Castello della Mandria*/
+            
         /*Fine Reggia di Venaria Reale*/
 
         

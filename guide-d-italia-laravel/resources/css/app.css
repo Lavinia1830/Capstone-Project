@@ -1706,6 +1706,86 @@ hr{
         color: #fff;
         margin: 0 !important;
       }
+    /*Fine La fontana d'Ercole*/
+    /*Inizio Igloo di Mario Marz alla Reggia di Venariae*/
+      .igloo_di_mario_marz{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Igloo_merz_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .igloo_di_mario_marz h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Igloo di Mario Marz alla Reggia di Venariae*/
+    /*Inizio Parco Alto*/
+      .parco_alto{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Parco_alto_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .parco_alto h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Parco Alto*/
+    /*Inizio Parco Basso*/
+      .parco_basso{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Parco_basso_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .parco_basso h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Parco Basso*/
+    /*Inizio Sinergie Esapodi*/
+      .sinergie_esapodi{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Sinergie_esapodi_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .sinergie_esapodi h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Sinergie Esapodi*/
+    /*Inizio Il Castello della Mandria*/
+      .il_castello_della_mandria{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Castello_mandria_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .il_castello_della_mandria h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine
+    /*Inizio */
+      .breve_storia_castello_mandria{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Breve_storia_mandria_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .breve_storia_castello_mandria h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine*/
+    /*Inizio */
+      .il_parco_della_mandria{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Parco_mandria_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .il_parco_della_mandria h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine*/
+    /*Inizio Gli appartamenti Reali*/
+      .appartamenti_reali {
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Appartamenti_reali_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .appartamenti_reali h1{
+        color: #fff;
+        margin: 0 !important;
+      } 
     /**/
       .monte_dei_cappuccini{
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Monte_dei_cappuccini_Torino_Piemonte.jpg') center/cover no-repeat;

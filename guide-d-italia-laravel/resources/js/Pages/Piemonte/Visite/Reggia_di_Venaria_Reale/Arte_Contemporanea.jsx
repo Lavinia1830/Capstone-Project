@@ -106,6 +106,13 @@ export default function Arte_Contemporanea(props) {
                             L’opera, realizzata per il parco del Museu Serralves di Porto, si lega fortemente all’ambiente naturale e a quello dei Giardini della Reggia, attraverso l’impiego delle fascine ed in particolare al contesto della Fontana del Cervo, con la presenza maestosa di un cervo sulla sommità della struttura, sul cui fianco è attaccato un numero di Fibonacci di neon.
                         </p>
                     </div>
+                    <div className="margin mt-3">
+                        <h2 className="color-subtitle">Sinergie Esapodi di Hilario Isola</h2>
+                        <p>
+                            Da novembre 2023 la Reggia di Venaria ha arricchito la sua collezione permanente di arte contemporanea con un intervento <i>site specific</i> realizzato dall’artista torinese <b>Hilario Isola</b> (1976). Il progetto “<Link href='/visite/piemonte/torino/reggia_di_venaria_reale/sinergie_esapodi' className='text-decoration-none color_link'>Sinergie Esapodi</Link>” 
+                            prende il via con <b>due prime opere installate nel Parco Alto</b> e si completerà nella primavera del 2024 con un <b>terzo lavoro</b> che sarà ambientato nel <b>Potager Royal</b> presso la Cascina Medici del Vascello. 
+                        </p>
+                    </div>
                 </main>
                 <Footer/>
             </AuthenticatedLayout>

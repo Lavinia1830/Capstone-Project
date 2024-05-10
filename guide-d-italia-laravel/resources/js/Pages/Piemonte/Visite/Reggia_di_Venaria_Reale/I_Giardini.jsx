@@ -38,6 +38,13 @@ export default function I_Giardini(props) {
                                 <Link href='/visite/piemonte/torino/reggia_di_venaria_reale/i_giardini/parco_alto' className='text-decoration-none color_link'>Scopri di più</Link>
                             </CardBody>
                         </Card>
+                        <Card style={{ width: '18rem' }}>
+                            <CardBody>
+                                <CardTitle className='text-center'>Parco Basso</CardTitle>
+                                <CardText>Scopri il Parco Basso, con la Peschiera e le altre principali attrazioni</CardText>
+                                <Link href='/visite/piemonte/torino/reggia_di_venaria_reale/i_giardini/parco_basso' className='text-decoration-none color_link'>Scopri di più</Link>
+                            </CardBody>
+                        </Card>
                     </div>
                 </main>
                 <Footer/>
