@@ -1796,6 +1796,24 @@ hr{
         margin: 0 !important;
       }
     /**/
+    /*Inizio Ponte Vittorio Emanuele I*/
+      .ponte_vittorio_emenuele_1{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Ponte_Vittorio_Emanuele_I_Toriono_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .ponte_vittorio_emenuele_1 h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Inizio Chiesa della Gran Madre */
+      .chiesa_della_gran_madre{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Chiesa_della_Gran_Madre_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .chiesa_della_gran_madre h1{
+        color: #fff;
+        margin: 0 !important;
+      }
     /**/
       .piazza_san_carlo{
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Piazza_san_carlo_Torino_Piemonte.jpg') center/cover no-repeat;

@@ -587,8 +587,16 @@ Route::get('/home', function () {
             return Inertia::render('Piemonte/Visite/Monte_dei_Cappuccini');
         })->middleware(['auth', 'verified'])->name('monte_dei_cappuccini');
 
+        Route::get('/visite/piemonte/torino/ponte_vittorio_emanuele_i', function () {
+            return Inertia::render('Piemonte/Visite/Ponte_Vittorio_Emanuele_I');
+        })->middleware(['auth', 'verified'])->name('ponte_vittorio_emaniele_i');
+
+        Route::get('/visite/piemonte/torino/chiesa_della_gran_madre', function () {
+            return Inertia::render('Piemonte/Visite/Chiesa_della_Gran_Madre');
+        })->middleware(['auth', 'verified'])->name('chiesa_della_gran_madre');
+
         Route::get('/visite/piemonte/torino/piazza_san_carlo', function () {
-            return Inertia::render('Piemonte/Visite/Torino/Piazza_san_Carlo');
+            return Inertia::render('Piemonte/Visite/Piazza_san_Carlo');
         })->middleware(['auth', 'verified'])->name('piazza_san_carlo');
 
         Route::get('/visite/piemonte/torino/basilica_di_superga', function () {

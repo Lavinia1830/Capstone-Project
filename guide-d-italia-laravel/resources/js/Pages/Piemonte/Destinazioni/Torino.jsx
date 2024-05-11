@@ -199,7 +199,7 @@ export default function Torino(props) {
               <CardBody className='bottone'>
                 <Link 
                   className="bottone_link" 
-                  href='/visite/piemonte/torino/chiesa_della_gran_maria_di_dio'
+                  href='/visite/piemonte/torino/chiesa_della_gran_madre'
                   onMouseEnter={() => setIsHoveredChiesaGranMadre(true)}
                   onMouseLeave={() => setIsHoveredChiesaGranMadre(false)}
                   >Chiesa della Grande Madre di Dio {isHoveredChiesaGranMadre && <i className="bi bi-chevron-right"></i>}

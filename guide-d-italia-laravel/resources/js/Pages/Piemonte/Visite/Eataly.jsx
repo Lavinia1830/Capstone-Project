@@ -16,7 +16,18 @@ export default function Eataly(props) {
             </div>
             <div className="margin mt-3">
                 <p>
-                    La Mecca dei golosi, il paese dei balocchi, l’eden di gastronomi: Eataly è una chicca che un buongustaio non può perdersi. Inaugurato nel 2007 il grande mercato del gusto che occupa gli ex stabilimenti della Carpano offre 11.000 mq di delikatessen, una decina di ristorantini che servono piatti espressi e un locale stellato. La filosofia del progetto è: alti cibi per tutti, cioè solo prodotti di qualità ma accessibili. Prevedete un paio d’ore, tra visita, acquisti e qualche assaggio.
+                    <strong>Eataly Torino</strong> è una delle sedi più iconiche della catena di supermercati e ristoranti Eataly. Situato nella città di Torino, Italia, questo Eataly occupa un edificio storico nel quartiere Lingotto, famoso per 
+                    essere stato il sito della vecchia fabbrica automobilistica Fiat.
+                </p>
+                <p>
+                    <b>La storia di Eataly Torino</b> è legata alla visione dell'imprenditore Oscar Farinetti, che ha fondato il primo Eataly a Torino nel 2007. Questo punto vendita iniziale è stato aperto in un ex magazzino di una fabbrica di 
+                    vini, e il concetto di Eataly era quello di creare un luogo che celebrasse e promuovesse la cultura culinaria italiana attraverso la vendita di prodotti alimentari di alta qualità e la preparazione di cibi freschi negli stand 
+                    dei ristoranti.
+                </p>
+                <p>
+                    Con il tempo, Eataly ha visto una rapida espansione, con sedi che si sono aperte in molte città italiane e in tutto il mondo. Tuttavia, Eataly Torino rimane una delle sedi più amate e significative, in quanto è dove tutto è 
+                    iniziato. Il suo ambiente unico, il mix di shopping e esperienze gastronomiche, e il rispetto per i prodotti alimentari di qualità e le tradizioni culinarie italiane lo rendono una tappa imprescindibile per i visitatori della 
+                    città e un punto di riferimento per gli amanti del cibo.
                 </p>
             </div>
             <div className='margin mb-4'>
