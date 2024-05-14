@@ -55,19 +55,6 @@ hr{
   .btn-registrati:hover, .btn-accedi:hover, .btn-card:hover{
     background-color: #77966d !important;
   }
-
-  #btn-card{
-    display: inline;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    background-color: #bdc667; /* Verde */
-    color: white;
-    transition: background-color 1s ease !important;
-    transition: color 1s ease !important;
-  }
 /*Fine Welcome*/
 
 
@@ -1768,8 +1755,8 @@ hr{
         color: #fff;
         margin: 0 !important;
       }
-    /*Fine
-    /*Inizio */
+    /*Fine Il Castello della Mandria*/
+    /*Inizio Breve storia Castello Mandria*/
       .breve_storia_castello_mandria{
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Breve_storia_mandria_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
         padding: 250px 0;
@@ -1778,8 +1765,8 @@ hr{
         color: #fff;
         margin: 0 !important;
       }
-    /*Fine*/
-    /*Inizio */
+    /*Fine Breve storia Castello Mandria*/
+    /*Inizio Il parco della Mandria*/
       .il_parco_della_mandria{
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Parco_mandria_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
         padding: 250px 0;
@@ -1788,7 +1775,7 @@ hr{
         color: #fff;
         margin: 0 !important;
       }
-    /*Fine*/
+    /*Fine Il parco della Mandria*/
     /*Inizio Gli appartamenti Reali*/
       .appartamenti_reali {
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Appartamenti_reali_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
@@ -1798,7 +1785,8 @@ hr{
         color: #fff;
         margin: 0 !important;
       } 
-    /**/
+    /*Fine Gli appartamenti Reali*/
+    /*Inizio Monte dei Cappuccini*/
       .monte_dei_cappuccini{
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Monte_dei_cappuccini_Torino_Piemonte.jpg') center/cover no-repeat;
         padding: 250px 0;
@@ -1807,7 +1795,7 @@ hr{
         color: #fff;
         margin: 0 !important;
       }
-    /**/
+    /*Fine Monte dei Cappuccini*/
     /*Inizio Ponte Vittorio Emanuele I*/
       .ponte_vittorio_emenuele_1{
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Ponte_Vittorio_Emanuele_I_Toriono_Piemonte.jpg') center/cover no-repeat;
@@ -1817,6 +1805,7 @@ hr{
         color: #fff;
         margin: 0 !important;
       }
+    /*Fine Ponte Vittorio Emanuele I*/
     /*Inizio Chiesa della Gran Madre */
       .chiesa_della_gran_madre{
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Chiesa_della_Gran_Madre_Torino_Piemonte.jpg') center/cover no-repeat;
@@ -1826,7 +1815,8 @@ hr{
         color: #fff;
         margin: 0 !important;
       }
-    /**/
+    /*Fine Chiesa della Gran Madre*/
+    /*Inizio Piazza San Carlo*/
       .piazza_san_carlo{
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Piazza_san_carlo_Torino_Piemonte.jpg') center/cover no-repeat;
         padding: 250px 0;
@@ -1835,8 +1825,8 @@ hr{
         color: #fff;
         margin: 0 !important;
       }
-    /**/
-    /**/
+    /*Fine Piazza San Carlo*/
+    /*Inizio Basilica di Superga*/
       .basilica_di_superga{
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Basilica_di_Superga_Torino_Piemonte.jpg') center/cover no-repeat;
         padding: 250px 0;
@@ -1845,8 +1835,8 @@ hr{
         color: #fff;
         margin: 0 !important;
       }
-    /**/
-    /**/
+    /*Fine Basilica di Superga*/
+    /*Inizio Chiesa della Grande Madre di Dio*/
       .chiesa_della_gm_di_dio{
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Gran_madre_di_dio_Torino_Piemonte.jpg') center/cover no-repeat;
         padding: 250px 0;
@@ -1855,8 +1845,8 @@ hr{
         color: #fff;
         margin: 0 !important;
       }
-    /**/
-    /**/
+    /*Fine Chiesa della Grande Madre di Dio*/
+    /*Inizio Eataly*/
       .eataly{
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Eataly_Torino_Piemonte.jpg') center/cover no-repeat;
         padding: 250px 0;
@@ -1865,8 +1855,8 @@ hr{
         color: #fff;
         margin: 0 !important;
       }
-    /**/
-    /**/
+    /*Fine Eataly*/
+    /*Inizio GAM*/
       .gam{
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/GAM_Torino_Piemonte.jpg') center/cover no-repeat;
         padding: 250px 0;
@@ -1875,8 +1865,8 @@ hr{
         color: #fff;
         margin: 0 !important;
       }
-    /**/
-    /**/
+    /*Fine GAM*/
+    /*Inizio MAO*/
       .mao{
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/MAO_Torino_Piemonte.jpg') center/cover no-repeat;
         padding: 250px 0;
@@ -1885,8 +1875,8 @@ hr{
         color: #fff;
         margin: 0 !important;
       }
-    /**/
-    /**/
+    /*Fine MAO*/
+    /*Inizio Murazzi*/
       .murazzi{
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Murazzi_Torino_Piemonte.jpg') center/cover no-repeat;
         padding: 250px 0;
@@ -1895,8 +1885,8 @@ hr{
         color: #fff;
         margin: 0 !important;
       }
-    /**/
-    /**/
+    /*Fine Murazzi*/
+    /*Inizio Museo Nazionele del Rinascimento Italiano*/
       .mn_del_r_italiano{
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Facciata_Palazzo_Carignano_Torino_Piemonte.jpg') center/cover no-repeat;
         padding: 250px 0;
@@ -1905,8 +1895,8 @@ hr{
         color: #fff;
         margin: 0 !important;
       }
-    /**/
-    /**/
+    /*Fine Museo Nazionele del Rinascimento Italiano*/
+    /*Inizio Nuseo Nazionale Automobile*/
       .museo_nazionale_automobile{
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Museo_dell_Automobile_Torino_Piemonte.jpg') center/cover no-repeat;
         padding: 250px 0;
@@ -1915,8 +1905,8 @@ hr{
         color: #fff;
         margin: 0 !important;
       }
-    /**/
-    /**/
+    /*Fine Nuseo Nazionale Automobile*/
+    /*Inizio Museo della Sindole*/
       .museo_della_sindone{
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Museo_delle_Sindole_Torino_Piemonte.jpg') center/cover no-repeat;
         padding: 250px 0;
@@ -1925,8 +1915,8 @@ hr{
         color: #fff;
         margin: 0 !important;
       }
-    /**/
-    /**/
+    /*Fine Museo della Sindole*/
+    /*Inizio Quadrilatero Romano*/
       .quadrilatero_romano{
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Quadrilatero_romano_Torino_Piemonte.jpg') center/cover no-repeat;
         padding: 250px 0;
@@ -1935,7 +1925,7 @@ hr{
         color: #fff;
         margin: 0 !important;
       }
-    /**/
+    /*Fine Quadrilatero Romano*/
   /*Fine Torino*/
   /**/
     .il_nord_e_i_laghi_maggiore_e_d_orta{
