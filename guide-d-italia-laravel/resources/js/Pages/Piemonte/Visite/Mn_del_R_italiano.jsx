@@ -157,7 +157,7 @@ export default function Mn_del_R_italiano(props) {
     const Ingresso = () => {
         // Quando il pulsante viene premuto, impostiamo l'immagine e la descrizione
         setImageIngresso(Ingresso_mn_del_r_italiano);
-        setDescriptionIngresso("È il più antico e noto museo di storia patria, l'unico a essere nazionale per importanza, ricchezza e rappresentatività delle collezioni." );
+        setDescriptionIngresso("È il più antico e noto museo di storia patria, l'unico a essere \"nazionale\" per importanza, ricchezza e rappresentatività delle collezioni." );
         setSubtitleIngresso('Ingresso');
         // Resetta l'altra sala se necessario
         setImageSala1('');
@@ -924,7 +924,7 @@ export default function Mn_del_R_italiano(props) {
         setImageSala6('');
         setDescriptionSala6('');
         setSubtitleSala6('');
-        setImageSala7('');
+        setImageSala8('');
         setDescriptionSala8('');
         setSubtitleSala8('');
         setImageSala9('');
@@ -2609,16 +2609,1808 @@ export default function Mn_del_R_italiano(props) {
         setSubtitleCorridoiodellaCameraitaliana('');
     };
 
+    const Sala23 = () => {
+        // Quando il pulsante viene premuto, impostiamo l'immagine e la descrizione
+        setImageSala23(Sala_23_mn_del_r_italiano);
+        setDescriptionSala23("La vittoria dei garibaldini fu neutralizzata e sfruttata a proprio vantaggio dai MODERATI CAVOURIANI, repentinamente convertiti a un PROGRAMMA UNITARIO esteso all'intera penisola. La SPEDIZIONE MILITARE nell'Italia centrale e meridionale, guidata personalmente da VITTORIO EMANUELE II, portò all'annessione di questi territori.");
+        setSubtitleSala23('Sala 23 - Italia: Triennio 1859-1861: controffensiva moderata e occupazione del Centro-Sud 1860');
+        // Resetta l'ingresso se necessario
+        setImageIngresso('');
+        setDescriptionIngresso('');
+        setSubtitleIngresso('');
+        setImageSala1('');
+        setDescriptionSala1('');
+        setSubtitleSala1('');
+        setImageSala2('');
+        setDescriptionSala2('');
+        setSubtitleSala2('');
+        setImageSala3('');
+        setDescriptionSala3('');
+        setSubtitleSala3('');
+        setImageSala4('');
+        setDescriptionSala4('');
+        setSubtitleSala4('');
+        setImageSala5('');
+        setDescriptionSala5('');
+        setSubtitleSala5('');
+        setImageSala6('');
+        setDescriptionSala6('');
+        setSubtitleSala6('');
+        setImageSala7('');
+        setDescriptionSala7('');
+        setSubtitleSala7('');
+        setImageSala8('');
+        setDescriptionSala8('');
+        setSubtitleSala8('');
+        setImageSala9('');
+        setDescriptionSala9('');
+        setSubtitleSala9('');
+        setImageSala10('');
+        setDescriptionSala10('');
+        setSubtitleSala10('');
+        setImageSala11('');
+        setDescriptionSala11('');
+        setSubtitleSala11('');
+        setImageSala12('');
+        setDescriptionSala12('');
+        setSubtitleSala12('');
+        setImageSala13('');
+        setDescriptionSala13('');
+        setSubtitleSala13('');
+        setImageSala14('');
+        setDescriptionSala14('');
+        setSubtitleSala14('');
+        setImageSala15('');
+        setDescriptionSala15('');
+        setSubtitleSala15('');
+        setImageSala16('');
+        setDescriptionSala16('');
+        setSubtitleSala16('');
+        setImageSala17('');
+        setDescriptionSala17('');
+        setSubtitleSala17('');
+        setImageSala18('');
+        setDescriptionSala18('');
+        setSubtitleSala18('');
+        setImageSala19('');
+        setDescriptionSala19('');
+        setSubtitleSala19('');
+        setImageSala20('');
+        setDescriptionSala20('');
+        setSubtitleSala20('');
+        setImageSala21('');
+        setDescriptionSala21('');
+        setSubtitleSala21('');
+        setImageSala22('');
+        setDescriptionSala22('');
+        setSubtitleSala22('');
+        setImageSala24('');
+        setDescriptionSala24('');
+        setSubtitleSala24('');
+        setImageSala25('');
+        setDescriptionSala25('');
+        setSubtitleSala25('');
+        setImageSala26('');
+        setDescriptionSala26('');
+        setSubtitleSala26('');
+        setImageSala27('');
+        setDescriptionSala27('');
+        setSubtitleSala27('');
+        setImageSala28('');
+        setDescriptionSala28('');
+        setSubtitleSala28('');
+        setImageSala29('');
+        setDescriptionSala29('');
+        setSubtitleSala29('');
+        setImageSala30('');
+        setDescriptionSala30('');
+        setSubtitleSala30('');
+        setImageSalaCodici('');
+        setDescriptionSalaCodici('');
+        setSubtitleSalaCodici('');
+        setImageSalaPlebisciti('');
+        setDescriptionSalaPlebisciti('');
+        setSubtitleSalaPlebisciti('');
+        setImageCorridoiodellaCameraitaliana('');
+        setDescriptionCorridoiodellaCameraitaliana('');
+        setSubtitleCorridoiodellaCameraitaliana('');
+    };
+
+    const Sala24 = () => {
+        // Quando il pulsante viene premuto, impostiamo l'immagine e la descrizione
+        setImageSala24(Sala_24_mn_del_r_italiano);
+        setDescriptionSala24("La sala 24 illustra il DIFFICILE COMPIMENTO DELL'UNITÀ ITALIANA, nel periodo compreso tra la proclamazione del regno il 17 marzo 1861 e la presa di Roma il 20 settembre 1870. Dopo la MORTE DI CAVOUR, il regno d'Italia deve affrontare problemi vari e complessi intrecciati tra loro, come la questione romana e veneta, la guerra del 1866, il deficit finanziario, il brigantaggio. La sconfitta francese ad opera dei prussiani permette infine la PRESA DI ROMA.");
+        setSubtitleSala24('Sala 24 - Dalla nascita del Regno d‘Italia alla presa di Roma: un difficile esordio 1861-1870');
+        // Resetta l'ingresso se necessario
+        setImageIngresso('');
+        setDescriptionIngresso('');
+        setSubtitleIngresso('');
+        setImageSala1('');
+        setDescriptionSala1('');
+        setSubtitleSala1('');
+        setImageSala2('');
+        setDescriptionSala2('');
+        setSubtitleSala2('');
+        setImageSala3('');
+        setDescriptionSala3('');
+        setSubtitleSala3('');
+        setImageSala4('');
+        setDescriptionSala4('');
+        setSubtitleSala4('');
+        setImageSala5('');
+        setDescriptionSala5('');
+        setSubtitleSala5('');
+        setImageSala6('');
+        setDescriptionSala6('');
+        setSubtitleSala6('');
+        setImageSala7('');
+        setDescriptionSala7('');
+        setSubtitleSala7('');
+        setImageSala8('');
+        setDescriptionSala8('');
+        setSubtitleSala8('');
+        setImageSala9('');
+        setDescriptionSala9('');
+        setSubtitleSala9('');
+        setImageSala10('');
+        setDescriptionSala10('');
+        setSubtitleSala10('');
+        setImageSala11('');
+        setDescriptionSala11('');
+        setSubtitleSala11('');
+        setImageSala12('');
+        setDescriptionSala12('');
+        setSubtitleSala12('');
+        setImageSala13('');
+        setDescriptionSala13('');
+        setSubtitleSala13('');
+        setImageSala14('');
+        setDescriptionSala14('');
+        setSubtitleSala14('');
+        setImageSala15('');
+        setDescriptionSala15('');
+        setSubtitleSala15('');
+        setImageSala16('');
+        setDescriptionSala16('');
+        setSubtitleSala16('');
+        setImageSala17('');
+        setDescriptionSala17('');
+        setSubtitleSala17('');
+        setImageSala18('');
+        setDescriptionSala18('');
+        setSubtitleSala18('');
+        setImageSala19('');
+        setDescriptionSala19('');
+        setSubtitleSala19('');
+        setImageSala20('');
+        setDescriptionSala20('');
+        setSubtitleSala20('');
+        setImageSala21('');
+        setDescriptionSala21('');
+        setSubtitleSala21('');
+        setImageSala22('');
+        setDescriptionSala22('');
+        setSubtitleSala22('');
+        setImageSala23('');
+        setDescriptionSala23('');
+        setSubtitleSala23('');
+        setImageSala25('');
+        setDescriptionSala25('');
+        setSubtitleSala25('');
+        setImageSala26('');
+        setDescriptionSala26('');
+        setSubtitleSala26('');
+        setImageSala27('');
+        setDescriptionSala27('');
+        setSubtitleSala27('');
+        setImageSala28('');
+        setDescriptionSala28('');
+        setSubtitleSala28('');
+        setImageSala29('');
+        setDescriptionSala29('');
+        setSubtitleSala29('');
+        setImageSala30('');
+        setDescriptionSala30('');
+        setSubtitleSala30('');
+        setImageSalaCodici('');
+        setDescriptionSalaCodici('');
+        setSubtitleSalaCodici('');
+        setImageSalaPlebisciti('');
+        setDescriptionSalaPlebisciti('');
+        setSubtitleSalaPlebisciti('');
+        setImageCorridoiodellaCameraitaliana('');
+        setDescriptionCorridoiodellaCameraitaliana('');
+        setSubtitleCorridoiodellaCameraitaliana('');
+    };
+
+    const Sala25 = () => {
+        // Quando il pulsante viene premuto, impostiamo l'immagine e la descrizione
+        setImageSala25(Sala_25_mn_del_r_italiano);
+        setDescriptionSala25("L'esposizione dello STUDIO MINISTERIALE DI CAVOUR è composta di mobili e arredi originali e di oggetti personali appartenuti allo statista. In seguito sono stati aggiunti la maschera mortuaria, l'allegoria dell'Italia e il bozzetto della statua.");
+        setSubtitleSala25('Sala 25 - Studio di Camillo Cavour ministro');
+        // Resetta l'ingresso se necessario
+        setImageIngresso('');
+        setDescriptionIngresso('');
+        setSubtitleIngresso('');
+        setImageSala1('');
+        setDescriptionSala1('');
+        setSubtitleSala1('');
+        setImageSala2('');
+        setDescriptionSala2('');
+        setSubtitleSala2('');
+        setImageSala3('');
+        setDescriptionSala3('');
+        setSubtitleSala3('');
+        setImageSala4('');
+        setDescriptionSala4('');
+        setSubtitleSala4('');
+        setImageSala5('');
+        setDescriptionSala5('');
+        setSubtitleSala5('');
+        setImageSala6('');
+        setDescriptionSala6('');
+        setSubtitleSala6('');
+        setImageSala7('');
+        setDescriptionSala7('');
+        setSubtitleSala7('');
+        setImageSala8('');
+        setDescriptionSala8('');
+        setSubtitleSala8('');
+        setImageSala9('');
+        setDescriptionSala9('');
+        setSubtitleSala9('');
+        setImageSala10('');
+        setDescriptionSala10('');
+        setSubtitleSala10('');
+        setImageSala11('');
+        setDescriptionSala11('');
+        setSubtitleSala11('');
+        setImageSala12('');
+        setDescriptionSala12('');
+        setSubtitleSala12('');
+        setImageSala13('');
+        setDescriptionSala13('');
+        setSubtitleSala13('');
+        setImageSala14('');
+        setDescriptionSala14('');
+        setSubtitleSala14('');
+        setImageSala15('');
+        setDescriptionSala15('');
+        setSubtitleSala15('');
+        setImageSala16('');
+        setDescriptionSala16('');
+        setSubtitleSala16('');
+        setImageSala17('');
+        setDescriptionSala17('');
+        setSubtitleSala17('');
+        setImageSala18('');
+        setDescriptionSala18('');
+        setSubtitleSala18('');
+        setImageSala19('');
+        setDescriptionSala19('');
+        setSubtitleSala19('');
+        setImageSala20('');
+        setDescriptionSala20('');
+        setSubtitleSala20('');
+        setImageSala21('');
+        setDescriptionSala21('');
+        setSubtitleSala21('');
+        setImageSala22('');
+        setDescriptionSala22('');
+        setSubtitleSala22('');
+        setImageSala23('');
+        setDescriptionSala23('');
+        setSubtitleSala23('');
+        setImageSala24('');
+        setDescriptionSala24('');
+        setSubtitleSala24('');
+        setImageSala26('');
+        setDescriptionSala26('');
+        setSubtitleSala26('');
+        setImageSala27('');
+        setDescriptionSala27('');
+        setSubtitleSala27('');
+        setImageSala28('');
+        setDescriptionSala28('');
+        setSubtitleSala28('');
+        setImageSala29('');
+        setDescriptionSala29('');
+        setSubtitleSala29('');
+        setImageSala30('');
+        setDescriptionSala30('');
+        setSubtitleSala30('');
+        setImageSalaCodici('');
+        setDescriptionSalaCodici('');
+        setSubtitleSalaCodici('');
+        setImageSalaPlebisciti('');
+        setDescriptionSalaPlebisciti('');
+        setSubtitleSalaPlebisciti('');
+        setImageCorridoiodellaCameraitaliana('');
+        setDescriptionCorridoiodellaCameraitaliana('');
+        setSubtitleCorridoiodellaCameraitaliana('');
+    };
+
+    const Sala26 = () => {
+        // Quando il pulsante viene premuto, impostiamo l'immagine e la descrizione
+        setImageSala26(Sala_26_mn_del_r_italiano);
+        setDescriptionSala26("Questa sala è di TRANSIZIONE tra le VICENDE DELL'UNIFICAZIONE e le tre sale dedicate al PRIMO CINQUANTENARIO DEL REGNO D'ITALIA. Espone ritratti di politici, artisti, scienziati e i volti anonimi dei ceti medi e popolari. Ai governanti della Destra storica, erede di Cavour, subentrò nel 1876 la Sinistra storica, portatrice di interessi più ampi e di una visione meno elitaria della politica.");
+        setSubtitleSala26('Sala 26 - Regno d‘Italia 1870-1915: Politica, cultura, società');
+        // Resetta l'ingresso se necessario
+        setImageIngresso('');
+        setDescriptionIngresso('');
+        setSubtitleIngresso('');
+        setImageSala1('');
+        setDescriptionSala1('');
+        setSubtitleSala1('');
+        setImageSala2('');
+        setDescriptionSala2('');
+        setSubtitleSala2('');
+        setImageSala3('');
+        setDescriptionSala3('');
+        setSubtitleSala3('');
+        setImageSala4('');
+        setDescriptionSala4('');
+        setSubtitleSala4('');
+        setImageSala5('');
+        setDescriptionSala5('');
+        setSubtitleSala5('');
+        setImageSala6('');
+        setDescriptionSala6('');
+        setSubtitleSala6('');
+        setImageSala7('');
+        setDescriptionSala7('');
+        setSubtitleSala7('');
+        setImageSala8('');
+        setDescriptionSala8('');
+        setSubtitleSala8('');
+        setImageSala9('');
+        setDescriptionSala9('');
+        setSubtitleSala9('');
+        setImageSala10('');
+        setDescriptionSala10('');
+        setSubtitleSala10('');
+        setImageSala11('');
+        setDescriptionSala11('');
+        setSubtitleSala11('');
+        setImageSala12('');
+        setDescriptionSala12('');
+        setSubtitleSala12('');
+        setImageSala13('');
+        setDescriptionSala13('');
+        setSubtitleSala13('');
+        setImageSala14('');
+        setDescriptionSala14('');
+        setSubtitleSala14('');
+        setImageSala15('');
+        setDescriptionSala15('');
+        setSubtitleSala15('');
+        setImageSala16('');
+        setDescriptionSala16('');
+        setSubtitleSala16('');
+        setImageSala17('');
+        setDescriptionSala17('');
+        setSubtitleSala17('');
+        setImageSala18('');
+        setDescriptionSala18('');
+        setSubtitleSala18('');
+        setImageSala19('');
+        setDescriptionSala19('');
+        setSubtitleSala19('');
+        setImageSala20('');
+        setDescriptionSala20('');
+        setSubtitleSala20('');
+        setImageSala21('');
+        setDescriptionSala21('');
+        setSubtitleSala21('');
+        setImageSala22('');
+        setDescriptionSala22('');
+        setSubtitleSala22('');
+        setImageSala23('');
+        setDescriptionSala23('');
+        setSubtitleSala23('');
+        setImageSala24('');
+        setDescriptionSala24('');
+        setSubtitleSala24('');
+        setImageSala25('');
+        setDescriptionSala25('');
+        setSubtitleSala25('');
+        setImageSala27('');
+        setDescriptionSala27('');
+        setSubtitleSala27('');
+        setImageSala28('');
+        setDescriptionSala28('');
+        setSubtitleSala28('');
+        setImageSala29('');
+        setDescriptionSala29('');
+        setSubtitleSala29('');
+        setImageSala30('');
+        setDescriptionSala30('');
+        setSubtitleSala30('');
+        setImageSalaCodici('');
+        setDescriptionSalaCodici('');
+        setSubtitleSalaCodici('');
+        setImageSalaPlebisciti('');
+        setDescriptionSalaPlebisciti('');
+        setSubtitleSalaPlebisciti('');
+        setImageCorridoiodellaCameraitaliana('');
+        setDescriptionCorridoiodellaCameraitaliana('');
+        setSubtitleCorridoiodellaCameraitaliana('');
+    };
+
+    const Sala27 = () => {
+        // Quando il pulsante viene premuto, impostiamo l'immagine e la descrizione
+        setImageSala27(Sala_27_mn_del_r_italiano);
+        setDescriptionSala27("Inizia in CHIAVE EUROPEA, con oggetti e filmati che illustrano l'unificazione germanica e i movimenti di nazionalità negli imperi austro-ungarico, ottomano, nell'area baltica e in Polonia. Prosegue con la RAPPRESENTAZIONE DELLA SOCIETÀ BORGHESE in Italia tra il 1870 e il 1915, nella vita quotidiana, nella mentalità, nelle esposizioni, nelle novità tecnologiche, nell'ottimismo della <i>belle époque</i>, e anche nelle istituzioni e nella vita politica.");
+        setSubtitleSala27('Sala 27 - Europa e Italia 1870-1915: L‘età delle borghesie');
+        // Resetta l'ingresso se necessario
+        setImageIngresso('');
+        setDescriptionIngresso('');
+        setSubtitleIngresso('');
+        setImageSala1('');
+        setDescriptionSala1('');
+        setSubtitleSala1('');
+        setImageSala2('');
+        setDescriptionSala2('');
+        setSubtitleSala2('');
+        setImageSala3('');
+        setDescriptionSala3('');
+        setSubtitleSala3('');
+        setImageSala4('');
+        setDescriptionSala4('');
+        setSubtitleSala4('');
+        setImageSala5('');
+        setDescriptionSala5('');
+        setSubtitleSala5('');
+        setImageSala6('');
+        setDescriptionSala6('');
+        setSubtitleSala6('');
+        setImageSala7('');
+        setDescriptionSala7('');
+        setSubtitleSala7('');
+        setImageSala8('');
+        setDescriptionSala8('');
+        setSubtitleSala8('');
+        setImageSala9('');
+        setDescriptionSala9('');
+        setSubtitleSala9('');
+        setImageSala10('');
+        setDescriptionSala10('');
+        setSubtitleSala10('');
+        setImageSala11('');
+        setDescriptionSala11('');
+        setSubtitleSala11('');
+        setImageSala12('');
+        setDescriptionSala12('');
+        setSubtitleSala12('');
+        setImageSala13('');
+        setDescriptionSala13('');
+        setSubtitleSala13('');
+        setImageSala14('');
+        setDescriptionSala14('');
+        setSubtitleSala14('');
+        setImageSala15('');
+        setDescriptionSala15('');
+        setSubtitleSala15('');
+        setImageSala16('');
+        setDescriptionSala16('');
+        setSubtitleSala16('');
+        setImageSala17('');
+        setDescriptionSala17('');
+        setSubtitleSala17('');
+        setImageSala18('');
+        setDescriptionSala18('');
+        setSubtitleSala18('');
+        setImageSala19('');
+        setDescriptionSala19('');
+        setSubtitleSala19('');
+        setImageSala20('');
+        setDescriptionSala20('');
+        setSubtitleSala20('');
+        setImageSala21('');
+        setDescriptionSala21('');
+        setSubtitleSala21('');
+        setImageSala22('');
+        setDescriptionSala22('');
+        setSubtitleSala22('');
+        setImageSala23('');
+        setDescriptionSala23('');
+        setSubtitleSala23('');
+        setImageSala24('');
+        setDescriptionSala24('');
+        setSubtitleSala24('');
+        setImageSala25('');
+        setDescriptionSala25('');
+        setSubtitleSala25('');
+        setImageSala26('');
+        setDescriptionSala26('');
+        setSubtitleSala26('');
+        setImageSala28('');
+        setDescriptionSala28('');
+        setSubtitleSala28('');
+        setImageSala29('');
+        setDescriptionSala29('');
+        setSubtitleSala29('');
+        setImageSala30('');
+        setDescriptionSala30('');
+        setSubtitleSala30('');
+        setImageSalaCodici('');
+        setDescriptionSalaCodici('');
+        setSubtitleSalaCodici('');
+        setImageSalaPlebisciti('');
+        setDescriptionSalaPlebisciti('');
+        setSubtitleSalaPlebisciti('');
+        setImageCorridoiodellaCameraitaliana('');
+        setDescriptionCorridoiodellaCameraitaliana('');
+        setSubtitleCorridoiodellaCameraitaliana('');
+    };
+
+    const Sala28 = () => {
+        // Quando il pulsante viene premuto, impostiamo l'immagine e la descrizione
+        setImageSala28(Sala_28_mn_del_r_italiano);
+        setDescriptionSala28("In parallelo con la sala precedente, illustra il PRIMO CINQUANTENNIO del regno d'Italia dal punto di vista dei CETI POPOLARI. I simboli di sala sono due. Uno è la CARROZZA USATA DA GARIBALDI ormai anziano, impegnato non più nelle imprese militari ma nelle battaglie civili. L'altro sono le BANDIERE DEI LAVORATORI, il cui ingresso nella vita politica fu una ulteriore svolta nella storia d'Italia.");
+        setSubtitleSala28('Sala 28 - Regno d‘Italia 1870-1915: I ceti popolari');
+        // Resetta l'ingresso se necessario
+        setImageIngresso('');
+        setDescriptionIngresso('');
+        setSubtitleIngresso('');
+        setImageSala1('');
+        setDescriptionSala1('');
+        setSubtitleSala1('');
+        setImageSala2('');
+        setDescriptionSala2('');
+        setSubtitleSala2('');
+        setImageSala3('');
+        setDescriptionSala3('');
+        setSubtitleSala3('');
+        setImageSala4('');
+        setDescriptionSala4('');
+        setSubtitleSala4('');
+        setImageSala5('');
+        setDescriptionSala5('');
+        setSubtitleSala5('');
+        setImageSala6('');
+        setDescriptionSala6('');
+        setSubtitleSala6('');
+        setImageSala7('');
+        setDescriptionSala7('');
+        setSubtitleSala7('');
+        setImageSala8('');
+        setDescriptionSala8('');
+        setSubtitleSala8('');
+        setImageSala9('');
+        setDescriptionSala9('');
+        setSubtitleSala9('');
+        setImageSala10('');
+        setDescriptionSala10('');
+        setSubtitleSala10('');
+        setImageSala11('');
+        setDescriptionSala11('');
+        setSubtitleSala11('');
+        setImageSala12('');
+        setDescriptionSala12('');
+        setSubtitleSala12('');
+        setImageSala13('');
+        setDescriptionSala13('');
+        setSubtitleSala13('');
+        setImageSala14('');
+        setDescriptionSala14('');
+        setSubtitleSala14('');
+        setImageSala15('');
+        setDescriptionSala15('');
+        setSubtitleSala15('');
+        setImageSala16('');
+        setDescriptionSala16('');
+        setSubtitleSala16('');
+        setImageSala17('');
+        setDescriptionSala17('');
+        setSubtitleSala17('');
+        setImageSala18('');
+        setDescriptionSala18('');
+        setSubtitleSala18('');
+        setImageSala19('');
+        setDescriptionSala19('');
+        setSubtitleSala19('');
+        setImageSala20('');
+        setDescriptionSala20('');
+        setSubtitleSala20('');
+        setImageSala21('');
+        setDescriptionSala21('');
+        setSubtitleSala21('');
+        setImageSala22('');
+        setDescriptionSala22('');
+        setSubtitleSala22('');
+        setImageSala23('');
+        setDescriptionSala23('');
+        setSubtitleSala23('');
+        setImageSala24('');
+        setDescriptionSala24('');
+        setSubtitleSala24('');
+        setImageSala25('');
+        setDescriptionSala25('');
+        setSubtitleSala25('');
+        setImageSala26('');
+        setDescriptionSala26('');
+        setSubtitleSala26('');
+        setImageSala27('');
+        setDescriptionSala27('');
+        setSubtitleSala27('');
+        setImageSala29('');
+        setDescriptionSala29('');
+        setSubtitleSala29('');
+        setImageSala30('');
+        setDescriptionSala30('');
+        setSubtitleSala30('');
+        setImageSalaCodici('');
+        setDescriptionSalaCodici('');
+        setSubtitleSalaCodici('');
+        setImageSalaPlebisciti('');
+        setDescriptionSalaPlebisciti('');
+        setSubtitleSalaPlebisciti('');
+        setImageCorridoiodellaCameraitaliana('');
+        setDescriptionCorridoiodellaCameraitaliana('');
+        setSubtitleCorridoiodellaCameraitaliana('');
+    };
+
+    const Sala29 = () => {
+        // Quando il pulsante viene premuto, impostiamo l'immagine e la descrizione
+        setImageSala29(Sala_29_mn_del_r_italiano);
+        setDescriptionSala29("Torna prevalente LA DIMENSIONE EUROPEA. Il COLORE GRIGIO alle pareti richiama la sensazione di INCERTEZZA DEL FUTURO con l'imminenza della PRIMA GUERRA MONDIALE, e la consapevolezza già tra i contemporanei della FINE DI UN'EPOCA. La guerra italo-turca del 1911-12 accelerò la crisi dell'impero turco e fu tra le cause scatenanti del conflitto mondiale.");
+        setSubtitleSala29('Sala 29 - Europa e Italia verso la Grande guerra');
+        // Resetta l'ingresso se necessario
+        setImageIngresso('');
+        setDescriptionIngresso('');
+        setSubtitleIngresso('');
+        setImageSala1('');
+        setDescriptionSala1('');
+        setSubtitleSala1('');
+        setImageSala2('');
+        setDescriptionSala2('');
+        setSubtitleSala2('');
+        setImageSala3('');
+        setDescriptionSala3('');
+        setSubtitleSala3('');
+        setImageSala4('');
+        setDescriptionSala4('');
+        setSubtitleSala4('');
+        setImageSala5('');
+        setDescriptionSala5('');
+        setSubtitleSala5('');
+        setImageSala6('');
+        setDescriptionSala6('');
+        setSubtitleSala6('');
+        setImageSala7('');
+        setDescriptionSala7('');
+        setSubtitleSala7('');
+        setImageSala8('');
+        setDescriptionSala8('');
+        setSubtitleSala8('');
+        setImageSala9('');
+        setDescriptionSala9('');
+        setSubtitleSala9('');
+        setImageSala10('');
+        setDescriptionSala10('');
+        setSubtitleSala10('');
+        setImageSala11('');
+        setDescriptionSala11('');
+        setSubtitleSala11('');
+        setImageSala12('');
+        setDescriptionSala12('');
+        setSubtitleSala12('');
+        setImageSala13('');
+        setDescriptionSala13('');
+        setSubtitleSala13('');
+        setImageSala14('');
+        setDescriptionSala14('');
+        setSubtitleSala14('');
+        setImageSala15('');
+        setDescriptionSala15('');
+        setSubtitleSala15('');
+        setImageSala16('');
+        setDescriptionSala16('');
+        setSubtitleSala16('');
+        setImageSala17('');
+        setDescriptionSala17('');
+        setSubtitleSala17('');
+        setImageSala18('');
+        setDescriptionSala18('');
+        setSubtitleSala18('');
+        setImageSala19('');
+        setDescriptionSala19('');
+        setSubtitleSala19('');
+        setImageSala20('');
+        setDescriptionSala20('');
+        setSubtitleSala20('');
+        setImageSala21('');
+        setDescriptionSala21('');
+        setSubtitleSala21('');
+        setImageSala22('');
+        setDescriptionSala22('');
+        setSubtitleSala22('');
+        setImageSala23('');
+        setDescriptionSala23('');
+        setSubtitleSala23('');
+        setImageSala24('');
+        setDescriptionSala24('');
+        setSubtitleSala24('');
+        setImageSala25('');
+        setDescriptionSala25('');
+        setSubtitleSala25('');
+        setImageSala26('');
+        setDescriptionSala26('');
+        setSubtitleSala26('');
+        setImageSala27('');
+        setDescriptionSala27('');
+        setSubtitleSala27('');
+        setImageSala28('');
+        setDescriptionSala28('');
+        setSubtitleSala28('');
+        setImageSala30('');
+        setDescriptionSala30('');
+        setSubtitleSala30('');
+        setImageSalaCodici('');
+        setDescriptionSalaCodici('');
+        setSubtitleSalaCodici('');
+        setImageSalaPlebisciti('');
+        setDescriptionSalaPlebisciti('');
+        setSubtitleSalaPlebisciti('');
+        setImageCorridoiodellaCameraitaliana('');
+        setDescriptionCorridoiodellaCameraitaliana('');
+        setSubtitleCorridoiodellaCameraitaliana('');
+    };
+
+    const Sala30 = () => {
+        // Quando il pulsante viene premuto, impostiamo l'immagine e la descrizione
+        setImageSala30(Sala_30_mn_del_r_italiano);
+        setDescriptionSala30("Siamo nel salone che doveva ospitare la NUOVA CAMERA DEI DEPUTATI DEL REGNO D'ITALIA, realizzata ma non utilizzata a causa del trasferimento della capitale da Torino a Firenze, e poi a Roma. Data la grandiosità e solennità, essa si presta a ospitare le GRANDI TELE raffiguranti l'EPICA MILITARE DAL 1848 AL 1860, sia dell'esercito sabaudo sia dei volontari garibaldini.");
+        setSubtitleSala30('Sala 30 - L‘epica del Risorgimento');
+        // Resetta l'ingresso se necessario
+        setImageIngresso('');
+        setDescriptionIngresso('');
+        setSubtitleIngresso('');
+        setImageSala1('');
+        setDescriptionSala1('');
+        setSubtitleSala1('');
+        setImageSala2('');
+        setDescriptionSala2('');
+        setSubtitleSala2('');
+        setImageSala3('');
+        setDescriptionSala3('');
+        setSubtitleSala3('');
+        setImageSala4('');
+        setDescriptionSala4('');
+        setSubtitleSala4('');
+        setImageSala5('');
+        setDescriptionSala5('');
+        setSubtitleSala5('');
+        setImageSala6('');
+        setDescriptionSala6('');
+        setSubtitleSala6('');
+        setImageSala7('');
+        setDescriptionSala7('');
+        setSubtitleSala7('');
+        setImageSala8('');
+        setDescriptionSala8('');
+        setSubtitleSala8('');
+        setImageSala9('');
+        setDescriptionSala9('');
+        setSubtitleSala9('');
+        setImageSala10('');
+        setDescriptionSala10('');
+        setSubtitleSala10('');
+        setImageSala11('');
+        setDescriptionSala11('');
+        setSubtitleSala11('');
+        setImageSala12('');
+        setDescriptionSala12('');
+        setSubtitleSala12('');
+        setImageSala13('');
+        setDescriptionSala13('');
+        setSubtitleSala13('');
+        setImageSala14('');
+        setDescriptionSala14('');
+        setSubtitleSala14('');
+        setImageSala15('');
+        setDescriptionSala15('');
+        setSubtitleSala15('');
+        setImageSala16('');
+        setDescriptionSala16('');
+        setSubtitleSala16('');
+        setImageSala17('');
+        setDescriptionSala17('');
+        setSubtitleSala17('');
+        setImageSala18('');
+        setDescriptionSala18('');
+        setSubtitleSala18('');
+        setImageSala19('');
+        setDescriptionSala19('');
+        setSubtitleSala19('');
+        setImageSala20('');
+        setDescriptionSala20('');
+        setSubtitleSala20('');
+        setImageSala21('');
+        setDescriptionSala21('');
+        setSubtitleSala21('');
+        setImageSala22('');
+        setDescriptionSala22('');
+        setSubtitleSala22('');
+        setImageSala23('');
+        setDescriptionSala23('');
+        setSubtitleSala23('');
+        setImageSala24('');
+        setDescriptionSala24('');
+        setSubtitleSala24('');
+        setImageSala25('');
+        setDescriptionSala25('');
+        setSubtitleSala25('');
+        setImageSala26('');
+        setDescriptionSala26('');
+        setSubtitleSala26('');
+        setImageSala27('');
+        setDescriptionSala27('');
+        setSubtitleSala27('');
+        setImageSala28('');
+        setDescriptionSala28('');
+        setSubtitleSala28('');
+        setImageSala29('');
+        setDescriptionSala29('');
+        setSubtitleSala29('');
+        setImageSalaCodici('');
+        setDescriptionSalaCodici('');
+        setSubtitleSalaCodici('');
+        setImageSalaPlebisciti('');
+        setDescriptionSalaPlebisciti('');
+        setSubtitleSalaPlebisciti('');
+        setImageCorridoiodellaCameraitaliana('');
+        setDescriptionCorridoiodellaCameraitaliana('');
+        setSubtitleCorridoiodellaCameraitaliana('');
+    };
+
+    const SalaCodici = () => {
+        // Quando il pulsante viene premuto, impostiamo l'immagine e la descrizione
+        setImageSalaCodici(Sala_Codici_mn_del_r_italiano);
+        setDescriptionSalaCodici("La Sala Codici, con volte affrescate da Francesco Gonin, prende il nome dal dipinto di Giovanni Battista Biscarra, <i>Promulgazione del Codice civile albertino</i>.");
+        setSubtitleSalaCodici('Sala Codici');
+        // Resetta l'ingresso se necessario
+        setImageIngresso('');
+        setDescriptionIngresso('');
+        setSubtitleIngresso('');
+        setImageSala1('');
+        setDescriptionSala1('');
+        setSubtitleSala1('');
+        setImageSala2('');
+        setDescriptionSala2('');
+        setSubtitleSala2('');
+        setImageSala3('');
+        setDescriptionSala3('');
+        setSubtitleSala3('');
+        setImageSala4('');
+        setDescriptionSala4('');
+        setSubtitleSala4('');
+        setImageSala5('');
+        setDescriptionSala5('');
+        setSubtitleSala5('');
+        setImageSala6('');
+        setDescriptionSala6('');
+        setSubtitleSala6('');
+        setImageSala7('');
+        setDescriptionSala7('');
+        setSubtitleSala7('');
+        setImageSala8('');
+        setDescriptionSala8('');
+        setSubtitleSala8('');
+        setImageSala9('');
+        setDescriptionSala9('');
+        setSubtitleSala9('');
+        setImageSala10('');
+        setDescriptionSala10('');
+        setSubtitleSala10('');
+        setImageSala11('');
+        setDescriptionSala11('');
+        setSubtitleSala11('');
+        setImageSala12('');
+        setDescriptionSala12('');
+        setSubtitleSala12('');
+        setImageSala13('');
+        setDescriptionSala13('');
+        setSubtitleSala13('');
+        setImageSala14('');
+        setDescriptionSala14('');
+        setSubtitleSala14('');
+        setImageSala15('');
+        setDescriptionSala15('');
+        setSubtitleSala15('');
+        setImageSala16('');
+        setDescriptionSala16('');
+        setSubtitleSala16('');
+        setImageSala17('');
+        setDescriptionSala17('');
+        setSubtitleSala17('');
+        setImageSala18('');
+        setDescriptionSala18('');
+        setSubtitleSala18('');
+        setImageSala19('');
+        setDescriptionSala19('');
+        setSubtitleSala19('');
+        setImageSala20('');
+        setDescriptionSala20('');
+        setSubtitleSala20('');
+        setImageSala21('');
+        setDescriptionSala21('');
+        setSubtitleSala21('');
+        setImageSala22('');
+        setDescriptionSala22('');
+        setSubtitleSala22('');
+        setImageSala23('');
+        setDescriptionSala23('');
+        setSubtitleSala23('');
+        setImageSala24('');
+        setDescriptionSala24('');
+        setSubtitleSala24('');
+        setImageSala25('');
+        setDescriptionSala25('');
+        setSubtitleSala25('');
+        setImageSala26('');
+        setDescriptionSala26('');
+        setSubtitleSala26('');
+        setImageSala27('');
+        setDescriptionSala27('');
+        setSubtitleSala27('');
+        setImageSala28('');
+        setDescriptionSala28('');
+        setSubtitleSala28('');
+        setImageSala29('');
+        setDescriptionSala29('');
+        setSubtitleSala29('');
+        setImageSala30('');
+        setDescriptionSala30('');
+        setSubtitleSala30('');
+        setImageSalaPlebisciti('');
+        setDescriptionSalaPlebisciti('');
+        setSubtitleSalaPlebisciti('');
+        setImageCorridoiodellaCameraitaliana('');
+        setDescriptionCorridoiodellaCameraitaliana('');
+        setSubtitleCorridoiodellaCameraitaliana('');
+    };
+
+    const SalaPlebisciti = () => {
+        // Quando il pulsante viene premuto, impostiamo l'immagine e la descrizione
+        setImageSalaPlebisciti(Sala_Plebisciti_mn_del_r_italiano);
+        setDescriptionSalaPlebisciti("La Sala Plebisciti, anch’essa con un affresco allegorico nella volta, prende il nome dal dipinto di Angelo Capisani, <i>Bettino Ricasoli presenta il plebiscito toscano a Vittorio Emanuele II.</i>");
+        setSubtitleSalaPlebisciti('Sala Plebisciti');
+        // Resetta l'ingresso se necessario
+        setImageIngresso('');
+        setDescriptionIngresso('');
+        setSubtitleIngresso('');
+        setImageSala1('');
+        setDescriptionSala1('');
+        setSubtitleSala1('');
+        setImageSala2('');
+        setDescriptionSala2('');
+        setSubtitleSala2('');
+        setImageSala3('');
+        setDescriptionSala3('');
+        setSubtitleSala3('');
+        setImageSala4('');
+        setDescriptionSala4('');
+        setSubtitleSala4('');
+        setImageSala5('');
+        setDescriptionSala5('');
+        setSubtitleSala5('');
+        setImageSala6('');
+        setDescriptionSala6('');
+        setSubtitleSala6('');
+        setImageSala7('');
+        setDescriptionSala7('');
+        setSubtitleSala7('');
+        setImageSala8('');
+        setDescriptionSala8('');
+        setSubtitleSala8('');
+        setImageSala9('');
+        setDescriptionSala9('');
+        setSubtitleSala9('');
+        setImageSala10('');
+        setDescriptionSala10('');
+        setSubtitleSala10('');
+        setImageSala11('');
+        setDescriptionSala11('');
+        setSubtitleSala11('');
+        setImageSala12('');
+        setDescriptionSala12('');
+        setSubtitleSala12('');
+        setImageSala13('');
+        setDescriptionSala13('');
+        setSubtitleSala13('');
+        setImageSala14('');
+        setDescriptionSala14('');
+        setSubtitleSala14('');
+        setImageSala15('');
+        setDescriptionSala15('');
+        setSubtitleSala15('');
+        setImageSala16('');
+        setDescriptionSala16('');
+        setSubtitleSala16('');
+        setImageSala17('');
+        setDescriptionSala17('');
+        setSubtitleSala17('');
+        setImageSala18('');
+        setDescriptionSala18('');
+        setSubtitleSala18('');
+        setImageSala19('');
+        setDescriptionSala19('');
+        setSubtitleSala19('');
+        setImageSala20('');
+        setDescriptionSala20('');
+        setSubtitleSala20('');
+        setImageSala21('');
+        setDescriptionSala21('');
+        setSubtitleSala21('');
+        setImageSala22('');
+        setDescriptionSala22('');
+        setSubtitleSala22('');
+        setImageSala23('');
+        setDescriptionSala23('');
+        setSubtitleSala23('');
+        setImageSala24('');
+        setDescriptionSala24('');
+        setSubtitleSala24('');
+        setImageSala25('');
+        setDescriptionSala25('');
+        setSubtitleSala25('');
+        setImageSala26('');
+        setDescriptionSala26('');
+        setSubtitleSala26('');
+        setImageSala27('');
+        setDescriptionSala27('');
+        setSubtitleSala27('');
+        setImageSala28('');
+        setDescriptionSala28('');
+        setSubtitleSala28('');
+        setImageSala29('');
+        setDescriptionSala29('');
+        setSubtitleSala29('');
+        setImageSala30('');
+        setDescriptionSala30('');
+        setSubtitleSala30('');
+        setImageSalaCodici('');
+        setDescriptionSalaCodici('');
+        setSubtitleSalaCodici('');
+        setImageCorridoiodellaCameraitaliana('');
+        setDescriptionCorridoiodellaCameraitaliana('');
+        setSubtitleCorridoiodellaCameraitaliana('');
+    };
+
+    const CorridoiodellaCameraitaliana = () => {
+        // Quando il pulsante viene premuto, impostiamo l'immagine e la descrizione
+        setImageCorridoiodellaCameraitaliana(Corridoio_della_Camera_italiana_mn_del_r_italiano);
+        setDescriptionCorridoiodellaCameraitaliana("Il Corridoio della Camera italiana era destinato in origine al passaggio dei deputati. Si affaccia sul cortile di Palazzo Carignano e ha di fronte la Camera dei Deputati subalpina.");
+        setSubtitleCorridoiodellaCameraitaliana('Corridoio della Camera italiana');
+        // Resetta l'ingresso se necessario
+        setImageIngresso('');
+        setDescriptionIngresso('');
+        setSubtitleIngresso('');
+        setImageSala1('');
+        setDescriptionSala1('');
+        setSubtitleSala1('');
+        setImageSala2('');
+        setDescriptionSala2('');
+        setSubtitleSala2('');
+        setImageSala3('');
+        setDescriptionSala3('');
+        setSubtitleSala3('');
+        setImageSala4('');
+        setDescriptionSala4('');
+        setSubtitleSala4('');
+        setImageSala5('');
+        setDescriptionSala5('');
+        setSubtitleSala5('');
+        setImageSala6('');
+        setDescriptionSala6('');
+        setSubtitleSala6('');
+        setImageSala7('');
+        setDescriptionSala7('');
+        setSubtitleSala7('');
+        setImageSala8('');
+        setDescriptionSala8('');
+        setSubtitleSala8('');
+        setImageSala9('');
+        setDescriptionSala9('');
+        setSubtitleSala9('');
+        setImageSala10('');
+        setDescriptionSala10('');
+        setSubtitleSala10('');
+        setImageSala11('');
+        setDescriptionSala11('');
+        setSubtitleSala11('');
+        setImageSala12('');
+        setDescriptionSala12('');
+        setSubtitleSala12('');
+        setImageSala13('');
+        setDescriptionSala13('');
+        setSubtitleSala13('');
+        setImageSala14('');
+        setDescriptionSala14('');
+        setSubtitleSala14('');
+        setImageSala15('');
+        setDescriptionSala15('');
+        setSubtitleSala15('');
+        setImageSala16('');
+        setDescriptionSala16('');
+        setSubtitleSala16('');
+        setImageSala17('');
+        setDescriptionSala17('');
+        setSubtitleSala17('');
+        setImageSala18('');
+        setDescriptionSala18('');
+        setSubtitleSala18('');
+        setImageSala19('');
+        setDescriptionSala19('');
+        setSubtitleSala19('');
+        setImageSala20('');
+        setDescriptionSala20('');
+        setSubtitleSala20('');
+        setImageSala21('');
+        setDescriptionSala21('');
+        setSubtitleSala21('');
+        setImageSala22('');
+        setDescriptionSala22('');
+        setSubtitleSala22('');
+        setImageSala23('');
+        setDescriptionSala23('');
+        setSubtitleSala23('');
+        setImageSala24('');
+        setDescriptionSala24('');
+        setSubtitleSala24('');
+        setImageSala25('');
+        setDescriptionSala25('');
+        setSubtitleSala25('');
+        setImageSala26('');
+        setDescriptionSala26('');
+        setSubtitleSala26('');
+        setImageSala27('');
+        setDescriptionSala27('');
+        setSubtitleSala27('');
+        setImageSala28('');
+        setDescriptionSala28('');
+        setSubtitleSala28('');
+        setImageSala29('');
+        setDescriptionSala29('');
+        setSubtitleSala29('');
+        setImageSala30('');
+        setDescriptionSala30('');
+        setSubtitleSala30('');
+        setImageSalaCodici('');
+        setDescriptionSalaCodici('');
+        setSubtitleSalaCodici('');
+        setImageSalaPlebisciti('');
+        setDescriptionSalaPlebisciti('');
+        setSubtitleSalaPlebisciti('');
+    };
+
   return (
     <AuthenticatedLayout
       auth={props.auth}
       errors={props.errors}
     >
         <main>
-            <div className='mn_del_r_italiano' style={{ position: 'relative' }}>
+            <div className='mn_del_r_italiano mb-4' style={{ position: 'relative' }}>
                 <h1 className='text-center' style={{ position: 'absolute', top: 20, left: 20 }}>Museo Nazionale del Risorgimento Italiano</h1>
                 <span className='text-light' style={{ position: 'absolute', bottom: 50, left: 20 }}>CATEGORIE</span>
                 <p className='categorie' style={{ position: 'absolute', bottom: 10, left: 20 }}>Da vedere</p>
+            </div>
+            
+            <div className='margin mb-4 '>
+                <Button className='mb-3 me-3' onClick={Ingresso}>Ingresso</Button>
+                <Button className='mb-3 me-3' onClick={Sala1}>Sala 1</Button>
+                <Button className='mb-3 me-3' onClick={Sala2}>Sala 2</Button>
+                <Button className='mb-3 me-3' onClick={Sala3}>Sala 3</Button>
+                <Button className='mb-3 me-3' onClick={Sala4}>Sala 4</Button>
+                <Button className='mb-3 me-3' onClick={Sala5}>Sala 5</Button>
+                <Button className='mb-3 me-3' onClick={Sala6}>Sala 6</Button>
+                <Button className='mb-3 me-3' onClick={Sala7}>Sala 7</Button>
+                <Button className='mb-3 me-3' onClick={Sala8}>Sala 8</Button>
+                <Button className='mb-3 me-3' onClick={Sala9}>Sala 9</Button>
+                <Button className='mb-3 me-3' onClick={Sala10}>Sala 10</Button>
+                <Button className='mb-3 me-3' onClick={Sala11}>Sala 11</Button>
+                <Button className='mb-3 me-3' onClick={Sala12}>Sala 12</Button>
+                <Button className='mb-3 me-3' onClick={Sala13}>Sala 13</Button>
+                <Button className='mb-3 me-3' onClick={Sala14}>Sala 14</Button>
+                <Button className='mb-3 me-3' onClick={Sala15}>Sala 15</Button>
+                <Button className='mb-3 me-3' onClick={Sala16}>Sala 16</Button>
+                <Button className='mb-3 me-3' onClick={Sala17}>Sala 17</Button>
+                <Button className='mb-3 me-3' onClick={Sala18}>Sala 18</Button>
+                <Button className='mb-3 me-3' onClick={Sala19}>Sala 19</Button>
+                <Button className='mb-3 me-3' onClick={Sala20}>Sala 20</Button>
+                <Button className='mb-3 me-3' onClick={Sala21}>Sala 21</Button>
+                <Button className='mb-3 me-3' onClick={Sala22}>Sala 22</Button>
+                <Button className='mb-3 me-3' onClick={Sala23}>Sala 23</Button>
+                <Button className='mb-3 me-3' onClick={Sala24}>Sala 24</Button>
+                <Button className='mb-3 me-3' onClick={Sala25}>Sala 25</Button>
+                <Button className='mb-3 me-3' onClick={Sala26}>Sala 26</Button>
+                <Button className='mb-3 me-3' onClick={Sala27}>Sala 27</Button>
+                <Button className='mb-3 me-3' onClick={Sala28}>Sala 28</Button>
+                <Button className='mb-3 me-3' onClick={Sala29}>Sala 29</Button>
+                <Button className='mb-3 me-3' onClick={Sala30}>Sala 30</Button>
+                <Button className='mb-3 me-3' onClick={SalaCodici}>Sala Codici</Button>
+                <Button className='mb-3 me-3' onClick={SalaPlebisciti}>Sala Plebisciti</Button>
+                <Button className='mb-3 me-3' onClick={CorridoiodellaCameraitaliana}>Corridoio della Camera italiana</Button>
+                { imageIngresso && (
+                    <Card className="mb-3 margin w-75 mx-auto">
+                    <div className="row g-0">
+                        <div className="col-lg-4">
+                            <CardImg src={imageIngresso} alt="Ingresso del Museo Nazionale del Rinascimento Italiano"/>
+                        </div>
+                        <div className="col-lg-8 d-flex align-items-center">
+                            <CardBody>
+                                <CardText>
+                                    <p>{descriptionIngresso}</p>
+                                    <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleIngresso}</p>
+                                </CardText>
+                            </CardBody>
+                        </div>
+                    </div>
+                </Card>
+                )}
+                { imageSala1 && (
+                    <Card className="mb-3 margin w-75 mx-auto">
+                        <div className="row g-0">
+                            <div className="col-lg-4">
+                                <CardImg src={imageSala1} alt='Sala 1 del Museo Nazionale del Rinascimento italiano'/>
+                            </div>
+                            <div className="col-lg-8 d-flex align-items-center">
+                                <CardBody>
+                                    <CardText>
+                                        <p>{descriptionSala1}</p>
+                                        <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala1}</p>
+                                    </CardText>
+                                </CardBody>
+                            </div>
+                        </div>
+                    </Card>
+                )}
+                { imageSala2 && (
+                    <Card className="mb-3 margin w-75 mx-auto">
+                        <div className="row g-0">
+                            <div className="col-lg-4">
+                                <CardImg src={imageSala2} alt='Sala 2 del Museo Nazionale del Rinascimento italiano'/>
+                            </div>
+                            <div className="col-lg-8 d-flex align-items-center">
+                                <CardBody>
+                                    <CardText>
+                                        <p>{descriptionSala2}</p>
+                                        <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala2}</p>
+                                    </CardText>
+                                </CardBody>
+                            </div>
+                        </div>
+                    </Card>
+                )}
+                { imageSala3 && (
+                    <Card className="mb-3 margin w-75 mx-auto">
+                        <div className="row g-0">
+                            <div className="col-lg-4">
+                                <CardImg src={imageSala3} alt='Sala 3 del Museo Nazionale del Rinascimento italiano'/>
+                            </div>
+                            <div className="col-lg-8 d-flex align-items-center">
+                                <CardBody>
+                                    <CardText>
+                                        <p>{descriptionSala3}</p>
+                                        <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala3}</p>
+                                    </CardText>
+                                </CardBody>
+                            </div>
+                        </div>
+                    </Card>
+                )}
+                { imageSala4 && (
+                    <Card className="mb-3 margin w-75 mx-auto">
+                        <div className="row g-0">
+                            <div className="col-lg-4">
+                                <CardImg src={imageSala4} alt='Sala 4 del Museo Nazionale del Rinascimento italiano'/>
+                            </div>
+                            <div className="col-lg-8 d-flex align-items-center">
+                                <CardBody>
+                                    <CardText>
+                                        <p>{descriptionSala4}</p>
+                                        <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala4}</p>
+                                    </CardText>
+                                </CardBody>
+                            </div>
+                        </div>
+                    </Card>
+                )}
+                { imageSala5 && (
+                    <Card className="mb-3 margin w-75 mx-auto">
+                        <div className="row g-0">
+                            <div className="col-lg-4">
+                                <CardImg src={imageSala5} alt='Sala 5 del Museo Nazionale del Rinascimento italiano'/>
+                            </div>
+                            <div className="col-lg-8 d-flex align-items-center">
+                                <CardBody>
+                                    <CardText>
+                                        <p>{descriptionSala5}</p>
+                                        <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala5}</p>
+                                    </CardText>
+                                </CardBody>
+                            </div>
+                        </div>
+                    </Card>
+                )}
+                { imageSala6 && (
+                    <Card className="mb-3 margin w-75 mx-auto">
+                        <div className="row g-0">
+                            <div className="col-lg-4">
+                                <CardImg src={imageSala6} alt='Sala 6 del Museo Nazionale del Rinascimento italiano'/>
+                            </div>
+                            <div className="col-lg-8 d-flex align-items-center">
+                                <CardBody>
+                                    <CardText>
+                                        <p>{descriptionSala6}</p>
+                                        <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala6}</p>
+                                    </CardText>
+                                </CardBody>
+                            </div>
+                        </div>
+                    </Card>
+                )}
+                { imageSala7 && (
+                    <Card className="mb-3 margin w-75 mx-auto">
+                        <div className="row g-0">
+                            <div className="col-lg-4">
+                                <CardImg src={imageSala7} alt='Sala 7 del Museo Nazionale del Rinascimento italiano'/>
+                            </div>
+                            <div className="col-lg-8 d-flex align-items-center">
+                                <CardBody>
+                                    <CardText>
+                                        <p>{descriptionSala7}</p>
+                                        <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala7}</p>
+                                    </CardText>
+                                </CardBody>
+                            </div>
+                        </div>
+                    </Card>
+                )}
+                { imageSala8 && (
+                    <Card className="mb-3 margin w-75 mx-auto">
+                        <div className="row g-0">
+                            <div className="col-lg-4">
+                                <CardImg src={imageSala8} alt='Sala 8 del Museo Nazionale del Rinascimento italiano'/>
+                            </div>
+                            <div className="col-lg-8 d-flex align-items-center">
+                                <CardBody>
+                                    <CardText>
+                                        <p>{descriptionSala8}</p>
+                                        <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala8}</p>
+                                    </CardText>
+                                </CardBody>
+                            </div>
+                        </div>
+                    </Card>
+                )}
+                { imageSala9 && (
+                    <Card className="mb-3 margin w-75 mx-auto">
+                        <div className="row g-0">
+                            <div className="col-lg-4">
+                                <CardImg src={imageSala9} alt='Sala 9 del Museo Nazionale del Rinascimento italiano'/>
+                            </div>
+                            <div className="col-lg-8 d-flex align-items-center">
+                                <CardBody>
+                                    <CardText>
+                                        <p>{descriptionSala9}</p>
+                                        <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala9}</p>
+                                    </CardText>
+                                </CardBody>
+                            </div>
+                        </div>
+                    </Card>
+                )}
+                { imageSala10 && (
+                    <Card className="mb-3 margin w-75 mx-auto">
+                        <div className="row g-0">
+                            <div className="col-lg-4">
+                                <CardImg src={imageSala10} alt='Sala 10 del Museo Nazionale del Rinascimento italiano'/>
+                            </div>
+                            <div className="col-lg-8 d-flex align-items-center">
+                                <CardBody>
+                                    <CardText>
+                                        <p>{descriptionSala10}</p>
+                                        <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala10}</p>
+                                    </CardText>
+                                </CardBody>
+                            </div>
+                        </div>
+                    </Card>
+                )}
+                { imageSala11 && (
+                    <Card className="mb-3 margin w-75 mx-auto">
+                        <div className="row g-0">
+                            <div className="col-lg-4">
+                                <CardImg src={imageSala11} alt='Sala 11 del Museo Nazionale del Rinascimento italiano'/>
+                            </div>
+                            <div className="col-lg-8 d-flex align-items-center">
+                                <CardBody>
+                                    <CardText>
+                                        <p>{descriptionSala11}</p>
+                                        <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala11}</p>
+                                    </CardText>
+                                </CardBody>
+                            </div>
+                        </div>
+                    </Card>
+                )}
+                { imageSala12 && (
+                    <Card className="mb-3 margin w-75 mx-auto">
+                        <div className="row g-0">
+                            <div className="col-lg-4">
+                                <CardImg src={imageSala12} alt='Sala 12 del Museo Nazionale del Rinascimento italiano'/>
+                            </div>
+                            <div className="col-lg-8 d-flex align-items-center">
+                                <CardBody>
+                                    <CardText>
+                                        <p>{descriptionSala12}</p>
+                                        <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala12}</p>
+                                    </CardText>
+                                </CardBody>
+                            </div>
+                        </div>
+                    </Card>
+                )}
+                { imageSala13 && (
+                    <Card className="mb-3 margin w-75 mx-auto">
+                        <div className="row g-0">
+                            <div className="col-lg-4">
+                                <CardImg src={imageSala13} alt='Sala 13 del Museo Nazionale del Rinascimento italiano'/>
+                            </div>
+                            <div className="col-lg-8 d-flex align-items-center">
+                                <CardBody>
+                                    <CardText>
+                                        <p>{descriptionSala13}</p>
+                                        <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala13}</p>
+                                    </CardText>
+                                </CardBody>
+                            </div>
+                        </div>
+                    </Card>
+                )}
+                { imageSala14 && (
+                    <Card className="mb-3 margin w-75 mx-auto">
+                        <div className="row g-0">
+                            <div className="col-lg-4">
+                                <CardImg src={imageSala14} alt='Sala 14 del Museo Nazionale del Rinascimento italiano'/>
+                            </div>
+                            <div className="col-lg-8 d-flex align-items-center">
+                                <CardBody>
+                                    <CardText>
+                                        <p>{descriptionSala14}</p>
+                                        <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala14}</p>
+                                    </CardText>
+                                </CardBody>
+                            </div>
+                        </div>
+                    </Card>
+                )}
+                { imageSala15 && (
+                    <Card className="mb-3 margin w-75 mx-auto">
+                        <div className="row g-0">
+                            <div className="col-lg-4">
+                                <CardImg src={imageSala15} alt='Sala 15 del Museo Nazionale del Rinascimento italiano'/>
+                            </div>
+                            <div className="col-lg-8 d-flex align-items-center">
+                                <CardBody>
+                                    <CardText>
+                                        <p>{descriptionSala15}</p>
+                                        <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala15}</p>
+                                    </CardText>
+                                </CardBody>
+                            </div>
+                        </div>
+                    </Card>
+                )}
+                { imageSala16 && (
+                    <Card className="mb-3 margin w-75 mx-auto">
+                        <div className="row g-0">
+                            <div className="col-lg-4">
+                                <CardImg src={imageSala16} alt='Sala 16 del Museo Nazionale del Rinascimento italiano'/>
+                            </div>
+                            <div className="col-lg-8 d-flex align-items-center">
+                                <CardBody>
+                                    <CardText>
+                                        <p>{descriptionSala16}</p>
+                                        <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala16}</p>
+                                    </CardText>
+                                </CardBody>
+                            </div>
+                        </div>
+                    </Card>
+                )}
+                { imageSala17 && (
+                    <Card className="mb-3 margin w-75 mx-auto">
+                        <div className="row g-0">
+                            <div className="col-lg-4">
+                                <CardImg src={imageSala17} alt='Sala 17 del Museo Nazionale del Rinascimento italiano'/>
+                            </div>
+                            <div className="col-lg-8 d-flex align-items-center">
+                                <CardBody>
+                                    <CardText>
+                                        <p>{descriptionSala17}</p>
+                                        <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala17}</p>
+                                    </CardText>
+                                </CardBody>
+                            </div>
+                        </div>
+                    </Card>
+                )}
+                { imageSala18 && (
+                    <Card className="mb-3 margin w-75 mx-auto">
+                        <div className="row g-0">
+                            <div className="col-lg-4">
+                                <CardImg src={imageSala18} alt='Sala 18 del Museo Nazionale del Rinascimento italiano'/>
+                            </div>
+                            <div className="col-lg-8 d-flex align-items-center">
+                                <CardBody>
+                                    <CardText>
+                                        <p>{descriptionSala18}</p>
+                                        <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala18}</p>
+                                    </CardText>
+                                </CardBody>
+                            </div>
+                        </div>
+                    </Card>
+                )}
+                { imageSala19 && (
+                    <Card className="mb-3 margin w-75 mx-auto">
+                        <div className="row g-0">
+                            <div className="col-lg-4">
+                                <CardImg src={imageSala19} alt='Sala 19 del Museo Nazionale del Rinascimento italiano'/>
+                            </div>
+                            <div className="col-lg-8 d-flex align-items-center">
+                                <CardBody>
+                                    <CardText>
+                                        <p>{descriptionSala19}</p>
+                                        <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala19}</p>
+                                    </CardText>
+                                </CardBody>
+                            </div>
+                        </div>
+                    </Card>
+                )}
+                { imageSala20 && (
+                    <Card className="mb-3 margin w-75 mx-auto">
+                        <div className="row g-0">
+                            <div className="col-lg-4">
+                                <CardImg src={imageSala20} alt='Sala 20 del Museo Nazionale del Rinascimento italiano'/>
+                            </div>
+                            <div className="col-lg-8 d-flex align-items-center">
+                                <CardBody>
+                                    <CardText>
+                                        <p>{descriptionSala20}</p>
+                                        <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala20}</p>
+                                    </CardText>
+                                </CardBody>
+                            </div>
+                        </div>
+                    </Card>
+                )}
+                { imageSala21 && (
+                    <Card className="mb-3 margin w-75 mx-auto">
+                        <div className="row g-0">
+                            <div className="col-lg-4">
+                                <CardImg src={imageSala21} alt='Sala 21 del Museo Nazionale del Rinascimento italiano'/>
+                            </div>
+                            <div className="col-lg-8 d-flex align-items-center">
+                                <CardBody>
+                                    <CardText>
+                                        <p>{descriptionSala21}</p>
+                                        <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala21}</p>
+                                    </CardText>
+                                </CardBody>
+                            </div>
+                        </div>
+                    </Card>
+                )}
+                { imageSala22 && (
+                    <Card className="mb-3 margin w-75 mx-auto">
+                        <div className="row g-0">
+                            <div className="col-lg-4">
+                                <CardImg src={imageSala22} alt='Sala 22 del Museo Nazionale del Rinascimento italiano'/>
+                            </div>
+                            <div className="col-lg-8 d-flex align-items-center">
+                                <CardBody>
+                                    <CardText>
+                                        <p>{descriptionSala22}</p>
+                                        <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala22}</p>
+                                    </CardText>
+                                </CardBody>
+                            </div>
+                        </div>
+                    </Card>
+                )}
+                { imageSala23 && (
+                    <Card className="mb-3 margin w-75 mx-auto">
+                        <div className="row g-0">
+                            <div className="col-lg-4">
+                                <CardImg src={imageSala23} alt='Sala 23 del Museo Nazionale del Rinascimento italiano'/>
+                            </div>
+                            <div className="col-lg-8 d-flex align-items-center">
+                                <CardBody>
+                                    <CardText>
+                                        <p>{descriptionSala23}</p>
+                                        <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala23}</p>
+                                    </CardText>
+                                </CardBody>
+                            </div>
+                        </div>
+                    </Card>
+                )}
+                { imageSala24 && (
+                    <Card className="mb-3 margin w-75 mx-auto">
+                        <div className="row g-0">
+                            <div className="col-lg-4">
+                                <CardImg src={imageSala24} alt='Sala 24 del Museo Nazionale del Rinascimento italiano'/>
+                            </div>
+                            <div className="col-lg-8 d-flex align-items-center">
+                                <CardBody>
+                                    <CardText>
+                                        <p>{descriptionSala24}</p>
+                                        <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala24}</p>
+                                    </CardText>
+                                </CardBody>
+                            </div>
+                        </div>
+                    </Card>
+                )}
+                { imageSala25 && (
+                    <Card className="mb-3 margin w-75 mx-auto">
+                        <div className="row g-0">
+                            <div className="col-lg-4">
+                                <CardImg src={imageSala25} alt='Sala 25 del Museo Nazionale del Rinascimento italiano'/>
+                            </div>
+                            <div className="col-lg-8 d-flex align-items-center">
+                                <CardBody>
+                                    <CardText>
+                                        <p>{descriptionSala25}</p>
+                                        <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala25}</p>
+                                    </CardText>
+                                </CardBody>
+                            </div>
+                        </div>
+                    </Card>
+                )}
+                { imageSala26 && (
+                    <Card className="mb-3 margin w-75 mx-auto">
+                        <div className="row g-0">
+                            <div className="col-lg-4">
+                                <CardImg src={imageSala26} alt='Sala 26 del Museo Nazionale del Rinascimento italiano'/>
+                            </div>
+                            <div className="col-lg-8 d-flex align-items-center">
+                                <CardBody>
+                                    <CardText>
+                                        <p>{descriptionSala26}</p>
+                                        <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala26}</p>
+                                    </CardText>
+                                </CardBody>
+                            </div>
+                        </div>
+                    </Card>
+                )}
+                { imageSala27 && (
+                    <Card className="mb-3 margin w-75 mx-auto">
+                        <div className="row g-0">
+                            <div className="col-lg-4">
+                                <CardImg src={imageSala27} alt='Sala 27 del Museo Nazionale del Rinascimento italiano'/>
+                            </div>
+                            <div className="col-lg-8 d-flex align-items-center">
+                                <CardBody>
+                                    <CardText>
+                                        <p>{descriptionSala27}</p>
+                                        <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala27}</p>
+                                    </CardText>
+                                </CardBody>
+                            </div>
+                        </div>
+                    </Card>
+                )}
+                { imageSala28 && (
+                    <Card className="mb-3 margin w-75 mx-auto">
+                        <div className="row g-0">
+                            <div className="col-lg-4">
+                                <CardImg  src={imageSala28} alt='Sala 28 del Museo Nazionale del Rinascimento italiano'/>
+                            </div>
+                            <div className="col-lg-8 d-flex align-items-center">
+                                <CardBody>
+                                    <CardText>
+                                        <p>{descriptionSala28}</p>
+                                        <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala28}</p>
+                                    </CardText>
+                                </CardBody>
+                            </div>
+                        </div>
+                    </Card>
+                )}
+                { imageSala29 && (
+                    <Card className="mb-3 margin w-75 mx-auto">
+                        <div className="row g-0">
+                            <div className="col-lg-4">
+                                <CardImg  src={imageSala29} alt='Sala 29 del Museo Nazionale del Rinascimento italiano'/>
+                            </div>
+                            <div className="col-lg-8 d-flex align-items-center">
+                                <CardBody>
+                                    <CardText>
+                                        <p>{descriptionSala29}</p>
+                                        <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala29}</p>
+                                    </CardText>
+                                </CardBody>
+                            </div>
+                        </div>
+                    </Card>
+                )}
+                { imageSala30 && (
+                    <Card className="mb-3 margin w-75 mx-auto">
+                        <div className="row g-0">
+                            <div className="col-lg-4">
+                                <CardImg src={imageSala30} alt='Sala 30 del Museo Nazionale del Rinascimento italiano'/>
+                            </div>
+                            <div className="col-lg-8 d-flex align-items-center">
+                                <CardBody>
+                                    <CardText>
+                                        <p>{descriptionSala30}</p>
+                                        <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala30}</p>
+                                    </CardText>
+                                </CardBody>
+                            </div>
+                        </div>
+                    </Card>
+                )}
+                { imageSalaCodici && (
+                    <Card className="mb-3 margin w-75 mx-auto">
+                        <div className="row g-0">
+                            <div className="col-lg-4">
+                                <CardImg src={imageSalaCodici} alt='Sala Codici del Museo Nazionale del Rinascimento italiano'/>
+                            </div>
+                            <div className="col-lg-8 d-flex align-items-center">
+                                <CardBody>
+                                    <CardText>
+                                        <p>{descriptionSalaCodici}</p>
+                                        <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSalaCodici}</p>
+                                    </CardText>
+                                </CardBody>
+                            </div>
+                        </div>
+                    </Card>
+                )}
+                { imageSalaPlebisciti && (
+                    <Card className="mb-3 margin w-75 mx-auto">
+                        <div className="row g-0">
+                            <div className="col-lg-4">
+                                <CardImg src={imageSalaPlebisciti} alt='Sala Plebisciti del Museo Nazionale del Rinascimento italiano'/>
+                            </div>
+                            <div className="col-lg-8 d-flex align-items-center">
+                                <CardBody>
+                                    <CardText>
+                                        <p>{descriptionSalaPlebisciti}</p>
+                                        <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSalaPlebisciti}</p>
+                                    </CardText>
+                                </CardBody>
+                            </div>
+                        </div>
+                    </Card>
+                )}
+                { imageCorridoiodellaCameraitaliana && (
+                    <Card className="mb-3 margin w-75 mx-auto">
+                        <div className="row g-0">
+                            <div className="col-lg-4">
+                                <CardImg src={imageCorridoiodellaCameraitaliana} alt='Corridoio della Camera italiana del Museo Nazionale del Rinascimento italiano'/>
+                            </div>
+                            <div className="col-lg-8 d-flex align-items-center">
+                                <CardBody>
+                                    <CardText>
+                                        <p>{descriptionCorridoiodellaCameraitaliana}</p>
+                                        <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleCorridoiodellaCameraitaliana}</p>
+                                    </CardText>
+                                </CardBody>
+                            </div>
+                        </div>
+                    </Card>
+                )}
             </div>
             <div className="margin mt-3">
                 <Card className="mb-3 margin">
@@ -2816,348 +4608,6 @@ export default function Mn_del_R_italiano(props) {
                         </div>
                     </div>
                 </Card>
-            </div>
-            <div className='margin mb-4'>
-                <Button className='mb-3 me-3' onClick={Ingresso}>Ingresso</Button>
-                <Button className='mb-3 me-3' onClick={Sala1}>Sala 1</Button>
-                <Button className='mb-3 me-3' onClick={Sala2}>Sala 2</Button>
-                <Button className='mb-3 me-3' onClick={Sala3}>Sala 3</Button>
-                <Button className='mb-3 me-3' onClick={Sala4}>Sala 4</Button>
-                <Button className='mb-3 me-3' onClick={Sala5}>Sala 5</Button>
-                <Button className='mb-3 me-3' onClick={Sala6}>Sala 6</Button>
-                <Button className='mb-3 me-3' onClick={Sala7}>Sala 7</Button>
-                <Button className='mb-3 me-3' onClick={Sala8}>Sala 8</Button>
-                <Button className='mb-3 me-3' onClick={Sala9}>Sala 9</Button>
-                <Button className='mb-3 me-3' onClick={Sala10}>Sala 10</Button>
-                <Button className='mb-3 me-3' onClick={Sala11}>Sala 11</Button>
-                <Button className='mb-3 me-3' onClick={Sala12}>Sala 12</Button>
-                <Button className='mb-3 me-3' onClick={Sala13}>Sala 13</Button>
-                <Button className='mb-3 me-3' onClick={Sala14}>Sala 14</Button>
-                <Button className='mb-3 me-3' onClick={Sala15}>Sala 15</Button>
-                <Button className='mb-3 me-3' onClick={Sala16}>Sala 16</Button>
-                <Button className='mb-3 me-3' onClick={Sala17}>Sala 17</Button>
-                <Button className='mb-3 me-3' onClick={Sala18}>Sala 18</Button>
-                <Button className='mb-3 me-3' onClick={Sala19}>Sala 19</Button>
-                <Button className='mb-3 me-3' onClick={Sala20}>Sala 20</Button>
-                <Button className='mb-3 me-3' onClick={Sala21}>Sala 21</Button>
-                <Button className='mb-3 me-3' onClick={Sala22}>Sala 22</Button>
-                <Button className='mb-3 me-3' onClick={Sala23}>Sala 23</Button>
-                <Button className='mb-3 me-3' onClick={Sala24}>Sala 24</Button>
-                <Button className='mb-3 me-3' onClick={Sala25}>Sala 25</Button>
-                <Button className='mb-3 me-3' onClick={Sala26}>Sala 26</Button>
-                <Button className='mb-3 me-3' onClick={Sala27}>Sala 27</Button>
-                <Button className='mb-3 me-3' onClick={Sala28}>Sala 28</Button>
-                <Button className='mb-3 me-3' onClick={Sala29}>Sala 29</Button>
-                <Button className='mb-3 me-3' onClick={Sala30}>Sala 30</Button>
-                <Button className='mb-3 me-3' onClick={SalaCodici}>Sala Codici</Button>
-                <Button className='mb-3 me-3' onClick={SalaPlebisciti}>Sala Plebisciti</Button>
-                <Button className='mb-3 me-3' onClick={CorridoiodellaCameraitaliana}>Corridoio della Camera italiana</Button>
-                { imageIngresso && (
-                    <div className="d-flex justify-content-center">
-                        <img src={imageIngresso} alt="Ingresso del Museo Nazionale del Rinascimento Italiano" className='w-25' />
-                        <div className="ms-4 align-content-center">
-                            <p>{descriptionIngresso}</p>
-                            <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleIngresso}</p>
-                        </div>
-                    </div>
-                )}
-                { imageSala1 && (
-                    <div className='d-flex justify-content-center'>
-                        <img src={imageSala1} alt='Sala 1 del Museo Nazionale del Rinascimento italiano' className='w-25'/>
-                        <div className="ms-4 align-content-center">
-                            <p>{descriptionSala1}</p>
-                            <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala1}</p>
-                        </div>
-                    </div>
-                )}
-                { imageSala2 && (
-                    <div className='d-flex justify-content-center'>
-                        <img src={imageSala2} alt='Sala 2 del Museo Nazionale del Rinascimento italiano' className='w-25'/>
-                        <div className="ms-4 align-content-center">
-                            <p>{descriptionSala2}</p>
-                            <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala2}</p>
-                        </div>
-                    </div>
-                )}
-                { imageSala3 && (
-                    <div className='d-flex justify-content-center'>
-                        <img src={imageSala3} alt='Sala 3 del Museo Nazionale del Rinascimento italiano' className='w-25'/>
-                        <div className="ms-4 align-content-center">
-                            <p>{descriptionSala3}</p>
-                            <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala3}</p>
-                        </div>
-                    </div>
-                )}
-                { imageSala4 && (
-                    <div className='d-flex justify-content-center'>
-                        <img src={imageSala4} alt='Sala 4 del Museo Nazionale del Rinascimento italiano' className='w-25'/>
-                        <div className="ms-4 align-content-center">
-                            <p>{descriptionSala4}</p>
-                            <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala4}</p>
-                        </div>
-                    </div>
-                )}
-                { imageSala5 && (
-                    <div className='d-flex justify-content-center'>
-                        <img src={imageSala5} alt='Sala 5 del Museo Nazionale del Rinascimento italiano' className='w-25'/>
-                        <div className="ms-4 align-content-center">
-                            <p>{descriptionSala5}</p>
-                            <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala5}</p>
-                        </div>
-                    </div>
-                )}
-                { imageSala6 && (
-                    <div className='d-flex justify-content-center'>
-                        <img src={imageSala6} alt='Sala 6 del Museo Nazionale del Rinascimento italiano' className='w-25'/>
-                        <div className="ms-4 align-content-center">
-                            <p>{descriptionSala6}</p>
-                            <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala6}</p>
-                        </div>
-                    </div>
-                )}
-                { imageSala7 && (
-                    <div className='d-flex justify-content-center'>
-                        <img src={imageSala7} alt='Sala 7 del Museo Nazionale del Rinascimento italiano' className='w-25'/>
-                        <div className="ms-4 align-content-center">
-                            <p>{descriptionSala7}</p>
-                            <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala7}</p>
-                        </div>
-                    </div>
-                )}
-                { imageSala8 && (
-                    <div className='d-flex justify-content-center'>
-                        <img src={imageSala8} alt='Sala 8 del Museo Nazionale del Rinascimento italiano' className='w-25'/>
-                        <div className="ms-4 align-content-center">
-                            <p>{descriptionSala8}</p>
-                            <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala8}</p>
-                        </div>
-                    </div>
-                )}
-                { imageSala9 && (
-                    <div className='d-flex justify-content-center'>
-                        <img src={imageSala9} alt='Sala 9 del Museo Nazionale del Rinascimento italiano' className='w-25'/>
-                        <div className="ms-4 align-content-center">
-                            <p>{descriptionSala9}</p>
-                            <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala9}</p>
-                        </div>
-                    </div>
-                )}
-                { imageSala10 && (
-                    <div className='d-flex justify-content-center'>
-                        <img src={imageSala10} alt='Sala 10 del Museo Nazionale del Rinascimento italiano' className='w-25'/>
-                        <div className="ms-4 align-content-center">
-                            <p>{descriptionSala10}</p>
-                            <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala10}</p>
-                        </div>
-                    </div>
-                )}
-                { imageSala11 && (
-                    <div className='d-flex justify-content-center'>
-                        <img src={imageSala11} alt='Sala 11 del Museo Nazionale del Rinascimento italiano' className='w-25'/>
-                        <div className="ms-4 align-content-center">
-                            <p>{descriptionSala11}</p>
-                            <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala11}</p>
-                        </div>
-                    </div>
-                )}
-                { imageSala12 && (
-                    <div className='d-flex justify-content-center'>
-                        <img src={imageSala12} alt='Sala 12 del Museo Nazionale del Rinascimento italiano' className='w-25'/>
-                        <div className="ms-4 align-content-center">
-                            <p>{descriptionSala12}</p>
-                            <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala12}</p>
-                        </div>
-                    </div>
-                )}
-                { imageSala13 && (
-                    <div className='d-flex justify-content-center'>
-                        <img src={imageSala13} alt='Sala 13 del Museo Nazionale del Rinascimento italiano' className='w-25'/>
-                        <div className="ms-4 align-content-center">
-                            <p>{descriptionSala13}</p>
-                            <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala13}</p>
-                        </div>
-                    </div>
-                )}
-                { imageSala14 && (
-                    <div className='d-flex justify-content-center'>
-                        <img src={imageSala14} alt='Sala 14 del Museo Nazionale del Rinascimento italiano' className='w-25'/>
-                        <div className="ms-4 align-content-center">
-                            <p>{descriptionSala14}</p>
-                            <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala14}</p>
-                        </div>
-                    </div>
-                )}
-                { imageSala15 && (
-                    <div className='d-flex justify-content-center'>
-                        <img src={imageSala15} alt='Sala 15 del Museo Nazionale del Rinascimento italiano' className='w-25'/>
-                        <div className="ms-4 align-content-center">
-                            <p>{descriptionSala15}</p>
-                            <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala15}</p>
-                        </div>
-                    </div>
-                )}
-                { imageSala16 && (
-                    <div className='d-flex justify-content-center'>
-                        <img src={imageSala16} alt='Sala 16 del Museo Nazionale del Rinascimento italiano' className='w-25'/>
-                        <div className="ms-4 align-content-center">
-                            <p>{descriptionSala16}</p>
-                            <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala16}</p>
-                        </div>
-                    </div>
-                )}
-                { imageSala17 && (
-                    <div className='d-flex justify-content-center'>
-                        <img src={imageSala17} alt='Sala 17 del Museo Nazionale del Rinascimento italiano' className='w-25'/>
-                        <div className="ms-4 align-content-center">
-                            <p>{descriptionSala17}</p>
-                            <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala17}</p>
-                        </div>
-                    </div>
-                )}
-                { imageSala18 && (
-                    <div className='d-flex justify-content-center'>
-                        <img src={imageSala18} alt='Sala 18 del Museo Nazionale del Rinascimento italiano' className='w-25'/>
-                        <div className="ms-4 align-content-center">
-                            <p>{descriptionSala18}</p>
-                            <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala18}</p>
-                        </div>
-                    </div>
-                )}
-                { imageSala19 && (
-                    <div className='d-flex justify-content-center'>
-                        <img src={imageSala19} alt='Sala 19 del Museo Nazionale del Rinascimento italiano' className='w-25'/>
-                        <div className="ms-4 align-content-center">
-                            <p>{descriptionSala19}</p>
-                            <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala19}</p>
-                        </div>
-                    </div>
-                )}
-                { imageSala20 && (
-                    <div className='d-flex justify-content-center'>
-                        <img src={imageSala20} alt='Sala 20 del Museo Nazionale del Rinascimento italiano' className='w-25'/>
-                        <div className="ms-4 align-content-center">
-                            <p>{descriptionSala20}</p>
-                            <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala20}</p>
-                        </div>
-                    </div>
-                )}
-                { imageSala21 && (
-                    <div className='d-flex justify-content-center'>
-                        <img src={imageSala21} alt='Sala 21 del Museo Nazionale del Rinascimento italiano' className='w-25'/>
-                        <div className="ms-4 align-content-center">
-                            <p>{descriptionSala21}</p>
-                            <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala21}</p>
-                        </div>
-                    </div>
-                )}
-                { imageSala22 && (
-                    <div className='d-flex justify-content-center'>
-                        <img src={imageSala22} alt='Sala 22 del Museo Nazionale del Rinascimento italiano' className='w-25'/>
-                        <div className="ms-4 align-content-center">
-                            <p>{descriptionSala22}</p>
-                            <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala22}</p>
-                        </div>
-                    </div>
-                )}
-                { imageSala23 && (
-                    <div className='d-flex justify-content-center'>
-                        <img src={imageSala23} alt='Sala 23 del Museo Nazionale del Rinascimento italiano' className='w-25'/>
-                        <div className="ms-4 align-content-center">
-                            <p>{descriptionSala23}</p>
-                            <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala23}</p>
-                        </div>
-                    </div>
-                )}
-                { imageSala24 && (
-                    <div className='d-flex justify-content-center'>
-                        <img src={imageSala24} alt='Sala 24 del Museo Nazionale del Rinascimento italiano' className='w-25'/>
-                        <div className="ms-4 align-content-center">
-                            <p>{descriptionSala24}</p>
-                            <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala24}</p>
-                        </div>
-                    </div>
-                )}
-                { imageSala25 && (
-                    <div className='d-flex justify-content-center'>
-                        <img src={imageSala25} alt='Sala 25 del Museo Nazionale del Rinascimento italiano' className='w-25'/>
-                        <div className="ms-4 align-content-center">
-                            <p>{descriptionSala25}</p>
-                            <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala25}</p>
-                        </div>
-                    </div>
-                )}
-                { imageSala26 && (
-                    <div className='d-flex justify-content-center'>
-                        <img src={imageSala26} alt='Sala 26 del Museo Nazionale del Rinascimento italiano' className='w-25'/>
-                        <div className="ms-4 align-content-center">
-                            <p>{descriptionSala26}</p>
-                            <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala26}</p>
-                        </div>
-                    </div>
-                )}
-                { imageSala27 && (
-                    <div className='d-flex justify-content-center'>
-                        <img src={imageSala27} alt='Sala 27 del Museo Nazionale del Rinascimento italiano' className='w-25'/>
-                        <div className="ms-4 align-content-center">
-                            <p>{descriptionSala27}</p>
-                            <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala27}</p>
-                        </div>
-                    </div>
-                )}
-                { imageSala28 && (
-                    <div className='d-flex justify-content-center'>
-                        <img src={imageSala28} alt='Sala 28 del Museo Nazionale del Rinascimento italiano' className='w-25'/>
-                        <div className="ms-4 align-content-center">
-                            <p>{descriptionSala28}</p>
-                            <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala28}</p>
-                        </div>
-                    </div>
-                )}
-                { imageSala29 && (
-                    <div className='d-flex justify-content-center'>
-                        <img src={imageSala29} alt='Sala 29 del Museo Nazionale del Rinascimento italiano' className='w-25'/>
-                        <div className="ms-4 align-content-center">
-                            <p>{descriptionSala29}</p>
-                            <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala29}</p>
-                        </div>
-                    </div>
-                )}
-                { imageSala30 && (
-                    <div className='d-flex justify-content-center'>
-                        <img src={imageSala30} alt='Sala 30 del Museo Nazionale del Rinascimento italiano' className='w-25'/>
-                        <div className="ms-4 align-content-center">
-                            <p>{descriptionSala30}</p>
-                            <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala30}</p>
-                        </div>
-                    </div>
-                )}
-                { imageSalaCodici && (
-                    <div className='d-flex justify-content-center'>
-                        <img src={imageSalaCodici} alt='Sala Codici del Museo Nazionale del Rinascimento italiano' className='w-25'/>
-                        <div className="ms-4 align-content-center">
-                            <p>{descriptionSalaCodici}</p>
-                            <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSalaCodici}</p>
-                        </div>
-                    </div>
-                )}
-                { imageSalaPlebisciti && (
-                    <div className='d-flex justify-content-center'>
-                        <img src={imageSalaPlebisciti} alt='Sala Plebisciti del Museo Nazionale del Rinascimento italiano' className='w-25'/>
-                        <div className="ms-4 align-content-center">
-                            <p>{descriptionSalaPlebisciti}</p>
-                            <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSalaPlebisciti}</p>
-                        </div>
-                    </div>
-                )}
-                { imageCorridoiodellaCameraitaliana && (
-                    <div className='d-flex justify-content-center'>
-                        <img src={imageCorridoiodellaCameraitaliana} alt='CorridoiodellaCameraitaliana del Museo Nazionale del Rinascimento italiano' className='w-25'/>
-                        <div className="ms-4 align-content-center">
-                            <p>{descriptionCorridoiodellaCameraitaliana}</p>
-                            <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleCorridoiodellaCameraitaliana}</p>
-                        </div>
-                    </div>
-                )}
             </div>
             <div className='margin mb-4'>
                 <h3 className='color-subtitle text-center'>Mappa</h3>

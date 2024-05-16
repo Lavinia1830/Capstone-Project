@@ -16,8 +16,14 @@ export default function Museo_della_Sindone(props) {
             </div>
             <div className="margin mt-3">
                 <p>
-                    Gli appassionati della Sindone saranno entusiasti di questo museo, tuttavia, nonostante i pannelli informativi e i reperti insoliti (per esempio, la prima macchina usata per fotografare il telo nel 1898 e le provette usate per conservare le tracce di sangue umano prelevate dalla Sindone nel 1978), il museo fa ben poco per svelare il mistero 
-                    della reliquia più famosa del mondo.
+                    Il <strong>Museo della Sindone</strong> – che oggi si estende sul piano terra dell’edificio di via S. Domenico 28 e nella cripta della chiesa del SS. Sudario di Torino – ha ottant’anni e conta 
+                    una serie di sempre più sistematici allestimenti.
+                </p>
+                <p>
+                    Fu infatti intorno al <b>1936</b> che la <b>Confraternita del SS. Sudario</b> – ente ecclesiale fondato il 25 maggio 1598 proprio per diffondere il culto e la devozione alla Sindone  – decise 
+                    di organizzare alcuni dei preziosi <b>reperti</b> sulla <b>Sindone</b> raccolti nei secoli in una <b>mostra permanente</b>. L’esposizione fu inaugurata il <b>4 giugno 1936</b> alla presenza 
+                    dell’arcivescovo di Torino, <b>card.Maurilio Fossati</b>. La “<b>Mostra documentaria dell’insigne reliquia</b>“, come allora fu battezzata, trovò spazio in due stanze a fianco della <b>Chiesa 
+                    del SS. Sudario</b>.
                 </p>
             </div>
             <div className='margin mb-4'>
