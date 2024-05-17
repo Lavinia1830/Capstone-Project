@@ -16,7 +16,8 @@ export default function Quadrilatero_Romano(props) {
             </div>
             <div className="margin mt-3">
                 <p>
-                    Fino a pochi anni fa corrispondeva all’area malfamata e degratada del centro storico, oggi è il punto di riferimento della movida torinese.
+                    Il <strong>Quadrilatero Romano</strong> è un quartiere della città di <b>Torino</b> caratterizzata da un passato molto antico e da 
+                    una <b>moderna riqualificazione</b> che lo ha reso uno dei centri della movida notturna della città.
                 </p>
             </div>
             <div className='margin mb-4'>

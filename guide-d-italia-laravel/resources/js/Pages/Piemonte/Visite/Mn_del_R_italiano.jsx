@@ -45,6 +45,7 @@ import Sala_30_mn_del_r_italiano from '../../../../assets/Piemonte/Sala_30_mn_de
 import Sala_Codici_mn_del_r_italiano from '../../../../assets/Piemonte/Sala_Codici_mn_del_r_italiano_Torino_Piemonte.jpg';
 import Sala_Plebisciti_mn_del_r_italiano from '../../../../assets/Piemonte/Sala_Plebisciti_mn_del_r_italiano_Torino_Piemonte.jpg';
 import Corridoio_della_Camera_italiana_mn_del_r_italiano from '../../../../assets/Piemonte/Corridoio_della_Camera_italiana_mn_del_r_italiano_Torino_Piemonte.jpg';
+import { Head } from '@inertiajs/react';
 
 
 export default function Mn_del_R_italiano(props) {
@@ -3787,844 +3788,848 @@ export default function Mn_del_R_italiano(props) {
     };
 
   return (
-    <AuthenticatedLayout
-      auth={props.auth}
-      errors={props.errors}
-    >
-        <main>
-            <div className='mn_del_r_italiano mb-4' style={{ position: 'relative' }}>
-                <h1 className='text-center' style={{ position: 'absolute', top: 20, left: 20 }}>Museo Nazionale del Risorgimento Italiano</h1>
-                <span className='text-light' style={{ position: 'absolute', bottom: 50, left: 20 }}>CATEGORIE</span>
-                <p className='categorie' style={{ position: 'absolute', bottom: 10, left: 20 }}>Da vedere</p>
-            </div>
-            
-            <div className='margin mb-4 '>
-                <Button className='mb-3 me-3' onClick={Ingresso}>Ingresso</Button>
-                <Button className='mb-3 me-3' onClick={Sala1}>Sala 1</Button>
-                <Button className='mb-3 me-3' onClick={Sala2}>Sala 2</Button>
-                <Button className='mb-3 me-3' onClick={Sala3}>Sala 3</Button>
-                <Button className='mb-3 me-3' onClick={Sala4}>Sala 4</Button>
-                <Button className='mb-3 me-3' onClick={Sala5}>Sala 5</Button>
-                <Button className='mb-3 me-3' onClick={Sala6}>Sala 6</Button>
-                <Button className='mb-3 me-3' onClick={Sala7}>Sala 7</Button>
-                <Button className='mb-3 me-3' onClick={Sala8}>Sala 8</Button>
-                <Button className='mb-3 me-3' onClick={Sala9}>Sala 9</Button>
-                <Button className='mb-3 me-3' onClick={Sala10}>Sala 10</Button>
-                <Button className='mb-3 me-3' onClick={Sala11}>Sala 11</Button>
-                <Button className='mb-3 me-3' onClick={Sala12}>Sala 12</Button>
-                <Button className='mb-3 me-3' onClick={Sala13}>Sala 13</Button>
-                <Button className='mb-3 me-3' onClick={Sala14}>Sala 14</Button>
-                <Button className='mb-3 me-3' onClick={Sala15}>Sala 15</Button>
-                <Button className='mb-3 me-3' onClick={Sala16}>Sala 16</Button>
-                <Button className='mb-3 me-3' onClick={Sala17}>Sala 17</Button>
-                <Button className='mb-3 me-3' onClick={Sala18}>Sala 18</Button>
-                <Button className='mb-3 me-3' onClick={Sala19}>Sala 19</Button>
-                <Button className='mb-3 me-3' onClick={Sala20}>Sala 20</Button>
-                <Button className='mb-3 me-3' onClick={Sala21}>Sala 21</Button>
-                <Button className='mb-3 me-3' onClick={Sala22}>Sala 22</Button>
-                <Button className='mb-3 me-3' onClick={Sala23}>Sala 23</Button>
-                <Button className='mb-3 me-3' onClick={Sala24}>Sala 24</Button>
-                <Button className='mb-3 me-3' onClick={Sala25}>Sala 25</Button>
-                <Button className='mb-3 me-3' onClick={Sala26}>Sala 26</Button>
-                <Button className='mb-3 me-3' onClick={Sala27}>Sala 27</Button>
-                <Button className='mb-3 me-3' onClick={Sala28}>Sala 28</Button>
-                <Button className='mb-3 me-3' onClick={Sala29}>Sala 29</Button>
-                <Button className='mb-3 me-3' onClick={Sala30}>Sala 30</Button>
-                <Button className='mb-3 me-3' onClick={SalaCodici}>Sala Codici</Button>
-                <Button className='mb-3 me-3' onClick={SalaPlebisciti}>Sala Plebisciti</Button>
-                <Button className='mb-3 me-3' onClick={CorridoiodellaCameraitaliana}>Corridoio della Camera italiana</Button>
-                { imageIngresso && (
-                    <Card className="mb-3 margin w-75 mx-auto">
-                    <div className="row g-0">
-                        <div className="col-lg-4">
-                            <CardImg src={imageIngresso} alt="Ingresso del Museo Nazionale del Rinascimento Italiano"/>
-                        </div>
-                        <div className="col-lg-8 d-flex align-items-center">
-                            <CardBody>
-                                <CardText>
-                                    <p>{descriptionIngresso}</p>
-                                    <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleIngresso}</p>
-                                </CardText>
-                            </CardBody>
-                        </div>
-                    </div>
-                </Card>
-                )}
-                { imageSala1 && (
-                    <Card className="mb-3 margin w-75 mx-auto">
+    <>
+        <Head title="Museo Nazionale del Risorgimento Italiano"/>
+        <AuthenticatedLayout
+            auth={props.auth}
+            errors={props.errors}
+        >
+            <main>
+                <div className='mn_del_r_italiano mb-4' style={{ position: 'relative' }}>
+                    <h1 className='text-center' style={{ position: 'absolute', top: 20, left: 20 }}>Museo Nazionale del Risorgimento Italiano</h1>
+                    <span className='text-light' style={{ position: 'absolute', bottom: 50, left: 20 }}>CATEGORIE</span>
+                    <p className='categorie' style={{ position: 'absolute', bottom: 10, left: 20 }}>Da vedere</p>
+                </div>
+                
+                <div className='margin mb-4 '>
+                    <Button className='mb-3 me-3' onClick={Ingresso}>Ingresso</Button>
+                    <Button className='mb-3 me-3' onClick={Sala1}>Sala 1</Button>
+                    <Button className='mb-3 me-3' onClick={Sala2}>Sala 2</Button>
+                    <Button className='mb-3 me-3' onClick={Sala3}>Sala 3</Button>
+                    <Button className='mb-3 me-3' onClick={Sala4}>Sala 4</Button>
+                    <Button className='mb-3 me-3' onClick={Sala5}>Sala 5</Button>
+                    <Button className='mb-3 me-3' onClick={Sala6}>Sala 6</Button>
+                    <Button className='mb-3 me-3' onClick={Sala7}>Sala 7</Button>
+                    <Button className='mb-3 me-3' onClick={Sala8}>Sala 8</Button>
+                    <Button className='mb-3 me-3' onClick={Sala9}>Sala 9</Button>
+                    <Button className='mb-3 me-3' onClick={Sala10}>Sala 10</Button>
+                    <Button className='mb-3 me-3' onClick={Sala11}>Sala 11</Button>
+                    <Button className='mb-3 me-3' onClick={Sala12}>Sala 12</Button>
+                    <Button className='mb-3 me-3' onClick={Sala13}>Sala 13</Button>
+                    <Button className='mb-3 me-3' onClick={Sala14}>Sala 14</Button>
+                    <Button className='mb-3 me-3' onClick={Sala15}>Sala 15</Button>
+                    <Button className='mb-3 me-3' onClick={Sala16}>Sala 16</Button>
+                    <Button className='mb-3 me-3' onClick={Sala17}>Sala 17</Button>
+                    <Button className='mb-3 me-3' onClick={Sala18}>Sala 18</Button>
+                    <Button className='mb-3 me-3' onClick={Sala19}>Sala 19</Button>
+                    <Button className='mb-3 me-3' onClick={Sala20}>Sala 20</Button>
+                    <Button className='mb-3 me-3' onClick={Sala21}>Sala 21</Button>
+                    <Button className='mb-3 me-3' onClick={Sala22}>Sala 22</Button>
+                    <Button className='mb-3 me-3' onClick={Sala23}>Sala 23</Button>
+                    <Button className='mb-3 me-3' onClick={Sala24}>Sala 24</Button>
+                    <Button className='mb-3 me-3' onClick={Sala25}>Sala 25</Button>
+                    <Button className='mb-3 me-3' onClick={Sala26}>Sala 26</Button>
+                    <Button className='mb-3 me-3' onClick={Sala27}>Sala 27</Button>
+                    <Button className='mb-3 me-3' onClick={Sala28}>Sala 28</Button>
+                    <Button className='mb-3 me-3' onClick={Sala29}>Sala 29</Button>
+                    <Button className='mb-3 me-3' onClick={Sala30}>Sala 30</Button>
+                    <Button className='mb-3 me-3' onClick={SalaCodici}>Sala Codici</Button>
+                    <Button className='mb-3 me-3' onClick={SalaPlebisciti}>Sala Plebisciti</Button>
+                    <Button className='mb-3 me-3' onClick={CorridoiodellaCameraitaliana}>Corridoio della Camera italiana</Button>
+                    { imageIngresso && (
+                        <Card className="mb-3 margin w-75 mx-auto">
                         <div className="row g-0">
                             <div className="col-lg-4">
-                                <CardImg src={imageSala1} alt='Sala 1 del Museo Nazionale del Rinascimento italiano'/>
+                                <CardImg src={imageIngresso} alt="Ingresso del Museo Nazionale del Rinascimento Italiano"/>
                             </div>
                             <div className="col-lg-8 d-flex align-items-center">
                                 <CardBody>
                                     <CardText>
-                                        <p>{descriptionSala1}</p>
-                                        <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala1}</p>
+                                        <p>{descriptionIngresso}</p>
+                                        <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleIngresso}</p>
                                     </CardText>
                                 </CardBody>
                             </div>
                         </div>
                     </Card>
-                )}
-                { imageSala2 && (
-                    <Card className="mb-3 margin w-75 mx-auto">
+                    )}
+                    { imageSala1 && (
+                        <Card className="mb-3 margin w-75 mx-auto">
+                            <div className="row g-0">
+                                <div className="col-lg-4">
+                                    <CardImg src={imageSala1} alt='Sala 1 del Museo Nazionale del Rinascimento italiano'/>
+                                </div>
+                                <div className="col-lg-8 d-flex align-items-center">
+                                    <CardBody>
+                                        <CardText>
+                                            <p>{descriptionSala1}</p>
+                                            <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala1}</p>
+                                        </CardText>
+                                    </CardBody>
+                                </div>
+                            </div>
+                        </Card>
+                    )}
+                    { imageSala2 && (
+                        <Card className="mb-3 margin w-75 mx-auto">
+                            <div className="row g-0">
+                                <div className="col-lg-4">
+                                    <CardImg src={imageSala2} alt='Sala 2 del Museo Nazionale del Rinascimento italiano'/>
+                                </div>
+                                <div className="col-lg-8 d-flex align-items-center">
+                                    <CardBody>
+                                        <CardText>
+                                            <p>{descriptionSala2}</p>
+                                            <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala2}</p>
+                                        </CardText>
+                                    </CardBody>
+                                </div>
+                            </div>
+                        </Card>
+                    )}
+                    { imageSala3 && (
+                        <Card className="mb-3 margin w-75 mx-auto">
+                            <div className="row g-0">
+                                <div className="col-lg-4">
+                                    <CardImg src={imageSala3} alt='Sala 3 del Museo Nazionale del Rinascimento italiano'/>
+                                </div>
+                                <div className="col-lg-8 d-flex align-items-center">
+                                    <CardBody>
+                                        <CardText>
+                                            <p>{descriptionSala3}</p>
+                                            <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala3}</p>
+                                        </CardText>
+                                    </CardBody>
+                                </div>
+                            </div>
+                        </Card>
+                    )}
+                    { imageSala4 && (
+                        <Card className="mb-3 margin w-75 mx-auto">
+                            <div className="row g-0">
+                                <div className="col-lg-4">
+                                    <CardImg src={imageSala4} alt='Sala 4 del Museo Nazionale del Rinascimento italiano'/>
+                                </div>
+                                <div className="col-lg-8 d-flex align-items-center">
+                                    <CardBody>
+                                        <CardText>
+                                            <p>{descriptionSala4}</p>
+                                            <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala4}</p>
+                                        </CardText>
+                                    </CardBody>
+                                </div>
+                            </div>
+                        </Card>
+                    )}
+                    { imageSala5 && (
+                        <Card className="mb-3 margin w-75 mx-auto">
+                            <div className="row g-0">
+                                <div className="col-lg-4">
+                                    <CardImg src={imageSala5} alt='Sala 5 del Museo Nazionale del Rinascimento italiano'/>
+                                </div>
+                                <div className="col-lg-8 d-flex align-items-center">
+                                    <CardBody>
+                                        <CardText>
+                                            <p>{descriptionSala5}</p>
+                                            <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala5}</p>
+                                        </CardText>
+                                    </CardBody>
+                                </div>
+                            </div>
+                        </Card>
+                    )}
+                    { imageSala6 && (
+                        <Card className="mb-3 margin w-75 mx-auto">
+                            <div className="row g-0">
+                                <div className="col-lg-4">
+                                    <CardImg src={imageSala6} alt='Sala 6 del Museo Nazionale del Rinascimento italiano'/>
+                                </div>
+                                <div className="col-lg-8 d-flex align-items-center">
+                                    <CardBody>
+                                        <CardText>
+                                            <p>{descriptionSala6}</p>
+                                            <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala6}</p>
+                                        </CardText>
+                                    </CardBody>
+                                </div>
+                            </div>
+                        </Card>
+                    )}
+                    { imageSala7 && (
+                        <Card className="mb-3 margin w-75 mx-auto">
+                            <div className="row g-0">
+                                <div className="col-lg-4">
+                                    <CardImg src={imageSala7} alt='Sala 7 del Museo Nazionale del Rinascimento italiano'/>
+                                </div>
+                                <div className="col-lg-8 d-flex align-items-center">
+                                    <CardBody>
+                                        <CardText>
+                                            <p>{descriptionSala7}</p>
+                                            <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala7}</p>
+                                        </CardText>
+                                    </CardBody>
+                                </div>
+                            </div>
+                        </Card>
+                    )}
+                    { imageSala8 && (
+                        <Card className="mb-3 margin w-75 mx-auto">
+                            <div className="row g-0">
+                                <div className="col-lg-4">
+                                    <CardImg src={imageSala8} alt='Sala 8 del Museo Nazionale del Rinascimento italiano'/>
+                                </div>
+                                <div className="col-lg-8 d-flex align-items-center">
+                                    <CardBody>
+                                        <CardText>
+                                            <p>{descriptionSala8}</p>
+                                            <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala8}</p>
+                                        </CardText>
+                                    </CardBody>
+                                </div>
+                            </div>
+                        </Card>
+                    )}
+                    { imageSala9 && (
+                        <Card className="mb-3 margin w-75 mx-auto">
+                            <div className="row g-0">
+                                <div className="col-lg-4">
+                                    <CardImg src={imageSala9} alt='Sala 9 del Museo Nazionale del Rinascimento italiano'/>
+                                </div>
+                                <div className="col-lg-8 d-flex align-items-center">
+                                    <CardBody>
+                                        <CardText>
+                                            <p>{descriptionSala9}</p>
+                                            <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala9}</p>
+                                        </CardText>
+                                    </CardBody>
+                                </div>
+                            </div>
+                        </Card>
+                    )}
+                    { imageSala10 && (
+                        <Card className="mb-3 margin w-75 mx-auto">
+                            <div className="row g-0">
+                                <div className="col-lg-4">
+                                    <CardImg src={imageSala10} alt='Sala 10 del Museo Nazionale del Rinascimento italiano'/>
+                                </div>
+                                <div className="col-lg-8 d-flex align-items-center">
+                                    <CardBody>
+                                        <CardText>
+                                            <p>{descriptionSala10}</p>
+                                            <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala10}</p>
+                                        </CardText>
+                                    </CardBody>
+                                </div>
+                            </div>
+                        </Card>
+                    )}
+                    { imageSala11 && (
+                        <Card className="mb-3 margin w-75 mx-auto">
+                            <div className="row g-0">
+                                <div className="col-lg-4">
+                                    <CardImg src={imageSala11} alt='Sala 11 del Museo Nazionale del Rinascimento italiano'/>
+                                </div>
+                                <div className="col-lg-8 d-flex align-items-center">
+                                    <CardBody>
+                                        <CardText>
+                                            <p>{descriptionSala11}</p>
+                                            <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala11}</p>
+                                        </CardText>
+                                    </CardBody>
+                                </div>
+                            </div>
+                        </Card>
+                    )}
+                    { imageSala12 && (
+                        <Card className="mb-3 margin w-75 mx-auto">
+                            <div className="row g-0">
+                                <div className="col-lg-4">
+                                    <CardImg src={imageSala12} alt='Sala 12 del Museo Nazionale del Rinascimento italiano'/>
+                                </div>
+                                <div className="col-lg-8 d-flex align-items-center">
+                                    <CardBody>
+                                        <CardText>
+                                            <p>{descriptionSala12}</p>
+                                            <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala12}</p>
+                                        </CardText>
+                                    </CardBody>
+                                </div>
+                            </div>
+                        </Card>
+                    )}
+                    { imageSala13 && (
+                        <Card className="mb-3 margin w-75 mx-auto">
+                            <div className="row g-0">
+                                <div className="col-lg-4">
+                                    <CardImg src={imageSala13} alt='Sala 13 del Museo Nazionale del Rinascimento italiano'/>
+                                </div>
+                                <div className="col-lg-8 d-flex align-items-center">
+                                    <CardBody>
+                                        <CardText>
+                                            <p>{descriptionSala13}</p>
+                                            <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala13}</p>
+                                        </CardText>
+                                    </CardBody>
+                                </div>
+                            </div>
+                        </Card>
+                    )}
+                    { imageSala14 && (
+                        <Card className="mb-3 margin w-75 mx-auto">
+                            <div className="row g-0">
+                                <div className="col-lg-4">
+                                    <CardImg src={imageSala14} alt='Sala 14 del Museo Nazionale del Rinascimento italiano'/>
+                                </div>
+                                <div className="col-lg-8 d-flex align-items-center">
+                                    <CardBody>
+                                        <CardText>
+                                            <p>{descriptionSala14}</p>
+                                            <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala14}</p>
+                                        </CardText>
+                                    </CardBody>
+                                </div>
+                            </div>
+                        </Card>
+                    )}
+                    { imageSala15 && (
+                        <Card className="mb-3 margin w-75 mx-auto">
+                            <div className="row g-0">
+                                <div className="col-lg-4">
+                                    <CardImg src={imageSala15} alt='Sala 15 del Museo Nazionale del Rinascimento italiano'/>
+                                </div>
+                                <div className="col-lg-8 d-flex align-items-center">
+                                    <CardBody>
+                                        <CardText>
+                                            <p>{descriptionSala15}</p>
+                                            <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala15}</p>
+                                        </CardText>
+                                    </CardBody>
+                                </div>
+                            </div>
+                        </Card>
+                    )}
+                    { imageSala16 && (
+                        <Card className="mb-3 margin w-75 mx-auto">
+                            <div className="row g-0">
+                                <div className="col-lg-4">
+                                    <CardImg src={imageSala16} alt='Sala 16 del Museo Nazionale del Rinascimento italiano'/>
+                                </div>
+                                <div className="col-lg-8 d-flex align-items-center">
+                                    <CardBody>
+                                        <CardText>
+                                            <p>{descriptionSala16}</p>
+                                            <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala16}</p>
+                                        </CardText>
+                                    </CardBody>
+                                </div>
+                            </div>
+                        </Card>
+                    )}
+                    { imageSala17 && (
+                        <Card className="mb-3 margin w-75 mx-auto">
+                            <div className="row g-0">
+                                <div className="col-lg-4">
+                                    <CardImg src={imageSala17} alt='Sala 17 del Museo Nazionale del Rinascimento italiano'/>
+                                </div>
+                                <div className="col-lg-8 d-flex align-items-center">
+                                    <CardBody>
+                                        <CardText>
+                                            <p>{descriptionSala17}</p>
+                                            <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala17}</p>
+                                        </CardText>
+                                    </CardBody>
+                                </div>
+                            </div>
+                        </Card>
+                    )}
+                    { imageSala18 && (
+                        <Card className="mb-3 margin w-75 mx-auto">
+                            <div className="row g-0">
+                                <div className="col-lg-4">
+                                    <CardImg src={imageSala18} alt='Sala 18 del Museo Nazionale del Rinascimento italiano'/>
+                                </div>
+                                <div className="col-lg-8 d-flex align-items-center">
+                                    <CardBody>
+                                        <CardText>
+                                            <p>{descriptionSala18}</p>
+                                            <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala18}</p>
+                                        </CardText>
+                                    </CardBody>
+                                </div>
+                            </div>
+                        </Card>
+                    )}
+                    { imageSala19 && (
+                        <Card className="mb-3 margin w-75 mx-auto">
+                            <div className="row g-0">
+                                <div className="col-lg-4">
+                                    <CardImg src={imageSala19} alt='Sala 19 del Museo Nazionale del Rinascimento italiano'/>
+                                </div>
+                                <div className="col-lg-8 d-flex align-items-center">
+                                    <CardBody>
+                                        <CardText>
+                                            <p>{descriptionSala19}</p>
+                                            <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala19}</p>
+                                        </CardText>
+                                    </CardBody>
+                                </div>
+                            </div>
+                        </Card>
+                    )}
+                    { imageSala20 && (
+                        <Card className="mb-3 margin w-75 mx-auto">
+                            <div className="row g-0">
+                                <div className="col-lg-4">
+                                    <CardImg src={imageSala20} alt='Sala 20 del Museo Nazionale del Rinascimento italiano'/>
+                                </div>
+                                <div className="col-lg-8 d-flex align-items-center">
+                                    <CardBody>
+                                        <CardText>
+                                            <p>{descriptionSala20}</p>
+                                            <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala20}</p>
+                                        </CardText>
+                                    </CardBody>
+                                </div>
+                            </div>
+                        </Card>
+                    )}
+                    { imageSala21 && (
+                        <Card className="mb-3 margin w-75 mx-auto">
+                            <div className="row g-0">
+                                <div className="col-lg-4">
+                                    <CardImg src={imageSala21} alt='Sala 21 del Museo Nazionale del Rinascimento italiano'/>
+                                </div>
+                                <div className="col-lg-8 d-flex align-items-center">
+                                    <CardBody>
+                                        <CardText>
+                                            <p>{descriptionSala21}</p>
+                                            <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala21}</p>
+                                        </CardText>
+                                    </CardBody>
+                                </div>
+                            </div>
+                        </Card>
+                    )}
+                    { imageSala22 && (
+                        <Card className="mb-3 margin w-75 mx-auto">
+                            <div className="row g-0">
+                                <div className="col-lg-4">
+                                    <CardImg src={imageSala22} alt='Sala 22 del Museo Nazionale del Rinascimento italiano'/>
+                                </div>
+                                <div className="col-lg-8 d-flex align-items-center">
+                                    <CardBody>
+                                        <CardText>
+                                            <p>{descriptionSala22}</p>
+                                            <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala22}</p>
+                                        </CardText>
+                                    </CardBody>
+                                </div>
+                            </div>
+                        </Card>
+                    )}
+                    { imageSala23 && (
+                        <Card className="mb-3 margin w-75 mx-auto">
+                            <div className="row g-0">
+                                <div className="col-lg-4">
+                                    <CardImg src={imageSala23} alt='Sala 23 del Museo Nazionale del Rinascimento italiano'/>
+                                </div>
+                                <div className="col-lg-8 d-flex align-items-center">
+                                    <CardBody>
+                                        <CardText>
+                                            <p>{descriptionSala23}</p>
+                                            <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala23}</p>
+                                        </CardText>
+                                    </CardBody>
+                                </div>
+                            </div>
+                        </Card>
+                    )}
+                    { imageSala24 && (
+                        <Card className="mb-3 margin w-75 mx-auto">
+                            <div className="row g-0">
+                                <div className="col-lg-4">
+                                    <CardImg src={imageSala24} alt='Sala 24 del Museo Nazionale del Rinascimento italiano'/>
+                                </div>
+                                <div className="col-lg-8 d-flex align-items-center">
+                                    <CardBody>
+                                        <CardText>
+                                            <p>{descriptionSala24}</p>
+                                            <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala24}</p>
+                                        </CardText>
+                                    </CardBody>
+                                </div>
+                            </div>
+                        </Card>
+                    )}
+                    { imageSala25 && (
+                        <Card className="mb-3 margin w-75 mx-auto">
+                            <div className="row g-0">
+                                <div className="col-lg-4">
+                                    <CardImg src={imageSala25} alt='Sala 25 del Museo Nazionale del Rinascimento italiano'/>
+                                </div>
+                                <div className="col-lg-8 d-flex align-items-center">
+                                    <CardBody>
+                                        <CardText>
+                                            <p>{descriptionSala25}</p>
+                                            <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala25}</p>
+                                        </CardText>
+                                    </CardBody>
+                                </div>
+                            </div>
+                        </Card>
+                    )}
+                    { imageSala26 && (
+                        <Card className="mb-3 margin w-75 mx-auto">
+                            <div className="row g-0">
+                                <div className="col-lg-4">
+                                    <CardImg src={imageSala26} alt='Sala 26 del Museo Nazionale del Rinascimento italiano'/>
+                                </div>
+                                <div className="col-lg-8 d-flex align-items-center">
+                                    <CardBody>
+                                        <CardText>
+                                            <p>{descriptionSala26}</p>
+                                            <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala26}</p>
+                                        </CardText>
+                                    </CardBody>
+                                </div>
+                            </div>
+                        </Card>
+                    )}
+                    { imageSala27 && (
+                        <Card className="mb-3 margin w-75 mx-auto">
+                            <div className="row g-0">
+                                <div className="col-lg-4">
+                                    <CardImg src={imageSala27} alt='Sala 27 del Museo Nazionale del Rinascimento italiano'/>
+                                </div>
+                                <div className="col-lg-8 d-flex align-items-center">
+                                    <CardBody>
+                                        <CardText>
+                                            <p>{descriptionSala27}</p>
+                                            <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala27}</p>
+                                        </CardText>
+                                    </CardBody>
+                                </div>
+                            </div>
+                        </Card>
+                    )}
+                    { imageSala28 && (
+                        <Card className="mb-3 margin w-75 mx-auto">
+                            <div className="row g-0">
+                                <div className="col-lg-4">
+                                    <CardImg  src={imageSala28} alt='Sala 28 del Museo Nazionale del Rinascimento italiano'/>
+                                </div>
+                                <div className="col-lg-8 d-flex align-items-center">
+                                    <CardBody>
+                                        <CardText>
+                                            <p>{descriptionSala28}</p>
+                                            <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala28}</p>
+                                        </CardText>
+                                    </CardBody>
+                                </div>
+                            </div>
+                        </Card>
+                    )}
+                    { imageSala29 && (
+                        <Card className="mb-3 margin w-75 mx-auto">
+                            <div className="row g-0">
+                                <div className="col-lg-4">
+                                    <CardImg  src={imageSala29} alt='Sala 29 del Museo Nazionale del Rinascimento italiano'/>
+                                </div>
+                                <div className="col-lg-8 d-flex align-items-center">
+                                    <CardBody>
+                                        <CardText>
+                                            <p>{descriptionSala29}</p>
+                                            <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala29}</p>
+                                        </CardText>
+                                    </CardBody>
+                                </div>
+                            </div>
+                        </Card>
+                    )}
+                    { imageSala30 && (
+                        <Card className="mb-3 margin w-75 mx-auto">
+                            <div className="row g-0">
+                                <div className="col-lg-4">
+                                    <CardImg src={imageSala30} alt='Sala 30 del Museo Nazionale del Rinascimento italiano'/>
+                                </div>
+                                <div className="col-lg-8 d-flex align-items-center">
+                                    <CardBody>
+                                        <CardText>
+                                            <p>{descriptionSala30}</p>
+                                            <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala30}</p>
+                                        </CardText>
+                                    </CardBody>
+                                </div>
+                            </div>
+                        </Card>
+                    )}
+                    { imageSalaCodici && (
+                        <Card className="mb-3 margin w-75 mx-auto">
+                            <div className="row g-0">
+                                <div className="col-lg-4">
+                                    <CardImg src={imageSalaCodici} alt='Sala Codici del Museo Nazionale del Rinascimento italiano'/>
+                                </div>
+                                <div className="col-lg-8 d-flex align-items-center">
+                                    <CardBody>
+                                        <CardText>
+                                            <p>{descriptionSalaCodici}</p>
+                                            <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSalaCodici}</p>
+                                        </CardText>
+                                    </CardBody>
+                                </div>
+                            </div>
+                        </Card>
+                    )}
+                    { imageSalaPlebisciti && (
+                        <Card className="mb-3 margin w-75 mx-auto">
+                            <div className="row g-0">
+                                <div className="col-lg-4">
+                                    <CardImg src={imageSalaPlebisciti} alt='Sala Plebisciti del Museo Nazionale del Rinascimento italiano'/>
+                                </div>
+                                <div className="col-lg-8 d-flex align-items-center">
+                                    <CardBody>
+                                        <CardText>
+                                            <p>{descriptionSalaPlebisciti}</p>
+                                            <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSalaPlebisciti}</p>
+                                        </CardText>
+                                    </CardBody>
+                                </div>
+                            </div>
+                        </Card>
+                    )}
+                    { imageCorridoiodellaCameraitaliana && (
+                        <Card className="mb-3 margin w-75 mx-auto">
+                            <div className="row g-0">
+                                <div className="col-lg-4">
+                                    <CardImg src={imageCorridoiodellaCameraitaliana} alt='Corridoio della Camera italiana del Museo Nazionale del Rinascimento italiano'/>
+                                </div>
+                                <div className="col-lg-8 d-flex align-items-center">
+                                    <CardBody>
+                                        <CardText>
+                                            <p>{descriptionCorridoiodellaCameraitaliana}</p>
+                                            <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleCorridoiodellaCameraitaliana}</p>
+                                        </CardText>
+                                    </CardBody>
+                                </div>
+                            </div>
+                        </Card>
+                    )}
+                </div>
+                <div className="margin mt-3">
+                    <Card className="mb-3 margin">
                         <div className="row g-0">
                             <div className="col-lg-4">
-                                <CardImg src={imageSala2} alt='Sala 2 del Museo Nazionale del Rinascimento italiano'/>
+                                <CardImg src={Allestimento_1878_mn_del_r_italiano} alt='Allestimento 1878' style={{height: '100%'}}/>
                             </div>
                             <div className="col-lg-8 d-flex align-items-center">
                                 <CardBody>
+                                    <CardTitle><h2 className="color-subtitle">Gli Allestimenti Precedenti</h2></CardTitle>
+                                    <hr className='border-3'/>
                                     <CardText>
-                                        <p>{descriptionSala2}</p>
-                                        <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala2}</p>
+                                        <p className='mt-5'>
+                                            Il Museo Nazionale del Risorgimento Italiano di Torino è il più antico e il più noto tra i musei italiani di storia patria. Venne istituito nel 1878, come “Ricordo nazionale 
+                                            di Vittorio Emanuele II” pochi mesi dopo la sua morte.<br/>
+                                            Prima della sua inaugurazione definitiva, avvenuta trent’anni dopo all’interno della Mole Antonelliana, il Museo conobbe due allestimenti provvisori: uno nel 1884 e uno nel 1899.
+                                        </p>
                                     </CardText>
                                 </CardBody>
                             </div>
                         </div>
                     </Card>
-                )}
-                { imageSala3 && (
-                    <Card className="mb-3 margin w-75 mx-auto">
+                    <Card className="mb-3 margin">
                         <div className="row g-0">
                             <div className="col-lg-4">
-                                <CardImg src={imageSala3} alt='Sala 3 del Museo Nazionale del Rinascimento italiano'/>
+                                <CardImg src={Allestimenti_1884_mn_del_r_italiano} alt='Allestimento 1884' style={{height: '100%'}}/>
                             </div>
                             <div className="col-lg-8 d-flex align-items-center">
                                 <CardBody>
+                                    <CardTitle><h2 className="color-subtitle">Gli Allestimenti Precedenti</h2></CardTitle>
+                                    <hr className='border-3'/>
                                     <CardText>
-                                        <p>{descriptionSala3}</p>
-                                        <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala3}</p>
+                                        <p className='mt-5'>
+                                            Nel 1884, in occasione della grande esposizione nazionale al Valentino, prese forma il primo esperimento di un museo del risorgimento.<br/>
+                                            Era un vasto allestimento che assegnava un ruolo fortemente centrale agli episodi del 1848–49 e in cui lo spazio dedicato al Piemonte non superava per importanza il resto d’Italia.<br/>
+                                            Il risorgimento rappresentato iniziava con i moti del 1820–21 e terminava con la presa di Porta Pia, proponendo una lettura che, superati gli antagonismi e realizzato lo stato 
+                                            unitario, evidenziava l’azione convergente in un unico obiettivo nazionale dei diversi schieramenti politici.<br/>
+                                            In sintesi il risorgimento era visto in chiave nazional–popolare più che dinastico–sabaudo. Emergeva poi un’altra importante idea di fondo, che considerava i processi di nazionalità 
+                                            un evento rivoluzionario su scala europea che affondava le radici già nel periodo napoleonico, concetto che ancora oggi fa di quella mostra l’allestimento più moderno sul piano 
+                                            interpretativo che fino ad oggi si è avuto del Museo.
+                                        </p>
                                     </CardText>
                                 </CardBody>
                             </div>
                         </div>
                     </Card>
-                )}
-                { imageSala4 && (
-                    <Card className="mb-3 margin w-75 mx-auto">
+                    <Card className="mb-3 margin">
                         <div className="row g-0">
                             <div className="col-lg-4">
-                                <CardImg src={imageSala4} alt='Sala 4 del Museo Nazionale del Rinascimento italiano'/>
+                                <CardImg src={Allestimenti_1899_mn_del_r_italiano} alt='Allestimento 1899' style={{height: '100%'}}/>
                             </div>
                             <div className="col-lg-8 d-flex align-items-center">
                                 <CardBody>
+                                    <CardTitle><h2 className="color-subtitle">Gli Allestimenti Precedenti</h2></CardTitle>
+                                    <hr className='border-3'/>
                                     <CardText>
-                                        <p>{descriptionSala4}</p>
-                                        <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala4}</p>
+                                        <p className='mt-5'>
+                                            Il 9 settembre del 1899 si celebrò una prima parziale apertura del Museo del Risorgimento, anche se in una sede ancora provvisoria: non ancora nella Mole, dove era destinato, ma nei locali 
+                                            della Sezione di arte moderna del Museo civico.<br/>
+                                            Anche se il ruolo del Piemonte cominciava a reclamare più spazio non era ancora il museo della dinastia, e si sforzava di conservare una visione nazionale ed ecumenica del processo unitario.
+                                        </p>
+                                        <p>
+                                            Al Museo si affiancava una grande biblioteca, che ambiva a contenere una sintesi o la copia dei documenti risorgimentali presenti in tutt’Italia e una raccolta completa delle pubblicazioni 
+                                            straniere e nazionali: un obiettivo ambizioso, mai completamente realizzato.
+                                        </p>
                                     </CardText>
                                 </CardBody>
                             </div>
                         </div>
                     </Card>
-                )}
-                { imageSala5 && (
-                    <Card className="mb-3 margin w-75 mx-auto">
+                    <Card className="mb-3 margin">
                         <div className="row g-0">
                             <div className="col-lg-4">
-                                <CardImg src={imageSala5} alt='Sala 5 del Museo Nazionale del Rinascimento italiano'/>
+                                <CardImg src={Allestimenti_1908_mn_del_r_italiano} alt='Allestimento 1908' style={{height: '100%'}}/>
                             </div>
                             <div className="col-lg-8 d-flex align-items-center">
                                 <CardBody>
+                                    <CardTitle><h2 className="color-subtitle">Gli Allestimenti Precedenti</h2></CardTitle>
+                                    <hr className='border-3'/>
                                     <CardText>
-                                        <p>{descriptionSala5}</p>
-                                        <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala5}</p>
+                                        <p className='mt-5'>
+                                            Il Museo del Risorgimento ebbe la sua inaugurazione definitiva il 18 ottobre 1908 all’interno della Mole Antonelliana, luogo simbolo di Torino e della modernità: passato e futuro insieme 
+                                            per fare dell’ex–capitale d’Italia una città nuova e moderna.<br/>
+                                            Il nuovo Museo ribadiva, nel suo intento educativo e celebrativo delle glorie patrie, il suo essere nazionale.<br/>
+                                            Presentava 1.274 pezzi esposti nel salone centrale e in tre grandi corsie. Era l’unico museo del risorgimento italiano a poter essere definito scientifico, premiato da un grande successo 
+                                            di pubblico, anche se oggi ci apparirebbe poco efficace dal punto di vista espositivo e della comunicazione.
+                                        </p>
                                     </CardText>
                                 </CardBody>
                             </div>
                         </div>
                     </Card>
-                )}
-                { imageSala6 && (
-                    <Card className="mb-3 margin w-75 mx-auto">
+                    <Card className="mb-3 margin">
                         <div className="row g-0">
                             <div className="col-lg-4">
-                                <CardImg src={imageSala6} alt='Sala 6 del Museo Nazionale del Rinascimento italiano'/>
+                                <CardImg src={Allestimenti_1938_mn_del_r_italiano} alt='Allestimento 1938' style={{height: '100%'}}/>
                             </div>
                             <div className="col-lg-8 d-flex align-items-center">
                                 <CardBody>
+                                    <CardTitle><h2 className="color-subtitle">Gli Allestimenti Precedenti</h2></CardTitle>
+                                    <hr className='border-3'/>
                                     <CardText>
-                                        <p>{descriptionSala6}</p>
-                                        <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala6}</p>
+                                        <p className='mt-5'>
+                                            L’8 settembre del 1938 il re Vittorio Emanuele III inaugurò il Museo Nazionale del Risorgimento Italiano finalmente trasferito nella sede attuale di palazzo Carignano.<br/>
+                                            Era un allestimento in cui la storia d’Italia diventava del tutto autoctona, abbandonava i nessi con l’Europa e compiva un percorso che legava strettamente la Roma antica al Risorgimento 
+                                            e al fascismo: il museo doveva rappresentare l’antichità della dinastia e la crescente potenza dello Stato sabaudo, così le origini del risorgimento furono anticipate al 1706, più precisamente 
+                                            alla battaglia di Torino che diede un regno ai Savoia.<br/>
+                                            Con l’inizio della seconda guerra mondiale, i lavori di allestimento furono interrotti e i bombardamenti subiti arrecarono al Museo danni ingenti.<br/>
+                                            Negli anni della Resistenza le sue sale ospitarono clandestinamente riunioni di partigiani, armi e materiale di propaganda antifascista.
+                                        </p>
                                     </CardText>
                                 </CardBody>
                             </div>
                         </div>
                     </Card>
-                )}
-                { imageSala7 && (
-                    <Card className="mb-3 margin w-75 mx-auto">
+                    <Card className="mb-3 margin">
                         <div className="row g-0">
                             <div className="col-lg-4">
-                                <CardImg src={imageSala7} alt='Sala 7 del Museo Nazionale del Rinascimento italiano'/>
+                                <CardImg src={Allestimenti_1948_mn_del_r_italiano} alt='Allestimento 1948' style={{height: '100%'}}/>
                             </div>
                             <div className="col-lg-8 d-flex align-items-center">
                                 <CardBody>
+                                    <CardTitle><h2 className="color-subtitle">Gli Allestimenti Precedenti</h2></CardTitle>
+                                    <hr className='border-3'/>
                                     <CardText>
-                                        <p>{descriptionSala7}</p>
-                                        <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala7}</p>
+                                        <p className='mt-5'>
+                                            Dopo la guerra, il Museo fu riaperto in piccola parte in occasione del centenario della prima guerra di indipendenza. Il risorgimento, come nel 1884, tornava ad avere origine nei moti 
+                                            del ’20–’21 e si chiudeva con la presa di Roma.<br/>
+                                            Dopo le sale risorgimentali, trovarono posto altre sei sale dedicate al contributo italiano alla guerra di liberazione, a cura del Corpo volontari della libertà e dell’Istituto storico 
+                                            della Resistenza in Piemonte.
+                                        </p>
                                     </CardText>
                                 </CardBody>
                             </div>
                         </div>
                     </Card>
-                )}
-                { imageSala8 && (
-                    <Card className="mb-3 margin w-75 mx-auto">
+                    <Card className="mb-3 margin">
                         <div className="row g-0">
                             <div className="col-lg-4">
-                                <CardImg src={imageSala8} alt='Sala 8 del Museo Nazionale del Rinascimento italiano'/>
+                                <CardImg src={Allestimenti_1961_mn_del_r_italiano} alt='Allestimento 1961' style={{height: '100%'}}/>
                             </div>
                             <div className="col-lg-8 d-flex align-items-center">
                                 <CardBody>
+                                    <CardTitle><h2 className="color-subtitle">Gli Allestimenti Precedenti</h2></CardTitle>
+                                    <hr className='border-3'/>
                                     <CardText>
-                                        <p>{descriptionSala8}</p>
-                                        <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala8}</p>
+                                        <p className='mt-5'>
+                                            Nel 1961, In occasione delle celebrazioni del Centenario dell’Unità d’Italia, a Palazzo Carignano si realizzò una grande mostra storica: oltre 1.800 pezzi esposti in 32 sale.<br/>
+                                            L’obiettivo era quello di coinvolgere anche i visitatori meno preparati, grazie ad una rinnovata sensibilità per la comunicazione, per gli aspetti scenografici e per il materiale esposto 
+                                            che finalmente proveniva da tutta l’Italia.<br/>
+                                            Dal punto di vista dell’interpretazione storiografica, si tornò a datare le origini del risorgimento più che alle riforme dell’alto settecento, alla rivoluzione francese e alla dominazione 
+                                            napoleonica che avevano sollecitato ideali patriottici.
+                                        </p>
                                     </CardText>
                                 </CardBody>
                             </div>
                         </div>
                     </Card>
-                )}
-                { imageSala9 && (
-                    <Card className="mb-3 margin w-75 mx-auto">
+                    <Card className="mb-3 margin">
                         <div className="row g-0">
                             <div className="col-lg-4">
-                                <CardImg src={imageSala9} alt='Sala 9 del Museo Nazionale del Rinascimento italiano'/>
+                                <CardImg src={Allestimenti_1965_mn_del_r_italiano} alt='Allestimento 1965' style={{height: '100%'}}/>
                             </div>
                             <div className="col-lg-8 d-flex align-items-center">
                                 <CardBody>
+                                    <CardTitle><h2 className="color-subtitle">Gli Allestimenti Precedenti</h2></CardTitle>
+                                    <hr className='border-3'/>
                                     <CardText>
-                                        <p>{descriptionSala9}</p>
-                                        <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala9}</p>
+                                        <p className='mt-5'>
+                                            Il museo del 1965 sia per scelta storiografica degli allestitori, sia perchè molto materiale esposto nel 1961 era stato restituito ai ben 350 prestatori, ridusse fortemente il carattere 
+                                            nazionale che aveva avuto l’esposizione del centenario.<br/>
+                                            Si tornò così a proporre una visione del risorgimento fedele all’idea della dinastia sabauda come principale motore dell’unificazione.
+                                        </p>
                                     </CardText>
                                 </CardBody>
                             </div>
                         </div>
                     </Card>
-                )}
-                { imageSala10 && (
-                    <Card className="mb-3 margin w-75 mx-auto">
+                    <Card className="mb-3 margin">
                         <div className="row g-0">
                             <div className="col-lg-4">
-                                <CardImg src={imageSala10} alt='Sala 10 del Museo Nazionale del Rinascimento italiano'/>
+                                <CardImg src={Allestimenti_2011_mn_del_r_italiano} alt='Allestimento 2011' style={{height: '100%'}}/>
                             </div>
                             <div className="col-lg-8 d-flex align-items-center">
                                 <CardBody>
+                                    <CardTitle><h2 className="color-subtitle">Gli Allestimenti Precedenti</h2></CardTitle>
+                                    <hr className='border-3'/>
                                     <CardText>
-                                        <p>{descriptionSala10}</p>
-                                        <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala10}</p>
+                                        <p className='mt-5'>
+                                            Dopo una progettazione scientifica ed espositiva iniziata nel 1999, nel 2006 si sono avviati i lavori di riallestimento del nuovo percorso museale, che distribuisce in 30 sale, compreso lo scalone d'onore e il salone del primo Parlamento italiano, il racconto di come gli italiani divennero nazione, fra altri popoli alla ricerca della propria identità.
+                                            Il risultato è un allestimento rigoroso e insieme spettacolare che narra la storia del Paese a fronte delle grandi trasformazioni economiche, politiche e culturali avvenute nell’intero continente. Un percorso che accompagna il visitatore in un lungo viaggio che parte dalla rivoluzione francese e si conclude alle soglie della grande guerra, l’evento che aprì alle società di massa del XX secolo.
+                                        </p>
                                     </CardText>
                                 </CardBody>
                             </div>
                         </div>
                     </Card>
-                )}
-                { imageSala11 && (
-                    <Card className="mb-3 margin w-75 mx-auto">
-                        <div className="row g-0">
-                            <div className="col-lg-4">
-                                <CardImg src={imageSala11} alt='Sala 11 del Museo Nazionale del Rinascimento italiano'/>
-                            </div>
-                            <div className="col-lg-8 d-flex align-items-center">
-                                <CardBody>
-                                    <CardText>
-                                        <p>{descriptionSala11}</p>
-                                        <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala11}</p>
-                                    </CardText>
-                                </CardBody>
-                            </div>
-                        </div>
-                    </Card>
-                )}
-                { imageSala12 && (
-                    <Card className="mb-3 margin w-75 mx-auto">
-                        <div className="row g-0">
-                            <div className="col-lg-4">
-                                <CardImg src={imageSala12} alt='Sala 12 del Museo Nazionale del Rinascimento italiano'/>
-                            </div>
-                            <div className="col-lg-8 d-flex align-items-center">
-                                <CardBody>
-                                    <CardText>
-                                        <p>{descriptionSala12}</p>
-                                        <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala12}</p>
-                                    </CardText>
-                                </CardBody>
-                            </div>
-                        </div>
-                    </Card>
-                )}
-                { imageSala13 && (
-                    <Card className="mb-3 margin w-75 mx-auto">
-                        <div className="row g-0">
-                            <div className="col-lg-4">
-                                <CardImg src={imageSala13} alt='Sala 13 del Museo Nazionale del Rinascimento italiano'/>
-                            </div>
-                            <div className="col-lg-8 d-flex align-items-center">
-                                <CardBody>
-                                    <CardText>
-                                        <p>{descriptionSala13}</p>
-                                        <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala13}</p>
-                                    </CardText>
-                                </CardBody>
-                            </div>
-                        </div>
-                    </Card>
-                )}
-                { imageSala14 && (
-                    <Card className="mb-3 margin w-75 mx-auto">
-                        <div className="row g-0">
-                            <div className="col-lg-4">
-                                <CardImg src={imageSala14} alt='Sala 14 del Museo Nazionale del Rinascimento italiano'/>
-                            </div>
-                            <div className="col-lg-8 d-flex align-items-center">
-                                <CardBody>
-                                    <CardText>
-                                        <p>{descriptionSala14}</p>
-                                        <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala14}</p>
-                                    </CardText>
-                                </CardBody>
-                            </div>
-                        </div>
-                    </Card>
-                )}
-                { imageSala15 && (
-                    <Card className="mb-3 margin w-75 mx-auto">
-                        <div className="row g-0">
-                            <div className="col-lg-4">
-                                <CardImg src={imageSala15} alt='Sala 15 del Museo Nazionale del Rinascimento italiano'/>
-                            </div>
-                            <div className="col-lg-8 d-flex align-items-center">
-                                <CardBody>
-                                    <CardText>
-                                        <p>{descriptionSala15}</p>
-                                        <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala15}</p>
-                                    </CardText>
-                                </CardBody>
-                            </div>
-                        </div>
-                    </Card>
-                )}
-                { imageSala16 && (
-                    <Card className="mb-3 margin w-75 mx-auto">
-                        <div className="row g-0">
-                            <div className="col-lg-4">
-                                <CardImg src={imageSala16} alt='Sala 16 del Museo Nazionale del Rinascimento italiano'/>
-                            </div>
-                            <div className="col-lg-8 d-flex align-items-center">
-                                <CardBody>
-                                    <CardText>
-                                        <p>{descriptionSala16}</p>
-                                        <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala16}</p>
-                                    </CardText>
-                                </CardBody>
-                            </div>
-                        </div>
-                    </Card>
-                )}
-                { imageSala17 && (
-                    <Card className="mb-3 margin w-75 mx-auto">
-                        <div className="row g-0">
-                            <div className="col-lg-4">
-                                <CardImg src={imageSala17} alt='Sala 17 del Museo Nazionale del Rinascimento italiano'/>
-                            </div>
-                            <div className="col-lg-8 d-flex align-items-center">
-                                <CardBody>
-                                    <CardText>
-                                        <p>{descriptionSala17}</p>
-                                        <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala17}</p>
-                                    </CardText>
-                                </CardBody>
-                            </div>
-                        </div>
-                    </Card>
-                )}
-                { imageSala18 && (
-                    <Card className="mb-3 margin w-75 mx-auto">
-                        <div className="row g-0">
-                            <div className="col-lg-4">
-                                <CardImg src={imageSala18} alt='Sala 18 del Museo Nazionale del Rinascimento italiano'/>
-                            </div>
-                            <div className="col-lg-8 d-flex align-items-center">
-                                <CardBody>
-                                    <CardText>
-                                        <p>{descriptionSala18}</p>
-                                        <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala18}</p>
-                                    </CardText>
-                                </CardBody>
-                            </div>
-                        </div>
-                    </Card>
-                )}
-                { imageSala19 && (
-                    <Card className="mb-3 margin w-75 mx-auto">
-                        <div className="row g-0">
-                            <div className="col-lg-4">
-                                <CardImg src={imageSala19} alt='Sala 19 del Museo Nazionale del Rinascimento italiano'/>
-                            </div>
-                            <div className="col-lg-8 d-flex align-items-center">
-                                <CardBody>
-                                    <CardText>
-                                        <p>{descriptionSala19}</p>
-                                        <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala19}</p>
-                                    </CardText>
-                                </CardBody>
-                            </div>
-                        </div>
-                    </Card>
-                )}
-                { imageSala20 && (
-                    <Card className="mb-3 margin w-75 mx-auto">
-                        <div className="row g-0">
-                            <div className="col-lg-4">
-                                <CardImg src={imageSala20} alt='Sala 20 del Museo Nazionale del Rinascimento italiano'/>
-                            </div>
-                            <div className="col-lg-8 d-flex align-items-center">
-                                <CardBody>
-                                    <CardText>
-                                        <p>{descriptionSala20}</p>
-                                        <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala20}</p>
-                                    </CardText>
-                                </CardBody>
-                            </div>
-                        </div>
-                    </Card>
-                )}
-                { imageSala21 && (
-                    <Card className="mb-3 margin w-75 mx-auto">
-                        <div className="row g-0">
-                            <div className="col-lg-4">
-                                <CardImg src={imageSala21} alt='Sala 21 del Museo Nazionale del Rinascimento italiano'/>
-                            </div>
-                            <div className="col-lg-8 d-flex align-items-center">
-                                <CardBody>
-                                    <CardText>
-                                        <p>{descriptionSala21}</p>
-                                        <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala21}</p>
-                                    </CardText>
-                                </CardBody>
-                            </div>
-                        </div>
-                    </Card>
-                )}
-                { imageSala22 && (
-                    <Card className="mb-3 margin w-75 mx-auto">
-                        <div className="row g-0">
-                            <div className="col-lg-4">
-                                <CardImg src={imageSala22} alt='Sala 22 del Museo Nazionale del Rinascimento italiano'/>
-                            </div>
-                            <div className="col-lg-8 d-flex align-items-center">
-                                <CardBody>
-                                    <CardText>
-                                        <p>{descriptionSala22}</p>
-                                        <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala22}</p>
-                                    </CardText>
-                                </CardBody>
-                            </div>
-                        </div>
-                    </Card>
-                )}
-                { imageSala23 && (
-                    <Card className="mb-3 margin w-75 mx-auto">
-                        <div className="row g-0">
-                            <div className="col-lg-4">
-                                <CardImg src={imageSala23} alt='Sala 23 del Museo Nazionale del Rinascimento italiano'/>
-                            </div>
-                            <div className="col-lg-8 d-flex align-items-center">
-                                <CardBody>
-                                    <CardText>
-                                        <p>{descriptionSala23}</p>
-                                        <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala23}</p>
-                                    </CardText>
-                                </CardBody>
-                            </div>
-                        </div>
-                    </Card>
-                )}
-                { imageSala24 && (
-                    <Card className="mb-3 margin w-75 mx-auto">
-                        <div className="row g-0">
-                            <div className="col-lg-4">
-                                <CardImg src={imageSala24} alt='Sala 24 del Museo Nazionale del Rinascimento italiano'/>
-                            </div>
-                            <div className="col-lg-8 d-flex align-items-center">
-                                <CardBody>
-                                    <CardText>
-                                        <p>{descriptionSala24}</p>
-                                        <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala24}</p>
-                                    </CardText>
-                                </CardBody>
-                            </div>
-                        </div>
-                    </Card>
-                )}
-                { imageSala25 && (
-                    <Card className="mb-3 margin w-75 mx-auto">
-                        <div className="row g-0">
-                            <div className="col-lg-4">
-                                <CardImg src={imageSala25} alt='Sala 25 del Museo Nazionale del Rinascimento italiano'/>
-                            </div>
-                            <div className="col-lg-8 d-flex align-items-center">
-                                <CardBody>
-                                    <CardText>
-                                        <p>{descriptionSala25}</p>
-                                        <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala25}</p>
-                                    </CardText>
-                                </CardBody>
-                            </div>
-                        </div>
-                    </Card>
-                )}
-                { imageSala26 && (
-                    <Card className="mb-3 margin w-75 mx-auto">
-                        <div className="row g-0">
-                            <div className="col-lg-4">
-                                <CardImg src={imageSala26} alt='Sala 26 del Museo Nazionale del Rinascimento italiano'/>
-                            </div>
-                            <div className="col-lg-8 d-flex align-items-center">
-                                <CardBody>
-                                    <CardText>
-                                        <p>{descriptionSala26}</p>
-                                        <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala26}</p>
-                                    </CardText>
-                                </CardBody>
-                            </div>
-                        </div>
-                    </Card>
-                )}
-                { imageSala27 && (
-                    <Card className="mb-3 margin w-75 mx-auto">
-                        <div className="row g-0">
-                            <div className="col-lg-4">
-                                <CardImg src={imageSala27} alt='Sala 27 del Museo Nazionale del Rinascimento italiano'/>
-                            </div>
-                            <div className="col-lg-8 d-flex align-items-center">
-                                <CardBody>
-                                    <CardText>
-                                        <p>{descriptionSala27}</p>
-                                        <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala27}</p>
-                                    </CardText>
-                                </CardBody>
-                            </div>
-                        </div>
-                    </Card>
-                )}
-                { imageSala28 && (
-                    <Card className="mb-3 margin w-75 mx-auto">
-                        <div className="row g-0">
-                            <div className="col-lg-4">
-                                <CardImg  src={imageSala28} alt='Sala 28 del Museo Nazionale del Rinascimento italiano'/>
-                            </div>
-                            <div className="col-lg-8 d-flex align-items-center">
-                                <CardBody>
-                                    <CardText>
-                                        <p>{descriptionSala28}</p>
-                                        <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala28}</p>
-                                    </CardText>
-                                </CardBody>
-                            </div>
-                        </div>
-                    </Card>
-                )}
-                { imageSala29 && (
-                    <Card className="mb-3 margin w-75 mx-auto">
-                        <div className="row g-0">
-                            <div className="col-lg-4">
-                                <CardImg  src={imageSala29} alt='Sala 29 del Museo Nazionale del Rinascimento italiano'/>
-                            </div>
-                            <div className="col-lg-8 d-flex align-items-center">
-                                <CardBody>
-                                    <CardText>
-                                        <p>{descriptionSala29}</p>
-                                        <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala29}</p>
-                                    </CardText>
-                                </CardBody>
-                            </div>
-                        </div>
-                    </Card>
-                )}
-                { imageSala30 && (
-                    <Card className="mb-3 margin w-75 mx-auto">
-                        <div className="row g-0">
-                            <div className="col-lg-4">
-                                <CardImg src={imageSala30} alt='Sala 30 del Museo Nazionale del Rinascimento italiano'/>
-                            </div>
-                            <div className="col-lg-8 d-flex align-items-center">
-                                <CardBody>
-                                    <CardText>
-                                        <p>{descriptionSala30}</p>
-                                        <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSala30}</p>
-                                    </CardText>
-                                </CardBody>
-                            </div>
-                        </div>
-                    </Card>
-                )}
-                { imageSalaCodici && (
-                    <Card className="mb-3 margin w-75 mx-auto">
-                        <div className="row g-0">
-                            <div className="col-lg-4">
-                                <CardImg src={imageSalaCodici} alt='Sala Codici del Museo Nazionale del Rinascimento italiano'/>
-                            </div>
-                            <div className="col-lg-8 d-flex align-items-center">
-                                <CardBody>
-                                    <CardText>
-                                        <p>{descriptionSalaCodici}</p>
-                                        <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSalaCodici}</p>
-                                    </CardText>
-                                </CardBody>
-                            </div>
-                        </div>
-                    </Card>
-                )}
-                { imageSalaPlebisciti && (
-                    <Card className="mb-3 margin w-75 mx-auto">
-                        <div className="row g-0">
-                            <div className="col-lg-4">
-                                <CardImg src={imageSalaPlebisciti} alt='Sala Plebisciti del Museo Nazionale del Rinascimento italiano'/>
-                            </div>
-                            <div className="col-lg-8 d-flex align-items-center">
-                                <CardBody>
-                                    <CardText>
-                                        <p>{descriptionSalaPlebisciti}</p>
-                                        <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleSalaPlebisciti}</p>
-                                    </CardText>
-                                </CardBody>
-                            </div>
-                        </div>
-                    </Card>
-                )}
-                { imageCorridoiodellaCameraitaliana && (
-                    <Card className="mb-3 margin w-75 mx-auto">
-                        <div className="row g-0">
-                            <div className="col-lg-4">
-                                <CardImg src={imageCorridoiodellaCameraitaliana} alt='Corridoio della Camera italiana del Museo Nazionale del Rinascimento italiano'/>
-                            </div>
-                            <div className="col-lg-8 d-flex align-items-center">
-                                <CardBody>
-                                    <CardText>
-                                        <p>{descriptionCorridoiodellaCameraitaliana}</p>
-                                        <p className='fw-medium bg-success p-2 text-dark bg-opacity-50 text-center'>{subtitleCorridoiodellaCameraitaliana}</p>
-                                    </CardText>
-                                </CardBody>
-                            </div>
-                        </div>
-                    </Card>
-                )}
-            </div>
-            <div className="margin mt-3">
-                <Card className="mb-3 margin">
-                    <div className="row g-0">
-                        <div className="col-lg-4">
-                            <CardImg src={Allestimento_1878_mn_del_r_italiano} alt='Allestimento 1878' style={{height: '100%'}}/>
-                        </div>
-                        <div className="col-lg-8 d-flex align-items-center">
-                            <CardBody>
-                                <CardTitle><h2 className="color-subtitle">Gli Allestimenti Precedenti</h2></CardTitle>
-                                <hr className='border-3'/>
-                                <CardText>
-                                    <p className='mt-5'>
-                                        Il Museo Nazionale del Risorgimento Italiano di Torino è il più antico e il più noto tra i musei italiani di storia patria. Venne istituito nel 1878, come “Ricordo nazionale 
-                                        di Vittorio Emanuele II” pochi mesi dopo la sua morte.<br/>
-                                        Prima della sua inaugurazione definitiva, avvenuta trent’anni dopo all’interno della Mole Antonelliana, il Museo conobbe due allestimenti provvisori: uno nel 1884 e uno nel 1899.
-                                    </p>
-                                </CardText>
-                            </CardBody>
-                        </div>
-                    </div>
-                </Card>
-                <Card className="mb-3 margin">
-                    <div className="row g-0">
-                        <div className="col-lg-4">
-                            <CardImg src={Allestimenti_1884_mn_del_r_italiano} alt='Allestimento 1884' style={{height: '100%'}}/>
-                        </div>
-                        <div className="col-lg-8 d-flex align-items-center">
-                            <CardBody>
-                                <CardTitle><h2 className="color-subtitle">Gli Allestimenti Precedenti</h2></CardTitle>
-                                <hr className='border-3'/>
-                                <CardText>
-                                    <p className='mt-5'>
-                                        Nel 1884, in occasione della grande esposizione nazionale al Valentino, prese forma il primo esperimento di un museo del risorgimento.<br/>
-                                        Era un vasto allestimento che assegnava un ruolo fortemente centrale agli episodi del 1848–49 e in cui lo spazio dedicato al Piemonte non superava per importanza il resto d’Italia.<br/>
-                                        Il risorgimento rappresentato iniziava con i moti del 1820–21 e terminava con la presa di Porta Pia, proponendo una lettura che, superati gli antagonismi e realizzato lo stato 
-                                        unitario, evidenziava l’azione convergente in un unico obiettivo nazionale dei diversi schieramenti politici.<br/>
-                                        In sintesi il risorgimento era visto in chiave nazional–popolare più che dinastico–sabaudo. Emergeva poi un’altra importante idea di fondo, che considerava i processi di nazionalità 
-                                        un evento rivoluzionario su scala europea che affondava le radici già nel periodo napoleonico, concetto che ancora oggi fa di quella mostra l’allestimento più moderno sul piano 
-                                        interpretativo che fino ad oggi si è avuto del Museo.
-                                    </p>
-                                </CardText>
-                            </CardBody>
-                        </div>
-                    </div>
-                </Card>
-                <Card className="mb-3 margin">
-                    <div className="row g-0">
-                        <div className="col-lg-4">
-                            <CardImg src={Allestimenti_1899_mn_del_r_italiano} alt='Allestimento 1899' style={{height: '100%'}}/>
-                        </div>
-                        <div className="col-lg-8 d-flex align-items-center">
-                            <CardBody>
-                                <CardTitle><h2 className="color-subtitle">Gli Allestimenti Precedenti</h2></CardTitle>
-                                <hr className='border-3'/>
-                                <CardText>
-                                    <p className='mt-5'>
-                                        Il 9 settembre del 1899 si celebrò una prima parziale apertura del Museo del Risorgimento, anche se in una sede ancora provvisoria: non ancora nella Mole, dove era destinato, ma nei locali 
-                                        della Sezione di arte moderna del Museo civico.<br/>
-                                        Anche se il ruolo del Piemonte cominciava a reclamare più spazio non era ancora il museo della dinastia, e si sforzava di conservare una visione nazionale ed ecumenica del processo unitario.
-                                    </p>
-                                    <p>
-                                        Al Museo si affiancava una grande biblioteca, che ambiva a contenere una sintesi o la copia dei documenti risorgimentali presenti in tutt’Italia e una raccolta completa delle pubblicazioni 
-                                        straniere e nazionali: un obiettivo ambizioso, mai completamente realizzato.
-                                    </p>
-                                </CardText>
-                            </CardBody>
-                        </div>
-                    </div>
-                </Card>
-                <Card className="mb-3 margin">
-                    <div className="row g-0">
-                        <div className="col-lg-4">
-                            <CardImg src={Allestimenti_1908_mn_del_r_italiano} alt='Allestimento 1908' style={{height: '100%'}}/>
-                        </div>
-                        <div className="col-lg-8 d-flex align-items-center">
-                            <CardBody>
-                                <CardTitle><h2 className="color-subtitle">Gli Allestimenti Precedenti</h2></CardTitle>
-                                <hr className='border-3'/>
-                                <CardText>
-                                    <p className='mt-5'>
-                                        Il Museo del Risorgimento ebbe la sua inaugurazione definitiva il 18 ottobre 1908 all’interno della Mole Antonelliana, luogo simbolo di Torino e della modernità: passato e futuro insieme 
-                                        per fare dell’ex–capitale d’Italia una città nuova e moderna.<br/>
-                                        Il nuovo Museo ribadiva, nel suo intento educativo e celebrativo delle glorie patrie, il suo essere nazionale.<br/>
-                                        Presentava 1.274 pezzi esposti nel salone centrale e in tre grandi corsie. Era l’unico museo del risorgimento italiano a poter essere definito scientifico, premiato da un grande successo 
-                                        di pubblico, anche se oggi ci apparirebbe poco efficace dal punto di vista espositivo e della comunicazione.
-                                    </p>
-                                </CardText>
-                            </CardBody>
-                        </div>
-                    </div>
-                </Card>
-                <Card className="mb-3 margin">
-                    <div className="row g-0">
-                        <div className="col-lg-4">
-                            <CardImg src={Allestimenti_1938_mn_del_r_italiano} alt='Allestimento 1938' style={{height: '100%'}}/>
-                        </div>
-                        <div className="col-lg-8 d-flex align-items-center">
-                            <CardBody>
-                                <CardTitle><h2 className="color-subtitle">Gli Allestimenti Precedenti</h2></CardTitle>
-                                <hr className='border-3'/>
-                                <CardText>
-                                    <p className='mt-5'>
-                                        L’8 settembre del 1938 il re Vittorio Emanuele III inaugurò il Museo Nazionale del Risorgimento Italiano finalmente trasferito nella sede attuale di palazzo Carignano.<br/>
-                                        Era un allestimento in cui la storia d’Italia diventava del tutto autoctona, abbandonava i nessi con l’Europa e compiva un percorso che legava strettamente la Roma antica al Risorgimento 
-                                        e al fascismo: il museo doveva rappresentare l’antichità della dinastia e la crescente potenza dello Stato sabaudo, così le origini del risorgimento furono anticipate al 1706, più precisamente 
-                                        alla battaglia di Torino che diede un regno ai Savoia.<br/>
-                                        Con l’inizio della seconda guerra mondiale, i lavori di allestimento furono interrotti e i bombardamenti subiti arrecarono al Museo danni ingenti.<br/>
-                                        Negli anni della Resistenza le sue sale ospitarono clandestinamente riunioni di partigiani, armi e materiale di propaganda antifascista.
-                                    </p>
-                                </CardText>
-                            </CardBody>
-                        </div>
-                    </div>
-                </Card>
-                <Card className="mb-3 margin">
-                    <div className="row g-0">
-                        <div className="col-lg-4">
-                            <CardImg src={Allestimenti_1948_mn_del_r_italiano} alt='Allestimento 1948' style={{height: '100%'}}/>
-                        </div>
-                        <div className="col-lg-8 d-flex align-items-center">
-                            <CardBody>
-                                <CardTitle><h2 className="color-subtitle">Gli Allestimenti Precedenti</h2></CardTitle>
-                                <hr className='border-3'/>
-                                <CardText>
-                                    <p className='mt-5'>
-                                        Dopo la guerra, il Museo fu riaperto in piccola parte in occasione del centenario della prima guerra di indipendenza. Il risorgimento, come nel 1884, tornava ad avere origine nei moti 
-                                        del ’20–’21 e si chiudeva con la presa di Roma.<br/>
-                                        Dopo le sale risorgimentali, trovarono posto altre sei sale dedicate al contributo italiano alla guerra di liberazione, a cura del Corpo volontari della libertà e dell’Istituto storico 
-                                        della Resistenza in Piemonte.
-                                    </p>
-                                </CardText>
-                            </CardBody>
-                        </div>
-                    </div>
-                </Card>
-                <Card className="mb-3 margin">
-                    <div className="row g-0">
-                        <div className="col-lg-4">
-                            <CardImg src={Allestimenti_1961_mn_del_r_italiano} alt='Allestimento 1961' style={{height: '100%'}}/>
-                        </div>
-                        <div className="col-lg-8 d-flex align-items-center">
-                            <CardBody>
-                                <CardTitle><h2 className="color-subtitle">Gli Allestimenti Precedenti</h2></CardTitle>
-                                <hr className='border-3'/>
-                                <CardText>
-                                    <p className='mt-5'>
-                                        Nel 1961, In occasione delle celebrazioni del Centenario dell’Unità d’Italia, a Palazzo Carignano si realizzò una grande mostra storica: oltre 1.800 pezzi esposti in 32 sale.<br/>
-                                        L’obiettivo era quello di coinvolgere anche i visitatori meno preparati, grazie ad una rinnovata sensibilità per la comunicazione, per gli aspetti scenografici e per il materiale esposto 
-                                        che finalmente proveniva da tutta l’Italia.<br/>
-                                        Dal punto di vista dell’interpretazione storiografica, si tornò a datare le origini del risorgimento più che alle riforme dell’alto settecento, alla rivoluzione francese e alla dominazione 
-                                        napoleonica che avevano sollecitato ideali patriottici.
-                                    </p>
-                                </CardText>
-                            </CardBody>
-                        </div>
-                    </div>
-                </Card>
-                <Card className="mb-3 margin">
-                    <div className="row g-0">
-                        <div className="col-lg-4">
-                            <CardImg src={Allestimenti_1965_mn_del_r_italiano} alt='Allestimento 1965' style={{height: '100%'}}/>
-                        </div>
-                        <div className="col-lg-8 d-flex align-items-center">
-                            <CardBody>
-                                <CardTitle><h2 className="color-subtitle">Gli Allestimenti Precedenti</h2></CardTitle>
-                                <hr className='border-3'/>
-                                <CardText>
-                                    <p className='mt-5'>
-                                        Il museo del 1965 sia per scelta storiografica degli allestitori, sia perchè molto materiale esposto nel 1961 era stato restituito ai ben 350 prestatori, ridusse fortemente il carattere 
-                                        nazionale che aveva avuto l’esposizione del centenario.<br/>
-                                        Si tornò così a proporre una visione del risorgimento fedele all’idea della dinastia sabauda come principale motore dell’unificazione.
-                                    </p>
-                                </CardText>
-                            </CardBody>
-                        </div>
-                    </div>
-                </Card>
-                <Card className="mb-3 margin">
-                    <div className="row g-0">
-                        <div className="col-lg-4">
-                            <CardImg src={Allestimenti_2011_mn_del_r_italiano} alt='Allestimento 2011' style={{height: '100%'}}/>
-                        </div>
-                        <div className="col-lg-8 d-flex align-items-center">
-                            <CardBody>
-                                <CardTitle><h2 className="color-subtitle">Gli Allestimenti Precedenti</h2></CardTitle>
-                                <hr className='border-3'/>
-                                <CardText>
-                                    <p className='mt-5'>
-                                        Dopo una progettazione scientifica ed espositiva iniziata nel 1999, nel 2006 si sono avviati i lavori di riallestimento del nuovo percorso museale, che distribuisce in 30 sale, compreso lo scalone d'onore e il salone del primo Parlamento italiano, il racconto di come gli italiani divennero nazione, fra altri popoli alla ricerca della propria identità.
-                                        Il risultato è un allestimento rigoroso e insieme spettacolare che narra la storia del Paese a fronte delle grandi trasformazioni economiche, politiche e culturali avvenute nell’intero continente. Un percorso che accompagna il visitatore in un lungo viaggio che parte dalla rivoluzione francese e si conclude alle soglie della grande guerra, l’evento che aprì alle società di massa del XX secolo.
-                                    </p>
-                                </CardText>
-                            </CardBody>
-                        </div>
-                    </div>
-                </Card>
-            </div>
-            <div className='margin mb-4'>
-                <h3 className='color-subtitle text-center'>Mappa</h3>
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1620.1074281728327!2d7.684499989965835!3d45.06905551763594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47886d702759ca91%3A0xbf0fb182b3a64daa!2sMuseo%20Nazionale%20del%20Risorgimento%20Italiano!5e1!3m2!1sit!2sit!4v1712589008903!5m2!1sit!2sit"
-                    width="600"
-                    height="450"
-                    style={{ border: 0 }}
-                    allowFullScreen=""
-                    loading="lazy"
-                    referrerPolicy="no-referrer-when-downgrade"
-                    title="Google Map"
-                    className='mx-auto mappa'
-                ></iframe>
-            </div>
-        </main>
-        <Footer/>
-    </AuthenticatedLayout>
+                </div>
+                <div className='margin mb-4'>
+                    <h3 className='color-subtitle text-center'>Mappa</h3>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1620.1074281728327!2d7.684499989965835!3d45.06905551763594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47886d702759ca91%3A0xbf0fb182b3a64daa!2sMuseo%20Nazionale%20del%20Risorgimento%20Italiano!5e1!3m2!1sit!2sit!4v1712589008903!5m2!1sit!2sit"
+                        width="600"
+                        height="450"
+                        style={{ border: 0 }}
+                        allowFullScreen=""
+                        loading="lazy"
+                        referrerPolicy="no-referrer-when-downgrade"
+                        title="Google Map"
+                        className='mx-auto mappa'
+                    ></iframe>
+                </div>
+            </main>
+            <Footer/>
+        </AuthenticatedLayout>
+    </>
+    
   )
 }
