@@ -649,6 +649,18 @@ Route::get('/home', function () {
         return Inertia::render('Piemonte/Destinazioni/Novara');
     })->middleware(['auth', 'verified'])->name('novara');
 
+    /*Inizio Novara*/
+
+        Route::get('/visite/piemonte/novara/cupola_di_san_gaudenzio', function () {
+            return Inertia::render('Piemonte/Visite/Cupola_di_San_Gaudenzio');
+        })->middleware(['auth', 'verified'])->name('cupola_di_san_gaudenzio');
+
+        Route::get('/visite/piemonte/novara/basilica_di_san_gaudenzio', function () {
+            return Inertia::render('Piemonte/Visite/Basilica_di_San_Gaudenzio');
+        })->middleware(['auth', 'verified'])->name('basilica_di_san_gaudenzio');
+
+    /*Fine Novara*/
+
     Route::get('/destinazioni/piemonte/biella', function () {
         return Inertia::render('Piemonte/Destinazioni/Biella');
     })->middleware(['auth', 'verified'])->name('biella');

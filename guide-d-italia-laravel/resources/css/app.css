@@ -1182,57 +1182,52 @@ hr{
       /* width: 30%; */
       height: 400px;
     }
-    .card_Piemonte:nth-child(2){ 
-      background: url('../assets/Piemonte/Il_nord_e_i_laghi_maggiore_e_d_orta_Piemonte.jpg') center/cover no-repeat;
-      /* width: 30%; */
-      height: 400px;
-    }
-    .card_Piemonte:nth-child(3), .card_ortona:nth-child(1){ 
+    .card_Piemonte:nth-child(2), .card_ortona:nth-child(1){ 
       background: url('../assets/Piemonte/Novara_Piemonte.jpg') center/cover no-repeat;
       /* width: 30%; */
       height: 400px;
     }
-    .card_Piemonte:nth-child(4), .card_ortona:nth-child(2){ 
+    .card_Piemonte:nth-child(3), .card_ortona:nth-child(2){ 
       background: url('../assets/Piemonte/Biella_Piemonte.jpg') center/cover no-repeat;
       /* width: 30%; */
       height: 400px;
     }
-    .card_Piemonte:nth-child(5), .card_ortona:nth-child(3){ 
+    .card_Piemonte:nth-child(4), .card_ortona:nth-child(3){ 
       background: url('../assets/Piemonte/Vercelli_Piemonte.jpg') center/cover no-repeat;
       /* width: 30%; */
       height: 400px;
     }
-    .card_Piemonte:nth-child(6){ 
+    .card_Piemonte:nth-child(5){ 
       background: url('../assets/Piemonte/Canavese_gran_paradiso_e_valli_di_lanzo_Piemonte.jpg') center/cover no-repeat;
       /* width: 30%; */
       height: 400px;
     }
-    .card_Piemonte:nth-child(7){ 
+    .card_Piemonte:nth-child(6){ 
       background: url('../assets/Piemonte/Ivrea_Piemonte.jpg') center/cover no-repeat;
       /* width: 30%; */
       height: 400px;
     }
-    .card_Piemonte:nth-child(8){ 
+    .card_Piemonte:nth-child(7){ 
       background: url('../assets/Piemonte/Valle_di_Susa_Piemonte.jpg') center/cover no-repeat;
       /* width: 30%; */
       height: 400px;
     }
-    .card_Piemonte:nth-child(9){ 
+    .card_Piemonte:nth-child(8){ 
       background: url('../assets/Piemonte/Cuneo_Pimonte.jpg') center/cover no-repeat;
       /* width: 30%; */
       height: 400px;
     }
-    .card_Piemonte:nth-child(10){ 
+    .card_Piemonte:nth-child(9){ 
       background: url('../assets/Piemonte/Saluzzo_Piemonte.jpg') center/cover no-repeat;
       /* width: 30%; */
       height: 400px;
     }
-    .card_Piemonte:nth-child(11){ 
+    .card_Piemonte:nth-child(10){ 
       background: url('../assets/Piemonte/Asti_alessandria_e_il_monferrato_Piemonte.jpg') center/cover no-repeat;
       /* width: 30%; */
       height: 400px;
     }
-    .card_Piemonte:nth-child(12){ 
+    .card_Piemonte:nth-child(11){ 
       background: url('../assets/Piemonte/Langhe_e_roero_Piemonte.jpg') center/cover no-repeat;
       /* width: 30%; */
       height: 400px;
@@ -1927,17 +1922,7 @@ hr{
       }
     /*Fine Quadrilatero Romano*/
   /*Fine Torino*/
-  /**/
-    .il_nord_e_i_laghi_maggiore_e_d_orta{
-      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Il_nord_e_i_laghi_maggiore_e_d_orta_Piemonte.jpg') center/cover no-repeat;
-      padding: 250px 0;
-    }
-    .il_nord_e_i_laghi_maggiore_e_d_orta h1{
-      color: #fff;
-      margin: 0 !important;
-    }
-  /**/
-  /**/
+  /*Inizio Novara*/
     .novara{
       background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Novara_Piemonte.jpg') center/cover no-repeat;
       padding: 250px 0;
@@ -1946,7 +1931,77 @@ hr{
       color: #fff;
       margin: 0 !important;
     }
-  /**/
+    /*Inizio Card Novara*/
+      .card_Novara{
+        display: flex;
+      }
+      .card_Novara:nth-child(1){ 
+        background: url('../assets/Piemonte/Cupola_di_San_Gaudenzio_Novara_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Novara:nth-child(2){ 
+        background: url('../assets/Piemonte/Basilica_di_San_Gaudenzio_Novara_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Novara:nth-child(3){
+        background: url('../assets/Piemonte/Cattedrale_di_Santa_Maria_Assunta_Novara_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Novara:nth-child(4){
+        background: url('../assets/Piemonte/Teatro_Coccia_Novara_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Novara:nth-child(5){
+        background: url('../assets/Piemonte/Piazza_Martini_Novara_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Novara:nth-child(6){
+        background: url('../assets/Piemonte/Castello_Visconteo_Sforzesco_Novara_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Novara:nth-child(7){
+        background: url('../assets/Piemonte/Palazzo_della_Borsa_Novara_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Novara:nth-child(8){
+        background: url('../assets/Piemonte/Broletto_Novara_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Novara:nth-child(9){
+        background: url('../assets/Piemonte/Mura_Romane_Novara_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      /*Inizio Cupola di San Gaudenzio*/
+        .cupola_di_san_gaudenzio{
+          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Cupola_di_San_Gaudenzio_Novara_Piemonte.jpg') center/cover no-repeat;
+          padding: 250px 0;
+        }
+        .cupola_di_san_gaudenzio h1{
+          color: #fff;
+          margin: 0 !important;
+        }
+      /*Fine Cupola di San Gaudenzio*/
+      /*Inizio Basilica di San Gaudenzio*/
+        .basilica_di_san_gaudenzio{
+          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Basilica_di_San_Gaudenzio_Novara_Piemonte.jpg') center/cover no-repeat;
+          padding: 250px 0;
+        }
+        .basilica_di_san_gaudenzio h1{
+          color: #fff;
+          margin: 0 !important;
+        }
+      /*Fine Basilica di San Gaudenzio*/
+    /*Fine Card Novara*/
+  /*Fine Novara*/
   /**/
     .biella{
       background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Biella_Piemonte.jpg') center/cover no-repeat;
