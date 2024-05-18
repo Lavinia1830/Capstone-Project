@@ -659,6 +659,21 @@ Route::get('/home', function () {
             return Inertia::render('Piemonte/Visite/Basilica_di_San_Gaudenzio');
         })->middleware(['auth', 'verified'])->name('basilica_di_san_gaudenzio');
 
+        Route::get('/visite/piemonte/novara/cattedrale_santa_maria_assunta', function () {
+            return Inertia::render('Piemonte/Visite/Cattedrale_Santa_Maria_Assunta');
+        })->middleware(['auth', 'verified'])->name('cattedrale_santa_maria_assunta');
+
+        Route::get('/visite/piemonte/novara/teatro_coccia', function () {
+            return Inertia::render('Piemonte/Visite/Teatro_Coccia');
+        })->middleware(['auth', 'verified'])->name('teatro_coccia');
+
+        Route::get('/visite/piemonte/novara/piazza_martini', function () {
+            return Inertia::render('Piemonte/Visite/Piazza_Martini');
+        })->middleware(['auth', 'verified'])->name('piazza_martini');
+
+        Route::get('/visite/piemonte/novara/castello_visconteo_sforzesco', function () {
+            return Inertia::render('Piemonte/Visite/Castello_Visconteo_Sforzesco');
+        })->middleware(['auth', 'verified'])->name('castello_visconteo_sforzesco');
     /*Fine Novara*/
 
     Route::get('/destinazioni/piemonte/biella', function () {

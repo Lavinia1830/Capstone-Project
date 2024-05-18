@@ -66,7 +66,7 @@ export default function Novara(props) {
                 <CardBody className='bottone'>
                   <Link 
                     className="bottone_link" 
-                    href='/visite/piemonte/novara/cattedrale_di_santa_maria_assunta'
+                    href='/visite/piemonte/novara/cattedrale_santa_maria_assunta'
                     onMouseEnter={() => setIsHoveredCattedraleSantaMariaAssunta(true)}
                     onMouseLeave={() => setIsHoveredCattedraleSantaMariaAssunta(false)}
                     >La Cattedrale Santa Maria Assunta {isHoveredCattedraleSantaMariaAssunta && <i className="bi bi-chevron-right"></i>}
@@ -88,7 +88,7 @@ export default function Novara(props) {
                 <CardBody className='bottone'>
                   <Link 
                     className="bottone_link" 
-                    href='/visite/piemonte/novara/piazza_martiri'
+                    href='/visite/piemonte/novara/piazza_martini'
                     onMouseEnter={() => setIsHoveredPiazzaMartiri(true)}
                     onMouseLeave={() => setIsHoveredPiazzaMartiri(false)}
                     >Piazza Martini {isHoveredPiazzaMartiri && <i className="bi bi-chevron-right"></i>}

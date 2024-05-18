@@ -2000,6 +2000,46 @@ hr{
           margin: 0 !important;
         }
       /*Fine Basilica di San Gaudenzio*/
+      /*Inizio Cattedrale Santa Maria Assunta*/
+        .cattedrale_santa_maria_assunta{
+          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Cattedrale_di_Santa_Maria_Assunta_Novara_Piemonte.jpg') center/cover no-repeat;
+          padding: 250px 0;
+        }
+        .cattedrale_santa_maria_assunta h1{
+          color: #fff;
+          margin: 0 !important;
+        }
+      /*Fine Cattedrale Santa Maria Assunta*/
+      /*Inizio Teatro Coccia*/ 
+        .teatro_coccia{
+          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Teatro_Coccia_Novara_Piemonte.jpg') center/cover no-repeat;
+          padding: 250px 0;
+        }
+        .teatro_coccia h1{
+          color: #fff;
+          margin: 0 !important;
+        }
+      /*Fine Teatro Coccia*/
+      /*Inizio Piazza Martini*/
+        .piazza_martini{
+          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Piazza_Martini_Novara_Piemonte.jpg') center/cover no-repeat;
+          padding: 250px 0;
+        }
+        .piazza_martini h1{
+          color: #fff;
+          margin: 0 !important;
+        }
+      /*Fine Piazza Martini*/
+      /*Inizio Il Castello Visconteo Sforzesco */
+        .castello_visconteo_sforzesco{
+          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Castello_Visconteo_Sforzesco_Novara_Piemonte.jpg') center/cover no-repeat;
+          padding: 250px 0;
+        }
+        .castello_visconteo_sforzesco h1{
+          color: #fff;
+          margin: 0 !important;
+        }
+      /*Fine Il Castello Visconteo Sforzesco*/
     /*Fine Card Novara*/
   /*Fine Novara*/
   /**/

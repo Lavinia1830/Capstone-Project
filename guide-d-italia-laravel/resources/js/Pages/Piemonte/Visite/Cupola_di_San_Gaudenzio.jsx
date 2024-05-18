@@ -15,7 +15,7 @@ export default function Cupola_di_San_Gaudenzio(props) {
                     <div className='cupola_di_san_gaudenzio' style={{ position: 'relative' }}>
                         <h1 className='text-center' style={{ position: 'absolute', top: 20, left: 20 }}>La Cupola di San Gaudenzio</h1>
                         <span className='text-light' style={{ position: 'absolute', bottom: 50, left: 20 }}>CATEGORIE</span>
-                        <p className='categorie' style={{ position: 'absolute', bottom: 10, left: 20 }}>Città</p>
+                        <p className='categorie' style={{ position: 'absolute', bottom: 10, left: 20 }}>Da vedere</p>
                     </div>
                     <div className="margin mt-3">
                         <p>
