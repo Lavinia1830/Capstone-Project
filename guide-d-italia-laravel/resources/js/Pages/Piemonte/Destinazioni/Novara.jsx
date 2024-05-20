@@ -12,7 +12,7 @@ export default function Novara(props) {
   const [isHoveredTeatroCoccia, setIsHoveredTeatroCoccia] = useState(false);
   const [isHoveredPiazzaMartiri, setIsHoveredPiazzaMartiri] = useState(false);
   const [isHoveredCastelloVisconteoSforzesco, setIsHoveredCastelloVisconteoSforzesco] = useState(false);
-  const [isHoveredPalazzodellaBorsa, setIsHoveredPalazzodellaBorsa] = useState(false);
+  const [isHoveredPalazzodelMercato, setIsHoveredPalazzodelMercato] = useState(false);
   const [isHoveredBroletto, setIsHoveredBroletto] = useState(false);
   const [isHoveredMuraRomane, setIsHoveredMuraRomane] = useState(false);
 
@@ -110,10 +110,10 @@ export default function Novara(props) {
                 <CardBody className='bottone'>
                   <Link 
                     className="bottone_link" 
-                    href='/visite/piemonte/novara/palazzo_della_borsa'
-                    onMouseEnter={() => setIsHoveredPalazzodellaBorsa(true)}
-                    onMouseLeave={() => setIsHoveredPalazzodellaBorsa(false)}
-                    >Il Palazzo della Borsa {isHoveredPalazzodellaBorsa && <i className="bi bi-chevron-right"></i>}
+                    href='/visite/piemonte/novara/palazzo_del_mercato'
+                    onMouseEnter={() => setIsHoveredPalazzodelMercato(true)}
+                    onMouseLeave={() => setIsHoveredPalazzodelMercato(false)}
+                    >Il Palazzo del Mercato {isHoveredPalazzodelMercato && <i className="bi bi-chevron-right"></i>}
                   </Link>
                 </CardBody>
               </Card>
@@ -132,7 +132,7 @@ export default function Novara(props) {
                 <CardBody className='bottone'>
                   <Link 
                     className="bottone_link" 
-                    href='/visite/piemonte/novara/mura_romana'
+                    href='/visite/piemonte/novara/mura_romane'
                     onMouseEnter={() => setIsHoveredMuraRomane(true)}
                     onMouseLeave={() => setIsHoveredMuraRomane(false)}
                     >Le Mura Romane {isHoveredMuraRomane && <i className="bi bi-chevron-right"></i>}

@@ -674,6 +674,18 @@ Route::get('/home', function () {
         Route::get('/visite/piemonte/novara/castello_visconteo_sforzesco', function () {
             return Inertia::render('Piemonte/Visite/Castello_Visconteo_Sforzesco');
         })->middleware(['auth', 'verified'])->name('castello_visconteo_sforzesco');
+
+        Route::get('/visite/piemonte/novara/palazzo_del_mercato', function () {
+            return Inertia::render('Piemonte/Visite/Palazzo_del_Mercato');
+        })->middleware(['auth', 'verified'])->name('palazzo_del_mercato');
+
+        Route::get('/visite/piemonte/novara/broletto', function () {
+            return Inertia::render('Piemonte/Visite/Il_Broletto');
+        })->middleware(['auth', 'verified'])->name('broletto');
+
+        Route::get('/visite/piemonte/novara/mura_romane', function () {
+            return Inertia::render('Piemonte/Visite/Mura_Romane');
+        })->middleware(['auth', 'verified'])->name('mura_romane');
     /*Fine Novara*/
 
     Route::get('/destinazioni/piemonte/biella', function () {

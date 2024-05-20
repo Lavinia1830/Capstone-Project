@@ -3,7 +3,7 @@ import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout';
 import Footer from '@/Components/Footer';
 import { Head, Link } from '@inertiajs/react';
 
-export default function Castello_Viconteo_Sforzesco(props) {
+export default function Castello_Visconteo_Sforzesco(props) {
     return (
         <>
             <Head title="Castello Viconteo Sforzesco"/>
@@ -12,8 +12,8 @@ export default function Castello_Viconteo_Sforzesco(props) {
                 errors={props.errors}
             >
                 <main>
-                    <div className='castello_viconteo_sforzesco' style={{ position: 'relative' }}>
-                        <h1 className='text-center' style={{ position: 'absolute', top: 20, left: 20 }}>Il Castello Viconteo Sforzesco</h1>
+                    <div className='castello_visconteo_sforzesco' style={{ position: 'relative' }}>
+                        <h1 className='text-center' style={{ position: 'absolute', top: 20, left: 20 }}>Il Castello Visconteo Sforzesco</h1>
                         <span className='text-light' style={{ position: 'absolute', bottom: 50, left: 20 }}>CATEGORIE</span>
                         <p className='categorie' style={{ position: 'absolute', bottom: 10, left: 20 }}>Da vedere</p>
                     </div>

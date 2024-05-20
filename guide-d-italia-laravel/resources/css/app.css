@@ -1966,7 +1966,7 @@ hr{
         height: 400px;
       }
       .card_Novara:nth-child(7){
-        background: url('../assets/Piemonte/Palazzo_della_Borsa_Novara_Piemonte.jpg') center/cover no-repeat;
+        background: url('../assets/Piemonte/Palazzo_del_Mercato_Novara_Piemonte.jpg') center/cover no-repeat;
         /* width: 30%; */
         height: 400px;
       }
@@ -2040,6 +2040,36 @@ hr{
           margin: 0 !important;
         }
       /*Fine Il Castello Visconteo Sforzesco*/
+      /*Inizio Palazzo del Mercato*/
+        .palazzo_del_mercato{
+          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Palazzo_del_Mercato_Novara_Piemonte.jpg') center/cover no-repeat;
+          padding: 250px 0;
+        }
+        .palazzo_del_mercato h1{
+          color: #fff;
+          margin: 0 !important;
+        }
+      /*Fine Palazzo del Mercato*/
+      /*Inizio Il Broletto*/
+        .il_broletto{
+          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Broletto_Novara_Piemonte.jpg') center/cover no-repeat;
+          padding: 250px 0;
+        }
+        .il_broletto h1{
+          color: #fff;
+          margin: 0 !important;
+        }
+      /*Fine Il Broletto*/
+      /*Inizio Le Mura Romane*/
+        .mura_romane{
+          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Mura_Romane_Novara_Piemonte.jpg') center/cover no-repeat;
+          padding: 250px 0;
+        }
+        .mura_romane h1{
+          color: #fff;
+          margin: 0 !important;
+        }
+      /*Fine Le Mura Romane*/
     /*Fine Card Novara*/
   /*Fine Novara*/
   /**/
