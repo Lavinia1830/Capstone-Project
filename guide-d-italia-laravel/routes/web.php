@@ -2,10 +2,12 @@
 
 use App\Http\Controllers\ProfileController;
 use Illuminate\Foundation\Application;
+use Illuminate\Routing\RouteFileRegistrar;
 use Illuminate\Routing\Router;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\Response;
 
 /*
 |--------------------------------------------------------------------------
@@ -427,15 +429,11 @@ Route::get('/home', function () {
 
         /*Inizio Reggia di Venaria Reale*/
 
-            Route::get('/visite/torino/reggia_di_venaria_reale/la_reggia', function () {
+            Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/la_reggia', function () {
                 return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/La_Reggia');
             })->middleware(['auth', 'verified'])->name('la_reggia');
 
             /*Inizio La Reggia*/
-
-                Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/la_reggia/mappa_interattiva', function () {
-                    return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Mappa_interattiva');
-                })->middleware(['auth', 'verified'])->name('mappa_interattiva');
 
                 Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/la_reggia/breve_storia', function () {
                     return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Breve_Storia');
@@ -444,6 +442,10 @@ Route::get('/home', function () {
                 Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/la_reggia/percorso_espositivo', function () {
                     return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Percorso_Espositivo');
                 })->middleware(['auth', 'verified'])->name('percorso_espositivo');
+
+                Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/esplora/la_reggia/arte_contemporanea', function () {
+                    return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Arte_Contemporanea');
+                })->middleware(['auth', 'verified'])->name('arte_contemporanea');
             
             /*Fine La Reggia*/
 
@@ -487,52 +489,96 @@ Route::get('/home', function () {
                 return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Esposizione_del_dipinto_restaurato_di_Palma_il_Giovane');
             })->middleware(['auth', 'verified'])->name('esposizione_del_dipinto_restaurato_di_palma_il_giovane');
 
-            Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/prezzi/reggia_giardini_castello_della_mandria', function () {
-                return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Reggia_Giardini_Castello_della_Mandria');
+            Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/esposizioni_permanenti/storyboard_paladino_reggia_venaria', function () {
+                return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Storyboard_Paladino_Reggia_Venaria');
             })->middleware(['auth', 'verified'])->name('reggia_giardini_castello_della_mandria');
+
+            Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/esposizioni_permanenti/dove_stelle_si_avvicinano_spanna', function () {
+                return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Dove_le_stelle_si_avvicinano_di_una_spanna');
+            })->middleware(['auth', 'verified'])->name('dove_stelle_si_avvicinano_spanna');
+
+            Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/i_capolavori/giardino_delle_sculture_fluide', function () {
+                return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Giardino_delle_Sculture_Fluide');
+            })->middleware(['auth', 'verified'])->name('giardino_delle_sculture_fluide');
+
+            Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/esposizioni_permanenti/anafora_di_giuseppe_penone', function () {
+                return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Anafora_di_Giuseppe_Penone');
+            })->middleware(['auth', 'verified'])->name('anafora_di_giuseppe_penone');
+            
+            Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/la_reggia/arte_contemporanea', function () {
+                return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Arte_Contemporanea');
+            })->middleware(['auth', 'verified'])->name('arte_contemporanea');
+
+            /* Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/passaporto_culturale', function () {
+                return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Passaporto_Culturale');
+            })->middleware(['auth', 'verified'])->name('passaporto_culturale');
+
+            Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/impara_con_la_venaria_reale', function () {
+                return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Impara_con_La_Venaria_Reale');
+            })->middleware(['auth', 'verified'])->name('impara_con_la_venaria_reale'); */
+            
+            /*Fine La Reggia*/
 
             Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/i_giardini', function () {
                 return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/I_Giardini');
             })->middleware(['auth', 'verified'])->name('i_giardini');
 
-            Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/ingressi_ridotti', function () {
-                return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Ingressi_Ridotti');
-            })->middleware(['auth', 'verified'])->name('ingressi_ridotti');
+            /*Inizio I Giardini*/
 
-            Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/ingressi_gratuiti', function () {
-                return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Ingressi_Gratuiti');
-            })->middleware(['auth', 'verified'])->name('ingressi_gratuiti');
-
-            Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/passaporto_culturale', function () {
-                return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Passaporto_Culturale');
-            })->middleware(['auth', 'verified'])->name('passaporto_culturale');
-
-            Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/gratuiti_e_ridotti', function () {
-                return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Gratuiti_e_Ridotti');
-            })->middleware(['auth', 'verified'])->name('gratuiti_e_ridotti');
-
-            Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/convenzioni', function () {
-                return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Convenzioni');
-            })->middleware(['auth', 'verified'])->name('convenzioni');
-
-            Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/biglietterie', function () {
-                return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Biglietterie');
-            })->middleware(['auth', 'verified'])->name('biglietterie');
-
-            Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/orari', function () {
-                return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Orari');
-            })->middleware(['auth', 'verified'])->name('orari');
+                Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/i_giardini/breve_storia', function () {
+                    return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Breve_Storia_Giardini');
+                })->middleware(['auth', 'verified'])->name('breve_storia_giardini');
             
-            Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/impara_con_la_venaria_reale', function () {
-                return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Impara_con_La_Venaria_Reale');
-            })->middleware(['auth', 'verified'])->name('impara_con_la_venaria_reale');
+                Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/i_giardini/la_freccia_di_diana_il_trenino_dei_giardini', function () {
+                    return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/La_Freccia_di_Diana_il_trenino_dei_Giardini');
+                })->middleware(['auth', 'verified'])->name('la_freccia_di_diana_il_trenino_dei_giardini');
+            
+                Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/i_giardini/parco_alto', function () {
+                    return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Parco_Alto');
+                })->middleware(['auth', 'verified'])->name('parco_alto');
 
-            Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/prenotazioni', function () {
-                return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Prenotazioni');
-            })->middleware(['auth', 'verified'])->name('prenotazioni');
+                Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/i_giardini/parco_basso', function () {
+                    return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Parco_Basso');
+                })->middleware(['auth', 'verified'])->name('parco_basso');
 
+            /*Fine I Giardini*/
 
-            /*Fine La Reggia*/
+            Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/l_hercole_colosso', function () {
+                return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/L_Hercole_Colosso');
+            })->middleware(['auth', 'verified'])->name('la_freccia_di_diana_il_trenino_dei_giardini');
+
+            Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/la_fontana_d_ercole', function () {
+                return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/La_Fontana_d_Ercole');
+            })->middleware(['auth', 'verified'])->name('la_fontana_d_ercole');
+
+            Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/mostre/igloo_di_mario_merz_alla_reggia_di_venaria', function () {
+                return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Igloo_di_Mario_Marz');
+            })->middleware(['auth', 'verified'])->name('igloo_di_mario_merz_alla_reggia_di_venaria');
+
+            Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/sinergie_esapodi', function () {
+                return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Sinergie_Esapodi');
+            })->middleware(['auth', 'verified'])->name('sinergie_esapodi');
+            
+            Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/castello_mandria', function () {
+                return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Il_Castello_della_Mandria');
+            })->middleware(['auth', 'verified'])->name('il_castello_della_mandria');
+
+            /*Inizio Il castello della Mandria*/
+
+                Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/castello_mandria/breve_storia_castello_mandria', function () {
+                    return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Breve_Storia_Castello_Mandria');
+                })->middleware(['auth', 'verified'])->name('breve_storia_giardini');
+
+                Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/castello_mandria/il_parco_della_mandria', function () {
+                    return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Il_Parco_della_Mandria');
+                })->middleware(['auth', 'verified'])->name('il_parco_della_mandria');
+
+                Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/castello_mandria/appartamenti_reali', function () {
+                    return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Gli_Appartamenti_Reali');
+                })->middleware(['auth', 'verified'])->name('appartamenti_reali');
+            
+            /*Fine il Castello della Mandria*/
+            
         /*Fine Reggia di Venaria Reale*/
 
         
@@ -541,8 +587,16 @@ Route::get('/home', function () {
             return Inertia::render('Piemonte/Visite/Monte_dei_Cappuccini');
         })->middleware(['auth', 'verified'])->name('monte_dei_cappuccini');
 
+        Route::get('/visite/piemonte/torino/ponte_vittorio_emanuele_i', function () {
+            return Inertia::render('Piemonte/Visite/Ponte_Vittorio_Emanuele_I');
+        })->middleware(['auth', 'verified'])->name('ponte_vittorio_emaniele_i');
+
+        Route::get('/visite/piemonte/torino/chiesa_della_gran_madre', function () {
+            return Inertia::render('Piemonte/Visite/Chiesa_della_Gran_Madre');
+        })->middleware(['auth', 'verified'])->name('chiesa_della_gran_madre');
+
         Route::get('/visite/piemonte/torino/piazza_san_carlo', function () {
-            return Inertia::render('Piemonte/Visite/Torino/Piazza_san_Carlo');
+            return Inertia::render('Piemonte/Visite/Piazza_san_Carlo');
         })->middleware(['auth', 'verified'])->name('piazza_san_carlo');
 
         Route::get('/visite/piemonte/torino/basilica_di_superga', function () {
@@ -595,9 +649,68 @@ Route::get('/home', function () {
         return Inertia::render('Piemonte/Destinazioni/Novara');
     })->middleware(['auth', 'verified'])->name('novara');
 
+    /*Inizio Novara*/
+
+        Route::get('/visite/piemonte/novara/cupola_di_san_gaudenzio', function () {
+            return Inertia::render('Piemonte/Visite/Cupola_di_San_Gaudenzio');
+        })->middleware(['auth', 'verified'])->name('cupola_di_san_gaudenzio');
+
+        Route::get('/visite/piemonte/novara/basilica_di_san_gaudenzio', function () {
+            return Inertia::render('Piemonte/Visite/Basilica_di_San_Gaudenzio');
+        })->middleware(['auth', 'verified'])->name('basilica_di_san_gaudenzio');
+
+        Route::get('/visite/piemonte/novara/cattedrale_santa_maria_assunta', function () {
+            return Inertia::render('Piemonte/Visite/Cattedrale_Santa_Maria_Assunta');
+        })->middleware(['auth', 'verified'])->name('cattedrale_santa_maria_assunta');
+
+        Route::get('/visite/piemonte/novara/teatro_coccia', function () {
+            return Inertia::render('Piemonte/Visite/Teatro_Coccia');
+        })->middleware(['auth', 'verified'])->name('teatro_coccia');
+
+        Route::get('/visite/piemonte/novara/piazza_martini', function () {
+            return Inertia::render('Piemonte/Visite/Piazza_Martini');
+        })->middleware(['auth', 'verified'])->name('piazza_martini');
+
+        Route::get('/visite/piemonte/novara/castello_visconteo_sforzesco', function () {
+            return Inertia::render('Piemonte/Visite/Castello_Visconteo_Sforzesco');
+        })->middleware(['auth', 'verified'])->name('castello_visconteo_sforzesco');
+
+        Route::get('/visite/piemonte/novara/palazzo_del_mercato', function () {
+            return Inertia::render('Piemonte/Visite/Palazzo_del_Mercato');
+        })->middleware(['auth', 'verified'])->name('palazzo_del_mercato');
+
+        Route::get('/visite/piemonte/novara/broletto', function () {
+            return Inertia::render('Piemonte/Visite/Il_Broletto');
+        })->middleware(['auth', 'verified'])->name('broletto');
+
+        Route::get('/visite/piemonte/novara/mura_romane', function () {
+            return Inertia::render('Piemonte/Visite/Mura_Romane');
+        })->middleware(['auth', 'verified'])->name('mura_romane');
+    /*Fine Novara*/
+
     Route::get('/destinazioni/piemonte/biella', function () {
         return Inertia::render('Piemonte/Destinazioni/Biella');
     })->middleware(['auth', 'verified'])->name('biella');
+
+    /*Inizio Biella*/
+
+        Route::get('/visite/piemonte/biella/quartiere_del_piazzo', function () {
+            return Inertia::render('Piemonte/Visite/Quartiere_del_Piazzo');
+        })->middleware(['auth', 'verified'])->name('quartiere_del_piazzo');
+
+        Route::get('/visite/piemonte/biella/mebo', function () {
+            return Inertia::render('Piemonte/Visite/MeBo');
+        })->middleware(['auth', 'verified'])->name('mebo');
+
+        Route::get('/visite/piemonte/biella/fondazione_fila_museum', function () {
+            return Inertia::render('Piemonte/Visite/Fila');
+        })->middleware(['auth', 'verified'])->name('fondazione_fila_museum');
+
+        Route::get('/visite/piemonte/biella/cittadellarte_forndazione_pistoletto', function () {
+            return Inertia::render('Piemonte/Visite/Cittadellarte');
+        })->middleware(['auth', 'verified'])->name('cittadellarte_forndazione_pistoletto');
+
+    /*Fine Biella*/
 
     Route::get('/destinazioni/piemonte/vercelli', function () {
         return Inertia::render('Piemonte/Destinazioni/Vercelli');

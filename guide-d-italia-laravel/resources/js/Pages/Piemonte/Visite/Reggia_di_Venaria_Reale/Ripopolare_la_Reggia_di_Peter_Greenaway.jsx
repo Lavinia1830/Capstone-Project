@@ -64,7 +64,7 @@ export default function Ripopolare_la_Reggia_di_Peter_Greenaway(props) {
                             <i>Durata: 14’53”</i>
                         </p>
                     </div>
-                    <hr />
+                    <hr className='margin mt-3'/>
                     <div className="margin mt-3">
                         <h2 className="color-subtitle">Peter Greenaway</h2>
                         <p>

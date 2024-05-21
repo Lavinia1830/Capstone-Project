@@ -1,14 +1,13 @@
 import React, {useState} from 'react';
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout';
 import Footer from '@/Components/Footer';
-import {Card} from 'react-bootstrap';
+import {Card, CardBody} from 'react-bootstrap';
 import { Link, Head } from '@inertiajs/react';
 
 export default function Piemonte(props) {
 
 
     const [isHoveredTorino, setIsHoveredTorino] = useState(false);
-    const [isHoveredLaghinord, setIsHoveredLaghinord] = useState(false);
     const [isHoveredNovara, setIsHoveredNovara] = useState(false);
     const [isHoveredBiella, setIsHoveredBiella] = useState(false);
     const [isHoveredVercelli, setIsHoveredVercelli] = useState(false);
@@ -82,7 +81,7 @@ export default function Piemonte(props) {
                 </div>
                 <div className='row d-flex justify-content-center mx-0 mb-4'>
                     <Card className='col-sm-12 col-md-6 col-lg-4 px-0 card_Piemonte'>
-                        <Card.Body className='bottone'>
+                        <CardBody className='bottone'>
                             <Link 
                                 className="bottone_link" 
                                 href='/destinazioni/piemonte/torino'
@@ -91,138 +90,126 @@ export default function Piemonte(props) {
                                 >Torino {isHoveredTorino && <i className="bi bi-chevron-right"></i>}
                                 
                             </Link>
-                        </Card.Body>
+                        </CardBody>
                     </Card>
                     <Card className='col-sm-12 col-md-6 col-lg-4 px-0 card_Piemonte'>
-                        <Card.Body className='bottone'>
+                        <CardBody className='bottone'>
                             <Link 
                                 className="bottone_link" 
-                                href='/territori/il_nord_e_i_laghi_maggiore_e_d_orta'
-                                onMouseEnter={() => setIsHoveredLaghinord(true)}
-                                onMouseLeave={() => setIsHoveredLaghinord(false)}
-                                >Il nord e i Laghi maggiore... {isHoveredLaghinord && <i className="bi bi-chevron-right"></i>}
-                                
-                            </Link>
-                        </Card.Body>
-                    </Card>
-                    <Card className='col-sm-12 col-md-6 col-lg-4 px-0 card_Piemonte'>
-                        <Card.Body className='bottone'>
-                            <Link 
-                                className="bottone_link" 
-                                href='/destinazioni/novara'
+                                href='/destinazioni/piemonte/novara'
                                 onMouseEnter={() => setIsHoveredNovara(true)}
                                 onMouseLeave={() => setIsHoveredNovara(false)}
                                 >Novara {isHoveredNovara && <i className="bi bi-chevron-right"></i>}
                                 
                             </Link>
-                        </Card.Body>
+                        </CardBody>
                     </Card>
                     <Card className='col-sm-12 col-md-6 col-lg-4 px-0 card_Piemonte'>
-                        <Card.Body className='bottone'>
+                        <CardBody className='bottone'>
                             <Link 
                                 className="bottone_link" 
-                                href='/destinazioni/biella'
+                                href='/destinazioni/piemonte/biella'
                                 onMouseEnter={() => setIsHoveredBiella(true)}
                                 onMouseLeave={() => setIsHoveredBiella(false)}
                                 >Biella {isHoveredBiella && <i className="bi bi-chevron-right"></i>}
                                 
                             </Link>
-                        </Card.Body>
+                        </CardBody>
                     </Card>
                     <Card className='col-sm-12 col-md-6 col-lg-4 px-0 card_Piemonte'>
-                        <Card.Body className='bottone'>
+                        <CardBody className='bottone'>
                             <Link 
                                 className="bottone_link" 
-                                href='/destinazioni/vercelli'
+                                href='/destinazioni/piemonte/vercelli'
                                 onMouseEnter={() => setIsHoveredVercelli(true)}
                                 onMouseLeave={() => setIsHoveredVercelli(false)}
                                 >Vercelli {isHoveredVercelli && <i className="bi bi-chevron-right"></i>}
                                 
                             </Link>
-                        </Card.Body>
+                        </CardBody>
                     </Card>
                     <Card className='col-sm-12 col-md-6 col-lg-4 px-0 card_Piemonte'>
-                        <Card.Body className='bottone'>
+                        <CardBody className='bottone'>
                             <Link 
                                 className="bottone_link" 
-                                href='/territori/canadese_gran_paradiso_e_valli_di_lanzo'
+                                href='/territori/piemonte/canadese_gran_paradiso_e_valli_di_lanzo'
                                 onMouseEnter={() => setIsHoveredCanavese(true)}
                                 onMouseLeave={() => setIsHoveredCanavese(false)}
                                 >Canavese, Gran paradiso... {isHoveredCanavese && <i className="bi bi-chevron-right"></i>}
                                 
                             </Link>
-                        </Card.Body>
+                        </CardBody>
                     </Card>
                     <Card className='col-sm-12 col-md-6 col-lg-4 px-0 card_Piemonte'>
-                        <Card.Body className='bottone'>
+                        <CardBody className='bottone'>
                             <Link 
                                 className="bottone_link" 
-                                href='/destinazioni/ivrea'
+                                href='/destinazioni/piemonte/ivrea'
                                 onMouseEnter={() => setIsHoveredIvrea(true)}
                                 onMouseLeave={() => setIsHoveredIvrea(false)}
                                 >Ivrea {isHoveredIvrea && <i className="bi bi-chevron-right"></i>}
                                 
                             </Link>
-                        </Card.Body>
+                        </CardBody>
                     </Card>
                     <Card className='col-sm-12 col-md-6 col-lg-4 px-0 card_Piemonte'>
-                        <Card.Body className='bottone'>
+                        <CardBody className='bottone'>
                             <Link 
                                 className="bottone_link" 
-                                href='/territori/valle_di_susa_chisone_pallice_germanasca'
+                                href='/territori/piemonte/valle_di_susa_chisone_pallice_germanasca'
                                 onMouseEnter={() => setIsHoveredVSCPG(true)}
                                 onMouseLeave={() => setIsHoveredVSCPG(false)}
                                 >Valle di Susa, Chisone, Pellise... {isHoveredVSCPG && <i className="bi bi-chevron-right"></i>}
                                 
                             </Link>
-                        </Card.Body>
+                        </CardBody>
                     </Card>
                     <Card className='col-sm-12 col-md-6 col-lg-4 px-0 card_Piemonte'>
-                        <Card.Body className='bottone'>
+                        <CardBody className='bottone'>
                             <Link 
                                 className="bottone_link" 
-                                href='/destinazioni/cuneo'
+                                href='/destinazioni/piemonte/cuneo'
                                 onMouseEnter={() => setIsHoveredCuneo(true)}
                                 onMouseLeave={() => setIsHoveredCuneo(false)}
                                 >Cuneo {isHoveredCuneo && <i className="bi bi-chevron-right"></i>}
                                 
                             </Link>
-                        </Card.Body>
+                        </CardBody>
                     </Card>
                     <Card className='col-sm-12 col-md-6 col-lg-4 px-0 card_Piemonte'>
-                        <Card.Body className='bottone'>
+                        <CardBody className='bottone'>
                             <Link 
                                 className="bottone_link" 
-                                href='/destinazioni/saluzzo'
+                                href='/destinazioni/piemonte/saluzzo'
                                 onMouseEnter={() => setIsHoveredSaluzzo(true)}
                                 onMouseLeave={() => setIsHoveredSaluzzo(false)}
                                 >Saluzzo {isHoveredSaluzzo && <i className="bi bi-chevron-right"></i>}
                                 
                             </Link>
-                        </Card.Body>
+                        </CardBody>
                     </Card>
                     <Card className='col-sm-12 col-md-6 col-lg-4 px-0 card_Piemonte'>
-                        <Card.Body className='bottone'>
+                        <CardBody className='bottone'>
                             <Link 
                                 className="bottone_link" 
-                                href='/territori/asti_alessandra_e_il_monferrato'
+                                href='/territori/piemonte/asti_alessandra_e_il_monferrato'
                                 onMouseEnter={() => setIsHoveredAsti(true)}
                                 onMouseLeave={() => setIsHoveredAsti(false)}
                                 >Asti, Alessandria e il Monferrato{isHoveredAsti && <i className="bi bi-chevron-right"></i>}
                                 
                             </Link>
-                        </Card.Body>
+                        </CardBody>
                     </Card>
                     <Card className='col-sm-12 col-md-6 col-lg-4 px-0 card_Piemonte'>
-                        <Card.Body className='bottone'>
+                        <CardBody className='bottone'>
                             <Link 
                                 className="bottone_link" 
-                                href='/territori/langhe_e_roero'
+                                href='/territori/piemonte/langhe_e_roero'
                                 onMouseEnter={() => setIsHoveredLangheeRoero(true)}
                                 onMouseLeave={() => setIsHoveredLangheeRoero(false)}
                                 >Langhe e Roero {isHoveredLangheeRoero && <i className="bi bi-chevron-right"></i>}
                             </Link>
-                        </Card.Body>
+                        </CardBody>
                     </Card>
                 </div>
             </main>

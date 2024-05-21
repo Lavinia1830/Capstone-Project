@@ -55,7 +55,6 @@ hr{
   .btn-registrati:hover, .btn-accedi:hover, .btn-card:hover{
     background-color: #77966d !important;
   }
-
 /*Fine Welcome*/
 
 
@@ -1183,57 +1182,52 @@ hr{
       /* width: 30%; */
       height: 400px;
     }
-    .card_Piemonte:nth-child(2){ 
-      background: url('../assets/Piemonte/Il_nord_e_i_laghi_maggiore_e_d_orta_Piemonte.jpg') center/cover no-repeat;
-      /* width: 30%; */
-      height: 400px;
-    }
-    .card_Piemonte:nth-child(3), .card_ortona:nth-child(1){ 
+    .card_Piemonte:nth-child(2), .card_ortona:nth-child(1){ 
       background: url('../assets/Piemonte/Novara_Piemonte.jpg') center/cover no-repeat;
       /* width: 30%; */
       height: 400px;
     }
-    .card_Piemonte:nth-child(4), .card_ortona:nth-child(2){ 
+    .card_Piemonte:nth-child(3), .card_ortona:nth-child(2){ 
       background: url('../assets/Piemonte/Biella_Piemonte.jpg') center/cover no-repeat;
       /* width: 30%; */
       height: 400px;
     }
-    .card_Piemonte:nth-child(5), .card_ortona:nth-child(3){ 
+    .card_Piemonte:nth-child(4), .card_ortona:nth-child(3){ 
       background: url('../assets/Piemonte/Vercelli_Piemonte.jpg') center/cover no-repeat;
       /* width: 30%; */
       height: 400px;
     }
-    .card_Piemonte:nth-child(6){ 
+    .card_Piemonte:nth-child(5){ 
       background: url('../assets/Piemonte/Canavese_gran_paradiso_e_valli_di_lanzo_Piemonte.jpg') center/cover no-repeat;
       /* width: 30%; */
       height: 400px;
     }
-    .card_Piemonte:nth-child(7){ 
+    .card_Piemonte:nth-child(6){ 
       background: url('../assets/Piemonte/Ivrea_Piemonte.jpg') center/cover no-repeat;
       /* width: 30%; */
       height: 400px;
     }
-    .card_Piemonte:nth-child(8){ 
+    .card_Piemonte:nth-child(7){ 
       background: url('../assets/Piemonte/Valle_di_Susa_Piemonte.jpg') center/cover no-repeat;
       /* width: 30%; */
       height: 400px;
     }
-    .card_Piemonte:nth-child(9){ 
+    .card_Piemonte:nth-child(8){ 
       background: url('../assets/Piemonte/Cuneo_Pimonte.jpg') center/cover no-repeat;
       /* width: 30%; */
       height: 400px;
     }
-    .card_Piemonte:nth-child(10){ 
+    .card_Piemonte:nth-child(9){ 
       background: url('../assets/Piemonte/Saluzzo_Piemonte.jpg') center/cover no-repeat;
       /* width: 30%; */
       height: 400px;
     }
-    .card_Piemonte:nth-child(11){ 
+    .card_Piemonte:nth-child(10){ 
       background: url('../assets/Piemonte/Asti_alessandria_e_il_monferrato_Piemonte.jpg') center/cover no-repeat;
       /* width: 30%; */
       height: 400px;
     }
-    .card_Piemonte:nth-child(12){ 
+    .card_Piemonte:nth-child(11){ 
       background: url('../assets/Piemonte/Langhe_e_roero_Piemonte.jpg') center/cover no-repeat;
       /* width: 30%; */
       height: 400px;
@@ -1587,36 +1581,6 @@ hr{
         margin: 0 !important;
       }
     /*Fine Esposizione del dipinto rastaurato di Palma il Giovane*/
-    /*Inizio Reggia - Giardini - Castello della Mandria*/
-      .reggia_giardini_castello_della_mandria{
-        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Reggia_giardini_castello_mandria_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
-        padding: 250px 0;
-      }
-      .reggia_giardini_castello_della_mandria h1{
-        color: #fff;
-        margin: 0 !important;
-      }
-    /*Fine Reggia - Giardini - Castello della Mandria*/
-    /*Inizio Ingressi Ridotti*/
-      .ingressi_ridotti{
-        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Ingressi_ridotti_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
-        padding: 250px 0;
-      }
-      .ingressi_ridotti h1{
-        color: #fff;
-        margin: 0 !important;
-      }
-    /*Fine Ingressi Ridotti*/
-    /*Ingressi Gratuiti*/
-      .ingressi_gratuiti{
-        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Ingressi_gratuiti_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
-        padding: 250px 0;
-      }
-      .ingressi_gratuiti h1{
-        color: #fff;
-        margin: 0 !important;
-      }
-    /*Fine Ingressi Gratuiti*/
     /*Inizio Passaporto Culturale*/
       .passaporto_culturale{
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Passaporto_culturale_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
@@ -1627,56 +1591,6 @@ hr{
         margin: 0 !important;
       }
     /*Fine Passaporto Culturale*/
-    /*Inizio Gratuiti e Ridotti*/
-      .gratuiti_e_ridotti{
-        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Galleria_grande_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
-        padding: 250px 0;
-      }
-      .gratuiti_e_ridotti h1{
-        color: #fff;
-        margin: 0 !important;
-      }
-    /*Fine Gratuiti e Ridotti*/
-    /*Inizio Convenzioni*/
-      .convenzioni{
-        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Convenzioni_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
-        padding: 250px 0;
-      }
-      .convenzioni h1{
-        color: #fff;
-        margin: 0 !important;
-      }
-    /*Fine Convenzioni*/
-    /*Inizio Biglietterie*/
-      .biglietterie{
-        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Biglietterie_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
-        padding: 250px 0;
-      }
-      .biglietterie h1{
-        color: #fff;
-        margin: 0 !important;
-      }
-    /*Fine Biglietterie*/
-    /*Inizio Orari*/
-      .orari{
-        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Orari_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
-        padding: 250px 0;
-      }
-      .orari h1{
-        color: #fff;
-        margin: 0 !important;
-      }
-    /*Fine Orari*/
-    /*Inizio Prenotazioni*/
-      .prenotazioni{
-        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Prenotazioni_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
-        padding: 250px 0;
-      }
-      .prenotazioni h1{
-        color: #fff;
-        margin: 0 !important;
-      }
-    /*Fine Prenotazioni*/
     /*Inizio Breve storia*/
       .breve_storia, .mappa_interattiva{
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Reggia_Interno_Torino_Piemonte.jpg') center/cover no-repeat;
@@ -1687,7 +1601,187 @@ hr{
         margin: 0 !important;
       }
     /*Fine Breve storia*/
-    /**/
+    /*Inizio I Giardini*/
+      .i_giardini{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/I_giardini_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .i_giardini h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine I Giardini*/
+    /*Inizio Arte Contemporanea*/
+      .arte_contemporanea{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Arte_contemporanea_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .arte_contemporanea h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Arte Contemporanea*/
+    /*Inizio Storyboard Paladino alla Reggia di Venaria*/
+      .storyboard_paladino_alla_reggia_di_venaria{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Soryboard_Paladino_alla_Reggia_di_Venaria_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .storyboard_paladino_alla_reggia_di_venaria h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Storyboard Paladino alla Reggia di Venaria*/
+    /*Inizio Dove_le_stelle_si_avvicinano_di_una_spanna*/
+      .dove_le_stelle_si_avvicinano_di_una_spanna{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Dove_le_stelle_si_avvicinano_di_una_spanna_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .dove_le_stelle_si_avvicinano_di_una_spanna h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Dove_le_stelle_si_avvicinano_di_una_spanna*/
+    /*Inizio Giardino delle Sculture Fluide*/
+      .giardino_delle_sculture_fluide{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Giardino_sculture_fluide_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .giardino_delle_sculture_fluide h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Giardino delle Sculture Fluide*/
+    /*Inizio Anafora di Giuseppe Penone*/
+      .anafora_di_giuseppe_penone{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Anafora_giuseppe_penone_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .anafora_di_giuseppe_penone h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Anafora di Giuseppe Penone*/
+    /*Inizio Breve Storia Giardini*/
+      .breve_storia_giardini{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/I_giardini_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .breve_storia_giardini h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Breve storia Giardini*/
+    /*Inizio La freccia di Diana: il trenino dei Giardini*/
+      .la_freccia_di_diana{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Freccia_di_diana_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .la_freccia_di_diana h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine La freccia di Diana: il trenino dei Giardini*/
+    /*Inizio l'Hercole Colosso*/
+      .l_hercole_colosso{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/L_Hercole_colosso_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .l_hercole_colosso h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine l'Hercole Colosso*/
+    /*Inizio La Fontana d'Ercole*/
+      .la_fontana_d_ercole{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/La_fontana_d_ercole_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .la_fontana_d_ercole h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine La fontana d'Ercole*/
+    /*Inizio Igloo di Mario Marz alla Reggia di Venariae*/
+      .igloo_di_mario_marz{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Igloo_merz_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .igloo_di_mario_marz h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Igloo di Mario Marz alla Reggia di Venariae*/
+    /*Inizio Parco Alto*/
+      .parco_alto{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Parco_alto_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .parco_alto h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Parco Alto*/
+    /*Inizio Parco Basso*/
+      .parco_basso{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Parco_basso_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .parco_basso h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Parco Basso*/
+    /*Inizio Sinergie Esapodi*/
+      .sinergie_esapodi{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Sinergie_esapodi_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .sinergie_esapodi h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Sinergie Esapodi*/
+    /*Inizio Il Castello della Mandria*/
+      .il_castello_della_mandria{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Castello_mandria_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .il_castello_della_mandria h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Il Castello della Mandria*/
+    /*Inizio Breve storia Castello Mandria*/
+      .breve_storia_castello_mandria{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Breve_storia_mandria_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .breve_storia_castello_mandria h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Breve storia Castello Mandria*/
+    /*Inizio Il parco della Mandria*/
+      .il_parco_della_mandria{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Parco_mandria_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .il_parco_della_mandria h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Il parco della Mandria*/
+    /*Inizio Gli appartamenti Reali*/
+      .appartamenti_reali {
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Appartamenti_reali_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .appartamenti_reali h1{
+        color: #fff;
+        margin: 0 !important;
+      } 
+    /*Fine Gli appartamenti Reali*/
+    /*Inizio Monte dei Cappuccini*/
       .monte_dei_cappuccini{
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Monte_dei_cappuccini_Torino_Piemonte.jpg') center/cover no-repeat;
         padding: 250px 0;
@@ -1696,8 +1790,28 @@ hr{
         color: #fff;
         margin: 0 !important;
       }
-    /**/
-    /**/
+    /*Fine Monte dei Cappuccini*/
+    /*Inizio Ponte Vittorio Emanuele I*/
+      .ponte_vittorio_emenuele_1{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Ponte_Vittorio_Emanuele_I_Toriono_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .ponte_vittorio_emenuele_1 h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Ponte Vittorio Emanuele I*/
+    /*Inizio Chiesa della Gran Madre */
+      .chiesa_della_gran_madre{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Chiesa_della_Gran_Madre_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .chiesa_della_gran_madre h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Chiesa della Gran Madre*/
+    /*Inizio Piazza San Carlo*/
       .piazza_san_carlo{
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Piazza_san_carlo_Torino_Piemonte.jpg') center/cover no-repeat;
         padding: 250px 0;
@@ -1706,8 +1820,8 @@ hr{
         color: #fff;
         margin: 0 !important;
       }
-    /**/
-    /**/
+    /*Fine Piazza San Carlo*/
+    /*Inizio Basilica di Superga*/
       .basilica_di_superga{
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Basilica_di_Superga_Torino_Piemonte.jpg') center/cover no-repeat;
         padding: 250px 0;
@@ -1716,8 +1830,8 @@ hr{
         color: #fff;
         margin: 0 !important;
       }
-    /**/
-    /**/
+    /*Fine Basilica di Superga*/
+    /*Inizio Chiesa della Grande Madre di Dio*/
       .chiesa_della_gm_di_dio{
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Gran_madre_di_dio_Torino_Piemonte.jpg') center/cover no-repeat;
         padding: 250px 0;
@@ -1726,8 +1840,8 @@ hr{
         color: #fff;
         margin: 0 !important;
       }
-    /**/
-    /**/
+    /*Fine Chiesa della Grande Madre di Dio*/
+    /*Inizio Eataly*/
       .eataly{
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Eataly_Torino_Piemonte.jpg') center/cover no-repeat;
         padding: 250px 0;
@@ -1736,8 +1850,8 @@ hr{
         color: #fff;
         margin: 0 !important;
       }
-    /**/
-    /**/
+    /*Fine Eataly*/
+    /*Inizio GAM*/
       .gam{
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/GAM_Torino_Piemonte.jpg') center/cover no-repeat;
         padding: 250px 0;
@@ -1746,8 +1860,8 @@ hr{
         color: #fff;
         margin: 0 !important;
       }
-    /**/
-    /**/
+    /*Fine GAM*/
+    /*Inizio MAO*/
       .mao{
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/MAO_Torino_Piemonte.jpg') center/cover no-repeat;
         padding: 250px 0;
@@ -1756,8 +1870,8 @@ hr{
         color: #fff;
         margin: 0 !important;
       }
-    /**/
-    /**/
+    /*Fine MAO*/
+    /*Inizio Murazzi*/
       .murazzi{
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Murazzi_Torino_Piemonte.jpg') center/cover no-repeat;
         padding: 250px 0;
@@ -1766,8 +1880,8 @@ hr{
         color: #fff;
         margin: 0 !important;
       }
-    /**/
-    /**/
+    /*Fine Murazzi*/
+    /*Inizio Museo Nazionele del Rinascimento Italiano*/
       .mn_del_r_italiano{
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Facciata_Palazzo_Carignano_Torino_Piemonte.jpg') center/cover no-repeat;
         padding: 250px 0;
@@ -1776,8 +1890,8 @@ hr{
         color: #fff;
         margin: 0 !important;
       }
-    /**/
-    /**/
+    /*Fine Museo Nazionele del Rinascimento Italiano*/
+    /*Inizio Nuseo Nazionale Automobile*/
       .museo_nazionale_automobile{
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Museo_dell_Automobile_Torino_Piemonte.jpg') center/cover no-repeat;
         padding: 250px 0;
@@ -1786,8 +1900,8 @@ hr{
         color: #fff;
         margin: 0 !important;
       }
-    /**/
-    /**/
+    /*Fine Nuseo Nazionale Automobile*/
+    /*Inizio Museo della Sindole*/
       .museo_della_sindone{
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Museo_delle_Sindole_Torino_Piemonte.jpg') center/cover no-repeat;
         padding: 250px 0;
@@ -1796,8 +1910,8 @@ hr{
         color: #fff;
         margin: 0 !important;
       }
-    /**/
-    /**/
+    /*Fine Museo della Sindole*/
+    /*Inizio Quadrilatero Romano*/
       .quadrilatero_romano{
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Quadrilatero_romano_Torino_Piemonte.jpg') center/cover no-repeat;
         padding: 250px 0;
@@ -1806,19 +1920,9 @@ hr{
         color: #fff;
         margin: 0 !important;
       }
-    /**/
+    /*Fine Quadrilatero Romano*/
   /*Fine Torino*/
-  /**/
-    .il_nord_e_i_laghi_maggiore_e_d_orta{
-      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Il_nord_e_i_laghi_maggiore_e_d_orta_Piemonte.jpg') center/cover no-repeat;
-      padding: 250px 0;
-    }
-    .il_nord_e_i_laghi_maggiore_e_d_orta h1{
-      color: #fff;
-      margin: 0 !important;
-    }
-  /**/
-  /**/
+  /*Inizio Novara*/
     .novara{
       background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Novara_Piemonte.jpg') center/cover no-repeat;
       padding: 250px 0;
@@ -1827,8 +1931,148 @@ hr{
       color: #fff;
       margin: 0 !important;
     }
-  /**/
-  /**/
+    /*Inizio Card Novara*/
+      .card_Novara{
+        display: flex;
+      }
+      .card_Novara:nth-child(1){ 
+        background: url('../assets/Piemonte/Cupola_di_San_Gaudenzio_Novara_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Novara:nth-child(2){ 
+        background: url('../assets/Piemonte/Basilica_di_San_Gaudenzio_Novara_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Novara:nth-child(3){
+        background: url('../assets/Piemonte/Cattedrale_di_Santa_Maria_Assunta_Novara_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Novara:nth-child(4){
+        background: url('../assets/Piemonte/Teatro_Coccia_Novara_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Novara:nth-child(5){
+        background: url('../assets/Piemonte/Piazza_Martini_Novara_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Novara:nth-child(6){
+        background: url('../assets/Piemonte/Castello_Visconteo_Sforzesco_Novara_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Novara:nth-child(7){
+        background: url('../assets/Piemonte/Palazzo_del_Mercato_Novara_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Novara:nth-child(8){
+        background: url('../assets/Piemonte/Broletto_Novara_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Novara:nth-child(9){
+        background: url('../assets/Piemonte/Mura_Romane_Novara_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+    /*Fine Card Novara*/
+    /*Inizio Cupola di San Gaudenzio*/
+      .cupola_di_san_gaudenzio{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Cupola_di_San_Gaudenzio_Novara_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .cupola_di_san_gaudenzio h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Cupola di San Gaudenzio*/
+    /*Inizio Basilica di San Gaudenzio*/
+      .basilica_di_san_gaudenzio{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Basilica_di_San_Gaudenzio_Novara_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .basilica_di_san_gaudenzio h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Basilica di San Gaudenzio*/
+    /*Inizio Cattedrale Santa Maria Assunta*/
+      .cattedrale_santa_maria_assunta{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Cattedrale_di_Santa_Maria_Assunta_Novara_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .cattedrale_santa_maria_assunta h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Cattedrale Santa Maria Assunta*/
+    /*Inizio Teatro Coccia*/ 
+      .teatro_coccia{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Teatro_Coccia_Novara_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .teatro_coccia h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Teatro Coccia*/
+    /*Inizio Piazza Martini*/
+      .piazza_martini{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Piazza_Martini_Novara_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .piazza_martini h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Piazza Martini*/
+    /*Inizio Il Castello Visconteo Sforzesco */
+      .castello_visconteo_sforzesco{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Castello_Visconteo_Sforzesco_Novara_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .castello_visconteo_sforzesco h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Il Castello Visconteo Sforzesco*/
+    /*Inizio Palazzo del Mercato*/
+      .palazzo_del_mercato{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Palazzo_del_Mercato_Novara_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .palazzo_del_mercato h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Palazzo del Mercato*/
+    /*Inizio Il Broletto*/
+      .il_broletto{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Broletto_Novara_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .il_broletto h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Il Broletto*/
+    /*Inizio Le Mura Romane*/
+      .mura_romane{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Mura_Romane_Novara_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .mura_romane h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Le Mura Romane*/
+  /*Fine Novara*/
+  /*Inizio Biella*/
     .biella{
       background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Biella_Piemonte.jpg') center/cover no-repeat;
       padding: 250px 0;
@@ -1837,7 +2081,72 @@ hr{
       color: #fff;
       margin: 0 !important;
     }
-  /**/
+    /*Inizio Card Biella*/
+      .card_Biella{
+        display: flex;
+      }
+      .card_Biella:nth-child(1){ 
+        background: url('../assets/Piemonte/Quartiere_del_Piazzo_Biella_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Biella:nth-child(2){ 
+        background: url('../assets/Piemonte/Me_Bo_Menabrea_Botalla_Museum_Biella_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Biella:nth-child(3){ 
+        background: url('../assets/Piemonte/Fondazione_FILA_Museum_Biella_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Biella:nth-child(4){ 
+        background: url('../assets/Piemonte/Cittadellarte_forndazione_pistoletto_Biella_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+    /*Fine Card Biella*/
+    /*Inizio Quartiere del Piazzo*/
+      .quartiere_del_piazzo{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Quartiere_del_Piazzo_Biella_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .quartiere_del_piazzo h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Quartiere del Piazzo*/
+    /*Inizio MeBo - Menabrea Botalla Museum*/
+      .mebo{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Me_Bo_Menabrea_Botalla_Museum_Biella_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .mebo h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine MeBo - Menabrea Botalla Museum*/
+    /*Inizio Fondazione FILA Museum*/
+      .fila{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Fondazione_FILA_Museum_Biella_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .fila h1{ 
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Fondazione FILA Museum*/
+    /*Inizio Cittadellarte - Fondazione Pistoletto*/
+      .cittadellarte{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Cittadellarte_forndazione_pistoletto_Biella_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .cittadellarte h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Cittadellarte - Fondazione Pistoletto*/
+  /*Fine Biella*/
   /**/
     .vercelli{
       background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Vercelli_Piemonte.jpg') center/cover no-repeat;

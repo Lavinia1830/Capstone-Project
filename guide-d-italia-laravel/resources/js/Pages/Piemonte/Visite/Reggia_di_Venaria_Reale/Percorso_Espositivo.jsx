@@ -29,7 +29,7 @@ export default function Percorso_Espositivo(props) {
                         <h2 className='text-center color-subtitle fst-italic'>Teatro di Storia e Magnificenza</h2>
                         <p>
                             L'incantevole scenario del palazzo seicentesco con la <Link href='/visite/piemonte/torino/reggia_di_venaria_reale/i_capolavori/sala_di_diana' className='text-decoration-none color_link'>Sala di Diana</Link>, l’eleganza della <Link href='/visite/piemonte/torino/reggia_di_venaria_reale/i_capolavori/galleria_grande' 
-                            className='text-decoration-none color_link'>Galleria Grande</Link> con le musiche di <Link href='/visite/piemonte/torino/reggia_di_venaria_reale/la_reggia/galleria_grande' className='text-decoration-none color_link'>Brian Eno</Link>, la  solennità della <Link 
+                            className='text-decoration-none color_link'>Galleria Grande</Link> con le musiche di <Link href='/visite/piemonte/torino/reggia_di_venaria_reale/la_reggia/arte_contemporanea' className='text-decoration-none color_link'>Brian Eno</Link>, la  solennità della <Link 
                             href='/visite/piemonte/torino/reggia_di_venaria_reale/i_capolavori/cappella_di_sant_uberto' className='text-decoration-none color_link'>Cappella di Sant’Uberto</Link> e la grandiosità delle <Link href='/visite/piemonte/torino/reggia_di_venaria_reale/i_capolavori/scuderie_juvarriane'
                             className='text-decoration-none color_link'>Scuderie juvarriane</Link>, capolavori settecenteschi di <b>Filippo Juvarra</b>, il suggestivo allestimento sulla vita di corte <Link href='/visite/piemonte/torino/reggia_di_venaria_reale/ripopolare_la_reggia_di_peter_greenaway' 
                             className='text-decoration-none color_link'>Ripopolare la Reggia</Link>, di Peter Greenaway, rappresentano la cornice ideale del <i>Teatro di Storia e Magnificenza</i>.
@@ -98,11 +98,11 @@ export default function Percorso_Espositivo(props) {
                             Insieme si ammirano anche alcune fra le più sontuose <b>carrozze di gala</b> utilizzate dai Savoia nell'Ottocento, tra cui la <i>Berlina dorata</i>, in prestito dal Palazzo del Quirinale di Roma.
                         </p>
                         <p>
-                            Bucintoro e Carrozze sono raccontate in un unico affascinante percorso in quanto capolavori integranti e rappresentativi delle attività della <Link href='/visite/piemonte/torino/reggia_di_venaria_reale/regia_scuderia_bucintoro_carrozze_regali' className='text-decoration-none color_link fst-italic'>Regia 
+                            Bucintoro e Carrozze sono raccontate in un unico affascinante percorso in quanto capolavori integranti e rappresentativi delle attività della <Link href='/visite/piemonte/torino/reggia_di_venaria_reale/la_regia_scuderia_il_bucintoro_e_le_carrozze_regali' className='text-decoration-none color_link fst-italic'>Regia 
                             Scuderia</Link> a Corte, intese come alte funzioni preposte agli spostamenti del Sovrano e del suo seguito.
                         </p>
                         <p>
-                            Dal 5 maggio 2021 è visitabile, presso la Regia Scuderia, anche la <Link href='/visite/piemonte/torino/reggia_di_venaria_reale/carrozza_napoleone_reggia_venaria' className='text-decoration-none color_link'>Carrozza di Napoleone</Link>, dopo gli accurati interventi di restauro del Centro Conservazione e 
+                            Dal 5 maggio 2021 è visitabile, presso la Regia Scuderia, anche la <Link href='/visite/piemonte/torino/reggia_di_venaria_reale/la_carrozza_di_napoleone_alla_reggia_di_venaria' className='text-decoration-none color_link fw-bold'>Carrozza di Napoleone</Link>, dopo gli accurati interventi di restauro del Centro Conservazione e 
                             Restauro "La Venaria Reale".
                         </p>
                         <p>

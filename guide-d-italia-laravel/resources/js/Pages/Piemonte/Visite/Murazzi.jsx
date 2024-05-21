@@ -16,7 +16,24 @@ export default function Murazzi(props) {
             </div>
             <div className="margin mt-3">
                 <p>
-                    Date le spalle a Piazza Vittorio Veneto, e scendete dal lato sinistro per cominciare la serata con un aperitivo al The Beach: forse la discoteca più divertente di Torino.
+                    I Murazzi di Torino sono una parte iconica della città che ha una storia ricca e interessante. Situati lungo il fiume Po, i Murazzi sono una serie di 
+                    argini e moli che un tempo svolgevano un ruolo cruciale nel sistema di trasporto fluviale della città e nell'industria locale.
+                </p>
+                <p>
+                    La storia dei Murazzi risale al XVIII secolo, quando furono costruiti per proteggere la città dalle inondazioni del fiume Po e per facilitare il 
+                    commercio fluviale. Nel corso del tempo, i Murazzi divennero un importante centro commerciale e industriale, con magazzini, cantieri navali, e depositi 
+                    lungo le sue sponde. Inoltre, divennero anche un luogo di svago e intrattenimento per i residenti di Torino, con bar, caffè e locali notturni che si 
+                    affacciavano sul fiume.
+                </p>
+                <p>
+                    Durante il XIX e XX secolo, i Murazzi furono testimoni di cambiamenti significativi nella storia di Torino, inclusi periodi di crescita economica e di 
+                    crisi industriale. Tuttavia, negli ultimi decenni del XX secolo, l'area dei Murazzi cadde in declino, con molti dei suoi edifici abbandonati e 
+                    trascurati.
+                </p>
+                <p>
+                    Negli ultimi anni, i Murazzi sono stati oggetto di rinnovamento e riqualificazione urbana. Oggi, sono diventati una delle zone più vivaci della vita 
+                    notturna torinese, con una grande varietà di bar, ristoranti e locali notturni che attrae sia i residenti che i turisti. L'area dei Murazzi è diventata un 
+                    punto di riferimento per la cultura giovanile e alternativa della città, mantenendo al contempo il suo fascino storico e il suo legame con il fiume Po.
                 </p>
             </div>
             <div className='margin mb-4'>

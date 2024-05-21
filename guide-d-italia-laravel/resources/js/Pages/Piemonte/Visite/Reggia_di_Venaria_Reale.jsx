@@ -3,8 +3,9 @@ import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout';
 import Footer from '@/Components/Footer';
 import { Link, Head } from '@inertiajs/react';
 import {Card, CardImg, CardBody, CardTitle} from 'react-bootstrap';
-import la_reggia from '../../../../assets/Piemonte/la_reggia_Torino_Piemonte.jpg';
-
+import la_reggia from '../../../../assets/Piemonte/La_reggia_Torino_Piemonte.jpg';
+import i_giardini from '../../../../assets/Piemonte/Il_Giardino_Torino_Piemonte.jpg';
+import castello_mandria from '../../../../assets/Piemonte/Il_castello_della_mandria_Torino_Piemonte.jpg';
 
 
 
@@ -34,10 +35,26 @@ export default function Reggia_di_Venaria_Reale(props) {
                 </div>
                 <div className='row d-flex justify-content-center mx-0 mb-4'>
                     <Card style={{ width: '18rem' }}>
-                        <Link href='/visite/torino/reggia_di_venaria_reale/la_reggia' className='text-decoration-none color_link'>
+                        <Link href='/visite/piemonte/torino/reggia_di_venaria_reale/la_reggia' className='text-decoration-none color_link'>
                             <CardImg variant="top" src={la_reggia} />
                             <CardBody>
                                 <CardTitle className='text-center'>La Reggia</CardTitle>
+                            </CardBody>
+                        </Link>
+                    </Card>
+                    <Card style={{ width: '18rem' }}>
+                        <Link href='/visite/piemonte/torino/reggia_di_venaria_reale/i_giardini' className='text-decoration-none color_link'>
+                            <CardImg variant="top" src={i_giardini} />
+                            <CardBody>
+                                <CardTitle className='text-center'>I Giardini</CardTitle>
+                            </CardBody>
+                        </Link>
+                    </Card>
+                    <Card style={{ width: '18rem' }}>
+                        <Link href='/visite/piemonte/torino/reggia_di_venaria_reale/castello_mandria' className='text-decoration-none color_link'>
+                            <CardImg variant="top" src={castello_mandria} />
+                            <CardBody>
+                                <CardTitle className='text-center'>Il Castello della Mandria</CardTitle>
                             </CardBody>
                         </Link>
                     </Card>

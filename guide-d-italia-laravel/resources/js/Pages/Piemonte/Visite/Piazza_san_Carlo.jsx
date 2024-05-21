@@ -10,15 +10,38 @@ export default function Piazza_san_Carlo(props) {
     >
         <main>
             <div className='piazza_san_carlo' style={{ position: 'relative' }}>
-                <h1 className='text-center' style={{ position: 'absolute', top: 20, left: 20 }}>Monte dei Cappuccini</h1>
+                <h1 className='text-center' style={{ position: 'absolute', top: 20, left: 20 }}>Piazza San Carlo</h1>
                 <span className='text-light' style={{ position: 'absolute', bottom: 50, left: 20 }}>CATEGORIE</span>
                 <p className='categorie' style={{ position: 'absolute', bottom: 10, left: 20 }}>Da vedere</p>
             </div>
             <div className="margin mt-3">
                 <p>
-                    Perché sia considerata ’il salotto di Torino’ non tarderete a capirlo: è la piazza più elegante della città e la recente e totale pedonalizzazione l’ha resa ancora più bella.
+                    <strong>Piazza San Carlo</strong>, dal 1618 dedicata a San Carlo Borromeo, è senz’altro una <b>tra le più belle e importanti piazze della città di Torino</b>, tanto da essere spesso teatro 
+                    di <b>concerti, manifestazioni, comizi elettorali e di vari eventi sociali e culturali</b>, nonché dei festeggiamenti per le vittorie della squadra di calcio Juventus. Diversi furono i nomi 
+                    dati alla piazza nel corso dei secoli: fu prima <b>Piazza Reale</b>, poi <b>Piazza d’Armi</b> e <b>Place Napoléon</b> nel periodo napoleonico.
                 </p>
-                
+                <p>
+                    Come nel caso di molti monumenti e luoghi di interesse torinesi, <b>la storia di Piazza San Carlo si intreccia con le vicissitudini della famiglia Savoia</b>. La piazza venne, infatti, 
+                    inaugurata nel 1638 e rappresentava il desiderio del Duca di Savoia di espandere la città verso Sud, dopo che Torino divenne capitale del regno. Sulla piazza, di forma rettangolare, sorgono 
+                    ancora oggi numerosi luoghi di interesse: al centro è situata <b>una statua equestre di Emanuele Filiberto</b>, mentre, sul lato sud della piazza, si trovano le due chiese gemelle in stile 
+                    barocco, <b>quella di Santa Cristina</b> costruita nel 1639 e <b>quella di San Carlo</b> del 1619.
+                </p>
+                <p>
+                    Proprio in questa piazza, nel 1773, il celebre scrittore <b>Vittorio Alfieri</b> acquistò una casa, in cui in seguito istituì una società ispirata a Voltaire insieme ad alcuni compagni di Accademia.
+                </p>
+                <p>
+                    Non è solo la sua bellezza a rendere famosa <b>Piazza San Carlo</b>, ma soprattutto l’importante ruolo sociale che svolse fin dalla sua realizzazione. Sul perimetro della piazza sorgono, infatti, 
+                    diversi caffè, luoghi in cui tipicamente intellettuali e uomini di cultura, ma anche nobili e reali, usavano riunirsi per discutere, in particolar modo, di faccende politiche. Famosissimo è, 
+                    sicuramente, <b>il Caffé San Carlo ed il Caffè Torino</b>.
+                </p>
+                <p>
+                    <b>La piazza fu, inoltre, teatro di diversi avvenimenti importanti</b>. Nel settembre del 1864, dopo che il governo Minghetti prese la decisione di spostare la capitale da Torino a Firenze, proprio 
+                    in Piazza San Carlo si riunirono i torinesi per protestare contro questa decisione. Nonostante il carattere pacifico della manifestazione, 184 persone furono uccise dalle forze pubbliche. 
+                </p>
+                <p>
+                    In tempi decisamente più recenti, in occasione delle XX Olimpiadi Invernali, Piazza San Carlo, oggi conosciuta come “Il Salotto di Torino”, è stata oggetto di una riqualificazione che, tra le altre cose, 
+                    ha avuto visto la trasformazione dell’intera piazza in area pedonale.
+                </p>
             </div>
             <div className='margin mb-4'>
                 <h3 className='color-subtitle text-center'>Mappa</h3>
