@@ -2110,6 +2110,16 @@ hr{
         /* width: 30%; */
         height: 400px;
       }
+      .card_Biella:nth-child(6){ 
+        background: url('../assets/Piemonte/Museo_biellese_degli_alpini_Biella_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Biella:nth-child(7){ 
+        background: url('../assets/Piemonte/M_A_C_I_S_T_Biella_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
     /*Fine Card Biella*/
     /*Inizio Quartiere del Piazzo*/
       .quartiere_del_piazzo{
@@ -2161,6 +2171,25 @@ hr{
         margin: 0 !important;
       }
     /*Fine Museo del Territorio Biellese*/
+    /*Inizio Museo biellese degli alpini*/
+      .museo_biellese_degli_alpini{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Museo_biellese_degli_alpini_Biella_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .museo_biellese_degli_alpini h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Museo biellese degli alpini*/
+    /*Inizio M.A.C.I.S.T. Museo d’Arte Contemporanea Internazionale senza tendenze*/
+      .museo_d_arte_contemporanea_internazionele{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/M_A_C_I_S_T_Biella_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .museo_d_arte_contemporanea_internazionele h1{
+        color: #fff;
+        margin: 0 !important;
+      }
   /*Fine Biella*/
   /**/
     .vercelli{

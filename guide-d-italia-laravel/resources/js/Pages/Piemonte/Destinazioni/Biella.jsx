@@ -11,6 +11,8 @@ export default function Biella(props) {
   const [isHoveredFila, setIsHoveredFila] = useState(false);
   const [isHoveredCittadellarte, setIsHoveredCittadellarte] = useState(false);
   const [isHoveredMuseodelTerritorio, setIsHoveredMuseodelTerritorio] = useState(false);
+  const [isHoveredMuseoBiellesedegliAlpini, setIsHoveredMuseoBiellesedegliAlpini] = useState(false);
+  const [isHoveredMuseoArteContemporaneaInternazionale, setIsHoveredMuseoArteContemporaneaInternazionale] = useState(false);
 
   return (
     <>
@@ -107,6 +109,28 @@ export default function Biella(props) {
                   onMouseEnter={() => setIsHoveredMuseodelTerritorio(true)}
                   onMouseLeave={() => setIsHoveredMuseodelTerritorio(false)}
                   >Museo del Territorio Biellese{isHoveredMuseodelTerritorio && <i className="bi bi-chevron-right"></i>}
+                </Link>
+              </CardBody>
+            </Card>
+            <Card className='col-sm-12 col-md-6 col-lg-4 px-0 card_Biella'>
+              <CardBody className='bottone'>
+                <Link 
+                  className="bottone_link" 
+                  href='/visite/piemonte/biella/museo_biellese_degli_alpini'
+                  onMouseEnter={() => setIsHoveredMuseoBiellesedegliAlpini(true)}
+                  onMouseLeave={() => setIsHoveredMuseoBiellesedegliAlpini(false)}
+                  >Museo biellese degli alpini{isHoveredMuseoBiellesedegliAlpini && <i className="bi bi-chevron-right"></i>}
+                </Link>
+              </CardBody>
+            </Card>
+            <Card className='col-sm-12 col-md-6 col-lg-4 px-0 card_Biella'>
+              <CardBody className='bottone'>
+                <Link 
+                  className="bottone_link" 
+                  href='/visite/piemonte/biella/museo_d_arte_contemporanea_internazionele_senza_tendenze'
+                  onMouseEnter={() => setIsHoveredMuseoArteContemporaneaInternazionale(true)}
+                  onMouseLeave={() => setIsHoveredMuseoArteContemporaneaInternazionale(false)}
+                  >Museo biellese degli alpini{isHoveredMuseoArteContemporaneaInternazionale && <i className="bi bi-chevron-right"></i>}
                 </Link>
               </CardBody>
             </Card>

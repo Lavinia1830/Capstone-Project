@@ -714,6 +714,13 @@ Route::get('/home', function () {
             return Inertia::render('Piemonte/Visite/Museo_del_Territorio_Biellese');
         })->middleware(['auth', 'verified'])->name('museo_del_territorio_biellese');
 
+        Route::get('/visite/piemonte/biella/museo_biellese_degli_alpini', function () {
+            return Inertia::render('Piemonte/Visite/Museo_biellese_degli_alpini');
+        })->middleware(['auth', 'verified'])->name('museo_biellese_degli_alpini');
+
+        Route::get('/visite/piemonte/biella/museo_d_arte_contemporanea_internazionele_senza_tendenze', function () {
+            return Inertia::render('Piemonte/Visite/Museo_d_Arte_Contemporanea_Internazionale');
+        })->middleware(['auth', 'verified'])->name('museo_d_arte_contemporanea_internazionele_senza_tendenze');
     /*Fine Biella*/
 
     Route::get('/destinazioni/piemonte/vercelli', function () {
