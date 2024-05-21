@@ -2105,6 +2105,11 @@ hr{
         /* width: 30%; */
         height: 400px;
       }
+      .card_Biella:nth-child(5){ 
+        background: url('../assets/Piemonte/Museo_del_Territorio_Biellese_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
     /*Fine Card Biella*/
     /*Inizio Quartiere del Piazzo*/
       .quartiere_del_piazzo{
@@ -2146,6 +2151,16 @@ hr{
         margin: 0 !important;
       }
     /*Fine Cittadellarte - Fondazione Pistoletto*/
+    /*Inizio Museo del Territorio Biellese*/
+      .museo_del_territorio{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Museo_del_Territorio_Biellese_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .museo_del_territorio h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Museo del Territorio Biellese*/
   /*Fine Biella*/
   /**/
     .vercelli{

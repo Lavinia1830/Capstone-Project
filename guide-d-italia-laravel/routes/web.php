@@ -710,6 +710,10 @@ Route::get('/home', function () {
             return Inertia::render('Piemonte/Visite/Cittadellarte');
         })->middleware(['auth', 'verified'])->name('cittadellarte_forndazione_pistoletto');
 
+        Route::get('/visite/piemonte/biella/museo_del_territorio_biellese', function () {
+            return Inertia::render('Piemonte/Visite/Museo_del_Territorio_Biellese');
+        })->middleware(['auth', 'verified'])->name('museo_del_territorio_biellese');
+
     /*Fine Biella*/
 
     Route::get('/destinazioni/piemonte/vercelli', function () {
