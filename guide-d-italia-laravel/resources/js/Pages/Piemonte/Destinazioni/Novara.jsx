@@ -31,8 +31,11 @@ export default function Novara(props) {
             </div>
             <div className="margin mt-3">
               <p>
-                  Affogata tra le risaie, e con il nucleo antico circondato da palazzoni ricevuti in eredità dagli sconsiderati anni ’60, visitare Novara può essere, in prima battuta, un’esperienza un po’ malinconica. Questo perché sembra soffrire di un profondo disturbo della personalità, a causa del suo essere città di pianura in una 
-                  regione di montagna e per il fatto di considerarsi in Lombardia nonostante la geografia politica si ostini a darle torto. Messe da parte queste contraddizioni, superate le architetture squadrate e vagando con il mento all’insù tra le silenziose strade del centro, la mappa di Novara appare d’un tratto come un quadro sorprendente e indaffarato. In cui la proverbiale concretezza lombarda sembra fondersi con quello spirito raffinato e vagamente trasognato dei piemontesi, creando un amalgama speciale che ha pochi rivali.
+                  Affogata tra le risaie, e con il nucleo antico circondato da palazzoni ricevuti in eredità dagli sconsiderati anni ’60, visitare Novara può essere, in prima battuta, un’esperienza un po’ malinconica. 
+                  Questo perché sembra soffrire di un profondo disturbo della personalità, a causa del suo essere città di pianura in una regione di montagna e per il fatto di considerarsi in Lombardia nonostante la
+                  geografia politica si ostini a darle torto. Messe da parte queste contraddizioni, superate le architetture squadrate e vagando con il mento all’insù tra le silenziose strade del centro, la mappa di
+                  Novara appare d’un tratto come un quadro sorprendente e indaffarato. In cui la proverbiale concretezza lombarda sembra fondersi con quello spirito raffinato e vagamente trasognato dei piemontesi, 
+                  creando un amalgama speciale che ha pochi rivali.
               </p>
               <h2 className='color-subtitle'>Cosa vedere a Novara tra palazzi della fede e storici</h2>
               <p>
@@ -40,7 +43,7 @@ export default function Novara(props) {
               </p>
             </div>
             <div className='row d-flex justify-content-center mx-0 mb-4'>
-              <Card className='col-sm-12 col-md-6 col-lg-4 px-0 card_Novara'>
+              <Card className='col-sm-12 col-md-6 col-lg-4 px-0 card_Biella'>
                 <CardBody className='bottone'>
                   <Link 
                     className="bottone_link" 

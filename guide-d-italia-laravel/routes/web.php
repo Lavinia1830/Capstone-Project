@@ -692,6 +692,26 @@ Route::get('/home', function () {
         return Inertia::render('Piemonte/Destinazioni/Biella');
     })->middleware(['auth', 'verified'])->name('biella');
 
+    /*Inizio Biella*/
+
+        Route::get('/visite/piemonte/biella/quartiere_del_piazzo', function () {
+            return Inertia::render('Piemonte/Visite/Quartiere_del_Piazzo');
+        })->middleware(['auth', 'verified'])->name('quartiere_del_piazzo');
+
+        Route::get('/visite/piemonte/biella/mebo', function () {
+            return Inertia::render('Piemonte/Visite/MeBo');
+        })->middleware(['auth', 'verified'])->name('mebo');
+
+        Route::get('/visite/piemonte/biella/fondazione_fila_museum', function () {
+            return Inertia::render('Piemonte/Visite/Fila');
+        })->middleware(['auth', 'verified'])->name('fondazione_fila_museum');
+
+        Route::get('/visite/piemonte/biella/cittadellarte_forndazione_pistoletto', function () {
+            return Inertia::render('Piemonte/Visite/Cittadellarte');
+        })->middleware(['auth', 'verified'])->name('cittadellarte_forndazione_pistoletto');
+
+    /*Fine Biella*/
+
     Route::get('/destinazioni/piemonte/vercelli', function () {
         return Inertia::render('Piemonte/Destinazioni/Vercelli');
     })->middleware(['auth', 'verified'])->name('vercelli');

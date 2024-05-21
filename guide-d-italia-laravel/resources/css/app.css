@@ -1980,99 +1980,99 @@ hr{
         /* width: 30%; */
         height: 400px;
       }
-      /*Inizio Cupola di San Gaudenzio*/
-        .cupola_di_san_gaudenzio{
-          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Cupola_di_San_Gaudenzio_Novara_Piemonte.jpg') center/cover no-repeat;
-          padding: 250px 0;
-        }
-        .cupola_di_san_gaudenzio h1{
-          color: #fff;
-          margin: 0 !important;
-        }
-      /*Fine Cupola di San Gaudenzio*/
-      /*Inizio Basilica di San Gaudenzio*/
-        .basilica_di_san_gaudenzio{
-          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Basilica_di_San_Gaudenzio_Novara_Piemonte.jpg') center/cover no-repeat;
-          padding: 250px 0;
-        }
-        .basilica_di_san_gaudenzio h1{
-          color: #fff;
-          margin: 0 !important;
-        }
-      /*Fine Basilica di San Gaudenzio*/
-      /*Inizio Cattedrale Santa Maria Assunta*/
-        .cattedrale_santa_maria_assunta{
-          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Cattedrale_di_Santa_Maria_Assunta_Novara_Piemonte.jpg') center/cover no-repeat;
-          padding: 250px 0;
-        }
-        .cattedrale_santa_maria_assunta h1{
-          color: #fff;
-          margin: 0 !important;
-        }
-      /*Fine Cattedrale Santa Maria Assunta*/
-      /*Inizio Teatro Coccia*/ 
-        .teatro_coccia{
-          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Teatro_Coccia_Novara_Piemonte.jpg') center/cover no-repeat;
-          padding: 250px 0;
-        }
-        .teatro_coccia h1{
-          color: #fff;
-          margin: 0 !important;
-        }
-      /*Fine Teatro Coccia*/
-      /*Inizio Piazza Martini*/
-        .piazza_martini{
-          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Piazza_Martini_Novara_Piemonte.jpg') center/cover no-repeat;
-          padding: 250px 0;
-        }
-        .piazza_martini h1{
-          color: #fff;
-          margin: 0 !important;
-        }
-      /*Fine Piazza Martini*/
-      /*Inizio Il Castello Visconteo Sforzesco */
-        .castello_visconteo_sforzesco{
-          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Castello_Visconteo_Sforzesco_Novara_Piemonte.jpg') center/cover no-repeat;
-          padding: 250px 0;
-        }
-        .castello_visconteo_sforzesco h1{
-          color: #fff;
-          margin: 0 !important;
-        }
-      /*Fine Il Castello Visconteo Sforzesco*/
-      /*Inizio Palazzo del Mercato*/
-        .palazzo_del_mercato{
-          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Palazzo_del_Mercato_Novara_Piemonte.jpg') center/cover no-repeat;
-          padding: 250px 0;
-        }
-        .palazzo_del_mercato h1{
-          color: #fff;
-          margin: 0 !important;
-        }
-      /*Fine Palazzo del Mercato*/
-      /*Inizio Il Broletto*/
-        .il_broletto{
-          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Broletto_Novara_Piemonte.jpg') center/cover no-repeat;
-          padding: 250px 0;
-        }
-        .il_broletto h1{
-          color: #fff;
-          margin: 0 !important;
-        }
-      /*Fine Il Broletto*/
-      /*Inizio Le Mura Romane*/
-        .mura_romane{
-          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Mura_Romane_Novara_Piemonte.jpg') center/cover no-repeat;
-          padding: 250px 0;
-        }
-        .mura_romane h1{
-          color: #fff;
-          margin: 0 !important;
-        }
-      /*Fine Le Mura Romane*/
     /*Fine Card Novara*/
+    /*Inizio Cupola di San Gaudenzio*/
+      .cupola_di_san_gaudenzio{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Cupola_di_San_Gaudenzio_Novara_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .cupola_di_san_gaudenzio h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Cupola di San Gaudenzio*/
+    /*Inizio Basilica di San Gaudenzio*/
+      .basilica_di_san_gaudenzio{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Basilica_di_San_Gaudenzio_Novara_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .basilica_di_san_gaudenzio h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Basilica di San Gaudenzio*/
+    /*Inizio Cattedrale Santa Maria Assunta*/
+      .cattedrale_santa_maria_assunta{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Cattedrale_di_Santa_Maria_Assunta_Novara_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .cattedrale_santa_maria_assunta h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Cattedrale Santa Maria Assunta*/
+    /*Inizio Teatro Coccia*/ 
+      .teatro_coccia{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Teatro_Coccia_Novara_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .teatro_coccia h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Teatro Coccia*/
+    /*Inizio Piazza Martini*/
+      .piazza_martini{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Piazza_Martini_Novara_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .piazza_martini h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Piazza Martini*/
+    /*Inizio Il Castello Visconteo Sforzesco */
+      .castello_visconteo_sforzesco{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Castello_Visconteo_Sforzesco_Novara_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .castello_visconteo_sforzesco h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Il Castello Visconteo Sforzesco*/
+    /*Inizio Palazzo del Mercato*/
+      .palazzo_del_mercato{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Palazzo_del_Mercato_Novara_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .palazzo_del_mercato h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Palazzo del Mercato*/
+    /*Inizio Il Broletto*/
+      .il_broletto{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Broletto_Novara_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .il_broletto h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Il Broletto*/
+    /*Inizio Le Mura Romane*/
+      .mura_romane{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Mura_Romane_Novara_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .mura_romane h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Le Mura Romane*/
   /*Fine Novara*/
-  /**/
+  /*Inizio Biella*/
     .biella{
       background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Biella_Piemonte.jpg') center/cover no-repeat;
       padding: 250px 0;
@@ -2081,7 +2081,72 @@ hr{
       color: #fff;
       margin: 0 !important;
     }
-  /**/
+    /*Inizio Card Biella*/
+      .card_Biella{
+        display: flex;
+      }
+      .card_Biella:nth-child(1){ 
+        background: url('../assets/Piemonte/Quartiere_del_Piazzo_Biella_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Biella:nth-child(2){ 
+        background: url('../assets/Piemonte/Me_Bo_Menabrea_Botalla_Museum_Biella_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Biella:nth-child(3){ 
+        background: url('../assets/Piemonte/Fondazione_FILA_Museum_Biella_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Biella:nth-child(4){ 
+        background: url('../assets/Piemonte/Cittadellarte_forndazione_pistoletto_Biella_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+    /*Fine Card Biella*/
+    /*Inizio Quartiere del Piazzo*/
+      .quartiere_del_piazzo{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Quartiere_del_Piazzo_Biella_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .quartiere_del_piazzo h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Quartiere del Piazzo*/
+    /*Inizio MeBo - Menabrea Botalla Museum*/
+      .mebo{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Me_Bo_Menabrea_Botalla_Museum_Biella_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .mebo h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine MeBo - Menabrea Botalla Museum*/
+    /*Inizio Fondazione FILA Museum*/
+      .fila{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Fondazione_FILA_Museum_Biella_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .fila h1{ 
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Fondazione FILA Museum*/
+    /*Inizio Cittadellarte - Fondazione Pistoletto*/
+      .cittadellarte{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Cittadellarte_forndazione_pistoletto_Biella_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .cittadellarte h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Cittadellarte - Fondazione Pistoletto*/
+  /*Fine Biella*/
   /**/
     .vercelli{
       background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Vercelli_Piemonte.jpg') center/cover no-repeat;
