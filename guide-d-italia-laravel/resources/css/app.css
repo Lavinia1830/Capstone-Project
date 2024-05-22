@@ -2120,6 +2120,11 @@ hr{
         /* width: 30%; */
         height: 400px;
       }
+      .card_Biella:nth-child(8){ 
+        background: url('../assets/Piemonte/M_A_C_I_S_T_Biella_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
     /*Fine Card Biella*/
     /*Inizio Quartiere del Piazzo*/
       .quartiere_del_piazzo{
@@ -2190,8 +2195,9 @@ hr{
         color: #fff;
         margin: 0 !important;
       }
+    /*Fine M.A.C.I.S.T. Museo d’Arte Contemporanea Internazionale senza tendenze*/
   /*Fine Biella*/
-  /**/
+  /*Inizio Vercelli*/
     .vercelli{
       background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Vercelli_Piemonte.jpg') center/cover no-repeat;
       padding: 250px 0;
@@ -2200,7 +2206,56 @@ hr{
       color: #fff;
       margin: 0 !important;
     }
-  /**/
+    /*Inizio Card Vercelli*/
+      .card_Vercelli{
+        display: flex;
+      }
+      .card_Vercelli:nth-child(1){ 
+        background: url('../assets/Piemonte/Basilica_di_Sant_Andrea_Vercelli_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Vercelli:nth-child(2){ 
+        background: url('../assets/Piemonte/Cattedrale_di_Sant_Eusebio_Vercelli_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Vercelli:nth-child(3){ 
+        background: url('../assets/Piemonte/Castello_Visconteo_Vercelli_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+    /*Fine Card Vercelli*/
+    /*Inizio Basilica di Sant'Andrea*/
+      .basilica_di_sant_andrea{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Basilica_di_Sant_Andrea_Vercelli_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .basilica_di_sant_andrea h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Basilica di Sant'Andrea*/
+    /*Inizio Cattedrale di Sant'Eusebio*/
+      .cattedrale_di_sant_eusebio{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Cattedrale_di_Sant_Eusebio_Vercelli_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .cattedrale_di_sant_eusebio h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Cattedrale di Sant'Eusebio*/
+    /*Inizio Castello Visconteo*/
+      .castello_visconteo{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Castello_Visconteo_Vercelli_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .castello_visconteo h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+  /*Fine Vercelli*/
   /**/
     .canavese{
       background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Canavese_gran_paradiso_e_valli_di_lanzo_Piemonte.jpg') center/cover no-repeat;

@@ -130,7 +130,7 @@ export default function Biella(props) {
                   href='/visite/piemonte/biella/museo_d_arte_contemporanea_internazionele_senza_tendenze'
                   onMouseEnter={() => setIsHoveredMuseoArteContemporaneaInternazionale(true)}
                   onMouseLeave={() => setIsHoveredMuseoArteContemporaneaInternazionale(false)}
-                  >Museo biellese degli alpini{isHoveredMuseoArteContemporaneaInternazionale && <i className="bi bi-chevron-right"></i>}
+                  >M.A.C.I.S.T.{isHoveredMuseoArteContemporaneaInternazionale && <i className="bi bi-chevron-right"></i>}
                 </Link>
               </CardBody>
             </Card>

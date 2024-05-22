@@ -13,7 +13,7 @@ export default function Museo_d_Arte_Contemporanea_Internazionale(props) {
             >
                 <main>
                     <div className='museo_d_arte_contemporanea_internazionele' style={{ position: 'relative' }}>
-                        <h1 className='text-center' style={{ position: 'absolute', top: 20, left: 20 }}>M.A.C.I.S.T. Museo d'Arte Contwmporanea Internazionele senza tendenze</h1>
+                        <h1 className='text-center' style={{ position: 'absolute', top: 20, left: 20 }}>M.A.C.I.S.T. Museo d'Arte Contemporanea Internazionale senza tendenze</h1>
                         <span className='text-light' style={{ position: 'absolute', bottom: 50, left: 20 }}>CATEGORIE</span>
                         <p className='categorie' style={{ position: 'absolute', bottom: 10, left: 20 }}>Da vedere</p>
                     </div>

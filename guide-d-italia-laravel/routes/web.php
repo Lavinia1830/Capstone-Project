@@ -721,11 +721,48 @@ Route::get('/home', function () {
         Route::get('/visite/piemonte/biella/museo_d_arte_contemporanea_internazionele_senza_tendenze', function () {
             return Inertia::render('Piemonte/Visite/Museo_d_Arte_Contemporanea_Internazionale');
         })->middleware(['auth', 'verified'])->name('museo_d_arte_contemporanea_internazionele_senza_tendenze');
+    
     /*Fine Biella*/
 
     Route::get('/destinazioni/piemonte/vercelli', function () {
         return Inertia::render('Piemonte/Destinazioni/Vercelli');
     })->middleware(['auth', 'verified'])->name('vercelli');
+
+    /*Inizio Vercelli*/
+
+        Route::get('/visite/piemonte/vercelli/basilica_di_sant_andrea', function () {
+            return Inertia::render('Piemonte/Visite/Basilica_di_Sant_Andrea');
+        })->middleware(['auth', 'verified'])->name('basilica_di_sant_andrea');
+        
+        Route::get('/visite/piemonte/vercelli/cattedrale_di_sant_eusebio', function () {
+            return Inertia::render('Piemonte/Visite/Cattedrale_di_Sant_Eusebio');
+        })->middleware(['auth', 'verified'])->name('cattedrale_di_sant_eusebio');
+
+        Route::get('/visite/piemonte/vercelli/castello_visconteo', function () {
+            return Inertia::render('Piemonte/Visite/Castello_Visconteo');
+        })->middleware(['auth', 'verified'])->name('castello_visconteo');
+
+        Route::get('/visite/piemonte/vercelli/museo_leone', function () {
+            return Inertia::render('Piemonte/Visite/Museo_Leone');
+        })->middleware(['auth', 'verified'])->name('museo_leone');
+
+        Route::get('/visite/piemonte/vercelli/pinacoteca_francesco_borgogna', function () {
+            return Inertia::render('Piemonte/Visite/Pinacoteca_Francesco_Borgogna');
+        })->middleware(['auth', 'verified'])->name('pinacoteca_francesco_borgogna');
+    
+        Route::get('/visite/piemonte/buronzo/castellone', function () {
+            return Inertia::render('Piemonte/Visite/Castellone');
+        })->middleware(['auth', 'verified'])->name('pinacoteca_francesco_borgogna');
+
+        Route::get('/fiumi/piemonte/vercelli/fiume_sesia', function () {
+            return Inertia::render('Fiumi/Fiume_Sesia');
+        })->middleware(['auth', 'verified'])->name('fiume_sesia');
+
+        Route::get('/visite/piemonte/vercelli/parco_naziole_delle_lame', function () {
+            return Inertia::render('Piemonte/Visite/Parco_Nazionale_delle_Lame');
+        })->middleware(['auth', 'verified'])->name('parco_naziole_delle_lame');
+    
+    /*Fine Vercelli*/
 
     Route::get('/territori/piemonte/canadese_gran_paradiso_e_valli_di_lanzo', function () {
         return Inertia::render('Piemonte/Territori/Canavese_Gran_paradiso');
