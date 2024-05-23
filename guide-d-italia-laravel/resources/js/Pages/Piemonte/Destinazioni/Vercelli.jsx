@@ -9,6 +9,7 @@ export default function Vercelli(props) {
     const [isHoveredBasilicadiSantAndrea, setIsHoveredBasilicadiSantAndrea] = useState(false);
     const [isHoveredCattedralediSantEusebio, setIsHoveredCattedralediSantEusebio] = useState(false);
     const [isHoveredCastelloVisconteo, setIsHoveredCastelloVisconteo] = useState(false);
+    const [isHoveredMuseoLeone, setIsHoveredMuseoLeone] = useState(false);
 
     return (
         <>
@@ -81,6 +82,17 @@ export default function Vercelli(props) {
                                 onMouseEnter={() => setIsHoveredCastelloVisconteo(true)}
                                 onMouseLeave={() => setIsHoveredCastelloVisconteo(false)}
                                 >Castello Visconteo {isHoveredCastelloVisconteo && <i className="bi bi-chevron-right"></i>}
+                                </Link>
+                            </CardBody>
+                        </Card>
+                        <Card className='col-sm-12 col-md-6 col-lg-4 px-0 card_Vercelli'>
+                            <CardBody className='bottone'>
+                                <Link 
+                                className="bottone_link" 
+                                href='/visite/piemonte/vercelli/museo_leone'
+                                onMouseEnter={() => setIsHoveredMuseoLeone(true)}
+                                onMouseLeave={() => setIsHoveredMuseoLeone(false)}
+                                >Museo Leone {isHoveredMuseoLeone && <i className="bi bi-chevron-right"></i>}
                                 </Link>
                             </CardBody>
                         </Card>

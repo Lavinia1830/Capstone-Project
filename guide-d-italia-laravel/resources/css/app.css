@@ -2225,6 +2225,11 @@ hr{
         /* width: 30%; */
         height: 400px;
       }
+      .card_Vercelli:nth-child(4){ 
+        background: url('../assets/Piemonte/Museo_Leone_Vercelli_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
     /*Fine Card Vercelli*/
     /*Inizio Basilica di Sant'Andrea*/
       .basilica_di_sant_andrea{
@@ -2255,6 +2260,17 @@ hr{
         color: #fff;
         margin: 0 !important;
       }
+    /*Fine Castello Visconteo*/
+    /*Inizio Museo Leone*/
+      .museo_leone{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Museo_Leone_Vercelli_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .museo_leone h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Museo Leone*/
   /*Fine Vercelli*/
   /**/
     .canavese{

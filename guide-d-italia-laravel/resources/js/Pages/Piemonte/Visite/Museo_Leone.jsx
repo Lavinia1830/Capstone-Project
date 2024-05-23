@@ -41,7 +41,28 @@ export default function Museo_Leone(props) {
                             dell’età del <b>Bronzo</b> e del <b>Ferro</b> si risale a una <b>preziosa raccolta</b> di antiche <b>ceramiche</b> provenienti dalla <b>Magna Grecia</b>.
                         </p>
                         <p>
-                            
+                            Questa sezione annovera la presenza di <b>vasi messapici</b> a motivi vegetali stilizzati (V-IV secolo a.C.), <b>vasi di “Gnathia”</b> con decori sopradipinti su fondo nero (IV-III secolo a.C.) 
+                            e <b>vasi apuli a figure rosse</b> (IV-III secolo a.C.).
+                        </p>
+                        <p>
+                            Il <b>Museo Leone</b> espone un raro esempio di antica <b>iscrizione bilingue</b>: una <b>lastra di pietra</b> su cui sono incise dodici righe di testo, otto in <b>lingua latina</b> e quattro 
+                            in <b>lingua gallica</b> (leponzia). Il testo recita: “<b>Confine del campo</b> che ha donato <b>Arcisio Argantocomatereco</b>, comune agli <b>dei</b> e agli <b>uomini</b>, così come quattro 
+                            pietre l’hanno definito”. L’iscrizione ci racconta di un’area <b>sacra</b> tipicamente <b>celtica</b>, definita da quattro lati, donata da un privato cittadino, probabilmente un magistrato locale. 
+                            L’epigrafe risale al <b>I secolo a.C.</b> e fu ritrovata presso le rive del <b>fiume Sesia</b>.
+                        </p>
+                        <p>
+                            Di particolare rilievo sono i <b>reperti di epoca romana</b>, quasi tutti rinvenuti durante scavi condotti a <b>Vercelli</b> nella seconda metà dell’Ottocento. Si tratta 
+                            di <b>epigrafi</b>, <b>sarcofagi</b>, <b>anfore</b>, <b>bronzi</b>, <b>vetri</b>, risalenti al I e II secolo d.C.: si trovano esposti in una grande sala a forma di <b>aula basilicale romana</b>. 
+                            Nelle sale successive trovano posto opere d’<b>epoca medievale</b>, alcune di grande interesse come i frammenti di <b>pavimento musivo</b> dell’antica chiesa di <b>Santa Maria Maggiore</b> (XI 
+                            secolo) e una serie di <b>sculture</b> che facevano parte del <b>pulpito della cattedrale di Vercelli</b> e forse opera dell’<b>Antelami</b>.
+                        </p>
+                        <p>
+                            Nelle <b>sale settecentesche</b>, al primo piano di <b>Palazzo Langosco</b>, sono invece ospitate le <b>collezioni d’arti minori</b>: <b>maioliche</b> e <b>porcellane</b> di manifatture italiane 
+                            del XV e XVI secolo, <b>antichi vetri veneziani</b>, <b>armi</b>, <b>peltri</b> e <b>ferri battuti</b>, <b>bronzi rinascimentali</b>. In questo settore spiccano alcuni <b>oggetti di particolare 
+                            rarità</b>, come un <b>prezioso cofanetto</b> con medaglioni in smalti di <b>Limoges</b> del XIII secolo, appartenuto al <b>cardinale Guala Bicchieri</b> (1160-1227), una serie di <b>lamine 
+                            rinascimentali dorate e argentate</b> con <b>figure allegoriche incise</b>, un <b>cofano ottagonale</b> con decorazioni in <b>avorio</b>, forse prodotto nella bottega degli <b>Embriaghi</b>. 
+                            Analogo per fattura e datazione al cofanetto esposto nel Museo Leone è quello recentemente acquistato dalla <b>Regione Piemonte</b> e dalla <b>Città di</b> <Link href='/destinazioni/piemonte/torino' 
+                            className='text-decoration-none color_link'>Torino</Link>, e destinato alle collezioni del <Link href='/visite/piemonte/torino/palazzo_madama' className='text-decoration-none color_link'>Museo d’Arte Antica di Torino</Link>.
                         </p>
                     </div>
                     <div className='margin mb-4'>
