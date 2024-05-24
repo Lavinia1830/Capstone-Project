@@ -10,6 +10,9 @@ export default function Vercelli(props) {
     const [isHoveredCattedralediSantEusebio, setIsHoveredCattedralediSantEusebio] = useState(false);
     const [isHoveredCastelloVisconteo, setIsHoveredCastelloVisconteo] = useState(false);
     const [isHoveredMuseoLeone, setIsHoveredMuseoLeone] = useState(false);
+    const [isHoveredPinacotecaFrancescoBorgogna, setIsHoveredPinacotecaFrancescoBorgogna] = useState(false);
+    const [isHoveredFiumeSesia, setIsHoveredFiumeSesia] = useState(false);
+    const [isHoveredPNdelleLamedelSesia, setIsHoveredPNdelleLamedelSesia] = useState(false);
 
     return (
         <>
@@ -35,10 +38,9 @@ export default function Vercelli(props) {
                             className='text-decoration-none color_link'>Pinacoteca Francesco Borgogna</Link>.
                         </p>
                         <p>
-                            Il territorio della provincia riserva numerose altre sorprese. A <b>Buronzo</b> sorge il <Link href='/visite/piemonte/buronzo/castellone' 
-                            className='text-decoration-none color_link'>Castellone</Link> e splendide fortezze si trovano anche a Balocco e Rovasenda. Sulle rive 
+                            Il territorio della provincia riserva numerose altre sorprese. A <b>Buronzo</b> sorge il <b>Castellone</b> e splendide fortezze si trovano anche a Balocco e Rovasenda. Sulle rive 
                             del <Link href='/fiumi/piemonte/vercelli/fiume_sesia' className='text-decoration-none color_link'>fiume Sesia</Link> c’è l’area protetta del <Link 
-                            href='/visite/piemonte/vercelli/parco_naziole_delle_lame' className='text-decoration-none color_link'>Parco Naturale delle Lame del Sesia</Link> dove 
+                            href='/visite/piemonte/vercelli/parco_naturale_delle_lame_del_sesia' className='text-decoration-none color_link'>Parco Naturale delle Lame del Sesia</Link> dove 
                             godersi splendide passeggiate. Non può mancare un giro in <b>Monferrato</b>, con le sue dolci colline ricoperte da vigneti.
                         </p>
                         <p>
@@ -93,6 +95,39 @@ export default function Vercelli(props) {
                                 onMouseEnter={() => setIsHoveredMuseoLeone(true)}
                                 onMouseLeave={() => setIsHoveredMuseoLeone(false)}
                                 >Museo Leone {isHoveredMuseoLeone && <i className="bi bi-chevron-right"></i>}
+                                </Link>
+                            </CardBody>
+                        </Card>
+                        <Card className='col-sm-12 col-md-6 col-lg-4 px-0 card_Vercelli'>
+                            <CardBody className='bottone'>
+                                <Link 
+                                className="bottone_link" 
+                                href='/visite/piemonte/vercelli/pinacoteca_francesco_borgogna'
+                                onMouseEnter={() => setIsHoveredPinacotecaFrancescoBorgogna(true)}
+                                onMouseLeave={() => setIsHoveredPinacotecaFrancescoBorgogna(false)}
+                                >Pinacoteca Francesco Borgogna {isHoveredPinacotecaFrancescoBorgogna && <i className="bi bi-chevron-right"></i>}
+                                </Link>
+                            </CardBody>
+                        </Card>
+                        <Card className='col-sm-12 col-md-6 col-lg-4 px-0 card_Vercelli'>
+                            <CardBody className='bottone'>
+                                <Link 
+                                className="bottone_link" 
+                                href='/fiumi/piemonte/vercelli/fiume_sesia'
+                                onMouseEnter={() => setIsHoveredFiumeSesia(true)}
+                                onMouseLeave={() => setIsHoveredFiumeSesia(false)}
+                                >Fiume Sesia {isHoveredFiumeSesia && <i className="bi bi-chevron-right"></i>}
+                                </Link>
+                            </CardBody>
+                        </Card>
+                        <Card className='col-sm-12 col-md-6 col-lg-4 px-0 card_Vercelli'>
+                            <CardBody className='bottone'>
+                                <Link 
+                                className="bottone_link" 
+                                href='/visite/piemonte/vercelli/parco_naturale_delle_lame_del_sesia'
+                                onMouseEnter={() => setIsHoveredPNdelleLamedelSesia(true)}
+                                onMouseLeave={() => setIsHoveredPNdelleLamedelSesia(false)}
+                                >Parco Nazinale delle Lame {isHoveredPNdelleLamedelSesia && <i className="bi bi-chevron-right"></i>}
                                 </Link>
                             </CardBody>
                         </Card>

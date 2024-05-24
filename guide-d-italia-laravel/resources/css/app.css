@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Impedisce lo scroll laterale */
+}
 
 .logo{
     width: 60px;
@@ -10,7 +19,6 @@
 hr{
   color: #77966d !important;
 }
-
 
 
 /*Inizio Welcome*/
@@ -2230,6 +2238,21 @@ hr{
         /* width: 30%; */
         height: 400px;
       }
+      .card_Vercelli:nth-child(5){ 
+        background: url('../assets/Piemonte/Pinacoteca_Francesco_Borgogna_Vercelli_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Vercelli:nth-child(6){ 
+        background: url('../assets/Piemonte/Fiume_Sesia_Vercelli_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Vercelli:nth-child(7){ 
+        background: url('../assets/Piemonte/Parco_Naturale_delle_Lame_del_Sesia_Vercelli_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
     /*Fine Card Vercelli*/
     /*Inizio Basilica di Sant'Andrea*/
       .basilica_di_sant_andrea{
@@ -2271,17 +2294,67 @@ hr{
         margin: 0 !important;
       }
     /*Fine Museo Leone*/
+    /*Inizio Pinacoteca Francesco Borgogna*/
+      .pinacoteca_francesco_borgogna{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Pinacoteca_Francesco_Borgogna_Vercelli_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .pinacoteca_francesco_borgogna h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Pinacoteca Francesco Borgogna*/
+    /*Inizio Fiume Sesia*/
+      .fiume_sesia{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Fiume_Sesia_Vercelli_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .fiume_sesia h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Fiume Sesia*/
+    /*Inizio Parco Naturale delle Lame del Sesia*/
+      .parco_naturale_delle_lame_del_sesia{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Parco_Naturale_delle_Lame_del_Sesia_Vercelli_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .parco_naturale_delle_lame_del_sesia h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Parco Naturale delle Lame del Sesia*/
   /*Fine Vercelli*/
-  /**/
-    .canavese{
+  /*Inizio Canavese, Gran Paradiso e Valli di Lanzo*/
+    .canavese_gran_paradiso{
       background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Canavese_gran_paradiso_e_valli_di_lanzo_Piemonte.jpg') center/cover no-repeat;
       padding: 250px 0;
     }
-    .canavese h1{
+    .canavese_gran_paradiso h1{
       color: #fff;
       margin: 0 !important;
     }
-  /**/
+    /*Inizio Canavese*/
+      .canavese{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Canavese_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .canavese h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Canavese*/
+    /*Inizio Valli di Lanzo*/
+      .valli_di_lanzo{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Valli_di_Lanzo_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .valli_di_lanzo h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Valli di Lanzo*/
+  /*Fine Canavese, Gran Paradiso e Valli di Lanzo*/
   /**/
     .ivrea{
       background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Ivrea_Piemonte.jpg') center/cover no-repeat;

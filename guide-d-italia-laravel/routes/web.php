@@ -581,8 +581,6 @@ Route::get('/home', function () {
             
         /*Fine Reggia di Venaria Reale*/
 
-        
-
         Route::get('/visite/piemonte/torino/monte_dei_cappuccini', function () {
             return Inertia::render('Piemonte/Visite/Monte_dei_Cappuccini');
         })->middleware(['auth', 'verified'])->name('monte_dei_cappuccini');
@@ -749,24 +747,36 @@ Route::get('/home', function () {
         Route::get('/visite/piemonte/vercelli/pinacoteca_francesco_borgogna', function () {
             return Inertia::render('Piemonte/Visite/Pinacoteca_Francesco_Borgogna');
         })->middleware(['auth', 'verified'])->name('pinacoteca_francesco_borgogna');
-    
-        Route::get('/visite/piemonte/buronzo/castellone', function () {
-            return Inertia::render('Piemonte/Visite/Castellone');
-        })->middleware(['auth', 'verified'])->name('pinacoteca_francesco_borgogna');
-
+        
         Route::get('/fiumi/piemonte/vercelli/fiume_sesia', function () {
             return Inertia::render('Fiumi/Fiume_Sesia');
         })->middleware(['auth', 'verified'])->name('fiume_sesia');
 
-        Route::get('/visite/piemonte/vercelli/parco_naziole_delle_lame', function () {
-            return Inertia::render('Piemonte/Visite/Parco_Nazionale_delle_Lame');
-        })->middleware(['auth', 'verified'])->name('parco_naziole_delle_lame');
+        Route::get('/montagna/piemonte/monte_rosa', function () {
+            return Inertia::render('Montagna/Monte_Rosa');
+        })->middleware(['auth', 'verified'])->name('monte_rosa');
+
+        Route::get('/visite/piemonte/vercelli/parco_naturale_delle_lame_del_sesia', function () {
+            return Inertia::render('Piemonte/Visite/Parco_Naturale_delle_Lame_del_Sesia');
+        })->middleware(['auth', 'verified'])->name('parco_naturale_delle_lame_del_sesia');
     
     /*Fine Vercelli*/
 
     Route::get('/territori/piemonte/canadese_gran_paradiso_e_valli_di_lanzo', function () {
-        return Inertia::render('Piemonte/Territori/Canavese_Gran_paradiso');
+        return Inertia::render('Piemonte/Territori/Canavese_Gran_Paradiso');
     })->middleware(['auth', 'verified'])->name('canadese_gran_paradiso_e_valli_di_lanzo');
+
+    /*Inizio Canavese, Gran Paradiso e Valli di Lanzo*/
+
+        Route::get('/territori/piemonte/canavese', function () {
+            return Inertia::render('Piemonte/Territori/Canavese');
+        })->middleware(['auth', 'verified'])->name('canavese');
+
+        Route::get('/territori/piemonte/torino/valle_di_lanzo', function () {
+            return Inertia::render('Piemonte/Territori/Valli_di_Lanzo');
+        })->middleware(['auth', 'verified'])->name('valli_di_lanzo');
+    
+    /*Fine Canavese, Gran Paradiso e Valli di Lanzo*/
 
     Route::get('/destinazioni/piemonte/ivrea', function () {
         return Inertia::render('Piemonte/Destinazioni/Ivrea');

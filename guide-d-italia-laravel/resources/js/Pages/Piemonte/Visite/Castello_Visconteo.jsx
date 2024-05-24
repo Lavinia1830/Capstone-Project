@@ -83,6 +83,7 @@ export default function Castello_Visconteo(props) {
                         <h3 className='color-subtitle text-center'>Mappa</h3>
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d754.6753754342483!2d8.425345213669363!3d45.327810984601136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47864c8aaa2d6e0f%3A0x1eea29700a436d26!2sCastello%20Visconteo%20di%20Vercelli!5e1!3m2!1sit!2sit!4v1716385142197!5m2!1sit!2sit"
+                            width="600"
                             height="450"
                             style={{ border: 0 }}
                             allowFullScreen=""

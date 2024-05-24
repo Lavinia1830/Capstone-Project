@@ -52,19 +52,19 @@ export default function Basilica_di_San_Gaudenzio(props) {
                         </p>
                     </div>
                     <div className='margin mb-4'>
-                    <h3 className='color-subtitle text-center'>Mappa</h3>
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1266.4941290710376!2d8.618350995123551!3d45.448786784372906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47865a2114b02fbb%3A0x874404869503458f!2sBasilica%20di%20San%20Gaudenzio!5e1!3m2!1sit!2sit!4v1715956871873!5m2!1sit!2sit"
-                        width="600"
-                        height="450"
-                        style={{ border: 0 }}
-                        allowFullScreen=""
-                        loading="lazy"
-                        referrerPolicy="no-referrer-when-downgrade"
-                        title="Google Map"
-                        className='mx-auto mappa'
-                    ></iframe>
-                </div>
+                        <h3 className='color-subtitle text-center'>Mappa</h3>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1266.4941290710376!2d8.618350995123551!3d45.448786784372906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47865a2114b02fbb%3A0x874404869503458f!2sBasilica%20di%20San%20Gaudenzio!5e1!3m2!1sit!2sit!4v1715956871873!5m2!1sit!2sit"
+                            width="600"
+                            height="450"
+                            style={{ border: 0 }}
+                            allowFullScreen=""
+                            loading="lazy"
+                            referrerPolicy="no-referrer-when-downgrade"
+                            title="Google Map"
+                            className='mx-auto mappa'
+                        ></iframe>
+                    </div>
                 </main>
                 <Footer/>
             </AuthenticatedLayout>

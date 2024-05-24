@@ -62,13 +62,21 @@ export default function Museo_Leone(props) {
                             rarità</b>, come un <b>prezioso cofanetto</b> con medaglioni in smalti di <b>Limoges</b> del XIII secolo, appartenuto al <b>cardinale Guala Bicchieri</b> (1160-1227), una serie di <b>lamine 
                             rinascimentali dorate e argentate</b> con <b>figure allegoriche incise</b>, un <b>cofano ottagonale</b> con decorazioni in <b>avorio</b>, forse prodotto nella bottega degli <b>Embriaghi</b>. 
                             Analogo per fattura e datazione al cofanetto esposto nel Museo Leone è quello recentemente acquistato dalla <b>Regione Piemonte</b> e dalla <b>Città di</b> <Link href='/destinazioni/piemonte/torino' 
-                            className='text-decoration-none color_link'>Torino</Link>, e destinato alle collezioni del <Link href='/visite/piemonte/torino/palazzo_madama' className='text-decoration-none color_link'>Museo d’Arte Antica di Torino</Link>.
+                            className='text-decoration-none color_link'>Torino</Link>, e destinato alle collezioni del <Link href='/visite/piemonte/torino/palazzo_madama' className='text-decoration-none color_link'>Museo 
+                            d’Arte Antica di Torino</Link>.
+                        </p>
+                        <p>
+                            Il <b>cardinale Guala Bicchieri</b> fu un insigne <b>giurista</b> e, nelle vesti di legato papale, partecipò ad importanti missioni <b>diplomatiche</b> in tutta Europa. Fu reggente del trono 
+                            inglese dal 1216 al 1218 ed ebbe parte rilevante nella ratificazione della <b>Magna Charta</b>. Nel 1219 diede l’avvio al cantiere della <Link href='/visite/piemonte/vercelli/basilica_di_sant_andrea' 
+                            className='text-decoration-none color_link'>Basilica di Sant’Andrea</Link> a Vercelli, chiamandovi a lavorare <b>artisti francesi</b> e <b>nordici</b>, le cui opere trasformarono la città in una 
+                            sorta di capitale gotica, influenzando profondamente la produzione artistica locale.
                         </p>
                     </div>
                     <div className='margin mb-4'>
                         <h3 className='color-subtitle text-center'>Mappa</h3>
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d754.6753754342483!2d8.425345213669363!3d45.327810984601136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47864c8aaa2d6e0f%3A0x1eea29700a436d26!2sCastello%20Visconteo%20di%20Vercelli!5e1!3m2!1sit!2sit!4v1716385142197!5m2!1sit!2sit"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d533.6466157056902!2d8.421967964891174!3d45.326692169157475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47864c8a8cd4c943%3A0x7b9aa35172222f29!2sMuseo%20Leone!5e1!3m2!1sit!2sit!4v1716465250805!5m2!1sit!2sit"
+                            width="600"
                             height="450"
                             style={{ border: 0 }}
                             allowFullScreen=""
