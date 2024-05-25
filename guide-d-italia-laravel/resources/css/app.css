@@ -2355,7 +2355,7 @@ hr{
       }
     /*Fine Valli di Lanzo*/
   /*Fine Canavese, Gran Paradiso e Valli di Lanzo*/
-  /**/
+  /*Inizio Ivrea*/
     .ivrea{
       background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Ivrea_Piemonte.jpg') center/cover no-repeat;
       padding: 250px 0;
@@ -2364,7 +2364,105 @@ hr{
       color: #fff;
       margin: 0 !important;
     }
-  /**/
+    /*Inizio Card Ivrea*/
+      .card_Ivrea{
+        display: flex;
+      }
+      .card_Ivrea:nth-child(1){ 
+        background: url('../assets/Piemonte/Anfiteatro_Morenico_Ivrea_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Ivrea:nth-child(2){ 
+        background: url('../assets/Piemonte/Castello_di_Ivrea_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+    /*Fine Card Ivrea*/
+    /*Inizio Anfiteatro Morenico di Ivrea*/
+      .anfiteatro_morenico{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Anfiteatro_Morenico_Ivrea_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .anfiteatro_morenico h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Anfiteatro Morenico di Ivrea*/
+    /*Inizio Castello di Ivrea*/
+      .castello_di_ivrea{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Castello_di_Ivrea_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .castello_di_ivrea h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Castello di Ivrea*/
+    /*Inizio Fiumi Dora Baltea*/
+      .fiume_dora_baltea{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Fiume_Dora_Baltea_Ivrea_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .fiume_dora_baltea h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Fiumi Dora Baltea*/
+    /*Inizio Anfiteatro Romano Ivrea*/
+      .anfiteatro_romano_ivrea{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Anfiteatro_Romano_Ivrea_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .anfiteatro_romano_ivrea h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Anfiteatro Romano Ivrea*/
+    /*Inizio Duomo di S. Maria Assunta*/
+      .duomo_s_maria_assunta{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Cattedrale_di Santa_Maria_Assunta_Ivrea_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .duomo_s_maria_assunta h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+      /*Inizio Palazzo Vescovile di ivrea*/
+        .palazzo_vescovile_ivrea{
+          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Palazzo_Vescovile_Ivrea_Piemonte.jpg') center/cover no-repeat;
+          padding: 250px 0;
+        }
+        .palazzo_vescovile_ivrea h1{
+          color: #fff;
+          margin: 0 !important;
+        }
+    /*Fine Duomo di S. Maria Assunta*/
+  /*Fine Ivrea*/
+  /*Inizio Agliè*/
+    /*Inizio Castello di Agliè*/
+      .castello_di_agliè{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Castello_di_Agliè_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .castello_di_agliè h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Castello di Agliè*/
+  /*Fine Agliè*/
+  /*Inizio Caravino*/
+    /*Inizio Castello di Masino*/
+      .castello_di_masino{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Castello_di_Masino_Caravino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .castello_di_masino h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Castello di Masino*/
+  /*Fine Caverino*/
   /**/
     .cuneo{
       background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Cuneo_Pimonte.jpg') center/cover no-repeat;

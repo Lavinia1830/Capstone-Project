@@ -32,9 +32,9 @@ export default function Canavese(props) {
                         <p>
                             Il Canavese è anche ricco di castelli. Il più famoso è il <Link href='/visite/piemonte/ivrea/castello_di_ivrea' 
                             className='text-decoration-none color_link'>Castello di Ivrea</Link> del 1358 con le sue torri rosse. Da non perdere 
-                            il <Link href='/visite/piemonte/ivrea/castello_di_aglie' className='text-decoration-none color_link'>Castello di Agliè</Link>, costruito 
+                            il <Link href='/visite/piemonte/agliè/castello_di_agliè' className='text-decoration-none color_link'>Castello di Agliè</Link>, costruito 
                             nel XII secolo e rifatto in stile barocco nel Seicento. Lo circonda un bellissimo parco all’inglese e all’italiana. Splendido anche 
-                            il <Link href='/visite/piemonte/ivrea/castello_di_masino' className='text-decoration-none color_link'>Castello di Masino</Link> di epoca 
+                            il <Link href='/visite/piemonte/caravino/castello_di_masino' className='text-decoration-none color_link'>Castello di Masino</Link> di epoca 
                             alto-medievale e la seicentesca <Link href='/visite/piemonte/torino/reggia_di_venaria_reale' className='text-decoration-none color_link'>Reggia 
                             di Venaria Reale</Link>.
                         </p>

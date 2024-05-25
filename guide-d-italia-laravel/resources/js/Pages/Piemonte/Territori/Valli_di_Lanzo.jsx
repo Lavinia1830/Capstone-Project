@@ -1,12 +1,12 @@
 import React from 'react';
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout';
 import Footer from '@/Components/Footer';
-import { Link, Head } from '@inertiajs/react';
+import { Head } from '@inertiajs/react';
 
 export default function Valli_di_Lanzo(props) {
     return (
         <>
-            <Head title="Canavese"/>
+            <Head title="Valli di Lanzo"/>
             <AuthenticatedLayout
                 auth={props.auth}
                 errors={props.errors}

@@ -782,6 +782,50 @@ Route::get('/home', function () {
         return Inertia::render('Piemonte/Destinazioni/Ivrea');
     })->middleware(['auth', 'verified'])->name('ivrea');
 
+    /*Inizio Ivrea*/
+
+        Route::get('/visite/piemonte/ivrea/anfiteatro_morenico', function () {
+            return Inertia::render('Piemonte/Visite/Anfiteatro_Morenico');
+        })->middleware(['auth', 'verified'])->name('anfiteatro_morenico');
+
+        Route::get('/visite/piemonte/ivrea/castello_di_ivrea', function () {
+            return Inertia::render('Piemonte/Visite/Castello_di_Ivrea');
+        })->middleware(['auth', 'verified'])->name('castello_di_ivrea');
+
+        Route::get('/fiumi/piemonte/ivrea/fiume_dora_baltea', function () {
+            return Inertia::render('Fiumi/Fiume_Dora_Baltea');
+        })->middleware(['auth', 'verified'])->name('fiume_dora_baltea');
+
+        Route::get('/visite/piemonte/ivrea/anfiteatro_romano', function () {
+            return Inertia::render('Piemonte/Visite/Anfiteatro_Romano_Ivrea');
+        })->middleware(['auth', 'verified'])->name('anfiteatro_romano');
+
+        Route::get('/visite/piemonte/ivrea/duomo_di_s_maria_assunta', function () {
+            return Inertia::render('Piemonte/Visite/Duomo_S_Maria_Assunta');
+        })->middleware(['auth', 'verified'])->name('duomo_di_s_maria_assunta');
+
+        Route::get('/visite/piemonte/ivrea/palazzo_vescovile', function () {
+            return Inertia::render('Piemonte/Visite/Palazzo_Vescovile_di_Ivrea');
+        })->middleware(['auth', 'verified'])->name('palazzo_vescovile');
+    
+    /*Fine Ivrea*/
+
+    /*Inizio Agliè*/
+
+        Route::get('/visite/piemonte/agliè/castello_di_agliè', function () {
+            return Inertia::render('Piemonte/Visite/Castello_di_Agliè');
+        })->middleware(['auth', 'verified'])->name('castello_di_agliè');
+    
+    /*Fine Agliè*/
+
+    /*Inizio Caravino*/
+
+        Route::get('/visite/piemonte/caravino/castello_di_masino', function () {
+            return Inertia::render('Piemonte/Visite/Castello_di_Masino');
+        })->middleware(['auth', 'verified'])->name('castello_di_masino');
+    
+    /*Fine Caravino*/
+
     Route::get('/destinazioni/piemonte/cuneo', function () {
         return Inertia::render('Piemonte/Destinazioni/Cuneo');
     })->middleware(['auth', 'verified'])->name('cuneo');
