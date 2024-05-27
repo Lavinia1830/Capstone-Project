@@ -2378,6 +2378,31 @@ hr{
         /* width: 30%; */
         height: 400px;
       }
+      .card_Ivrea:nth-child(3){ 
+        background: url('../assets/Piemonte/Fiume_Dora_Baltea_Ivrea_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Ivrea:nth-child(4){ 
+        background: url('../assets/Piemonte/Anfiteatro_Romano_Ivrea_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Ivrea:nth-child(5){ 
+        background: url('../assets/Piemonte/Cattedrale_di Santa_Maria_Assunta_Ivrea_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Ivrea:nth-child(6){ 
+        background: url('../assets/Piemonte/Palazzo_Vescovile_Ivrea_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Ivrea:nth-child(7){ 
+        background: url('../assets/Piemonte/Maam_Ivrea_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
     /*Fine Card Ivrea*/
     /*Inizio Anfiteatro Morenico di Ivrea*/
       .anfiteatro_morenico{
@@ -2438,8 +2463,108 @@ hr{
           margin: 0 !important;
         }
     /*Fine Duomo di S. Maria Assunta*/
+    /*Inizio MaAM (museo a cielo aperto dell'architettura moderna di Ivrea*/
+      .maam{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Maam_Ivrea_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .maam h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine MaAM (museo a cielo aperto dell'architettura moderna di Ivrea*/
   /*Fine Ivrea*/
+  /*Inizio Valli Susa, Chisone Pellice e Germanasca*/
+    .vds_c_p_e_g{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Valle_di_Susa_Piemonte.jpg') center/cover no-repeat;
+      padding: 250px 0;
+    }
+    .vds_c_p_e_g h1{
+      color: #fff;
+      margin: 0 !important;
+    }
+    /*Inizio Card Valli Susa, Chisone Pellice e Germanasca*/
+      .card_Vds_c_p_e_g{
+        display: flex;
+      }
+      .card_Vds_c_p_e_g:nth-child(1){ 
+        background: url('../assets/Piemonte/Val_di_Susa_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Vds_c_p_e_g:nth-child(2){ 
+        background: url('../assets/Piemonte/Val_di_Susa_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Vds_c_p_e_g:nth-child(3){ 
+        background: url('../assets/Piemonte/Val_di_Susa_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Vds_c_p_e_g:nth-child(4){ 
+        background: url('../assets/Piemonte/Val_di_Susa_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+    /*Fine Card Valli Susa, Chisone Pellice e Germanasca*/
+    /*Inizio Val di Susa*/
+      .val_di_susa{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Val_di_Susa_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .val_di_susa h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+      /*Inizio Card Val di Susa*/
+        .card_Val_di_Susa{
+          display: flex;
+        }
+        .card_Val_di_Susa:nth-child(1){ 
+          background: url('../assets/Piemonte/Castello_della_Contessa_Adelaide_Val_di_Susa_Piemonte.jpg') center/cover no-repeat;
+          /* width: 30%; */
+          height: 400px;
+        }
+        .card_Val_di_Susa:nth-child(2){ 
+          background: url('../assets/Piemonte/Forte_di_Fenestrelle_Val_di_Susa_Piemonte.jpg') center/cover no-repeat;
+          /* width: 30%; */
+          height: 400px;
+        }
+        .card_Val_di_Susa:nth-child(3){ 
+          background: url('../assets/Piemonte/Val_di_Susa_Piemonte.jpg') center/cover no-repeat;
+          /* width: 30%; */
+          height: 400px;
+        }
+        .card_Val_di_Susa:nth-child(4){ 
+          background: url('../assets/Piemonte/Val_di_Susa_Piemonte.jpg') center/cover no-repeat;
+          /* width: 30%; */
+          height: 400px;
+        }
+      /*Fine Card Val di Susa*/
+      /*Inizio Castello della Contessa Adelaide*/
+        .castello_della_contessa_adelaide{
+          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Castello_della_Contessa_Adelaide_Val_di_Susa_Piemonte.jpg') center/cover no-repeat;
+          padding: 250px 0;
+        }
+        .castello_della_contessa_adelaide h1{
+          color: #fff;
+          margin: 0 !important;
+        }
+      /*Fine Castello della Contessa Adelaide*/
+      /*Inizio Forte di Fenestrelle*/
+        .forte_di_fenestrelle{
+          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Forte_di_Fenestrelle_Val_di_Susa_Piemonte.jpg') center/cover no-repeat;
+          padding: 250px 0;
+        }
+        .forte_di_fenestrelle h1{
+          color: #fff;
+          margin: 0 !important;
+        }
+    /*Fine Val di Susa*/
+  /*Fine Valli Susa, Chisone Pellice e Germanasca*/
   /*Inizio Agliè*/
+
     /*Inizio Castello di Agliè*/
       .castello_di_agliè{
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Castello_di_Agliè_Piemonte.jpg') center/cover no-repeat;
@@ -2493,16 +2618,7 @@ hr{
       margin: 0 !important;
     }
   /**/
-  /**/
-    .vds_c_p_e_g{
-      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Valle_di_Susa_Piemonte.jpg') center/cover no-repeat;
-      padding: 250px 0;
-    }
-    .vds_c_p_e_g h1{
-      color: #fff;
-      margin: 0 !important;
-    }
-  /**/
+  
   /**/
     .langhe_e_roero{
       background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Langhe_e_roero_Piemonte.jpg') center/cover no-repeat;

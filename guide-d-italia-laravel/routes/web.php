@@ -807,7 +807,10 @@ Route::get('/home', function () {
         Route::get('/visite/piemonte/ivrea/palazzo_vescovile', function () {
             return Inertia::render('Piemonte/Visite/Palazzo_Vescovile_di_Ivrea');
         })->middleware(['auth', 'verified'])->name('palazzo_vescovile');
-    
+        
+        Route::get('/visite/piemonte/ivrea/museo_a_cielo_aperto_dell_architettura_moderna', function () {
+            return Inertia::render('Piemonte/Visite/Maam');
+        })->middleware(['auth', 'verified'])->name('museo_a_cielo_aperto_dell_architettura_moderna');
     /*Fine Ivrea*/
 
     /*Inizio Agliè*/
@@ -838,9 +841,29 @@ Route::get('/home', function () {
         return Inertia::render('Piemonte/Territori/Asti_Alessandria_e_il_Monferrato');
     })->middleware(['auth', 'verified'])->name('asti_alessandra_e_il_monferrato');
 
-    Route::get('/territori/piemonte/valle_di_susa_chisone_pallice_germanasca', function () {
-        return Inertia::render('Piemonte/Territori/Valle_di_Susa_Chisone_Pellice_e_Germanasca');
-    })->middleware(['auth', 'verified'])->name('valle_di_susa_chisone_pallice_germanasca');
+    Route::get('/territori/piemonte/val_susa_chisone_pallice_germanasca', function () {
+        return Inertia::render('Piemonte/Territori/Valli_Susa_Chisone_Pellice_e_Germanasca');
+    })->middleware(['auth', 'verified'])->name('val_susa_chisone_pallice_germanasca');
+    
+    /*Inizio Val di Susa, Chisone Pellice e Germanasca*/
+
+        Route::get('/montagna/piemonte/val_di_susa', function () {
+            return Inertia::render('Montagna/Val_di_Susa');
+        })->middleware(['auth', 'verified'])->name('val_di_susa');
+
+        /*Inizio Val di Susa*/
+
+            Route::get('/visite/piemonte/susa/castello_della_contessa_adelaide', function () {
+                return Inertia::render('Piemonte/Visite/Castello_della_Contessa_Adelaide');
+            })->middleware(['auth', 'verified'])->name('castello_della_contessa_adelaide');
+
+            Route::get('/visite/piemonte/susa/forte_di_fenestrelle', function () {
+                return Inertia::render('Piemonte/Visite/Forte_di_Fenestrelle');
+            })->middleware(['auth', 'verified'])->name('forte_di_fenestrelle');
+
+        /*Fine Sal di Susa*/
+    
+    /*Fine Val di Susa, Chisone Pellice e Germanasca*/
 
     Route::get('/territori/piemonte/langhe_e_roero', function () {
         return Inertia::render('Piemonte/Territori/Langhe_e_Roero');

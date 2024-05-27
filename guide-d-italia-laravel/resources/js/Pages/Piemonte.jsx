@@ -19,11 +19,6 @@ export default function Piemonte(props) {
     const [isHoveredAsti, setIsHoveredAsti] = useState(false);
     const [isHoveredLangheeRoero, setIsHoveredLangheeRoero] = useState(false);
 
-
-
-
-
-
   return (
     <>
         <Head title="Piemonte"/>
@@ -156,7 +151,7 @@ export default function Piemonte(props) {
                         <CardBody className='bottone'>
                             <Link 
                                 className="bottone_link" 
-                                href='/territori/piemonte/valle_di_susa_chisone_pallice_germanasca'
+                                href='/territori/piemonte/val_susa_chisone_pallice_germanasca'
                                 onMouseEnter={() => setIsHoveredVSCPG(true)}
                                 onMouseLeave={() => setIsHoveredVSCPG(false)}
                                 >Valle di Susa, Chisone, Pellise... {isHoveredVSCPG && <i className="bi bi-chevron-right"></i>}
@@ -216,6 +211,5 @@ export default function Piemonte(props) {
             <Footer/>
         </AuthenticatedLayout>
     </>
-       
   )
 }

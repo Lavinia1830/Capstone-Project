@@ -8,6 +8,13 @@ export default function Ivrea(props) {
 
   const [isHoveredAnfiteatroMorenico, setIsHoveredAnfiteatroMorenico] = useState(false);
   const [isHoveredCastellodiIvrea, setIsHoveredCastellodiIvrea] = useState(false);
+  const [isHoveredFiumeDoraBaltea, setIsHoveredFiumeDoraBaltea] = useState(false);
+  const [isHoveredAfiteatroRomano, setIsHoveredAfiteatroRomano] = useState(false);
+  const [isHoveredDuomoSMariaAssunta, setIsHoveredDuomoSMariaAssunta] = useState(false);
+  const [isHoveredPalazzoVescovile, setIsHoveredPalazzoVescovile] = useState(false);
+  const [isHoveredMaam, setIsHoveredMaam] = useState(false);
+
+
 
   return (
     <>
@@ -69,6 +76,61 @@ export default function Ivrea(props) {
                 onMouseEnter={() => setIsHoveredCastellodiIvrea(true)}
                 onMouseLeave={() => setIsHoveredCastellodiIvrea(false)}
                 >Castello di Ivrea {isHoveredCastellodiIvrea && <i className="bi bi-chevron-right"></i>}
+                </Link>
+              </CardBody>
+            </Card>
+            <Card className='col-sm-12 col-md-6 col-lg-4 px-0 card_Ivrea'>
+              <CardBody className='bottone'>
+                <Link 
+                className="bottone_link" 
+                href='/fiumi/piemonte/ivrea/fiume_dora_baltea'
+                onMouseEnter={() => setIsHoveredFiumeDoraBaltea(true)}
+                onMouseLeave={() => setIsHoveredFiumeDoraBaltea(false)}
+                >Fiume Dora Baltea {isHoveredFiumeDoraBaltea && <i className="bi bi-chevron-right"></i>}
+                </Link>
+              </CardBody>
+            </Card>
+            <Card className='col-sm-12 col-md-6 col-lg-4 px-0 card_Ivrea'>
+              <CardBody className='bottone'>
+                <Link 
+                className="bottone_link" 
+                href='/visite/piemonte/ivrea/anfiteatro_romano'
+                onMouseEnter={() => setIsHoveredAfiteatroRomano(true)}
+                onMouseLeave={() => setIsHoveredAfiteatroRomano(false)}
+                >Anfiteatro Romano {isHoveredAfiteatroRomano && <i className="bi bi-chevron-right"></i>}
+                </Link>
+              </CardBody>
+            </Card>
+            <Card className='col-sm-12 col-md-6 col-lg-4 px-0 card_Ivrea'>
+              <CardBody className='bottone'>
+                <Link 
+                className="bottone_link" 
+                href='/visite/piemonte/ivrea/duomo_di_s_maria_assunta'
+                onMouseEnter={() => setIsHoveredDuomoSMariaAssunta(true)}
+                onMouseLeave={() => setIsHoveredDuomoSMariaAssunta(false)}
+                >Duomo di Santa Maria Assunta {isHoveredDuomoSMariaAssunta && <i className="bi bi-chevron-right"></i>}
+                </Link>
+              </CardBody>
+            </Card>
+            <Card className='col-sm-12 col-md-6 col-lg-4 px-0 card_Ivrea'>
+              <CardBody className='bottone'>
+                <Link 
+                className="bottone_link" 
+                href='/visite/piemonte/ivrea/palazzo_vescovile'
+                onMouseEnter={() => setIsHoveredPalazzoVescovile(true)}
+                onMouseLeave={() => setIsHoveredPalazzoVescovile(false)}
+                >Palazzo Vescovile {isHoveredPalazzoVescovile && <i className="bi bi-chevron-right"></i>}
+                </Link>
+              </CardBody>
+            </Card>
+            <Card className='col-sm-12 col-md-6 col-lg-4 px-0 card_Ivrea'>
+              <CardBody className='bottone'>
+                <Link 
+                className="bottone_link" 
+                href='/visite/piemonte/ivrea/museo_a_cielo_aperto_dell_architettura_moderna'
+                onMouseEnter={() => setIsHoveredMaam(true)}
+                onMouseLeave={() => setIsHoveredMaam(false)}
+                >Palazzo Vescovile {isHoveredMaam && <i className="bi bi-chevron-right"></i>}
                 </Link>
               </CardBody>
             </Card>
