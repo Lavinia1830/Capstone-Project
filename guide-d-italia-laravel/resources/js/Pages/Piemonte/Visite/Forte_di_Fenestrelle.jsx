@@ -1,7 +1,7 @@
 import React from 'react';
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout';
 import Footer from '@/Components/Footer';
-import { Link, Head } from '@inertiajs/react';
+import { Head } from '@inertiajs/react';
 
 export default function Forte_di_Fenestrelle(props) {
     return (
@@ -12,7 +12,7 @@ export default function Forte_di_Fenestrelle(props) {
                 errors={props.errors}
             >
                 <main>
-                    <div className='fonte_di_fenestrelle' style={{ position: 'relative' }}>
+                    <div className='forte_di_fenestrelle' style={{ position: 'relative' }}>
                         <h1 className='text-center' style={{ position: 'absolute', top: 20, left: 20 }}>Forte di Fenestrelle</h1>
                         <span className='text-light' style={{ position: 'absolute', bottom: 50, left: 20 }}>CATEGORIE</span>
                         <p className='categorie' style={{ position: 'absolute', bottom: 10, left: 20 }}>Da vedere</p>

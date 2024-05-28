@@ -57,10 +57,10 @@ export default function Valli_Susa_Chisone_Pellice_e_Germanasca(props) {
               <CardBody className='bottone'>
                 <Link 
                 className="bottone_link" 
-                href='/montagna/piemonte/chisone'
+                href='/montagna/piemonte/val_chisone'
                 onMouseEnter={() => setIsHoveredChisone(true)}
                 onMouseLeave={() => setIsHoveredChisone(false)}
-                >Chisone {isHoveredChisone && <i className="bi bi-chevron-right"></i>}
+                >Val Chisone {isHoveredChisone && <i className="bi bi-chevron-right"></i>}
                 </Link>
               </CardBody>
             </Card>
@@ -68,10 +68,10 @@ export default function Valli_Susa_Chisone_Pellice_e_Germanasca(props) {
               <CardBody className='bottone'>
                 <Link 
                 className="bottone_link" 
-                href='/montagna/piemonte/pellice'
+                href='/montagna/piemonte/val_pellice'
                 onMouseEnter={() => setIsHoveredPellice(true)}
                 onMouseLeave={() => setIsHoveredPellice(false)}
-                >Pellice {isHoveredPellice && <i className="bi bi-chevron-right"></i>}
+                >Val Pellice {isHoveredPellice && <i className="bi bi-chevron-right"></i>}
                 </Link>
               </CardBody>
             </Card>
@@ -79,10 +79,10 @@ export default function Valli_Susa_Chisone_Pellice_e_Germanasca(props) {
               <CardBody className='bottone'>
                 <Link 
                 className="bottone_link" 
-                href='/montagna/piemonte/germanasca'
+                href='/montagna/piemonte/val_germanasca'
                 onMouseEnter={() => setIsHoveredGermanasca(true)}
                 onMouseLeave={() => setIsHoveredGermanasca(false)}
-                >Germanasca {isHoveredGermanasca && <i className="bi bi-chevron-right"></i>}
+                >Val Germanasca {isHoveredGermanasca && <i className="bi bi-chevron-right"></i>}
                 </Link>
               </CardBody>
             </Card>

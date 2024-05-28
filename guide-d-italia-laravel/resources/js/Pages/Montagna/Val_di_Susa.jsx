@@ -27,7 +27,7 @@ export default function Val_di_Susa(props) {
                     <div className="margin mt-3">
                         <p>
                             La <strong>Val di Susa</strong> è una valle alpina situata nel <Link href='/piemonte' className='text-decoration-none color_link'>Piemonte</Link>, 
-                            nel nord-ovest dell'Italia. È attraversata dal <Link href='/fiume/piemonte/fiume_dora_riparia' className='text-decoration-none color_link'>fiume 
+                            nel nord-ovest dell'Italia. È attraversata dal <Link href='/fiumi/piemonte/alpi_cozie/fiume_dora_riparia' className='text-decoration-none color_link'>fiume 
                             Dora Riparia</Link> e si estende da <Link href='/destinazioni/piemonte/torino' className='text-decoration-none color_link'>Torino</Link> fino al 
                             confine con la <b>Francia</b>. La valle ha una storia molto <b>antica</b>, essendo abitata fin dalla <b>preistoria</b>.
                         </p>
@@ -39,8 +39,8 @@ export default function Val_di_Susa(props) {
                         </p>
                         <p>
                             Nel <b>Medioevo</b>, la valle acquisì una notevole importanza strategica e militare. Numerosi <b>castelli</b> e <b>fortificazioni</b> furono costruiti 
-                            per difendere il territorio, come il <Link href='/visite/piemonte/susa/castello_della_contessa_adelaide' className='text-decoration-none color_link'>Castello 
-                            della Contessa Adelaide</Link> a Susa e il <Link href='/visite/piemonte/susa/forte_di_fenestrelle' className='text-decoration-none color_link'>Forte di Fenestrelle</Link>. 
+                            per difendere il territorio, come il <Link href='/visite/piemonte/val_di_susa/castello_della_contessa_adelaide' className='text-decoration-none color_link'>Castello 
+                            della Contessa Adelaide</Link> a Susa e il <Link href='/visite/piemonte/val_di_susa/forte_di_fenestrelle' className='text-decoration-none color_link'>Forte di Fenestrelle</Link>. 
                             I <b>monaci</b> benedettini fondarono la celebre <Link href='/visite/piemonte/val_di_susa/abbazia_di_novalesa' className='text-decoration-none color_link'>Abbazia 
                             di Novalesa</Link> nel 726 e la <Link href='/visite/piemonte/val_di_susa/sacra_di_san_michele' className='text-decoration-none color_link'>Sacra di San Michele</Link>, 
                             un imponente monastero situato sulla cima di un monte, che divenne uno dei simboli della valle.
@@ -64,7 +64,7 @@ export default function Val_di_Susa(props) {
                             <CardBody className='bottone'>
                                 <Link 
                                 className="bottone_link" 
-                                href='/visite/piemonte/susa/castello_della_contessa_adelaide'
+                                href='/visite/piemonte/val_di_susa/castello_della_contessa_adelaide'
                                 onMouseEnter={() => setIsHoveredCastellodellaContessaAdelaide(true)}
                                 onMouseLeave={() => setIsHoveredCastellodellaContessaAdelaide(false)}
                                 >Castello della Contessa Adelaide {isHoveredCastellodellaContessaAdelaide && <i className="bi bi-chevron-right"></i>}

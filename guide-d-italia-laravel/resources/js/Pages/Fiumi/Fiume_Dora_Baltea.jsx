@@ -30,8 +30,7 @@ export default function Fiume_Dora_Baltea(props) {
                             className='text-decoration-none color_link'>Courmayeur</Link>, <Link href='/destinazioni/valle_d_aosta/aosta' 
                             className='text-decoration-none color_link'>Aosta</Link> e <Link href='/destinazioni/piemonte/ivrea' className='text-decoration-none color_link'>Ivrea</Link>. 
                             Successivamente, entra nella <Link href='/territorio/pianura_padana' className='text-decoration-none color_link'>Pianura Padana</Link> e confluisce 
-                            nel <Link href='/fiume/po' className='text-decoration-none color_link'>Po</Link>, il fiume più lungo d'Italia, vicino a <Link href='/destinazione/piemonte/chivasso' 
-                            className='text-decoration-none color_link'>Chivasso</Link>.
+                            nel <Link href='/fiume/po' className='text-decoration-none color_link'>Po</Link>, il fiume più lungo d'Italia, vicino a <b>Chivasso</b>.
                         </p>
                         <p>
                             La Dora Baltea è nota per la sua <b>portata</b> d'acqua variabile, influenzata dallo <b>scioglimento</b> delle <b>nevi</b> e dai <b>ghiacciai</b> alpini, oltre 

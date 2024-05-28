@@ -853,15 +853,51 @@ Route::get('/home', function () {
 
         /*Inizio Val di Susa*/
 
-            Route::get('/visite/piemonte/susa/castello_della_contessa_adelaide', function () {
+            Route::get('/fiumi/piemonte/alpi_cozie/fiume_dora_riparia', function () {
+                return Inertia::render('Fiumi/Fiume_Dora_Riparia');
+            })->middleware(['auth', 'verified'])->name('fiume_dora_riparia');
+
+            Route::get('/visite/piemonte/val_di_susa/castello_della_contessa_adelaide', function () {
                 return Inertia::render('Piemonte/Visite/Castello_della_Contessa_Adelaide');
             })->middleware(['auth', 'verified'])->name('castello_della_contessa_adelaide');
 
-            Route::get('/visite/piemonte/susa/forte_di_fenestrelle', function () {
+            Route::get('/visite/piemonte/val_di_susa/forte_di_fenestrelle', function () {
                 return Inertia::render('Piemonte/Visite/Forte_di_Fenestrelle');
             })->middleware(['auth', 'verified'])->name('forte_di_fenestrelle');
+            
+            Route::get('/visite/piemonte/val_di_susa/abbazia_di_novalesa', function () {
+                return Inertia::render('Piemonte/Visite/Abbazia_di_Novalesa');
+            })->middleware(['auth', 'verified'])->name('abbazia_di_novalesa');
 
-        /*Fine Sal di Susa*/
+            Route::get('/visite/piemonte/val_di_susa/sacra_di_san_michele', function () {
+                return Inertia::render('Piemonte/Visite/Sacra_di_San_Michele');
+            })->middleware(['auth', 'verified'])->name('sacra_di_san_michele');
+
+        /*Fine Val di Susa*/
+
+        Route::get('/montagna/piemonte/val_chisone', function () {
+            return Inertia::render('Montagna/Val_Chisone');
+        })->middleware(['auth', 'verified'])->name('val_chisone');
+
+        /*Inizio Val Chisone*/
+
+            Route::get('/visite/piemonte/val_chisone/gallia_cisalpina', function () {
+                return Inertia::render('Piemonte/Visite/Gallia_Cisalpina');
+            })->middleware(['auth', 'verified'])->name('gallia_cisalpina');
+
+            Route::get('/visite/piemonte/val_chisone/gallia_narbonense', function () {
+                return Inertia::render('Piemonte/Visite/Gallia_Narbonense');
+            })->middleware(['auth', 'verified'])->name('gallia_narbonense');
+
+        /*Fine Val Chisone*/
+
+        Route::get('/montagna/piemonte/val_pellice', function () {
+            return Inertia::render('Montagna/Val_Pellice');
+        })->middleware(['auth', 'verified'])->name('val_pellice');
+
+        Route::get('/montagna/piemonte/val_germanasca', function () {
+            return Inertia::render('Montagna/Val_Germanasca');
+        })->middleware(['auth', 'verified'])->name('val_germanasca');
     
     /*Fine Val di Susa, Chisone Pellice e Germanasca*/
 

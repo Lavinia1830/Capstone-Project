@@ -2493,17 +2493,17 @@ hr{
         height: 400px;
       }
       .card_Vds_c_p_e_g:nth-child(2){ 
-        background: url('../assets/Piemonte/Val_di_Susa_Piemonte.jpg') center/cover no-repeat;
+        background: url('../assets/Piemonte/Val_Chisone_Roure_Piemonte.jpg') center/cover no-repeat;
         /* width: 30%; */
         height: 400px;
       }
       .card_Vds_c_p_e_g:nth-child(3){ 
-        background: url('../assets/Piemonte/Val_di_Susa_Piemonte.jpg') center/cover no-repeat;
+        background: url('../assets/Piemonte/Val_Pellice_Piemonte.jpg') center/cover no-repeat;
         /* width: 30%; */
         height: 400px;
       }
       .card_Vds_c_p_e_g:nth-child(4){ 
-        background: url('../assets/Piemonte/Val_di_Susa_Piemonte.jpg') center/cover no-repeat;
+        background: url('../assets/Piemonte/Val_Germanasca_Piemonte.jpg') center/cover no-repeat;
         /* width: 30%; */
         height: 400px;
       }
@@ -2532,12 +2532,12 @@ hr{
           height: 400px;
         }
         .card_Val_di_Susa:nth-child(3){ 
-          background: url('../assets/Piemonte/Val_di_Susa_Piemonte.jpg') center/cover no-repeat;
+          background: url('../assets/Piemonte/Abbazia_di_Novalesa_Val_di_Susa_Piemonte.jpg') center/cover no-repeat;
           /* width: 30%; */
           height: 400px;
         }
         .card_Val_di_Susa:nth-child(4){ 
-          background: url('../assets/Piemonte/Val_di_Susa_Piemonte.jpg') center/cover no-repeat;
+          background: url('../assets/Piemonte/Sacra_di_San_Michele_Val_di_Susa_Piemonte.jpg') center/cover no-repeat;
           /* width: 30%; */
           height: 400px;
         }
@@ -2561,10 +2561,90 @@ hr{
           color: #fff;
           margin: 0 !important;
         }
+      /*Fine Forte di Fenestrelle*/
+      /*Inizio Abbazia di Novalesa*/
+        .abbazia_di_novalesa{
+          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Abbazia_di_Novalesa_Val_di_Susa_Piemonte.jpg') center/cover no-repeat;
+          padding: 250px 0;
+        }
+        .abbazia_di_novalesa h1{
+          color: #fff;
+          margin: 0 !important;
+        }
+      /*Inizio Abbazia di Novalesa*/
+      /*Inizio Sacra di San Michele*/
+        .sacra_di_san_michele{
+          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Sacra_di_San_Michele_Val_di_Susa_Piemonte.jpg') center/cover no-repeat;
+          padding: 250px 0;
+        }
+        .sacra_di_san_michele h1{
+          color: #fff;
+          margin: 0 !important;
+        }
+      /*Fine Sacra di San Michele*/
+      /*Inizio Fiume Dora Riparia*/
+        .fiume_dora_riparia{
+          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Fiume_Dora_Riparia_Alpi_Cozie_Piemonte.jpg') center/cover no-repeat;
+          padding: 250px 0;
+        }
+        .fiume_dora_riparia h1{
+          color: #fff;
+          margin: 0 !important;
+        }
+      /*Fine Fiume Dora Riparia*/
     /*Fine Val di Susa*/
+    /*Inizio Val Chisone*/
+      .val_chisone{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Val_Chisone_Roure_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .val_chisone h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+      /*Inizio Gallia Cisalpina*/
+        .gallia_cisalpina{
+          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Gallia_Cisalpina_Val_Chisone_Piemonte.jpg') center/cover no-repeat;
+          padding: 250px 0;
+        }
+        .gallia_cisalpina h1{
+          color: #fff;
+          margin: 0 !important;
+        }
+      /*Fine Gallia Cisalpina*/
+      /*Inizio Gallia Narbonense*/
+        .gallia_narbonense{
+          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Gallia_Narbonense_Val_Chisone_Piemonte.jpg') center/cover no-repeat;
+          padding: 250px 0;
+        }
+        .gallia_narbonense h1{
+          color: #fff;
+          margin: 0 !important;
+        }
+      /*Fine Gallia Narbonense*/
+    /*Fine Val Chisone*/
+    /*Inizio Val Pellice*/
+      .val_pellice{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Val_Pellice_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .val_pellice h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Val Pellice*/
+    /*Inizio Val Germanasca*/
+      .val_germanasca{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Val_Germanasca_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .val_germanasca h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Val Germanasca*/
   /*Fine Valli Susa, Chisone Pellice e Germanasca*/
   /*Inizio Agliè*/
-
     /*Inizio Castello di Agliè*/
       .castello_di_agliè{
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Castello_di_Agliè_Piemonte.jpg') center/cover no-repeat;
