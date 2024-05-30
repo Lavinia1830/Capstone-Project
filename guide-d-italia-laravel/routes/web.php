@@ -833,9 +833,85 @@ Route::get('/home', function () {
         return Inertia::render('Piemonte/Destinazioni/Cuneo');
     })->middleware(['auth', 'verified'])->name('cuneo');
 
+    /*Inizio Cuneo*/
+
+        Route::get('/visite/piemonte/cuneo/piazza_galimberti', function () {
+            return Inertia::render('Piemonte/Visite/Piazza_Galimberti');
+        })->middleware(['auth', 'verified'])->name('piazza_galimberti');
+
+        Route::get('/visite/piemonte/cuneo/palazzo_della_torre', function () {
+            return Inertia::render('Piemonte/Visite/Palazzo_della_Torre');
+        })->middleware(['auth', 'verified'])->name('palazzo_della_torre');
+
+        Route::get('/visite/piemonte/cuneo/contrada_mondovì', function () {
+            return Inertia::render('Piemonte/Visite/Contrada_Mondovì');
+        })->middleware(['auth', 'verified'])->name('contrada_mondovì');
+
+        Route::get('/territori/piemonte/cuneo/langhe', function () {
+            return Inertia::render('Piemonte/Territori/Langhe');
+        })->middleware(['auth', 'verified'])->name('langhe');
+
+        Route::get('/enogastronomia/piemonte/cueno/tartufo_bianco', function () {
+            return Inertia::render('Enogastronomia/Tartufo_Bianco');
+        })->middleware(['auth', 'verified'])->name('tartufo_bianco');
+
+    /*Fine Cuneo*/
+
+    Route::get('/destinazioni/piemonte/asti', function () {
+        return Inertia::render('Piemonte/Destinazioni/Asti');
+    })->middleware(['auth', 'verified'])->name('asti');
+
+    /*Inizio Asti*/
+
+        Route::get('/visite/piemonte/asti/collegiata_di_san_secondo', function () {
+            return Inertia::render('Piemonte/Visite/Collegiata_di_San_Secondo');
+        })->middleware(['auth', 'verified'])->name('collegiata_di_san_secondo');
+
+        Route::get('/visite/piemonte/asti/palazzo_alfieri', function () {
+            return Inertia::render('Piemonte/Visite/Palazzo_Alfieri');
+        })->middleware(['auth', 'verified'])->name('palazzo_alfieri');
+
+        Route::get('/visite/piemonte/asti/palazzo_mazzetti', function () {
+            return Inertia::render('Piemonte/Visite/Palazzo_Mazzetti');
+        })->middleware(['auth', 'verified'])->name('palazzo_mazzetti');
+
+
+    /*Fine Asti*/
+
+    Route::get('/territori/piemonte/pianura_padana', function () {
+        return Inertia::render('Piemonte/Territori/Pianura_Padana');
+    })->middleware(['auth', 'verified'])->name('pianura_padana');
+    
     Route::get('/destinazioni/piemonte/saluzzo', function () {
         return Inertia::render('Piemonte/Destinazioni/Saluzzo');
     })->middleware(['auth', 'verified'])->name('saluzzo');
+
+    /*inizio Saluzzo*/
+
+        Route::get('/visite/piemonte/saluzzo/castello_di_castellar', function () {
+            return Inertia::render('Piemonte/Visite/Castello_di_Castellar');
+        })->middleware(['auth', 'verified'])->name('castello_di_castellar');
+
+        Route::get('/visite/piemonte/saluzzo/pinacoteca_matteo_olivero', function () {
+            return Inertia::render('Piemonte/Visite/Pinacoteca_Matteo_Olivero');
+        })->middleware(['auth', 'verified'])->name('pinacoteca_matteo_olivero');
+        
+        Route::get('/visite/piemonte/saluzzo/casa_museo_silvio_pellico', function () {
+            return Inertia::render('Piemonte/Visite/Casa_Museo_Silvio_Pellico');
+        })->middleware(['auth', 'verified'])->name('casa_museo_silvio_pellico');
+
+        Route::get('/visite/piemonte/saluzzo/museo_della_memoria_carceraria', function () {
+            return Inertia::render('Piemonte/Visite/Museo_della_Memoria_Carceraria');
+        })->middleware(['auth', 'verified'])->name('museo_della_memoria_carceraria');
+        
+        Route::get('/visite/piemonte/saluzzo/museo_civico_casa_cavassa', function () {
+            return Inertia::render('Piemonte/Visite/Museo_Civico_Casa_Cavassa');
+        })->middleware(['auth', 'verified'])->name('museo_civico_casa_cavassa');
+
+        Route::get('/visite/piemonte/saluzzo/palazzo_sarriod_de_la_tour', function () {
+            return Inertia::render('Piemonte/Visite/Palazzo_Sarriod_de_La_Tour');
+        })->middleware(['auth', 'verified'])->name('palazzo_sarriod_de_la_tour');
+    /*Fine Saluzzo*/
 
     Route::get('/territori/piemonte/asti_alessandra_e_il_monferrato', function () {
         return Inertia::render('Piemonte/Territori/Asti_Alessandria_e_il_Monferrato');

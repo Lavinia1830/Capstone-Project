@@ -2668,7 +2668,7 @@ hr{
       }
     /*Fine Castello di Masino*/
   /*Fine Caverino*/
-  /**/
+  /*Inizio Cuneo*/
     .cuneo{
       background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Cuneo_Pimonte.jpg') center/cover no-repeat;
       padding: 250px 0;
@@ -2677,8 +2677,152 @@ hr{
       color: #fff;
       margin: 0 !important;
     }
-  /**/
-  /**/
+    /*Inizio Card Cuneo*/
+      .card_Cuneo{
+        display: flex;
+      }
+      .card_Cuneo:nth-child(1){ 
+        background: url('../assets/Piemonte/Piazza_Galimberti_Cuneo_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Cuneo:nth-child(2){ 
+        background: url('../assets/Piemonte/Piazza_della_Torre_Cuneo_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Cuneo:nth-child(3){ 
+        background: url('../assets/Piemonte/Contrada_Mondovì_Cuneo_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Cuneo:nth-child(4){ 
+        background: url('../assets/Piemonte/Langhe_Cuneo_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+    /*Fine Card Cuneo*/
+    /*Inizio Piazza Galimberti*/
+      .piazza_galimberti{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Piazza_Galimberti_Cuneo_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .piazza_galimberti h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Piazza Galimberti*/
+    /*Inizio Piazza della Torre*/
+      .piazza_della_torre{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Piazza_della_Torre_Cuneo_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .piazza_della_torre h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Piazza della Torre*/
+    /*Inizio Contrada Mondovì*/
+      .contrada_mondovì{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Contrada_Mondovì_Cuneo_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .contrada_mondovì h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Contrada Mondovì*/
+    /*Inizio Langhe*/
+      .langhe{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Langhe_Cuneo_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .langhe h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Langhe*/
+    /*Inizio Tartufo Bianco*/
+      .tartufo_bianco{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Tartufo_Bianco_Cuneo_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .tartufo_bianco h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine tartufo Bianco*/
+  /*Fine Cuneo*/
+  /*Inizio Asti*/
+    .asti{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Asti_Piemonte.jpg') center/cover no-repeat;
+      padding: 250px 0;
+    }
+    .asti h1{
+      color: #fff;
+      margin: 0 !important;
+    }
+    /*Inizio Cardi Asti*/
+      .card_Asti{
+        display: flex;
+      }
+      .card_Asti:nth-child(1){ 
+        background: url('../assets/Piemonte/Collegiata_di_San_Secondo_Asti_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Asti:nth-child(2){ 
+        background: url('../assets/Piemonte/Palazzo_Alfieri_Asti_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Asti:nth-child(3){ 
+        background: url('../assets/Piemonte/Palazzo_Mazzetti_Asti_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+    /*Inizio Collegiata di San Secondo*/
+      .collegiata_di_san_secondo{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Collegiata_di_San_Secondo_Asti_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .collegiata_di_san_secondo h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Collegiata di San Secondo*/
+    /*Inizio Palazzo Alfieri*/
+      .palazzo_alfieri{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Palazzo_Alfieri_Asti_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .palazzo_alfieri h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Palazzo Alfieri*/
+    /*Inizio Palazzo Mazzetti*/
+      .palazzo_mazzetti{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Palazzo_Mazzetti_Asti_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .palazzo_mazzetti h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Palazzo Mazzetti*/
+    /*Inizio Pianuta Padana*/
+      .pianura_padana{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Pianura_Padana_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .pianura_padana h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Pianura Padana*/
+  /*Fine Asti*/
+  /*Inizio Saluzzo*/
     .saluzzo{
       background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Saluzzo_Piemonte.jpg') center/cover no-repeat;
       padding: 250px 0;
@@ -2687,7 +2831,102 @@ hr{
       color: #fff;
       margin: 0 !important;
     }
-  /**/
+    /*Inizio Card Saluzzo*/
+      .card_Saluzzo{
+        display: flex;
+      }
+      .card_Saluzzo:nth-child(1){
+        background: url('../assets/Piemonte/Castello_di_Castellar_Saluzzo_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Saluzzo:nth-child(2){
+        background: url('../assets/Piemonte/Pinacoteca_Matteo_Olivero_Saluzzo_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Saluzzo:nth-child(3){
+        background: url('../assets/Piemonte/Casa_Museo_Silvio_Pellico_Saluzzo_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Saluzzo:nth-child(4){
+        background: url('../assets/Piemonte/Museo_della_Memoria_Carceraria_Saluzzo_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Saluzzo:nth-child(5){
+        background: url('../assets/Piemonte/Museo_Civico_Casa_Cavassa_Saluzzo_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Saluzzo:nth-child(6){
+        background: url('../assets/Piemonte/Palazzo_Sarriod_de_La_Tour_Saluzzo_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+    /*Fine Card Saluzzo*/
+    /*Inizio Castello di Castellar*/
+      .castello_di_castellar{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Castello_di_Castellar_Saluzzo_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .castello_di_castellar h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Castello di Castellar*/
+    /*Inizio Pinacoteca Matteo Olivero*/
+      .pinacoteca_matteo_olivero{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Pinacoteca_Matteo_Olivero_Saluzzo_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .pinacoteca_matteo_olivero h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Pinacoteca Matteo Olivero*/
+    /*Inizio Casa Museo Silvio Pellico*/
+      .casa_museo_silvio_pellico{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Casa_Museo_Silvio_Pellico_Saluzzo_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .casa_museo_silvio_pellico h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Casa Museo Silvio Pellico*/
+    /*Inizio Museo della Memoria Carceraria*/
+      .museo_della_memoria_carceraria{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Museo_della_Memoria_Carceraria_Saluzzo_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .museo_della_memoria_carceraria h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Museo della Memoria Carceraria*/
+    /*Inizio Museo Civico Casa Cavassa*/
+      .museo_civico_casa_cavassa{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Museo_Civico_Casa_Cavassa_Saluzzo_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .museo_civico_casa_cavassa h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Museo Civico Casa Cavassa*/
+    /*Inizio Palazzo Sarriod de La Tour*/
+      .palazzo_sarriod_de_la_tour{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Palazzo_Sarriod_de_La_Tour_Saluzzo_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .palazzo_sarriod_de_la_tour h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Palazzo Sarriod de La Tour*/
+  /*Fine Saluzzo*/
   /**/
     .a_a_e_il_m{
       background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Asti_alessandria_e_il_monferrato_Piemonte.jpg') center/cover no-repeat;

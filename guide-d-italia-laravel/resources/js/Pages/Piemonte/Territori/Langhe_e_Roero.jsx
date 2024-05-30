@@ -1,39 +1,46 @@
 import React from 'react';
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout';
 import Footer from '@/Components/Footer';
+import { Head, Link } from '@inertiajs/react';
 
 export default function Langhe_e_Roero(props) {
   return (
-    <AuthenticatedLayout
-      auth={props.auth}
-      errors={props.errors}
-    >
-        <main>
-            <div className='langhe_e_roero' style={{ position: 'relative' }}>
-                <h1 className='text-center' style={{ position: 'absolute', top: 20, left: 20 }}>Langhe e Roero</h1>
-                <span className='text-light' style={{ position: 'absolute', bottom: 50, left: 20 }}>CATEGORIE</span>
-                <p className='categorie' style={{ position: 'absolute', bottom: 10, left: 20 }}>Territori</p>
-            </div>
-            <div className="margin mt-3">
-                <p>
-                  Tra i vigneti delle ondulate colline di Langhe e Roero, immerse fino a 5 milioni di anni fa in un antichissimo mare, affiorano ancora oggi conchiglie e altri sedimenti marini. Queste lingue di terra, da cui pare derivi il nome Langhe, s’innalzano dalla pianura solcata dal fiume Tanaro, alla sinistra del quale 
-                  prendono il nome di Roero, e si estendono fino agli Appennini, con uno sguardo sempre rivolto verso l’arco alpino dominato dal Monviso. Non aspettatevi un paesaggio incontaminato: negli ultimi secoli le colline sono state fortemente modellate dall’uomo, che ne ha fatto un territorio antropizzato indissolubilmente 
-                  legato alla viticoltura. <b>Camminare nelle Langhe</b> vuol dire perdersi tra questo presente e il passato.
-                </p>
-                <h2 className='color-subtitle'>Langhe, cosa vedere tra colline e vigneti</h2>
-                <p>
-                  <b>Barolo</b>, con la sua produzione incessante di nettare di-vino. Le <b>big bench</b>, le panchine giganti delle Langhe frutto di un progetto architettonico diffuso e perfettamente integrato nel territorio che offrono uno sfondo perfetto per le foto, ma anche un punto di vista incredibile sugli itinerari 
-                  piemontesi che si snodano tra i borghi langaroli. Chiedersi cosa vedere ad Alba, cuore nevralgico della zona in cui batte un cuore di nocciola e crema spalmabile.
-                </p>
-                <h2 className='color-subtitle'>Langhe, turismo d’eccellenza</h2>
-                <p>
-                  Dal 2014, insieme al vicino Monferrato, Langhe e Roero sono stati dichiarati Patrimonio UNESCO. Oggi un tour delle Langhe vuol dire scoprire il vestito elegante della zona, pettinata e impreziosita da relais e cantine magnifiche: i weekend nelle Langhe sono corteggiati da turisti di tutto il mondo, ma nonostante il 
-                  successo i piemontesi non dimenticano la fame e la sofferenza passata. Sebbene non manchino strutture per l’accoglienza, tutte di alto profilo, qui la vita procede secondo i ritmi contadini, grazie a tradizioni continuamente rinnovate e alla pace di antichi borghi e castelli rimasti intatti, o quasi, nei secoli. 
-                  Per la loro genuinità e diversità, Langhe e Roero sono adatti a ogni tipo di turista. Dallo sportivo al buongustaio, nessuno rimarrà deluso.
-                </p>
-            </div>
-        </main>
-        <Footer/>
-    </AuthenticatedLayout>
+    <>
+      <Head title="Langhe e Roero"/>
+      <AuthenticatedLayout
+        auth={props.auth}
+        errors={props.errors}
+      >
+          <main>
+              <div className='langhe_e_roero' style={{ position: 'relative' }}>
+                  <h1 className='text-center' style={{ position: 'absolute', top: 20, left: 20 }}>Langhe e Roero</h1>
+                  <span className='text-light' style={{ position: 'absolute', bottom: 50, left: 20 }}>CATEGORIE</span>
+                  <p className='categorie' style={{ position: 'absolute', bottom: 10, left: 20 }}>Territori</p>
+              </div>
+              <div className="margin mt-3">
+                  <p>
+                    Cuore verde della regione, le <Link href='/territori/piemonte/cuneo/langhe' className='text-decoration-none color_link'>Langhe</Link> sono una porzione 
+                    di territorio compresa tra le province di <Link href='/destinazioni/piemonte/cuneo' className='text-decoration-none 
+                    color_link'>Cuneo</Link>, <Link href='/destinazioni/piemonte/asti' className='text-decoration-none color_link'>Asti</Link> e <Link href='/destinazioni/piemonte/alessandria'
+                    className='text-decoration-none color_link'>Alessandria</Link> e costituiscono, insieme al <b>Monferrato</b> e al <b>Roero</b>, un’area del basso <b>Piemonte</b>. Tra 
+                    colline e vigneti, la zona è un susseguirsi di borghi medievali che meritano una sosta, a partire da <Link href='/destinazioni/piemonte/alba' className='text-decoration-none 
+                    color_link'>Alba</Link>, anche detta la “città delle cento torri” per le sue fortificazioni, celebre in tutto il mondo per il suo pregiato tartufo bianco. A pochi chilometri, 
+                    si trova il <Link href='/visite/piemonte/alba/castello_di_serralunga' className='text-decoration-none color_link'>Castello di Serralunga d’Alba</Link> di epoca medievale. 
+                    Proseguendo sulla stessa strada si trova il Castello Falletti di Barolo, da dove poter ammirare le colline dall’alto. Scendendo, non dimenticate una sosta all’Enoteca 
+                    Regionale del <b>Barolo</b> per un calice di buon rosso. In luglio, a Barolo si tiene il Festival Collisioni, tra gli eventi musicali più affermati in Nord Italia. Se invece 
+                    amate le zone più selvagge e incontaminate, l’<b>Alta Longa</b> è quella che fa per voi, con le sue colline brulle dove i vigneti lasciano il posto ai noccioleti. 
+                  </p>
+                  <p>
+                    Spostandovi nel <b>Roero</b>, vi consigliamo una visita al <Link href='/visite/piemonte/roero/castello_di_guarene' className='text-decoration-none color_link'>Castello di 
+                    Guarene</Link> e a <b>Bra</b>, famoso per essere il paese del formaggio oltre che la culla del barocco piemontese. Non perdete neppure le <b>Rocche del Roero</b>, canyon 
+                    generatisi 250mila anni fa dalla deviazione del fiume Tanaro. Da qui il Grande sentiero del Roero, che segue la linea che da Bra porta a Cisterna d’Asti, permette di vivere 
+                    un’esperienza naturalistica indimenticabile.
+                  </p>
+              </div>
+          </main>
+          <Footer/>
+      </AuthenticatedLayout>
+    </>
+    
   )
 }
