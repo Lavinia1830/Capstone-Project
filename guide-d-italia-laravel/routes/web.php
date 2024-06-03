@@ -875,7 +875,25 @@ Route::get('/home', function () {
             return Inertia::render('Piemonte/Visite/Palazzo_Mazzetti');
         })->middleware(['auth', 'verified'])->name('palazzo_mazzetti');
 
+        Route::get('/visite/piemonte/asti/cattedrale_di_santa_maria_assunta', function () {
+            return Inertia::render('Piemonte/Visite/Cattedrale_di_S_Maria_Assunta');
+        })->middleware(['auth', 'verified'])->name('cattedrale_di_santa_maria_assunta');
 
+        Route::get('/visite/piemonte/asti/chiesa_di_san_martino', function () {
+            return Inertia::render('Piemonte/Visite/Chiesa_di_S_Martino');
+        })->middleware(['auth', 'verified'])->name('chiesa_di_san_martino');
+    
+        Route::get('/visite/piemonte/asti/chiesa_di_san_martino', function () {
+            return Inertia::render('Piemonte/Visite/Chiesa_di_S_Martino');
+        })->middleware(['auth', 'verified'])->name('chiesa_di_san_martino');
+
+        Route::get('/visite/piemonte/asti/complesso_monumentale_di_sant_pietro_e_museo_archeologico', function () {
+            return Inertia::render('Piemonte/Visite/Complesso_Monumentale_di_San_Pietro_e_Museo_Archeologico');
+        })->middleware(['auth', 'verified'])->name('complesso_monumentale_di_sant_pietro_e_museo_archeologico');
+
+        Route::get('/visite/piemonte/asti/museo_e_cripta_di_santa_anastasio', function () {
+            return Inertia::render('Piemonte/Visite/Museo_e_Cripta_di_S_Anastasio');
+        })->middleware(['auth', 'verified'])->name('museo_e_cripta_di_santa_anastasio');
     /*Fine Asti*/
 
     Route::get('/territori/piemonte/pianura_padana', function () {

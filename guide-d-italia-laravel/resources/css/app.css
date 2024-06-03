@@ -2781,6 +2781,40 @@ hr{
         /* width: 30%; */
         height: 400px;
       }
+      .card_Asti:nth-child(4){ 
+        background: url('../assets/Piemonte/Cattedrale_di_Santa_Maria_Assunta_Asti_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Asti:nth-child(5){ 
+        background: url('../assets/Piemonte/Chiesa_di_San_Martino_Asti_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Asti:nth-child(6){ 
+        background: url('../assets/Piemonte/Complesso_Monumentale_di_San_Pietro_e_Museo_Archeologico_Asti_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Asti:nth-child(7){ 
+        background: url('../assets/Piemonte/Palazzo_Mazzetti_Asti_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }.card_Asti:nth-child(8){ 
+        background: url('../assets/Piemonte/Palazzo_Mazzetti_Asti_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Asti:nth-child(9){ 
+        background: url('../assets/Piemonte/Palazzo_Mazzetti_Asti_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Asti:nth-child(10){ 
+        background: url('../assets/Piemonte/Palazzo_Mazzetti_Asti_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
     /*Inizio Collegiata di San Secondo*/
       .collegiata_di_san_secondo{
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Collegiata_di_San_Secondo_Asti_Piemonte.jpg') center/cover no-repeat;
@@ -2821,6 +2855,36 @@ hr{
         margin: 0 !important;
       }
     /*Fine Pianura Padana*/
+    /*Inizio Cattedrale di Santa Maria Assunta*/
+      .cattedrale_di_s_maria_assunta{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Cattedrale_di_Santa_Maria_Assunta_Asti_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .cattedrale_di_s_maria_assunta h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Cattedrale di Santa Maria Assunta*/
+    /*Inizio Chiesa di San Martino*/
+      .chiesa_di_san_martino{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Chiesa_di_San_Martino_Asti_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .chiesa_di_san_martino h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Chiesa di san Martino*/
+    /*Inizio Complesso Monumentale di San Pietro e Museo Archeologico*/
+      .c_m_di_san_pietro_e_m_a{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Complesso_Monumentale_di_San_Pietro_e_Museo_Archeologico_Asti_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .c_m_di_san_pietro_e_m_a h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Complesso Monumentale di San Pietro e Museo Archeologico*/
   /*Fine Asti*/
   /*Inizio Saluzzo*/
     .saluzzo{
