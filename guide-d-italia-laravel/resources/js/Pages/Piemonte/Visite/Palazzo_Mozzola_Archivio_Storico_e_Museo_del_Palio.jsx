@@ -3,7 +3,7 @@ import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout';
 import Footer from '@/Components/Footer';
 import { Head } from '@inertiajs/react';
 
-export default function Museo_e_Cripta_di_S_Anastasio(props) {
+export default function Palazzo_Mozzola_Archivio_Storico_e_Museo_del_Palio(props) {
     return (
         <>
             <Head title="Museo e Cripta di San Anastasio"/>

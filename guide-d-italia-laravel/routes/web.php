@@ -894,6 +894,10 @@ Route::get('/home', function () {
         Route::get('/visite/piemonte/asti/museo_e_cripta_di_santa_anastasio', function () {
             return Inertia::render('Piemonte/Visite/Museo_e_Cripta_di_S_Anastasio');
         })->middleware(['auth', 'verified'])->name('museo_e_cripta_di_santa_anastasio');
+
+        Route::get('/visite/piemonte/asti/palazzo_mozzola_archivio_storico_e_museo_del_palio', function () {
+            return Inertia::render('Piemonte/Visite/Palazzo_Mozzola_Archivio_Storico_e_Museo_del_Palio');
+        })->middleware(['auth', 'verified'])->name('palazzo_mozzola_archivio_storico_e_museo_del_palio');
     /*Fine Asti*/
 
     Route::get('/territori/piemonte/pianura_padana', function () {

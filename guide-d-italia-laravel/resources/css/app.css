@@ -2797,7 +2797,7 @@ hr{
         height: 400px;
       }
       .card_Asti:nth-child(7){ 
-        background: url('../assets/Piemonte/Palazzo_Mazzetti_Asti_Piemonte.jpg') center/cover no-repeat;
+        background: url('../assets/Piemonte/Museo_e_Cripta_di_San_Anastasio_Asti_Piemonte.jpg') center/cover no-repeat;
         /* width: 30%; */
         height: 400px;
       }.card_Asti:nth-child(8){ 
@@ -2885,6 +2885,26 @@ hr{
         margin: 0 !important;
       }
     /*Fine Complesso Monumentale di San Pietro e Museo Archeologico*/
+    /*Inizio Museo e Cripta di San Anastasio*/
+      .museo_e_cripta_di_s_anastasio{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Museo_e_Cripta_di_San_Anastasio_Asti_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .museo_e_cripta_di_s_anastasio h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Museo e Cripta di San Anastasio*/
+    /*Inizio Palazzo Mazzola, Archivio storico e Museo del Palio*/
+      .p_m_a_s_e_m_del_palio{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Museo_e_Cripta_di_San_Anastasio_Asti_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .p_m_a_s_e_m_del_palio h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Palazzo Mazzola, Archivio storico e Museo del Palio*/
   /*Fine Asti*/
   /*Inizio Saluzzo*/
     .saluzzo{
