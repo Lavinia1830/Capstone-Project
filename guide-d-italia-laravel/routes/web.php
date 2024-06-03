@@ -581,8 +581,6 @@ Route::get('/home', function () {
             
         /*Fine Reggia di Venaria Reale*/
 
-        
-
         Route::get('/visite/piemonte/torino/monte_dei_cappuccini', function () {
             return Inertia::render('Piemonte/Visite/Monte_dei_Cappuccini');
         })->middleware(['auth', 'verified'])->name('monte_dei_cappuccini');
@@ -710,35 +708,296 @@ Route::get('/home', function () {
             return Inertia::render('Piemonte/Visite/Cittadellarte');
         })->middleware(['auth', 'verified'])->name('cittadellarte_forndazione_pistoletto');
 
+        Route::get('/visite/piemonte/biella/museo_del_territorio_biellese', function () {
+            return Inertia::render('Piemonte/Visite/Museo_del_Territorio_Biellese');
+        })->middleware(['auth', 'verified'])->name('museo_del_territorio_biellese');
+
+        Route::get('/visite/piemonte/biella/museo_biellese_degli_alpini', function () {
+            return Inertia::render('Piemonte/Visite/Museo_biellese_degli_alpini');
+        })->middleware(['auth', 'verified'])->name('museo_biellese_degli_alpini');
+
+        Route::get('/visite/piemonte/biella/museo_d_arte_contemporanea_internazionele_senza_tendenze', function () {
+            return Inertia::render('Piemonte/Visite/Museo_d_Arte_Contemporanea_Internazionale');
+        })->middleware(['auth', 'verified'])->name('museo_d_arte_contemporanea_internazionele_senza_tendenze');
+    
     /*Fine Biella*/
 
     Route::get('/destinazioni/piemonte/vercelli', function () {
         return Inertia::render('Piemonte/Destinazioni/Vercelli');
     })->middleware(['auth', 'verified'])->name('vercelli');
 
+    /*Inizio Vercelli*/
+
+        Route::get('/visite/piemonte/vercelli/basilica_di_sant_andrea', function () {
+            return Inertia::render('Piemonte/Visite/Basilica_di_Sant_Andrea');
+        })->middleware(['auth', 'verified'])->name('basilica_di_sant_andrea');
+        
+        Route::get('/visite/piemonte/vercelli/cattedrale_di_sant_eusebio', function () {
+            return Inertia::render('Piemonte/Visite/Cattedrale_di_Sant_Eusebio');
+        })->middleware(['auth', 'verified'])->name('cattedrale_di_sant_eusebio');
+
+        Route::get('/visite/piemonte/vercelli/castello_visconteo', function () {
+            return Inertia::render('Piemonte/Visite/Castello_Visconteo');
+        })->middleware(['auth', 'verified'])->name('castello_visconteo');
+
+        Route::get('/visite/piemonte/vercelli/museo_leone', function () {
+            return Inertia::render('Piemonte/Visite/Museo_Leone');
+        })->middleware(['auth', 'verified'])->name('museo_leone');
+
+        Route::get('/visite/piemonte/vercelli/pinacoteca_francesco_borgogna', function () {
+            return Inertia::render('Piemonte/Visite/Pinacoteca_Francesco_Borgogna');
+        })->middleware(['auth', 'verified'])->name('pinacoteca_francesco_borgogna');
+        
+        Route::get('/fiumi/piemonte/vercelli/fiume_sesia', function () {
+            return Inertia::render('Fiumi/Fiume_Sesia');
+        })->middleware(['auth', 'verified'])->name('fiume_sesia');
+
+        Route::get('/montagna/piemonte/monte_rosa', function () {
+            return Inertia::render('Montagna/Monte_Rosa');
+        })->middleware(['auth', 'verified'])->name('monte_rosa');
+
+        Route::get('/visite/piemonte/vercelli/parco_naturale_delle_lame_del_sesia', function () {
+            return Inertia::render('Piemonte/Visite/Parco_Naturale_delle_Lame_del_Sesia');
+        })->middleware(['auth', 'verified'])->name('parco_naturale_delle_lame_del_sesia');
+    
+    /*Fine Vercelli*/
+
     Route::get('/territori/piemonte/canadese_gran_paradiso_e_valli_di_lanzo', function () {
-        return Inertia::render('Piemonte/Territori/Canavese_Gran_paradiso');
+        return Inertia::render('Piemonte/Territori/Canavese_Gran_Paradiso');
     })->middleware(['auth', 'verified'])->name('canadese_gran_paradiso_e_valli_di_lanzo');
+
+    /*Inizio Canavese, Gran Paradiso e Valli di Lanzo*/
+
+        Route::get('/territori/piemonte/canavese', function () {
+            return Inertia::render('Piemonte/Territori/Canavese');
+        })->middleware(['auth', 'verified'])->name('canavese');
+
+        Route::get('/territori/piemonte/torino/valle_di_lanzo', function () {
+            return Inertia::render('Piemonte/Territori/Valli_di_Lanzo');
+        })->middleware(['auth', 'verified'])->name('valli_di_lanzo');
+    
+    /*Fine Canavese, Gran Paradiso e Valli di Lanzo*/
 
     Route::get('/destinazioni/piemonte/ivrea', function () {
         return Inertia::render('Piemonte/Destinazioni/Ivrea');
     })->middleware(['auth', 'verified'])->name('ivrea');
 
+    /*Inizio Ivrea*/
+
+        Route::get('/visite/piemonte/ivrea/anfiteatro_morenico', function () {
+            return Inertia::render('Piemonte/Visite/Anfiteatro_Morenico');
+        })->middleware(['auth', 'verified'])->name('anfiteatro_morenico');
+
+        Route::get('/visite/piemonte/ivrea/castello_di_ivrea', function () {
+            return Inertia::render('Piemonte/Visite/Castello_di_Ivrea');
+        })->middleware(['auth', 'verified'])->name('castello_di_ivrea');
+
+        Route::get('/fiumi/piemonte/ivrea/fiume_dora_baltea', function () {
+            return Inertia::render('Fiumi/Fiume_Dora_Baltea');
+        })->middleware(['auth', 'verified'])->name('fiume_dora_baltea');
+
+        Route::get('/visite/piemonte/ivrea/anfiteatro_romano', function () {
+            return Inertia::render('Piemonte/Visite/Anfiteatro_Romano_Ivrea');
+        })->middleware(['auth', 'verified'])->name('anfiteatro_romano');
+
+        Route::get('/visite/piemonte/ivrea/duomo_di_s_maria_assunta', function () {
+            return Inertia::render('Piemonte/Visite/Duomo_S_Maria_Assunta');
+        })->middleware(['auth', 'verified'])->name('duomo_di_s_maria_assunta');
+
+        Route::get('/visite/piemonte/ivrea/palazzo_vescovile', function () {
+            return Inertia::render('Piemonte/Visite/Palazzo_Vescovile_di_Ivrea');
+        })->middleware(['auth', 'verified'])->name('palazzo_vescovile');
+        
+        Route::get('/visite/piemonte/ivrea/museo_a_cielo_aperto_dell_architettura_moderna', function () {
+            return Inertia::render('Piemonte/Visite/Maam');
+        })->middleware(['auth', 'verified'])->name('museo_a_cielo_aperto_dell_architettura_moderna');
+    /*Fine Ivrea*/
+
+    /*Inizio Agliè*/
+
+        Route::get('/visite/piemonte/agliè/castello_di_agliè', function () {
+            return Inertia::render('Piemonte/Visite/Castello_di_Agliè');
+        })->middleware(['auth', 'verified'])->name('castello_di_agliè');
+    
+    /*Fine Agliè*/
+
+    /*Inizio Caravino*/
+
+        Route::get('/visite/piemonte/caravino/castello_di_masino', function () {
+            return Inertia::render('Piemonte/Visite/Castello_di_Masino');
+        })->middleware(['auth', 'verified'])->name('castello_di_masino');
+    
+    /*Fine Caravino*/
+
     Route::get('/destinazioni/piemonte/cuneo', function () {
         return Inertia::render('Piemonte/Destinazioni/Cuneo');
     })->middleware(['auth', 'verified'])->name('cuneo');
 
+    /*Inizio Cuneo*/
+
+        Route::get('/visite/piemonte/cuneo/piazza_galimberti', function () {
+            return Inertia::render('Piemonte/Visite/Piazza_Galimberti');
+        })->middleware(['auth', 'verified'])->name('piazza_galimberti');
+
+        Route::get('/visite/piemonte/cuneo/palazzo_della_torre', function () {
+            return Inertia::render('Piemonte/Visite/Palazzo_della_Torre');
+        })->middleware(['auth', 'verified'])->name('palazzo_della_torre');
+
+        Route::get('/visite/piemonte/cuneo/contrada_mondovì', function () {
+            return Inertia::render('Piemonte/Visite/Contrada_Mondovì');
+        })->middleware(['auth', 'verified'])->name('contrada_mondovì');
+
+        Route::get('/territori/piemonte/cuneo/langhe', function () {
+            return Inertia::render('Piemonte/Territori/Langhe');
+        })->middleware(['auth', 'verified'])->name('langhe');
+
+        Route::get('/enogastronomia/piemonte/cueno/tartufo_bianco', function () {
+            return Inertia::render('Enogastronomia/Tartufo_Bianco');
+        })->middleware(['auth', 'verified'])->name('tartufo_bianco');
+
+    /*Fine Cuneo*/
+
+    Route::get('/destinazioni/piemonte/asti', function () {
+        return Inertia::render('Piemonte/Destinazioni/Asti');
+    })->middleware(['auth', 'verified'])->name('asti');
+
+    /*Inizio Asti*/
+
+        Route::get('/visite/piemonte/asti/collegiata_di_san_secondo', function () {
+            return Inertia::render('Piemonte/Visite/Collegiata_di_San_Secondo');
+        })->middleware(['auth', 'verified'])->name('collegiata_di_san_secondo');
+
+        Route::get('/visite/piemonte/asti/palazzo_alfieri', function () {
+            return Inertia::render('Piemonte/Visite/Palazzo_Alfieri');
+        })->middleware(['auth', 'verified'])->name('palazzo_alfieri');
+
+        Route::get('/visite/piemonte/asti/palazzo_mazzetti', function () {
+            return Inertia::render('Piemonte/Visite/Palazzo_Mazzetti');
+        })->middleware(['auth', 'verified'])->name('palazzo_mazzetti');
+
+        Route::get('/visite/piemonte/asti/cattedrale_di_santa_maria_assunta', function () {
+            return Inertia::render('Piemonte/Visite/Cattedrale_di_S_Maria_Assunta');
+        })->middleware(['auth', 'verified'])->name('cattedrale_di_santa_maria_assunta');
+
+        Route::get('/visite/piemonte/asti/chiesa_di_san_martino', function () {
+            return Inertia::render('Piemonte/Visite/Chiesa_di_S_Martino');
+        })->middleware(['auth', 'verified'])->name('chiesa_di_san_martino');
+    
+        Route::get('/visite/piemonte/asti/chiesa_di_san_martino', function () {
+            return Inertia::render('Piemonte/Visite/Chiesa_di_S_Martino');
+        })->middleware(['auth', 'verified'])->name('chiesa_di_san_martino');
+
+        Route::get('/visite/piemonte/asti/complesso_monumentale_di_sant_pietro_e_museo_archeologico', function () {
+            return Inertia::render('Piemonte/Visite/Complesso_Monumentale_di_San_Pietro_e_Museo_Archeologico');
+        })->middleware(['auth', 'verified'])->name('complesso_monumentale_di_sant_pietro_e_museo_archeologico');
+
+        Route::get('/visite/piemonte/asti/museo_e_cripta_di_santa_anastasio', function () {
+            return Inertia::render('Piemonte/Visite/Museo_e_Cripta_di_S_Anastasio');
+        })->middleware(['auth', 'verified'])->name('museo_e_cripta_di_santa_anastasio');
+
+        Route::get('/visite/piemonte/asti/palazzo_mozzola_archivio_storico_e_museo_del_palio', function () {
+            return Inertia::render('Piemonte/Visite/Palazzo_Mozzola_Archivio_Storico_e_Museo_del_Palio');
+        })->middleware(['auth', 'verified'])->name('palazzo_mozzola_archivio_storico_e_museo_del_palio');
+    /*Fine Asti*/
+
+    Route::get('/territori/piemonte/pianura_padana', function () {
+        return Inertia::render('Piemonte/Territori/Pianura_Padana');
+    })->middleware(['auth', 'verified'])->name('pianura_padana');
+    
     Route::get('/destinazioni/piemonte/saluzzo', function () {
         return Inertia::render('Piemonte/Destinazioni/Saluzzo');
     })->middleware(['auth', 'verified'])->name('saluzzo');
+
+    /*inizio Saluzzo*/
+
+        Route::get('/visite/piemonte/saluzzo/castello_di_castellar', function () {
+            return Inertia::render('Piemonte/Visite/Castello_di_Castellar');
+        })->middleware(['auth', 'verified'])->name('castello_di_castellar');
+
+        Route::get('/visite/piemonte/saluzzo/pinacoteca_matteo_olivero', function () {
+            return Inertia::render('Piemonte/Visite/Pinacoteca_Matteo_Olivero');
+        })->middleware(['auth', 'verified'])->name('pinacoteca_matteo_olivero');
+        
+        Route::get('/visite/piemonte/saluzzo/casa_museo_silvio_pellico', function () {
+            return Inertia::render('Piemonte/Visite/Casa_Museo_Silvio_Pellico');
+        })->middleware(['auth', 'verified'])->name('casa_museo_silvio_pellico');
+
+        Route::get('/visite/piemonte/saluzzo/museo_della_memoria_carceraria', function () {
+            return Inertia::render('Piemonte/Visite/Museo_della_Memoria_Carceraria');
+        })->middleware(['auth', 'verified'])->name('museo_della_memoria_carceraria');
+        
+        Route::get('/visite/piemonte/saluzzo/museo_civico_casa_cavassa', function () {
+            return Inertia::render('Piemonte/Visite/Museo_Civico_Casa_Cavassa');
+        })->middleware(['auth', 'verified'])->name('museo_civico_casa_cavassa');
+
+        Route::get('/visite/piemonte/saluzzo/palazzo_sarriod_de_la_tour', function () {
+            return Inertia::render('Piemonte/Visite/Palazzo_Sarriod_de_La_Tour');
+        })->middleware(['auth', 'verified'])->name('palazzo_sarriod_de_la_tour');
+    /*Fine Saluzzo*/
 
     Route::get('/territori/piemonte/asti_alessandra_e_il_monferrato', function () {
         return Inertia::render('Piemonte/Territori/Asti_Alessandria_e_il_Monferrato');
     })->middleware(['auth', 'verified'])->name('asti_alessandra_e_il_monferrato');
 
-    Route::get('/territori/piemonte/valle_di_susa_chisone_pallice_germanasca', function () {
-        return Inertia::render('Piemonte/Territori/Valle_di_Susa_Chisone_Pellice_e_Germanasca');
-    })->middleware(['auth', 'verified'])->name('valle_di_susa_chisone_pallice_germanasca');
+    Route::get('/territori/piemonte/val_susa_chisone_pallice_germanasca', function () {
+        return Inertia::render('Piemonte/Territori/Valli_Susa_Chisone_Pellice_e_Germanasca');
+    })->middleware(['auth', 'verified'])->name('val_susa_chisone_pallice_germanasca');
+    
+    /*Inizio Val di Susa, Chisone Pellice e Germanasca*/
+
+        Route::get('/montagna/piemonte/val_di_susa', function () {
+            return Inertia::render('Montagna/Val_di_Susa');
+        })->middleware(['auth', 'verified'])->name('val_di_susa');
+
+        /*Inizio Val di Susa*/
+
+            Route::get('/fiumi/piemonte/alpi_cozie/fiume_dora_riparia', function () {
+                return Inertia::render('Fiumi/Fiume_Dora_Riparia');
+            })->middleware(['auth', 'verified'])->name('fiume_dora_riparia');
+
+            Route::get('/visite/piemonte/val_di_susa/castello_della_contessa_adelaide', function () {
+                return Inertia::render('Piemonte/Visite/Castello_della_Contessa_Adelaide');
+            })->middleware(['auth', 'verified'])->name('castello_della_contessa_adelaide');
+
+            Route::get('/visite/piemonte/val_di_susa/forte_di_fenestrelle', function () {
+                return Inertia::render('Piemonte/Visite/Forte_di_Fenestrelle');
+            })->middleware(['auth', 'verified'])->name('forte_di_fenestrelle');
+            
+            Route::get('/visite/piemonte/val_di_susa/abbazia_di_novalesa', function () {
+                return Inertia::render('Piemonte/Visite/Abbazia_di_Novalesa');
+            })->middleware(['auth', 'verified'])->name('abbazia_di_novalesa');
+
+            Route::get('/visite/piemonte/val_di_susa/sacra_di_san_michele', function () {
+                return Inertia::render('Piemonte/Visite/Sacra_di_San_Michele');
+            })->middleware(['auth', 'verified'])->name('sacra_di_san_michele');
+
+        /*Fine Val di Susa*/
+
+        Route::get('/montagna/piemonte/val_chisone', function () {
+            return Inertia::render('Montagna/Val_Chisone');
+        })->middleware(['auth', 'verified'])->name('val_chisone');
+
+        /*Inizio Val Chisone*/
+
+            Route::get('/visite/piemonte/val_chisone/gallia_cisalpina', function () {
+                return Inertia::render('Piemonte/Visite/Gallia_Cisalpina');
+            })->middleware(['auth', 'verified'])->name('gallia_cisalpina');
+
+            Route::get('/visite/piemonte/val_chisone/gallia_narbonense', function () {
+                return Inertia::render('Piemonte/Visite/Gallia_Narbonense');
+            })->middleware(['auth', 'verified'])->name('gallia_narbonense');
+
+        /*Fine Val Chisone*/
+
+        Route::get('/montagna/piemonte/val_pellice', function () {
+            return Inertia::render('Montagna/Val_Pellice');
+        })->middleware(['auth', 'verified'])->name('val_pellice');
+
+        Route::get('/montagna/piemonte/val_germanasca', function () {
+            return Inertia::render('Montagna/Val_Germanasca');
+        })->middleware(['auth', 'verified'])->name('val_germanasca');
+    
+    /*Fine Val di Susa, Chisone Pellice e Germanasca*/
 
     Route::get('/territori/piemonte/langhe_e_roero', function () {
         return Inertia::render('Piemonte/Territori/Langhe_e_Roero');
