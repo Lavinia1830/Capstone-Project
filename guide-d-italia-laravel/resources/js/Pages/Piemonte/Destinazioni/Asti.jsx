@@ -139,7 +139,7 @@ export default function Asti(props) {
                 <CardBody className='bottone'>
                   <Link 
                   className="bottone_link" 
-                  href='/visite/piemonte/asti/palazzo_mozzola_archivio_storico_e_museo_del_palio'
+                  href='/visite/piemonte/asti/palazzo_mazzola_archivio_storico_e_museo_del_palio'
                   onMouseEnter={() => setIsHoveredPMArchivioStoricoeMdelP(true)}
                   onMouseLeave={() => setIsHoveredPMArchivioStoricoeMdelP(false)}
                   >Palazzo Mazzola, Archivio storico... {isHoveredPMArchivioStoricoeMdelP && <i className="bi bi-chevron-right"></i>}
@@ -150,7 +150,7 @@ export default function Asti(props) {
                 <CardBody className='bottone'>
                   <Link 
                   className="bottone_link" 
-                  href='/visite/piemonte/asti/palazzo_ottolanghi_e_museo_del_risorgimento'
+                  href='/visite/piemonte/asti/palazzo_ottolenghi_e_museo_del_risorgimento'
                   onMouseEnter={() => setIsHoveredPOeMdelR(true)}
                   onMouseLeave={() => setIsHoveredPOeMdelR(false)}
                   >Palazzo Ottolenghi e Museo... {isHoveredPOeMdelR && <i className="bi bi-chevron-right"></i>}
