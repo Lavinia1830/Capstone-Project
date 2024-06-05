@@ -895,9 +895,17 @@ Route::get('/home', function () {
             return Inertia::render('Piemonte/Visite/Museo_e_Cripta_di_S_Anastasio');
         })->middleware(['auth', 'verified'])->name('museo_e_cripta_di_santa_anastasio');
 
-        Route::get('/visite/piemonte/asti/palazzo_mozzola_archivio_storico_e_museo_del_palio', function () {
-            return Inertia::render('Piemonte/Visite/Palazzo_Mozzola_Archivio_Storico_e_Museo_del_Palio');
-        })->middleware(['auth', 'verified'])->name('palazzo_mozzola_archivio_storico_e_museo_del_palio');
+        Route::get('/visite/piemonte/asti/palazzo_mazzola_archivio_storico_e_museo_del_palio', function () {
+            return Inertia::render('Piemonte/Visite/Palazzo_Mazzola_Archivio_Storico_e_Museo_del_Palio');
+        })->middleware(['auth', 'verified'])->name('palazzo_mazzola_archivio_storico_e_museo_del_palio');
+
+        Route::get('/visite/piemonte/asti/palazzo_ottolenghi_e_museo_del_risorgimento', function () {
+            return Inertia::render('Piemonte/Visite/Palazzo_Ottolenghi_e_Museo_del_Risorgimento');
+        })->middleware(['auth', 'verified'])->name('palazzo_ottolenghi_e_museo_del_risorgimento');
+
+        Route::get('/visite/piemonte/asti/torre_troyana', function () {
+            return Inertia::render('Piemonte/Visite/Torre_Troyana');
+        })->middleware(['auth', 'verified'])->name('torre_troyana');
     /*Fine Asti*/
 
     Route::get('/territori/piemonte/pianura_padana', function () {
