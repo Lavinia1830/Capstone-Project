@@ -287,7 +287,7 @@ export default function Torino(props) {
               <CardBody className='bottone'>
                 <Link 
                   className="bottone_link" 
-                  href='/visite/piemonte/torino/quadrilateo_romano'
+                  href='/visite/piemonte/torino/quadrilatero_romano'
                   onMouseEnter={() => setIsHoveredQuadrilateroRomano(true)}
                   onMouseLeave={() => setIsHoveredQuadrilateroRomano(false)}
                   >Quadrilatero romano {isHoveredQuadrilateroRomano && <i className="bi bi-chevron-right"></i>}

@@ -6,20 +6,20 @@ import { Head } from '@inertiajs/react';
 export default function Val_Germanasca(props) {
     return (
         <>
-        <Head title="Val Germanascas"/>
+        <Head title="Valle Germanascas"/>
         <AuthenticatedLayout
             auth={props.auth}
             errors={props.errors}
         >
             <main>
                 <div className='val_germanasca' style={{ position: 'relative' }}>
-                    <h1 className='text-center' style={{ position: 'absolute', top: 20, left: 20 }}>Val Germanasca</h1>
+                    <h1 className='text-center' style={{ position: 'absolute', top: 20, left: 20 }}>Valle Germanasca</h1>
                     <span className='text-light' style={{ position: 'absolute', bottom: 50, left: 20 }}>CATEGORIE</span>
                     <p className='categorie' style={{ position: 'absolute', bottom: 10, left: 20 }}>Da vedere</p>
                 </div>
                 <div className="margin mt-3">
                     <p>
-                        La <strong>Val Germanasca</strong> è una <b>valle</b> alpina situata nel Piemonte occidentale, in Italia. Ha una <b>storia</b> ricca e affascinante, 
+                        La <strong>Valle Germanasca</strong> è una <b>valle</b> alpina situata nel Piemonte occidentale, in Italia. Ha una <b>storia</b> ricca e affascinante, 
                         strettamente legata alla comunità dei <b>Valdesi</b>. Durante il Medioevo, i Valdesi si stabilirono nella valle per sfuggire alle <b>persecuzioni 
                         religiose</b>. Essi seguivano una forma di <b>cristianesimo</b> alternativa che li portò a essere spesso in conflitto con le autorità religiose e 
                         politiche dell'epoca.

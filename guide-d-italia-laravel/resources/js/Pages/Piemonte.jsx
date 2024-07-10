@@ -127,7 +127,7 @@ export default function Piemonte(props) {
                         <CardBody className='bottone'>
                             <Link 
                                 className="bottone_link" 
-                                href='/territori/piemonte/canadese_gran_paradiso_e_valli_di_lanzo'
+                                href='/territori/piemonte/canavese_gran_paradiso_e_valli_di_lanzo'
                                 onMouseEnter={() => setIsHoveredCanavese(true)}
                                 onMouseLeave={() => setIsHoveredCanavese(false)}
                                 >Canavese, Gran paradiso... {isHoveredCanavese && <i className="bi bi-chevron-right"></i>}
@@ -187,7 +187,7 @@ export default function Piemonte(props) {
                         <CardBody className='bottone'>
                             <Link 
                                 className="bottone_link" 
-                                href='/territori/piemonte/asti_alessandra_e_il_monferrato'
+                                href='/territori/piemonte/asti_alessandria_e_il_monferrato'
                                 onMouseEnter={() => setIsHoveredAsti(true)}
                                 onMouseLeave={() => setIsHoveredAsti(false)}
                                 >Asti, Alessandria e il Monferrato{isHoveredAsti && <i className="bi bi-chevron-right"></i>}

@@ -4,7 +4,7 @@ import Footer from '@/Components/Footer';
 import { Link, Head } from '@inertiajs/react';
 import {Card, CardBody} from 'react-bootstrap';
 
-export default function Valli_Susa_Chisone_Pellice_e_Germanasca(props) {
+export default function Valle_di_Susa_Chisone_Pellice_e_Germanasca(props) {
   
   const [isHoveredValdiSusa, setIsHoveredValdiSusa] = useState(false);
   const [isHoveredChisone, setIsHoveredChisone] = useState(false);
@@ -13,14 +13,14 @@ export default function Valli_Susa_Chisone_Pellice_e_Germanasca(props) {
   
   return (
     <>
-      <Head title="Valli Susa, Chisone Pellice e Germanasca"/>
+      <Head title="Valle di Susa, Chisone Pellice e Germanasca"/>
       <AuthenticatedLayout
         auth={props.auth}
         errors={props.errors}
       >
         <main>
           <div className='vds_c_p_e_g' style={{ position: 'relative' }}>
-            <h1 className='text-center' style={{ position: 'absolute', top: 20, left: 20 }}>Valli di Susa, Chisone, Pellice e Germanasca </h1>
+            <h1 className='text-center' style={{ position: 'absolute', top: 20, left: 20 }}>Valle di Susa, Chisone, Pellice e Germanasca </h1>
             <span className='text-light' style={{ position: 'absolute', bottom: 50, left: 20 }}>CATEGORIE</span>
             <p className='categorie' style={{ position: 'absolute', bottom: 10, left: 20 }}>Territori</p>
           </div>

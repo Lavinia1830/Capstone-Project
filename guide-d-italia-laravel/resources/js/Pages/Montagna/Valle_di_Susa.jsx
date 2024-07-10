@@ -4,7 +4,7 @@ import Footer from '@/Components/Footer';
 import { Link, Head } from '@inertiajs/react';
 import {Card, CardBody} from 'react-bootstrap';
 
-export default function Val_di_Susa(props) {
+export default function Valle_di_Susa(props) {
 
     const [isHoveredCastellodellaContessaAdelaide, setIsHoveredCastellodellaContessaAdelaide] = useState(false);
     const [isHoveredFortediFenestrelle, setIsHoveredFortediFenestrelle] = useState(false);
@@ -13,14 +13,14 @@ export default function Val_di_Susa(props) {
 
     return (
         <>
-            <Head title="Val di Susa"/>
+            <Head title="Valle di Susa"/>
             <AuthenticatedLayout
                 auth={props.auth}
                 errors={props.errors}
             >
                 <main>
                     <div className='val_di_susa' style={{ position: 'relative' }}>
-                        <h1 className='text-center' style={{ position: 'absolute', top: 20, left: 20 }}>Val di Susa</h1>
+                        <h1 className='text-center' style={{ position: 'absolute', top: 20, left: 20 }}>Valle di Susa</h1>
                         <span className='text-light' style={{ position: 'absolute', bottom: 50, left: 20 }}>CATEGORIE</span>
                         <p className='categorie' style={{ position: 'absolute', bottom: 10, left: 20 }}>Montagna</p>
                     </div>
