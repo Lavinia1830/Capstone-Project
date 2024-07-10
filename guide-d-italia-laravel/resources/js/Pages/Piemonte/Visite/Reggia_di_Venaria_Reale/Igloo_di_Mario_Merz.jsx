@@ -3,17 +3,17 @@ import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout';
 import Footer from '@/Components/Footer';
 import { Head, Link } from '@inertiajs/react';
 
-export default function Igloo_di_Mario_Marz(props) {
+export default function Igloo_di_Mario_Merz(props) {
     return (
         <>
-            <Head title="Igloo di Mario Marz alla Reggia di Venaria"/>
+            <Head title="Igloo di Mario Merz alla Reggia di Venaria"/>
             <AuthenticatedLayout
                 auth={props.auth}
                 errors={props.errors}
             >
                 <main>
-                    <div className='igloo_di_mario_marz' style={{ position: 'relative' }}>
-                        <h1 className='text-center' style={{ position: 'absolute', top: 20, left: 20 }}>Igloo di Mario Marz alla Reggia di Venariae</h1>
+                    <div className='igloo_di_mario_merz' style={{ position: 'relative' }}>
+                        <h1 className='text-center' style={{ position: 'absolute', top: 20, left: 20 }}>Igloo di Mario Merz alla Reggia di Venariae</h1>
                         <span className='text-light' style={{ position: 'absolute', bottom: 50, left: 20 }}>CATEGORIE</span>
                         <p className='categorie' style={{ position: 'absolute', bottom: 10, left: 20 }}>Da vedere</p>
                     </div>

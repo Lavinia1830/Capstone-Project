@@ -1709,16 +1709,16 @@ hr{
         margin: 0 !important;
       }
     /*Fine La fontana d'Ercole*/
-    /*Inizio Igloo di Mario Marz alla Reggia di Venariae*/
-      .igloo_di_mario_marz{
+    /*Inizio Igloo di Mario Merz alla Reggia di Venariae*/
+      .igloo_di_mario_merz{
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Igloo_merz_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
         padding: 250px 0;
       }
-      .igloo_di_mario_marz h1{
+      .igloo_di_mario_merz h1{
         color: #fff;
         margin: 0 !important;
       }
-    /*Fine Igloo di Mario Marz alla Reggia di Venariae*/
+    /*Fine Igloo di Mario Merz alla Reggia di Venariae*/
     /*Inizio Parco Alto*/
       .parco_alto{
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Parco_alto_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
@@ -3031,6 +3031,241 @@ hr{
       }
     /*Fine Palazzo Sarriod de La Tour*/
   /*Fine Saluzzo*/
+  /*Inizio Alessandria*/
+    .alessandria{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Alessandria_Piemonte.jpg') center/cover no-repeat;
+      padding: 250px 0;
+    }
+    .alessandria h1{
+      color: #fff;
+      margin: 0 !important;
+    }
+    /*Inizio Card Alessandria*/
+      .card_Alessandria{
+        display: flex;
+      }
+      .card_Alessandria:nth-child(1){
+        background: url('../assets/Piemonte/Castello_di_Giarole_Alessandria_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Alessandria:nth-child(2){
+        background: url('../assets/Piemonte/Museo_di_Marengo_Alessandria_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Alessandria:nth-child(3){
+        background: url('../assets/Piemonte/Piazza_della_Libertà_Alessandria_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Alessandria:nth-child(4){
+        background: url('../assets/Piemonte/Duomo_di_Alessandria_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Alessandria:nth-child(5){
+        background: url('../assets/Piemonte/Cittadella_di_Alessandria_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+    /*Fine Card Alessandria*/
+    /*Inizio Castello di Giarole*/
+      .castello_sannazzaro_di_giarole{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Castello_di_Giarole_Alessandria_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .castello_sannazzaro_di_giarole h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Castello di Giarole*/
+    /*Inizio Museo di Marengo*/
+      .museo_di_marengo{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Museo_di_Marengo_Alessandria_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .museo_di_marengo h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Museo di Marengo*/
+    /*Inizio Piazza della Libertà*/
+      .piazza_della_libertà{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Piazza_della_Libertà_Alessandria_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .piazza_della_libertà h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Piazza della Libertà*/
+    /*Inizio Duomo di Alessandria*/
+      .duomo_di_alessandria{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Duomo_di_Alessandria_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .duomo_di_alessandria h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Duomo di Alessandria*/
+    /*Inizio Cittadella di Alessandria*/
+      .cittadella_di_alessandria{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Cittadella_di_Alessandria_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .cittadella_di_alessandria h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Cittadella di Alessandria*/
+    /*Inizio Monferrato*/
+      .monferrato{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Monferrato_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .monferrato h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Monferrato*/
+  /*Fine Alessandria*/
+  /*Inizio Alba*/
+    .alba{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Alba_Piemonte.jpg') center/cover no-repeat;
+      padding: 250px 0;
+    }
+    .alba h1{
+      color: #fff;
+      margin: 0 !important;
+    }
+    /*Inizio Card Alba*/
+      .card_Alba{
+        display: flex;
+      }
+      .card_Alba:nth-child(1){
+        background: url('../assets/Piemonte/La_Cattedrale_d_San_Lorenzo_Alba_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Alba:nth-child(2){
+        background: url('../assets/Piemonte/La_Chiesa_della_Maddalena_Alba_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Alba:nth-child(3){
+        background: url('../assets/Piemonte/Palazzo_Comunale_Alba_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Alba:nth-child(4){
+        background: url('../assets/Piemonte/Le_Torri_Alba_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Alba:nth-child(5){
+        background: url('../assets/Piemonte/Alba_Sotterranea_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Alba:nth-child(6){
+        background: url('../assets/Piemonte/Chiesa_di_San_Domenico_Alba_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Alba:nth-child(7){
+        background: url('../assets/Piemonte/La_Chiesa_di_San_Giuseppe_Alba_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Alba:nth-child(8){
+        background: url('../assets/Piemonte/Casa_Fenoglio_Alba_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+    /*Fine Card Alba*/
+    /*Inizio Cattedrale di San Lorenzo*/
+      .cattedrale_di_san_lorenzo{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/La_Cattedrale_d_San_Lorenzo_Alba_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .cattedrale_di_san_lorenzo h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Cattedrale di San Lorenzo*/
+    /*Inizio Chiesa della Maddalena*/
+      .chiesa_della_maddalena{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/La_Chiesa_della_Maddalena_Alba_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .chiesa_della_maddalena h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Chiesa della Maddalena*/
+    /*Inizio Palazzo Comunale*/
+      .palazzo_comunale{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Palazzo_Comunale_Alba_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .palazzo_comunale h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Palazzo Comunale*/
+    /*Inizio Le Torri*/
+      .le_torri{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Le_Torri_Alba_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .le_torri h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Le Torri*/
+    /*Inizio Alba Sottorranea*/
+      .alba_sotterranea{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Alba_Sotterranea_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .alba_sotterranea h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Alba Sotterranea*/
+    /*Inizio La Chiesa di San Domenico*/
+      .chiesa_di_san_domenico{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/La_Chiesa_di_San_Domenico_Alba_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .chiesa_di_san_domenico h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine La Chiesa di San Domenico*/
+    /*Inizio La Chiesa di San Giuseppe*/
+      .chiesa_di_san_giuseppe{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/La_Chiesa_di_San_Giuseppe_Alba_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .chiesa_di_san_giuseppe h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine La Chiesa di San Giuseppe*/
+    /*Inizio La Chiesa di San Giuseppe*/
+      .casa_fenoglio{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Casa_Fenoglio_Alba_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .casa_fenoglio h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine La Chiesa di San Giuseppe*/
+  /*Fine Alba*/
   /**/
     .a_a_e_il_m{
       background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Asti_alessandria_e_il_monferrato_Piemonte.jpg') center/cover no-repeat;
