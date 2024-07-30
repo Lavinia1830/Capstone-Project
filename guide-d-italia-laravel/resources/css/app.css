@@ -6351,6 +6351,25 @@ hr{
   /*Fine Fiume Adige*/
 /*Fine Fiumi*/
 
+/*Inizio Galleria*/
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .image-container {
+    margin: 10px;
+  }
+
+  .gallery-image {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+/*Fine Galleria*/
+
+
 /* Aggiungi una media query per dispositivi con larghezza <= 768px (tablet e smartphone) */
 @media screen and (max-width: 768px) {
   .immagine-container {
@@ -6361,6 +6380,7 @@ hr{
   .immagine {
     margin-bottom: 10px; /* Aggiungi spazio tra l'immagine e la descrizione */
   }
+
 }
 
 
@@ -6393,6 +6413,9 @@ hr{
       height: 300px;
     }
     
+    .gallery-image {
+      width: 100%;
+    }
     
 }
 
@@ -6425,6 +6448,10 @@ hr{
         width: 350px;
         height: 300px;
       }
+
+      .gallery-image {
+        width: 80%;
+      }
   }
 /*Fine Media Query Tablet*/
 
@@ -6456,6 +6483,10 @@ hr{
     /*Fine Blog Valle d'Aosta*/
     .la_venaria_reale video#mobile-video{
       display: none;
+    }
+
+    .gallery-image:hover {
+      transform: scale(1.1);
     }
   }
 /*Fine Media Query Desktop*/

@@ -1,6 +1,7 @@
 import React from 'react';
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout';
 import Footer from '@/Components/Footer';
+import { Link } from '@inertiajs/react';
 
 export default function MAO(props) {
   return (
@@ -16,26 +17,32 @@ export default function MAO(props) {
             </div>
             <div className="margin mt-3">
                 <p>
-                    Da residenza della nobiltà sabauda in epoca barocca a sede degli uffici di una manifattura tessile alla fine dell’Ottocento, da luogo testimone degli Anni di Piombo alla fine del secolo scorso a porta sull’Oriente 
-                    dal 2008, l’edificio che ospita il MAO ha vissuto e riflesso come un microcosmo i grandi cambiamenti che hanno coinvolto la città e il territorio.
+                    <b>Da residenza della nobiltà sabauda in epoca barocca a sede degli uffici di una manifattura tessile alla fine dell’Ottocento, da luogo testimone 
+                    degli Anni di Piombo alla fine del secolo scorso</b> a <b>porta sull’Oriente dal 2008</b>, l’edificio che ospita il <strong>MAO</strong> ha vissuto 
+                    e riflesso come un microcosmo i <b>grandi cambiamenti</b> che hanno coinvolto la <b>città</b> e il <b>territorio</b>.
                 </p>
                 <p>
-                    Ripercorrere la storia di questo edificio, tanto rappresentativo quanto poco appariscente, significa radicare ancora più saldamente la presenza del Museo nella trama e nella vita della città.
+                    <b>Ripercorrere la storia di questo edificio</b>, tanto rappresentativo quanto poco appariscente, significa <b>radicare ancora più saldamente la 
+                    presenza del Museo nella trama e nella vita della città</b>.
                 </p>
             </div>
             <div className="margin mt-3">
                 <h2 className="color-subtitle">Il palazzo</h2>
                 <p>
-                    Il palazzo fu per almeno tre secoli la dimora torinese di due rami di una famiglia tra le più importanti dell’aristocrazia piemontese: i Solaro della Chiusa (derivati dai Solaro di Moretta) e i Solaro della Margarita. 
-                    I Solaro appartenevano originariamente a quel patriziato astigiano che, investendo i proventi di un’attività mercantile di respiro europeo e di prestito di denaro, dal XIII secolo in poi aveva acquisito diritti 
-                    signorili e successivamente si era integrato nell’amministrazione e nel sistema degli onori dello Stato sabaudo.
+                    Il <b>palazzo</b> fu per almeno <b>tre secoli</b> la <b>dimora torinese</b> di due <b>rami</b> di una <b>famiglia</b> tra le
+                    più <b>importanti</b> dell’<b>aristocrazia piemontese</b>: i <b>Solaro della Chiusa</b> (derivati dai <b>Solaro di Moretta</b>) e i <b>Solaro della 
+                    Margarita</b>. 
+                    I <b>Solaro</b> appartenevano originariamente a quel <b>patriziato astigiano</b> che, investendo i <b>proventi</b> di un’<b>attività 
+                    mercantile</b> di respiro <b>europeo</b> e di <b>prestito di denaro</b>, dal <b>XIII secolo</b> in poi aveva acquisito <b>diritti signorili</b> e 
+                    successivamente si era integrato nell’<b>amministrazione</b> e nel <b>sistema degli onori</b> dello <b>Stato sabaudo</b>.
                 </p>
                 <p>
-                    L’edificio è attestato fin dal 1587 e le sue sorti sono strettamente legate alla storia dei suoi proprietari, in parte ripercorribile grazie alle decorazioni in stucco del salone di rappresentanza collocato al piano 
-                    nobile dell’edificio.
+                    <b>L’edificio</b> è attestato fin dal <b>1587</b> e le sue sorti sono strettamente legate alla storia dei suoi <b>proprietari</b>, in parte 
+                    ripercorribile grazie alle <b>decorazioni in stucco</b> del <b>salone di rappresentanza</b> collocato al <b>piano nobile</b> dell’edificio.
                 </p>
                 <p>
-                    Carlo Ubertino I, ritratto in armatura e abito cinquecenteschi, fu ambasciatore del duca Carlo Emanuele I a Roma, in Francia, Spagna, Portogallo, Inghilterra, Scozia.
+                    <b>Carlo Ubertino I</b>, ritratto in <b>armatura</b> e <b>abito cinquecenteschi</b>, fu <b>ambasciatore</b> del duca <b>Carlo 
+                    Emanuele I</b> a <Link href='/destinazioni/lazio/roma' className='text-decoration-none color_link'>Roma</Link>, in Francia, Spagna, Portogallo, Inghilterra, Scozia.
                 </p>
                 <p>
                     Suo figlio, Emanuele Filiberto Solaro, fu come il padre fidato collaboratore del Duca Carlo Emanuele I, governatore di Vercelli, ambasciatore alle corti di Francia e Mantova, Gran Ciambellano. Emanuele Filiberto Solaro 

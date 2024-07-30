@@ -1,9 +1,10 @@
 import React from 'react';
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout';
 import Footer from '@/Components/Footer';
-import { Head, Link } from '@inertiajs/react';
+import { Head } from '@inertiajs/react';
 
 export default function La_Freccia_di_Diana_il_trenino_dei_Giardini(props) {
+    
     return (
         <>
             <Head title="La Freccia di Diana: il trenino dei Giardini"/>
@@ -35,6 +36,15 @@ export default function La_Freccia_di_Diana_il_trenino_dei_Giardini(props) {
                             className='mx-auto'
                         >
                         </iframe>
+                    </div>
+                    <div className="margin mt-3">
+                        <p>
+                            Giro del Parco basso di cierca 25 minuti con Trenino (una carrozza è anche dodata di riscaldaento per l'inverno) per 50 posti (con pedana per 1 posto 
+                            per diversamente abile).
+                        </p>
+                        <p>
+                            I bambini sotto i 14 anni devono essere accompagnati da un adulto.
+                        </p>
                     </div>
                 </main>
                 <Footer/>
