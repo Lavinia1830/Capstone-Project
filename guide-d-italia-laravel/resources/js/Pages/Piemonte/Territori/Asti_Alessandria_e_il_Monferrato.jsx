@@ -20,7 +20,7 @@ export default function Asti_Alessandria_e_il_Monferrato(props) {
           <div className="margin mt-3">
             <p>
               Il <Link href='/territori/piemonte/monferrato' className='text-decoration-none color_link'>Monferrato</Link>, quell’ampia porzione di territorio a 
-              sud del <Link href='/piemonte' className='text-decoration-none color_link'>Piemonte</Link> che si estende dal <Link href='/fiumi/piemonte/fiume_po' 
+              sud del <Link href='/piemonte' className='text-decoration-none color_link'>Piemonte</Link> che si estende dal <Link href='/fiumi/fiume_po' 
               className='text-decoration-none color_link'>Po</Link> fin quasi alla <Link href='/liguria' 
               className='text-decoration-none color_link'>Liguria</Link>, è una terra antica. Il suo nome è legato alla romantica figura del marchese Aleramo, 
               vissuto tra il 904 e il 993, e a quella sua sfrenata corsa a cavallo durata tre giorni e tre notti concessagli dall’imperatore Ottone per definire i 

@@ -42,106 +42,135 @@ export default function MAO(props) {
                 </p>
                 <p>
                     <b>Carlo Ubertino I</b>, ritratto in <b>armatura</b> e <b>abito cinquecenteschi</b>, fu <b>ambasciatore</b> del duca <b>Carlo 
-                    Emanuele I</b> a <Link href='/destinazioni/lazio/roma' className='text-decoration-none color_link'>Roma</Link>, in Francia, Spagna, Portogallo, Inghilterra, Scozia.
+                    Emanuele I</b> a <Link href='/destinazioni/lazio/roma' className='text-decoration-none color_link'>Roma</Link>, in <b>Francia</b>, <b>Spagna</b>, <b>Portogallo</b>, <b>Inghilterra</b>, <b>Scozia</b>.
                 </p>
                 <p>
-                    Suo figlio, Emanuele Filiberto Solaro, fu come il padre fidato collaboratore del Duca Carlo Emanuele I, governatore di Vercelli, ambasciatore alle corti di Francia e Mantova, Gran Ciambellano. Emanuele Filiberto Solaro 
-                    è vestito secondo la moda d’inizio Seicento e indossa il Collare dell’Annunziata, massima onorificenza dei Duchi di Savoia.
+                    Suo figlio, <b>Emanuele Filiberto Solaro</b>, fu come il padre fidato collaboratore del Duca <b>Carlo Emanuele I</b>, governatore di <b>Vercelli</b>, 
+                    ambasciatore alle corti di <b>Francia</b> e <b>Mantova</b>, <b>Gran Ciambellano</b>. <b>Emanuele Filiberto Solaro</b> è vestito secondo la moda 
+                    d’inizio <b>Seicento</b> e indossa il <b>Collare dell’Annunziata</b>, massima onorificenza dei <b>Duchi di Savoia</b>.
                 </p>
                 <p>
-                    Il marchese Carlo Ubertino II veste gli abiti del maturo Seicento e il Collare dell’Annunziata. Nella guerra civile che vide i fratelli del defunto Duca Vittorio Amedeo I opporsi alla duchessa Maria Cristina di Francia, 
-                    egli sostenne quest’ultima e fu valente diplomatico al suo servizio, oltre che Gran Mastro di Casa e consigliere del Consiglio di Stato segreto. Nel corso del XVII secolo, non sono documentati interventi sostanziali sul 
-                    complesso architettonico.
+                    Il <b>marchese Carlo Ubertino II</b> veste gli abiti del maturo <b>Seicento</b> e il <b>Collare dell’Annunziata</b>. Nella <b>guerra civile</b> che 
+                    vide i fratelli del defunto Duca <b>Vittorio Amedeo I</b> opporsi alla duchessa <b>Maria Cristina di Francia</b>, egli sostenne quest’ultima e 
+                    fu valente <b>diplomatico</b> al suo servizio, oltre che <b>Gran Mastro di Casa</b> e <b>consigliere del Consiglio di Stato segreto</b>. Nel 
+                    corso del <b>XVII secolo</b>, non sono documentati interventi sostanziali sul <b>complesso architettonico</b>.
                 </p>
                 <p>
-                    Nel 1723 il marchese Francesco Amedeo Ludovico assunse l’iniziativa di un rammodernamento dell’edificio, per avere una dimora consona al suo stato. Il medaglione che lo ritrae fu probabilmente commissionato da suo figlio, 
-                    Giuseppe Ludovico Maurizio, lo stesso al quale si attribuisce una campagna decorativa ancora visibile nel salone d’onore.
+                    Nel <b>1723</b> il <b>marchese Francesco Amedeo Ludovico</b> assunse l’iniziativa di un <b>rammodernamento</b> dell’edificio, per avere una dimora 
+                    consona al suo stato. Il <b>medaglione</b> che lo ritrae fu probabilmente commissionato da suo figlio, <b>Giuseppe Ludovico Maurizio</b>, lo stesso 
+                    al quale si attribuisce una <b>campagna decorativa</b> ancora visibile nel <b>salone d’onore</b>.
                 </p>
                 <p>
-                    In seguito ai lavori settecenteschi il palazzo assunse così la forma di residenza di rappresentanza che tuttora conserva.
+                    In seguito ai <b>lavori settecenteschi</b> il palazzo assunse così la forma di <b>residenza di rappresentanza</b> che tuttora conserva.
                 </p>
                 <p>
-                    Nel 1830 i coeredi dei Solaro della Chiusa vendettero il Palazzo a conte Clemente Solaro della Margarita, il ministro e primo segretario di Stato per gli Affari Esteri di Carlo Alberto celebre per il suo conservatorismo 
-                    politico.
+                    Nel <b>1830</b> i coeredi dei <b>Solaro della Chiusa</b> vendettero il Palazzo a conte <b>Clemente Solaro della Margarita</b>, il <b>ministro</b> e 
+                    primo <b>segretario di Stato per gli Affari Esteri</b> di <b>Carlo Alberto</b> celebre per il suo <b>conservatorismo politico</b>.
                 </p>
                 <p>
-                    Nel 1870, il figlio di Clemente vendette il complesso al cavaliere Paolo Mazzonis, industriale tessile.
+                    Nel <b>1870</b>, il figlio di <b>Clemente</b> vendette il complesso al cavaliere <b>Paolo Mazzonis</b>, <b>industriale tessile</b>.
                 </p>
                 <p>
-                    Il piano terreno del palazzo venne quasi subito adibito a sede degli uffici della manifattura e tale rimase per un secolo. Ancora oggi l’edificio è noto appunto come Palazzo Mazzonis.
+                    Il <b>piano terreno</b> del palazzo venne quasi subito adibito a sede degli <b>uffici della manifattura</b> e tale rimase per un <b>secolo</b>. 
+                    Ancora oggi l’edificio è noto appunto come <b>Palazzo Mazzonis</b>.
                 </p>
                 <p>
-                    Nel 1910, su istanza del Ministero della Pubblica Istruzione, il messo comunale notificò il palazzo in quanto monumento pregevole di arte e storia. Nella notifica si menziona il soggiorno di un giovanissimo Jean Jacques 
-                    Rousseau. Una nota di colore che si fonda sull’attribuzione del palazzo ai Solaro di Govone e di Breglio, presso i quali il neoconvertito Rousseau prestò servizio, come racconta egli stesso nelle Confessioni. Più elementi 
-                    portano a credere però che i Solaro di Govone – e con essi Rousseau - non abbiano mai risieduto nella dimora di via San Domenico.
+                    Nel <b>1910</b>, su istanza del <b>Ministero della Pubblica Istruzione</b>, il messo comunale notificò il palazzo in quanto <b>monumento pregevole 
+                    di arte e storia</b>. Nella notifica si menziona il soggiorno di un giovanissimo <b>Jean Jacques Rousseau</b>. Una nota di colore che si fonda 
+                    sull’attribuzione del palazzo ai <b>Solaro di Govone</b> e di <b>Breglio</b>, presso i quali il neoconvertito <b>Rousseau</b> prestò servizio, come 
+                    racconta egli stesso nelle <b>Confessioni</b>. Più elementi portano a credere però che i <b>Solaro di Govone</b> – e con essi <b>Rousseau</b> - 
+                    non abbiano mai risieduto nella dimora di <b>via San Domenico</b>.
                 </p>
                 <p>
-                    Gli interventi più recenti nell’ornato del palazzo interessano lo scalone d’onore e si devono all’iniziativa di Ottavio Mazzonis. Lo stesso Ottavio Mazzonis, pittore allievo di Nicola Arduino, nel 1955 dipinse la volta ad 
-                    affresco con l’allegoria dell’Arte e dell’Industria e le insegne araldiche della famiglia, e due anni dopo eseguì sulla parete Est, a olio, Il giudizio di Paride.
+                    Gli interventi più <b>recenti</b> nell’ornato del palazzo interessano lo <b>scalone d’onore</b> e si devono all’iniziativa di <b>Ottavio Mazzonis</b>. 
+                    Lo stesso <b>Ottavio Mazzonis</b>, pittore allievo di <b>Nicola Arduino</b>, nel <b>1955</b> dipinse la <b>volta ad affresco</b> con l’allegoria 
+                    dell’<b>Arte e dell’Industria</b> e le <b>insegne araldiche</b> della famiglia, e due anni dopo eseguì sulla parete Est, a olio, <b>Il giudizio 
+                    di Paride</b>.
                 </p>
                 <p>
-                    Negli anni ’60 la Manifattura Mazzonis cessò la propria attività e il palazzo rimase inutilizzato.
+                    Negli <b>anni ’60</b> la <b>Manifattura Mazzonis</b> cessò la propria attività e il palazzo rimase inutilizzato.
                 </p>
                 <p>
-                    Ottavio Mazzonis, che nel frattempo si era trasferito altrove, concluse le trattative di vendita con la Città di Torino nel 1980.
+                    <b>Ottavio Mazzonis</b>, che nel frattempo si era trasferito altrove, concluse le <b>trattative di vendita</b> con la <b>Città di Torino</b> nel <b>1980</b>.
                 </p>
                 <p>
-                    A seguito di un restauro quinquennale, durato dal 1980 al 1985, il palazzo venne adattato a ospitare Uffici Giudiziari. L’edificio venne dotato di impianti e di spazi capienti capaci di accogliere grandi numeri di persone e 
-                    ospitò i grandi processi al terrorismo e alla lotta armata.
+                    A seguito di un <b>restauro quinquennale</b>, durato dal <b>1980 al 1985</b>, il palazzo venne adattato a ospitare <b>Uffici Giudiziari</b>. 
+                    L’edificio venne dotato di <b>impianti</b> e di <b>spazi capienti</b> capaci di accogliere grandi numeri di persone e ospitò i <b>grandi 
+                    processi</b> al <b>terrorismo</b> e alla <b>lotta armata</b>.
                 </p>
                 <p>
-                    Tra il 2004 e il 2008 il palazzo vede la sua ultima grande trasformazione d’uso. Le sue porte si riaprono nel dicembre 2008, quando, tra gli stucchi barocchi e i muri pregni di storia recente, trovano posto per la prima volta 
-                    le collezioni del MAO Museo d’Arte Orientale.
+                    Tra il <b>2004 e il 2008</b> il palazzo vede la sua <b>ultima grande trasformazione d’uso</b>. Le sue porte si riaprono nel <b>dicembre 2008</b>, 
+                    quando, tra gli <b>stucchi barocchi</b> e i muri pregni di <b>storia recente</b>, trovano posto per la prima volta 
+                    le <b>collezioni</b> del <b>MAO Museo d’Arte Orientale</b>.
                 </p>
             </div>
             <div className="margin mt-3">
                 <h2 className="color-subtitle">Restauro del palazzo della collezione</h2>
                 <p>
-                    Il progetto di restauro dell’edificio è stato redatto dal settore Edifici per la Cultura della Città di Torino, su linee guida degli architetti Durbiano, Isola e Reinerio incaricati da Compagnia San Paolo.
+                    Il <b>progetto di restauro</b> dell’edificio è stato redatto dal <b>settore Edifici per la Cultura della Città di Torino</b>, su linee guida 
+                    degli <b>architetti Durbiano</b>, <b>Isola e Reinerio</b> incaricati da <b>Compagnia San Paolo</b>.
                 </p>
                 <p>
-                    Nella corte interna è stato realizzato ex-novo un padiglione vetrato che ospita un giardino secco e un giardino umido, di ispirazione giapponese.
+                    Nella <b>corte interna</b> è stato realizzato <b>ex-novo un padiglione vetrato</b> che ospita un <b>giardino secco</b> e un <b>giardino 
+                    umido</b>, di <b>ispirazione giapponese</b>.
                 </p>
             </div>
             <div className="margin mt-3">
                 <h2 className="color-subtitle">L'allestimento</h2>
                 <p>
-                    L’allestimento museale si è svolto tra maggio e dicembre del 2008, su progetto dell’Architetto Andrea Bruno, esperto italiano dell’Unesco per il restauro e la conservazione del patrimonio artistico e culturale, con la consulenza 
-                    del Professor Franco Ricca, Direttore del Museo.
+                    <b>L’allestimento museale</b> si è svolto tra <b>maggio e dicembre del 2008</b>, su progetto dell’<b>Architetto Andrea Bruno</b>, esperto 
+                    italiano dell’<b>Unesco</b> per il <b>restauro e la conservazione del patrimonio artistico e culturale</b>, con la consulenza 
+                    del <b>Professor Franco Ricca</b>, Direttore del Museo.
                 </p>
                 <p>
-                    La progettazione degli spazi ha tenuto conto della pre-esistenza di alcuni nuclei di collezioni e ha avuto come esito l’articolazione delle collezioni in cinque gallerie corrispondenti ad altrettante aree culturali.<br/>
-                    Ad alcuni ambienti sono state apportate modifiche d’uso finalizzate a facilitare la fruizione del Museo da parte del pubblico. Così, per esempio l’accesso alle collezioni non avviene dallo scalone d’onore, l’androne carraio diventa 
-                    zona deputata all’accoglienza del pubblico, il cortile - occupato da una suggestiva struttura in vetro che ospita due giardini di ispirazione giapponese - diventa luogo di transizione tra Occidente e Oriente, il sottotetto diventa 
-                    un unico ambiente espositivo di facile e piacevole accesso, uno spazio artificiale che cela la struttura dell’edificio.
+                    La <b>progettazione degli spazi</b> ha tenuto conto della <b>pre-esistenza di alcuni nuclei di collezioni</b> e ha avuto come esito 
+                    l’articolazione delle <b>collezioni in cinque gallerie</b> corrispondenti ad altrettante aree culturali.<br/>
+                    Ad alcuni ambienti sono state apportate <b>modifiche d’uso</b> finalizzate a <b>facilitare la fruizione del Museo</b> da parte del 
+                    pubblico. Così, per esempio l’<b>accesso alle collezioni</b> non avviene dallo <b>scalone d’onore</b>, l’<b>androne carraio</b> diventa 
+                    zona deputata all’<b>accoglienza del pubblico</b>, il <b>cortile</b> - occupato da una <b>suggestiva struttura in vetro</b> che 
+                    ospita <b>due giardini di ispirazione giapponese</b> - diventa luogo di <b>transizione tra Occidente e Oriente</b>, 
+                    il <b>sottotetto</b> diventa un <b>unico ambiente espositivo di facile e piacevole accesso</b>, uno <b>spazio artificiale</b> che 
+                    cela la struttura dell’edificio.
                 </p>
                 <p>
-                    L’allestimento del Museo ha previsto la movimentazione delle opere fino ad allora conservate in depositi adeguatamente attrezzati e controllati. I trasporti hanno coinvolto tutte le opere oggi esposte, dalle più delicate in vetro e 
-                    ceramica, alle più imponenti in pietra. Tutte le movimentazioni sono state effettuate da personale specializzato e seguite dal personale del museo. Successivamente le opere sono state disimballate e sempre con il controllo dello staff 
-                    del MAO collocate nelle vetrine appositamente realizzate.<br/>
-                    Le strutture e le vetrine sono state realizzate con caratteristiche e materiali diversi, di volta in volta calibrati sulle specificità delle opere che avrebbero accolto.
+                    L’allestimento del Museo ha previsto la <b>movimentazione delle opere</b> fino ad allora conservate in <b>depositi adeguatamente 
+                    attrezzati e controllati</b>. I trasporti hanno coinvolto tutte le opere oggi esposte, dalle più delicate in <b>vetro e ceramica</b>, 
+                    alle più imponenti in <b>pietra</b>. Tutte le movimentazioni sono state effettuate da <b>personale specializzato</b> e seguite dal 
+                    personale del museo. Successivamente le opere sono state <b>disimballate</b> e sempre con il controllo dello <b>staff del 
+                    MAO</b> collocate nelle <b>vetrine appositamente realizzate</b>.<br/>
+                    Le <b>strutture e le vetrine</b> sono state realizzate con <b>caratteristiche e materiali diversi</b>, di volta in volta 
+                    calibrati sulle <b>specificità delle opere</b> che avrebbero accolto.
                 </p>
                 <p>
-                    Lungo tutto il percorso espositivo è stata realizzato un apparato grafico che non solo risponde a esigenze estetiche, ma fornisce anche al visitatore informazioni utili a orientarsi nella visita e a fruire al meglio delle collezioni.
+                    Lungo tutto il <b>percorso espositivo</b> è stata realizzato un <b>apparato grafico</b> che non solo risponde a <b>esigenze 
+                    estetiche</b>, ma fornisce anche al visitatore <b>informazioni utili a orientarsi nella visita e a fruire al meglio delle 
+                    collezioni</b>.
                 </p>
                 <p>
-                    Dall’illuminazione delle vetrine alla posa delle strutture, dalla grafica di sala alla movimentazione delle opere, l’allestimento museale ha visto professionalità e competenze diverse lavorare fianco a fianco, coordinando tempi e modi 
-                    in vista di un unico obiettivo condiviso.
+                    Dall’<b>illuminazione delle vetrine</b> alla <b>posa delle strutture</b>, dalla <b>grafica di sala</b> alla <b>movimentazione 
+                    delle opere</b>, l’allestimento museale ha visto <b>professionalità e competenze diverse</b> lavorare fianco a fianco, 
+                    coordinando <b>tempi e modi</b> in vista di un <b>unico obiettivo condiviso</b>.
                 </p>
                 <p>
-                    Nella primavera del 2015 un importante progetto di riallestimento ha permesso di creare un’ampia area dedicata alle grandi esposizioni temporanee.
+                    Nella <b>primavera del 2015</b> un importante progetto di <b>riallestimento</b> ha permesso di creare un’<b>ampia area 
+                    dedicata alle grandi esposizioni temporanee</b>.
                 </p>
             </div>
             <div className="margin mt-3">
                 <h2 className="colo-subtitle">Gallerie</h2>
                 <p>
-                    Le collezioni del MAO consistono di quasi 2300 opere. Esse coprono un arco temporale che parte dal Neolitico e arriva fino agli inizi del secolo scorso. A queste si aggiungono più di 1400 reperti di scavo di periodo pre-islamico 
-                    provenienti dagli scavi iracheni di Seleucia e Coche.
+                    Le <b>collezioni</b> del MAO consistono di quasi <b>2300 opere</b>. Esse coprono un arco temporale che parte dal <b>Neolitico</b> e 
+                    arriva fino agli inizi del <b>secolo scorso</b>. A queste si aggiungono più di <b>1400 reperti di scavo</b> di 
+                    periodo <b>pre-islamico</b> provenienti dagli scavi iracheni di <b>Seleucia</b> e <b>Coche</b>.
                 </p>
                 <p>
-                    Le sale destinate all’esposizione permanente sono distribuite in cinque distinte gallerie corrispondenti ad altrettante aree culturali: l'Asia Meridionale e il Sud est asiatico, con opere provenienti dal subcontinente indiano e dall’Indocina; 
-                    la Cina, culla di una multisecolare e proteiforme civiltà artistica; la Regione Himalayana, fertile luogo di interazione delle culture indiana e cinese; il Giappone, sede di originali sviluppi nati dall'incontro con le culture d'Asia e 
-                    d'Europa; i Paesi Islamici, testimoni di una straordinaria fioritura artistica che si estende dall'Asia Centrale al Mediterraneo.
+                    Le <b>sale</b> destinate all’esposizione permanente sono distribuite in cinque distinte <b>gallerie</b> corrispondenti ad 
+                    altrettante <b>aree culturali</b>: l'<b>Asia Meridionale</b> e il <b>Sud est asiatico</b>, con opere provenienti dal 
+                    subcontinente <b>indiano</b> e dall’<b>Indocina</b>; la <b>Cina</b>, culla di una multisecolare e proteiforme <b>civiltà 
+                    artistica</b>; la <b>Regione Himalayana</b>, fertile luogo di interazione delle culture <b>indiana</b> e <b>cinese</b>; 
+                    il <b>Giappone</b>, sede di originali sviluppi nati dall'incontro con le culture d'<b>Asia</b> e d'<b>Europa</b>; 
+                    i <b>Paesi Islamici</b>, testimoni di una straordinaria fioritura <b>artistica</b> che si estende dall'<b>Asia 
+                    Centrale</b> al <b>Mediterraneo</b>.
                 </p>
             </div>
             <div className='margin mb-4'>

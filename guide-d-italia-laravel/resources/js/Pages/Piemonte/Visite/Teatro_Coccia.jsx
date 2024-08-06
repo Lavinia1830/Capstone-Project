@@ -28,8 +28,7 @@ export default function Teatro_Coccia(props) {
                             passare degli anni la struttura non si rivelò più adatta alle esigenze teatrali del tempo: il palco era poco capiente e male si adattava ai 
                             nuovi melodrammi, agli spettacoli circensi e di burattini tanto amati dalla classe borghese. Inoltre la città, che era in continua evoluzione, 
                             esigeva nuovi simboli dopo la costruzione della <Link href='/visite/piemonte/novara/basilica_di_san_gaudenzio' 
-                            className='text-decoration-none color_link'>cattedrale</Link> e della <Link hraf='/visite/piemonte/novara/cupola_di_san_gaudenzio' 
-                            className='text-decoration-none color_link'>cupola di San Gaudenzio</Link>. Per questo motivo nel <b>1853-55</b> fu costruito il <b>Teatro 
+                            className='text-decoration-none color_link'>cattedrale</Link> e della <Link href='/visite/piemonte/novara/cupola_di_san_gaudenzio' className='text-decoration-none color_link'>cupola di San Gaudenzio</Link>. Per questo motivo nel <b>1853-55</b> fu costruito il <b>Teatro 
                             Sociale</b> che da subito entrò in competizione con quello più antico, in quanto i due teatri rappresentavano perfettamente la dicotomia della 
                             società del tempo, divisa tra la compassata <b>aristocrazia</b> legata alle tradizionali rappresentazioni liriche e l’esuberante <b>borghesia 
                             cittadina</b> attratta dai nuovi tipi di intrattenimento. Nel <b>1880</b> l’amministrazione comunale stabilì l’acquisto del Sociale e del 

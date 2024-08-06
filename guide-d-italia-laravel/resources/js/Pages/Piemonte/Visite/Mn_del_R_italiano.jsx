@@ -45,7 +45,7 @@ import Sala_30_mn_del_r_italiano from '../../../../assets/Piemonte/Sala_30_mn_de
 import Sala_Codici_mn_del_r_italiano from '../../../../assets/Piemonte/Sala_Codici_mn_del_r_italiano_Torino_Piemonte.jpg';
 import Sala_Plebisciti_mn_del_r_italiano from '../../../../assets/Piemonte/Sala_Plebisciti_mn_del_r_italiano_Torino_Piemonte.jpg';
 import Corridoio_della_Camera_italiana_mn_del_r_italiano from '../../../../assets/Piemonte/Corridoio_della_Camera_italiana_mn_del_r_italiano_Torino_Piemonte.jpg';
-import { Head } from '@inertiajs/react';
+import { Head, Link } from '@inertiajs/react';
 
 
 export default function Mn_del_R_italiano(props) {
@@ -4427,9 +4427,12 @@ export default function Mn_del_R_italiano(props) {
                                     <hr className='border-3'/>
                                     <CardText>
                                         <p className='mt-5'>
-                                            Il Museo Nazionale del Risorgimento Italiano di Torino è il più antico e il più noto tra i musei italiani di storia patria. Venne istituito nel 1878, come “Ricordo nazionale 
-                                            di Vittorio Emanuele II” pochi mesi dopo la sua morte.<br/>
-                                            Prima della sua inaugurazione definitiva, avvenuta trent’anni dopo all’interno della Mole Antonelliana, il Museo conobbe due allestimenti provvisori: uno nel 1884 e uno nel 1899.
+                                            Il <b>Museo Nazionale del Risorgimento Italiano</b> di <b>Torino</b> è il più <b>antico</b> e 
+                                            il più <b>noto</b> tra i musei italiani di <b>storia patria</b>. Venne <b>istituito</b> nel <b>1878</b>, 
+                                            come “<b>Ricordo nazionale di Vittorio Emanuele II</b>” pochi mesi dopo la sua <b>morte</b>.<br/>
+                                            Prima della sua <b>inaugurazione definitiva</b>, avvenuta trent’anni dopo all’interno della <b>Mole 
+                                            Antonelliana</b>, il Museo conobbe due <b>allestimenti provvisori</b>: uno nel <b>1884</b> e uno 
+                                            nel <b>1899</b>.
                                         </p>
                                     </CardText>
                                 </CardBody>
@@ -4447,13 +4450,20 @@ export default function Mn_del_R_italiano(props) {
                                     <hr className='border-3'/>
                                     <CardText>
                                         <p className='mt-5'>
-                                            Nel 1884, in occasione della grande esposizione nazionale al Valentino, prese forma il primo esperimento di un museo del risorgimento.<br/>
-                                            Era un vasto allestimento che assegnava un ruolo fortemente centrale agli episodi del 1848–49 e in cui lo spazio dedicato al Piemonte non superava per importanza il resto d’Italia.<br/>
-                                            Il risorgimento rappresentato iniziava con i moti del 1820–21 e terminava con la presa di Porta Pia, proponendo una lettura che, superati gli antagonismi e realizzato lo stato 
-                                            unitario, evidenziava l’azione convergente in un unico obiettivo nazionale dei diversi schieramenti politici.<br/>
-                                            In sintesi il risorgimento era visto in chiave nazional–popolare più che dinastico–sabaudo. Emergeva poi un’altra importante idea di fondo, che considerava i processi di nazionalità 
-                                            un evento rivoluzionario su scala europea che affondava le radici già nel periodo napoleonico, concetto che ancora oggi fa di quella mostra l’allestimento più moderno sul piano 
-                                            interpretativo che fino ad oggi si è avuto del Museo.
+                                            Nel 1884, in occasione della <b>grande esposizione nazionale</b> al Valentino, prese forma il 
+                                            primo <b>esperimento</b> di un <b>museo del risorgimento</b>.<br/>
+                                            Era un <b>vasto allestimento</b> che assegnava un <b>ruolo fortemente centrale</b> agli <b>episodi 
+                                            del 1848–49</b> e in cui lo <b>spazio dedicato al Piemonte</b> non superava per <b>importanza 
+                                            il resto d’Italia</b>.<br/>
+                                            Il risorgimento rappresentato iniziava con i <b>moti del 1820–21</b> e terminava con 
+                                            la <b>presa di Porta Pia</b>, proponendo una <b>lettura</b> che, superati gli <b>antagonismi</b> e 
+                                            realizzato lo <b>stato unitario</b>, evidenziava l’<b>azione convergente</b> in un <b>unico 
+                                            obiettivo nazionale</b> dei <b>diversi schieramenti politici</b>.<br/>
+                                            In sintesi il risorgimento era visto in chiave <b>nazional–popolare</b> più che <b>dinastico–sabaudo</b>. 
+                                            Emergeva poi un’altra <b>importante idea di fondo</b>, che considerava i <b>processi di 
+                                            nazionalità</b> un <b>evento rivoluzionario</b> su <b>scala europea</b> che affondava le radici già 
+                                            nel <b>periodo napoleonico</b>, concetto che ancora oggi fa di quella mostra l’<b>allestimento più 
+                                            moderno</b> sul <b>piano interpretativo</b> che fino ad oggi si è avuto del Museo.
                                         </p>
                                     </CardText>
                                 </CardBody>
@@ -4471,13 +4481,18 @@ export default function Mn_del_R_italiano(props) {
                                     <hr className='border-3'/>
                                     <CardText>
                                         <p className='mt-5'>
-                                            Il 9 settembre del 1899 si celebrò una prima parziale apertura del Museo del Risorgimento, anche se in una sede ancora provvisoria: non ancora nella Mole, dove era destinato, ma nei locali 
-                                            della Sezione di arte moderna del Museo civico.<br/>
-                                            Anche se il ruolo del Piemonte cominciava a reclamare più spazio non era ancora il museo della dinastia, e si sforzava di conservare una visione nazionale ed ecumenica del processo unitario.
+                                            Il <b>9 settembre del 1899</b> si celebrò una <b>prima parziale apertura del Museo del 
+                                            Risorgimento</b>, anche se in una sede ancora provvisoria: non ancora nella <b>Mole</b>, 
+                                            dove era destinato, ma nei locali della <b>Sezione di arte moderna del Museo civico.</b><br/>
+                                            Anche se il ruolo del <b>Piemonte</b> cominciava a reclamare più spazio non era ancora 
+                                            il <b>museo della dinastia</b>, e si sforzava di conservare una <b>visione nazionale ed 
+                                            ecumenica</b> del processo unitario.
                                         </p>
                                         <p>
-                                            Al Museo si affiancava una grande biblioteca, che ambiva a contenere una sintesi o la copia dei documenti risorgimentali presenti in tutt’Italia e una raccolta completa delle pubblicazioni 
-                                            straniere e nazionali: un obiettivo ambizioso, mai completamente realizzato.
+                                            Al Museo si affiancava una <b>grande biblioteca</b>, che ambiva a contenere una sintesi 
+                                            o la copia dei <b>documenti risorgimentali</b> presenti in tutt’Italia e una raccolta 
+                                            completa delle <b>pubblicazioni straniere e nazionali</b>: un obiettivo ambizioso, mai 
+                                            completamente realizzato.
                                         </p>
                                     </CardText>
                                 </CardBody>
@@ -4495,11 +4510,16 @@ export default function Mn_del_R_italiano(props) {
                                     <hr className='border-3'/>
                                     <CardText>
                                         <p className='mt-5'>
-                                            Il Museo del Risorgimento ebbe la sua inaugurazione definitiva il 18 ottobre 1908 all’interno della Mole Antonelliana, luogo simbolo di Torino e della modernità: passato e futuro insieme 
-                                            per fare dell’ex–capitale d’Italia una città nuova e moderna.<br/>
-                                            Il nuovo Museo ribadiva, nel suo intento educativo e celebrativo delle glorie patrie, il suo essere nazionale.<br/>
-                                            Presentava 1.274 pezzi esposti nel salone centrale e in tre grandi corsie. Era l’unico museo del risorgimento italiano a poter essere definito scientifico, premiato da un grande successo 
-                                            di pubblico, anche se oggi ci apparirebbe poco efficace dal punto di vista espositivo e della comunicazione.
+                                            Il <strong>Museo del Risorgimento</strong> ebbe la sua inaugurazione definitiva 
+                                            il <b>18 ottobre 1908</b> all’interno della <b>Mole Antonelliana</b>, luogo simbolo 
+                                            di <b>Torino</b> e della modernità: passato e futuro insieme per fare dell’<b>ex–capitale 
+                                            d’Italia</b> una città <b>nuova</b> e <b>moderna</b>.<br/>
+                                            Il nuovo Museo ribadiva, nel suo intento <b>educativo</b> e <b>celebrativo</b> delle <b>glorie 
+                                            patrie</b>, il suo essere <b>nazionale</b>.<br/>
+                                            Presentava <b>1.274 pezzi</b> esposti nel <b>salone centrale</b> e in tre grandi <b>corsie</b>. 
+                                            Era l’unico museo del risorgimento italiano a poter essere definito <b>scientifico</b>, 
+                                            premiato da un grande <b>successo di pubblico</b>, anche se oggi ci apparirebbe poco efficace 
+                                            dal punto di vista <b>espositivo</b> e della <b>comunicazione</b>.
                                         </p>
                                     </CardText>
                                 </CardBody>
@@ -4517,12 +4537,19 @@ export default function Mn_del_R_italiano(props) {
                                     <hr className='border-3'/>
                                     <CardText>
                                         <p className='mt-5'>
-                                            L’8 settembre del 1938 il re Vittorio Emanuele III inaugurò il Museo Nazionale del Risorgimento Italiano finalmente trasferito nella sede attuale di palazzo Carignano.<br/>
-                                            Era un allestimento in cui la storia d’Italia diventava del tutto autoctona, abbandonava i nessi con l’Europa e compiva un percorso che legava strettamente la Roma antica al Risorgimento 
-                                            e al fascismo: il museo doveva rappresentare l’antichità della dinastia e la crescente potenza dello Stato sabaudo, così le origini del risorgimento furono anticipate al 1706, più precisamente 
-                                            alla battaglia di Torino che diede un regno ai Savoia.<br/>
-                                            Con l’inizio della seconda guerra mondiale, i lavori di allestimento furono interrotti e i bombardamenti subiti arrecarono al Museo danni ingenti.<br/>
-                                            Negli anni della Resistenza le sue sale ospitarono clandestinamente riunioni di partigiani, armi e materiale di propaganda antifascista.
+                                            L’<b>8 settembre</b> del <b>1938</b> il re <b>Vittorio Emanuele III</b> inaugurò il <strong>Museo 
+                                            Nazionale del Risorgimento Italiano</strong> finalmente trasferito nella sede attuale 
+                                            di <b>palazzo Carignano</b>.<br/>
+                                            Era un allestimento in cui la <b>storia d’Italia</b> diventava del tutto <b>autoctona</b>, 
+                                            abbandonava i nessi con l’<b>Europa</b> e compiva un percorso che legava strettamente la <b>Roma 
+                                            antica</b> al <b>Risorgimento</b> e al <b>fascismo</b>: il museo doveva rappresentare l’antichità 
+                                            della <b>dinastia</b> e la crescente potenza dello <b>Stato sabaudo</b>, così le origini del 
+                                            risorgimento furono anticipate al <b>1706</b>, più precisamente alla <b>battaglia di Torino</b> che 
+                                            diede un <b>regno ai Savoia</b>.<br/>
+                                            Con l’inizio della <b>seconda guerra mondiale</b>, i lavori di allestimento furono interrotti e 
+                                            i <b>bombardamenti</b> subiti arrecarono al <b>Museo</b> danni ingenti.<br/>
+                                            Negli anni della <b>Resistenza</b> le sue sale ospitarono clandestinamente <b>riunioni di 
+                                            partigiani</b>, <b>armi</b> e materiale di <b>propaganda antifascista</b>.
                                         </p>
                                     </CardText>
                                 </CardBody>
@@ -4540,10 +4567,13 @@ export default function Mn_del_R_italiano(props) {
                                     <hr className='border-3'/>
                                     <CardText>
                                         <p className='mt-5'>
-                                            Dopo la guerra, il Museo fu riaperto in piccola parte in occasione del centenario della prima guerra di indipendenza. Il risorgimento, come nel 1884, tornava ad avere origine nei moti 
-                                            del ’20–’21 e si chiudeva con la presa di Roma.<br/>
-                                            Dopo le sale risorgimentali, trovarono posto altre sei sale dedicate al contributo italiano alla guerra di liberazione, a cura del Corpo volontari della libertà e dell’Istituto storico 
-                                            della Resistenza in Piemonte.
+                                            Dopo la guerra, il Museo fu riaperto in <b>piccola parte</b> in occasione 
+                                            del <b>centenario</b> della <b>prima guerra di indipendenza</b>. Il <b>risorgimento</b>, come nel <b>1884</b>, 
+                                            tornava ad avere origine nei moti del ’<b>20–</b>’<b>21</b> e si chiudeva con 
+                                            la <b>presa di</b> <Link href='/destinazioni/lazio/roma' className='text-decoration-none color_link'></Link>Roma.<br/>
+                                            Dopo le <b>sale risorgimentali</b>, trovarono posto altre <b>sei sale</b> dedicate al <b>contributo 
+                                            italiano</b> alla <b>guerra di liberazione</b>, a cura del <b>Corpo volontari della libertà</b> e dell’<b>Istituto 
+                                            storico della Resistenza in Piemonte</b>.
                                         </p>
                                     </CardText>
                                 </CardBody>
@@ -4561,11 +4591,14 @@ export default function Mn_del_R_italiano(props) {
                                     <hr className='border-3'/>
                                     <CardText>
                                         <p className='mt-5'>
-                                            Nel 1961, In occasione delle celebrazioni del Centenario dell’Unità d’Italia, a Palazzo Carignano si realizzò una grande mostra storica: oltre 1.800 pezzi esposti in 32 sale.<br/>
-                                            L’obiettivo era quello di coinvolgere anche i visitatori meno preparati, grazie ad una rinnovata sensibilità per la comunicazione, per gli aspetti scenografici e per il materiale esposto 
-                                            che finalmente proveniva da tutta l’Italia.<br/>
-                                            Dal punto di vista dell’interpretazione storiografica, si tornò a datare le origini del risorgimento più che alle riforme dell’alto settecento, alla rivoluzione francese e alla dominazione 
-                                            napoleonica che avevano sollecitato ideali patriottici.
+                                            Nel <b>1961</b>, In occasione delle celebrazioni del <b>Centenario dell’Unità d’Italia</b>, a <b>Palazzo Carignano</b> si 
+                                            realizzò una grande <b>mostra storica</b>: oltre <b>1.800 pezzi</b> esposti in <b>32 sale</b>.<br/>
+                                            L’obiettivo era quello di coinvolgere anche i visitatori meno preparati, grazie ad una rinnovata sensibilità per 
+                                            la <b>comunicazione</b>, per gli aspetti <b>scenografici</b> e per il <b>materiale esposto</b> che finalmente 
+                                            proveniva da tutta l’Italia.<br/>
+                                            Dal punto di vista dell’interpretazione <b>storiografica</b>, si tornò a datare le origini del <b>risorgimento</b> più 
+                                            che alle <b>riforme dell’alto settecento</b>, alla <b>rivoluzione francese</b> e alla <b>dominazione napoleonica</b> che 
+                                            avevano sollecitato ideali patriottici.
                                         </p>
                                     </CardText>
                                 </CardBody>
@@ -4583,9 +4616,11 @@ export default function Mn_del_R_italiano(props) {
                                     <hr className='border-3'/>
                                     <CardText>
                                         <p className='mt-5'>
-                                            Il museo del 1965 sia per scelta storiografica degli allestitori, sia perchè molto materiale esposto nel 1961 era stato restituito ai ben 350 prestatori, ridusse fortemente il carattere 
-                                            nazionale che aveva avuto l’esposizione del centenario.<br/>
-                                            Si tornò così a proporre una visione del risorgimento fedele all’idea della dinastia sabauda come principale motore dell’unificazione.
+                                            <b>Il museo</b> del <b>1965</b> sia per scelta storiografica degli <b>allestitori</b>, sia perchè molto <b>materiale 
+                                            esposto</b> nel <b>1961</b> era stato restituito ai ben <b>350 prestatori</b>, ridusse fortemente il 
+                                            carattere <b>nazionale</b> che aveva avuto l’esposizione del centenario.<br/>
+                                            Si tornò così a proporre una visione del <b>Risorgimento</b> fedele all’idea della <b>dinastia sabauda</b> come 
+                                            principale motore dell’unificazione.
                                         </p>
                                     </CardText>
                                 </CardBody>
@@ -4603,8 +4638,14 @@ export default function Mn_del_R_italiano(props) {
                                     <hr className='border-3'/>
                                     <CardText>
                                         <p className='mt-5'>
-                                            Dopo una progettazione scientifica ed espositiva iniziata nel 1999, nel 2006 si sono avviati i lavori di riallestimento del nuovo percorso museale, che distribuisce in 30 sale, compreso lo scalone d'onore e il salone del primo Parlamento italiano, il racconto di come gli italiani divennero nazione, fra altri popoli alla ricerca della propria identità.
-                                            Il risultato è un allestimento rigoroso e insieme spettacolare che narra la storia del Paese a fronte delle grandi trasformazioni economiche, politiche e culturali avvenute nell’intero continente. Un percorso che accompagna il visitatore in un lungo viaggio che parte dalla rivoluzione francese e si conclude alle soglie della grande guerra, l’evento che aprì alle società di massa del XX secolo.
+                                            <b>Dopo una progettazione scientifica ed espositiva</b> iniziata nel <b>1999</b>, nel <b>2006</b> si sono avviati 
+                                            i lavori di <b>riallestimento</b> del nuovo percorso museale, che distribuisce in <b>30 sale</b>, compreso 
+                                            lo <b>scalone d'onore</b> e il <b>salone del primo Parlamento italiano</b>, il racconto di come gli <b>italiani 
+                                            divennero nazione</b>, fra altri popoli alla ricerca della propria <b>identità</b>. Il risultato è un 
+                                            allestimento <b>rigoroso</b> e insieme <b>spettacolare</b> che narra la storia del Paese a fronte delle 
+                                            grandi <b>trasformazioni economiche</b>, <b>politiche</b> e <b>culturali</b> avvenute nell’intero continente. 
+                                            Un percorso che accompagna il visitatore in un lungo viaggio che parte dalla <b>rivoluzione francese</b> e si 
+                                            conclude alle soglie della <b>grande guerra</b>, l’evento che aprì alle <b>società di massa</b> del XX secolo.
                                         </p>
                                     </CardText>
                                 </CardBody>

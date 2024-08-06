@@ -679,6 +679,10 @@ Route::get('/home', function () {
             return Inertia::render('Piemonte/Visite/Palazzo_del_Mercato');
         })->middleware(['auth', 'verified'])->name('palazzo_del_mercato');
 
+        Route::get('/visite/piemonte/novara/chiesa_di_san_pietro_al_rosario', function () {
+            return Inertia::render('Piemonte/Visite/Chiesa_di_San_Pietro_al_Rosario');
+        })->middleware(['auth', 'verified'])->name('chiesa_di_san_pietro_al_rosario');
+
         Route::get('/visite/piemonte/novara/broletto', function () {
             return Inertia::render('Piemonte/Visite/Il_Broletto');
         })->middleware(['auth', 'verified'])->name('broletto');
@@ -813,6 +817,10 @@ Route::get('/home', function () {
         Route::get('/visite/piemonte/ivrea/museo_a_cielo_aperto_dell_architettura_moderna', function () {
             return Inertia::render('Piemonte/Visite/Maam');
         })->middleware(['auth', 'verified'])->name('museo_a_cielo_aperto_dell_architettura_moderna');
+    
+        Route::get('/fiumi/fiume_po', function () {
+            return Inertia::render('Fiumi/Fiume_Po');
+        })->middleware(['auth', 'verified'])->name('fiume_po');
     /*Fine Ivrea*/
 
     /*Inizio Agliè*/
@@ -856,6 +864,14 @@ Route::get('/home', function () {
         Route::get('/enogastronomia/piemonte/cueno/tartufo_bianco', function () {
             return Inertia::render('Enogastronomia/Tartufo_Bianco');
         })->middleware(['auth', 'verified'])->name('tartufo_bianco');
+
+        Route::get('/enogastronomia/piemonte/cueno/tartufo_bianco', function () {
+            return Inertia::render('Enogastronomia/Tartufo_Bianco');
+        })->middleware(['auth', 'verified'])->name('tartufo_bianco');
+
+        Route::get('/visite/piemonte/cuneo/castello_di_racconigi', function () {
+            return Inertia::render('Piemonte/Visite/Castello_Reale_di_Racconigi');
+        })->middleware(['auth', 'verified'])->name('castello_di_racconigi');
 
     /*Fine Cuneo*/
 
@@ -1054,8 +1070,39 @@ Route::get('/home', function () {
             return Inertia::render('Piemonte/Visite/Chiesa_della_Maddalena');
         })->middleware(['auth', 'verified'])->name('chiesa_della_maddalena');
 
+        Route::get('/visite/piemonte/alba/palazzo_comunale', function () {
+            return Inertia::render('Piemonte/Visite/Palazzo_Comunale');
+        })->middleware(['auth', 'verified'])->name('palazzo_comunale');
+
+        Route::get('/visite/piemonte/alba/le_torri', function () {
+            return Inertia::render('Piemonte/Visite/Le_Torri');
+        })->middleware(['auth', 'verified'])->name('le_torri');
+
+        Route::get('/visite/piemonte/alba/alba_sotterranea', function () {
+            return Inertia::render('Piemonte/Visite/Alba_Sotterranea');
+        })->middleware(['auth', 'verified'])->name('alba_sotterranea');
+
+        Route::get('/visite/piemonte/alba/chiesa_di_san_domenico', function () {
+            return Inertia::render('Piemonte/Visite/Chiesa_di_San_Domenico');
+        })->middleware(['auth', 'verified'])->name('chiesa_di_san_domenico');
+
+        Route::get('/visite/piemonte/alba/chiesa_di_san_giuseppe', function () {
+            return Inertia::render('Piemonte/Visite/Chiesa_di_San_Giuseppe');
+        })->middleware(['auth', 'verified'])->name('chiesa_di_san_giuseppe');
+
+        Route::get('/visite/piemonte/alba/casa_fenoglio', function () {
+            return Inertia::render('Piemonte/Visite/Casa_Fenoglio');
+        })->middleware(['auth', 'verified'])->name('casa_fenoglio');
+
     /*Fine Alba*/
     
+    Route::get('/visite/piemonte/serralunga_d_alba/castello_di_serralunga_d_alba', function () {
+        return Inertia::render('Piemonte/Visite/Castello_di_Serralunga_d_Alba');
+    })->middleware(['auth', 'verified'])->name('castello_di_serralunga_d_alba');
+
+    Route::get('/visite/piemonte/gurene/castello_di_guarene', function () {
+        return Inertia::render('Piemonte/Visite/Castello_di_Guarene');
+    })->middleware(['auth', 'verified'])->name('castello_di_guarene');
 
 /*Fine Piemonte */
 
@@ -1065,7 +1112,7 @@ Route::get('/home', function () {
         return Inertia::render('Lombardia');
     })->middleware(['auth', 'verified'])->name('lombardia');
     /*Inzio Milano*/
-        Route::get('/destinazioni/milano', function () {
+        Route::get('/destinazioni/lombardia/milano', function () {
             return Inertia::render('Lombardia/Destinazioni/Milano');
         })->middleware(['auth', 'verified'])->name('milano');
 
@@ -1110,7 +1157,7 @@ Route::get('/home', function () {
         })->middleware(['auth', 'verified'])->name('fondazione_prada');
     /*Fine Milano*/
     /*Inizio Brescia*/
-        Route::get('/destinazioni/brescia', function () {
+        Route::get('/destinazioni/lombardia/brescia', function () {
             return Inertia::render('Lombardia/Destinazioni/Brescia');
         })->middleware(['auth', 'verified'])->name('brescia');
 
@@ -1381,7 +1428,7 @@ Route::get('/home', function () {
         return Inertia::render('Emilia_Romagna');
     })->middleware(['auth', 'verified'])->name('emilia_romagna');
 
-    Route::get('/destinazioni/bologna', function () {
+    Route::get('/destinazioni/emilia_romagna/bologna', function () {
         return Inertia::render('Emilia_Romagna/Destinazioni/Bologna');
     })->middleware(['auth', 'verified'])->name('bologna');
     /*Inizio Bologna*/

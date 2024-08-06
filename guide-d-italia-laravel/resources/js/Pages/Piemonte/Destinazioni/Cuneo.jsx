@@ -28,8 +28,8 @@ export default function Cuneo(props) {
           </div>
           <div className="margin mt-3">
             <p>
-              Plasmata come cittadella militare dai Savoia, <Link href='/destinazione/piemonte/cuneo' 
-              className='text-decoration-none color_link'>Cuneo</Link> sorge presso la confluenza dei corsi d'acqua Stura e Gesso, su un "cùneo" la cui 
+              Plasmata come cittadella militare dai Savoia, <a href='https://www.visitcuneese.it/dettaglio-ufficio-turistico/-/d/ufficio-turistico-di-cuneo-iat-' 
+              className='text-decoration-none color_link'>Cuneo</a> sorge presso la confluenza dei corsi d'acqua Stura e Gesso, su un "cùneo" la cui 
               caratteristica conformazione ne ha ispirato il nome. Il centro storico si snoda attorno a <Link href='/visite/piemonte/cuneo/piazza_galimberti' 
               className='text-decoration-none color_link'>piazza Galimberti</Link>, elegante salotto cittadino circondato da palazzi porticati. Via Roma, 
               l’arteria principale, è costeggiata da edifici di interesse architettonico quali il <Link href='/visite/piemonte/cuneo/palazzo_della_torre' 

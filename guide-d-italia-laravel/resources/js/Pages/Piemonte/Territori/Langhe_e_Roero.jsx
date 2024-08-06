@@ -25,13 +25,13 @@ export default function Langhe_e_Roero(props) {
                     className='text-decoration-none color_link'>Alessandria</Link> e costituiscono, insieme al <b>Monferrato</b> e al <b>Roero</b>, un’area del basso <b>Piemonte</b>. Tra 
                     colline e vigneti, la zona è un susseguirsi di borghi medievali che meritano una sosta, a partire da <Link href='/destinazioni/piemonte/alba' className='text-decoration-none 
                     color_link'>Alba</Link>, anche detta la “città delle cento torri” per le sue fortificazioni, celebre in tutto il mondo per il suo pregiato tartufo bianco. A pochi chilometri, 
-                    si trova il <Link href='/visite/piemonte/alba/castello_di_serralunga' className='text-decoration-none color_link'>Castello di Serralunga d’Alba</Link> di epoca medievale. 
+                    si trova il <Link href='/visite/piemonte/serralunga_d_alba/castello_di_serralunga_d_alba' className='text-decoration-none color_link'>Castello di Serralunga d’Alba</Link> di epoca medievale. 
                     Proseguendo sulla stessa strada si trova il Castello Falletti di Barolo, da dove poter ammirare le colline dall’alto. Scendendo, non dimenticate una sosta all’Enoteca 
                     Regionale del <b>Barolo</b> per un calice di buon rosso. In luglio, a Barolo si tiene il Festival Collisioni, tra gli eventi musicali più affermati in Nord Italia. Se invece 
                     amate le zone più selvagge e incontaminate, l’<b>Alta Longa</b> è quella che fa per voi, con le sue colline brulle dove i vigneti lasciano il posto ai noccioleti. 
                   </p>
                   <p>
-                    Spostandovi nel <b>Roero</b>, vi consigliamo una visita al <Link href='/visite/piemonte/roero/castello_di_guarene' className='text-decoration-none color_link'>Castello di 
+                    Spostandovi nel <b>Roero</b>, vi consigliamo una visita al <Link href='/visite/piemonte/gurene/castello_di_guarene' className='text-decoration-none color_link'>Castello di 
                     Guarene</Link> e a <b>Bra</b>, famoso per essere il paese del formaggio oltre che la culla del barocco piemontese. Non perdete neppure le <b>Rocche del Roero</b>, canyon 
                     generatisi 250mila anni fa dalla deviazione del fiume Tanaro. Da qui il Grande sentiero del Roero, che segue la linea che da Bra porta a Cisterna d’Asti, permette di vivere 
                     un’esperienza naturalistica indimenticabile.

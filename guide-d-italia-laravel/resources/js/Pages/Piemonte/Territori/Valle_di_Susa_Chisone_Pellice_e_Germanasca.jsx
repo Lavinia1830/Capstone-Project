@@ -28,12 +28,11 @@ export default function Valle_di_Susa_Chisone_Pellice_e_Germanasca(props) {
             <p>
                 Molti <b>puristi</b> della <b>montagna</b> disdegnano le <b>valli</b> più prossime al capoluogo regionale per l’eccessiva <b>antropizzazione</b> e 
                 un’identità un po’ troppo <b>modaiola</b>, lontana dalle più <b>idilliche</b> sembianze dei territori confinanti. Tutto vero, e basta percorrere 
-                la <Link href='/montagna/piemonte/val_di_susa' className='text-decoration-none color_link'>Val Susa</Link> in autostrada fino
-                a <b>Bardonecchia</b> per rendersene conto. Ma per le stesse ragioni c’è invece chi si <b>innamorerà</b> di queste valli: la loro centralità 
-                nella <b>storia</b> ha lasciato in dote un <b>patrimonio</b> artistico <b>strabiliante</b>, che spazia da <b>capolavori</b> pittorici 
-                ad <b>architetture</b> militari e <b>superbi</b> edifici <b>sacri</b>; inoltre, la consolidata tradizione negli <b>sport invernali</b> e la 
-                presenza di ottime <b>infrastrutture</b> e <b>servizi</b>, potenziati con i XX <b>Giochi Olimpici</b> invernali del <b>2006</b>, accompagna 
-                l’inarrestabile <b>successo</b> di uno tra i più <b>imponenti comprensori</b> sciistici dell’intera Europa.<br/>
+                la <b>Val Susa</b> in autostrada fino a <b>Bardonecchia</b> per rendersene conto. Ma per le stesse ragioni c’è invece chi si <b>innamorerà</b> di 
+                queste valli: la loro centralità nella <b>storia</b> ha lasciato in dote un <b>patrimonio</b> artistico <b>strabiliante</b>, che spazia 
+                da <b>capolavori</b> pittorici ad <b>architetture</b> militari e <b>superbi</b> edifici <b>sacri</b>; inoltre, la consolidata tradizione 
+                negli <b>sport invernali</b> e la presenza di ottime <b>infrastrutture</b> e <b>servizi</b>, potenziati con i XX <b>Giochi Olimpici</b> invernali 
+                del <b>2006</b>, accompagna l’inarrestabile <b>successo</b> di uno tra i più <b>imponenti comprensori</b> sciistici dell’intera Europa.<br/>
                 E tutto questo non preclude la presenza di superbi <b>scenari naturali</b>, angoli <b>incontaminati</b>, <b>tradizioni secolari</b> e 
                 addirittura <b>istituzioni religiose</b> sopravvissute miracolosamente alle <b>persecuzioni</b> di secoli interi. In definitiva, se siete alla 
                 ricerca di un posto in cui ritirarvi per giorni in <b>contemplazione</b>, forse è meglio che guardiate due o tre valli più a sud; ma se dal 
@@ -42,17 +41,6 @@ export default function Valle_di_Susa_Chisone_Pellice_e_Germanasca(props) {
             </p>
           </div>
           <div className='row d-flex justify-content-center mx-0 mb-4'>
-            <Card className='col-sm-12 col-md-6 col-lg-4 px-0 card_Vds_c_p_e_g'>
-              <CardBody className='bottone'>
-                <Link 
-                className="bottone_link" 
-                href='/montagna/piemonte/val_di_susa'
-                onMouseEnter={() => setIsHoveredValdiSusa(true)}
-                onMouseLeave={() => setIsHoveredValdiSusa(false)}
-                >Val di Susa {isHoveredValdiSusa && <i className="bi bi-chevron-right"></i>}
-                </Link>
-              </CardBody>
-            </Card>
             <Card className='col-sm-12 col-md-6 col-lg-4 px-0 card_Vds_c_p_e_g'>
               <CardBody className='bottone'>
                 <Link 
@@ -79,10 +67,10 @@ export default function Valle_di_Susa_Chisone_Pellice_e_Germanasca(props) {
               <CardBody className='bottone'>
                 <Link 
                 className="bottone_link" 
-                href='/montagna/piemonte/val_germanasca'
+                href='/montagna/piemonte/valle_germanasca'
                 onMouseEnter={() => setIsHoveredGermanasca(true)}
                 onMouseLeave={() => setIsHoveredGermanasca(false)}
-                >Val Germanasca {isHoveredGermanasca && <i className="bi bi-chevron-right"></i>}
+                >Valle Germanasca {isHoveredGermanasca && <i className="bi bi-chevron-right"></i>}
                 </Link>
               </CardBody>
             </Card>
