@@ -3,396 +3,357 @@
         {
             "id": "1",
             "title": "Piemonte",
-            "url": "http://127.0.0.1:8000/piemonte",
-            "città":
-            [
-                {
-                    "id": "1.1",
-                    "title": "Torino",
-                    "url": "http://127.0.0.1:8000/destinazioni/piemonte/torino" ,
-                    "monumenti":
-                    [
-                        {
-                            "id": "1.1.1",
-                            "title": "Palazzo Reale",
-                            "url": "http://127.0.0.1:8000/visite/piemonte/torino/palazzo_reale",
-                            "sezioni":
-                            [
-                                {
-                                    "id": "1.1.1.1",
-                                    "title": "Palazzo reale, Armeria reale e Cappella della Sindone",
-                                    "url": "http://127.0.0.1:8000/visite/piemonte/torino/palazzo_reale/palazzo_reale_armeria_reale_e_cappella_della_sindone"
-                                },
-                                {
-                                    "id": "1.1.1.2",
-                                    "title": "Visita Archeologica",
-                                    "url": "http://127.0.0.1:8000/visite/piemonte/torino/palazzo_reale/visita_archeologica"
-                                },
-                                {
-                                    "id": "1.1.1.3",
-                                    "title": "Capolavori della Pittura",
-                                    "url": "http://127.0.0.1:8000/visite/piemonte/torino/palazzo_reale/capolavori_della_pittura"
-                                },
-                                {
-                                    "id": "1.1.1.4",
-                                    "title": "Visita completa",
-                                    "url": "http://127.0.0.1:8000/visite/piemonte/torino/palazzo_reale/visita_completa"
-                                },
-                                {
-                                    "id": "1.1.1.5",
-                                    "title": "Visita ai giardini",
-                                    "url": "http://127.0.0.1:8000/visite/piemonte/torino/palazzo_reale/visita_ai_giardini"
-                                }
-                            ]
-                        },
-                        {
-                            "id": "1.1.2",
-                            "title": "Museo Nazionale del cinema",
-                            "url": "http://127.0.0.1:8000/visite/piemonte/torino/museo_nazionale_del_cinema"
-                        },
-                        {
-                            "id": "1.1.3",
-                            "title": "Museo egizio",
-                            "url": "http://127.0.0.1:8000/visite/piemonte/torino/museo_egizio"
-                        },
-                        {
-                            "id": "1.1.4",
-                            "title": "Porta Palazzo e il Balôn",
-                            "url": "http://127.0.0.1:8000/visite/piemonte/torino/porta_palazzo_e_il_balôn"
-                        },
-                        {
-                            "id": "1.1.5",
-                            "title": "Palazzo Madama",
-                            "url": "http://127.0.0.1:8000/visite/piemonte/torino/palazzo_madama",
-                            "sezioni":
-                            [
-                                {
-                                    "id": "1.1.5.1",
-                                    "title": "Il Giardino Botanico Medievale",
-                                    "url": "http://127.0.0.1:8000/visite/piemonte/torino/palazzo_madama/giardino_botanico_medievale"
-                                }
-                                
-                            ]
-                        },
-                        {
-                            "id": "1.1.5",
-                            "title": "Po e Parco del Valentino",
-                            "url": "http://127.0.0.1:8000/visite/piemonte/torino/po_e_parco_del_valentino"
-                        },
-                        {
-                            "id": "1.1.6",
-                            "title": "Reggia di Venaria Reale",
-                            "url": "http://127.0.0.1:8000/visite/piemonte/torino/reggia_di_venaria_reale",
-                            "sezioni":
-                            [
-                                {
-                                    "id": "1.1.6.1",
-                                    "title": "La Reggia",
-                                    "url": "http://127.0.0.1:8000/visite/piemonte/torino/reggia_di_venaria_reale/la_reggia"
-                                },
-                                {
-                                    "id": "1.1.6.2",
-                                    "title": "Breve Storia",
-                                    "url": "http://127.0.0.1:8000/visite/piemonte/torino/reggia_di_venaria_reale/la_reggia/breve_storia",
-                                    "sezioni":
-                                    [
-                                        {
-                                            "id": "1.1.6.2.1",
-                                            "title": "Percorso Espositivo",
-                                            "url": "http://127.0.0.1:8000/visite/piemonte/torino/reggia_di_venaria_reale/la_reggia/percorso_espositivo"
-                                        },
-                                        {
-                                            "id": "1.1.6.2.2",
-                                            "title": "Arte Contemporanea",
-                                            "url": "http://127.0.0.1:8000/visite/piemonte/torino/reggia_di_venaria_reale/esplora/la_reggia/arte_contemporanea"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "id": "1.1.6.3",
-                                    "title": "Sala di diana",
-                                    "url": "http://127.0.0.1:8000/visite/piemonte/torino/reggia_di_venaria_reale/i_capolavori/sala_di_diana",
-                                    "sezioni":
-                                    [
-                                        {
-                                            "id": "1.1.6.3.1",
-                                            "title": "Galleria grande",
-                                            "url": "http://127.0.0.1:8000/visite/piemonte/torino/reggia_di_venaria_reale/i_capolavori/galleria_grande"
-                                        },
-                                        {
-                                            "id": "1.1.6.3.2",
-                                            "title": "Cappella di Sant'Umberto",
-                                            "url": "http://127.0.0.1:8000/visite/piemonte/torino/reggia_di_venaria_reale/i_capolavori/cappella_di_sant_uberto"
-                                        },
-                                        {
-                                            "id": "1.1.6.3.3",
-                                            "title": "Scuderie Juvarriane",
-                                            "url": "http://127.0.0.1:8000/visite/piemonte/torino/reggia_di_venaria_reale/i_capolavori/scuderie_juvarriane"
-                                        },
-                                        {
-                                            "id": "1.1.6.3.4",
-                                            "title": "Giardino delle Sculture Fluide",
-                                            "url": "http://127.0.0.1:8000/visite/piemonte/torino/reggia_di_venaria_reale/i_capolavori/giardino_delle_sculture_fluide"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "id": "1.1.6.4",
-                                    "title": "La Sacrestia Rinnovata",
-                                    "url": "http://127.0.0.1:8000/visite/piemonte/torino/reggia_di_venaria_reale/la_sacrestia_rinnovata"
-                                },
-                                {
-                                    "id": "1.1.6.5",
-                                    "title": "La Regia Scuderua, Il Bucintoro e le Carrozze Regali",
-                                    "url": "http://127.0.0.1:8000/visite/piemonte/torino/reggia_di_venaria_reale/la_regia_scuderia_il_bucintoro_e_le_carrozze_regali"
-                                },
-                                {
-                                    "id": "1.1.6.6",
-                                    "title": "La Carrozza di Napoleone alla Reggia di Venaria",
-                                    "url": "http://127.0.0.1:8000/visite/piemonte/torino/reggia_di_venaria_reale/la_carrozza_di_napoleone_alla_reggia_di_venaria"
-                                },
-                                {
-                                    "id": "1.1.6.7",
-                                    "title": "Ripopolare la Reggia di Peter Greenaway",
-                                    "url": "http://127.0.0.1:8000/visite/piemonte/torino/reggia_di_venaria_reale/ripopolare_la_reggia_di_peter_greenaway"
-                                },
-                                {
-                                    "id": "1.1.6.8",
-                                    "title": "Esposizione dal dipinto resturato di Palma il Giovane",
-                                    "url": "http://127.0.0.1:8000/visite/piemonte/torino/reggia_di_venaria_reale/esposizione_del_dipinto_restaurato_di_palma_il_giovane"
-                                },
-                                {
-                                    "id": "1.1.6.9",
-                                    "title": "Storyboard Paladino Reggia Venaria",
-                                    "url": "http://127.0.0.1:8000/visite/piemonte/torino/reggia_di_venaria_reale/esposizioni_permanenti/storyboard_paladino_reggia_venaria",
-                                    "sezioni":
-                                    [
-                                        {
-                                            "id": "1.1.6.9.1",
-                                            "title": "Dove le stelle si avvicinano di una spanna",
-                                            "url": "http://127.0.0.1:8000/visite/piemonte/torino/reggia_di_venaria_reale/esposizioni_permanenti/dove_stelle_si_avvicinano_spanna"
-                                        },
-                                        {
-                                            "id": "1.1.6.9.2",
-                                            "title": "Anafora di Giuseppe Penone",
-                                            "url": "http://127.0.0.1:8000/visite/piemonte/torino/reggia_di_venaria_reale/esposizioni_permanenti/anafora_di_giuseppe_penone"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "id": "1.1.6.10",
-                                    "title": "I Giardini",
-                                    "url": "http://127.0.0.1:8000/visite/piemonte/torino/reggia_di_venaria_reale/i_giardini",
-                                    "sezioni":
-                                    [
-                                        {
-                                            "id": "1.1.6.10.1",
-                                            "title": "Breve Storia",
-                                            "url": "http://127.0.0.1:8000/visite/piemonte/torino/reggia_di_venaria_reale/i_giardini/breve_storia"
-                                        },
-                                        {
-                                            "id": "1.1.6.10.2",
-                                            "title": "La Freccia di Diana, Il trenino dei Giardini",
-                                            "url": "http://127.0.0.1:8000/visite/piemonte/torino/reggia_di_venaria_reale/i_giardini/la_freccia_di_diana_il_trenino_dei_giardini"
-                                        },
-                                        {
-                                            "id": "1.1.6.10.3",
-                                            "title": "Parco Alto",
-                                            "url": "http://127.0.0.1:8000/visite/piemonte/torino/reggia_di_venaria_reale/i_giardini/parco_alto"
-                                        },
-                                        {
-                                            "id": "1.1.6.10.4",
-                                            "title": "Parco Basso",
-                                            "url": "http://127.0.0.1:8000/visite/piemonte/torino/reggia_di_venaria_reale/i_giardini/parco_basso"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "id": "1.1.6.11",
-                                    "title": "L'Hercole Colosso",
-                                    "url": "http://127.0.0.1:8000/visite/piemonte/torino/reggia_di_venaria_reale/l_hercole_colosso"
-                                },
-                                {
-                                    "id": "1.1.6.12",
-                                    "title": "La Fontana d'Ercole",
-                                    "url": "http://127.0.0.1:8000/visite/piemonte/torino/reggia_di_venaria_reale/la_fontana_d_ercole"
-                                },
-                                {
-                                    "id": "1.1.6.13",
-                                    "title": "Igloo di Mario Merz alla Reggia di Venaria",
-                                    "url": "http://127.0.0.1:8000/visite/piemonte/torino/reggia_di_venaria_reale/mostre/igloo_di_mario_merz_alla_reggia_di_venaria"
-                                },
-                                {
-                                    "id": "1.1.6.14",
-                                    "title": "Sinergie Esapodi",
-                                    "url": "http://127.0.0.1:8000/visite/piemonte/torino/reggia_di_venaria_reale/sinergie_esapodi"
-                                },
-                                {
-                                    "id": "1.1.6.15",
-                                    "title": "Il Castello della Mandria",
-                                    "url": "http://127.0.0.1:8000/visite/piemonte/torino/reggia_di_venaria_reale/castello_mandria",
-                                    "sezioni":
-                                    [
-                                        {
-                                            "id": "1.1.6.15.1",
-                                            "title": "Breve Storia del Castello Mandria",
-                                            "url": "http://127.0.0.1:8000/visite/piemonte/torino/reggia_di_venaria_reale/castello_mandria/breve_storia_castello_mandria"
-                                        },
-                                        {
-                                            "id": "1.1.6.15.2",
-                                            "title": "Il Parco della mandria",
-                                            "url": "http://127.0.0.1:8000/visite/piemonte/torino/reggia_di_venaria_reale/castello_mandria/il_parco_della_mandria"
-                                        },
-                                        {
-                                            "id": "1.1.6.15.3",
-                                            "title": "Gli Appartameti Reali",
-                                            "url": "http://127.0.0.1:8000/visite/piemonte/torino/reggia_di_venaria_reale/castello_mandria/appartamenti_reali"
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "id": "1.1.7",
-                            "title": "Monte dei Cappuccini",
-                            "url": "http://127.0.0.1:8000/visite/piemonte/torino/monte_dei_cappuccini"
-                        },
-                        {
-                            "id": "1.1.8",
-                            "title": "Ponte Vittorio Emanuele",
-                            "url": "http://127.0.0.1:8000/visite/piemonte/torino/ponte_vittorio_emanuele_i"
-                        },
-                        {
-                            "id": "1.1.9",
-                            "title": "Chiesa della Gran Madre",
-                            "url": "http://127.0.0.1:8000/visite/piemonte/torino/chiesa_della_gran_madre"
-                        },
-                        {
-                            "id": "1.1.10",
-                            "title": "Piazza San Carlo",
-                            "url": "http://127.0.0.1:8000/visite/piemonte/torino/piazza_san_carlo"
-                        },
-                        {
-                            "id": "1.1.11",
-                            "title": "Basilica di Superga",
-                            "url": "http://127.0.0.1:8000/visite/piemonte/torino/basilica_di_superga"
-                        },
-                        {
-                            "id": "1.1.12",
-                            "title": "Chiesa della Gran Maria di Dio",
-                            "url": "http://127.0.0.1:8000/visite/torino/chiesa_della_gran_maria_di_dio"
-                        },
-                        {
-                            "id": "1.1.13",
-                            "title": "Chiesa della Gran Maria di Dio",
-                            "url": "http://127.0.0.1:8000/visite/torino/chiesa_della_gran_maria_di_dio"
-                        },
-                        {
-                            "id": "1.1.14",
-                            "title": "Chiesa della Gran Maria di Dio",
-                            "url": "http://127.0.0.1:8000/visite/torino/chiesa_della_gran_maria_di_dio"
-                        },
-                        {
-                            "id": "1.1.15",
-                            "title": "Eataly",
-                            "url": "http://127.0.0.1:8000/visite/piemonte/torino/eataly"
-                        },
-                        {
-                            "id": "1.1.16",
-                            "title": "GAM",
-                            "url": "http://127.0.0.1:8000/visite/piemonte/torino/gam"
-                        },
-                        {
-                            "id": "1.1.17",
-                            "title": "Museo d'Arte Orientale",
-                            "url": "http://127.0.0.1:8000/visite/piemonte/torino/museo_d_arte_orientale"
-                        },
-                        {
-                            "id": "1.1.18",
-                            "title": "Murazzi",
-                            "url": "http://127.0.0.1:8000/visite/piemonte/torino/murazzi"
-                        },
-                        {
-                            "id": "1.1.19",
-                            "title": "Museo Nazionale del Risorgimento Italiano",
-                            "url": "http://127.0.0.1:8000/visite/piemonte/torino/museo_nazionale_del_risorgimento_italiano"
-                        },
-                        {
-                            "id": "1.1.20",
-                            "title": "Museo dell'Automobile",
-                            "url": "http://127.0.0.1:8000/visite/piemonte/torino/museo_dell_automobile"
-                        },
-                        {
-                            "id": "1.1.21",
-                            "title": "Museo della Sindone",
-                            "url": "http://127.0.0.1:8000/visite/piemonte/torino/museo_della_sindone"
-                        },
-                        {
-                            "id": "1.1.22",
-                            "title": "Quadrilatero Romano",
-                            "url": "http://127.0.0.1:8000/visite/piemonte/torino/quadrilateo_romano"
-                        },
-                    ]
-                },
-                {
-                    "id": "1.2",
-                    "title": "Il Nord e i laghi Maggiore e e d'Orta",
-                    "url": "http://127.0.0.1:8000/territori/piemonte/il_nord_e_i_laghi_maggiore_e_d_orta"
-                },
-                {
-                    "id": "1.3",
-                    "title": "Novara",
-                    "url": "http://127.0.0.1:8000/destinazioni/piemonte/novara",
-                    "monumenti":
-                    [
-                        {
-                            "id": "1.3.1",
-                            "title": "Cupula di San Gaudenzio",
-                            "url": "http://127.0.0.1:8000/visite/piemonte/novara/cupola_di_san_gaudenzio"
-                        },
-                        {
-                            "id": "1.3.2",
-                            "title": "Basilica di San Gaudenzio",
-                            "url": "http://127.0.0.1:8000/visite/piemonte/novara/basilica_di_san_gaudenzio"
-                        },
-                        {
-                            "id": "1.3.3",
-                            "title": "Cattedrale Santa Maria Assunta",
-                            "url": "http://127.0.0.1:8000/visite/piemonte/novara/cattedrale_santa_maria_assunta"
-                        },
-                        {
-                            "id": "1.3.4",
-                            "title": "Teatro Coccia",
-                            "url": "http://127.0.0.1:8000/visite/piemonte/novara/teatro_coccia"
-                        },
-                        {
-                            "id": "1.3.5",
-                            "title": "Piazza Martini",
-                            "url": "http://127.0.0.1:8000/visite/piemonte/novara/piazza_martini"
-                        },
-                        {
-                            "id": "1.3.6",
-                            "title": "Castello Visconteo Sforzesco",
-                            "url": "http://127.0.0.1:8000/visite/piemonte/novara/castello_visconteo_sforzesco"
-                        },
-                        {
-                            "id": "1.3.7",
-                            "title": "Palazzo del Mercato",
-                            "url": "http://127.0.0.1:8000/visite/piemonte/novara/palazzo_del_mercato"
-                        },
-                        {
-                            "id": "1.3.8",
-                            "title": "Il Broletto",
-                            "url": "http://127.0.0.1:8000/visite/piemonte/novara/broletto"
-                        },
-                        {
-                            "id": "1.3.9",
-                            "title": "Mura Romane",
-                            "url": "http://127.0.0.1:8000/visite/piemonte/novara/mura_romane"
-                        },
-                    ]
-                },
-            ]
+            "url": "http://127.0.0.1:8000/piemonte"
+        },
+        {
+            "id": "2",
+            "title": "Torino",
+            "url": "http://127.0.0.1:8000/destinazioni/piemonte/torino"
+        },
+        {
+            "id": "3",
+            "title": "Palazzo Reale",
+            "url": "http://127.0.0.1:8000/visite/piemonte/torino/palazzo_reale"
+        },
+        {
+            "id": "",
+            "title": "Palazzo reale, Armeria reale e Cappella della Sindone",
+            "url": "http://127.0.0.1:8000/visite/piemonte/torino/palazzo_reale/palazzo_reale_armeria_reale_e_cappella_della_sindone"
+        },
+        {
+            "id": "",
+            "title": "Visita Archeologica",
+            "url": "http://127.0.0.1:8000/visite/piemonte/torino/palazzo_reale/visita_archeologica"
+        },
+        {
+            "id": "",
+            "title": "Capolavori della Pittura",
+            "url": "http://127.0.0.1:8000/visite/piemonte/torino/palazzo_reale/capolavori_della_pittura"
+        },
+        {
+            "id": "",
+            "title": "Visita completa",
+            "url": "http://127.0.0.1:8000/visite/piemonte/torino/palazzo_reale/visita_completa"
+        },
+        {
+            "id": "",
+            "title": "Visita ai giardini",
+            "url": "http://127.0.0.1:8000/visite/piemonte/torino/palazzo_reale/visita_ai_giardini"
+        },
+        {
+            "id": "",
+            "title": "Museo Nazionale del cinema",
+            "url": "http://127.0.0.1:8000/visite/piemonte/torino/museo_nazionale_del_cinema"
+        },
+        {
+            "id": "",
+            "title": "Museo egizio",
+            "url": "http://127.0.0.1:8000/visite/piemonte/torino/museo_egizio"
+        },
+        {
+            "id": "",
+            "title": "Porta Palazzo e il Balôn",
+            "url": "http://127.0.0.1:8000/visite/piemonte/torino/porta_palazzo_e_il_balôn"
+        },
+        {
+            "id": "",
+            "title": "Palazzo Madama",
+            "url": "http://127.0.0.1:8000/visite/piemonte/torino/palazzo_madama"
+        },
+        {
+            "id": "",
+            "title": "Il Giardino Botanico Medievale",
+            "url": "http://127.0.0.1:8000/visite/piemonte/torino/palazzo_madama/giardino_botanico_medievale"
+        },
+        {
+            "id": "",
+            "title": "Duomo di San Giovanni",
+            "url": "http://127.0.0.1:8000/visite/piemonte/torino/duomo_di_san_giovanni"
+        },
+        {
+            "id": "",
+            "title": "Po e Parco del Valentino",
+            "url": "http://127.0.0.1:8000/visite/piemonte/torino/po_e_parco_del_valentino"
+        },
+        {
+            "id": "",
+            "title": "Reggia di Venaria Reale",
+            "url": "http://127.0.0.1:8000/visite/piemonte/torino/reggia_di_venaria_reale"
+        },
+        {
+            "id": "",
+            "title": "La Reggia",
+            "url": "http://127.0.0.1:8000/visite/piemonte/torino/reggia_di_venaria_reale/la_reggia"
+        },
+        {
+            "id": "",
+            "title": "Breve Storia",
+            "url": "http://127.0.0.1:8000/visite/piemonte/torino/reggia_di_venaria_reale/la_reggia/breve_storia"
+        },
+        {
+            "id": "",
+            "title": "Percorso Espositivo",
+            "url": "http://127.0.0.1:8000/visite/piemonte/torino/reggia_di_venaria_reale/la_reggia/percorso_espositivo"
+        },
+        {
+            "id": "",
+            "title": "Arte Contemporanea",
+            "url": "http://127.0.0.1:8000/visite/piemonte/torino/reggia_di_venaria_reale/esplora/la_reggia/arte_contemporanea"
+        },
+        {
+            "id": "",
+            "title": "Sala di diana",
+            "url": "http://127.0.0.1:8000/visite/piemonte/torino/reggia_di_venaria_reale/i_capolavori/sala_di_diana"
+        },
+        {
+            "id": "",
+            "title": "Galleria grande",
+            "url": "http://127.0.0.1:8000/visite/piemonte/torino/reggia_di_venaria_reale/i_capolavori/galleria_grande"
+        },
+        {
+            "id": "",
+            "title": "Cappella di Sant'Umberto",
+            "url": "http://127.0.0.1:8000/visite/piemonte/torino/reggia_di_venaria_reale/i_capolavori/cappella_di_sant_uberto"
+        },
+        {
+            "id": "",
+            "title": "Scuderie Juvarriane",
+            "url": "http://127.0.0.1:8000/visite/piemonte/torino/reggia_di_venaria_reale/i_capolavori/scuderie_juvarriane"
+        },
+        {
+            "id": "",
+            "title": "La Sacrestia Rinnovata",
+            "url": "http://127.0.0.1:8000/visite/piemonte/torino/reggia_di_venaria_reale/la_sacrestia_rinnovata"
+        },
+        {
+            "id": "",
+            "title": "La Regia Scuderua, Il Bucintoro e le Carrozze Regali",
+            "url": "http://127.0.0.1:8000/visite/piemonte/torino/reggia_di_venaria_reale/la_regia_scuderia_il_bucintoro_e_le_carrozze_regali"
+        },
+        {
+            "id": "",
+            "title": "La Carrozza di Napoleone alla Reggia di Venaria",
+            "url": "http://127.0.0.1:8000/visite/piemonte/torino/reggia_di_venaria_reale/la_carrozza_di_napoleone_alla_reggia_di_venaria"
+        },
+        {
+            "id": "",
+            "title": "Ripopolare la Reggia di Peter Greenaway",
+            "url": "http://127.0.0.1:8000/visite/piemonte/torino/reggia_di_venaria_reale/ripopolare_la_reggia_di_peter_greenaway"
+        },
+        {
+            "id": "",
+            "title": "Esposizione dal dipinto resturato di Palma il Giovane",
+            "url": "http://127.0.0.1:8000/visite/piemonte/torino/reggia_di_venaria_reale/esposizione_del_dipinto_restaurato_di_palma_il_giovane"
+        },
+        {
+            "id": "",
+            "title": "Storyboard Paladino Reggia Venaria",
+            "url": "http://127.0.0.1:8000/visite/piemonte/torino/reggia_di_venaria_reale/esposizioni_permanenti/storyboard_paladino_reggia_venaria"
+        },
+        {
+            "id": "",
+            "title": "Dove le stelle si avvicinano di una spanna",
+            "url": "http://127.0.0.1:8000/visite/piemonte/torino/reggia_di_venaria_reale/esposizioni_permanenti/dove_stelle_si_avvicinano_spanna"
+        },
+        {
+            "id": "",
+            "title": "Giardino delle Sculture Fluide",
+            "url": "http://127.0.0.1:8000/visite/piemonte/torino/reggia_di_venaria_reale/i_capolavori/giardino_delle_sculture_fluide"
+        },
+        {
+            "id": "",
+            "title": "Anafora di Giuseppe Penone",
+            "url": "http://127.0.0.1:8000/visite/piemonte/torino/reggia_di_venaria_reale/esposizioni_permanenti/anafora_di_giuseppe_penone"
+        },
+        {
+            "id": "",
+            "title": "I Giardini",
+            "url": "http://127.0.0.1:8000/visite/piemonte/torino/reggia_di_venaria_reale/i_giardini"
+        },
+        {
+            "id": "",
+            "title": "Breve Storia",
+            "url": "http://127.0.0.1:8000/visite/piemonte/torino/reggia_di_venaria_reale/i_giardini/breve_storia"
+        },
+        {
+            "id": "",
+            "title": "La Freccia di Diana, Il trenino dei Giardini",
+            "url": "http://127.0.0.1:8000/visite/piemonte/torino/reggia_di_venaria_reale/i_giardini/la_freccia_di_diana_il_trenino_dei_giardini"
+        },
+        {
+            "id": "",
+            "title": "Parco Alto",
+            "url": "http://127.0.0.1:8000/visite/piemonte/torino/reggia_di_venaria_reale/i_giardini/parco_alto"
+        },
+        {
+            "id": "",
+            "title": "Parco Basso",
+            "url": "http://127.0.0.1:8000/visite/piemonte/torino/reggia_di_venaria_reale/i_giardini/parco_basso"
+        },
+        {
+            "id": "",
+            "title": "L'Hercole Colosso",
+            "url": "http://127.0.0.1:8000/visite/piemonte/torino/reggia_di_venaria_reale/l_hercole_colosso"
+        },
+        {
+            "id": "",
+            "title": "La Fontana d'Ercole",
+            "url": "http://127.0.0.1:8000/visite/piemonte/torino/reggia_di_venaria_reale/la_fontana_d_ercole"
+        },
+        {
+            "id": "",
+            "title": "Igloo di Mario Merz alla Reggia di Venaria",
+            "url": "http://127.0.0.1:8000/visite/piemonte/torino/reggia_di_venaria_reale/mostre/igloo_di_mario_merz_alla_reggia_di_venaria"
+        },
+        {
+            "id": "",
+            "title": "Sinergie Esapodi",
+            "url": "http://127.0.0.1:8000/visite/piemonte/torino/reggia_di_venaria_reale/sinergie_esapodi"
+        },
+        {
+            "id": "",
+            "title": "Il Castello della Mandria",
+            "url": "http://127.0.0.1:8000/visite/piemonte/torino/reggia_di_venaria_reale/castello_mandria"
+        },
+        {
+            "id": "",
+            "title": "Breve Storia del Castello Mandria",
+            "url": "http://127.0.0.1:8000/visite/piemonte/torino/reggia_di_venaria_reale/castello_mandria/breve_storia_castello_mandria"
+        },
+        {
+            "id": "",
+            "title": "Il Parco della mandria",
+            "url": "http://127.0.0.1:8000/visite/piemonte/torino/reggia_di_venaria_reale/castello_mandria/il_parco_della_mandria"
+        },
+        {
+            "id": "",
+            "title": "Gli Appartameti Reali",
+            "url": "http://127.0.0.1:8000/visite/piemonte/torino/reggia_di_venaria_reale/castello_mandria/appartamenti_reali"
+        },
+        {
+            "id": "",
+            "title": "Monte dei Cappuccini",
+            "url": "http://127.0.0.1:8000/visite/piemonte/torino/monte_dei_cappuccini"
+        },
+        {
+            "id": "",
+            "title": "Ponte Vittorio Emanuele",
+            "url": "http://127.0.0.1:8000/visite/piemonte/torino/ponte_vittorio_emanuele_i"
+        },
+        {
+            "id": "",
+            "title": "Chiesa della Gran Madre",
+            "url": "http://127.0.0.1:8000/visite/piemonte/torino/chiesa_della_gran_madre"
+        },
+        {
+            "id": "",
+            "title": "Piazza San Carlo",
+            "url": "http://127.0.0.1:8000/visite/piemonte/torino/piazza_san_carlo"
+        },
+        {
+            "id": "",
+            "title": "Basilica di Superga",
+            "url": "http://127.0.0.1:8000/visite/piemonte/torino/basilica_di_superga"
+        },
+        {
+            "id": "",
+            "title": "Chiesa della Gran Maria di Dio",
+            "url": "http://127.0.0.1:8000/visite/torino/chiesa_della_gran_maria_di_dio"
+        },
+        {
+            "id": "",
+            "title": "Eataly",
+            "url": "http://127.0.0.1:8000/visite/piemonte/torino/eataly"
+        },
+        {
+            "id": "",
+            "title": "GAM",
+            "url": "http://127.0.0.1:8000/visite/piemonte/torino/gam"
+        },
+        {
+            "id": "",
+            "title": "Museo d'Arte Orientale",
+            "url": "http://127.0.0.1:8000/visite/piemonte/torino/museo_d_arte_orientale"
+        },
+        {
+            "id": "",
+            "title": "Murazzi",
+            "url": "http://127.0.0.1:8000/visite/piemonte/torino/murazzi"
+        },
+        {
+            "id": "",
+            "title": "Museo Nazionale del Risorgimento Italiano",
+            "url": "http://127.0.0.1:8000/visite/piemonte/torino/museo_nazionale_del_risorgimento_italiano"
+        },
+        {
+            "id": "",
+            "title": "Museo dell'Automobile",
+            "url": "http://127.0.0.1:8000/visite/piemonte/torino/museo_dell_automobile"
+        },
+        {
+            "id": "",
+            "title": "Museo della Sindone",
+            "url": "http://127.0.0.1:8000/visite/piemonte/torino/museo_della_sindone"
+        },
+        {
+            "id": "",
+            "title": "Quadrilatero Romano",
+            "url": "http://127.0.0.1:8000/visite/piemonte/torino/quadrilateo_romano"
+        },
+        {
+            "id": "",
+            "title": "Il Nord e i laghi Maggiore e e d'Orta",
+            "url": "http://127.0.0.1:8000/territori/piemonte/il_nord_e_i_laghi_maggiore_e_d_orta"
+        },
+        {
+            "id": "",
+            "title": "Novara",
+            "url": "http://127.0.0.1:8000/destinazioni/piemonte/novara"
+        },
+        {
+            "id": "",
+            "title": "Cupula di San Gaudenzio",
+            "url": "http://127.0.0.1:8000/visite/piemonte/novara/cupola_di_san_gaudenzio"
+        },
+        {
+            "id": "",
+            "title": "Basilica di San Gaudenzio",
+            "url": "http://127.0.0.1:8000/visite/piemonte/novara/basilica_di_san_gaudenzio"
+        },
+        {
+            "id": "",
+            "title": "Cattedrale Santa Maria Assunta",
+            "url": "http://127.0.0.1:8000/visite/piemonte/novara/cattedrale_santa_maria_assunta"
+        },
+        {
+            "id": "",
+            "title": "Teatro Coccia",
+            "url": "http://127.0.0.1:8000/visite/piemonte/novara/teatro_coccia"
+        },
+        {
+            "id": "",
+            "title": "Piazza Martini",
+            "url": "http://127.0.0.1:8000/visite/piemonte/novara/piazza_martini"
+        },
+        {
+            "id": "",
+            "title": "Castello Visconteo Sforzesco",
+            "url": "http://127.0.0.1:8000/visite/piemonte/novara/castello_visconteo_sforzesco"
+        },
+        {
+            "id": "",
+            "title": "Palazzo del Mercato",
+            "url": "http://127.0.0.1:8000/visite/piemonte/novara/palazzo_del_mercato"
+        },
+        {
+            "id": "",
+            "title": "Chiesa di San Pietro al Rosario",
+            "url": "http://127.0.0.1:8000/visite/piemonte/novara/chiesa_di_san_pietro_al_rosario"
+        },
+        {
+            "id": "",
+            "title": "Il Broletto",
+            "url": "http://127.0.0.1:8000/visite/piemonte/novara/broletto"
         },
         {
             "id": "",
@@ -541,6 +502,11 @@
         },
         {
             "id": "",
+            "title": "Fiume Po",
+            "url": "http://127.0.0.1:8000/fiumi/fiume_po"
+        },
+        {
+            "id": "",
             "title": "Castello di Agliè",
             "url": "http://127.0.0.1:8000/visite/piemonte/agliè/castello_di_agliè"
         },
@@ -551,7 +517,7 @@
         },
         {
             "id": "",
-            "title": "Castello di Masino",
+            "title": "Cuneo",
             "url": "http://127.0.0.1:8000/destinazioni/piemonte/cuneo"
         },
         {
@@ -736,7 +702,7 @@
         },
         {
             "id": "",
-            "title": "Castello della Contessa Adelaide",
+            "title": "Forte di Fenestrelle",
             "url": "http://127.0.0.1:8000/visite/piemonte/valle_di_susa/forte_di_fenestrelle"
         },
         {
@@ -776,8 +742,63 @@
         },
         {
             "id": "",
-           "title": "Langhe e Roero",
+            "title": "Langhe e Roero",
             "url": "http://127.0.0.1:8000/territori/piemonte/langhe_e_roero"
+        },
+        {
+            "id": "",
+            "title": "Alba",
+            "url": "http://127.0.0.1:8000/destinazioni/piemonte/alba"
+        },
+        {
+            "id": "",
+            "title": "Cattedrale di San Lorenzo",
+            "url": "http://127.0.0.1:8000/visite/piemonte/alba/cattedrale_di_san_lorenzo"
+        },
+        {
+            "id": "",
+            "title": "Chiesa della Maddalena",
+            "url": "http://127.0.0.1:8000/visite/piemonte/alba/chiesa_della_maddalena"
+        },
+        {
+            "id": "",
+            "title": "Palazzo Comunale",
+            "url": "http://127.0.0.1:8000/visite/piemonte/alba/palazzo_comunale"
+        },
+        {
+            "id": "",
+            "title": "Le Torri",
+            "url": "http://127.0.0.1:8000/visite/piemonte/alba/le_torri"
+        },
+        {
+            "id": "",
+            "title": "Alba Sotterranea",
+            "url": "http://127.0.0.1:8000/visite/piemonte/alba/alba_sotterranea"
+        },
+        {
+            "id": "",
+            "title": "Chiesa di San Domenico",
+            "url": "http://127.0.0.1:8000/visite/piemonte/alba/chiesa_di_san_domenico"
+        },
+        {
+            "id": "",
+            "title": "Chiesa di San Giuseppe",
+            "url": "http://127.0.0.1:8000/visite/piemonte/alba/chiesa_di_san_giuseppe"
+        },
+        {
+            "id": "",
+            "title": "Casa Fenoglio",
+            "url": "http://127.0.0.1:8000/visite/piemonte/alba/casa_fenoglio"
+        },
+        {
+            "id": "",
+            "title": "Castello di Serralunga d'Alba",
+            "url": "http://127.0.0.1:8000/visite/piemonte/serralunga_d_alba/castello_di_serralunga_d_alba"
+        },
+        {
+            "id": "",
+            "title": "Castello di Guarene",
+            "url": "http://127.0.0.1:8000/visite/piemonte/gurene/castello_di_guarene"
         },
         {
             "id": "18",

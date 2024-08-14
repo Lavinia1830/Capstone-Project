@@ -506,18 +506,6 @@ Route::get('/home', function () {
                 Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/esposizioni_permanenti/anafora_di_giuseppe_penone', function () {
                     return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Anafora_di_Giuseppe_Penone');
                 })->middleware(['auth', 'verified'])->name('anafora_di_giuseppe_penone');
-                
-                /* Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/la_reggia/arte_contemporanea', function () {
-                    return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Arte_Contemporanea');
-                })->middleware(['auth', 'verified'])->name('arte_contemporanea'); */
-
-                /* Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/passaporto_culturale', function () {
-                    return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Passaporto_Culturale');
-                })->middleware(['auth', 'verified'])->name('passaporto_culturale');
-
-                Route::get('/visite/piemonte/torino/reggia_di_venaria_reale/impara_con_la_venaria_reale', function () {
-                    return Inertia::render('Piemonte/Visite/Reggia_di_Venaria_Reale/Impara_con_La_Venaria_Reale');
-                })->middleware(['auth', 'verified'])->name('impara_con_la_venaria_reale'); */
             
             /*Fine La Reggia*/
 
@@ -860,10 +848,6 @@ Route::get('/home', function () {
         Route::get('/territori/piemonte/cuneo/langhe', function () {
             return Inertia::render('Piemonte/Territori/Langhe');
         })->middleware(['auth', 'verified'])->name('langhe');
-
-        Route::get('/enogastronomia/piemonte/cueno/tartufo_bianco', function () {
-            return Inertia::render('Enogastronomia/Tartufo_Bianco');
-        })->middleware(['auth', 'verified'])->name('tartufo_bianco');
 
         Route::get('/enogastronomia/piemonte/cueno/tartufo_bianco', function () {
             return Inertia::render('Enogastronomia/Tartufo_Bianco');
