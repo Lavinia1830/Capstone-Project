@@ -72,7 +72,7 @@ export default function Palazzo_Madama(props) {
                     </Card>
                     <Card className='col-sm-12 col-md-6 col-lg-4 px-0 card_Palazzo_Madama d-flex'>
                         <CardTitle>
-                            <h3 className='text-light text-center mt-3'>Barocco</h3>
+                            <h3 className='text-light text-center mt-3'>Arti Decorative</h3>
                         </CardTitle>
                         <CardBody className='align-content-center'>
                             <p className='fst-italic text-light'>Piano 2</p>

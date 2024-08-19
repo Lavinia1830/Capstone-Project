@@ -21,7 +21,7 @@ export default function Pianura_Padana(props) {
                         <p>
                             La <strong>Pianura Padana</strong>, anche nota come <b>Val Padana</b> o <b>Valle del Po</b>, è una vasta regione pianeggiante situata nel <b>nord 
                             Italia</b>. È delimitata dalle <b>Alpi</b> a nord e ad ovest, dagli <b>Appennini</b> a sud, e dal <b>Mar Adriatico</b> a est. La Pianura Padana è 
-                            attraversata dal <Link href='/fiumi/piemonte/po' className='text-decoration-none color_link'>fiume Po</Link>, il fiume più lungo d'Italia, e dai 
+                            attraversata dal <Link href='/fiumi/fiume_po' className='text-decoration-none color_link'>fiume Po</Link>, il fiume più lungo d'Italia, e dai 
                             suoi numerosi <b>affluenti</b>.
                         </p>
                         <p>

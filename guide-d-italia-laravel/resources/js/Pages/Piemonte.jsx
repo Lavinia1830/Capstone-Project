@@ -151,7 +151,7 @@ export default function Piemonte(props) {
                         <CardBody className='bottone'>
                             <Link 
                                 className="bottone_link" 
-                                href='/territori/piemonte/val_susa_chisone_pallice_germanasca'
+                                href='/territori/piemonte/valle_di_susa_chisone_pallice_germanasca'
                                 onMouseEnter={() => setIsHoveredVSCPG(true)}
                                 onMouseLeave={() => setIsHoveredVSCPG(false)}
                                 >Valle di Susa, Chisone, Pellise... {isHoveredVSCPG && <i className="bi bi-chevron-right"></i>}

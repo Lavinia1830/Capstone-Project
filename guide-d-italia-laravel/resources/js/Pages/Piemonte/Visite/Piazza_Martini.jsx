@@ -36,8 +36,8 @@ export default function Piazza_Martini(props) {
                         <p>
                             Oggi, <strong>Piazza Martiri della Libertà</strong> è un luogo di <b>incontro</b> e <b>socializzazione</b> per i cittadini di Novara 
                             e ospita numerosi <b>eventi culturali</b> e <b>mercati</b>. Tra gli edifici di rilievo che si affacciano sulla piazza ci sono 
-                            il <Link href='/visite/piemonte/novara/teatro_coccia' className='text-decoration-none color_link'>Teatro Coccia</Link>, la <b>Chiesa 
-                            di San Pietro al Rosario</b> e il <b>Palazzo del Mercato</b>.
+                            il <Link href='/visite/piemonte/novara/teatro_coccia' className='text-decoration-none color_link'>Teatro Coccia</Link>, 
+                            la <Link href='/visite/piemonte/novara/chiesa_di_san_pietro_al_rosario' className='text-decoration-none color_link'>Chiesa di San Pietro al Rosario</Link> e il <Link href='/visite/piemonte/novara/palazzo_del_mercato' className='text-decoration-none color_link'>Palazzo del Mercato</Link>.
                         </p>
                         <p>
                             La piazza rappresenta quindi un <b>simbolo</b> della storia e dell'evoluzione di Novara, combinando <b>tradizione</b> e <b>modernità </b> 

@@ -20,14 +20,23 @@ export default function Po_e_Parco_del_Valentino(props) {
                 </div>
                 <div className="margin mt-3">
                     <p>
-                        Un grande fiume, circa 500.000 mq di verde che lo circondano: è la più grande e amata area naturalistica della città. Disegnato nell’Ottocento dal paesaggista Barillet-Deschamps, oggi il Valentino è la versione sabauda di Central Park: a qualsiasi ora del giorno, fino 
-                        al tramonto, vi troverete jogger, innamorati, ciclisti, roller, skater, torinesi e stranieri che si riposano e giocano a pallone. Una bella passeggiata su questi argini è un must che chi visita Torino non può perdere.
+                        <b>Un grande fiume</b>, circa <b>500.000 mq di verde</b> che lo circondano: è la <b>più grande e amata area naturalistica</b> della città. 
+                        Disegnato nell’Ottocento dal paesaggista <b>Barillet-Deschamps</b>, oggi il Valentino è la versione sabauda di <b>Central Park</b>: a qualsiasi 
+                        ora del giorno, fino al tramonto, vi troverete <b>jogger</b>, <b>innamorati</b>, <b>ciclisti</b>, <b>roller</b>, <b>skater</b>, torinesi e 
+                        stranieri che si riposano e giocano a pallone. Una bella passeggiata su questi <b>argini</b> è un <b>must</b> che chi visita Torino non può 
+                        perdere.
                     </p>
                     <p>
-                        Lungo le rive del fiume Po, uno dei parchi più antichi di <Link href='/destinazioni/piemonte/torino' className='text-decoration-none color_link'>Torino</Link> dove godersi aria fresca, passeggiare all’aperto, a piedi o in bicicletta, lontani dal caos cittadino. Il parco vanta 
-                        un notevole patrimonio floristico e arboreo, con circa 1800 alberi ad alto fusto e una ricca avifauna, con tante specie di uccelli locali che ben si adattano all’habitat fluviale come aironi e germani reali. Non solo natura, all’interno dell’area verde si trova il Borgo Medievale 
-                        realizzato per valorizzare e diffondere le antiche tradizioni storiche e culturali piemontesi, abitazioni, vie e statue tra cui quelle dedicate a Massimo D’Azeglio e Cesare Battisti, fontane come la Fontana dei dodici mesi con una grande vasca in stile rococò, e il caratteristico 
-                        Giardino Roccioso con le stradine lastricate, i ruscelli e i giochi d’acqua. Sarà possibile fare una sosta ad uno dei tanti bar e locali o salire sul battello per navigare il Po. Nel Parco inoltre si svolgono diverse iniziative, eventi e spettacoli di intrattenimento.
+                        Lungo le rive del <Link href='/fiumi/fiume_po' className='text-decoration-none color_link'>fiume Po</Link>, uno dei <b>parchi più 
+                        antichi</b> di <Link href='/destinazioni/piemonte/torino' className='text-decoration-none color_link'>Torino</Link> dove godersi <b>aria 
+                        fresca</b>, passeggiare <b>all’aperto</b>, a piedi o in bicicletta, lontani dal <b>caos cittadino</b>. Il parco vanta un <b>notevole patrimonio 
+                        floristico e arboreo</b>, con circa <b>1800 alberi ad alto fusto</b> e una <b>ricca avifauna</b>, con tante specie di uccelli locali che ben si 
+                        adattano all’habitat fluviale come <b>aironi e germani reali</b>. Non solo natura, all’interno dell’area verde si trova il <b>Borgo 
+                        Medievale</b> realizzato per valorizzare e diffondere le <b>antiche tradizioni storiche e culturali piemontesi</b>, abitazioni, vie e statue tra 
+                        cui quelle dedicate a <b>Massimo D’Azeglio</b> e <b>Cesare Battisti</b>, fontane come la <b>Fontana dei dodici mesi</b> con una grande vasca in 
+                        stile rococò, e il caratteristico <b>Giardino Roccioso</b> con le stradine lastricate, i ruscelli e i giochi d’acqua. Sarà possibile fare una 
+                        sosta ad uno dei tanti <b>bar e locali</b> o salire sul <b>battello per navigare il Po</b>. Nel <b>Parco</b> inoltre si svolgono 
+                        diverse <b>iniziative</b>, <b>eventi e spettacoli di intrattenimento</b>.
                     </p>
                 </div>
                 <div className='margin mb-4'>

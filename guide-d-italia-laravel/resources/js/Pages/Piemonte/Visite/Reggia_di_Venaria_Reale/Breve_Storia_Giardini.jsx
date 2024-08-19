@@ -27,7 +27,7 @@ export default function Breve_Storia_Giardini(props) {
                         <p>
                             I Giardini della Reggia sono oggi diventati uno <b>stretto connubio tra antico e moderno</b>, un dialogo virtuoso tra insediamenti archeologici e opere contemporanee. La monumentale <Link href='/visite/piemonte/torino/reggia_di_venaria_reale/l_hercole_colosso' 
                             className='text-decoration-none color_link'>statua dell’Hercole Colosso</Link>, originariamente posizionata all’interno della Fontana dell’Ercole, dialoga con le opere  di noti artisti contemporanei come <Link href='/visite/piemonte/torino/reggia_di_venaria_reale/i_capolavori/giardino_delle_sculture_fluide' 
-                            className='text-decoration-none color_link'>Giuseppe Penone</Link> e <Link href='/visite/piemonte/torino/reggia_di_venaria_reale/la_reggia/arte_contemporanea' className='text-decoration-none color_link'>Giovanni Anselmo</Link>, il tutto incorniciato in un'incomparabile visione all'infinito che non ha riscontri 
+                            className='text-decoration-none color_link'>Giuseppe Penone</Link> e <Link href='/visite/piemonte/torino/reggia_di_venaria_reale/esplora/la_reggia/arte_contemporanea' className='text-decoration-none color_link'>Giovanni Anselmo</Link>, il tutto incorniciato in un'incomparabile visione all'infinito che non ha riscontri 
                             analoghi fra i giardini italiani per la magnificenza delle prospettive e la vastità del panorama naturale circondato dai boschi del Parco della Mandria e dalla catena montuosa delle Alpi.
                         </p>
                         <p>

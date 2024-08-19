@@ -1,17 +1,17 @@
 {
     "search": [
         {
-            "id": "",
+            "id": "1",
             "title": "Piemonte",
             "url": "http://127.0.0.1:8000/piemonte"
         },
         {
-            "id": "",
+            "id": "2",
             "title": "Torino",
             "url": "http://127.0.0.1:8000/destinazioni/piemonte/torino"
         },
         {
-            "id": "1",
+            "id": "3",
             "title": "Palazzo Reale",
             "url": "http://127.0.0.1:8000/visite/piemonte/torino/palazzo_reale"
         },
@@ -347,6 +347,11 @@
         },
         {
             "id": "",
+            "title": "Chiesa di San Pietro al Rosario",
+            "url": "http://127.0.0.1:8000/visite/piemonte/novara/chiesa_di_san_pietro_al_rosario"
+        },
+        {
+            "id": "",
             "title": "Il Broletto",
             "url": "http://127.0.0.1:8000/visite/piemonte/novara/broletto"
         },
@@ -497,6 +502,11 @@
         },
         {
             "id": "",
+            "title": "Fiume Po",
+            "url": "http://127.0.0.1:8000/fiumi/fiume_po"
+        },
+        {
+            "id": "",
             "title": "Castello di Agliè",
             "url": "http://127.0.0.1:8000/visite/piemonte/agliè/castello_di_agliè"
         },
@@ -507,7 +517,7 @@
         },
         {
             "id": "",
-            "title": "Castello di Masino",
+            "title": "Cuneo",
             "url": "http://127.0.0.1:8000/destinazioni/piemonte/cuneo"
         },
         {
@@ -692,7 +702,7 @@
         },
         {
             "id": "",
-            "title": "Castello della Contessa Adelaide",
+            "title": "Forte di Fenestrelle",
             "url": "http://127.0.0.1:8000/visite/piemonte/valle_di_susa/forte_di_fenestrelle"
         },
         {
@@ -734,6 +744,61 @@
             "id": "",
             "title": "Langhe e Roero",
             "url": "http://127.0.0.1:8000/territori/piemonte/langhe_e_roero"
+        },
+        {
+            "id": "",
+            "title": "Alba",
+            "url": "http://127.0.0.1:8000/destinazioni/piemonte/alba"
+        },
+        {
+            "id": "",
+            "title": "Cattedrale di San Lorenzo",
+            "url": "http://127.0.0.1:8000/visite/piemonte/alba/cattedrale_di_san_lorenzo"
+        },
+        {
+            "id": "",
+            "title": "Chiesa della Maddalena",
+            "url": "http://127.0.0.1:8000/visite/piemonte/alba/chiesa_della_maddalena"
+        },
+        {
+            "id": "",
+            "title": "Palazzo Comunale",
+            "url": "http://127.0.0.1:8000/visite/piemonte/alba/palazzo_comunale"
+        },
+        {
+            "id": "",
+            "title": "Le Torri",
+            "url": "http://127.0.0.1:8000/visite/piemonte/alba/le_torri"
+        },
+        {
+            "id": "",
+            "title": "Alba Sotterranea",
+            "url": "http://127.0.0.1:8000/visite/piemonte/alba/alba_sotterranea"
+        },
+        {
+            "id": "",
+            "title": "Chiesa di San Domenico",
+            "url": "http://127.0.0.1:8000/visite/piemonte/alba/chiesa_di_san_domenico"
+        },
+        {
+            "id": "",
+            "title": "Chiesa di San Giuseppe",
+            "url": "http://127.0.0.1:8000/visite/piemonte/alba/chiesa_di_san_giuseppe"
+        },
+        {
+            "id": "",
+            "title": "Casa Fenoglio",
+            "url": "http://127.0.0.1:8000/visite/piemonte/alba/casa_fenoglio"
+        },
+        {
+            "id": "",
+            "title": "Castello di Serralunga d'Alba",
+            "url": "http://127.0.0.1:8000/visite/piemonte/serralunga_d_alba/castello_di_serralunga_d_alba"
+        },
+        {
+            "id": "",
+            "title": "Castello di Guarene",
+            "url": "http://127.0.0.1:8000/visite/piemonte/gurene/castello_di_guarene"
         },
         {
             "id": "18",

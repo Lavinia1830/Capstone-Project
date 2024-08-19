@@ -65,7 +65,7 @@ export default function Alba(props) {
                             <CardBody className='bottone'>
                             <Link 
                             className="bottone_link" 
-                            href='/visite/piemonte/alba/il_palazzo_conumale'
+                            href='/visite/piemonte/alba/palazzo_comunale'
                             onMouseEnter={() => setIsHoveredIlPalazzoComunale(true)}
                             onMouseLeave={() => setIsHoveredIlPalazzoComunale(false)}
                             >Il Palazzo Comunale {isHoveredIlPalazzoComunale && <i className="bi bi-chevron-right"></i>}
@@ -76,7 +76,7 @@ export default function Alba(props) {
                             <CardBody className='bottone'>
                             <Link 
                                 className="bottone_link" 
-                                href='/visite/piemonte/albe/le_torri'
+                                href='/visite/piemonte/alba/le_torri'
                                 onMouseEnter={() => setIsHoveredLetorri(true)}
                                 onMouseLeave={() => setIsHoveredLetorri(false)}
                             >Le torri {isHoveredLetorri && <i className="bi bi-chevron-right"></i>}
@@ -87,7 +87,7 @@ export default function Alba(props) {
                             <CardBody className='bottone'>
                             <Link 
                                 className="bottone_link" 
-                                href='/visite/piemonte/albe/alba_sotterranea'
+                                href='/visite/piemonte/alba/alba_sotterranea'
                                 onMouseEnter={() => setIsHoveredAlbaSotterranea(true)}
                                 onMouseLeave={() => setIsHoveredAlbaSotterranea(false)}
                             >
@@ -99,7 +99,7 @@ export default function Alba(props) {
                             <CardBody className='bottone'>
                             <Link 
                                 className="bottone_link" 
-                                href='/visite/piemonte/albe/la_chiesa_di_san_domenico'
+                                href='/visite/piemonte/alba/chiesa_di_san_domenico'
                                 onMouseEnter={() => setIsHoveredLaChiesadiSanDomenico(true)}
                                 onMouseLeave={() => setIsHoveredLaChiesadiSanDomenico(false)}
                             >
@@ -111,7 +111,7 @@ export default function Alba(props) {
                             <CardBody className='bottone'>
                             <Link 
                                 className="bottone_link" 
-                                href='/visite/piemonte/albe/la_chiesa_di_san_giuseppe'
+                                href='/visite/piemonte/alba/chiesa_di_san_giuseppe'
                                 onMouseEnter={() => setIsHoveredLaChiesadiSanGiuseppe(true)}
                                 onMouseLeave={() => setIsHoveredLaChiesadiSanGiuseppe(false)}
                             >
@@ -123,7 +123,7 @@ export default function Alba(props) {
                             <CardBody className='bottone'>
                             <Link 
                                 className="bottone_link" 
-                                href='/visite/piemonte/albe/casa_fenoglio'
+                                href='/visite/piemonte/alba/casa_fenoglio'
                                 onMouseEnter={() => setIsHoveredCasaFenoglio(true)}
                                 onMouseLeave={() => setIsHoveredCasaFenoglio(false)}
                             >

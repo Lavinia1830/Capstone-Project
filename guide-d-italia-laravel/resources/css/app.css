@@ -1979,11 +1979,16 @@ hr{
         height: 400px;
       }
       .card_Novara:nth-child(8){
-        background: url('../assets/Piemonte/Broletto_Novara_Piemonte.jpg') center/cover no-repeat;
+        background: url('../assets/Piemonte/Chiesa_di_San_Pietro_al_Rosario_Novara_Piemonte.jpg') center/cover no-repeat;
         /* width: 30%; */
         height: 400px;
       }
       .card_Novara:nth-child(9){
+        background: url('../assets/Piemonte/Broletto_Novara_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Novara:nth-child(10){
         background: url('../assets/Piemonte/Mura_Romane_Novara_Piemonte.jpg') center/cover no-repeat;
         /* width: 30%; */
         height: 400px;
@@ -2039,6 +2044,16 @@ hr{
         margin: 0 !important;
       }
     /*Fine Piazza Martini*/
+    /*Inizio Chiesa di San Pietro al Rosario*/
+      .chiesa_di_s_p_al_rosario{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Chiesa_di_San_Pietro_al_Rosario_Novara_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .chiesa_di_s_p_al_rosario h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Chiesa di San Pietro al Rosario*/
     /*Inizio Il Castello Visconteo Sforzesco */
       .castello_visconteo_sforzesco{
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Castello_Visconteo_Sforzesco_Novara_Piemonte.jpg') center/cover no-repeat;
@@ -2488,21 +2503,16 @@ hr{
         display: flex;
       }
       .card_Vds_c_p_e_g:nth-child(1){ 
-        background: url('../assets/Piemonte/Val_di_Susa_Piemonte.jpg') center/cover no-repeat;
-        /* width: 30%; */
-        height: 400px;
-      }
-      .card_Vds_c_p_e_g:nth-child(2){ 
         background: url('../assets/Piemonte/Val_Chisone_Roure_Piemonte.jpg') center/cover no-repeat;
         /* width: 30%; */
         height: 400px;
       }
-      .card_Vds_c_p_e_g:nth-child(3){ 
+      .card_Vds_c_p_e_g:nth-child(2){ 
         background: url('../assets/Piemonte/Val_Pellice_Piemonte.jpg') center/cover no-repeat;
         /* width: 30%; */
         height: 400px;
       }
-      .card_Vds_c_p_e_g:nth-child(4){ 
+      .card_Vds_c_p_e_g:nth-child(3){ 
         background: url('../assets/Piemonte/Val_Germanasca_Piemonte.jpg') center/cover no-repeat;
         /* width: 30%; */
         height: 400px;
@@ -3255,7 +3265,7 @@ hr{
         margin: 0 !important;
       }
     /*Fine La Chiesa di San Giuseppe*/
-    /*Inizio La Chiesa di San Giuseppe*/
+    /*Inizio Casa Fenoglio*/
       .casa_fenoglio{
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Casa_Fenoglio_Alba_Piemonte.jpg') center/cover no-repeat;
         padding: 250px 0;
@@ -3264,9 +3274,9 @@ hr{
         color: #fff;
         margin: 0 !important;
       }
-    /*Fine La Chiesa di San Giuseppe*/
+    /*Fine Casa Fenoglio*/
   /*Fine Alba*/
-  /**/
+  /*Inizio Asti, Alessandria e il Molferraro*/
     .a_a_e_il_m{
       background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Asti_alessandria_e_il_monferrato_Piemonte.jpg') center/cover no-repeat;
       padding: 250px 0;
@@ -3275,9 +3285,8 @@ hr{
       color: #fff;
       margin: 0 !important;
     }
-  /**/
-  
-  /**/
+  /*Fine Asti, Alessandria e il Molferraro*/
+  /*Inizio Langhe e Roero*/
     .langhe_e_roero{
       background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Langhe_e_roero_Piemonte.jpg') center/cover no-repeat;
       padding: 250px 0;
@@ -3286,7 +3295,27 @@ hr{
       color: #fff;
       margin: 0 !important;
     }
-  /**/
+  /*Fine Langhe e Roero*/
+  /*Inizio Castello di Serralunga d'Alba*/
+    .castello_di_serralunga_d_alba{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Castello_di_Serralunga_d_Alba_Piemonte.jpg') center/cover no-repeat;
+      padding: 250px 0;
+    }
+    .castello_di_serralunga_d_alba h1{
+      color: #fff;
+      margin: 0 !important;
+    }
+  /*Fine Castello di Serralunga d'Alba*/
+  /*Inizio Castello di Guarene*/
+    .castello_di_guarene{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Castello_di_Guarene_Guarene_Piemonte.jpg') center/cover no-repeat;
+      padding: 250px 0;
+    }
+    .castello_di_guarene h1{
+      color: #fff;
+      margin: 0 !important;
+    }
+  /*Fine Castello di Guarene*/
 /*Fine Piemonte*/
 
 /*Inizio Lombardia*/
@@ -6349,7 +6378,36 @@ hr{
       margin: 0 !important;
     }
   /*Fine Fiume Adige*/
+  /*Inizio Fiume Po*/
+    .fiume_po{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Fiumi/Fiume_Po.jpg') center/cover no-repeat;
+      padding: 250px 0;
+    }
+    .fiume_po h1{
+      color: #fff;
+      margin: 0 !important;
+    }
+  /*Fine Fiume Po*/
 /*Fine Fiumi*/
+
+/*Inizio Galleria*/
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .image-container {
+    margin: 10px;
+  }
+
+  .gallery-image {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+/*Fine Galleria*/
+
 
 /* Aggiungi una media query per dispositivi con larghezza <= 768px (tablet e smartphone) */
 @media screen and (max-width: 768px) {
@@ -6361,6 +6419,7 @@ hr{
   .immagine {
     margin-bottom: 10px; /* Aggiungi spazio tra l'immagine e la descrizione */
   }
+
 }
 
 
@@ -6393,6 +6452,9 @@ hr{
       height: 300px;
     }
     
+    .gallery-image {
+      width: 100%;
+    }
     
 }
 
@@ -6425,6 +6487,10 @@ hr{
         width: 350px;
         height: 300px;
       }
+
+      .gallery-image {
+        width: 80%;
+      }
   }
 /*Fine Media Query Tablet*/
 
@@ -6456,6 +6522,10 @@ hr{
     /*Fine Blog Valle d'Aosta*/
     .la_venaria_reale video#mobile-video{
       display: none;
+    }
+
+    .gallery-image:hover {
+      transform: scale(1.1);
     }
   }
 /*Fine Media Query Desktop*/
