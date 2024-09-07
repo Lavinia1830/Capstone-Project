@@ -16,22 +16,22 @@
             "url": "http://127.0.0.1:8000/visite/piemonte/torino/palazzo_reale"
         },
         {
-            "id": "",
+            "id": "4",
             "title": "Palazzo reale, Armeria reale e Cappella della Sindone",
             "url": "http://127.0.0.1:8000/visite/piemonte/torino/palazzo_reale/palazzo_reale_armeria_reale_e_cappella_della_sindone"
         },
         {
-            "id": "",
+            "id": "5",
             "title": "Visita Archeologica",
             "url": "http://127.0.0.1:8000/visite/piemonte/torino/palazzo_reale/visita_archeologica"
         },
         {
-            "id": "",
+            "id": "6",
             "title": "Capolavori della Pittura",
             "url": "http://127.0.0.1:8000/visite/piemonte/torino/palazzo_reale/capolavori_della_pittura"
         },
         {
-            "id": "",
+            "id": "7",
             "title": "Visita completa",
             "url": "http://127.0.0.1:8000/visite/piemonte/torino/palazzo_reale/visita_completa"
         },

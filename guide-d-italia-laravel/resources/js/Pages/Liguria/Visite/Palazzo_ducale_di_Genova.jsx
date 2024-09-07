@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout';
 import Footer from '@/Components/Footer';
 import { Link } from '@inertiajs/react';
-import {Card, Button, CardBody, CardText} from 'react-bootstrap';
+import {Card, CardBody, CardText} from 'react-bootstrap';
 
 export default function Palazzo_ducale_di_Genova(props) {
 
@@ -67,7 +67,7 @@ export default function Palazzo_ducale_di_Genova(props) {
                     Le altre facciate del palazzo presentano stili architettonici diversi, riflettendo le varie fasi di ampliamento e ristrutturazione dell'edificio nel corso dei secoli.
                   </p>
                   </CardText> 
-                  <Link className='text-decoration-none' href="/visite/genova/palazzo_ducale_di_genova/facciata_piazza_matteotti"><Button variant="primary" className='btn-card position-absolute bottom-0 end-0 me-2 mb-1'>leggi tutto</Button></Link>
+                  <Link className='text-decoration-none' href="/visite/genova/palazzo_ducale_di_genova/facciata_piazza_matteotti"><button className='btn-card position-absolute bottom-0 end-0 me-2 mb-1'>leggi tutto</button></Link>
                 </CardBody>
               </Link>
             </Card>
@@ -82,7 +82,7 @@ export default function Palazzo_ducale_di_Genova(props) {
                     La Torre e le Carceri del Palazzo Ducale sono due elementi distintivi che aggiungono fascino e mistero a questa imponente struttura.
                   </p>
                   </CardText> 
-                  <Link className='text-decoration-none' href="/visite/genova/palazzo_ducale_di_genova/la_torre_e_le_carceri"><Button variant="primary" className='btn-card position-absolute bottom-0 end-0 me-2 mb-1'>leggi tutto</Button></Link>
+                  <Link className='text-decoration-none' href="/visite/genova/palazzo_ducale_di_genova/la_torre_e_le_carceri"><button className='btn-card position-absolute bottom-0 end-0 me-2 mb-1'>leggi tutto</button></Link>
                 </CardBody>
               </Link>
             </Card>
@@ -97,7 +97,7 @@ export default function Palazzo_ducale_di_Genova(props) {
                     I saloni del Palazzo Ducale di Genova sono tra le sue parti più suggestive e rappresentative, testimoni della magnificenza e del prestigio della Repubblica di Genova nel corso dei secoli.
                   </p>
                   </CardText> 
-                  <Link className='text-decoration-none' href="/visite/genova/palazzo_ducale_di_genova/i_saloni"><Button variant="primary" className='btn-card position-absolute bottom-0 end-0 me-2 mb-1'>leggi tutto</Button></Link>
+                  <Link className='text-decoration-none' href="/visite/genova/palazzo_ducale_di_genova/i_saloni"><button className='btn-card position-absolute bottom-0 end-0 me-2 mb-1'>leggi tutto</button></Link>
                 </CardBody>
               </Link>
             </Card>
@@ -112,7 +112,7 @@ export default function Palazzo_ducale_di_Genova(props) {
                     La Cappella del Palazzo Ducale di Genova è un luogo di grande importanza storica e artistica all'interno di questo magnifico edificio.
                   </p>
                   </CardText> 
-                  <Link className='text-decoration-none' href="/visite/genova/palazzo_ducale_di_genova/la_cappella"><Button variant="primary" className='btn-card position-absolute bottom-0 end-0 me-2 mb-1'>leggi tutto</Button></Link>
+                  <Link className='text-decoration-none' href="/visite/genova/palazzo_ducale_di_genova/la_cappella"><button className='btn-card position-absolute bottom-0 end-0 me-2 mb-1'>leggi tutto</button></Link>
                 </CardBody>
               </Link>
             </Card>

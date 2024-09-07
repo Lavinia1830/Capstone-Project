@@ -9,13 +9,12 @@ export default function Home(props) {
     <>
       <Head title="Home"/>
       <AuthenticatedLayout
-          auth={props.auth}
-          errors={props.errors}
+        auth={props.auth}
+        errors={props.errors}
       >
         <ItalyMap/>
         <Footer/>
       </AuthenticatedLayout>
     </>
-    
   )
 }

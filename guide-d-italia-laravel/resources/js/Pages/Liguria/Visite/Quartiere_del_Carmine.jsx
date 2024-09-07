@@ -1,7 +1,7 @@
-import React from 'react';
+import React, {useState} from 'react';
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout';
 import Footer from '@/Components/Footer';
-import { Image } from 'react-bootstrap';
+import { Image, Modal } from 'react-bootstrap';
 import Vicoli from '../../../../assets/Liguria/Quartiere_di_Carmine_Genova_Liguria.jpg';
 import Vicolo_Cioccolato from '../../../../assets/Liguria/Vicolo_Ciaccolato_Genova_Liguria.jpg';
 import Vicolo_Fragola from '../../../../assets/Liguria/Vicolo_Fragola_Genova_Liguria.jpg';
@@ -15,6 +15,60 @@ import Vicolo5 from '../../../../assets/Liguria/Vicolo_Genova_Liguria5.jpg';
 import Vicolo6 from '../../../../assets/Liguria/Vicolo_Genova_Liguria6.jpg';
 
 export default function Quartiere_del_Carmine(props) {
+
+    const images = [
+        Vicoli,
+        Vicolo_Cioccolato,
+        Vicolo_Fragola,
+        Vicolo_Zucchero
+    ];
+
+    const imagesVicoli = [
+        Funicolare_Stazione_Carbonara,
+        Vicolo1,
+        Vicolo2,
+        Vicolo3,
+        Vicolo4,
+        Vicolo5,
+        Vicolo6
+    ];
+
+    const [show, setShow] = useState(false);
+    const [selectedImageIndex, setSelectedImageIndex] = useState(0);
+
+    const [showVicoli, setShowVicoli] = useState(false);
+    const [selectedImageIndexVicoli, setSelectedImageIndexVicoli] = useState(0);
+
+    const handleClose = () => setShow(false);
+
+    const handleCloseVicoli = () => setShowVicoli(false);
+
+    const handleShow = (index) => {
+        setSelectedImageIndex(index);
+        setShow(true);
+    };
+
+    const handleShowVicoli = (index) => {
+        setSelectedImageIndexVicoli(index);
+        setShowVicoli(true);
+    };
+
+    const handlePrev = () => {
+        setSelectedImageIndex((prevIndex) => (prevIndex === 0 ? images.length - 1 : prevIndex - 1));
+    };
+
+    const handlePrevVicoli = () => {
+        setSelectedImageIndexVicoli((prevIndex) => (prevIndex === 0 ? imagesVicoli.length - 1 : prevIndex - 1));
+    };
+
+    const handleNext = () => {
+        setSelectedImageIndex((prevIndex) => (prevIndex === images.length - 1 ? 0 : prevIndex + 1));
+    };
+
+    const handleNextVicoli = () => {
+        setSelectedImageIndexVicoli((prevIndex) => (prevIndex === imagesVicoli.length - 1 ? 0 : prevIndex + 1));
+    };
+
   return (
     <AuthenticatedLayout
       auth={props.auth}
@@ -28,37 +82,65 @@ export default function Quartiere_del_Carmine(props) {
             </div>
             <div className="margin mt-3">
                 <p>
-                    Il <strong>quartiere del Carmine</strong> di Genova è uno dei più antichi e storici della città. Costruito da mercanti e commercianti, questa zona ospitava un’abbondanza di archi, utilizzati ancora oggi. Il quartiere del Carmine è ricco di edifici storici risalenti all’XI secolo, che lo rendono un luogo interessante per 
-                    i turisti.
+                    Il <strong>quartiere del Carmine</strong> di Genova è uno dei più antichi e storici della città. Costruito da <b>mercanti e commercianti</b>, questa zona 
+                    ospitava un’abbondanza di <b>archi</b>, utilizzati ancora oggi. Il quartiere del Carmine è ricco di <b>edifici storici risalenti all’XI secolo</b>, che lo 
+                    rendono un luogo interessante per i turisti.
                 </p>
                 <p>
-                    Questo articolo vi racconterà tutto quello che c'è da sapere sul quartiere del Carmine: la sua storia, i siti importanti, i residenti famosi… Se volete avere un assaggio della vita locale di Genova esplorando i suoi quartieri, questo blog post fa per voi. Continuate a leggere e scoprite di più su questa zona della città!
+                    Questo articolo vi racconterà tutto quello che c'è da sapere sul quartiere del Carmine: <b>la sua storia</b>, <b>i siti importanti</b>, <b>i residenti 
+                    famosi</b>… Se volete avere un <b>assaggio della vita locale di Genova</b> esplorando i suoi quartieri, questo blog post fa per voi. <b>Continuate a 
+                    leggere</b> e scoprite di più su questa zona della città!
                 </p>
                 <h2 className="color-subtitle">Breve stori del quartiere Carmine</h2>
                 <p>
-                    Il Carmine di Genova è uno dei quartieri più antichi di Genova: viene citato per la prima volta in un documento del 1075. Il nome “Carmine” deriva dai monaci carmelitani che vivevano nel quartiere: i Carmelitani sono un ordine religioso fondato da Santa Teresa d’Avila e San Giovanni della Croce e originario della Spagna. 
-                    Nel 1784 Genova fu colpita da un terribile terremoto che quasi rase al suolo la città.
+                    Il <strong>Carmine di Genova</strong> è uno dei quartieri più <b>antichi di Genova</b>: viene citato per la prima volta in un documento del <b>1075</b>. 
+                    Il nome “Carmine” deriva dai <b>monaci carmelitani</b> che vivevano nel quartiere: i Carmelitani sono un <b>ordine religioso</b> fondato da <b>Santa 
+                    Teresa d’Avila</b> e <b>San Giovanni della Croce</b> e originario della <b>Spagna</b>. Nel <b>1784</b> Genova fu colpita da un <b>terribile terremoto</b> che 
+                    quasi rase al suolo la città.
                 </p>
                 <p>
-                    Il Carmine fu una delle zone più colpite dal disastro. Grazie a un piano di recupero dell'architetto Giuseppe Nuvolo, gran parte del quartiere fu ricostruito in stile neoclassico. Nel 2002 il quartiere del Carmine è stato dichiarato monumento nazionale.
+                    Il <strong>Carmine</strong> fu una delle zone più colpite dal disastro. Grazie a un piano di recupero dell'<b>architetto Giuseppe Nuvolo</b>, gran parte del 
+                    quartiere fu ricostruito in stile <b>neoclassico</b>. Nel <b>2002</b> il quartiere del <strong>Carmine</strong> è stato dichiarato <b>monumento nazionale</b>.
                 </p>
                 <h2 className="color-subtitle">Il Quartiere del Carmine, il piccolo borgo nel cuore di Genova</h2>
                 <p>
-                    Il Quartiere del Carmine si trova a cinque minuti a piedi dalla bellissima piazza dell'Annunziata. Dovrai proseguire per <b>via Polleri, sulla destra della Basilica, e puoi trovare direttamente in Piazza del Carmine</b>.
+                    <strong>Il Quartiere del Carmine</strong> si trova a <b>cinque minuti a piedi</b> dalla bellissima <b>piazza dell'Annunziata</b>. Dovrai proseguire per <b>via 
+                    Polleri</b>, sulla destra della <b>Basilica</b>, e puoi trovare direttamente in <b>Piazza del Carmine</b>.
                 </p>
                 <p>
-                    Un'alternativa su <b>via Polleri</b>, puoi percorrere <b>via di Vallechiara</b>, se arrivate da <b>via Cairoli</b> oppure scendi dalla fermata <b>Carbonara della Funicolare Zecca-Righi</b>, prosegui lungo i <b>Giardini Tito Rosina o Salita di Carbonare</b> e comincia l'esplorazione.
+                    Un'alternativa su <b>via Polleri</b>, puoi percorrere <b>via di Vallechiara</b>, se arrivate da <b>via Cairoli</b> oppure scendi dalla fermata <b>Carbonara 
+                    della Funicolare Zecca-Righi</b>, prosegui lungo i <b>Giardini Tito Rosina</b> o <b>Salita di Carbonare</b> e comincia l'esplorazione.
                 </p>
                 <h2 className="color-subtitle">Cosa vedere nel Quartiere del Carmine?</h2>
                 <p>
                     I suoi vicoletti sono abitate da case colorate con panni stesi e le sue vie simpatiche dai nomi <b>vico della Fragola</b>, <b>vico dello Zucchero</b>, <b>vico del Cioccolatte</b>. Questo perché un tempo c'erano delle antiche botteghe della zona, oggi ancora c'è il forno attivo e un parrucchiere.
                 </p>
                 <div className='row d-flex justify-content-evenly mx-0 mb-4'>
-                    <Image src={Vicoli} className='col-4 px-0 w-sm-50 w-md-50 w-lg-50 m-2'/>
-                    <Image src={Vicolo_Cioccolato} className='col-4 px-0 w-sm-50 w-md-50 w-lg-50 m-2'/>
-                    <Image src={Vicolo_Fragola} className='col-4 px-0 w-sm-50 w-md-50 w-lg-50 m-2'/>
-                    <Image src={Vicolo_Zucchero} className='col-4 px-0 w-sm-50 w-md-50 w-lg-50 m-2'/>
+                    {images.map((image, index) => (
+                        <Image 
+                            key={index}
+                            src={image} 
+                            className='col-4 px-0 w-sm-50 w-md-50 w-lg-50 m-2' 
+                            onClick={() => handleShow(index)} 
+                        />
+                    ))}
                 </div>
+                <Modal show={show} onHide={handleClose}>
+                    <Modal.Header closeButton>
+                        <Modal.Title>Quartire del Carmine</Modal.Title>
+                    </Modal.Header>
+                    <Modal.Body className="text-center">
+                        <Image src={images[selectedImageIndex]} fluid />
+                    </Modal.Body>
+                    <Modal.Footer className='d-flex justify-content-center'>
+                        <button className='btn-card' onClick={handlePrev}>
+                            Indietro
+                        </button>
+                        <button className='btn-card' onClick={handleNext}>
+                            Avanti
+                        </button>
+                    </Modal.Footer>
+                </Modal>
                 <p>
                     Su e giù per le crêuza se imboccate la Salita S.Bernardino puoi trovare la piccola <b>Abbazia di San Bernardino</b> quasi distrutta nel corso della seconda Guerra Mondiale, oggi usata per ospitare piccoli eventi. Nella stessa via si nascondono i vicoletti già citati in precedenza, lontano dal caos del centro, ci si rilassa 
                     a un silenzio e una tranquillità di un tempo senza tempo di cui spesso non siamo abituati a percepire nelle grandi città.
@@ -76,20 +158,40 @@ export default function Quartiere_del_Carmine(props) {
                     Salendo lungo il bordo si trova la piazza dell'Olivella, nascosta tra gli alberi di uliveti c'è la chiesa sconsacrata di <b>San Bartolomeo dell'Olivella</b>: dove un tempo si trovava un grandissimo uliveto.
                 </p>
                 <div className='row d-flex justify-content-evenly mx-0 mb-4'>
-                    <Image src={Funicolare_Stazione_Carbonara} className='col-3 px-0 w-sm-50 w-md-50 w-lg-50 m-2'/>
-                    <Image src={Vicolo1} className='col-3 px-0 w-sm-50 w-md-50 w-lg-50 m-2'/>
-                    <Image src={Vicolo2} className='col-3 px-0 w-sm-50 w-md-50 w-lg-50 m-2'/>
-                    <Image src={Vicolo3} className='col-3 px-0 w-sm-50 w-md-50 w-lg-50 m-2'/>
-                    <Image src={Vicolo4} className='col-3 px-0 w-sm-50 w-md-50 w-lg-50 m-2'/>
-                    <Image src={Vicolo5} className='col-3 px-0 w-sm-50 w-md-50 w-lg-50 m-2'/>
-                    <Image src={Vicolo6} className='col-3 px-0 w-sm-50 w-md-50 w-lg-50 m-2'/>
+                    {imagesVicoli.map((image, index) => (
+                        <Image 
+                            key={index}
+                            src={image} 
+                            className='col-4 px-0 w-sm-50 w-md-50 w-lg-50 m-2' 
+                            onClick={() => handleShowVicoli(index)} 
+                        />
+                    ))}
                 </div>
+                <Modal show={showVicoli} onHide={handleCloseVicoli}>
+                    <Modal.Header closeButton>
+                        <Modal.Title>Quartire del Carmine Vicoli</Modal.Title>
+                    </Modal.Header>
+                    <Modal.Body className="text-center">
+                        <Image src={imagesVicoli[selectedImageIndexVicoli]} fluid />
+                    </Modal.Body>
+                    <Modal.Footer className='d-flex justify-content-center'>
+                        <button className='btn-card' onClick={handlePrevVicoli}>
+                            Indietro
+                        </button>
+                        <button className='btn-card' onClick={handleNextVicoli}>
+                            Avanti
+                        </button>
+                    </Modal.Footer>
+                </Modal>
                 <h2 className="color-subtitle">In conclusione sul Quartiere del Carmine</h2>
                 <p>
-                    Il quartiere del Carmine di Genova è una delle zone più antiche e storiche della città. Costruito da mercanti e commercianti, questo quartiere ospita numerosi archi, utilizzati ancora oggi.
+                    Il <strong>quartiere del Carmine</strong> di Genova è una delle zone più <b>antiche e storiche</b> della città. Costruito da 
+                    mercanti e commercianti, questo quartiere ospita numerosi <b>archi</b>, utilizzati ancora oggi.
                 </p>
                 <p>
-                    Il quartiere del Carmine è ricco di edifici storici risalenti all'XI secolo, che lo rendono un luogo interessante per i turisti. Se volete avere un assaggio della vita locale di Genova esplorando i suoi quartieri, questo quartiere è un ottimo punto di partenza.
+                    Il quartiere del Carmine è ricco di <b>edifici storici risalenti all'XI secolo</b>, che lo rendono un luogo interessante per 
+                    i turisti. Se volete avere un assaggio della <b>vita locale di Genova</b> esplorando i suoi quartieri, questo quartiere è 
+                    un <b>ottimo punto di partenza</b>.
                 </p>
             </div>
             <div className='margin mb-4'>

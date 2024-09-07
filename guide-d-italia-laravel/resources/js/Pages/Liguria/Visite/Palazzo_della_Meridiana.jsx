@@ -16,25 +16,29 @@ export default function Palazzo_della_Meridiana(props) {
             </div>
             <div className="margin mt-3">
                 <p>
-                    Gerolamo Grimaldi Oliva e il figlio Battista fanno costruire il palazzo fra 1536 e 1545, quindi prima della creazione di Strada Nuova: Palazzo della Meridiana per questo è una delle prime testimonianze in città del nuovo gusto Rinascimentale.
+                    <b>Gerolamo Grimaldi Oliva</b> e il figlio <b>Battista</b> fanno costruire il palazzo fra <b>1536</b> e <b>1545</b>, quindi prima della creazione di <b>Strada Nuova</b>: <b>Palazzo 
+                    della Meridiana</b> per questo è una delle prime testimonianze in città del nuovo gusto <b>Rinascimentale</b>.
                 </p>
                 <p>
-                    Anche grazie alle tavole che illustrano il libro di Pietro Paolo Rubens “Palazzi di Genova”  scopriamo che il Palazzo aveva una struttura complessa, in parte perduta con le trasformazioni della zona attorno: l'edificio si sviluppava su più livelli seguendo il pendio, con splendidi 
-                    giardini racchiusi fra due grandi ninfei a nord e a sud e ricchi di giochi d'acqua e grotte animate da automi.
+                    Anche grazie alle <b>tavole</b> che illustrano il libro di Pietro Paolo Rubens “<b>Palazzi di Genova</b>”  scopriamo che il <b>Palazzo</b> aveva una <b>struttura complessa</b>, in 
+                    parte perduta con le trasformazioni della zona attorno: l'edificio si sviluppava su <b>più livelli</b> seguendo il pendio, con <b>splendidi giardini</b> racchiusi fra <b>due grandi 
+                    ninfei</b> a nord e a sud e ricchi di <b>giochi d'acqua</b> e <b>grotte animate da automi</b>.
                 </p>
                 <p>
-                    I committenti, soprattutto Battista Grimaldi, chiedono soluzioni innovative anche nella decorazione degli interni, dove lavorano artisti del calibro di Lazzaro Calvi, Giovanni Battista Castello il Bergamasco e Luca Cambiaso, che mette in scena la vicenda di Ulisse che saetta i Proci, 
-                    nel grande salone del piano nobile, con straordinarie soluzioni prospettiche.
+                    I <b>committenti</b>, soprattutto <b>Battista Grimaldi</b>, chiedono <b>soluzioni innovative</b> anche nella decorazione degli interni, dove lavorano artisti del calibro di <b>Lazzaro 
+                    Calvi</b>, <b>Giovanni Battista Castello il Bergamasco</b> e <b>Luca Cambiaso</b>, che mette in scena la vicenda di <b>Ulisse che saetta i Proci</b>, nel grande salone del piano nobile, 
+                    con straordinarie <b>soluzioni prospettiche</b>.
                 </p>
                 <p>
-                    <strong>Palazzo della Meridiana</strong> resta ai Grimaldi fino all'Ottocento, per poi cambiare più volte proprietario; nel 1885 lo affitta Evan Mackenzie come sede della propria società di assicurazioni, e chiama Gino Coppedè a rinnovare la decorazione, ad esempio con la creazione dello spettacolare 
-                    lucernario Liberty a coprire il cortile su Salita San Francesco.
+                    <strong>Palazzo della Meridiana</strong> resta ai Grimaldi fino all'Ottocento, per poi cambiare più volte proprietario; nel <b>1885</b> lo affitta <b>Evan Mackenzie</b> come sede della 
+                    propria società di assicurazioni, e chiama <b>Gino Coppedè</b> a rinnovare la decorazione, ad esempio con la creazione dello spettacolare <b>lucernario Liberty</b> a coprire il cortile 
+                    su <b>Salita San Francesco</b>.
                 </p>
                 <p>
-                    L'edificio oggi appartiene a una società privata che, dopo averlo restaurato, lo ha aperto al pubblico come sede di mostre temporanee, attività culturali e ricevimenti.
+                    <b>L'edificio oggi appartiene a una società privata</b> che, <b>dopo averlo restaurato</b>, lo ha aperto al pubblico come <b>sede di mostre temporanee, attività culturali e ricevimenti</b>.
                 </p>
                 <p>
-                    Il palazzo è aperto per i visitatori individuali una volta al mese, e in occasione di mostre ed eventi.
+                    <b>Il palazzo è aperto per i visitatori individuali una volta al mese</b>, e in occasione di mostre ed eventi.
                 </p>
             </div>
             <div className='margin mb-4'>
