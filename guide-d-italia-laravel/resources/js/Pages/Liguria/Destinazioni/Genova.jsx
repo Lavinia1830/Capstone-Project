@@ -33,48 +33,64 @@ export default function Genova(props) {
                 </div>
                 <div className="margin mt-3">
                     <p>
-                        Città di forze in collisione, <strong>Genova</strong> sta dove è più forte l’attrito fra la terra e il mare e ne possiede entrambe le anime. Cosa vedere a Genova, quando l’itinerario regala un tuffo nella sua storia millenaria, nello sfarzo dorato delle architetture e nell’autenticità popolare della vita 
-                        che brulica dove le ombre dei caruggi sono più fitte? Impossibile dirlo con sicurezza. Il centro storico di Genova, con il suo strabiliante patrimonio di architetture, fa confluire tra la Città Vecchia e il suo groviglio medievale impenetrabile e i capolavori rinascimentali delle ‘Strade Nuove’ la sua 
-                        vera magia.
+                        <b>Città di forze in collisione</b>, <strong>Genova</strong> <b>sta dove è più forte l’attrito fra la terra e il mare</b> e ne possiede entrambe le anime. <b>Cosa 
+                        vedere a Genova</b>, quando l’itinerario regala un tuffo nella sua <b>storia millenaria</b>, nello <b>sfarzo dorato delle architetture</b> e nell’autenticità 
+                        popolare della vita che brulica dove le ombre dei caruggi sono più fitte? Impossibile dirlo con sicurezza. <b>Il centro storico di Genova</b>, con il 
+                        suo <b>strabiliante patrimonio di architetture</b>, fa confluire tra la <b>Città Vecchia</b> e il suo <b>groviglio medievale impenetrabile</b> e i <b>capolavori 
+                        rinascimentali delle ‘Strade Nuove’</b> la sua vera magia.
                     </p>
                     <h2 className='color-subtitle'>Posti particolari di Genova da scoprire</h2>
                     <p>
-                        Le vie principali di Genova intersecano fantasie ottocentesche che convivono con il razionalismo moderno, mentre Renzo Piano ha fatto del Porto Antico di Genova l’icona contemporaneità. Città-porto, la Superba affascina per le sue contaminazioni e la sua capacità di trasformazione, sempre in grado di 
-                        regalare al viaggiatore un volto diverso.
+                        Le vie principali di Genova intersecano <b>fantasie ottocentesche</b> che convivono con il <b>razionalismo moderno</b>, mentre <b>Renzo Piano</b> ha fatto 
+                        del <b>Porto Antico di Genova</b> l’icona contemporaneità. Città-porto, la <b>Superba</b> affascina per le sue contaminazioni e la sua capacità di trasformazione, 
+                        sempre in grado di regalare al viaggiatore un volto diverso.
                     </p>
                     <p>
-                        Affacciata sul Mar Ligure, è stata la capitale di una delle repubbliche marinare dal 1099 al 1797, diventando una delle più grandi potenze navali del continente. Ancora oggi grande centro economico, polo universitario, scientifico, culturale, musicale e artistico di tutto rilievo, vanta un centro storico 
-                        che si dipana tra gli incantevoli caruggi, gli stretti vicoli fiancheggiati dagli alti muri esterni delle case.
+                        Affacciata sul <Link href='/mare/mar_ligure' className='text-decoration-none color_link'>Mar Ligure</Link>, è stata la capitale di una 
+                        delle <Link href='/liguria/storia/repubbliche_marinare' className='text-decoration-none color_link'>repubbliche marinare</Link> dal 1099 al 1797, diventando una 
+                        delle più grandi potenze navali del continente. Ancora oggi grande <b>centro economico</b>, <b>polo 
+                        universitario</b>, <b>scientifico</b>, <b>culturale</b>, <b>musicale</b> e <b>artistico</b> di tutto rilievo, vanta un centro storico che si dipana tra gli 
+                        incantevoli <b>caruggi</b>, gli stretti vicoli fiancheggiati dagli alti muri esterni delle case.
                     </p>
                     <p>
-                        I palazzi, le ville, i parchi e le fortificazioni raccontano il fascino dell’antica Repubblica marinara.
+                        I <b>palazzi</b>, <b>le ville</b>, <b>i parchi e le fortificazioni</b> raccontano il fascino dell’<b>antica Repubblica marinara</b>.
                     </p>
                     <p>
-                        Capitale del delizioso pesto e del buon cibo, è sede di numerose attività industriali, ma anche di eventi turistici e fieristici tra i più importanti del Paese.
+                        Capitale del delizioso <Link href='/gastronomia/pesto_alla_genovese' className='text-decoration-none color_link'>pesto</Link> e del buon cibo, è sede di 
+                        numerose <b>attività industriali</b>, ma anche di eventi turistici e fieristici tra i più importanti del Paese.
                     </p>
                     <p>
-                        <b>Il porto</b> è tra i principali scali mediterranei ed europei.
+                        <b>Il porto</b> è tra i principali <b>scali mediterranei ed europei</b>.
                     </p>
                     <p>
-                        I primi insediamenti sul territorio genovese risalgono all’epoca preromana: Publio Cornelio Scipione sfruttò questo approdo per affrontare l’invasione di Annibale nel 218 a.C. e la città fu poi distrutta dai Cartaginesi nel 205. Conquistata da Belisario, che la rese una città bizantina, in epoca longobarda 
-                        diventò il capoluogo del Ducato di Liguria. Con la sua dissoluzione, presero il potere le principali famiglie genovesi.
+                        I primi insediamenti sul territorio genovese risalgono all’<b>epoca preromana</b>: <b>Publio Cornelio Scipione</b> sfruttò questo approdo per affrontare 
+                        l’invasione di <b>Annibale</b> nel <b>218 a.C.</b> e la città fu poi distrutta dai Cartaginesi nel <b>205</b>. Conquistata da <b>Belisario</b>, che la rese 
+                        una <b>città bizantina</b>, in epoca longobarda diventò il capoluogo del <b>Ducato di Liguria</b>. Con la sua dissoluzione, presero il potere le principali 
+                        famiglie genovesi.
                     </p>
                     <p>
-                        L'autonomia di Genova arrivò nell’anno 1000, quando la città diventò potenza mercantile con un dominio incontrastato su parte del Mediterraneo, insieme a Pisa. Nel 1162 i <b>contrasti tra Federico Barbarossa e Genova</b> divennero infuocati, ma la forza con cui la città riuscì a difendere la sua indipendenza 
-                        le valse il soprannome di Superba. Nella <b>battaglia della Meloria</b>, nel 1284, la flotta della Repubblica di Genova indebolì quella della Repubblica marinara di Pisa. Dal Trecento al Cinquecento ci fu il periodo dei Dogi e la tradizione di Genova come <b>città di mercanti e banchieri</b> contribuì al suo 
-                        fiorire artistico e architettonico, con la costruzione di molti <b>palazzi</b>, oggi <b>patrimonio UNESCO</b>.
+                        L'autonomia di Genova arrivò nell’anno <b>1000</b>, quando la città diventò <b>potenza mercantile</b> con un dominio incontrastato su parte del Mediterraneo, 
+                        insieme a <Link href='/destinazione/toscana/pisa' className='text-decoration-none color_link'>Pisa</Link>. Nel <b>1162</b> i contrasti tra <b>Federico 
+                        Barbarossa</b> e Genova divennero infuocati, ma la forza con cui la città riuscì a difendere la sua indipendenza le valse il soprannome di <b>Superba</b>. 
+                        Nella <b>battaglia della Meloria</b>, nel <b>1284</b>, la flotta della <b>Repubblica di Genova</b> indebolì quella della <b>Repubblica marinara di Pisa</b>. 
+                        Dal <b>Trecento al Cinquecento</b> ci fu il periodo dei <b>Dogi</b> e la tradizione di Genova come <b>città di mercanti e banchieri</b> contribuì al suo 
+                        fiorire <b>artistico e architettonico</b>, con la costruzione di molti <b>palazzi</b>, oggi <b>patrimonio UNESCO</b>.
                     </p>
                     <p>
-                        La città, nel Seicento, fronteggiò le mire espansionistiche dei Savoia e, a fine secolo, allacciò rapporti politici e commerciali con la Francia.
+                        La città, nel <b>Seicento</b>, fronteggiò le mire espansionistiche dei <b>Savoia</b> e, a fine secolo, allacciò rapporti politici e commerciali con 
+                        la <b>Francia</b>.
                     </p>
                     <p>
-                        Genova non fu risparmiata da Napoleone Bonaparte e dal suo dominio, ma, con la nascita dello Stato italiano nel 1861, riacquistò la sua egemonia entrando nel triangolo industriale italiano con Milano e Torino.
+                        Genova non fu risparmiata da <b>Napoleone Bonaparte</b> e dal suo dominio, ma, con la nascita dello <b>Stato italiano nel 1861</b>, riacquistò la sua egemonia 
+                        entrando nel <b>triangolo industriale italiano</b> con <b>Milano</b> e <b>Torino</b>.
                     </p>
                     <p>
-                        A causa della sua posizione centrale nella vita economica del Paese, fu presa di mira nella Seconda Guerra Mondiale ed ebbe oltre 11.000 edifici distrutti o danneggiati. Poi svolse un ruolo da protagonista nella resistenza partigiana. 
+                        A causa della sua posizione centrale nella vita economica del Paese, fu presa di mira nella <Link href='/evento_storico/seconda_guerra_mondiale' 
+                        className='text-decoration-none color_link'>Seconda Guerra Mondiale</Link> ed ebbe oltre <b>11.000 edifici distrutti o danneggiati</b>. Poi svolse un ruolo da 
+                        protagonista nella <b>resistenza partigiana</b>. 
                     </p>
                     <p>
-                        Dagli anni 2000 il porto è stato nuovamente valorizzato, e nel 2004 Genova è stata nominata Capitale Europea della Cultura.
+                        Dagli anni <b>2000</b> il <b>porto</b> è stato nuovamente valorizzato, e nel <b>2004</b> Genova è stata nominata <b>Capitale Europea della Cultura</b>.
                     </p>
                 </div>
                 <div className='row d-flex justify-content-center mx-0 mb-4'>
@@ -162,7 +178,7 @@ export default function Genova(props) {
                             href='/visite/genova/l_ascensore_castello_d_albertis_montegalletto'
                             onMouseEnter={() => setIsHoveredAscensoreCastello(true)}
                             onMouseLeave={() => setIsHoveredAscensoreCastello(false)}
-                            >L'Ascensore Castello d'Albertis-Montegalletto{isHoveredAscensoreCastello && <i className="bi bi-chevron-right"></i>}
+                            >L'Ascensore Castello d'Albertis...{isHoveredAscensoreCastello && <i className="bi bi-chevron-right"></i>}
                         </Link>
                         </CardBody>
                     </Card>

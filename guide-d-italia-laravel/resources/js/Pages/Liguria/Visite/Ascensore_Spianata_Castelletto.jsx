@@ -16,7 +16,8 @@ export default function Ascensore_Spianata_Castelletto(props) {
             </div>
             <div className="margin mt-3">
                 <p>
-                    Suggestiva “terrazza” sospesa sul Centro Storico con vista spettacolare sulla città e sul porto. Emozionante salirci con l'ascensore liberty.
+                    <b>Suggestiva “terrazza” sospesa sul Centro Storico</b> con <b>vista spettacolare sulla città e sul porto</b>. Emozionante 
+                    salirci con l'<b>ascensore liberty</b>.
                 </p>
                 <p className='text-center '>
                     <i>"Quando mi sarò deciso<br/>
