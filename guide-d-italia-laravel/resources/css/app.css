@@ -3962,16 +3962,16 @@ hr{
       /* width: 30%; */
       height: 400px;
     }
-    /*Inizio Castello della Dragonara*/
-      .castello_della_dragonaria{
-        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Liguria/Castello_della_dragonaria_Camogli_Liguria.jpg') center/cover no-repeat;
-        padding: 250px 0;
-      }
-      .castello_della_dragonaria h1{
-        color: #fff;
-        margin: 0 !important;
-      }
-    /*Fine Castello della Dragonara*/
+    .card_Camogli:nth-child(3){
+      background: url('../assets/Liguria/Museo_Marinaro_Camogli_Liguria.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Camogli:nth-child(4){
+      background: url('../assets/Liguria/Abbazia_di_san_fruttuoso_Genova_Liguria.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
     /*Inizio Golfo Paradiso*/
       .golfo_paradiso{
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Liguria/Golfo_paradiso_Liguria.jpg') center/cover no-repeat;
@@ -3982,6 +3982,36 @@ hr{
         margin: 0 !important;
       }
     /*Fine Golfo Paradiso*/
+    /*Inizio Castello della Dragonara*/
+      .castello_della_dragonaria{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Liguria/Castello_della_dragonaria_Camogli_Liguria.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .castello_della_dragonaria h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Castello della Dragonara*/
+    /*Inizio Museo Marinaro*/
+      .museo_marinaro{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Liguria/Museo_Marinaro_Camogli_Liguria.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .museo_marinaro h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Nuseo Marinaro*/
+    /*Inizio Abbazia di San Fruttuso*/
+      .abbazia_di_san_fruttuoso{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Liguria/Abbazia_di_san_fruttuoso_Genova_Liguria.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .abbazia_di_san_fruttuoso h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Abbazia di San Fruttuoso*/
   /*Fine Camogli*/
 /*Fine Liguria*/
 
