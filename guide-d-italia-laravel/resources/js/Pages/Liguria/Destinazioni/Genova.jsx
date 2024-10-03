@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout';
 import Footer from '@/Components/Footer';
-import { Link } from '@inertiajs/react';
+import { Head, Link } from '@inertiajs/react';
 import {Card, CardBody} from 'react-bootstrap';
 
 export default function Genova(props) {
@@ -21,9 +21,11 @@ export default function Genova(props) {
     const [isHoveredChiesaGesu, setIsHoveredChiesaGesu] = useState(false);
 
   return (
-    <AuthenticatedLayout
-        auth={props.auth}
-        errors={props.errors}
+    <>
+        <Head title='Genova'/>
+        <AuthenticatedLayout
+            auth={props.auth}
+            errors={props.errors}
         >
             <main>
                 <div className='genova' style={{ position: 'relative' }}>
@@ -241,5 +243,7 @@ export default function Genova(props) {
             </main>
             <Footer/>
         </AuthenticatedLayout>
+    </>
+    
     )
 }

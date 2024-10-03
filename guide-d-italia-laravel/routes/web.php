@@ -1293,6 +1293,14 @@ Route::get('/home', function () {
         Route::get('/visite/camongli/castello_della_dragonaria', function () {
             return Inertia::render('Liguria/Visite/Castello_della_Dragonaria');
         })->middleware(['auth', 'verified'])->name('castello_della_dragonaria');
+        
+        Route::get('/visite/camongli/museo_marinaro', function () {
+            return Inertia::render('Liguria/Visite/Museo_Marinaro');
+        })->middleware(['auth', 'verified'])->name('museo_marinaro');
+
+        Route::get('/visite/camongli/abbazia_di_san_fruttuoso', function () {
+            return Inertia::render('Liguria/Visite/Abbazia_di_San_Fruttuoso');
+        })->middleware(['auth', 'verified'])->name('abbazia_di_san_fruttuoso');
     /*Fine Camogli*/
 /*Fine Liguria*/
 
