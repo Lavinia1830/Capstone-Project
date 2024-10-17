@@ -10,6 +10,9 @@ export default function Liguria(props) {
     const [isHoveredCamogli, setIsHoveredCamogli] = useState(false);
     const [isHoveredGolfoTiguglio, setIsHoveredGolfoTiguglio] = useState(false);
     const [isHoveredASanFruttuoso, setIsHoveredASanFruttuoso] = useState(false);
+    const [isHoveredBaiadiSanFruttuoso, setIsHoveredBaiadiSanFruttuoso] = useState(false);
+    const [isHoveredLe5terre, setIsHoveredLe5Terre] = useState(false);
+    const [isHoveredRecco, setIsHoveredRecco] = useState(false);
 
   return (
     <AuthenticatedLayout
@@ -31,7 +34,7 @@ export default function Liguria(props) {
                     <CardBody className='bottone'>
                         <Link 
                             className="bottone_link" 
-                            href='/destinazioni/genova'
+                            href='/destinazioni/liguria/genova'
                             onMouseEnter={() => setIsHoveredGenova(true)}
                             onMouseLeave={() => setIsHoveredGenova(false)}
                             >Genova {isHoveredGenova && <i className="bi bi-chevron-right"></i>}
@@ -42,7 +45,7 @@ export default function Liguria(props) {
                     <CardBody className='bottone'>
                     <Link 
                         className="bottone_link" 
-                        href='/destinazioni/camogli'
+                        href='/destinazioni/liguria/camogli'
                         onMouseEnter={() => setIsHoveredCamogli(true)}
                         onMouseLeave={() => setIsHoveredCamogli(false)}
                         >Camogli {isHoveredCamogli && <i className="bi bi-chevron-right"></i>}
@@ -53,7 +56,7 @@ export default function Liguria(props) {
                     <CardBody className='bottone'>
                     <Link 
                         className="bottone_link" 
-                        href='/destinazioni/golfo_del_tigullio'
+                        href='/destinazioni/liguria/golfo_del_tigullio'
                         onMouseEnter={() => setIsHoveredGolfoTiguglio(true)}
                         onMouseLeave={() => setIsHoveredGolfoTiguglio(false)}
                         >Golfo del Tigullio {isHoveredGolfoTiguglio && <i className="bi bi-chevron-right"></i>}
@@ -64,7 +67,7 @@ export default function Liguria(props) {
                     <CardBody className='bottone'>
                     <Link 
                         className="bottone_link" 
-                        href='/destinazioni/abbazia_di_san_fruttuoso'
+                        href='/destinazioni/liguria/abbazia_di_san_fruttuoso'
                         onMouseEnter={() => setIsHoveredASanFruttuoso(true)}
                         onMouseLeave={() => setIsHoveredASanFruttuoso(false)}
                         >Abbazia di San Fruttuoso {isHoveredASanFruttuoso && <i className="bi bi-chevron-right"></i>}
@@ -75,10 +78,10 @@ export default function Liguria(props) {
                     <CardBody className='bottone'>
                     <Link 
                         className="bottone_link" 
-                        href='/destinazioni/baia_di_san_fruttuoso'
-                        onMouseEnter={() => setIsHoveredASanFruttuoso(true)}
-                        onMouseLeave={() => setIsHoveredASanFruttuoso(false)}
-                        >Baia di San Fruttuoso {isHoveredASanFruttuoso && <i className="bi bi-chevron-right"></i>}
+                        href='/destinazioni/liguria/baia_di_san_fruttuoso'
+                        onMouseEnter={() => setIsHoveredBaiadiSanFruttuoso(true)}
+                        onMouseLeave={() => setIsHoveredBaiadiSanFruttuoso(false)}
+                        >Baia di San Fruttuoso {isHoveredBaiadiSanFruttuoso && <i className="bi bi-chevron-right"></i>}
                     </Link>
                     </CardBody>
                 </Card>
@@ -86,10 +89,10 @@ export default function Liguria(props) {
                     <CardBody className='bottone'>
                     <Link 
                         className="bottone_link" 
-                        href='/destinazioni/le_5_terre'
-                        onMouseEnter={() => setIsHoveredASanFruttuoso(true)}
-                        onMouseLeave={() => setIsHoveredASanFruttuoso(false)}
-                        >Le 5 terre {isHoveredASanFruttuoso && <i className="bi bi-chevron-right"></i>}
+                        href='/destinazioni/liguria/le_5_terre'
+                        onMouseEnter={() => setIsHoveredLe5Terre(true)}
+                        onMouseLeave={() => setIsHoveredLe5Terre(false)}
+                        >Le 5 terre {isHoveredLe5terre && <i className="bi bi-chevron-right"></i>}
                     </Link>
                     </CardBody>
                 </Card>
@@ -97,10 +100,10 @@ export default function Liguria(props) {
                     <CardBody className='bottone'>
                     <Link 
                         className="bottone_link" 
-                        href='/destinazioni/recco'
-                        onMouseEnter={() => setIsHoveredASanFruttuoso(true)}
-                        onMouseLeave={() => setIsHoveredASanFruttuoso(false)}
-                        >Recco {isHoveredASanFruttuoso && <i className="bi bi-chevron-right"></i>}
+                        href='/destinazioni/liguria/recco'
+                        onMouseEnter={() => setIsHoveredRecco(true)}
+                        onMouseLeave={() => setIsHoveredRecco(false)}
+                        >Recco {isHoveredRecco && <i className="bi bi-chevron-right"></i>}
                     </Link>
                     </CardBody>
                 </Card>

@@ -79,7 +79,7 @@ export default function Camogli(props) {
                                 <CardBody className='bottone'>
                                 <Link 
                                     className="bottone_link" 
-                                    href='/visite/camongli/abbazia_di_san_fruttuoso'
+                                    href='/destinazioni/liguria/abbazia_di_san_fruttuoso'
                                     onMouseEnter={() => setIsHoveredASantaFruttuoso(true)}
                                     onMouseLeave={() => setIsHoveredASantaFruttuoso(false)}
                                     >Abbazia di San Fruttuoso {isHoveredASantaFruttuoso && <i className="bi bi-chevron-right"></i>}

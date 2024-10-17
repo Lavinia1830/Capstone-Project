@@ -1201,21 +1201,10 @@ Route::get('/home', function () {
         return Inertia::render('Liguria');
     })->middleware(['auth', 'verified'])->name('liguria');
 
-    Route::get('/destinazioni/genova', function () {
+    Route::get('/destinazioni/liguria/genova', function () {
         return Inertia::render('Liguria/Destinazioni/Genova');
     })->middleware(['auth', 'verified'])->name('genova');
 
-    Route::get('/destinazioni/camogli', function () {
-        return Inertia::render('Liguria/Destinazioni/Camogli');
-    })->middleware(['auth', 'verified'])->name('camogli');
-
-    Route::get('/destinazioni/golfo_del_tigullio', function () {
-        return Inertia::render('Liguria/Destinazioni/Camogli');
-    })->middleware(['auth', 'verified'])->name('golfo_del_tigullio');
-
-    Route::get('/destinazioni/abbazia_di_san_fruttuoso', function () {
-        return Inertia::render('Liguria/Destinazioni/Camogli');
-    })->middleware(['auth', 'verified'])->name('abbazia_di_san_fruttuoso');
     /*Inizio Genova*/
         Route::get('/visite/genova/acquario_di_genova', function () {
             return Inertia::render('Liguria/Visite/Acquario_di_Genova');
@@ -1232,6 +1221,7 @@ Route::get('/home', function () {
         Route::get('/visite/genova/palazzo_ducale_di_genova', function () {
             return Inertia::render('Liguria/Visite/Palazzo_ducale_di_Genova');
         })->middleware(['auth', 'verified'])->name('palazzo_ducale_di_genova');
+        
         /*Inizio Palazzo Ducale di Genova*/
             Route::get('/visite/genova/palazzo_ducale_di_genova/facciata_piazza_matteotti', function () {
                 return Inertia::render('Liguria/Visite/Palazzo_ducale_di_Genova/Facciata_piazza_Matteotti');
@@ -1249,6 +1239,7 @@ Route::get('/home', function () {
                 return Inertia::render('Liguria/Visite/Palazzo_ducale_di_Genova/La_Cappella');
             })->middleware(['auth', 'verified'])->name('la_cappella');
         /*Fine Palazzo Ducale di Genova*/
+
         Route::get('/visite/genova/villa_durazzo_pallavicini', function () {
             return Inertia::render('Liguria/Visite/Villa_Durazzo_Pallavicini');
         })->middleware(['auth', 'verified'])->name('villa_durazzo_pallavicini');
@@ -1285,6 +1276,11 @@ Route::get('/home', function () {
             return Inertia::render('Liguria/Visite/Chiesa_di_Gesu');
         })->middleware(['auth', 'verified'])->name('chiesa_del_gesu');
     /*Fine Genova*/
+
+    Route::get('/destinazioni/liguria/camogli', function () {
+        return Inertia::render('Liguria/Destinazioni/Camogli');
+    })->middleware(['auth', 'verified'])->name('camogli');
+
     /*Inizio Camogli*/
         Route::get('/visite/camongli/golfo_paradiso', function () {
             return Inertia::render('Liguria/Visite/Golfo_Paradiso');
@@ -1297,11 +1293,28 @@ Route::get('/home', function () {
         Route::get('/visite/camongli/museo_marinaro', function () {
             return Inertia::render('Liguria/Visite/Museo_Marinaro');
         })->middleware(['auth', 'verified'])->name('museo_marinaro');
-
-        Route::get('/visite/camongli/abbazia_di_san_fruttuoso', function () {
-            return Inertia::render('Liguria/Visite/Abbazia_di_San_Fruttuoso');
-        })->middleware(['auth', 'verified'])->name('abbazia_di_san_fruttuoso');
     /*Fine Camogli*/
+
+    Route::get('/destinazioni/liguria/golfo_del_tigullio', function () {
+        return Inertia::render('Liguria/Destinazioni/Golfo_del_Tigullio');
+    })->middleware(['auth', 'verified'])->name('golfo_del_tigullio');
+    
+    /*Inizio Golfo del Tigullio*/
+        
+    /*Fine Golfo del Tigullio*/
+
+    Route::get('/destinazioni/liguria/abbazia_di_san_fruttuoso', function () {
+        return Inertia::render('Liguria/Destinazioni/Abbazia_di_San_Fruttuoso');
+    })->middleware(['auth', 'verified'])->name('abbazia_di_san_fruttuoso');
+
+    /*Inizio Abbazia di San Fruttuoso*/
+
+    /*Fine Abbazia di San Fruttuoso*/
+
+    Route::get('/destinazioni/liguria/baia_di_san_fruttuoso', function () {
+        return Inertia::render('Liguria/Destinazioni/Baia_di_San_Fruttuoso');
+    })->middleware(['auth', 'verified'])->name('baia_di_san_fruttuoso');
+
 /*Fine Liguria*/
 
 /*Inizio Trentino Alto Adige*/

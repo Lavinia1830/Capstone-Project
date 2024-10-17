@@ -49,7 +49,7 @@ export default function Abbazia_di_San_Fruttuoso(props) {
               Nella parte inferiore del chiostro si trova il <b>sepolcro della famiglia Doria</b>, con <b>sette tombe</b> realizzate in <b>marmo bianco</b> e <b>pietra 
               grigia</b>.
             </p>
-            <Image src={Abbazia_di_san_fruttuoso_Interno} className='mx-auto'/>
+            <Image src={Abbazia_di_san_fruttuoso_Interno} className='mx-auto' alt="Interno dell'Abbazia di San Fruttuoso"/>
           </div>
           <div className='margin mb-4'>
               <h3 className='color-subtitle text-center'>Mappa</h3>
