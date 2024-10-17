@@ -4012,6 +4012,26 @@ hr{
         margin: 0 !important;
       }
     /*Fine Abbazia di San Fruttuoso*/
+    /*Inizio Golfo del Tigullio*/
+      .golfo_del_tigullio{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Liguria/Golfo_del_Tigullio_Genova_Liguria.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .golfo_del_tigullio h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Golfo del Tigullio*/
+    /*Inizio Baia di San Fruttuoso*/
+      .baia_di_san_fruttuoso{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Liguria/Baia_di_San_Fruttuoso_Liguria.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .baia_di_san_fruttuoso h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Baia di San Fruttuoso*/
   /*Fine Camogli*/
 /*Fine Liguria*/
 
