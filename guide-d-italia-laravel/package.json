@@ -22,6 +22,8 @@
         "@inertiajs/inertia-react": "^0.8.1",
         "bootstrap": "^5.3.3",
         "bootstrap-icons": "^1.11.3",
-        "react-bootstrap": "^2.10.2"
+        "i18next": "^24.0.5",
+        "react-bootstrap": "^2.10.2",
+        "react-i18next": "^15.1.4"
     }
 }

@@ -169,7 +169,7 @@ export default function Valle_d_Aosta(props) {
                         </Card.Body>
                     </Card>
                 </div>
-                {/* <div className='bordo-superiore'>
+                <div className='bordo-superiore'>
                     <div className="blog">
                         <h2 className='text-center mb-4 pt-5'>Ultime del blog</h2>
                         <div className='container d-flex justify-content-center flex-wrap'>
@@ -206,7 +206,7 @@ export default function Valle_d_Aosta(props) {
                             </Button>
                         </div>
                     </div>
-                </div> */}
+                </div>
             </main>
             <Footer/>
         </AuthenticatedLayout>

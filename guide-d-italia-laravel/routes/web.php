@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\LanguageController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Foundation\Application;
 use Illuminate\Routing\Router;
@@ -17,6 +18,17 @@ use Illuminate\Support\Facades\Mail;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+/*Cambio lingua*/
+Route::get('lang/{locale}', function ($locale) {
+    if (in_array($locale, ['it', 'en'])) {
+        session()->put('locale', $locale);
+    }
+    return redirect()->back();
+});
+Route::get('/change-language/{lang}', [LanguageController::class, 'changeLanguage']);
+
+
 
 Route::get('/', function () {
     return Inertia::render('Welcome'/* , [
