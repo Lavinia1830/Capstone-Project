@@ -6,6 +6,8 @@ use Illuminate\Routing\RouteFileRegistrar;
 use Illuminate\Routing\Router;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
+use Illuminate\Support\Facades\App;
+use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Response;
 
@@ -1277,20 +1279,33 @@ Route::get('/home', function () {
         })->middleware(['auth', 'verified'])->name('chiesa_del_gesu');
     /*Fine Genova*/
 
+    Route::get('/destinazioni/liguria/savona', function () {
+        return Inertia::render('Liguria/Destinazioni/Savona');
+    })->middleware(['auth', 'verified'])->name('savona');
+
+    /*Inizio Savona*/
+
+        Route::get('/visite/liguria/savona/porto_di_savona', function () {
+            return Inertia::render('Liguria/Visite/Porto_di_Savona');
+        })->middleware(['auth', 'verified'])->name('porto_di_savona');
+
+    /*Fine Savona*/
+
     Route::get('/destinazioni/liguria/camogli', function () {
         return Inertia::render('Liguria/Destinazioni/Camogli');
     })->middleware(['auth', 'verified'])->name('camogli');
 
+
     /*Inizio Camogli*/
-        Route::get('/visite/camongli/golfo_paradiso', function () {
+        Route::get('/visite/liguria/camongli/golfo_paradiso', function () {
             return Inertia::render('Liguria/Visite/Golfo_Paradiso');
         })->middleware(['auth', 'verified'])->name('golfo_paradiso');
 
-        Route::get('/visite/camongli/castello_della_dragonaria', function () {
+        Route::get('/visite/liguria/camongli/castello_della_dragonaria', function () {
             return Inertia::render('Liguria/Visite/Castello_della_Dragonaria');
         })->middleware(['auth', 'verified'])->name('castello_della_dragonaria');
         
-        Route::get('/visite/camongli/museo_marinaro', function () {
+        Route::get('/visite/liguria/camongli/museo_marinaro', function () {
             return Inertia::render('Liguria/Visite/Museo_Marinaro');
         })->middleware(['auth', 'verified'])->name('museo_marinaro');
     /*Fine Camogli*/
@@ -1303,17 +1318,38 @@ Route::get('/home', function () {
         
     /*Fine Golfo del Tigullio*/
 
-    Route::get('/destinazioni/liguria/abbazia_di_san_fruttuoso', function () {
-        return Inertia::render('Liguria/Destinazioni/Abbazia_di_San_Fruttuoso');
+    Route::get('/visite/liguria/abbazia_di_san_fruttuoso', function () {
+        return Inertia::render('Liguria/Visite/Abbazia_di_San_Fruttuoso');
     })->middleware(['auth', 'verified'])->name('abbazia_di_san_fruttuoso');
 
     /*Inizio Abbazia di San Fruttuoso*/
 
     /*Fine Abbazia di San Fruttuoso*/
 
-    Route::get('/destinazioni/liguria/baia_di_san_fruttuoso', function () {
-        return Inertia::render('Liguria/Destinazioni/Baia_di_San_Fruttuoso');
+    Route::get('/visite/liguria/baia_di_san_fruttuoso', function () {
+        return Inertia::render('Liguria/Visite/Baia_di_San_Fruttuoso');
     })->middleware(['auth', 'verified'])->name('baia_di_san_fruttuoso');
+
+    Route::get('/destinazioni/liguria/recco', function () {
+        return Inertia::render('Liguria/Destinazioni/Recco');
+    })->middleware(['auth', 'verified'])->name('recco');
+
+    Route::get('/visite/liguria/paraggi/baia_di_paraggi', function () {
+        return Inertia::render('Liguria/Visite/Baia_di_Paraggi');
+    })->middleware(['auth', 'verified'])->name('baia_di_paraggi');
+
+
+    /*Inizio Portofino*/
+        Route::get('/destinazioni/liguria/portofino', function () {
+            return Inertia::render('Liguria/Destinazioni/Portofino');
+        })->middleware(['auth', 'verified'])->name('portofino');
+    /*Fine Portofino*/
+
+    /*Inizio Mar Ligure*/
+        Route::get('/mare/liguria/mar_ligure', function () {
+            return Inertia::render('Mare/Mar_Ligure');
+        })->middleware(['auth', 'verified'])->name('mar_ligure');
+    /*Fine Mar Ligure*/
 
 /*Fine Liguria*/
 

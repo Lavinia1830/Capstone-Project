@@ -19,7 +19,7 @@ export default function Golfo_del_Tigullio(props) {
           <div className='golfo_del_tigullio' style={{ position: 'relative' }}>
             <h1 style={{ position: 'absolute', top: 20, left: 20 }}>Golfo del Tigullio</h1>
             <span className='text-light' style={{ position: 'absolute', bottom: 50, left: 20 }}>CATEGORIE</span>
-            <p className='categorie' style={{ position: 'absolute', bottom: 10, left: 20 }}>Da vedere</p>
+            <p className='categorie' style={{ position: 'absolute', bottom: 10, left: 20 }}>Città</p>
           </div>
           <div className="margin mt-3">
             <p>

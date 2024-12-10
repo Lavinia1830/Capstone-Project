@@ -65,11 +65,6 @@ hr{
   }
 /*Fine Welcome*/
 
-
-
-
-
-
 /*Inizio in comune*/
   .color_link{
       color: #BDC667;
@@ -3671,32 +3666,42 @@ hr{
     height: 400px;
   }
   .card_Liguria:nth-child(2){ 
-    background: url('../assets/Liguria/Camogli_Genova_Liguria.jpg') center/cover no-repeat;
+    background: url('../assets/Liguria/Savona_Liguria.jpg') center/cover no-repeat;
     /* width: 30%; */
     height: 400px;
   }
   .card_Liguria:nth-child(3){ 
-    background: url('../assets/Liguria/Golfo_del_Tigullio_Genova_Liguria.jpg') center/cover no-repeat;
+    background: url('../assets/Liguria/La_Spezia_Liguria.jpg') center/cover no-repeat;
     /* width: 30%; */
     height: 400px;
   }
   .card_Liguria:nth-child(4){ 
-    background: url('../assets/Liguria/Abbazia_di_san_fruttuoso_Genova_Liguria.jpg') center/cover no-repeat;
+    background: url('../assets/Liguria/Imperia_Liguria.jpg') center/cover no-repeat;
     /* width: 30%; */
     height: 400px;
   }
   .card_Liguria:nth-child(5){ 
-    background: url('../assets/Liguria/Abbazia_di_san_fruttuoso_Genova_Liguria.jpg') center/cover no-repeat;
+    background: url('../assets/Liguria/Sanremo_Liguria.jpg') center/cover no-repeat;
     /* width: 30%; */
     height: 400px;
   }
   .card_Liguria:nth-child(6){ 
-    background: url('../assets/Liguria/Abbazia_di_san_fruttuoso_Genova_Liguria.jpg') center/cover no-repeat;
+    background: url('../assets/Liguria/Camogli_Genova_Liguria.jpg') center/cover no-repeat;
     /* width: 30%; */
     height: 400px;
   }
   .card_Liguria:nth-child(7){ 
-    background: url('../assets/Liguria/Abbazia_di_san_fruttuoso_Genova_Liguria.jpg') center/cover no-repeat;
+    background: url('../assets/Liguria/Recco_Liguria.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Liguria:nth-child(8){ 
+    background: url('../assets/Liguria/Portifino_Liguria.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Liguria:nth-child(9){ 
+    background: url('../assets/Liguria/Le_5_terre_Liguria.jpg') center/cover no-repeat;
     /* width: 30%; */
     height: 400px;
   }
@@ -3940,6 +3945,84 @@ hr{
       }
     /*Fine Chiesa di Gesù*/
   /*Fine Genova*/
+  /*Inizio Savona*/
+    .savona{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Liguria/Savona_Liguria.jpg') center/cover no-repeat;
+      padding: 250px 0;
+    }
+    .savona h1{
+      color: #fff;
+      margin: 0 !important;
+    }
+    .card_Savona{
+      display: flex;
+    }
+    .card_Savona:nth-child(1){
+      background: url('../assets/Liguria/Fortezza_del_Priamar_Savona_Liguria.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Savona:nth-child(2){
+      background: url('../assets/Liguria/Museo_Archologico_Savona_Liguria.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Savona:nth-child(3){
+      background: url('../assets/Liguria/Museo_d-Arte_Sandro_Pertini_e_Renata_Cuneo_Savona_Liguria.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Savona:nth-child(4){
+      background: url('../assets/Liguria/Vecchia_darsena_Savona_Liguria.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Savona:nth-child(5){
+      background: url('../assets/Liguria/Torre_del_Brandale_Savona_Liguria.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Savona:nth-child(6){
+      background: url('../assets/Liguria/Cappella_Sistina_Savona_Liguria.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Savona:nth-child(7){
+      background: url('../assets/Liguria/Pinacoteca_Civica_Savona_Liguria.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Savona:nth-child(8){
+      background: url('../assets/Liguria/Museo_dell_Ceramica_Savona_Liguria.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Savona:nth-child(9){
+      background: url('../assets/Liguria/Museo_All_About_Apple_Savona_Liguria.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Savona:nth-child(10){
+      background: url('../assets/Liguria/Torre_Leon_Pancaldo_Savona_Liguria.JPG') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Savona:nth-child(11){
+      background: url('../assets/Liguria/Villa_Cambiaso_Savona_Liguria.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    /*Inizio Porto di Savona*/
+      .porto_di_savona{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Liguria/Porto_di_Savona_Liguria.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .porto_di_savona h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Porto di Savona*/
+  /*Fine Savona*/
   /*Inizio Camogli*/
     .camogli{
       background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Liguria/Camogli_Genova_Liguria.jpg') center/cover no-repeat;
@@ -4024,7 +4107,7 @@ hr{
     /*Fine Golfo del Tigullio*/
     /*Inizio Baia di San Fruttuoso*/
       .baia_di_san_fruttuoso{
-        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Liguria/Baia_di_San_Fruttuoso_Liguria.jpg') center/cover no-repeat;
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Liguria/Abbazia_si_San_Fruttuoso_Golfo_del_Tigullio_Liguria.jpg') center/cover no-repeat;
         padding: 250px 0;
       }
       .baia_di_san_fruttuoso h1{
@@ -4032,7 +4115,36 @@ hr{
         margin: 0 !important;
       }
     /*Fine Baia di San Fruttuoso*/
+    /*Inizio Portofino*/
+    .portofino{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Liguria/Portifino_Liguria.jpg') center/cover no-repeat;
+      padding: 250px 0;
+    }
+    .portofino h1{
+      color: #fff;
+      margin: 0 !important;
+    }
   /*Fine Camogli*/
+  /*Inizio Recco*/
+    .recco{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Liguria/Recco_Liguria.jpg') center/cover no-repeat;
+      padding: 250px 0;
+    }
+    .recco h1{
+      color: #fff;
+      margin: 0 !important;
+    }
+  /*Fine Recco*/
+  /*Inizio Baia di Paraggi*/
+    .baia_di_paraggi{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Liguria/Baia_di_Paraggi_Liguria.jpg') center/cover no-repeat;
+      padding: 250px 0;
+    }
+    .baia_di_paraggi h1{
+      color: #fff;
+      margin: 0 !important;
+    }
+  /*Fine Baia di Paraggi*/
 /*Fine Liguria*/
 
 /*Inizio Trentino Alto Adige*/
