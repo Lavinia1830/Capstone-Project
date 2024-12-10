@@ -16,8 +16,8 @@ export default function Camogli(props) {
         <>
             <Head title="Camogli"/>
             <AuthenticatedLayout
-            auth={props.auth}
-            errors={props.errors}
+                auth={props.auth}
+                errors={props.errors}
             >
                 <main>
                     <div className='camogli' style={{ position: 'relative' }}>
@@ -46,7 +46,7 @@ export default function Camogli(props) {
                                 <CardBody className='bottone'>
                                 <Link 
                                     className="bottone_link" 
-                                    href='/visite/camongli/golfo_paradiso'
+                                    href='/visite/liguria/camongli/golfo_paradiso'
                                     onMouseEnter={() => setIsHoveredGolfoParadiso(true)}
                                     onMouseLeave={() => setIsHoveredGolfoParadiso(false)}
                                     >Golfo Paradiso {isHoveredGolfoParadiso && <i className="bi bi-chevron-right"></i>}
@@ -57,7 +57,7 @@ export default function Camogli(props) {
                                 <CardBody className='bottone'>
                                 <Link 
                                     className="bottone_link" 
-                                    href='/visite/camongli/castello_della_dragonaria'
+                                    href='/visite/liguria/camongli/castello_della_dragonaria'
                                     onMouseEnter={() => setIsHoveredCastelloDragonaria(true)}
                                     onMouseLeave={() => setIsHoveredCastelloDragonaria(false)}
                                     >Castello della Dragonara {isHoveredCastelloDragonaria && <i className="bi bi-chevron-right"></i>}
@@ -68,7 +68,7 @@ export default function Camogli(props) {
                                 <CardBody className='bottone'>
                                 <Link 
                                     className="bottone_link" 
-                                    href='/visite/camongli/museo_marinaro'
+                                    href='/visite/liguria/camongli/museo_marinaro'
                                     onMouseEnter={() => setIsHoveredMuseoMarinaro(true)}
                                     onMouseLeave={() => setIsHoveredMuseoMarinaro(false)}
                                     >Museo Marinaro {isHoveredMuseoMarinaro && <i className="bi bi-chevron-right"></i>}
@@ -79,7 +79,7 @@ export default function Camogli(props) {
                                 <CardBody className='bottone'>
                                 <Link 
                                     className="bottone_link" 
-                                    href='/destinazioni/liguria/abbazia_di_san_fruttuoso'
+                                    href='/visite/liguria/abbazia_di_san_fruttuoso'
                                     onMouseEnter={() => setIsHoveredASantaFruttuoso(true)}
                                     onMouseLeave={() => setIsHoveredASantaFruttuoso(false)}
                                     >Abbazia di San Fruttuoso {isHoveredASantaFruttuoso && <i className="bi bi-chevron-right"></i>}
