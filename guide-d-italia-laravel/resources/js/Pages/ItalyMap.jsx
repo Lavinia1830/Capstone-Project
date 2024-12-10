@@ -1,15 +1,14 @@
 import React from 'react';
 import MappaItalia from '../../assets/italy-map.png';
 import '../../css/app.css';
-import { useTranslation } from "react-i18next";
 
 export default function ItalyMap() {
-  const { t } = useTranslation();
+  
 
   return (
     <>
       <main>
-        <h1 className='mt-1 text-center'>{t("Scegli una regione che vuoi visitare!")}</h1>
+        <h1 className='mt-1 text-center'>Scegli una regione che vuoi visitare!</h1>
         <div className="map-container">
           <img id="italy-map-smartphone" className='mappa-smartphone' src={MappaItalia} width="300" height="375" useMap="#imgmap202422792115" alt="Mappa dell'Italia" />
           <map id="imgmap202422792115" name="imgmap202422792115">
