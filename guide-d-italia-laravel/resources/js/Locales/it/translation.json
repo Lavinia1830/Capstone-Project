@@ -2,6 +2,8 @@
     "welcome": "Benvenuto nel nostro sito web!",
     "exit": "Disconnettersi",
     "profile": "Profilo",
+    "home": "Home",
+    "regions": "Regioni",
     "abruzzo": "Abruzzo",
     "basilicata": "Basilicata",
     "calabria": "Calabria",
@@ -29,6 +31,7 @@
     "sea": "Mare",
     "adriatic sea": "Mare Adriatico",
     "mountain": "Montagna",
-    "monte bondone": "Monte Bondone"
+    "monte bondone": "Monte Bondone",
+    "choose a region": "Scegli una regione che vuoi visitare!"
   }
   
