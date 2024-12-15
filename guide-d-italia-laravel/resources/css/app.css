@@ -55,6 +55,15 @@ hr{
     background-color: #77966d !important;
   }
 
+  .language{
+    position: absolute; /* Posizionamento assoluto */
+    top: 10px; /* Distanza dall'alto */
+    right: 10px; /* Distanza dalla destra */
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #ffffff; /* Colore del testo */
+    cursor: pointer;
+  }
 /*Fine Welcome*/
 
 

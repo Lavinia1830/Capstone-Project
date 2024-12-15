@@ -1,12 +1,18 @@
 import React, {useState} from 'react';
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout';
 import { Head, Link } from '@inertiajs/react';
-import {Card, Button} from 'react-bootstrap';
+import {Card} from 'react-bootstrap';
 import Footer from '@/Components/Footer';
-
+import { useTranslation } from 'react-i18next';
 
 
 export default function Valle_d_Aosta(props) {
+
+    const { t, i18n } = useTranslation();
+
+    const changeLanguage = (lng) => {
+      i18n.changeLanguage(lng); // Cambia la lingua in base al parametro
+    };
 
     const [isHoveredAosta, setIsHoveredAosta] = useState(false);
     const [isHoveredCourmayeur, setIsHoveredCourmayeur] = useState(false);
@@ -19,41 +25,42 @@ export default function Valle_d_Aosta(props) {
 
   return (
     <>
-        <Head title="Valle d'Aosta"/>
+        <Head title={t('aosta valley')}/>
         <AuthenticatedLayout
             auth={props.auth}
             errors={props.errors}
         >
             <main>
                 <div className='text-center valle_d_aosta'>
-                    <h1>Valle d'Aosta</h1>
+                    <h1>{t('aosta valley')}</h1>
                 </div>
                 <div className='text-center margin mt-3'>
                     <p>
-                        La più piccola Regione d'Italia, al confine con Francia e Svizzera, è costellata dalle più alte vette delle Alpi come <b>il Cervino</b>, <b>il Monte Rosa</b>, <b>il Gran Paradiso</b> e sua maestà <b>il Monte Bianco</b>. <br/>
-                        Destinazione ideale per gli amanti degli sport invernali, con gli sci ai piedi qui non ci si può che divertire, con le sue verdi valli e i castelli fiabeschi la <strong>Valle d’Aosta</strong> è un luogo incantevole da vivere tutto l’anno.
+                        {t("introduction aosta valley first part")} <b>{t("monte rosa")}</b>, <b>{t('the gran paradiso')}</b> {t('introduction aosta valley second part')} <b>{t('mont blanc')}</b>. <br/>
+                        {t("introduction aosta valley third part")} <strong>{t('introduction aosta valley fourth part')}</strong>
                     </p>
                 </div>
                 <div className="margin mt-3">
-                    <h2 className='color-subtitle'>Origini e cenni storici sulla Valle d'Aosta</h2>
+                    <h2 className='color-subtitle'>{t("origins and historical notes on the aosta valley")}</h2>
                     <p>
-                        Abitato fin dal IV secolo a.C. dal <b>popolo dei Salassi</b>, il territorio della Valle d'Aosta fu conquistato dai Romani nel 25 a.C. che fondarono Augusta Prætoria Salassorum, l'attuale <Link href='/destinazioni/valle_d_aosta/aosta' 
-                        className='text-decoration-none color_link'>Aosta</Link>, dove si erge ancora l'imponente <Link href='/visite/valle_d_aosta/aosta/arco_di_augusto' className='text-decoration-none color_link'>Arco di Augusto</Link> in ricordo di quella 
-                        vittoria.
+                        {t('origins and historical notes on the aosta valley first part')} <b>{t('people of the salassi')}</b>{t('origins and historical notes on the aosta valley second part')} 
+                        <Link href='/destinazioni/valle_d_aosta/aosta' className='text-decoration-none color_link'>{t('aosta')}</Link> {t('origins and historical notes on the aosta valley third part')} 
+                        <Link href='/visite/valle_d_aosta/aosta/arco_di_augusto' className='text-decoration-none color_link'>{t('arch of augustus')}</Link> 
+                        {t('origins and historical notes on the aosta valley fourth part')}
                     </p>
                     <p>
-                        Le strade costruite dai Romani, come la <Link href='/visite/valle_d_aosta/aosta/via_francigena' className='text-decoration-none color_link'>Via Francigena</Link> che parte da qui, favorirono il passaggio dei Goti, dei Franchi e dei Longobardi 
-                        fino all'arrivo di <b>Umberto I Biancamano</b> che, nel 1302, la trasformò in ducato concedendo alla popolazione ampia autonomia.
+                        {t('origins and historical notes on the aosta valley fifth part')} <Link href='/visite/valle_d_aosta/aosta/via_francigena' className='text-decoration-none color_link'>{t('via francigena')}</Link> {t('origins and historical notes on the aosta valley sixth past')}
+                        <b>{t('umberto i biancamano')}</b> {t('origins and historical notes on the aosta valley seventh part')}
                     </p>
                     <p>
-                        Entrata a far parte del <b>Regno di Sardegna</b> nel 1847, la Valle d'Aosta ottenne lo statuto speciale della Repubblica Italiana nel 1948.
+                        {t('origins and historical notes on the aosta valley eight part')} <b>{t('kingdom of sardinia')}</b> {t('origins and historical notes on the aosta valley ninth part')}
                     </p>
                 </div>
                 <div className="margin mt-3">
-                    <h2 className='color-subtitle'>Città principali in Valle d'Aosta</h2>
+                    <h2 className='color-subtitle'>{t('top cities in aosta valley')}</h2>
                     <p>
-                        <b>Aosta</b> conserva ancora diverse testimonianze della sua lunga dominazione da parte degli antichi romani, come la <b>Porta Praetoria</b> e le rovine del <b>teatro romano</b>. Il <b>Criptoportico forense</b>, parte dell’antico foro ancora 
-                        perfettamente conservato, si trova sotto la Cattedrale che sorge a pochi passi dalla grande <b>piazza Émile Chanoux</b>.
+                        <b>{t('aosta')}</b> <b>{t('porta Praetoria')}</b> {t('top cities in aosta valley second part')} <b>{t('roman theatre')}</b>. {t('the')} <b>{t('forensic cryptoporticus')}</b>, 
+                        {t('top cities in aosta valley third part')}, {t('top cities in aosta valley fourth part')} <b>{t('place émile chanoux')}</b>.
                     </p>
                     <p>
                         A nord del <Link href='/visite/valle_d_aosta/parco_nazionale_del_gran_paradiso' className='text-decoration-none color_link'>Parco Nazionale del Gran Paradiso</Link>, che include parte del territorio valdostano intorno all'omonimo massiccio, si 
@@ -169,7 +176,7 @@ export default function Valle_d_Aosta(props) {
                         </Card.Body>
                     </Card>
                 </div>
-                <div className='bordo-superiore'>
+                {/* <div className='bordo-superiore'>
                     <div className="blog">
                         <h2 className='text-center mb-4 pt-5'>Ultime del blog</h2>
                         <div className='container d-flex justify-content-center flex-wrap'>
@@ -206,7 +213,7 @@ export default function Valle_d_Aosta(props) {
                             </Button>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </main>
             <Footer/>
         </AuthenticatedLayout>
