@@ -63,9 +63,9 @@ hr{
   .btn-registrati:hover, .btn-accedi:hover, .btn-card:hover{
     background-color: #77966d !important;
   }
-<<<<<<< Change-language
 
-  /*.language{
+
+  .language{
     position: absolute; /* Posizionamento assoluto */
     top: 10px; /* Distanza dall'alto */
     right: 10px; /* Distanza dalla destra */
@@ -73,9 +73,7 @@ hr{
     font-size: 16px;
     color: #ffffff; /* Colore del testo */
     cursor: pointer;
-  }*/
-=======
->>>>>>> dev
+  }
 /*Fine Welcome*/
 
 /*Inizio in comune*/
