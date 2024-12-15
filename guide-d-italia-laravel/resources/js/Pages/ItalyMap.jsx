@@ -14,7 +14,6 @@ export default function ItalyMap() {
   return (
     <>
       <main>
-
         <h1 className='mt-1 text-center'>{t('choose a region')}</h1>
         <div className="map-container d-flex justify-content-center align-items-center ">
           <img id="italy-map-smartphone" className='mappa-smartphone' src={MappaItalia} width="300" height="375" useMap="#imgmap202422792115" alt="Mappa dell'Italia" />
