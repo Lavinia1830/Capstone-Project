@@ -72,7 +72,7 @@ export default function Aosta(props) {
                             <li>
                                 <p>
                                     <b>Aosta e i suoi monumenti simbolo</b>: l’<Link href='/visite/valle_d_aosta/aosta/arco_di_augusto' className='text-decoration-none color_link'>Arco di Augusto</Link> è un monumento posto lungo la strada che conduceva all’ingresso principale della città romana, 
-                                    la <Link href='/visite/valle_d_aosta/aosta/porta_pretoria' className='text-decoration-none color_link'>Porta Praetoria</Link>. Come suggerisce il nome, l’arco fu dedicato all'imperatore Augusto come segno della potenza di Roma. La Porta Pretoria, seconda tappa 
+                                    la <Link href='/visite/valle_d_aosta/aosta/porta_praetoria' className='text-decoration-none color_link'>Porta Praetoria</Link>. Come suggerisce il nome, l’arco fu dedicato all'imperatore Augusto come segno della potenza di Roma. La Porta Pretoria, seconda tappa 
                                     poco lontana, aveva tre aperture ancora presenti: due laterali per i pedoni e una centrale per i carri. Era interamente ricoperta di marmo, oggi visibile in parte sulla facciata orientale.
                                 </p>
                             </li>

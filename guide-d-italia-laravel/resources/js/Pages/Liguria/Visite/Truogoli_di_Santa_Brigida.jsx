@@ -16,23 +16,27 @@ export default function Truogoli_di_Santa_Brigida(props) {
             </div>
             <div className="margin mt-3">
                 <p>
-                    Sul lato a monte di <b>piazza della Commenda</b> si imbocca <b>via di Prè</b>. Dopo un breve tratto, si svolta a sinistra in <b>vico di Santa Brigida</b> per raggiungere <b>piazza dei Truogoli di Santa Brigida</b>. È la piazza degli antichi lavatoi, circondata da case antiche ben rinnovate e coloratissime, con un'edicola sacra 
-                    su un muro.
+                    Sul lato a monte di <b>piazza della Commenda</b> si imbocca <b>via di Prè</b>. Dopo un breve tratto, si svolta a sinistra in <b>vico di Santa Brigida</b> per 
+                    raggiungere <b>piazza dei Truogoli di Santa Brigida</b>. È la piazza degli <b>antichi lavatoi</b>, circondata da <b>case antiche ben rinnovate e 
+                    coloratissime</b>, con un'edicola sacra su un muro.
                 </p>
                 <p>
-                    Al centro della piazza c'è una tettoia in ferro che copre i “truogoli”, dove sino a non molti decenni fa le donne del quartiere si incontravano per lavare i panni e socializzare.
+                    Al centro della piazza c'è una <b>tettoia in ferro</b> che copre i “<strong>truogoli</strong>”, dove sino a non molti decenni fa <b>le donne del quartiere si 
+                    incontravano per lavare i panni e socializzare</b>.
                 </p>
                 <p>
-                    I vecchi genovesi dicevano che a <b>Santa Brigida</b> “l'acqua andava sprecata”, poiché la fontana del lavatoio era sempre aperta.
+                    I vecchi genovesi dicevano che a <b>Santa Brigida</b> “l'acqua andava sprecata”, poiché <b>la fontana del lavatoio era sempre aperta</b>.
                 </p>
                 <p>
-                    La piazza e i truogoli prendono il nome dal convento - ora scomparso - che occupava l’area a monte della piazza e di <b>via Balbi</b>.
+                    La piazza e i truogoli prendono il nome dal <b>convento</b> - <b>ora scomparso</b> - che occupava l’area a monte della piazza e di <b>via Balbi</b>.
                 </p>
                 <p>
-                    Oggi è una delle piazzette più belle del centro storico, suggestiva quando è deserta e silenziosa, allegra quando è animata dalla gente che entra ed esce da ristoranti, librerie e negozietti.
+                    Oggi è una delle <b>piazzette più belle del centro storico</b>, suggestiva quando è deserta e silenziosa, allegra quando è animata dalla gente che entra ed 
+                    esce da <b>ristoranti</b>, <b>librerie e negozietti</b>.
                 </p>
                 <p>
-                    Sotto la tettoia dei truogoli ci si siede intorno ai tavolini per pranzare o prendere un aperitivo, assistere a pubbliche letture, conferenze, film all'aperto.
+                    Sotto la tettoia dei truogoli ci si siede intorno ai tavolini per <b>pranzare o prendere un aperitivo</b>, assistere a <b>pubbliche letture</b>, <b>conferenze</b>, <b>film 
+                    all'aperto</b>.
                 </p>
             </div>
             <div className='margin mb-4'>

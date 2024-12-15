@@ -78,7 +78,7 @@ export default function Valle_d_Aosta(props) {
                         className='text-decoration-none color_link'>Cervino</Link>, e bagnato dalla Dora Baltea, c'è l'imbarazzo della scelta quando si tratta di decidere cosa vedere.
                     </p>
                     <p>
-                        Nell'area alle pendici delle due montagne potete mettervi alla prova nella stazione turistica di <Link href='/destinazioni/valle_d_aosta/cervinia_valtounernche' className='text-decoration-none color_link'>Cervinia - Valtournenche</Link>, sia d'inverno 
+                        Nell'area alle pendici delle due montagne potete mettervi alla prova nella stazione turistica di <Link href='/destinazioni/valle_d_aosta/cervinia_valtournanche' className='text-decoration-none color_link'>Cervinia - Valtournenche</Link>, sia d'inverno 
                         che d'estate, e farvi incantare dalle magiche acque del <Link href='/laghi/valle_d_aosta/lago_blu' className='text-decoration-none color_link'>Lago Blu di Cervinia</Link> a 1981 metri di altezza o dalla fiabesca Valle d'Ayas in cui 
                         sorge <Link href='/destinazioni/valle_d_aosta/champoluc' className='text-decoration-none color_link'>Champoluc</Link>.
                     </p>

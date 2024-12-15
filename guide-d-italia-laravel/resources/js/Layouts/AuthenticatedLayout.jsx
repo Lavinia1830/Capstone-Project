@@ -108,7 +108,16 @@ export default function Authenticated({ auth, header, children }) {
                                         <NavLink className='text-decoration-none color_link' href="/mare/mare_adriatico">{t('adriatic sea')}</NavLink>
                                     </NavDropdown.Item>
                                 </NavDropdown>
+<<<<<<< Change-language
                                 <NavDropdown title={t('mountain')} style={{ marginTop: '3px' }} id="basic-nav-dropdown">
+=======
+                                <NavDropdown title="Mare" style={{ marginTop: '3px'}} id="basic-nav-dropdown">
+                                    <NavDropdown.Item>
+                                        <NavLink className='text-decoration-none color_link' href="/mare/mare_adriatico">Mare Adriatico</NavLink>
+                                    </NavDropdown.Item>
+                                </NavDropdown>
+                                <NavDropdown title="Montagna" style={{ marginTop: '3px'}} id="basic-nav-dropdown">
+>>>>>>> dev
                                     <NavDropdown.Item>
                                         <NavLink className='text-decoration-none color_link' to="/montagna/monte_bondone">
                                             {t('monte bondone')}
@@ -266,6 +275,7 @@ export default function Authenticated({ auth, header, children }) {
                                 <NavLink className='text-decoration-none color_link' href="/laghi/lago_di_garda">{t('lake garda')}</NavLink>
                             </NavDropdown.Item>
                         </div>
+<<<<<<< Change-language
                         <h6 className='ms-1 fw-bold'>{t('sea')}</h6>
                         <div className="ms-3">
                         <NavDropdown.Item>
@@ -274,6 +284,16 @@ export default function Authenticated({ auth, header, children }) {
                         </div>
                         
                         <h6 className='ms-1 fw-bold'>{t('mountain')}</h6>
+=======
+                        <h6 className='ms-1 fw-bold'>Mare</h6>
+                        <div className="ms-3">
+                        <NavDropdown.Item>
+                                <NavLink className='text-decoration-none color_link' href="/">Mare Adriatico</NavLink>
+                            </NavDropdown.Item>
+                        </div>
+                        
+                        <h6 className='ms-1 fw-bold'>Montagna</h6>
+>>>>>>> dev
                         <div className="ms-3">
                             <NavDropdown.Item>
                                 <NavLink className='text-decoration-none color_link' href="/montagna/monte_bondone">{t('monte bondone')}</NavLink>
