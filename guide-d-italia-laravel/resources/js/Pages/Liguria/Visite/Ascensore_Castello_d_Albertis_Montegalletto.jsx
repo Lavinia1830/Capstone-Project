@@ -16,26 +16,31 @@ export default function Ascensore_Castello_d_Albertis_Montegalletto(props) {
             </div>
             <div className="margin mt-3">
                 <p>
-                    L'<strong>ascensore di Montegalletto</strong> è quello più avanzato dal punto di vista tecnologico, infatti si tratta di un sistema misto orizzontale-verticale che collega Via Balbi con Corso Dogali all'altezza del Castello De Albertis.
+                    L'<strong>ascensore di Montegalletto</strong> è quello <b>più avanzato dal punto di vista tecnologico</b>, infatti si tratta di un <b>sistema misto orizzontale-verticale</b> che 
+                    collega Via Balbi con Corso Dogali all'altezza del Castello De Albertis.
                 </p>
                 <p>
-                    Venne inaugurato nel 1929 e durante l'ultima ristrutturazione si decise di trasformarlo in maniera tale da evitare agli utenti di percorrere a piedi la lunga galleria (oltre 200 metri ) con un impianto che al mondo non trova uguali. L'opera venne finanziata con i contributi del Comune di Genova, 
-                    della Regione Liguria e del Programma Comunitario Urban II e nel 2004 l'impianto venne finalmente riaperto al pubblico.
+                    Venne inaugurato nel <b>1929</b> e durante l'ultima ristrutturazione si decise di <b>trasformarlo in maniera tale da evitare agli utenti di percorrere a piedi la lunga galleria 
+                    (oltre 200 metri)</b> con un impianto che al mondo non trova uguali. L'opera venne finanziata con i contributi del <b>Comune di Genova</b>, della <b>Regione Liguria</b> e 
+                    del <b>Programma Comunitario Urban II</b> e nel <b>2004 l'impianto venne finalmente riaperto al pubblico</b>.
                 </p>
                 <p>
-                    Il percorso orizzontale ha una lunghezza di 236 m (cabina 1) e 234 m (cabina 2) mentre il dislivello verticale è di 72 metri (in assoluto il maggiore fra gli ascensori cittadini). Nel tratto orizzontale la cabina è trainata da una fune, chiusa ad anello, alla velocità di 4,5 m/s; in fondo alla 
-                    galleria la cabina viene presa in consegna da una serie di pneumatici motorizzati, del tipo in uso nelle travi di lancio delle funivie, che la trasferisce all'interno dell'ascensore. La gabbia dell'ascensore la porta, lungo il pozzo verticale, al piano superiore con velocità di circa 1,6 m/s; i 
-                    macchinari di sollevamento sono sistemati nella stessa posizione occupata in precedenza dalle macchine dei vecchi ascensori.
+                    Il <b>percorso orizzontale</b> ha una lunghezza di <b>236 m (cabina 1) e 234 m (cabina 2)</b> mentre il dislivello verticale è di <b>72 metri</b> (in assoluto il maggiore fra gli 
+                    ascensori cittadini). Nel tratto orizzontale la cabina è trainata da una fune, chiusa ad anello, alla velocità di <b>4,5 m/s</b>; in fondo alla galleria la cabina viene presa in 
+                    consegna da una serie di <b>pneumatici motorizzati</b>, del tipo in uso nelle travi di lancio delle funivie, che la trasferisce all'interno dell'ascensore. La gabbia dell'ascensore 
+                    la porta, lungo il pozzo verticale, al piano superiore con velocità di circa <b>1,6 m/s</b>; i macchinari di sollevamento sono sistemati nella stessa posizione occupata in precedenza 
+                    dalle macchine dei vecchi ascensori.
                 </p>
                 <p>
-                    Le due cabine a disposizione, ciascuna con una capienza pari a 23 persone garantiscono una portata oraria di circa 400 persone per ogni senso di marcia. Il pulpito (sito all'imbocco del tunnel di via Balbi) è tuttora presenziato da personale AMT (unico caso fra gli ascensori genovesi) data la complessità 
-                    tecnologica del sistema, che tuttora necessità di interventi “on-line” in caso di problemi.
+                    Le due cabine a disposizione, ciascuna con una capienza pari a <b>23 persone</b> garantiscono una portata oraria di circa <b>400 persone per ogni senso di marcia</b>. 
+                    Il <b>pulpito</b> (sito all'imbocco del tunnel di via Balbi) è tuttora presenziato da <b>personale AMT</b> (unico caso fra gli ascensori genovesi) data la complessità tecnologica 
+                    del sistema, che tuttora necessità di interventi “on-line” in caso di problemi.
                 </p>
                 <p>
-                    L'edificio oggi appartiene a una società privata che, dopo averlo restaurato, lo ha aperto al pubblico come sede di mostre temporanee, attività culturali e ricevimenti.
+                    L'edificio oggi appartiene a una <b>società privata</b> che, dopo averlo restaurato, lo ha aperto al pubblico come sede di mostre temporanee, attività culturali e ricevimenti.
                 </p>
                 <p>
-                    Il palazzo è aperto per i visitatori individuali una volta al mese, e in occasione di mostre ed eventi.
+                    Il palazzo è <b>aperto per i visitatori individuali una volta al mese</b>, e in occasione di mostre ed eventi.
                 </p>
             </div>
             <div className='margin mb-4'>

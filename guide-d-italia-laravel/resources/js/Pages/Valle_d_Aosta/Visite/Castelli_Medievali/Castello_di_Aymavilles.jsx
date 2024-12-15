@@ -20,7 +20,7 @@ export default function Castello_di_Aymavilles(props) {
                     <div className="margin mt-3">
                         <h2 className="color-subtitle">Castello di Aymavilles: una residenza museo ricca di storia e bellezze naturali</h2>
                         <p>
-                            Un unico blocco rettangolare con quattro possenti torri , abbracciato da un ampio parco, il <strong>Castello di Aymavilles</strong> , nel comune di Aymavilles, sorge su una collina digradante verso la Dora Baltea, lungo la strada per <Link href='/destinazione/valle_d_aosta/cogne' 
+                            Un unico blocco rettangolare con quattro possenti torri , abbracciato da un ampio parco, il <strong>Castello di Aymavilles</strong> , nel comune di Aymavilles, sorge su una collina digradante verso la Dora Baltea, lungo la strada per <Link href='/destinazioni/valle_d_aosta/cogne' 
                             className='text-decoration-none color_link'>Cogne</Link>.
                         </p>
                         <p>
