@@ -4,7 +4,10 @@ import ItalyMap from './ItalyMap';
 import Footer from '@/Components/Footer';
 import { Head } from '@inertiajs/react';
 
+
 export default function Home(props) {
+
+
   return (
     <>
       <Head title="Home"/>
