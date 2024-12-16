@@ -1,33 +1,23 @@
 import { Link, Head } from '@inertiajs/react';
-import { useTranslation } from 'react-i18next';
 
 export default function Welcome() {
 
-    const { t, i18n } = useTranslation();
-
-    const changeLanguage = (lng) => {
-      i18n.changeLanguage(lng); // Cambia la lingua in base al parametro
-    };
 
     return (
         <>
             <Head title="Welcome" />
             
             <div className="login-page">
-                <div className="language">
-                    <button onClick={() => changeLanguage('en')} className='color_link'>English</button><br />
-                    <button onClick={() => changeLanguage('it')} className='color_link'>Italiano</button>
-                </div>
                 {/* Aggiungi qui il tuo codice per lo sfondo o altri elementi della pagina */}
                 <div className="login-form">
-                    <h2>{t('welcome')}</h2>
+                    <h2>Benvenuto</h2>
                     {/* Aggiungi qui altri elementi del form se necessario */}
                     <div className='row'>
                         <div className="col">
-                            <Link href='/register' className='text-decoration-none'><button type="button" className="btn-registrati me-3">{t('registered')}</button></Link>
+                            <Link href='/register' className='text-decoration-none'><button type="button" className="btn-registrati me-3">Registrati</button></Link>
                         </div>
                         <div className="col">
-                            <Link href='/login' className='text-decoration-none'><button type="button" className="btn-accedi">{t('log in')}</button></Link>
+                            <Link href='/login' className='text-decoration-none'><button type="button" className="btn-accedi">Accedi</button></Link>
                         </div>
                     </div>
                     
