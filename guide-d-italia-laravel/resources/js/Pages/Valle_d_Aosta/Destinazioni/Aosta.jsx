@@ -72,7 +72,7 @@ export default function Aosta(props) {
                             <li>
                                 <p>
                                     <b>Aosta e i suoi monumenti simbolo</b>: l’<Link href='/visite/valle_d_aosta/aosta/arco_di_augusto' className='text-decoration-none color_link'>Arco di Augusto</Link> è un monumento posto lungo la strada che conduceva all’ingresso principale della città romana, 
-                                    la <Link href='/visite/valle_d_aosta/aosta/porta_pretoria' className='text-decoration-none color_link'>Porta Praetoria</Link>. Come suggerisce il nome, l’arco fu dedicato all'imperatore Augusto come segno della potenza di Roma. La Porta Pretoria, seconda tappa 
+                                    la <Link href='/visite/valle_d_aosta/aosta/porta_praetoria' className='text-decoration-none color_link'>Porta Praetoria</Link>. Come suggerisce il nome, l’arco fu dedicato all'imperatore Augusto come segno della potenza di Roma. La Porta Pretoria, seconda tappa 
                                     poco lontana, aveva tre aperture ancora presenti: due laterali per i pedoni e una centrale per i carri. Era interamente ricoperta di marmo, oggi visibile in parte sulla facciata orientale.
                                 </p>
                             </li>
@@ -97,7 +97,7 @@ export default function Aosta(props) {
                             Oltre a perdersi tra le sue montagne, la natura incontaminata e le tante testimonianze storiche, la città offre tantissime attrattive per tutta la famiglia. 3 sono i suggerimenti per chi vuole vivere una vacanza piena:
                         </p>
                         <p>
-                            La <Link href='/valle_d_aosta/eventi/aosta/fiera_di_sant_orso' className='text-decoration-none color_link'>Fiera di Sant’Orso</Link>, che si tiene il 30 e il 31 di gennaio, è un evento che vede artisti e artigiani valdostani esporre sculture e intagli su legno, oggetti in 
+                            La <Link href='/eventi/valle_d_aosta/aosta/fiera_di_sant_orso' className='text-decoration-none color_link'>Fiera di Sant’Orso</Link>, che si tiene il 30 e il 31 di gennaio, è un evento che vede artisti e artigiani valdostani esporre sculture e intagli su legno, oggetti in 
                             ferro e in cuoio e tanto altro.
                         </p>
                         <p>

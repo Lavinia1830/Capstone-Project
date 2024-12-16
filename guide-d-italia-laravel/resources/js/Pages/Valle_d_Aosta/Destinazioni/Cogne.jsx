@@ -51,7 +51,7 @@ export default function Cogne(props) {
                             <CardBody className='bottone'>
                             <Link 
                                 className="bottone_link" 
-                                href='/visite/valle_d_aosta/cogne/chiesa_di_sant_orso'
+                                href='/visite/valle_d_aosta/cogne/chiasa_di_sant_orso'
                                 onMouseEnter={() => setIsHoveredChiesadiSantOrso(true)}
                                 onMouseLeave={() => setIsHoveredChiesadiSantOrso(false)}
                                 >Chiesa di Sant’Orso {isHoveredChiesadiSantOrso && <i className="bi bi-chevron-right"></i>}
@@ -128,7 +128,7 @@ export default function Cogne(props) {
                             <CardBody className='bottone'>
                             <Link 
                                 className="bottone_link" 
-                                href='/visite/valle_d_aosta/cogne/piazza_chanoux'
+                                href='/visite/valle_d_aosta/cogne/piazza_chanoux_cogne'
                                 onMouseEnter={() => setIsHoveredPiazzaChanoux(true)}
                                 onMouseLeave={() => setIsHoveredPiazzaChanoux(false)}
                                 >Piazza Chanoux {isHoveredPiazzaChanoux && <i className="bi bi-chevron-right"></i>}

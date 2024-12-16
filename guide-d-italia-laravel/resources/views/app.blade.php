@@ -15,6 +15,9 @@
         @viteReactRefresh
         @vite(['resources/js/app.jsx', "resources/js/Pages/{$page['component']}.jsx"])
         @inertiaHead
+
+        <div id="app" data-page="{{ json_encode($page) }}"></div>
+        <script src="{{ mix('js/app.js') }}"></script>
     </head>
     <body class="font-sans antialiased">
         @inertia

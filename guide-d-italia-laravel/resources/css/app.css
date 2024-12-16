@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Impedisce lo scroll laterale */
+}
 
 .logo{
     width: 60px;
@@ -10,7 +19,6 @@
 hr{
   color: #77966d !important;
 }
-
 
 
 /*Inizio Welcome*/
@@ -39,7 +47,8 @@ hr{
   }
 
   .btn-registrati,
-  .btn-accedi{
+  .btn-accedi,
+  .btn-card{
     display: inline;
     padding: 10px 20px;
     border: none;
@@ -51,16 +60,21 @@ hr{
     transition: background-color 1s ease !important;
     transition: color 1s ease !important;
   }
-  .btn-registrati:hover, .btn-accedi:hover{
+  .btn-registrati:hover, .btn-accedi:hover, .btn-card:hover{
     background-color: #77966d !important;
   }
 
+
+  .language{
+    position: absolute; /* Posizionamento assoluto */
+    top: 10px; /* Distanza dall'alto */
+    right: 10px; /* Distanza dalla destra */
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #ffffff; /* Colore del testo */
+    cursor: pointer;
+  }
 /*Fine Welcome*/
-
-
-
-
-
 
 /*Inizio in comune*/
   .color_link{
@@ -1012,7 +1026,7 @@ hr{
       display: flex;
     }
     .card_Cogne:nth-child(1){
-      background: url('../assets/Valle_d_Aosta/Chiesa_si_Sant_Orso_Cogne_Valle_d_Aosta.jpg') center/cover no-repeat;
+      background: url('../assets/Valle_d_Aosta/Chiesa_di_Sant_Orso_Cogne_Valle_d_Aosta.jpg') center/cover no-repeat;
       /* width: 30%; */
       height: 400px;
     }
@@ -1061,6 +1075,105 @@ hr{
       /* width: 30%; */
       height: 400px;
     }
+    /*Inizio Chiesa di Sant'Orso*/
+      .chiesa_di_sant_orso{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Chiesa_di_Sant_Orso_Cogne_Valle_d_Aosta.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .chiesa_di_sant_orso h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Chiesa di Sant'Orso*/
+    /*Inizio Casa dei Pizzi*/
+      .casa_dei_pizzi{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Casa_dei_pizzi_Cogne_Valle_d_Aosta.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .casa_dei_pizzi h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Casa dei Pizzi*/
+    /*Inizio Torre del Vescovo*/
+      .torre_del_vescovo{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Casa_dei_pizzi_Cogne_Valle_d_Aosta.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .torre_del_vescovo h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Torre del Vescovo*/
+    /*Inizio La Grandeze Plaze Commune*/
+      .la_grandze_plaze_commune{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/La_grandze_place_commune_Cogne_Valle_d_Aosta.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .la_grandze_plaze_commune h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine La Grandeze Plaze Commune*/
+    /*Inizio Prato di Sant'Orso*/
+      .prato_di_sant_orso{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Prato_di_sant_orso_Cogne_Valle_d_Aosta.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .prato_di_sant_orso h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Prato di Sant'Orso*/
+    /*Inizio Fontana dei Ferro*/
+      .fontana_di_ferro{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Fontana_di_ferro_Cogne_Valle_d_Aosta.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .fontana_di_ferro{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Fontana dei Ferro*/
+    /*Inizio Casa dell'Orologio*/
+      .casa_dell_orologio{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Casa_dell_orologio_Cogne_Valle_d_Aosta.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .casa_dell_orologio h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Casa dell'Orologio*/
+    /*Inizio Piazza Chanoux Cogne*/
+      .piazza_chanoux_cogne{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Piazza_chanoux_Cogne_Valle_d_Aosta.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .piazza_chanoux_cogne h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Piazza Chanoux Cogne*/
+    /*Inizio Maison de Cogne Gerard Dayné*/
+      .maison_de_cogne_gerard_dayné{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Maison_de_cogne_gerard_dayné_Valle_d_Aosta.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .maison_de_cogne_gerard_dayné h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Maison de Cogne Gerard Dayné*/
+    /*Inizio Atelier d'arts et Métiers*/
+      .atelier_d_arts_et_métiers{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Atelier_d_arts_et_métiers_Cogne_Valle_d_Aosta.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .atelier_d_arts_et_métiers h1{
+        color: #fff;
+        margin: 0 !important;
+      }
   /*Fine Cogne*/
 /*Fine Valle d'Aosta*/
 
@@ -1083,57 +1196,52 @@ hr{
       /* width: 30%; */
       height: 400px;
     }
-    .card_Piemonte:nth-child(2){ 
-      background: url('../assets/Piemonte/Il_nord_e_i_laghi_maggiore_e_d_orta_Piemonte.jpg') center/cover no-repeat;
-      /* width: 30%; */
-      height: 400px;
-    }
-    .card_Piemonte:nth-child(3), .card_ortona:nth-child(1){ 
+    .card_Piemonte:nth-child(2), .card_ortona:nth-child(1){ 
       background: url('../assets/Piemonte/Novara_Piemonte.jpg') center/cover no-repeat;
       /* width: 30%; */
       height: 400px;
     }
-    .card_Piemonte:nth-child(4), .card_ortona:nth-child(2){ 
+    .card_Piemonte:nth-child(3), .card_ortona:nth-child(2){ 
       background: url('../assets/Piemonte/Biella_Piemonte.jpg') center/cover no-repeat;
       /* width: 30%; */
       height: 400px;
     }
-    .card_Piemonte:nth-child(5), .card_ortona:nth-child(3){ 
+    .card_Piemonte:nth-child(4), .card_ortona:nth-child(3){ 
       background: url('../assets/Piemonte/Vercelli_Piemonte.jpg') center/cover no-repeat;
       /* width: 30%; */
       height: 400px;
     }
-    .card_Piemonte:nth-child(6){ 
+    .card_Piemonte:nth-child(5){ 
       background: url('../assets/Piemonte/Canavese_gran_paradiso_e_valli_di_lanzo_Piemonte.jpg') center/cover no-repeat;
       /* width: 30%; */
       height: 400px;
     }
-    .card_Piemonte:nth-child(7){ 
+    .card_Piemonte:nth-child(6){ 
       background: url('../assets/Piemonte/Ivrea_Piemonte.jpg') center/cover no-repeat;
       /* width: 30%; */
       height: 400px;
     }
-    .card_Piemonte:nth-child(8){ 
+    .card_Piemonte:nth-child(7){ 
       background: url('../assets/Piemonte/Valle_di_Susa_Piemonte.jpg') center/cover no-repeat;
       /* width: 30%; */
       height: 400px;
     }
-    .card_Piemonte:nth-child(9){ 
+    .card_Piemonte:nth-child(8){ 
       background: url('../assets/Piemonte/Cuneo_Pimonte.jpg') center/cover no-repeat;
       /* width: 30%; */
       height: 400px;
     }
-    .card_Piemonte:nth-child(10){ 
+    .card_Piemonte:nth-child(9){ 
       background: url('../assets/Piemonte/Saluzzo_Piemonte.jpg') center/cover no-repeat;
       /* width: 30%; */
       height: 400px;
     }
-    .card_Piemonte:nth-child(11){ 
+    .card_Piemonte:nth-child(10){ 
       background: url('../assets/Piemonte/Asti_alessandria_e_il_monferrato_Piemonte.jpg') center/cover no-repeat;
       /* width: 30%; */
       height: 400px;
     }
-    .card_Piemonte:nth-child(12){ 
+    .card_Piemonte:nth-child(11){ 
       background: url('../assets/Piemonte/Langhe_e_roero_Piemonte.jpg') center/cover no-repeat;
       /* width: 30%; */
       height: 400px;
@@ -1308,16 +1416,44 @@ hr{
         color: #fff;
         margin: 0 !important;
       }
-      .card-overlay-content{
-        position: absolute;
-        bottom: 0;
-        margin-bottom: 1em;
+      .card_Palazzo_Madama{
+        display: flex;
       }
-      .current{
-        display: 'flex'; 
-        justify-content: 'center'; 
-        align-items: 'center'; 
+      .card_Palazzo_Madama:nth-child(1){ 
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Piano_Fossato_Palazzo_Madama_Torino_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
       }
+      .card_Palazzo_Madama:nth-child(2){ 
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Piano_terra_Sala_Staffarda_Palazzo_Madama_Torino_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Palazzo_Madama:nth-child(3){ 
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Piano_Primo_Camera_di_Madama_Reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Palazzo_Madama:nth-child(4){ 
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Piano_Secondo_Arte_decorative_palazzo_Madama_Torino_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Palazzo_Madama:nth-child(5){ 
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Il_giardino_del_Castello_Palazzo_Madama_Torino_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      /*Inizio Il Giardino Botanico Medievale*/
+        .il_giardino_botanico_medievale{
+          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Il_giardino_del_Castello_Palazzo_Madama_Torino_Piemonte.jpg') center/cover no-repeat;
+          padding: 250px 0;
+        }
+        .il_giardino_botanico_medievale h1{
+          color: #fff;
+          margin: 0 !important;
+        }
+      /*Fine Il Giardino Botanico Medievale*/
     /*Fine Palazzo Madama*/
     /*Inizio Duomo di San Giovanni*/
       .duomo_di_san_giovanni{
@@ -1359,6 +1495,116 @@ hr{
         margin: 0 !important;
       }
     /*Fine La reggia*/
+    /*Inizio Percorso Espositivo*/
+      .percorso_espositivo{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Percorso_Espositivo_La_Reggia_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .percorso_espositivo h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Percorso Esportivo*/
+    /*Inizio Sala di Diana*/
+      .sala_di_diana{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Sala_di_diana_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .sala_di_diana h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Sala di Diana*/
+    /*Inizio Galleria Grande*/
+      .galleria_grande{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Galleria_grande_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .galleria_grande h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Galleria Grande*/
+    /*Inizio Cappella di Sant'Uberto*/
+      .cappella_di_sant_uberto{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Cappella_di_sant_uberto_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .cappella_di_sant_uberto h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Cappella di Sant'Uberto*/
+    /*Inizio La Sacrestia Rinnovata*/
+      .la_sacrestia_rinnovata{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/La_sacrestia_rinnovata_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .la_sacrestia_rinnovata h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine La Sacrestia Rinnovata*/
+    /*Inizio Scuderia Juvarriane*/
+      .scuderia_juvarriane{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Scuderie_juvarriane_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .scuderia_juvarriane h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Scuderia Juvarriane*/
+    /*Inizio La Regia Scuderia Il Bucintoro e le Carrozze Regali*/
+      .la_regia_scuderia_il_bucintoro_e_le_carrozze_regali{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/La_regia_scuderia_il_bucintoro_e_le_carrozze_regali_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .la_regia_scuderia_il_bucintoro_e_le_carrozze_regali h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine La Regia Scuderia Il Bucintoro e le Carrozze Regali*/
+    /*Inizio La Carrozza di Napoleone alla Reggia di Venaria*/
+      .la_carrozza_di_napoleone_alla_reggia_di_venaria{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Carrozza_napoleone_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .la_carrozza_di_napoleone_alla_reggia_di_venaria h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine La Carrozza di Napoleone alla Reggia di Venaria*/
+    /*Inizio Ripopolare la Reggia di Peter Greenaway*/
+      .ripopolare_la_reggia_di_peter_greenaway{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Greenaway_processione_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .ripopolare_la_reggia_di_peter_greenaway h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Ripopolare la Reggia di Peter Greenaway*/
+    /*Inizio Esposizione del dipinto rastaurato di Palma il Giovane*/
+      .esposizione_del_dipinto_restaurato_di_palma_il_giovane{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Battaglia_lepanto_palma_il_giovane_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .esposizione_del_dipinto_rastaurato_di_palma_il_giovane h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Esposizione del dipinto rastaurato di Palma il Giovane*/
+    /*Inizio Passaporto Culturale*/
+      .passaporto_culturale{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Passaporto_culturale_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .passaporto_culturale h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Passaporto Culturale*/
     /*Inizio Breve storia*/
       .breve_storia, .mappa_interattiva{
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Reggia_Interno_Torino_Piemonte.jpg') center/cover no-repeat;
@@ -1369,7 +1615,187 @@ hr{
         margin: 0 !important;
       }
     /*Fine Breve storia*/
-    /**/
+    /*Inizio I Giardini*/
+      .i_giardini{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/I_giardini_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .i_giardini h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine I Giardini*/
+    /*Inizio Arte Contemporanea*/
+      .arte_contemporanea{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Arte_contemporanea_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .arte_contemporanea h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Arte Contemporanea*/
+    /*Inizio Storyboard Paladino alla Reggia di Venaria*/
+      .storyboard_paladino_alla_reggia_di_venaria{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Soryboard_Paladino_alla_Reggia_di_Venaria_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .storyboard_paladino_alla_reggia_di_venaria h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Storyboard Paladino alla Reggia di Venaria*/
+    /*Inizio Dove_le_stelle_si_avvicinano_di_una_spanna*/
+      .dove_le_stelle_si_avvicinano_di_una_spanna{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Dove_le_stelle_si_avvicinano_di_una_spanna_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .dove_le_stelle_si_avvicinano_di_una_spanna h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Dove_le_stelle_si_avvicinano_di_una_spanna*/
+    /*Inizio Giardino delle Sculture Fluide*/
+      .giardino_delle_sculture_fluide{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Giardino_sculture_fluide_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .giardino_delle_sculture_fluide h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Giardino delle Sculture Fluide*/
+    /*Inizio Anafora di Giuseppe Penone*/
+      .anafora_di_giuseppe_penone{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Anafora_giuseppe_penone_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .anafora_di_giuseppe_penone h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Anafora di Giuseppe Penone*/
+    /*Inizio Breve Storia Giardini*/
+      .breve_storia_giardini{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/I_giardini_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .breve_storia_giardini h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Breve storia Giardini*/
+    /*Inizio La freccia di Diana: il trenino dei Giardini*/
+      .la_freccia_di_diana{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Freccia_di_diana_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .la_freccia_di_diana h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine La freccia di Diana: il trenino dei Giardini*/
+    /*Inizio l'Hercole Colosso*/
+      .l_hercole_colosso{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/L_Hercole_colosso_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .l_hercole_colosso h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine l'Hercole Colosso*/
+    /*Inizio La Fontana d'Ercole*/
+      .la_fontana_d_ercole{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/La_fontana_d_ercole_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .la_fontana_d_ercole h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine La fontana d'Ercole*/
+    /*Inizio Igloo di Mario Merz alla Reggia di Venariae*/
+      .igloo_di_mario_merz{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Igloo_merz_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .igloo_di_mario_merz h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Igloo di Mario Merz alla Reggia di Venariae*/
+    /*Inizio Parco Alto*/
+      .parco_alto{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Parco_alto_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .parco_alto h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Parco Alto*/
+    /*Inizio Parco Basso*/
+      .parco_basso{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Parco_basso_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .parco_basso h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Parco Basso*/
+    /*Inizio Sinergie Esapodi*/
+      .sinergie_esapodi{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Sinergie_esapodi_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .sinergie_esapodi h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Sinergie Esapodi*/
+    /*Inizio Il Castello della Mandria*/
+      .il_castello_della_mandria{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Castello_mandria_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .il_castello_della_mandria h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Il Castello della Mandria*/
+    /*Inizio Breve storia Castello Mandria*/
+      .breve_storia_castello_mandria{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Breve_storia_mandria_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .breve_storia_castello_mandria h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Breve storia Castello Mandria*/
+    /*Inizio Il parco della Mandria*/
+      .il_parco_della_mandria{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Parco_mandria_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .il_parco_della_mandria h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Il parco della Mandria*/
+    /*Inizio Gli appartamenti Reali*/
+      .appartamenti_reali {
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Appartamenti_reali_reggia_reale_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .appartamenti_reali h1{
+        color: #fff;
+        margin: 0 !important;
+      } 
+    /*Fine Gli appartamenti Reali*/
+    /*Inizio Monte dei Cappuccini*/
       .monte_dei_cappuccini{
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Monte_dei_cappuccini_Torino_Piemonte.jpg') center/cover no-repeat;
         padding: 250px 0;
@@ -1378,8 +1804,28 @@ hr{
         color: #fff;
         margin: 0 !important;
       }
-    /**/
-    /**/
+    /*Fine Monte dei Cappuccini*/
+    /*Inizio Ponte Vittorio Emanuele I*/
+      .ponte_vittorio_emenuele_1{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Ponte_Vittorio_Emanuele_I_Toriono_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .ponte_vittorio_emenuele_1 h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Ponte Vittorio Emanuele I*/
+    /*Inizio Chiesa della Gran Madre */
+      .chiesa_della_gran_madre{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Chiesa_della_Gran_Madre_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .chiesa_della_gran_madre h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Chiesa della Gran Madre*/
+    /*Inizio Piazza San Carlo*/
       .piazza_san_carlo{
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Piazza_san_carlo_Torino_Piemonte.jpg') center/cover no-repeat;
         padding: 250px 0;
@@ -1388,8 +1834,8 @@ hr{
         color: #fff;
         margin: 0 !important;
       }
-    /**/
-    /**/
+    /*Fine Piazza San Carlo*/
+    /*Inizio Basilica di Superga*/
       .basilica_di_superga{
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Basilica_di_Superga_Torino_Piemonte.jpg') center/cover no-repeat;
         padding: 250px 0;
@@ -1398,8 +1844,8 @@ hr{
         color: #fff;
         margin: 0 !important;
       }
-    /**/
-    /**/
+    /*Fine Basilica di Superga*/
+    /*Inizio Chiesa della Grande Madre di Dio*/
       .chiesa_della_gm_di_dio{
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Gran_madre_di_dio_Torino_Piemonte.jpg') center/cover no-repeat;
         padding: 250px 0;
@@ -1408,8 +1854,8 @@ hr{
         color: #fff;
         margin: 0 !important;
       }
-    /**/
-    /**/
+    /*Fine Chiesa della Grande Madre di Dio*/
+    /*Inizio Eataly*/
       .eataly{
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Eataly_Torino_Piemonte.jpg') center/cover no-repeat;
         padding: 250px 0;
@@ -1418,8 +1864,8 @@ hr{
         color: #fff;
         margin: 0 !important;
       }
-    /**/
-    /**/
+    /*Fine Eataly*/
+    /*Inizio GAM*/
       .gam{
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/GAM_Torino_Piemonte.jpg') center/cover no-repeat;
         padding: 250px 0;
@@ -1428,8 +1874,8 @@ hr{
         color: #fff;
         margin: 0 !important;
       }
-    /**/
-    /**/
+    /*Fine GAM*/
+    /*Inizio MAO*/
       .mao{
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/MAO_Torino_Piemonte.jpg') center/cover no-repeat;
         padding: 250px 0;
@@ -1438,8 +1884,8 @@ hr{
         color: #fff;
         margin: 0 !important;
       }
-    /**/
-    /**/
+    /*Fine MAO*/
+    /*Inizio Murazzi*/
       .murazzi{
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Murazzi_Torino_Piemonte.jpg') center/cover no-repeat;
         padding: 250px 0;
@@ -1448,8 +1894,8 @@ hr{
         color: #fff;
         margin: 0 !important;
       }
-    /**/
-    /**/
+    /*Fine Murazzi*/
+    /*Inizio Museo Nazionele del Rinascimento Italiano*/
       .mn_del_r_italiano{
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Facciata_Palazzo_Carignano_Torino_Piemonte.jpg') center/cover no-repeat;
         padding: 250px 0;
@@ -1458,8 +1904,8 @@ hr{
         color: #fff;
         margin: 0 !important;
       }
-    /**/
-    /**/
+    /*Fine Museo Nazionele del Rinascimento Italiano*/
+    /*Inizio Nuseo Nazionale Automobile*/
       .museo_nazionale_automobile{
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Museo_dell_Automobile_Torino_Piemonte.jpg') center/cover no-repeat;
         padding: 250px 0;
@@ -1468,8 +1914,8 @@ hr{
         color: #fff;
         margin: 0 !important;
       }
-    /**/
-    /**/
+    /*Fine Nuseo Nazionale Automobile*/
+    /*Inizio Museo della Sindole*/
       .museo_della_sindone{
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Museo_delle_Sindole_Torino_Piemonte.jpg') center/cover no-repeat;
         padding: 250px 0;
@@ -1478,8 +1924,8 @@ hr{
         color: #fff;
         margin: 0 !important;
       }
-    /**/
-    /**/
+    /*Fine Museo della Sindole*/
+    /*Inizio Quadrilatero Romano*/
       .quadrilatero_romano{
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Quadrilatero_romano_Torino_Piemonte.jpg') center/cover no-repeat;
         padding: 250px 0;
@@ -1488,19 +1934,9 @@ hr{
         color: #fff;
         margin: 0 !important;
       }
-    /**/
+    /*Fine Quadrilatero Romano*/
   /*Fine Torino*/
-  /**/
-    .il_nord_e_i_laghi_maggiore_e_d_orta{
-      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Il_nord_e_i_laghi_maggiore_e_d_orta_Piemonte.jpg') center/cover no-repeat;
-      padding: 250px 0;
-    }
-    .il_nord_e_i_laghi_maggiore_e_d_orta h1{
-      color: #fff;
-      margin: 0 !important;
-    }
-  /**/
-  /**/
+  /*Inizio Novara*/
     .novara{
       background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Novara_Piemonte.jpg') center/cover no-repeat;
       padding: 250px 0;
@@ -1509,8 +1945,163 @@ hr{
       color: #fff;
       margin: 0 !important;
     }
-  /**/
-  /**/
+    /*Inizio Card Novara*/
+      .card_Novara{
+        display: flex;
+      }
+      .card_Novara:nth-child(1){ 
+        background: url('../assets/Piemonte/Cupola_di_San_Gaudenzio_Novara_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Novara:nth-child(2){ 
+        background: url('../assets/Piemonte/Basilica_di_San_Gaudenzio_Novara_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Novara:nth-child(3){
+        background: url('../assets/Piemonte/Cattedrale_di_Santa_Maria_Assunta_Novara_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Novara:nth-child(4){
+        background: url('../assets/Piemonte/Teatro_Coccia_Novara_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Novara:nth-child(5){
+        background: url('../assets/Piemonte/Piazza_Martini_Novara_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Novara:nth-child(6){
+        background: url('../assets/Piemonte/Castello_Visconteo_Sforzesco_Novara_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Novara:nth-child(7){
+        background: url('../assets/Piemonte/Palazzo_del_Mercato_Novara_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Novara:nth-child(8){
+        background: url('../assets/Piemonte/Chiesa_di_San_Pietro_al_Rosario_Novara_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Novara:nth-child(9){
+        background: url('../assets/Piemonte/Broletto_Novara_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Novara:nth-child(10){
+        background: url('../assets/Piemonte/Mura_Romane_Novara_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+    /*Fine Card Novara*/
+    /*Inizio Cupola di San Gaudenzio*/
+      .cupola_di_san_gaudenzio{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Cupola_di_San_Gaudenzio_Novara_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .cupola_di_san_gaudenzio h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Cupola di San Gaudenzio*/
+    /*Inizio Basilica di San Gaudenzio*/
+      .basilica_di_san_gaudenzio{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Basilica_di_San_Gaudenzio_Novara_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .basilica_di_san_gaudenzio h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Basilica di San Gaudenzio*/
+    /*Inizio Cattedrale Santa Maria Assunta*/
+      .cattedrale_santa_maria_assunta{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Cattedrale_di_Santa_Maria_Assunta_Novara_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .cattedrale_santa_maria_assunta h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Cattedrale Santa Maria Assunta*/
+    /*Inizio Teatro Coccia*/ 
+      .teatro_coccia{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Teatro_Coccia_Novara_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .teatro_coccia h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Teatro Coccia*/
+    /*Inizio Piazza Martini*/
+      .piazza_martini{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Piazza_Martini_Novara_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .piazza_martini h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Piazza Martini*/
+    /*Inizio Chiesa di San Pietro al Rosario*/
+      .chiesa_di_s_p_al_rosario{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Chiesa_di_San_Pietro_al_Rosario_Novara_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .chiesa_di_s_p_al_rosario h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Chiesa di San Pietro al Rosario*/
+    /*Inizio Il Castello Visconteo Sforzesco */
+      .castello_visconteo_sforzesco{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Castello_Visconteo_Sforzesco_Novara_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .castello_visconteo_sforzesco h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Il Castello Visconteo Sforzesco*/
+    /*Inizio Palazzo del Mercato*/
+      .palazzo_del_mercato{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Palazzo_del_Mercato_Novara_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .palazzo_del_mercato h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Palazzo del Mercato*/
+    /*Inizio Il Broletto*/
+      .il_broletto{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Broletto_Novara_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .il_broletto h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Il Broletto*/
+    /*Inizio Le Mura Romane*/
+      .mura_romane{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Mura_Romane_Novara_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .mura_romane h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Le Mura Romane*/
+  /*Fine Novara*/
+  /*Inizio Biella*/
     .biella{
       background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Biella_Piemonte.jpg') center/cover no-repeat;
       padding: 250px 0;
@@ -1519,8 +2110,123 @@ hr{
       color: #fff;
       margin: 0 !important;
     }
-  /**/
-  /**/
+    /*Inizio Card Biella*/
+      .card_Biella{
+        display: flex;
+      }
+      .card_Biella:nth-child(1){ 
+        background: url('../assets/Piemonte/Quartiere_del_Piazzo_Biella_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Biella:nth-child(2){ 
+        background: url('../assets/Piemonte/Me_Bo_Menabrea_Botalla_Museum_Biella_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Biella:nth-child(3){ 
+        background: url('../assets/Piemonte/Fondazione_FILA_Museum_Biella_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Biella:nth-child(4){ 
+        background: url('../assets/Piemonte/Cittadellarte_forndazione_pistoletto_Biella_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Biella:nth-child(5){ 
+        background: url('../assets/Piemonte/Museo_del_Territorio_Biellese_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Biella:nth-child(6){ 
+        background: url('../assets/Piemonte/Museo_biellese_degli_alpini_Biella_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Biella:nth-child(7){ 
+        background: url('../assets/Piemonte/M_A_C_I_S_T_Biella_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Biella:nth-child(8){ 
+        background: url('../assets/Piemonte/M_A_C_I_S_T_Biella_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+    /*Fine Card Biella*/
+    /*Inizio Quartiere del Piazzo*/
+      .quartiere_del_piazzo{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Quartiere_del_Piazzo_Biella_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .quartiere_del_piazzo h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Quartiere del Piazzo*/
+    /*Inizio MeBo - Menabrea Botalla Museum*/
+      .mebo{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Me_Bo_Menabrea_Botalla_Museum_Biella_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .mebo h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine MeBo - Menabrea Botalla Museum*/
+    /*Inizio Fondazione FILA Museum*/
+      .fila{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Fondazione_FILA_Museum_Biella_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .fila h1{ 
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Fondazione FILA Museum*/
+    /*Inizio Cittadellarte - Fondazione Pistoletto*/
+      .cittadellarte{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Cittadellarte_forndazione_pistoletto_Biella_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .cittadellarte h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Cittadellarte - Fondazione Pistoletto*/
+    /*Inizio Museo del Territorio Biellese*/
+      .museo_del_territorio{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Museo_del_Territorio_Biellese_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .museo_del_territorio h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Museo del Territorio Biellese*/
+    /*Inizio Museo biellese degli alpini*/
+      .museo_biellese_degli_alpini{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Museo_biellese_degli_alpini_Biella_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .museo_biellese_degli_alpini h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Museo biellese degli alpini*/
+    /*Inizio M.A.C.I.S.T. Museo d’Arte Contemporanea Internazionale senza tendenze*/
+      .museo_d_arte_contemporanea_internazionele{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/M_A_C_I_S_T_Biella_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .museo_d_arte_contemporanea_internazionele h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine M.A.C.I.S.T. Museo d’Arte Contemporanea Internazionale senza tendenze*/
+  /*Fine Biella*/
+  /*Inizio Vercelli*/
     .vercelli{
       background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Vercelli_Piemonte.jpg') center/cover no-repeat;
       padding: 250px 0;
@@ -1529,18 +2235,148 @@ hr{
       color: #fff;
       margin: 0 !important;
     }
-  /**/
-  /**/
-    .canavese{
+    /*Inizio Card Vercelli*/
+      .card_Vercelli{
+        display: flex;
+      }
+      .card_Vercelli:nth-child(1){ 
+        background: url('../assets/Piemonte/Basilica_di_Sant_Andrea_Vercelli_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Vercelli:nth-child(2){ 
+        background: url('../assets/Piemonte/Cattedrale_di_Sant_Eusebio_Vercelli_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Vercelli:nth-child(3){ 
+        background: url('../assets/Piemonte/Castello_Visconteo_Vercelli_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Vercelli:nth-child(4){ 
+        background: url('../assets/Piemonte/Museo_Leone_Vercelli_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Vercelli:nth-child(5){ 
+        background: url('../assets/Piemonte/Pinacoteca_Francesco_Borgogna_Vercelli_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Vercelli:nth-child(6){ 
+        background: url('../assets/Piemonte/Fiume_Sesia_Vercelli_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Vercelli:nth-child(7){ 
+        background: url('../assets/Piemonte/Parco_Naturale_delle_Lame_del_Sesia_Vercelli_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+    /*Fine Card Vercelli*/
+    /*Inizio Basilica di Sant'Andrea*/
+      .basilica_di_sant_andrea{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Basilica_di_Sant_Andrea_Vercelli_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .basilica_di_sant_andrea h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Basilica di Sant'Andrea*/
+    /*Inizio Cattedrale di Sant'Eusebio*/
+      .cattedrale_di_sant_eusebio{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Cattedrale_di_Sant_Eusebio_Vercelli_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .cattedrale_di_sant_eusebio h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Cattedrale di Sant'Eusebio*/
+    /*Inizio Castello Visconteo*/
+      .castello_visconteo{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Castello_Visconteo_Vercelli_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .castello_visconteo h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Castello Visconteo*/
+    /*Inizio Museo Leone*/
+      .museo_leone{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Museo_Leone_Vercelli_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .museo_leone h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Museo Leone*/
+    /*Inizio Pinacoteca Francesco Borgogna*/
+      .pinacoteca_francesco_borgogna{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Pinacoteca_Francesco_Borgogna_Vercelli_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .pinacoteca_francesco_borgogna h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Pinacoteca Francesco Borgogna*/
+    /*Inizio Fiume Sesia*/
+      .fiume_sesia{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Fiume_Sesia_Vercelli_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .fiume_sesia h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Fiume Sesia*/
+    /*Inizio Parco Naturale delle Lame del Sesia*/
+      .parco_naturale_delle_lame_del_sesia{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Parco_Naturale_delle_Lame_del_Sesia_Vercelli_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .parco_naturale_delle_lame_del_sesia h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Parco Naturale delle Lame del Sesia*/
+  /*Fine Vercelli*/
+  /*Inizio Canavese, Gran Paradiso e Valli di Lanzo*/
+    .canavese_gran_paradiso{
       background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Canavese_gran_paradiso_e_valli_di_lanzo_Piemonte.jpg') center/cover no-repeat;
       padding: 250px 0;
     }
-    .canavese h1{
+    .canavese_gran_paradiso h1{
       color: #fff;
       margin: 0 !important;
     }
-  /**/
-  /**/
+    /*Inizio Canavese*/
+      .canavese{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Canavese_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .canavese h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Canavese*/
+    /*Inizio Valli di Lanzo*/
+      .valli_di_lanzo{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Valli_di_Lanzo_Torino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .valli_di_lanzo h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Valli di Lanzo*/
+  /*Fine Canavese, Gran Paradiso e Valli di Lanzo*/
+  /*Inizio Ivrea*/
     .ivrea{
       background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Ivrea_Piemonte.jpg') center/cover no-repeat;
       padding: 250px 0;
@@ -1549,38 +2385,117 @@ hr{
       color: #fff;
       margin: 0 !important;
     }
-  /**/
-  /**/
-    .cuneo{
-      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Cuneo_Pimonte.jpg') center/cover no-repeat;
-      padding: 250px 0;
-    }
-    .cuneo h1{
-      color: #fff;
-      margin: 0 !important;
-    }
-  /**/
-  /**/
-    .saluzzo{
-      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Saluzzo_Piemonte.jpg') center/cover no-repeat;
-      padding: 250px 0;
-    }
-    .saluzzo h1{
-      color: #fff;
-      margin: 0 !important;
-    }
-  /**/
-  /**/
-    .a_a_e_il_m{
-      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Asti_alessandria_e_il_monferrato_Piemonte.jpg') center/cover no-repeat;
-      padding: 250px 0;
-    }
-    .a_a_e_il_m h1{
-      color: #fff;
-      margin: 0 !important;
-    }
-  /**/
-  /**/
+    /*Inizio Card Ivrea*/
+      .card_Ivrea{
+        display: flex;
+      }
+      .card_Ivrea:nth-child(1){ 
+        background: url('../assets/Piemonte/Anfiteatro_Morenico_Ivrea_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Ivrea:nth-child(2){ 
+        background: url('../assets/Piemonte/Castello_di_Ivrea_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Ivrea:nth-child(3){ 
+        background: url('../assets/Piemonte/Fiume_Dora_Baltea_Ivrea_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Ivrea:nth-child(4){ 
+        background: url('../assets/Piemonte/Anfiteatro_Romano_Ivrea_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Ivrea:nth-child(5){ 
+        background: url('../assets/Piemonte/Cattedrale_di Santa_Maria_Assunta_Ivrea_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Ivrea:nth-child(6){ 
+        background: url('../assets/Piemonte/Palazzo_Vescovile_Ivrea_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Ivrea:nth-child(7){ 
+        background: url('../assets/Piemonte/Maam_Ivrea_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+    /*Fine Card Ivrea*/
+    /*Inizio Anfiteatro Morenico di Ivrea*/
+      .anfiteatro_morenico{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Anfiteatro_Morenico_Ivrea_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .anfiteatro_morenico h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Anfiteatro Morenico di Ivrea*/
+    /*Inizio Castello di Ivrea*/
+      .castello_di_ivrea{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Castello_di_Ivrea_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .castello_di_ivrea h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Castello di Ivrea*/
+    /*Inizio Fiumi Dora Baltea*/
+      .fiume_dora_baltea{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Fiume_Dora_Baltea_Ivrea_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .fiume_dora_baltea h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Fiumi Dora Baltea*/
+    /*Inizio Anfiteatro Romano Ivrea*/
+      .anfiteatro_romano_ivrea{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Anfiteatro_Romano_Ivrea_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .anfiteatro_romano_ivrea h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Anfiteatro Romano Ivrea*/
+    /*Inizio Duomo di S. Maria Assunta*/
+      .duomo_s_maria_assunta{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Cattedrale_di Santa_Maria_Assunta_Ivrea_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .duomo_s_maria_assunta h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+      /*Inizio Palazzo Vescovile di ivrea*/
+        .palazzo_vescovile_ivrea{
+          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Palazzo_Vescovile_Ivrea_Piemonte.jpg') center/cover no-repeat;
+          padding: 250px 0;
+        }
+        .palazzo_vescovile_ivrea h1{
+          color: #fff;
+          margin: 0 !important;
+        }
+    /*Fine Duomo di S. Maria Assunta*/
+    /*Inizio MaAM (museo a cielo aperto dell'architettura moderna di Ivrea*/
+      .maam{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Maam_Ivrea_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .maam h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine MaAM (museo a cielo aperto dell'architettura moderna di Ivrea*/
+  /*Fine Ivrea*/
+  /*Inizio Valli Susa, Chisone Pellice e Germanasca*/
     .vds_c_p_e_g{
       background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Valle_di_Susa_Piemonte.jpg') center/cover no-repeat;
       padding: 250px 0;
@@ -1589,8 +2504,795 @@ hr{
       color: #fff;
       margin: 0 !important;
     }
-  /**/
-  /**/
+    /*Inizio Card Valli Susa, Chisone Pellice e Germanasca*/
+      .card_Vds_c_p_e_g{
+        display: flex;
+      }
+      .card_Vds_c_p_e_g:nth-child(1){ 
+        background: url('../assets/Piemonte/Val_Chisone_Roure_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Vds_c_p_e_g:nth-child(2){ 
+        background: url('../assets/Piemonte/Val_Pellice_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Vds_c_p_e_g:nth-child(3){ 
+        background: url('../assets/Piemonte/Val_Germanasca_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+    /*Fine Card Valli Susa, Chisone Pellice e Germanasca*/
+    /*Inizio Val di Susa*/
+      .val_di_susa{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Val_di_Susa_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .val_di_susa h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+      /*Inizio Card Val di Susa*/
+        .card_Val_di_Susa{
+          display: flex;
+        }
+        .card_Val_di_Susa:nth-child(1){ 
+          background: url('../assets/Piemonte/Castello_della_Contessa_Adelaide_Val_di_Susa_Piemonte.jpg') center/cover no-repeat;
+          /* width: 30%; */
+          height: 400px;
+        }
+        .card_Val_di_Susa:nth-child(2){ 
+          background: url('../assets/Piemonte/Forte_di_Fenestrelle_Val_di_Susa_Piemonte.jpg') center/cover no-repeat;
+          /* width: 30%; */
+          height: 400px;
+        }
+        .card_Val_di_Susa:nth-child(3){ 
+          background: url('../assets/Piemonte/Abbazia_di_Novalesa_Val_di_Susa_Piemonte.jpg') center/cover no-repeat;
+          /* width: 30%; */
+          height: 400px;
+        }
+        .card_Val_di_Susa:nth-child(4){ 
+          background: url('../assets/Piemonte/Sacra_di_San_Michele_Val_di_Susa_Piemonte.jpg') center/cover no-repeat;
+          /* width: 30%; */
+          height: 400px;
+        }
+      /*Fine Card Val di Susa*/
+      /*Inizio Castello della Contessa Adelaide*/
+        .castello_della_contessa_adelaide{
+          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Castello_della_Contessa_Adelaide_Val_di_Susa_Piemonte.jpg') center/cover no-repeat;
+          padding: 250px 0;
+        }
+        .castello_della_contessa_adelaide h1{
+          color: #fff;
+          margin: 0 !important;
+        }
+      /*Fine Castello della Contessa Adelaide*/
+      /*Inizio Forte di Fenestrelle*/
+        .forte_di_fenestrelle{
+          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Forte_di_Fenestrelle_Val_di_Susa_Piemonte.jpg') center/cover no-repeat;
+          padding: 250px 0;
+        }
+        .forte_di_fenestrelle h1{
+          color: #fff;
+          margin: 0 !important;
+        }
+      /*Fine Forte di Fenestrelle*/
+      /*Inizio Abbazia di Novalesa*/
+        .abbazia_di_novalesa{
+          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Abbazia_di_Novalesa_Val_di_Susa_Piemonte.jpg') center/cover no-repeat;
+          padding: 250px 0;
+        }
+        .abbazia_di_novalesa h1{
+          color: #fff;
+          margin: 0 !important;
+        }
+      /*Inizio Abbazia di Novalesa*/
+      /*Inizio Sacra di San Michele*/
+        .sacra_di_san_michele{
+          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Sacra_di_San_Michele_Val_di_Susa_Piemonte.jpg') center/cover no-repeat;
+          padding: 250px 0;
+        }
+        .sacra_di_san_michele h1{
+          color: #fff;
+          margin: 0 !important;
+        }
+      /*Fine Sacra di San Michele*/
+      /*Inizio Fiume Dora Riparia*/
+        .fiume_dora_riparia{
+          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Fiume_Dora_Riparia_Alpi_Cozie_Piemonte.jpg') center/cover no-repeat;
+          padding: 250px 0;
+        }
+        .fiume_dora_riparia h1{
+          color: #fff;
+          margin: 0 !important;
+        }
+      /*Fine Fiume Dora Riparia*/
+    /*Fine Val di Susa*/
+    /*Inizio Val Chisone*/
+      .val_chisone{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Val_Chisone_Roure_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .val_chisone h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+      /*Inizio Gallia Cisalpina*/
+        .gallia_cisalpina{
+          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Gallia_Cisalpina_Val_Chisone_Piemonte.jpg') center/cover no-repeat;
+          padding: 250px 0;
+        }
+        .gallia_cisalpina h1{
+          color: #fff;
+          margin: 0 !important;
+        }
+      /*Fine Gallia Cisalpina*/
+      /*Inizio Gallia Narbonense*/
+        .gallia_narbonense{
+          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Gallia_Narbonense_Val_Chisone_Piemonte.jpg') center/cover no-repeat;
+          padding: 250px 0;
+        }
+        .gallia_narbonense h1{
+          color: #fff;
+          margin: 0 !important;
+        }
+      /*Fine Gallia Narbonense*/
+    /*Fine Val Chisone*/
+    /*Inizio Val Pellice*/
+      .val_pellice{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Val_Pellice_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .val_pellice h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Val Pellice*/
+    /*Inizio Val Germanasca*/
+      .val_germanasca{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Val_Germanasca_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .val_germanasca h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Val Germanasca*/
+  /*Fine Valli Susa, Chisone Pellice e Germanasca*/
+  /*Inizio Agliè*/
+    /*Inizio Castello di Agliè*/
+      .castello_di_agliè{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Castello_di_Agliè_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .castello_di_agliè h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Castello di Agliè*/
+  /*Fine Agliè*/
+  /*Inizio Caravino*/
+    /*Inizio Castello di Masino*/
+      .castello_di_masino{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Castello_di_Masino_Caravino_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .castello_di_masino h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Castello di Masino*/
+  /*Fine Caverino*/
+  /*Inizio Cuneo*/
+    .cuneo{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Cuneo_Pimonte.jpg') center/cover no-repeat;
+      padding: 250px 0;
+    }
+    .cuneo h1{
+      color: #fff;
+      margin: 0 !important;
+    }
+    /*Inizio Card Cuneo*/
+      .card_Cuneo{
+        display: flex;
+      }
+      .card_Cuneo:nth-child(1){ 
+        background: url('../assets/Piemonte/Piazza_Galimberti_Cuneo_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Cuneo:nth-child(2){ 
+        background: url('../assets/Piemonte/Piazza_della_Torre_Cuneo_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Cuneo:nth-child(3){ 
+        background: url('../assets/Piemonte/Contrada_Mondovì_Cuneo_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Cuneo:nth-child(4){ 
+        background: url('../assets/Piemonte/Langhe_Cuneo_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+    /*Fine Card Cuneo*/
+    /*Inizio Piazza Galimberti*/
+      .piazza_galimberti{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Piazza_Galimberti_Cuneo_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .piazza_galimberti h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Piazza Galimberti*/
+    /*Inizio Piazza della Torre*/
+      .piazza_della_torre{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Piazza_della_Torre_Cuneo_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .piazza_della_torre h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Piazza della Torre*/
+    /*Inizio Contrada Mondovì*/
+      .contrada_mondovì{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Contrada_Mondovì_Cuneo_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .contrada_mondovì h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Contrada Mondovì*/
+    /*Inizio Langhe*/
+      .langhe{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Langhe_Cuneo_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .langhe h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Langhe*/
+    /*Inizio Tartufo Bianco*/
+      .tartufo_bianco{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Tartufo_Bianco_Cuneo_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .tartufo_bianco h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine tartufo Bianco*/
+  /*Fine Cuneo*/
+  /*Inizio Asti*/
+    .asti{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Asti_Piemonte.jpg') center/cover no-repeat;
+      padding: 250px 0;
+    }
+    .asti h1{
+      color: #fff;
+      margin: 0 !important;
+    }
+    /*Inizio Cardi Asti*/
+      .card_Asti{
+        display: flex;
+      }
+      .card_Asti:nth-child(1){ 
+        background: url('../assets/Piemonte/Collegiata_di_San_Secondo_Asti_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Asti:nth-child(2){ 
+        background: url('../assets/Piemonte/Palazzo_Alfieri_Asti_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Asti:nth-child(3){ 
+        background: url('../assets/Piemonte/Palazzo_Mazzetti_Asti_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Asti:nth-child(4){ 
+        background: url('../assets/Piemonte/Cattedrale_di_Santa_Maria_Assunta_Asti_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Asti:nth-child(5){ 
+        background: url('../assets/Piemonte/Chiesa_di_San_Martino_Asti_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Asti:nth-child(6){ 
+        background: url('../assets/Piemonte/Complesso_Monumentale_di_San_Pietro_e_Museo_Archeologico_Asti_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Asti:nth-child(7){ 
+        background: url('../assets/Piemonte/Museo_e_Cripta_di_San_Anastasio_Asti_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }.card_Asti:nth-child(8){ 
+        background: url('../assets/Piemonte/Palazzo_Mazzola_Archivio_storico_e_Museo_del_Palio_Asti_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Asti:nth-child(9){ 
+        background: url('../assets/Piemonte/Palazzo_Ottolenghi_e_Museo_del_Risorgimento_Asti_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Asti:nth-child(10){ 
+        background: url('../assets/Piemonte/Torre_Toryana_Asti_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+    /*Inizio Collegiata di San Secondo*/
+      .collegiata_di_san_secondo{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Collegiata_di_San_Secondo_Asti_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .collegiata_di_san_secondo h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Collegiata di San Secondo*/
+    /*Inizio Palazzo Alfieri*/
+      .palazzo_alfieri{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Palazzo_Alfieri_Asti_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .palazzo_alfieri h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Palazzo Alfieri*/
+    /*Inizio Palazzo Mazzetti*/
+      .palazzo_mazzetti{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Palazzo_Mazzetti_Asti_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .palazzo_mazzetti h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Palazzo Mazzetti*/
+    /*Inizio Pianuta Padana*/
+      .pianura_padana{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Pianura_Padana_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .pianura_padana h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Pianura Padana*/
+    /*Inizio Cattedrale di Santa Maria Assunta*/
+      .cattedrale_di_s_maria_assunta{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Cattedrale_di_Santa_Maria_Assunta_Asti_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .cattedrale_di_s_maria_assunta h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Cattedrale di Santa Maria Assunta*/
+    /*Inizio Chiesa di San Martino*/
+      .chiesa_di_san_martino{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Chiesa_di_San_Martino_Asti_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .chiesa_di_san_martino h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Chiesa di san Martino*/
+    /*Inizio Complesso Monumentale di San Pietro e Museo Archeologico*/
+      .c_m_di_san_pietro_e_m_a{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Complesso_Monumentale_di_San_Pietro_e_Museo_Archeologico_Asti_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .c_m_di_san_pietro_e_m_a h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Complesso Monumentale di San Pietro e Museo Archeologico*/
+    /*Inizio Museo e Cripta di San Anastasio*/
+      .museo_e_cripta_di_s_anastasio{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Museo_e_Cripta_di_San_Anastasio_Asti_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .museo_e_cripta_di_s_anastasio h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Museo e Cripta di San Anastasio*/
+    /*Inizio Palazzo Mazzola, Archivio storico e Museo del Palio*/
+      .p_m_a_s_e_m_del_palio{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Palazzo_Mazzola_Archivio_storico_e_Museo_del_Palio_Asti_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .p_m_a_s_e_m_del_palio h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Palazzo Mazzola, Archivio storico e Museo del Palio*/
+    /*Inizio Palazzo Ottolenghi e Museo del Risorgimento*/
+      .p_o_e_m_del_risorgimento{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Palazzo_Ottolenghi_e_Museo_del_Risorgimento_Asti_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .p_o_e_m_del_risorgimento h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Palazzo Ottolenghi e Museo del Risorgimento*/
+    /*Inizio Torre Toyana*/
+      .torre_troyana{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Torre_Toryana_Asti_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .torre_troyana h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Torre Troyana*/
+  /*Fine Asti*/
+  /*Inizio Saluzzo*/
+    .saluzzo{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Saluzzo_Piemonte.jpg') center/cover no-repeat;
+      padding: 250px 0;
+    }
+    .saluzzo h1{
+      color: #fff;
+      margin: 0 !important;
+    }
+    /*Inizio Card Saluzzo*/
+      .card_Saluzzo{
+        display: flex;
+      }
+      .card_Saluzzo:nth-child(1){
+        background: url('../assets/Piemonte/Castello_di_Castellar_Saluzzo_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Saluzzo:nth-child(2){
+        background: url('../assets/Piemonte/Pinacoteca_Matteo_Olivero_Saluzzo_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Saluzzo:nth-child(3){
+        background: url('../assets/Piemonte/Casa_Museo_Silvio_Pellico_Saluzzo_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Saluzzo:nth-child(4){
+        background: url('../assets/Piemonte/Museo_della_Memoria_Carceraria_Saluzzo_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Saluzzo:nth-child(5){
+        background: url('../assets/Piemonte/Museo_Civico_Casa_Cavassa_Saluzzo_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Saluzzo:nth-child(6){
+        background: url('../assets/Piemonte/Palazzo_Sarriod_de_La_Tour_Saluzzo_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+    /*Fine Card Saluzzo*/
+    /*Inizio Castello di Castellar*/
+      .castello_di_castellar{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Castello_di_Castellar_Saluzzo_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .castello_di_castellar h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Castello di Castellar*/
+    /*Inizio Pinacoteca Matteo Olivero*/
+      .pinacoteca_matteo_olivero{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Pinacoteca_Matteo_Olivero_Saluzzo_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .pinacoteca_matteo_olivero h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Pinacoteca Matteo Olivero*/
+    /*Inizio Casa Museo Silvio Pellico*/
+      .casa_museo_silvio_pellico{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Casa_Museo_Silvio_Pellico_Saluzzo_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .casa_museo_silvio_pellico h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Casa Museo Silvio Pellico*/
+    /*Inizio Museo della Memoria Carceraria*/
+      .museo_della_memoria_carceraria{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Museo_della_Memoria_Carceraria_Saluzzo_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .museo_della_memoria_carceraria h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Museo della Memoria Carceraria*/
+    /*Inizio Museo Civico Casa Cavassa*/
+      .museo_civico_casa_cavassa{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Museo_Civico_Casa_Cavassa_Saluzzo_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .museo_civico_casa_cavassa h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Museo Civico Casa Cavassa*/
+    /*Inizio Palazzo Sarriod de La Tour*/
+      .palazzo_sarriod_de_la_tour{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Palazzo_Sarriod_de_La_Tour_Saluzzo_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .palazzo_sarriod_de_la_tour h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Palazzo Sarriod de La Tour*/
+  /*Fine Saluzzo*/
+  /*Inizio Alessandria*/
+    .alessandria{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Alessandria_Piemonte.jpg') center/cover no-repeat;
+      padding: 250px 0;
+    }
+    .alessandria h1{
+      color: #fff;
+      margin: 0 !important;
+    }
+    /*Inizio Card Alessandria*/
+      .card_Alessandria{
+        display: flex;
+      }
+      .card_Alessandria:nth-child(1){
+        background: url('../assets/Piemonte/Castello_di_Giarole_Alessandria_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Alessandria:nth-child(2){
+        background: url('../assets/Piemonte/Museo_di_Marengo_Alessandria_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Alessandria:nth-child(3){
+        background: url('../assets/Piemonte/Piazza_della_Libertà_Alessandria_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Alessandria:nth-child(4){
+        background: url('../assets/Piemonte/Duomo_di_Alessandria_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Alessandria:nth-child(5){
+        background: url('../assets/Piemonte/Cittadella_di_Alessandria_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+    /*Fine Card Alessandria*/
+    /*Inizio Castello di Giarole*/
+      .castello_sannazzaro_di_giarole{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Castello_di_Giarole_Alessandria_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .castello_sannazzaro_di_giarole h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Castello di Giarole*/
+    /*Inizio Museo di Marengo*/
+      .museo_di_marengo{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Museo_di_Marengo_Alessandria_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .museo_di_marengo h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Museo di Marengo*/
+    /*Inizio Piazza della Libertà*/
+      .piazza_della_libertà{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Piazza_della_Libertà_Alessandria_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .piazza_della_libertà h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Piazza della Libertà*/
+    /*Inizio Duomo di Alessandria*/
+      .duomo_di_alessandria{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Duomo_di_Alessandria_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .duomo_di_alessandria h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Duomo di Alessandria*/
+    /*Inizio Cittadella di Alessandria*/
+      .cittadella_di_alessandria{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Cittadella_di_Alessandria_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .cittadella_di_alessandria h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Cittadella di Alessandria*/
+    /*Inizio Monferrato*/
+      .monferrato{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Monferrato_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .monferrato h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Monferrato*/
+  /*Fine Alessandria*/
+  /*Inizio Alba*/
+    .alba{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Alba_Piemonte.jpg') center/cover no-repeat;
+      padding: 250px 0;
+    }
+    .alba h1{
+      color: #fff;
+      margin: 0 !important;
+    }
+    /*Inizio Card Alba*/
+      .card_Alba{
+        display: flex;
+      }
+      .card_Alba:nth-child(1){
+        background: url('../assets/Piemonte/La_Cattedrale_d_San_Lorenzo_Alba_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Alba:nth-child(2){
+        background: url('../assets/Piemonte/La_Chiesa_della_Maddalena_Alba_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Alba:nth-child(3){
+        background: url('../assets/Piemonte/Palazzo_Comunale_Alba_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Alba:nth-child(4){
+        background: url('../assets/Piemonte/Le_Torri_Alba_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Alba:nth-child(5){
+        background: url('../assets/Piemonte/Alba_Sotterranea_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Alba:nth-child(6){
+        background: url('../assets/Piemonte/Chiesa_di_San_Domenico_Alba_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Alba:nth-child(7){
+        background: url('../assets/Piemonte/La_Chiesa_di_San_Giuseppe_Alba_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Alba:nth-child(8){
+        background: url('../assets/Piemonte/Casa_Fenoglio_Alba_Piemonte.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+    /*Fine Card Alba*/
+    /*Inizio Cattedrale di San Lorenzo*/
+      .cattedrale_di_san_lorenzo{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/La_Cattedrale_d_San_Lorenzo_Alba_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .cattedrale_di_san_lorenzo h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Cattedrale di San Lorenzo*/
+    /*Inizio Chiesa della Maddalena*/
+      .chiesa_della_maddalena{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/La_Chiesa_della_Maddalena_Alba_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .chiesa_della_maddalena h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Chiesa della Maddalena*/
+    /*Inizio Palazzo Comunale*/
+      .palazzo_comunale{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Palazzo_Comunale_Alba_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .palazzo_comunale h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Palazzo Comunale*/
+    /*Inizio Le Torri*/
+      .le_torri{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Le_Torri_Alba_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .le_torri h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Le Torri*/
+    /*Inizio Alba Sottorranea*/
+      .alba_sotterranea{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Alba_Sotterranea_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .alba_sotterranea h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Alba Sotterranea*/
+    /*Inizio La Chiesa di San Domenico*/
+      .chiesa_di_san_domenico{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/La_Chiesa_di_San_Domenico_Alba_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .chiesa_di_san_domenico h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine La Chiesa di San Domenico*/
+    /*Inizio La Chiesa di San Giuseppe*/
+      .chiesa_di_san_giuseppe{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/La_Chiesa_di_San_Giuseppe_Alba_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .chiesa_di_san_giuseppe h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine La Chiesa di San Giuseppe*/
+    /*Inizio Casa Fenoglio*/
+      .casa_fenoglio{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Casa_Fenoglio_Alba_Piemonte.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .casa_fenoglio h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Casa Fenoglio*/
+  /*Fine Alba*/
+  /*Inizio Asti, Alessandria e il Molferraro*/
+    .a_a_e_il_m{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Asti_alessandria_e_il_monferrato_Piemonte.jpg') center/cover no-repeat;
+      padding: 250px 0;
+    }
+    .a_a_e_il_m h1{
+      color: #fff;
+      margin: 0 !important;
+    }
+  /*Fine Asti, Alessandria e il Molferraro*/
+  /*Inizio Langhe e Roero*/
     .langhe_e_roero{
       background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Langhe_e_roero_Piemonte.jpg') center/cover no-repeat;
       padding: 250px 0;
@@ -1599,7 +3301,27 @@ hr{
       color: #fff;
       margin: 0 !important;
     }
-  /**/
+  /*Fine Langhe e Roero*/
+  /*Inizio Castello di Serralunga d'Alba*/
+    .castello_di_serralunga_d_alba{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Castello_di_Serralunga_d_Alba_Piemonte.jpg') center/cover no-repeat;
+      padding: 250px 0;
+    }
+    .castello_di_serralunga_d_alba h1{
+      color: #fff;
+      margin: 0 !important;
+    }
+  /*Fine Castello di Serralunga d'Alba*/
+  /*Inizio Castello di Guarene*/
+    .castello_di_guarene{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Piemonte/Castello_di_Guarene_Guarene_Piemonte.jpg') center/cover no-repeat;
+      padding: 250px 0;
+    }
+    .castello_di_guarene h1{
+      color: #fff;
+      margin: 0 !important;
+    }
+  /*Fine Castello di Guarene*/
 /*Fine Piemonte*/
 
 /*Inizio Lombardia*/
@@ -1955,32 +3677,42 @@ hr{
     height: 400px;
   }
   .card_Liguria:nth-child(2){ 
-    background: url('../assets/Liguria/Camogli_Genova_Liguria.jpg') center/cover no-repeat;
+    background: url('../assets/Liguria/Savona_Liguria.jpg') center/cover no-repeat;
     /* width: 30%; */
     height: 400px;
   }
   .card_Liguria:nth-child(3){ 
-    background: url('../assets/Liguria/Golfo_del_Tigullio_Genova_Liguria.jpg') center/cover no-repeat;
+    background: url('../assets/Liguria/La_Spezia_Liguria.jpg') center/cover no-repeat;
     /* width: 30%; */
     height: 400px;
   }
   .card_Liguria:nth-child(4){ 
-    background: url('../assets/Liguria/Abbazia_di_san_fruttuoso_Genova_Liguria.jpg') center/cover no-repeat;
+    background: url('../assets/Liguria/Imperia_Liguria.jpg') center/cover no-repeat;
     /* width: 30%; */
     height: 400px;
   }
   .card_Liguria:nth-child(5){ 
-    background: url('../assets/Liguria/Abbazia_di_san_fruttuoso_Genova_Liguria.jpg') center/cover no-repeat;
+    background: url('../assets/Liguria/Sanremo_Liguria.jpg') center/cover no-repeat;
     /* width: 30%; */
     height: 400px;
   }
   .card_Liguria:nth-child(6){ 
-    background: url('../assets/Liguria/Abbazia_di_san_fruttuoso_Genova_Liguria.jpg') center/cover no-repeat;
+    background: url('../assets/Liguria/Camogli_Genova_Liguria.jpg') center/cover no-repeat;
     /* width: 30%; */
     height: 400px;
   }
   .card_Liguria:nth-child(7){ 
-    background: url('../assets/Liguria/Abbazia_di_san_fruttuoso_Genova_Liguria.jpg') center/cover no-repeat;
+    background: url('../assets/Liguria/Recco_Liguria.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Liguria:nth-child(8){ 
+    background: url('../assets/Liguria/Portifino_Liguria.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Liguria:nth-child(9){ 
+    background: url('../assets/Liguria/Le_5_terre_Liguria.jpg') center/cover no-repeat;
     /* width: 30%; */
     height: 400px;
   }
@@ -2224,6 +3956,84 @@ hr{
       }
     /*Fine Chiesa di Gesù*/
   /*Fine Genova*/
+  /*Inizio Savona*/
+    .savona{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Liguria/Savona_Liguria.jpg') center/cover no-repeat;
+      padding: 250px 0;
+    }
+    .savona h1{
+      color: #fff;
+      margin: 0 !important;
+    }
+    .card_Savona{
+      display: flex;
+    }
+    .card_Savona:nth-child(1){
+      background: url('../assets/Liguria/Fortezza_del_Priamar_Savona_Liguria.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Savona:nth-child(2){
+      background: url('../assets/Liguria/Museo_Archologico_Savona_Liguria.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Savona:nth-child(3){
+      background: url('../assets/Liguria/Museo_d-Arte_Sandro_Pertini_e_Renata_Cuneo_Savona_Liguria.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Savona:nth-child(4){
+      background: url('../assets/Liguria/Vecchia_darsena_Savona_Liguria.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Savona:nth-child(5){
+      background: url('../assets/Liguria/Torre_del_Brandale_Savona_Liguria.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Savona:nth-child(6){
+      background: url('../assets/Liguria/Cappella_Sistina_Savona_Liguria.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Savona:nth-child(7){
+      background: url('../assets/Liguria/Pinacoteca_Civica_Savona_Liguria.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Savona:nth-child(8){
+      background: url('../assets/Liguria/Museo_dell_Ceramica_Savona_Liguria.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Savona:nth-child(9){
+      background: url('../assets/Liguria/Museo_All_About_Apple_Savona_Liguria.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Savona:nth-child(10){
+      background: url('../assets/Liguria/Torre_Leon_Pancaldo_Savona_Liguria.JPG') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Savona:nth-child(11){
+      background: url('../assets/Liguria/Villa_Cambiaso_Savona_Liguria.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    /*Inizio Porto di Savona*/
+      .porto_di_savona{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Liguria/Porto_di_Savona_Liguria.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .porto_di_savona h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Porto di Savona*/
+  /*Fine Savona*/
   /*Inizio Camogli*/
     .camogli{
       background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Liguria/Camogli_Genova_Liguria.jpg') center/cover no-repeat;
@@ -2246,16 +4056,16 @@ hr{
       /* width: 30%; */
       height: 400px;
     }
-    /*Inizio Castello della Dragonara*/
-      .castello_della_dragonaria{
-        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Liguria/Castello_della_dragonaria_Camogli_Liguria.jpg') center/cover no-repeat;
-        padding: 250px 0;
-      }
-      .castello_della_dragonaria h1{
-        color: #fff;
-        margin: 0 !important;
-      }
-    /*Fine Castello della Dragonara*/
+    .card_Camogli:nth-child(3){
+      background: url('../assets/Liguria/Museo_Marinaro_Camogli_Liguria.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_Camogli:nth-child(4){
+      background: url('../assets/Liguria/Abbazia_di_san_fruttuoso_Genova_Liguria.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
     /*Inizio Golfo Paradiso*/
       .golfo_paradiso{
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Liguria/Golfo_paradiso_Liguria.jpg') center/cover no-repeat;
@@ -2266,7 +4076,86 @@ hr{
         margin: 0 !important;
       }
     /*Fine Golfo Paradiso*/
+    /*Inizio Castello della Dragonara*/
+      .castello_della_dragonaria{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Liguria/Castello_della_dragonaria_Camogli_Liguria.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .castello_della_dragonaria h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Castello della Dragonara*/
+    /*Inizio Museo Marinaro*/
+      .museo_marinaro{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Liguria/Museo_Marinaro_Camogli_Liguria.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .museo_marinaro h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Nuseo Marinaro*/
+    /*Inizio Abbazia di San Fruttuso*/
+      .abbazia_di_san_fruttuoso{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Liguria/Abbazia_di_san_fruttuoso_Genova_Liguria.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .abbazia_di_san_fruttuoso h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Abbazia di San Fruttuoso*/
+    /*Inizio Golfo del Tigullio*/
+      .golfo_del_tigullio{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Liguria/Golfo_del_Tigullio_Genova_Liguria.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .golfo_del_tigullio h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Golfo del Tigullio*/
+    /*Inizio Baia di San Fruttuoso*/
+      .baia_di_san_fruttuoso{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Liguria/Abbazia_si_San_Fruttuoso_Golfo_del_Tigullio_Liguria.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .baia_di_san_fruttuoso h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Baia di San Fruttuoso*/
+    /*Inizio Portofino*/
+    .portofino{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Liguria/Portifino_Liguria.jpg') center/cover no-repeat;
+      padding: 250px 0;
+    }
+    .portofino h1{
+      color: #fff;
+      margin: 0 !important;
+    }
   /*Fine Camogli*/
+  /*Inizio Recco*/
+    .recco{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Liguria/Recco_Liguria.jpg') center/cover no-repeat;
+      padding: 250px 0;
+    }
+    .recco h1{
+      color: #fff;
+      margin: 0 !important;
+    }
+  /*Fine Recco*/
+  /*Inizio Baia di Paraggi*/
+    .baia_di_paraggi{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Liguria/Baia_di_Paraggi_Liguria.jpg') center/cover no-repeat;
+      padding: 250px 0;
+    }
+    .baia_di_paraggi h1{
+      color: #fff;
+      margin: 0 !important;
+    }
+  /*Fine Baia di Paraggi*/
 /*Fine Liguria*/
 
 /*Inizio Trentino Alto Adige*/
@@ -4662,7 +6551,36 @@ hr{
       margin: 0 !important;
     }
   /*Fine Fiume Adige*/
+  /*Inizio Fiume Po*/
+    .fiume_po{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Fiumi/Fiume_Po.jpg') center/cover no-repeat;
+      padding: 250px 0;
+    }
+    .fiume_po h1{
+      color: #fff;
+      margin: 0 !important;
+    }
+  /*Fine Fiume Po*/
 /*Fine Fiumi*/
+
+/*Inizio Galleria*/
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .image-container {
+    margin: 10px;
+  }
+
+  .gallery-image {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+/*Fine Galleria*/
+
 
 /* Aggiungi una media query per dispositivi con larghezza <= 768px (tablet e smartphone) */
 @media screen and (max-width: 768px) {
@@ -4674,6 +6592,7 @@ hr{
   .immagine {
     margin-bottom: 10px; /* Aggiungi spazio tra l'immagine e la descrizione */
   }
+
 }
 
 
@@ -4706,6 +6625,9 @@ hr{
       height: 300px;
     }
     
+    .gallery-image {
+      width: 100%;
+    }
     
 }
 
@@ -4738,6 +6660,10 @@ hr{
         width: 350px;
         height: 300px;
       }
+
+      .gallery-image {
+        width: 80%;
+      }
   }
 /*Fine Media Query Tablet*/
 
@@ -4769,6 +6695,10 @@ hr{
     /*Fine Blog Valle d'Aosta*/
     .la_venaria_reale video#mobile-video{
       display: none;
+    }
+
+    .gallery-image:hover {
+      transform: scale(1.1);
     }
   }
 /*Fine Media Query Desktop*/
