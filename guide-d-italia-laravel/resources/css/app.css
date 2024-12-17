@@ -63,17 +63,6 @@ hr{
   .btn-registrati:hover, .btn-accedi:hover, .btn-card:hover{
     background-color: #77966d !important;
   }
-
-
-  .language{
-    position: absolute; /* Posizionamento assoluto */
-    top: 10px; /* Distanza dall'alto */
-    right: 10px; /* Distanza dalla destra */
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    color: #ffffff; /* Colore del testo */
-    cursor: pointer;
-  }
 /*Fine Welcome*/
 
 /*Inizio in comune*/
@@ -3712,7 +3701,7 @@ hr{
     height: 400px;
   }
   .card_Liguria:nth-child(9){ 
-    background: url('../assets/Liguria/Le_5_terre_Liguria.jpg') center/cover no-repeat;
+    background: url('../assets/Liguria/Cinque_Terre_Liguria.jpg') center/cover no-repeat;
     /* width: 30%; */
     height: 400px;
   }
@@ -4156,6 +4145,75 @@ hr{
       margin: 0 !important;
     }
   /*Fine Baia di Paraggi*/
+
+  /*Inizio Cinque Terre*/
+    .cinque_terre{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Liguria/Camogli_Genova_Liguria.jpg') center/cover no-repeat;
+      padding: 250px 0;
+    }
+    .cinque_terre h1{
+      color: #fff;
+      margin: 0 !important;
+    }
+    .card_cinque_terre{
+      display: flex;
+    }
+    .card_cinque_terre:nth-child(1){
+      background: url('../assets/Liguria/Monterosso_al_mare_Cinque_Terre_Liguria.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_cinque_terre:nth-child(2){
+      background: url('../assets/Liguria/Vernazza_Cinque_Terre_Liguria.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_cinque_terre:nth-child(3){
+      background: url('../assets/Liguria/Corniglia_Cinque_Terre_Liguria.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_cinque_terre:nth-child(4){
+      background: url('../assets/Liguria/Manarola_Cinque_Terre_Liguria.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    .card_cinque_terre:nth-child(5){
+      background: url('../assets/Liguria/Riomaggiore_Cinque_Terre_Liguria.jpg') center/cover no-repeat;
+      /* width: 30%; */
+      height: 400px;
+    }
+    /*Inizio Cinque Terre Borghi*/
+      .cinque_terre_borghi{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Liguria/Cinque_Terre_Borghi_Liguria.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .cinque_terre_borghi h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Cinque Terre Borghi*/
+    /*Inizio Monterosso al Mare*/
+      .monterosso_al_mare{
+
+      }
+    /*Fine Monterosso al Mare*/
+    /*Inizio Vernazza*/
+      .vernazza{
+
+      }
+    /*Fine Vernazza*/
+    /*Inizio Manarola*/
+      .manarola{
+
+      }
+    /*Fine Manarola*/
+    /*Inizio Riomaggiore*/
+      .riomaggiore{
+
+      }
+    /*Fine Riomaggiore*/
+  /*Fine Cinque Terre*/
 /*Fine Liguria*/
 
 /*Inizio Trentino Alto Adige*/

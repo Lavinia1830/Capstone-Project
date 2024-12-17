@@ -14,7 +14,7 @@ export default function Liguria(props) {
     const [isHoveredSanremo, setIsHoveredSanremo] = useState(false);
     const [isHoveredRecco, setIsHoveredRecco] = useState(false);
     const [isHoveredPortofino, setIsHoveredPortofino] = useState(false);
-    const [isHoveredLe5terre, setIsHoveredLe5Terre] = useState(false);
+    const [isHoveredCinqueterre, setIsHoveredCinqueTerre] = useState(false);
 
   return (
     <>
@@ -213,10 +213,10 @@ export default function Liguria(props) {
                         <CardBody className='bottone'>
                         <Link 
                             className="bottone_link" 
-                            href='/destinazioni/liguria/le_5_terre'
-                            onMouseEnter={() => setIsHoveredLe5Terre(true)}
-                            onMouseLeave={() => setIsHoveredLe5Terre(false)}
-                            >Le Cinque terre {isHoveredLe5terre && <i className="bi bi-chevron-right"></i>}
+                            href='/destinazioni/liguria/cinque_terre'
+                            onMouseEnter={() => setIsHoveredCinqueTerre(true)}
+                            onMouseLeave={() => setIsHoveredCinqueTerre(false)}
+                            >Cinque terre {isHoveredCinqueterre && <i className="bi bi-chevron-right"></i>}
                         </Link>
                         </CardBody>
                     </Card>
