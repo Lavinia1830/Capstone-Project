@@ -49,8 +49,8 @@ export default function Savona(props) {
                         museo Apple al mondo dotato di computer storici ancora funzionanti e utilizzabili?
                     </p>
                     <p>
-                        La terza città della <Link href='/liguria' className='text-decoration-none color_link'>Liguria</Link> dopo <Link href='/liguria/genova' 
-                        className='text-decoration-none color_link'>Genova</Link> e <Link href='/liguria/la_spezia' className='text-decoration-none color_link'>La 
+                        La terza città della <Link href='/liguria' className='text-decoration-none color_link'>Liguria</Link> dopo <Link href='/destinazioni/liguria/genova' 
+                        className='text-decoration-none color_link'>Genova</Link> e <Link href='/destinazioni/liguria/la_spezia' className='text-decoration-none color_link'>La 
                         Spezia</Link> è una città sorprendente. Adagiata lungo la <Link href='/mare/ligura/riviera_delle_palme' 
                         className='text-decoration-none color_link'>Riviera delle Palme</Link>, il tratto di costa nella Ligura occidentale che va 
                         da <Link href='/destinazioni/liguria/andona' className='text-decoration-none color_link'>Andona</Link> a <Link href='/destinazioni/liguria/varazze' 
