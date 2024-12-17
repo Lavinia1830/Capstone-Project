@@ -1287,6 +1287,10 @@ Route::get('/home', function () {
 
     /*Fine Savona*/
 
+    Route::get('/destinazioni/liguria/la_spezia', function () {
+        return Inertia::render('Liguria/Destinazioni/La_Spezia');
+    })->middleware(['auth', 'verified'])->name('la_spezia');
+
     Route::get('/destinazioni/liguria/camogli', function () {
         return Inertia::render('Liguria/Destinazioni/Camogli');
     })->middleware(['auth', 'verified'])->name('camogli');
@@ -1346,6 +1350,16 @@ Route::get('/home', function () {
             return Inertia::render('Mare/Mar_Ligure');
         })->middleware(['auth', 'verified'])->name('mar_ligure');
     /*Fine Mar Ligure*/
+
+    /*Inizio le Cinque Terre*/
+        Route::get('/destinazioni/liguria/cinque_terre', function () {
+            return Inertia::render('Liguria/Destinazioni/Cinque_Terre');
+        })->middleware(['auth', 'verified'])->name('cinque_terre');
+
+        Route::get('/borghi/liguria/cinque_terre', function () {
+            return Inertia::render('Liguria/Visite/Cinque_Terre_Borghi');
+        })->middleware(['auth', 'verified'])->name('cinque_terre');
+    /*Fine Le Cinque Terre*/
 
 /*Fine Liguria*/
 
