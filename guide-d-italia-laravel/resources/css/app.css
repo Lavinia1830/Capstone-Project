@@ -4195,22 +4195,52 @@ hr{
     /*Fine Cinque Terre Borghi*/
     /*Inizio Monterosso al Mare*/
       .monterosso_al_mare{
-
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Liguria/Monterosso_al_mare_Cinque_Terre_Liguria.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .monterosso_al_mare h1{
+        color: #fff;
+        margin: 0 !important;
       }
     /*Fine Monterosso al Mare*/
     /*Inizio Vernazza*/
       .vernazza{
-
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Liguria/Vernazza_Cinque_Terre_Liguria.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .vernazza h1{
+        color: #fff;
+        margin: 0 !important;
       }
     /*Fine Vernazza*/
+    /*Inizio Corniglia*/
+      .corniglia{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Liguria/Corniglia_Cinque_Terre_Liguria.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .corniglia h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Corniglia*/
     /*Inizio Manarola*/
       .manarola{
-
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Liguria/Manarola_Cinque_Terre_Liguria.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .manarola h1{
+        color: #fff;
+        margin: 0 !important;
       }
     /*Fine Manarola*/
     /*Inizio Riomaggiore*/
       .riomaggiore{
-
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Liguria/Riomaggiore_Cinque_Terre_Liguria.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .riomaggiore h1{
+        color: #fff;
+        margin: 0 !important;
       }
     /*Fine Riomaggiore*/
   /*Fine Cinque Terre*/

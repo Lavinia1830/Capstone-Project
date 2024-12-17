@@ -1359,6 +1359,26 @@ Route::get('/home', function () {
         Route::get('/borghi/liguria/cinque_terre', function () {
             return Inertia::render('Liguria/Visite/Cinque_Terre_Borghi');
         })->middleware(['auth', 'verified'])->name('cinque_terre');
+
+        Route::get('/borghi/liguria/cinque_terre/monterosso_al_mare', function () {
+            return Inertia::render('Liguria/Visite/Cinque_Terre/Monterosso_al_Mare');
+        })->middleware(['auth', 'verified'])->name('monterosso_al_mare');
+
+        Route::get('/borghi/liguria/cinque_terre/vernazza', function () {
+            return Inertia::render('Liguria/Visite/Cinque_Terre/Vernazza');
+        })->middleware(['auth', 'verified'])->name('vernazza');
+
+        Route::get('/borghi/liguria/cinque_terre/corniglia', function () {
+            return Inertia::render('Liguria/Visite/Cinque_Terre/Corniglia');
+        })->middleware(['auth', 'verified'])->name('corniglia');
+
+        Route::get('/borghi/liguria/cinque_terre/manarola', function () {
+            return Inertia::render('Liguria/Visite/Cinque_Terre/Manarola');
+        })->middleware(['auth', 'verified'])->name('manarola');
+
+        Route::get('/borghi/liguria/cinque_terre/riomaggiore', function () {
+            return Inertia::render('Liguria/Visite/Cinque_Terre/Riomaggiore');
+        })->middleware(['auth', 'verified'])->name('riomaggiore');
     /*Fine Le Cinque Terre*/
 
 /*Fine Liguria*/
@@ -1440,7 +1460,7 @@ Route::get('/home', function () {
         return Inertia::render('Veneto');
     })->middleware(['auth', 'verified'])->name('veneto');
 
-    Route::get('/destinazioni/venezia', function () {
+    Route::get('/destinazioni/veneto/venezia', function () {
         return Inertia::render('Veneto/Destinazioni/Venezia');
     })->middleware(['auth', 'verified'])->name('venezia');
     /*Inizio Venezia*/

@@ -12,8 +12,10 @@ export default function Cinque_Terre_Borghi(props) {
                 errors={props.errors}
             >
                 <main>
-                    <div className='text-center cinque_terre_borghi'>
-                        <h1>Cinque Terre, incantevoli borghi affacciati sul mare della Liguria</h1>
+                    <div className='cinque_terre_borghi' style={{ position: 'relative' }}>
+                        <h1 style={{ position: 'absolute', top: 20, left: 20 }}>Cinque Terre, incantevoli borghi affacciati sul mare della Liguria</h1>
+                        <span className='text-light' style={{ position: 'absolute', bottom: 50, left: 20 }}>CATEGORIE</span>
+                        <p className='categorie' style={{ position: 'absolute', bottom: 10, left: 20 }}>Da vedere</p>
                     </div>
                     <div className='margin mt-3'>
                         <p>
