@@ -13,9 +13,9 @@ export default function Fontana_di_Ferro(props) {
             >
                 <main>
                     <div className='fontana_di_ferro' style={{ position: 'relative' }}>
-                        <h1 style={{ position: 'absolute', top: 20, left: 20 }}>La Fontana di Ferro</h1>
+                        <h1 style={{ position: 'absolute', top: 20, left: 20 }}>Torre del Vescovo</h1>
                         <span className='text-light' style={{ position: 'absolute', bottom: 50, left: 20 }}>CATEGORIE</span>
-                        <p className='categorie' style={{ position: 'absolute', bottom: 10, left: 20 }}>Da vedere</p>
+                        <p className="categorie" style={{position: 'absolute', bottom: 10, left: 20, color: 'black'}}>Da vedere</p>
                     </div>
                     <div className="margin mt-3">
                         <p>
