@@ -1379,7 +1379,22 @@ Route::get('/home', function () {
         Route::get('/borghi/liguria/cinque_terre/riomaggiore', function () {
             return Inertia::render('Liguria/Visite/Cinque_Terre/Riomaggiore');
         })->middleware(['auth', 'verified'])->name('riomaggiore');
+
+        Route::get('/destinazioni/liguria/portovenere', function () {
+            return Inertia::render('Liguria/Destinazioni/Portovenere');
+        })->middleware(['auth', 'verified'])->name('portovenere');
+        
+        /*Inizio portovenere*/
+            Route::get('/visite/liguria/portovenere/chiesa_di_san_pietro', function () {
+                return Inertia::render('Liguria/Visite/Chiesa_di_San_Pietro');
+            })->middleware(['auth', 'verified'])->name('chiesa_di_san_pietro');
+            
+            Route::get('/visite/liguria/portovenere/chiesa_di_san_lorenzo', function () {
+                return Inertia::render('Liguria/Visite/Chiesa_di_San_Lorenzo');
+            })->middleware(['auth', 'verified'])->name('chiesa_di_san_lorenzo');
+        /*Fine Portovenere*/
     /*Fine Le Cinque Terre*/
+
 
 /*Fine Liguria*/
 

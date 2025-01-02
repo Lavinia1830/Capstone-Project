@@ -4145,7 +4145,6 @@ hr{
       margin: 0 !important;
     }
   /*Fine Baia di Paraggi*/
-
   /*Inizio Cinque Terre*/
     .cinque_terre{
       background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Liguria/Camogli_Genova_Liguria.jpg') center/cover no-repeat;
@@ -4192,6 +4191,35 @@ hr{
         color: #fff;
         margin: 0 !important;
       }
+      /*Inizio Portovenere*/
+      .portovenere{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Liguria/Portovenere_Liguria.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .portovenere h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+      /*Inizio Chiesa di San Pietro*/
+        .chiesa_di_san_pietro_portovenere{
+          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Liguria/Chiesa_di_San_Pietro_Portovenere_Liguria.jpg') center/cover no-repeat;
+          padding: 250px 0;
+        }
+        .chiesa_di_san_pietro_portovenere h1{
+          color: #fff;
+          margin: 0 !important;
+        }
+      /*Fine Chiesa di San Pietro*/
+      /*Inizio Chiesa di San Lorenzo*/
+        .chiesa_di_san_lorenzo_portovenere{
+          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Liguria/Chiesa_di_San_Lorenzo_Portovenere_Liguria.jpg') center/cover no-repeat;
+          padding: 250px 0;
+        }
+        .chiesa_di_san_lorenzo_portovenere h1{
+          color: #fff;
+          margin: 0 !important;
+        }
+      /*Fine Chiesa di San Lorenzo*/
     /*Fine Cinque Terre Borghi*/
     /*Inizio Monterosso al Mare*/
       .monterosso_al_mare{
