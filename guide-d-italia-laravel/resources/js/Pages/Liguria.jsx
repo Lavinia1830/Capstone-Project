@@ -89,11 +89,11 @@ export default function Liguria(props) {
                         di intervento dell’uomo in armonia con la natura.
                     </p>
                     <p>
-                        Tutto il mondo ci invidia <Link href='/destinazioni/liguria/le_5_terre/vernazza' className='text-decoration-none 
-                        color_link'>Vernazza</Link>, <Link href='/destinazioni/liguria/le_5_terre/riomaggiore' className='text-decoration-none 
-                        color_link'>Riomaggiore</Link>, <Link href='/destinazioni/liguria/le_5_terre/manarola' className='text-decoration-none 
-                        color_link'>Manarola</Link>, <Link href='/destinazioni/liguria/le_5_terre/corniglia' className='text-decoration-none 
-                        color_link'>Corniglia</Link> e <Link href='/destinazioni/liguria/le_5_terre/monterosso_al_mare' className='text-decoration-none 
+                        Tutto il mondo ci invidia <Link href='/borghi/liguria/cinque_terre/vernazza' className='text-decoration-none 
+                        color_link'>Vernazza</Link>, <Link href='/borghi/liguria/cinque_terre/riomaggiore' className='text-decoration-none 
+                        color_link'>Riomaggiore</Link>, <Link href='/borghi/liguria/cinque_terre/manarola' className='text-decoration-none 
+                        color_link'>Manarola</Link>, <Link href='/borghi/liguria/cinque_terre/corniglia' className='text-decoration-none 
+                        color_link'>Corniglia</Link> e <Link href='/borghi/liguria/cinque_terre/monterosso_al_mare' className='text-decoration-none 
                         color_link'>Monterosso al Mare</Link>: vorreste forse perderveli? Hanno dei tratti comuni (scorci romantici, case-torri dalle facciate variopinte, 
                         viste sul mare…), ma ognuno ha una sua caratteristica peculiare. Cercate di vederne quanti più possibili… o tutti, meglio ancora.
                     </p>

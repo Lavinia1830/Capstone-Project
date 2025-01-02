@@ -21,7 +21,7 @@ export default function Le_5_Terre(props) {
                 <div className='cinque_terre' style={{ position: 'relative' }}>
                     <h1 style={{ position: 'absolute', top: 20, left: 20 }}>Cinque Terre</h1>
                     <span className='text-light' style={{ position: 'absolute', bottom: 50, left: 20 }}>CATEGORIE</span>
-                    <p className='categorie' style={{ position: 'absolute', bottom: 10, left: 20 }}>Città</p>
+                    <p className='categorie' style={{ position: 'absolute', bottom: 10, left: 20 }}>Da vedere</p>
                 </div>
                 <div className="margin mt-3">
                     <p>
@@ -31,7 +31,7 @@ export default function Le_5_Terre(props) {
                         className='text-decoration-none color_link'>Monterosso al Mare</Link>, <Link href='/borghi/liguria/cinque_terre/vernazza' 
                         className='text-decoration-none color_link'>Vernazza</Link>, <Link href='/borghi/liguria/cinque_terre/corniglia' 
                         className='text-decoration-none color_link'>Corniglia</Link>, <Link href='/borghi/liguria/cinque-terre/manarola'
-                        className='text-decoration-none color_link'>Manarola</Link> e <Link href='/destinazioni/liguria/cinque_terre/riomaggiore' 
+                        className='text-decoration-none color_link'>Manarola</Link> e <Link href='/borghi/liguria/cinque_terre/riomaggiore' 
                         className='text-decoration-none color_link'>Riomaggiore</Link> in borghi marinari.
                     </p>
                     <p>
@@ -54,7 +54,7 @@ export default function Le_5_Terre(props) {
                             <CardBody className='bottone'>
                             <Link 
                                 className="bottone_link" 
-                                href='/destinazioni/cinque_terre/monterosso_al_mare'
+                                href='/borghi/liguria/cinque_terre/monterosso_al_mare'
                                 onMouseEnter={() => setIsHoveredMonterossoalMare(true)}
                                 onMouseLeave={() => setIsHoveredMonterossoalMare(false)}
                                 >Monterosso al Mare {isHoveredMonterossoalMare && <i className="bi bi-chevron-right"></i>}
@@ -65,7 +65,7 @@ export default function Le_5_Terre(props) {
                             <CardBody className='bottone'>
                             <Link 
                                 className="bottone_link" 
-                                href='/destinazioni/cinque_terre/vernazza'
+                                href='/borghi/liguria/cinque_terre/vernazza'
                                 onMouseEnter={() => setIsHoveredVernazza(true)}
                                 onMouseLeave={() => setIsHoveredVernazza(false)}
                                 >Vernazza {isHoveredVernazza && <i className="bi bi-chevron-right"></i>}
@@ -76,7 +76,7 @@ export default function Le_5_Terre(props) {
                             <CardBody className='bottone'>
                             <Link 
                                 className="bottone_link" 
-                                href='/destinazioni/cinque_terre/corniglia'
+                                href='/borghi/liguria/cinque_terre/corniglia'
                                 onMouseEnter={() => setIsHoveredCorniglia(true)}
                                 onMouseLeave={() => setIsHoveredCorniglia(false)}
                                 >Corniglia {isHoveredCorniglia && <i className="bi bi-chevron-right"></i>}
@@ -87,7 +87,7 @@ export default function Le_5_Terre(props) {
                             <CardBody className='bottone'>
                             <Link 
                                 className="bottone_link" 
-                                href='/destinazioni/le_cinque_terre/manarola'
+                                href='/borghi/liguria/cinque_terre/manarola'
                                 onMouseEnter={() => setIsHoveredManarola(true)}
                                 onMouseLeave={() => setIsHoveredManarola(false)}
                                 >Manarola {isHoveredManarola && <i className="bi bi-chevron-right"></i>}
@@ -98,7 +98,7 @@ export default function Le_5_Terre(props) {
                             <CardBody className='bottone'>
                             <Link 
                                 className="bottone_link" 
-                                href='/destinazioni/le_cinque_terre/riomaggiore'
+                                href='/borghi/liguria/cinque_terre/riomaggiore'
                                 onMouseEnter={() => setIsHoveredRiomaggiore(true)}
                                 onMouseLeave={() => setIsHoveredRiomaggiore(false)}
                                 >Riomaggiore {isHoveredRiomaggiore && <i className="bi bi-chevron-right"></i>}
