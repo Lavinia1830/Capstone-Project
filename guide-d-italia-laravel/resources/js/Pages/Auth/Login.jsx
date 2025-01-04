@@ -6,6 +6,7 @@ import InputLabel from '@/Components/InputLabel';
 import PrimaryButton from '@/Components/PrimaryButton';
 import TextInput from '@/Components/TextInput';
 import { Head, Link, useForm } from '@inertiajs/react';
+import LanguageSwitcher from '@/Components/LanguageSwitcher';
 
 export default function Login({ status, canResetPassword }) {
     const { data, setData, post, processing, errors, reset } = useForm({
@@ -31,67 +32,73 @@ export default function Login({ status, canResetPassword }) {
     };
 
     return (
-        <GuestLayout>
-            <Head title="Login" />
+        <>
+            <div className='position-absolute top-0 end-0 pe-2'>
+                <LanguageSwitcher/>
+            </div>
+            <GuestLayout>
+                <Head title="Login" />
+                
+                {status && <div className="mb-4 font-medium text-sm text-green-600">{status}</div>}
+                
+                <form onSubmit={submit} >
+                    <div>
+                        <InputLabel forInput="email" value="Email" className={'text-light'} />
 
-            {status && <div className="mb-4 font-medium text-sm text-green-600">{status}</div>}
+                        <TextInput
+                            id="email"
+                            type="email"
+                            name="email"
+                            value={data.email}
+                            className="mt-1 block w-full"
+                            autoComplete="username"
+                            isFocused={true}
+                            handleChange={onHandleChange}
+                        />
 
-            <form onSubmit={submit} >
-                <div>
-                    <InputLabel forInput="email" value="Email" className={'text-light'} />
+                        <InputError message={errors.email} className="mt-2" />
+                    </div>
 
-                    <TextInput
-                        id="email"
-                        type="email"
-                        name="email"
-                        value={data.email}
-                        className="mt-1 block w-full"
-                        autoComplete="username"
-                        isFocused={true}
-                        handleChange={onHandleChange}
-                    />
+                    <div className="mt-4">
+                        <InputLabel forInput="password" value="Password" className={'text-light'}/>
 
-                    <InputError message={errors.email} className="mt-2" />
-                </div>
+                        <TextInput
+                            id="password"
+                            type="password"
+                            name="password"
+                            value={data.password}
+                            className="mt-1 block w-full"
+                            autoComplete="current-password"
+                            handleChange={onHandleChange}
+                        />
 
-                <div className="mt-4">
-                    <InputLabel forInput="password" value="Password" className={'text-light'}/>
+                        <InputError message={errors.password} className="mt-2" />
+                    </div>
 
-                    <TextInput
-                        id="password"
-                        type="password"
-                        name="password"
-                        value={data.password}
-                        className="mt-1 block w-full"
-                        autoComplete="current-password"
-                        handleChange={onHandleChange}
-                    />
+                    <div className="block mt-4">
+                        <label className="flex items-center">
+                            <Checkbox name="remember" value={data.remember} handleChange={onHandleChange} />
+                            <span className="ml-2 text-sm text-light">Remember me</span>
+                        </label>
+                    </div>
 
-                    <InputError message={errors.password} className="mt-2" />
-                </div>
+                    <div className="flex items-center justify-end mt-4">
+                        {canResetPassword && (
+                            <Link
+                                href={route('password.request')}
+                                className="underline text-light"
+                            >
+                                Forgot your password?
+                            </Link>
+                        )}
 
-                <div className="block mt-4">
-                    <label className="flex items-center">
-                        <Checkbox name="remember" value={data.remember} handleChange={onHandleChange} />
-                        <span className="ml-2 text-sm text-light">Remember me</span>
-                    </label>
-                </div>
-
-                <div className="flex items-center justify-end mt-4">
-                    {canResetPassword && (
-                        <Link
-                            href={route('password.request')}
-                            className="underline text-light"
-                        >
-                            Forgot your password?
-                        </Link>
-                    )}
-
-                    <PrimaryButton className="ml-4" processing={processing}>
-                        Accedi
-                    </PrimaryButton>
-                </div>
-            </form>
-        </GuestLayout>
+                        <PrimaryButton className="ml-4" processing={processing}>
+                            Accedi
+                        </PrimaryButton>
+                    </div>
+                </form>
+            </GuestLayout>
+        </>
+        
     );
 }
