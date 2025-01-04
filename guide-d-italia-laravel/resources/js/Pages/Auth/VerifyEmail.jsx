@@ -16,13 +16,13 @@ export default function VerifyEmail({ status }) {
             <Head title="Email Verification" />
 
             <div className="mb-4 text-sm text-gray-600">
-                Grazie per esserti iscritto! Prima di iniziare, potresti verificare il tuo indirizzo e-mail facendo 
-                clic sul link che ti abbiamo appena inviato via e-mail? Se non hai ricevuto l'e-mail, saremo lieti di inviartene un'altra.
+                Thanks for signing up! Before getting started, could you verify your email address by clicking on the
+                link we just emailed to you? If you didn't receive the email, we will gladly send you another.
             </div>
 
             {status === 'verification-link-sent' && (
                 <div className="mb-4 font-medium text-sm text-green-600">
-                    Un nuovo link di verifica è stato inviato all'indirizzo e-mail fornito durante la registrazione.
+                    A new verification link has been sent to the email address you provided during registration.
                 </div>
             )}
 
@@ -36,7 +36,7 @@ export default function VerifyEmail({ status }) {
                         as="button"
                         className="underline text-sm text-gray-600 hover:text-gray-900 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                     >
-                        Disconnetti
+                        Log Out
                     </Link>
                 </div>
             </form>
