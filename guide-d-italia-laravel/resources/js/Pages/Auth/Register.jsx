@@ -5,6 +5,7 @@ import InputLabel from '@/Components/InputLabel';
 import PrimaryButton from '@/Components/PrimaryButton';
 import TextInput from '@/Components/TextInput';
 import { Head, Link, useForm } from '@inertiajs/react';
+import LanguageSwitcher from '@/Components/LanguageSwitcher';
 
 export default function Register() {
     const { data, setData, post, processing, errors, reset } = useForm({
@@ -31,91 +32,97 @@ export default function Register() {
     };
 
     return (
-        <GuestLayout>
-            <Head title="Register" />
+        <>
+            <div className='position-absolute top-0 end-0 pe-2'>
+                <LanguageSwitcher/>
+            </div>
+            <GuestLayout>
+                <Head title="Register" />
+                
+                <form onSubmit={submit}>
+                    <div>
+                        <InputLabel forInput="name" value="Name" className={'text-light'}/>
 
-            <form onSubmit={submit}>
-                <div>
-                    <InputLabel forInput="name" value="Name" className={'text-light'}/>
+                        <TextInput
+                            id="name"
+                            name="name"
+                            value={data.name}
+                            className="mt-1 block w-full"
+                            autoComplete="name"
+                            isFocused={true}
+                            handleChange={onHandleChange}
+                            required
+                        />
 
-                    <TextInput
-                        id="name"
-                        name="name"
-                        value={data.name}
-                        className="mt-1 block w-full"
-                        autoComplete="name"
-                        isFocused={true}
-                        handleChange={onHandleChange}
-                        required
-                    />
+                        <InputError message={errors.name} className="mt-2" />
+                    </div>
 
-                    <InputError message={errors.name} className="mt-2" />
-                </div>
+                    <div className="mt-4">
+                        <InputLabel forInput="email" value="Email" className={'text-light'}/>
 
-                <div className="mt-4">
-                    <InputLabel forInput="email" value="Email" className={'text-light'}/>
+                        <TextInput
+                            id="email"
+                            type="email"
+                            name="email"
+                            value={data.email}
+                            className="mt-1 block w-full"
+                            autoComplete="username"
+                            handleChange={onHandleChange}
+                            required
+                        />
 
-                    <TextInput
-                        id="email"
-                        type="email"
-                        name="email"
-                        value={data.email}
-                        className="mt-1 block w-full"
-                        autoComplete="username"
-                        handleChange={onHandleChange}
-                        required
-                    />
+                        <InputError message={errors.email} className="mt-2" />
+                    </div>
 
-                    <InputError message={errors.email} className="mt-2" />
-                </div>
+                    <div className="mt-4">
+                        <InputLabel forInput="password" value="Password" className={'text-light'}/>
 
-                <div className="mt-4">
-                    <InputLabel forInput="password" value="Password" className={'text-light'}/>
+                        <TextInput
+                            id="password"
+                            type="password"
+                            name="password"
+                            value={data.password}
+                            className="mt-1 block w-full"
+                            autoComplete="new-password"
+                            handleChange={onHandleChange}
+                            required
+                        />
 
-                    <TextInput
-                        id="password"
-                        type="password"
-                        name="password"
-                        value={data.password}
-                        className="mt-1 block w-full"
-                        autoComplete="new-password"
-                        handleChange={onHandleChange}
-                        required
-                    />
+                        <InputError message={errors.password} className="mt-2" />
+                    </div>
 
-                    <InputError message={errors.password} className="mt-2" />
-                </div>
+                    <div className="mt-4">
+                        <InputLabel forInput="password_confirmation" value="Confirm Password" className={'text-light'} />
 
-                <div className="mt-4">
-                    <InputLabel forInput="password_confirmation" value="Confirm Password" className={'text-light'} />
+                        <TextInput
+                            id="password_confirmation"
+                            type="password"
+                            name="password_confirmation"
+                            value={data.password_confirmation}
+                            className="mt-1 block w-full"
+                            autoComplete="new-password"
+                            handleChange={onHandleChange}
+                            required
+                        />
 
-                    <TextInput
-                        id="password_confirmation"
-                        type="password"
-                        name="password_confirmation"
-                        value={data.password_confirmation}
-                        className="mt-1 block w-full"
-                        autoComplete="new-password"
-                        handleChange={onHandleChange}
-                        required
-                    />
+                        <InputError message={errors.password_confirmation} className="mt-2" />
+                    </div>
 
-                    <InputError message={errors.password_confirmation} className="mt-2" />
-                </div>
+                    <div className="flex items-center justify-end mt-4">
+                        <Link
+                            href={route('login')}
+                            className="underline text-light"
+                        >
+                            Already registered?
+                        </Link>
 
-                <div className="flex items-center justify-end mt-4">
-                    <Link
-                        href={route('login')}
-                        className="underline text-light"
-                    >
-                        Already registered?
-                    </Link>
-
-                    <PrimaryButton className="ml-4" processing={processing}>
-                        Register
-                    </PrimaryButton>
-                </div>
-            </form>
-        </GuestLayout>
+                        <PrimaryButton className="ml-4" processing={processing}>
+                            Register
+                        </PrimaryButton>
+                    </div>
+                </form>
+            </GuestLayout>
+        </>
+        
     );
 }

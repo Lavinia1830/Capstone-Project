@@ -1,11 +1,16 @@
 
+import LanguageSwitcher from '@/Components/LanguageSwitcher';
 import { Link, Head } from '@inertiajs/react';
 
 export default function Welcome() {
     return (
         <>
             <Head title="Welcome" />
+            
             <div className="login-page">
+                <div className='position-absolute top-0 end-0 pe-2'>
+                    <LanguageSwitcher/>
+                </div>
                 {/* Aggiungi qui il tuo codice per lo sfondo o altri elementi della pagina */}
                 <div className="login-form">
                     <h2>Benvenuto!</h2>
