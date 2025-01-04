@@ -4023,6 +4023,49 @@ hr{
       }
     /*Fine Porto di Savona*/
   /*Fine Savona*/
+  /*Inizio La Spezia*/
+      .la_spezia{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Liguria/La_Spezia_Liguria.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .la_spezia h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+      .card_La_Spezia{
+        display: flex;
+      }
+      .card_La_Spezia:nth-child(1){
+        background: url('../assets/Liguria/Castello_san_giorgio_La_Spezia_Liguria.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_La_Spezia:nth-child(2){
+        background: url('../assets/Liguria/Museo_nazionale_navale_della_Spezia_Liguria.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_La_Spezia:nth-child(3){
+        background: url('../assets/Liguria/Museo_Amedeo_Lia_La_Spezia_Liguria.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_La_Spezia:nth-child(4){
+        background: url('../assets/Liguria/Via_del_Prione_La_Spezia_Liguria.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_La_Spezia:nth-child(5){
+        background: url('../assets/Liguria/Porto_Mirabello_La_Spezia_Liguria.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_La_Spezia:nth-child(6){
+        background: url('../assets/Liguria/Ponte_Thaon_de_Revel_La_Spezia_Liguria.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+  /*Fine La Spezia*/
   /*Inizio Camogli*/
     .camogli{
       background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Liguria/Camogli_Genova_Liguria.jpg') center/cover no-repeat;
@@ -4272,6 +4315,106 @@ hr{
       }
     /*Fine Riomaggiore*/
   /*Fine Cinque Terre*/
+  /*Inizio Lerici*/
+    /*Inizio Golfo dei Poeti*/
+      .golfo_dei_poeti{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Liguria/Golfo_dei_Poeti_Lerici_Liguria.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .golfo_dei_poeti h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+      .parco_nazionale_delle_cinque_terre{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Liguria/Parco_Nazionale_delle_Cinque_Terre_Liguria.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .parco_nazionale_delle_cinque_terre h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine Golfo dei Poeti*/
+    /*Inizio Imperia*/
+      .imperia{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Liguria/Imperia_Liguria.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .imperia h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+      .card_Imperia{
+        display: flex;
+      }
+      .card_Imperia:nth-child(1){
+        background: url('../assets/Liguria/Basilica_di_San_Maurizio_Imperia_Liguria.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Imperia:nth-child(2){
+        background: url('../assets/Liguria/Pasticceria_Piccardo_Imperia_Liguria.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+    /*Fine Imperia*/
+    /*Inizio La riviera ligure di ponente*/
+      .la_riviera_ligure_di_ponente{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Liguria/La_riviera_ligure_di_ponente_Liguria.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .la_riviera_ligure_di_ponente h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*Fine La riviera ligure di ponente*/
+    /*Inizio Sanremo*/
+      .sanremo{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Liguria/Sanremo_Liguria.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .sanremo h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+      .card_Sanremo{
+        display: flex;
+      }
+      .card_Sanremo:nth-child(1){
+        background: url('../assets/Liguria/Teatro_Ariston_Sanremo_Liguria.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Sanremo:nth-child(2){
+        background: url('../assets/Liguria/Casinò_Sanremo_Liguria.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Sanremo:nth-child(3){
+        background: url('../assets/Liguria/La_Pigna_Sanremo_Liguria.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Sanremo:nth-child(4){
+        background: url('../assets/Liguria/Santuario_Madonna_della_Costa_Sanremo_Liguria.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Sanremo:nth-child(5){
+        background: url('../assets/Liguria/Fonte_di_Santa_Tecla_Sanremo_Liguria.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Sanremo:nth-child(6){
+        background: url('../assets/Liguria/Villa_Nobel_Sanremo_Liguria.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Sanremo:nth-child(6){
+        background: url('../assets/Liguria/Villa_Ormond_Sanremo_Liguria.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+    /*Fine Sanremo*/
 /*Fine Liguria*/
 
 /*Inizio Trentino Alto Adige*/

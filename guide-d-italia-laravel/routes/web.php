@@ -1395,7 +1395,35 @@ Route::get('/home', function () {
         /*Fine Portovenere*/
     /*Fine Le Cinque Terre*/
 
+    Route::get('/visite/liguria/lerici/golfo_dei_porti', function () {
+        return Inertia::render('Liguria/Visite/Golfo_dei_Poeti');
+    })->middleware(['auth', 'verified'])->name('golfo_dei_poeti');
 
+    /*Inizio Lerici*/
+        Route::get('/visite/liguria/parco_nazionale_delle_cinque_terre', function () {
+            return Inertia::render('Liguria/Visite/Parco_Nazionale_delle_Cinque_Terre');
+        })->middleware(['auth', 'verified'])->name('parco_nazionale_delle_cinque_terre');
+    /*Fine Lerici*/
+
+    Route::get('/destinazioni/liguria/imperia', function () {
+        return Inertia::render('Liguria/Destinazioni/Imperia');
+    })->middleware(['auth', 'verified'])->name('imperia');
+
+    /*Inizio Imperia*/
+        Route::get('/mare/liguria/la_riviera_ligure_di_ponente', function () {
+            return Inertia::render('Mare/La_riviera_ligure_di_ponente');
+        })->middleware(['auth', 'verified'])->name('la_riviera_ligure_di_ponente');
+    /*Fine Imperia*/
+
+    Route::get('/destinazioni/liguria/imperia', function () {
+        return Inertia::render('Liguria/Destinazioni/Imperia');
+    })->middleware(['auth', 'verified'])->name('imperia');
+
+    /*Inizio Sanremo*/
+        Route::get('/destinazioni/liguria/sanremo', function () {
+            return Inertia::render('Liguria/Destinazioni/Sanremo');
+        })->middleware(['auth', 'verified'])->name('sanremo');
+    /*Fine Sanremo*/
 /*Fine Liguria*/
 
 /*Inizio Trentino Alto Adige*/

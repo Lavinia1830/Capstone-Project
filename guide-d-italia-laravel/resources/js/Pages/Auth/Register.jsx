@@ -108,11 +108,11 @@ export default function Register() {
                         href={route('login')}
                         className="underline text-light"
                     >
-                        Already registered?
+                        Sei già registrato?
                     </Link>
 
                     <PrimaryButton className="ml-4" processing={processing}>
-                        Register
+                        Iscriviti
                     </PrimaryButton>
                 </div>
             </form>
