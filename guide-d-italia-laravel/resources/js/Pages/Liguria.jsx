@@ -71,9 +71,9 @@ export default function Liguria(props) {
                         panino tipico che non potete non assaggiare e altre interessanti attrazioni.
                     </p>
                     <p>
-                        Altra città ingiustamente relegata a porto d’arrivo è <Link href='/destinazioni/liguria/la_sapienza' className='text-decoration-none 
-                        color_link'>La Spezia</Link>, che invece può rappresentare un’ottima base per esplorare le <Link href='/destinazioni/liguria/le_5_terre' 
-                        className='text-decoration-none color_link'>Cinque Terre</Link> e le incantevoli città del <Link href='/destinazioni/liguria/golfo_dei_poeti' 
+                        Altra città ingiustamente relegata a porto d’arrivo è <Link href='/destinazioni/liguria/la_spezia' className='text-decoration-none 
+                        color_link'>La Spezia</Link>, che invece può rappresentare un’ottima base per esplorare le <Link href='/destinazioni/liguria/cinque_terre' 
+                        className='text-decoration-none color_link'>Cinque Terre</Link> e le incantevoli città del <Link href='/visite/liguria/lerici/golfo_dei_porti' 
                         className='text-decoration-none color_link'>Golfo dei Poeti</Link>.
                     </p>
                     <p>

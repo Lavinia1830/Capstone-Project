@@ -103,6 +103,6 @@ export default function La_Spezia(props) {
             </div>
         </main>
         <Footer/>
-        </AuthenticatedLayout>
+    </AuthenticatedLayout>
   )
 }
