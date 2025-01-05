@@ -5,9 +5,13 @@ import Dropdown from '@/Components/Dropdown';
 import ResponsiveNavLink from '@/Components/ResponsiveNavLink';
 import ApplicationLogo from '@/Components/ApplicationLogo';
 import NavLink from '@/Components/NavLink';
+import LanguageSwitcher from '@/Components/LanguageSwitcher';
+import { useTranslation } from 'react-i18next';
 
 export default function Authenticated({ auth, header, children }) {
     const [showingNavigationDropdown, setShowingNavigationDropdown] = useState(false);
+
+    const { t } = useTranslation();
 
     return (
         <div className="min-h-screen bg-gray-100">
@@ -24,7 +28,7 @@ export default function Authenticated({ auth, header, children }) {
                                 <NavLink href={route('home')} active={route().current('home')} className="text-decoration-none color_link">
                                     Home
                                 </NavLink>
-                                <NavDropdown title="Regioni" style={{ marginTop: '3px'}} id="basic-nav-dropdown">
+                                <NavDropdown title={t("regions")} style={{ marginTop: '3px'}} id="basic-nav-dropdown">
                                     <NavDropdown.Item>
                                         <NavLink className='text-decoration-none color_link' href="/abruzzo">Abruzzo</NavLink>
                                     </NavDropdown.Item>
@@ -50,7 +54,7 @@ export default function Authenticated({ auth, header, children }) {
                                         <NavLink className='text-decoration-none color_link' href="/liguria">Liguria</NavLink>
                                     </NavDropdown.Item>
                                     <NavDropdown.Item>
-                                        <NavLink className='text-decoration-none color_link' href="/lombardia">Lombardia</NavLink>
+                                        <NavLink className='text-decoration-none color_link' href="/lombardy">{t("lombardy")}</NavLink>
                                     </NavDropdown.Item>
                                     <NavDropdown.Item>
                                         <NavLink className='text-decoration-none color_link' href="/marche">Marche</NavLink>
@@ -59,51 +63,51 @@ export default function Authenticated({ auth, header, children }) {
                                         <NavLink className='text-decoration-none color_link' href="/molise">Molise</NavLink>
                                     </NavDropdown.Item>
                                     <NavDropdown.Item>
-                                        <NavLink className='text-decoration-none color_link' href="/piemonte">Piemonte</NavLink>
+                                        <NavLink className='text-decoration-none color_link' href="/piedmont">{t("piedmont")}</NavLink>
                                     </NavDropdown.Item>
                                     <NavDropdown.Item>
-                                        <NavLink className='text-decoration-none color_link' href="/puglia">Puglia</NavLink>
+                                        <NavLink className='text-decoration-none color_link' href="/apulia">{t("apulia")}</NavLink>
                                     </NavDropdown.Item>
                                     <NavDropdown.Item>
-                                        <NavLink className='text-decoration-none color_link' href="/sardegna">Sardegna</NavLink>
+                                        <NavLink className='text-decoration-none color_link' href="/sardinia">{t("sardinia")}</NavLink>
                                     </NavDropdown.Item>
                                     <NavDropdown.Item>
-                                        <NavLink className='text-decoration-none color_link' href="/sicilia">Sicilia</NavLink>
+                                        <NavLink className='text-decoration-none color_link' href="/sicily">{t("sicily")}</NavLink>
                                     </NavDropdown.Item>
                                     <NavDropdown.Item>
-                                        <NavLink className='text-decoration-none color_link' href="/toscana">Toscana</NavLink>
+                                        <NavLink className='text-decoration-none color_link' href="/toscany">{t("toscany")}</NavLink>
                                     </NavDropdown.Item>
                                     <NavDropdown.Item>
-                                        <NavLink className='text-decoration-none color_link' href="/trentino_alto_adige">Trentino Alto Adige</NavLink>
+                                        <NavLink className='text-decoration-none color_link' href="/trentino_south_tyrol">{t("trentino south tyrol")}</NavLink>
                                     </NavDropdown.Item>
                                     <NavDropdown.Item>
                                         <NavLink className='text-decoration-none color_link' href="/umbria">Umbria</NavLink>
                                     </NavDropdown.Item>
                                     <NavDropdown.Item>
-                                        <NavLink className='text-decoration-none color_link' href="/valle_d_aosta">Valle d'Aosta</NavLink>
+                                        <NavLink className='text-decoration-none color_link' href="/aosta_valley">{t("aosta valley")}</NavLink>
                                     </NavDropdown.Item>
                                     <NavDropdown.Item>
                                         <NavLink className='text-decoration-none color_link' href="/veneto">Veneto</NavLink>
                                     </NavDropdown.Item>
                                 </NavDropdown>
-                                <NavDropdown title="Fiumi" style={{ marginTop: '3px'}} id="basic-nav-dropdown">
+                                <NavDropdown title={t("rivers")} style={{ marginTop: '3px'}} id="basic-nav-dropdown">
                                     <NavDropdown.Item>
-                                        <NavLink className='text-decoration-none color_link' href="/fiumi/fiume_adige">Fiume Adige</NavLink>
+                                        <NavLink className='text-decoration-none color_link' href="/rivers/adige_river">{t("adige river")}</NavLink>
                                     </NavDropdown.Item>
                                 </NavDropdown>
-                                <NavDropdown title="Laghi" style={{ marginTop: '3px'}} id="basic-nav-dropdown">
+                                <NavDropdown title={t("lakes")} style={{ marginTop: '3px'}} id="basic-nav-dropdown">
                                     <NavDropdown.Item>
-                                        <NavLink className='text-decoration-none color_link' href="/laghi/lago_di_garda">Lago di Garda</NavLink>
+                                        <NavLink className='text-decoration-none color_link' href="/lakes/lake_garda">{t("lake garda")}</NavLink>
                                     </NavDropdown.Item>
                                 </NavDropdown>
-                                <NavDropdown title="Mare" style={{ marginTop: '3px'}} id="basic-nav-dropdown">
+                                <NavDropdown title={t("sea")} style={{ marginTop: '3px'}} id="basic-nav-dropdown">
                                     <NavDropdown.Item>
-                                        <NavLink className='text-decoration-none color_link' href="/mare/mare_adriatico">Mare Adriatico</NavLink>
+                                        <NavLink className='text-decoration-none color_link' href="/sea/adriatic_sea">{t("adriatic sea")}</NavLink>
                                     </NavDropdown.Item>
                                 </NavDropdown>
-                                <NavDropdown title="Montagna" style={{ marginTop: '3px'}} id="basic-nav-dropdown">
+                                <NavDropdown title={t("mountain")} style={{ marginTop: '3px'}} id="basic-nav-dropdown">
                                     <NavDropdown.Item>
-                                        <NavLink className='text-decoration-none color_link' href="/montagna/monte_bondone">Monte Bondone</NavLink>
+                                        <NavLink className='text-decoration-none color_link' href="/mountain/monte_bondone">Monte Bondone</NavLink>
                                     </NavDropdown.Item>
                                 </NavDropdown>
                                 
@@ -137,13 +141,15 @@ export default function Authenticated({ auth, header, children }) {
                                     </Dropdown.Trigger>
 
                                     <Dropdown.Content>
-                                        <ResponsiveNavLink href={route('profile.edit')}>Profile</ResponsiveNavLink>
+                                        <ResponsiveNavLink href={route('profile.edit')}>{t('profile')}</ResponsiveNavLink>
                                         <ResponsiveNavLink href={route('logout')} method="post" as="button">
-                                            Log Out
+                                            {t("log out")}
                                         </ResponsiveNavLink>
                                     </Dropdown.Content>
                                 </Dropdown>
+                                
                             </div>
+                            <LanguageSwitcher/>
                         </div>
 
                         <div className="-mr-2 flex items-center lg:hidden">
@@ -177,7 +183,7 @@ export default function Authenticated({ auth, header, children }) {
                         <NavLink href={route('home')} active={route().current('home')} className="text-decoration-none color_link">
                             Home
                         </NavLink>
-                        <h6 className='ms-1 fw-bold'>Regioni</h6>
+                        <h6 className='ms-1 fw-bold'>{t("regions")}</h6>
                         <div className="ms-3">
                             <NavDropdown.Item>
                                 <NavLink className='text-decoration-none color_link' href="/abruzzo">Abruzzo</NavLink>
@@ -204,7 +210,7 @@ export default function Authenticated({ auth, header, children }) {
                                 <NavLink className='text-decoration-none color_link' href="/liguria">Liguria</NavLink>
                             </NavDropdown.Item>
                             <NavDropdown.Item>
-                                <NavLink className='text-decoration-none color_link' href="/lombardia">Lombardia</NavLink>
+                                <NavLink className='text-decoration-none color_link' href="/lombardy">{t("lombardy")}</NavLink>
                             </NavDropdown.Item>
                             <NavDropdown.Item>
                                 <NavLink className='text-decoration-none color_link' href="/marche">Marche</NavLink>
@@ -213,56 +219,56 @@ export default function Authenticated({ auth, header, children }) {
                                 <NavLink className='text-decoration-none color_link' href="/molise">Molise</NavLink>
                             </NavDropdown.Item>
                             <NavDropdown.Item>
-                                <NavLink className='text-decoration-none color_link' href="/piemonte">Piemonte</NavLink>
+                                <NavLink className='text-decoration-none color_link' href="/piedmont">{t("piedmont")}</NavLink>
                             </NavDropdown.Item>
                             <NavDropdown.Item>
-                                <NavLink className='text-decoration-none color_link' href="/puglia">Puglia</NavLink>
+                                <NavLink className='text-decoration-none color_link' href="/apulia">{t("apulia")}</NavLink>
                             </NavDropdown.Item>
                             <NavDropdown.Item>
-                                <NavLink className='text-decoration-none color_link' href="/sardegna">Sardegna</NavLink>
+                                <NavLink className='text-decoration-none color_link' href="/sardinia">{t("sardinia")}</NavLink>
                             </NavDropdown.Item>
                             <NavDropdown.Item>
-                                <NavLink className='text-decoration-none color_link' href="/sicilia">Sicilia</NavLink>
+                                <NavLink className='text-decoration-none color_link' href="/sicily">{t("sicily")}</NavLink>
                             </NavDropdown.Item>
                             <NavDropdown.Item>
-                                <NavLink className='text-decoration-none color_link' href="/toscana">Toscana</NavLink>
+                                <NavLink className='text-decoration-none color_link' href="/toscany">{t("toscany")}</NavLink>
                             </NavDropdown.Item>
                             <NavDropdown.Item>
-                                <NavLink className='text-decoration-none color_link' href="/trentino_alto_adige">Trentino Alto Adige</NavLink>
+                                <NavLink className='text-decoration-none color_link' href="/trentino_south_tyrol">{t("trentino south tyrol")}</NavLink>
                             </NavDropdown.Item>
                             <NavDropdown.Item>
                                 <NavLink className='text-decoration-none color_link' href="/umbria">Umbria</NavLink>
                             </NavDropdown.Item>
                             <NavDropdown.Item>
-                                <NavLink className='text-decoration-none color_link' href="/valle_d_aosta">Valle d'Aosta</NavLink>
+                                <NavLink className='text-decoration-none color_link' href="/aosta_valley">{t("aosta valley")}</NavLink>
                             </NavDropdown.Item>
                             <NavDropdown.Item>
                                 <NavLink className='text-decoration-none color_link' href="/veneto">Veneto</NavLink>
                             </NavDropdown.Item>
                         </div>
-                        <h6 className='ms-1 fw-bold'>Fiumi</h6>
+                        <h6 className='ms-1 fw-bold'>{t("rivers")}</h6>
                         <div className="ms-3">
                             <NavDropdown.Item>
-                                <NavLink className='text-decoration-none color_link' href="/fiumi/fiume_adige">Fiume Adige</NavLink>
+                                <NavLink className='text-decoration-none color_link' href="/rivers/adige_river">{t("adige river")}</NavLink>
                             </NavDropdown.Item>
                         </div>
-                        <h6 className='ms-1 fw-bold'>Laghi</h6>
+                        <h6 className='ms-1 fw-bold'>{t("lakes")}</h6>
                         <div className="ms-3">
                             <NavDropdown.Item>
-                                <NavLink className='text-decoration-none color_link' href="/laghi/lago_di_garda">Lago di Garda</NavLink>
+                                <NavLink className='text-decoration-none color_link' href="/lakes/lake_garda">{t("lake garda")}</NavLink>
                             </NavDropdown.Item>
                         </div>
-                        <h6 className='ms-1 fw-bold'>Mare</h6>
+                        <h6 className='ms-1 fw-bold'>{t("seas")}</h6>
                         <div className="ms-3">
                         <NavDropdown.Item>
-                                <NavLink className='text-decoration-none color_link' href="/">Mare Adriatico</NavLink>
+                                <NavLink className='text-decoration-none color_link' href="/seas/adriatic_sea">{t("adriatic sea")}</NavLink>
                             </NavDropdown.Item>
                         </div>
                         
-                        <h6 className='ms-1 fw-bold'>Montagna</h6>
+                        <h6 className='ms-1 fw-bold'>{t("mountains")}</h6>
                         <div className="ms-3">
                             <NavDropdown.Item>
-                                <NavLink className='text-decoration-none color_link' href="/montagna/monte_bondone">Monte Bondone</NavLink>
+                                <NavLink className='text-decoration-none color_link' href="/mountain/monte_bondone">Monte Bondone</NavLink>
                             </NavDropdown.Item>
                         </div>
                         
@@ -277,12 +283,13 @@ export default function Authenticated({ auth, header, children }) {
                         </div>
 
                         <div className="mt-3 space-y-1">
-                            <ResponsiveNavLink href={route('profile.edit')}>Profile</ResponsiveNavLink>
+                            <ResponsiveNavLink href={route('profile.edit')}>{t('profile')}</ResponsiveNavLink>
                             <ResponsiveNavLink method="post" href={route('logout')} as="button">
-                                Log Out
+                                {t("log out")}
                             </ResponsiveNavLink>
                         </div>
                     </div>
+                    <LanguageSwitcher/>
                 </div>
             </nav>
 

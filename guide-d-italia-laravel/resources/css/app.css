@@ -46,8 +46,8 @@ hr{
     color: #56282d;
   }
 
-  .btn-registrati,
-  .btn-accedi,
+  .btn-register,
+  .btn-login,
   .btn-card{
     display: inline;
     padding: 10px 20px;
@@ -6861,11 +6861,11 @@ hr{
 /*Media Query Smartphone*/
 @media screen and (max-width: 425px) {
   /* Tablet */
-    .mappa-tablet {
+    .map-tablet {
       display: none !important;
     }
   /* Desktop*/
-    .mappa-desktop {
+    .map-desktop {
       display: none !important;
     }
     .margin{
@@ -6893,12 +6893,12 @@ hr{
 /*Media Query Tablet*/
   @media screen and (min-width: 426px) and (max-width: 768px){
     /*Inizio Smartphone*/
-      .mappa-smartphone {
+      .map-smartphone {
         display: none !important;
       }
     /*Fine Smartphone*/
     /*Inizio Desktop*/
-      .mappa-desktop {
+      .map-desktop {
         display: none !important;
       }
       .margin{
@@ -6935,12 +6935,12 @@ hr{
 /*Inizio Media Query Desktop*/
   @media screen and (min-width: 769px){
     /*Inizio Smartphone*/
-      .mappa-smartphone {
+      .map-smartphone {
         display: none !important;
       }
     /*Fine Smartphone*/
     /*Inizio Tablet*/
-      .mappa-tablet {
+      .map-tablet {
         display: none !important;
       }
       .margin{

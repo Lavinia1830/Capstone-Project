@@ -1,9 +1,20 @@
 import React from 'react';
 import { Inertia } from '@inertiajs/inertia';
+import { useTranslation } from 'react-i18next';
 
 const LanguageSwitcher = () => {
-    const changeLanguage = (lang) => {
-        router.post('/change-language', { locale: lang });
+    const { i18n } = useTranslation();
+
+    const changeLanguage = (locale) => {
+        // Cambia la lingua nel frontend usando i18next
+        i18n.changeLanguage(locale);
+
+        // Aggiorna la lingua nel backend (Laravel) passando la lingua tramite URL
+        Inertia.visit(window.location.pathname, {
+            method: 'get',
+            data: { lang: locale },
+            preserveState: true, // Preserva lo stato della pagina corrente
+        });
     };
 
     return (

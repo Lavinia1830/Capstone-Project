@@ -33,15 +33,15 @@ Route::get('/home', function () {
 
 /*Valle d'Aosta*/
 
-    Route::get('/valle_d_aosta', function () {
-        return Inertia::render('Valle_d_Aosta');
-    })->middleware(['auth', 'verified'])->name('valle_d_aosta');
-
-    Route::get('/destinazioni/valle_d_aosta/aosta', function () {
-        return Inertia::render('Valle_d_Aosta/Destinazioni/Aosta');
-    })->middleware(['auth', 'verified'])->name('aosta');
+    Route::get('/aosta_valley', function () {
+        return Inertia::render('Aosta_Valley');
+    })->middleware(['auth', 'verified'])->name('aosta_valley');
 
     /*Inizio Aosta*/
+
+        Route::get('/destinazioni/valle_d_aosta/aosta', function () {
+            return Inertia::render('Valle_d_Aosta/Destinazioni/Aosta');
+        })->middleware(['auth', 'verified'])->name('aosta');
 
         Route::get('/visite/valle_d_aosta/aosta/arco_di_augusto', function () {
             return Inertia::render('Valle_d_Aosta/Visite/Arco_di_Augusto');
@@ -157,15 +157,13 @@ Route::get('/home', function () {
 
     /*Fine Aosta*/
     
-    Route::get('/destinazioni/valle_d_aosta/courmayeur', function () {
-        return Inertia::render('Valle_d_Aosta/Destinazioni/Courmayeur');
-    })->middleware(['auth', 'verified'])->name('courmayeur');
+    
 
     /*Inizio Courmayeur*/  
 
-        Route::get('/montagna/valle_d_aosta/monte_bianco', function () {
-            return Inertia::render('Montagna/Monte_Bianco');
-        })->middleware(['auth', 'verified'])->name('monte_bianco');
+        Route::get('/destinazioni/valle_d_aosta/courmayeur', function () {
+            return Inertia::render('Valle_d_Aosta/Destinazioni/Courmayeur');
+        })->middleware(['auth', 'verified'])->name('courmayeur');
 
         Route::get('/visite/valle_d_aosta/courmayeur/chiesa_dei_santi_pantaleone_e_valentino', function () {
             return Inertia::render('Valle_d_Aosta/Visite/Chiesa_dei_Santi_Pantaleone_e_Valentino');
@@ -191,9 +189,7 @@ Route::get('/home', function () {
             return Inertia::render('Montagna/Funivia_Skyway_Monte_Bianco');
         })->middleware(['auth', 'verified'])->name('funivia_skyway_monte_bianco');
 
-        Route::get('/montagna/valle_d_aosta/monte_rosa', function () {
-            return Inertia::render('Montagna/Monte_Rosa');
-        })->middleware(['auth', 'verified'])->name('monte_rosa');
+       
 
     /*Fine Courmayeur*/
 
@@ -217,9 +213,7 @@ Route::get('/home', function () {
     
     /*Fine Cervinia Valtournanche*/
 
-    Route::get('/montagna/valle_d_aosta/monte_cervino', function () {
-        return Inertia::render('Montagna/Monte_Cervino');
-    })->middleware(['auth', 'verified'])->name('monte_cervino');
+    
 
     Route::get('/laghi/valle_d_aosta/lago_di_goillet', function () {
         return Inertia::render('Laghi/Lago_di_Goillet');
@@ -350,10 +344,10 @@ Route::get('/home', function () {
 
 /*Fine Valle d'Aosta*/
     
-/*Inizio Piemonte */
-    Route::get('/piemonte', function () {
-        return Inertia::render('Piemonte');
-    })->middleware(['auth', 'verified'])->name('piemonte');
+/*Start Piedmond */
+    Route::get('/piedmond', function () {
+        return Inertia::render('Piedmond');
+    })->middleware(['auth', 'verified'])->name('piedmond');
 
     Route::get('/destinazioni/piemonte/torino', function () {
         return Inertia::render('Piemonte/Destinazioni/Torino');
@@ -744,9 +738,7 @@ Route::get('/home', function () {
             return Inertia::render('Fiumi/Fiume_Sesia');
         })->middleware(['auth', 'verified'])->name('fiume_sesia');
 
-        Route::get('/montagna/piemonte/monte_rosa', function () {
-            return Inertia::render('Montagna/Monte_Rosa');
-        })->middleware(['auth', 'verified'])->name('monte_rosa');
+        
 
         Route::get('/visite/piemonte/vercelli/parco_naturale_delle_lame_del_sesia', function () {
             return Inertia::render('Piemonte/Visite/Parco_Naturale_delle_Lame_del_Sesia');
@@ -1089,10 +1081,10 @@ Route::get('/home', function () {
 /*Fine Piemonte */
 
 
-/*Inizio Lombardia*/
-    Route::get('/lombardia', function () {
-        return Inertia::render('Lombardia');
-    })->middleware(['auth', 'verified'])->name('lombardia');
+/*Start Lombardy*/
+    Route::get('/lombardy', function () {
+        return Inertia::render('Lombardy');
+    })->middleware(['auth', 'verified'])->name('lombardy');
     /*Inzio Milano*/
         Route::get('/destinazioni/lombardia/milano', function () {
             return Inertia::render('Lombardia/Destinazioni/Milano');
@@ -1345,12 +1337,6 @@ Route::get('/home', function () {
         })->middleware(['auth', 'verified'])->name('portofino');
     /*Fine Portofino*/
 
-    /*Inizio Mar Ligure*/
-        Route::get('/mare/liguria/mar_ligure', function () {
-            return Inertia::render('Mare/Mar_Ligure');
-        })->middleware(['auth', 'verified'])->name('mar_ligure');
-    /*Fine Mar Ligure*/
-
     /*Inizio le Cinque Terre*/
         Route::get('/destinazioni/liguria/cinque_terre', function () {
             return Inertia::render('Liguria/Destinazioni/Cinque_Terre');
@@ -1426,10 +1412,10 @@ Route::get('/home', function () {
     /*Fine Sanremo*/
 /*Fine Liguria*/
 
-/*Inizio Trentino Alto Adige*/
-    Route::get('/trentino_alto_adige', function () {
-        return Inertia::render('Trentino_Alto_Adige');
-    })->middleware(['auth', 'verified'])->name('trentino_alto_adige');
+/*Start Trentino South Tyrol*/
+    Route::get('/trentino_south_tyrol', function () {
+        return Inertia::render('Trentino_south_tyrol');
+    })->middleware(['auth', 'verified'])->name('trentino_south_tyrol');
 
     Route::get('/destinazioni/trento', function () {
         return Inertia::render('Trentino_Alto_Adige/Destinazioni/Trento');
@@ -1475,17 +1461,11 @@ Route::get('/home', function () {
             return Inertia::render('Trentino_Alto_Adige/Visite/Fontana_di_Nettuno');
         })->middleware(['auth', 'verified'])->name('fontana_di_nettuno');
 
-        Route::get('/laghi/lago_di_garda', function () {
-            return Inertia::render('Laghi/Lago_di_Garda');
-        })->middleware(['auth', 'verified'])->name('lago_di_garda');
 
-        Route::get('/montagna/monte_bondone', function () {
-            return Inertia::render('Montagna/Monte_Bondone');
-        })->middleware(['auth', 'verified'])->name('monte_bondone');
 
-        Route::get('/fiumi/fiume_adige', function () {
-            return Inertia::render('Fiumi/Fiume_Adige');
-        })->middleware(['auth', 'verified'])->name('fiume_adige');
+        
+
+        
     /*Fine Trento*/
     /*Inizio Rovereto*/
         Route::get('/destinazioni/rovereto', function () {
@@ -1619,10 +1599,10 @@ Route::get('/home', function () {
     /*Fine Trieste*/
 /*Fine Friuli Venezia Giulia*/
 
-/*Inizio Toscana*/
-    Route::get('/toscana', function () {
-        return Inertia::render('Toscana');
-    })->middleware(['auth', 'verified'])->name('toscana');
+/*Start Toscany*/
+    Route::get('/toscany', function () {
+        return Inertia::render('Toscany');
+    })->middleware(['auth', 'verified'])->name('toscany');
 
     Route::get('/destinazioni/toscana/firenze', function () {
         return Inertia::render('Toscana/Destinazioni/Firenze');
@@ -1855,10 +1835,10 @@ Route::get('/home', function () {
     /*Fine Matara*/
 /*Fine Basilicata*/
 
-/*Inizio Puglia*/
-    Route::get('/puglia', function () {
-        return Inertia::render('Puglia');
-    })->middleware(['auth', 'verified'])->name('puglia');
+/*Start Apulia*/
+    Route::get('/apulia', function () {
+        return Inertia::render('Apulia');
+    })->middleware(['auth', 'verified'])->name('apulia');
 
     Route::get('/destinazioni/puglia/bari', function () {
         return Inertia::render('Puglia/Destinazioni/Bari');
@@ -1876,7 +1856,7 @@ Route::get('/home', function () {
             return Inertia::render('Puglia/Visite/Grotte_di_Castellana');
         })->middleware(['auth', 'verified'])->name('grotte_di_castellana');
     /*Fine Bari*/
-/*Fine Puglia*/
+/*End Apulia*/
 
 /*Inizio Calabria*/
     Route::get('/calabria', function () {
@@ -1908,10 +1888,10 @@ Route::get('/home', function () {
         })->middleware(['auth', 'verified'])->name('teatro_politeama');
 /*Inizio Calabria*/
 
-/*Inizio Sicilia*/
-    Route::get('/sicilia', function () {
-        return Inertia::render('Sicilia');
-    })->middleware(['auth', 'verified'])->name('sicilia');
+/*Start Sicily*/
+    Route::get('/sicily', function () {
+        return Inertia::render('Sicily');
+    })->middleware(['auth', 'verified'])->name('sicily');
 
     Route::get('/destinazioni/sicilia/palermo', function () {
         return Inertia::render('Sicilia/Destinazioni/Palermo');
@@ -1939,10 +1919,10 @@ Route::get('/home', function () {
     /*Fine Palermo*/
 /*Fine Sicilia*/
 
-/*Inizio Sardegna*/
-    Route::get('/sardegna', function () {
-        return Inertia::render('Sardegna');
-    })->middleware(['auth', 'verified'])->name('sardegna');
+/*Start Sardinia*/
+    Route::get('/sardinia', function () {
+        return Inertia::render('Sardinia');
+    })->middleware(['auth', 'verified'])->name('sardinia');
 
     Route::get('/destinazioni/sardegna/cagliari', function () {
         return Inertia::render('Sardegna/Destinazioni/Cagliari');
@@ -1977,7 +1957,57 @@ Route::get('/home', function () {
         })->middleware(['auth', 'verified'])->name('spiaggia_del_poetto ');
     /*Fine Cagliari*/
 /*Fine Sardegna*/
-    
+
+
+/*Start River*/
+
+    Route::get('/rivers/adige_river', function () {
+        return Inertia::render('Rivers/Adige_River');
+    })->middleware(['auth', 'verified'])->name('adige_river');
+
+/*Finish River*/
+
+/*Start Lakes*/
+
+    Route::get('/lakes/lake_garda', function () {
+        return Inertia::render('Lakes/Lake_Garda');
+    })->middleware(['auth', 'verified'])->name('lake_garda');
+
+/*Finish Lakes*/
+
+
+/*Start Seas*/
+
+    Route::get('/seas/liguria/ligurian_sea', function () {
+        return Inertia::render('Seas/Ligurian_Sea');
+    })->middleware(['auth', 'verified'])->name('ligurian_sea');
+
+    Route::get('/seas/adriatic_sea', function () {
+        return Inertia::render('Seas/Adriatic_Sea');
+    })->middleware(['auth', 'verified'])->name('adriatic_sea');
+
+/*Finish Seas*/
+
+
+/*Start Mountain*/
+
+    Route::get('/montain/valle_d_aosta/monte_bianco', function () {
+        return Inertia::render('Montain/Monte_Bianco');
+    })->middleware(['auth', 'verified'])->name('monte_bianco');
+
+    Route::get('/montain/valle_d_aosta/monte_rosa', function () {
+        return Inertia::render('Montain/Monte_Rosa');
+    })->middleware(['auth', 'verified'])->name('monte_rosa');
+
+    Route::get('/montain/valle_d_aosta/monte_cervino', function () {
+        return Inertia::render('Montain/Monte_Cervino');
+    })->middleware(['auth', 'verified'])->name('monte_cervino');
+
+    Route::get('/montain/monte_bondone', function () {
+        return Inertia::render('Montain/Monte_Bondone');
+    })->middleware(['auth', 'verified'])->name('monte_bondone');
+
+/*Finish Mountain*/
 
 
 
@@ -2004,6 +2034,13 @@ Route::get('/home', function () {
 
 
 
+Route::get('/lang/{locale}', function ($locale) {
+    if (in_array($locale, config('app.available_locales'))) {
+        session(['locale' => $locale]);
+        app()->setLocale($locale);
+    }
+    return redirect()->back();
+})->name('lang.switch');
 
 
 
