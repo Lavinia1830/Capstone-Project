@@ -27,322 +27,63 @@ Route::get('/', function () {
     ] */);
 });
 
+
 Route::get('/home', function () {
     return Inertia::render('Home');
 })->middleware(['auth', 'verified'])->name('home');
 
-/*Valle d'Aosta*/
+/*Start Valle d'Aosta*/
 
     Route::get('/aosta_valley', function () {
         return Inertia::render('Aosta_Valley');
     })->middleware(['auth', 'verified'])->name('aosta_valley');
 
-    /*Inizio Aosta*/
 
-        Route::get('/destinazioni/valle_d_aosta/aosta', function () {
-            return Inertia::render('Valle_d_Aosta/Destinazioni/Aosta');
+    /*Start Aosta*/
+
+        Route::get('/destinations/aosta_valley/aosta', function () {
+            return Inertia::render('Aosta_Valley/Destinations/Aosta');
         })->middleware(['auth', 'verified'])->name('aosta');
 
-        Route::get('/visite/valle_d_aosta/aosta/arco_di_augusto', function () {
-            return Inertia::render('Valle_d_Aosta/Visite/Arco_di_Augusto');
-        })->middleware(['auth', 'verified'])->name('arco_di_augusto');
+        Route::get('/views/aosta_valley/aosta/arch_of_augustus', function () {
+            return Inertia::render('Aosta_Valley/Views/Arch_of_Augustus');
+        })->middleware(['auth', 'verified'])->name('arch_of_augustus');
 
-        Route::get('/visite/valle_d_aosta/aosta/via_francigena', function () {
-            return Inertia::render('Valle_d_Aosta/Visite/Via_Francigena');
+        Route::get('/views/aosta_valley/aosta/via_francigena', function () {
+            return Inertia::render('Aosta_Valley/views/Via_Francigena');
         })->middleware(['auth', 'verified'])->name('via_francigena');
 
         Route::get('/visite/valle_d_aosta/parco_nazionale_del_gran_paradiso', function () {
             return Inertia::render('Valle_d_Aosta/Visite/Parco_Nazionale_del_Gran_Paradiso');
         })->middleware(['auth', 'verified'])->name('parco_nazionale_del_gran_paradiso');
-        
-        Route::get('/visite/valle_d_aosta/castelli_medievali', function () {
-            return Inertia::render('Valle_d_Aosta/Visite/Castelli_Medievali');
-        })->middleware(['auth', 'verified'])->name('castelli_medievali');
 
-        /*Inizio Castelli Medieviali*/
-
-            Route::get('/visite/valle_d_aosta/castelli_medievali/castel_savoia', function () {
-                return Inertia::render('Valle_d_Aosta/Visite/Castelli_Medievali/Castel_Savoia');
-            })->middleware(['auth', 'verified'])->name('castel_savoia');
-
-            Route::get('/visite/valle_d_aosta/castelli_medievali/castello_di_issogne', function () {
-                return Inertia::render('Valle_d_Aosta/Visite/Castelli_Medievali/Castello_di_Issogne');
-            })->middleware(['auth', 'verified'])->name('castello_di_issogne');
-
-            Route::get('/visite/valle_d_aosta/castelli_medievali/castello_di_verrès', function () {
-                return Inertia::render('Valle_d_Aosta/Visite/Castelli_Medievali/Castello_di_Verrès');
-            })->middleware(['auth', 'verified'])->name('castello_di_verrès');
-
-            Route::get('/visite/valle_d_aosta/castelli_medievali/castello_di_ussel', function () {
-                return Inertia::render('Valle_d_Aosta/Visite/Castelli_Medievali/Castello_di_Ussel');
-            })->middleware(['auth', 'verified'])->name('castello_di_ussel');
-
-            Route::get('/visite/valle_d_aosta/castelli_medievali/castello_di_cly', function () {
-                return Inertia::render('Valle_d_Aosta/Visite/Castelli_Medievali/Castello_di_Cly');
-            })->middleware(['auth', 'verified'])->name('castello_di_cly');
-
-            Route::get('/visite/valle_d_aosta/castelli_medievali/castello_di_fénis', function () {
-                return Inertia::render('Valle_d_Aosta/Visite/Castelli_Medievali/Castello_di_Fénis');
-            })->middleware(['auth', 'verified'])->name('castello_di_fénis');
-            
-            Route::get('/visite/valle_d_aosta/castelli_medievali/forte_di_bard', function () {
-                return Inertia::render('Valle_d_Aosta/Visite/Castelli_Medievali/Forte_di_Bard');
-            })->middleware(['auth', 'verified'])->name('forte_di_bard');
-
-            Route::get('/visite/valle_d_aosta/castelli_medievali/castello_reale_di_sarre', function () {
-                return Inertia::render('Valle_d_Aosta/Visite/Castelli_Medievali/Castello_Reale_di_Sarre');
-            })->middleware(['auth', 'verified'])->name('castello_reale_di_sarre');  
-            
-            Route::get('/visite/valle_d_aosta/castelli_medievali/castello_di_aymavilles', function () {
-                return Inertia::render('Valle_d_Aosta/Visite/Castelli_Medievali/Castello_di_Aymavilles');
-            })->middleware(['auth', 'verified'])->name('castello_di_aymavilles');
-
-            Route::get('/visite/valle_d_aosta/castelli_medievali/castello_sarriod_de_la_tour', function () {
-                return Inertia::render('Valle_d_Aosta/Visite/Castelli_Medievali/Castello_Sarriod_de_la_Tour');
-            })->middleware(['auth', 'verified'])->name('castello_sarriod_de_la_tour');
-
-        /*Fine Castelli Medieviali*/
-
-        Route::get('/visite/valle_d_aosta/aosta/torre_di_bramafam', function () {
-            return Inertia::render('Valle_d_Aosta/Visite/Torre_di_Bramafam');
-        })->middleware(['auth', 'verified'])->name('torre_di_bramafam');
-
-        Route::get('/visite/valle_d_aosta/aosta/chiesa_paleocristiana_di_san_lorenzo', function () {
-            return Inertia::render('Valle_d_Aosta/Visite/Chiesa_Paleocristiana_di_San_Lorenzo');
-        })->middleware(['auth', 'verified'])->name('chiesa_paleocristiana_di_san_lorenzo');
-
-        Route::get('/visite/valle_d_aosta/aosta/monumenti_romani_ad_aosta', function () {
-            return Inertia::render('Valle_d_Aosta/Visite/Monumenti_Romani_ad_Aosta');
-        })->middleware(['auth', 'verified'])->name('monumenti_romani_ad_aosta');
-
-        /*Inizio Monumenti Romani ad Aosta*/
-
-            Route::get('/visite/valle_d_aosta/aosta/ponte_romano', function () {
-                return Inertia::render('Valle_d_Aosta/Visite/Ponte_Romano');
-            })->middleware(['auth', 'verified'])->name('ponte_romano');
-
-            Route::get('/visite/valle_d_aosta/aosta/porta_praetoria', function () {
-                return Inertia::render('Valle_d_Aosta/Visite/Porta_Praetoria');
-            })->middleware(['auth', 'verified'])->name('porta_praetoria');
-
-            Route::get('/visite/valle_d_aosta/aosta/teatro_romano', function () {
-                return Inertia::render('Valle_d_Aosta/Visite/Teatro_Romano');
-            })->middleware(['auth', 'verified'])->name('teatro_romano');
-
-            Route::get('/visite/valle_d_aosta/aosta/criptoportico_forense', function () {
-                return Inertia::render('Valle_d_Aosta/Visite/Criptoportico_Forense');
-            })->middleware(['auth', 'verified'])->name('criptoportico_forense');
-
-            Route::get('/visite/valle_d_aosta/aosta/aosta_romana', function () {
-                return Inertia::render('Valle_d_Aosta/Visite/Aosta_Romana');
-            })->middleware(['auth', 'verified'])->name('aosta_romana');
-
-            Route::get('/visite/valle_d_aosta/aosta/museo_archeologico_regionale', function () {
-                return Inertia::render('Valle_d_Aosta/Visite/Museo_Archeologico_Regionale');
-            })->middleware(['auth', 'verified'])->name('museo_archeologico_regionale');
-
-        /*Fine Monumenti Romani ad Aosta*/
-
-        Route::get('/visite/valle_d_aosta/aosta/piazza_chanoux', function () {
-            return Inertia::render('Valle_d_Aosta/Visite/Piazza_Chanoux');
-        })->middleware(['auth', 'verified'])->name('piazza_chanoux');
-
-        Route::get('/visite/valle_d_aosta/aosta/cattedrale_di_aosta', function () {
-            return Inertia::render('Valle_d_Aosta/Visite/Cattedrale_di_Aosta');
-        })->middleware(['auth', 'verified'])->name('cattedrale_di_aosta');
-
-        Route::get('/eventi/valle_d_aosta/aosta/fiera_di_sant_orso', function () {
-            return Inertia::render('Valle_d_Aosta/Eventi/Fiera_di_Sant_Orso');
-        })->middleware(['auth', 'verified'])->name('fiera_di_sant_orso');
-
-    /*Fine Aosta*/
+    /*End Aosta*/
     
-    
+    /*Start Courmayeur*/  
 
-    /*Inizio Courmayeur*/  
-
-        Route::get('/destinazioni/valle_d_aosta/courmayeur', function () {
-            return Inertia::render('Valle_d_Aosta/Destinazioni/Courmayeur');
+        Route::get('/destinations/aosta_valley/courmayeur', function () {
+            return Inertia::render('Aosta_Valley/Destinations/Courmayeur');
         })->middleware(['auth', 'verified'])->name('courmayeur');
 
-        Route::get('/visite/valle_d_aosta/courmayeur/chiesa_dei_santi_pantaleone_e_valentino', function () {
-            return Inertia::render('Valle_d_Aosta/Visite/Chiesa_dei_Santi_Pantaleone_e_Valentino');
-        })->middleware(['auth', 'verified'])->name('chiesa_dei_santi_pantaleone_e_valentino');
-        
-        Route::get('/visite/valle_d_aosta/courmayeur/musei_duca_degli_abruzzi', function () {
-            return Inertia::render('Valle_d_Aosta/Visite/Museo_Duca_degli_Abruzzi');
-        })->middleware(['auth', 'verified'])->name('musei_duca_degli_abruzzi');
-
-        Route::get('/eventi/valle_d_aosta/courmayeur/festa_della_badoche', function () {
-            return Inertia::render('Valle_d_Aosta/Eventi/Festa_della_Badoche');
-        })->middleware(['auth', 'verified'])->name('festa_della_badoche');
-
-        Route::get('/montagna/valle_d_aosta/courmayeur_montagna', function () {
-            return Inertia::render('Montagna/Courmayeur_Montagna');
-        })->middleware(['auth', 'verified'])->name('courmayeur_montagna');
-
-        Route::get('/montagna/valle_d_aosta/val_ferret', function () {
-            return Inertia::render('Montagna/Val_Ferret');
-        })->middleware(['auth', 'verified'])->name('val_ferret');
-
-        Route::get('/montagna/valle_d_aosta/funivia_skyway_monte_bianco', function () {
-            return Inertia::render('Montagna/Funivia_Skyway_Monte_Bianco');
-        })->middleware(['auth', 'verified'])->name('funivia_skyway_monte_bianco');
-
-       
-
-    /*Fine Courmayeur*/
+    /*End Courmayeur*/
 
     Route::get('/destinazioni/valle_d_aosta/cervinia_valtournanche', function () {
         return Inertia::render('Valle_d_Aosta/Destinazioni/Cervinia_Valtournanche');
     })->middleware(['auth', 'verified'])->name('cervinia_valtournanche');
 
-    /*Inizio Cervinia Valtournanche*/
-
-        Route::get('/laghi/valle_d_aosta/lago_blu', function () {
-            return Inertia::render('Laghi/Lago_Blu');
-        })->middleware(['auth', 'verified'])->name('lago_blu');
-
-        Route::get('/visite/valle_d_aosta/cervinia_valtournanche/marmitte_dei_giganti', function () {
-            return Inertia::render('Valle_d_Aosta/Visite/Marmitte_dei_Giganti');
-        })->middleware(['auth', 'verified'])->name('marmitte_dei_giganti');
-
-        Route::get('/visite/valle_d_asota/cervinia_valtournanche/grotte_delle_busserailles', function () {
-            return Inertia::render('Valle_d_Aosta/Visite/Grotte_delle_Busserailles');
-        })->middleware(['auth', 'verified'])->name('grotte_delle_busserailles');
-    
-    /*Fine Cervinia Valtournanche*/
-
-    
-
     Route::get('/laghi/valle_d_aosta/lago_di_goillet', function () {
         return Inertia::render('Laghi/Lago_di_Goillet');
     })->middleware(['auth', 'verified'])->name('lago_di_goillet');
-
-    /*Enogastronomia Valle d'Aosta*/
-
-        Route::get('/enogastonomia/valle_d_aosta/specialità_tipiche_valdostane', function () {
-            return Inertia::render('Enogastronomia/Specialità_Tipiche_Valdostane');
-        })->middleware(['auth', 'verified'])->name('specialità_tipiche_valdostane');
-
-        Route::get('/enogastronomia/valle_d_aosta/prodotti_tipici_valdostani', function () {
-            return Inertia::render('Enogastronomia/Prodotti_Tipici_Valdostani');
-        })->middleware(['auth', 'verified'])->name('prodotti_tipici_valdostani');
-
-        Route::get('/enogastronomia/valle_d_aosta/grappa_valdostana', function () {
-            return Inertia::render('Enogastronomia/Grappa_Valdostana');
-        })->middleware(['auth', 'verified'])->name('grappa_valdostana');
-    
-    /*Fine Enogastronomia Valle d'Aosta*/
 
     Route::get('/destinazioni/valle_d_aosta/champoluc', function () {
         return Inertia::render('Valle_d_Aosta/Destinazioni/Champoluc');
     })->middleware(['auth', 'verified'])->name('champoluc');
 
-    /*Inizio Chamoluc*/
-
-        Route::get('/visite/valle_d_aosta/champoluc/la_chiesa_parocchiale_di_san_martino', function () {
-            return Inertia::render('Valle_d_Aosta/Visite/La_Chiesa_Parrocchiale_di_San_Martino');
-        })->middleware(['auth', 'verified'])->name('la_chiesa_parocchiale_di_san_martino');
-
-        Route::get('/visite/valle_d_aosta/champoluc/la_mostra_permanente_dell_artigianato_tipico', function () {
-            return Inertia::render('Valle_d_Aosta/Visite/La_mostra_permanente_dell_artigianato_tipico');
-        })->middleware(['auth', 'verified'])->name('la_mostra_permanente_dell_artigianato_tipico');
-
-        Route::get('/visite/valle_d_aosta/champoluc/il_santuario_di_notre_dame_du_bon_secours', function () {
-            return Inertia::render('Valle_d_Aosta/Visite/Il_Santuario_di_Notre_Dame_Du_Bon_Secours');
-        })->middleware(['auth', 'verified'])->name('il_santuario_di_notre_dame_du_bon_secours');
-
-        Route::get('/eventi/valle_d_aosta/champoluc/festa_delle_guide_alpine', function () {
-            return Inertia::render('Valle_d_Aosta/Eventi/Festa_delle_Guide_Alpine');
-        })->middleware(['auth', 'verified'])->name('festa_delle_guide_alpine');
-
-        Route::get('/eventi/valle_d_aosta/champoluc/fiaccolata_dei_maestri_di_scii', function () {
-            return Inertia::render('Valle_d_Aosta/Eventi/Fiaccolata_dei_Maestri_di_Scii');
-        })->middleware(['auth', 'verified'])->name('fiaccolata_dei_maestri_di_scii');
-    
-    /*Fine Chamoluc*/
-
     Route::get('/destinazioni/valle_d_aosta/valpelline', function () {
         return Inertia::render('Valle_d_Aosta/Destinazioni/Valpelline');
     })->middleware(['auth', 'verified'])->name('valpelline');
 
-    /*Inizio Valpelline*/
-
-        Route::get('/visite/valle_d_aosta/valpelline/maison_la_tour_de_valpelline', function () {
-            return Inertia::render('Valle_d_Aosta/Visite/Maison_la_tour_de_Valpelline');
-        })->middleware(['auth', 'verified'])->name('maison_la_tour_de_valpelline');
-
-        Route::get('/visite/valle_d_aosta/valpelline/la_tornalla', function () {
-            return Inertia::render('Valle_d_Aosta/Visite/La_Tornalla');
-        })->middleware(['auth', 'verified'])->name('la_tornalla');
-
-        Route::get('/visite/valle_d_aosta/valpelline/il_ponte_della_betenda', function () {
-            return Inertia::render('Valle_d_Aosta/Visite/Il_Ponte_della_Betenda');
-        })->middleware(['auth', 'verified'])->name('il_ponte_della_betenda');
-
-        Route::get('/visite/valle_d_aosta/valpelline/la_porta_del_bouyoz', function () {
-            return Inertia::render('Valle_d_Aosta/Visite/La_porta_del_Bouyoz');
-        })->middleware(['auth', 'verified'])->name('la_porta_del_bouyoz');
-
-        Route::get('/visite/valle_d_aosta/valpelline/il_faggio_monumentale_di_voisinal', function () {
-            return Inertia::render('Valle_d_Aosta/Visite/Il_Faggio_Monumentale_di_Voisinal');
-        })->middleware(['auth', 'verified'])->name('il_faggio_monumentale_di_voisinal');
-
-        Route::get('/visite/valle_d_aosta/valpelline/la_brenva_foula_di_gorzé', function () {
-            return Inertia::render('Valle_d_Aosta/Visite/La_Brenva_Foula_di_Gorzé');
-        })->middleware(['auth', 'verified'])->name('la_brenva_foula_di_gorzé');
-    /*Fine Valpelline*/
-
-    Route::get('/destinazioni/valle_d_aosta/cogne', function () {
-        return Inertia::render('Valle_d_Aosta/Destinazioni/Cogne');
-    })->middleware(['auth', 'verified'])->name('cogne');
-
-    /*Inizio Cogne*/
-
-        Route::get('/visite/valle_d_aosta/cogne/chiasa_di_sant_orso', function () {
-            return Inertia::render('Valle_d_Aosta/Visite/Chiesa_di_Sant_Orso');
-        })->middleware(['auth', 'verified'])->name('chiesa_di_sant_orso');
-
-        Route::get('/visite/valle_d_aosta/cogne/casa_dei_pizzi', function () {
-            return Inertia::render('Valle_d_Aosta/Visite/Casa_dei_Pizzi');
-        })->middleware(['auth', 'verified'])->name('casa_dei_pizzi');
-
-        Route::get('/visite/valle_d_aosta/cogne/torre_del_vescovo', function () {
-            return Inertia::render('Valle_d_Aosta/Visite/Torre_del_Vescovo');
-        })->middleware(['auth', 'verified'])->name('torre_del_vescovo');
-
-        Route::get('/visite/valle_d_aosta/cogne/la_grandze_place_commune', function () {
-            return Inertia::render('Valle_d_Aosta/Visite/La_Grandze_Place_Commune');
-        })->middleware(['auth', 'verified'])->name('la_grandze_place_commune');
-        
-        Route::get('/visite/valle_d_aosta/cogne/prato_di_sant_orso', function () {
-            return Inertia::render('Valle_d_Aosta/Visite/Prato_di_Sant_Orso');
-        })->middleware(['auth', 'verified'])->name('prato_di_sant_orso');
-        
-        Route::get('/visite/valle_d_aosta/cogne/fontana_di_ferro', function () {
-            return Inertia::render('Valle_d_Aosta/Visite/Fontana_di_Ferro');
-        })->middleware(['auth', 'verified'])->name('fontana_di_ferro');
-
-        Route::get('/visite/valle_d_aosta/cogne/casa_dell_orologio', function () {
-            return Inertia::render('Valle_d_Aosta/Visite/Casa_dell_Orologio');
-        })->middleware(['auth', 'verified'])->name('casa_dell_orologio');
-
-        Route::get('/visite/valle_d_aosta/cogne/maison_de_cogne_gerard_dayné', function () {
-            return Inertia::render('Valle_d_Aosta/Visite/Maison_de_Cogne_Gerard_Dayné');
-        })->middleware(['auth', 'verified'])->name('maison_de_cogne_gerard_dayné');
-
-        Route::get('/visite/valle_d_aosta/cogne/atelier_d_arts_et_métiers', function () {
-            return Inertia::render('Valle_d_Aosta/Visite/Atelier_d_Arts_et_Métiers');
-        })->middleware(['auth', 'verified'])->name('atelier_d_arts_et_métiers');
-
-        Route::get('/visite/valle_d_aosta/cogne/piazza_chanoux_cogne', function () {
-            return Inertia::render('Valle_d_Aosta/Visite/Piazza_Chanoux_Cogne');
-        })->middleware(['auth', 'verified'])->name('piazza_chanoux_cogne');
-    
-    /*Fine Cogne
-
-/*Fine Valle d'Aosta*/
+/*End Valle d'Aosta*/
     
 /*Start Piedmond */
     Route::get('/piedmond', function () {
@@ -2034,13 +1775,7 @@ Route::get('/home', function () {
 
 
 
-Route::get('/lang/{locale}', function ($locale) {
-    if (in_array($locale, config('app.available_locales'))) {
-        session(['locale' => $locale]);
-        app()->setLocale($locale);
-    }
-    return redirect()->back();
-})->name('lang.switch');
+
 
 
 

@@ -3,10 +3,10 @@ import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout';
 import Footer from '@/Components/Footer';
 import { Head } from '@inertiajs/react';
 
-export default function Arco_di_Augusto(props) {
+export default function Arch_of_Augustus(props) {
     return (
         <>
-            <Head title="Aosta Romana"/> 
+            <Head title={("arch of augustus")}/> 
             <AuthenticatedLayout
                 auth={props.auth}
                 errors={props.errors}

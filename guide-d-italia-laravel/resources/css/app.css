@@ -60,7 +60,7 @@ hr{
     transition: background-color 1s ease !important;
     transition: color 1s ease !important;
   }
-  .btn-registrati:hover, .btn-accedi:hover, .btn-card:hover{
+  .btn-register:hover, .btn-login:hover, .btn-card:hover{
     background-color: #77966d !important;
   }
 /*Fine Welcome*/
@@ -106,7 +106,7 @@ hr{
   .lista{
     list-style-type: disc;
   }
-  .categorie{
+  .categories{
     background-color: #fff;
     width: 200px;
     text-align: center;
@@ -130,51 +130,31 @@ hr{
   }
 /*Fine Footer*/
 
-/*Inizio Valle d'Aosta*/
-  .valle_d_aosta{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Valle_d_Aosta.jpg') center/cover no-repeat;
+/*Start Aosta Valley*/
+  .aosta_valley{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Aosta_Valley/Aosta_Valley.jpg') center/cover no-repeat;
     padding: 250px 0;
   }
-  .valle_d_aosta h1{
+  .aosta_valley h1{
     color: #fff;
     margin: 0 !important;
   }
-    .card_Valle_d_Aosta{
-      display: flex;
-    }
-    .card_Valle_d_Aosta:nth-child(1){ 
-      background: url('../assets/Valle_d_Aosta/Aosta_Valle_d_Aosta.jpg') center/cover no-repeat;
-      /* width: 30%; */
-      height: 400px;
-    }
-    .card_Valle_d_Aosta:nth-child(2){ 
-      background: url('../assets/Valle_d_Aosta/Courmayeur_Valle_d_Aosta.jpg') center/cover no-repeat;
-      /* width: 30%; */
-      height: 400px;
-    }
-    .card_Valle_d_Aosta:nth-child(3){ 
-      background: url('../assets/Valle_d_Aosta/Cervinia_valtournanche_Valle_d_Aosta.jpg') center/cover no-repeat;
-      /* width: 30%; */
-      height: 400px;
-    }
-    .card_Valle_d_Aosta:nth-child(4){ 
-      background: url('../assets/Valle_d_Aosta/Champoluc_Valle_d_Aosta.jpg') center/cover no-repeat;
-      /* width: 30%; */
-      height: 400px;
-    }
-    .card_Valle_d_Aosta:nth-child(5){ 
-      background: url('../assets/Valle_d_Aosta/Valpelline_Valle_d_Aosta.jpg') center/cover no-repeat;
-      /* width: 30%; */
-      height: 400px;
-    }
-    .card_Valle_d_Aosta:nth-child(6){ 
-      background: url('../assets/Valle_d_Aosta/Cogne_Valle_d_Aosta.jpg') center/cover no-repeat;
-      /* width: 30%; */
-      height: 400px;
-    }
+  .card_Aosta_Valley{
+    display: flex;
+  }
+  .card_Aosta_Valley:nth-child(1){ 
+    background: url('../assets/Aosta_Valley/Aosta_Valle_d_Aosta.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  .card_Aosta_Valley:nth-child(2){ 
+    background: url('../assets/Aosta_Valley/Courmayeur_Valle_d_Aosta.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
   /*Inizio Aosta*/
     .aosta{
-      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Aosta_Valle_d_Aosta.jpg') center/cover no-repeat;
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Aosta_Valley/Aosta_Aosta_Valley.jpg') center/cover no-repeat;
       padding: 250px 0;
     }
     .aosta h1{
@@ -185,62 +165,32 @@ hr{
       display: flex;
     }
     .card_Aosta:nth-child(1){ 
-      background: url('../assets/Valle_d_Aosta/Forte_di_bard_Aosta_Valle_d_Aosta.jpg') center/cover no-repeat;
+      background: url('../assets/Aosta_Valley/Bard_Ford_Aosta_Aosta_Valley.jpg') center/cover no-repeat;
       /* width: 30%; */
       height: 400px;
     }
     .card_Aosta:nth-child(2){ 
-      background: url('../assets/Valle_d_Aosta/Arco_di_augusto_Aosta_Valle_d_Aosta.jpg') center/cover no-repeat;
+      background: url('../assets/Aosta_Valley/Arch_of_Augustus_Aosta_Aosta_Valley.jpg') center/cover no-repeat;
       /* width: 30%; */
       height: 400px;
     }
     .card_Aosta:nth-child(3){ 
-      background: url('../assets/Valle_d_Aosta/Via_francigena_Aosta_Valle_d_Aosta.jpg') center/cover no-repeat;
+      background: url('../assets/Aosta_Valley/Via_francigena_Aosta_Aosta_Valley.jpg') center/cover no-repeat;
       /* width: 30%; */
       height: 400px;
     }
     .card_Aosta:nth-child(4){ 
-      background: url('../assets/Valle_d_Aosta/Parco_nazionale_del_gran_paradiso_Aosta_Valle_d_Aosta.jpg') center/cover no-repeat;
+      background: url('../assets/Aosta_Valley/Roman_monuments_in_Aosta_Aosta_Valley.jpg') center/cover no-repeat;
       /* width: 30%; */
       height: 400px;
     }
     .card_Aosta:nth-child(5){ 
-      background: url('../assets/Valle_d_Aosta/Torre_di_bramafam_Aosta_Valle_d_Aosta.jpg') center/cover no-repeat;
+      background: url('../assets/Aosta_Valley/Porta_Pretoria_Aosta_Aosta_Valley.jpg') center/cover no-repeat;
       /* width: 30%; */
       height: 400px;
     }
     .card_Aosta:nth-child(6){ 
-      background: url('../assets/Valle_d_Aosta/Chiesa_paleocristiana_di_san_lorenzo_Aosta_Valle_d_Aosta.jpg') center/cover no-repeat;
-      /* width: 30%; */
-      height: 400px;
-    }
-    .card_Aosta:nth-child(7){ 
-      background: url('../assets/Valle_d_Aosta/Monumenti_romani_ad_Aosta_Valle_d_Aosta.jpg') center/cover no-repeat;
-      /* width: 30%; */
-      height: 400px;
-    }
-    .card_Aosta:nth-child(8){ 
-      background: url('../assets/Valle_d_Aosta/Porta_praetoria_Aosta_Valle_d_Aosta.jpg') center/cover no-repeat;
-      /* width: 30%; */
-      height: 400px;
-    }
-    .card_Aosta:nth-child(9){ 
-      background: url('../assets/Valle_d_Aosta/Piazza_émile_chanoux_Aosta_Valle_d_Aosta.jpg') center/cover no-repeat;
-      /* width: 30%; */
-      height: 400px;
-    }
-    .card_Aosta:nth-child(10){ 
-      background: url('../assets/Valle_d_Aosta/Cattedrale_di_Aosta_Valle_d_Aosta.jpg') center/cover no-repeat;
-      /* width: 30%; */
-      height: 400px;
-    }
-    .card_Aosta:nth-child(11){ 
-      background: url('../assets/Valle_d_Aosta/Castello_di_aymavilles_Valle_d_Aosta.jpg') center/cover no-repeat;
-      /* width: 30%; */
-      height: 400px;
-    }
-    .card_Aosta:nth-child(12){ 
-      background: url('../assets/Valle_d_Aosta/Castello_reale_di_sarre_Valle_d_Aosta.jpg') center/cover no-repeat;
+      background: url('../assets/Aosta_Valley/Cathedral_of_Aosta_Aosta_Valley.jpg') center/cover no-repeat;
       /* width: 30%; */
       height: 400px;
     }

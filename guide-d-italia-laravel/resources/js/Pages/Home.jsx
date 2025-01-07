@@ -1,6 +1,6 @@
 import React from 'react';
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout';
-import ItalyMap from './ItalyMap';
+import ItalyMap from '../Components/ItalyMap';
 import Footer from '@/Components/Footer';
 import { Head } from '@inertiajs/react';
 

@@ -4,7 +4,9 @@ import { Link, Head } from '@inertiajs/react';
 import { useTranslation } from 'react-i18next';
 
 export default function Welcome() {
+
     const { t } = useTranslation();
+    
     return (
         <>
             <Head title={t("welcome")} />

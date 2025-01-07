@@ -6,15 +6,8 @@ const LanguageSwitcher = () => {
     const { i18n } = useTranslation();
 
     const changeLanguage = (locale) => {
-        // Cambia la lingua nel frontend usando i18next
-        i18n.changeLanguage(locale);
-
-        // Aggiorna la lingua nel backend (Laravel) passando la lingua tramite URL
-        Inertia.visit(window.location.pathname, {
-            method: 'get',
-            data: { lang: locale },
-            preserveState: true, // Preserva lo stato della pagina corrente
-        });
+        i18n.changeLanguage(locale); // Cambia la lingua con i18next
+        localStorage.setItem('language', locale); // Salva la lingua scelta
     };
 
     return (
