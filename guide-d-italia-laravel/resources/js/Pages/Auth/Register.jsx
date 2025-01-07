@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import React, { useEffect } from 'react';
 import GuestLayout from '@/Layouts/GuestLayout';
 import InputError from '@/Components/InputError';
 import InputLabel from '@/Components/InputLabel';
@@ -6,6 +6,7 @@ import PrimaryButton from '@/Components/PrimaryButton';
 import TextInput from '@/Components/TextInput';
 import { Head, Link, useForm } from '@inertiajs/react';
 import LanguageSwitcher from '@/Components/LanguageSwitcher';
+import { useTranslation } from 'react-i18next';
 
 export default function Register() {
     const { data, setData, post, processing, errors, reset } = useForm({
@@ -31,6 +32,8 @@ export default function Register() {
         post(route('register'));
     };
 
+    const { t } = useTranslation();
+
     return (
         <>
             <div className='position-absolute top-0 end-0 pe-2'>
@@ -41,7 +44,7 @@ export default function Register() {
                 
                 <form onSubmit={submit}>
                     <div>
-                        <InputLabel forInput="name" value="Name" className={'text-light'}/>
+                        <InputLabel forInput="name" value={t('name')} className={'text-light'}/>
 
                         <TextInput
                             id="name"
@@ -92,7 +95,7 @@ export default function Register() {
                     </div>
 
                     <div className="mt-4">
-                        <InputLabel forInput="password_confirmation" value="Confirm Password" className={'text-light'} />
+                        <InputLabel forInput="password_confirmation" value={t('confirm password')} className={'text-light'} />
 
                         <TextInput
                             id="password_confirmation"
@@ -113,11 +116,11 @@ export default function Register() {
                             href={route('login')}
                             className="underline text-light"
                         >
-                            Already registered?
+                            {t('already registered')}
                         </Link>
 
-                        <PrimaryButton className="ml-4" processing={processing}>
-                            Register
+                        <PrimaryButton className="ml-4 btn-register" processing={processing}>
+                            {t("register")}
                         </PrimaryButton>
                     </div>
                 </form>

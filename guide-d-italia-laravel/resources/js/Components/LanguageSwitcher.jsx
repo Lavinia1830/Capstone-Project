@@ -1,9 +1,13 @@
 import React from 'react';
 import { Inertia } from '@inertiajs/inertia';
+import { useTranslation } from 'react-i18next';
 
 const LanguageSwitcher = () => {
-    const changeLanguage = (lang) => {
-        router.post('/change-language', { locale: lang });
+    const { i18n } = useTranslation();
+
+    const changeLanguage = (locale) => {
+        i18n.changeLanguage(locale); // Cambia la lingua con i18next
+        localStorage.setItem('language', locale); // Salva la lingua scelta
     };
 
     return (

@@ -7,6 +7,7 @@ import PrimaryButton from '@/Components/PrimaryButton';
 import TextInput from '@/Components/TextInput';
 import { Head, Link, useForm } from '@inertiajs/react';
 import LanguageSwitcher from '@/Components/LanguageSwitcher';
+import { useTranslation } from 'react-i18next';
 
 export default function Login({ status, canResetPassword }) {
     const { data, setData, post, processing, errors, reset } = useForm({
@@ -30,6 +31,8 @@ export default function Login({ status, canResetPassword }) {
 
         post(route('login'));
     };
+
+    const { t } = useTranslation();
 
     return (
         <>
@@ -78,7 +81,7 @@ export default function Login({ status, canResetPassword }) {
                     <div className="block mt-4">
                         <label className="flex items-center">
                             <Checkbox name="remember" value={data.remember} handleChange={onHandleChange} />
-                            <span className="ml-2 text-sm text-light">Remember me</span>
+                            <span className="ml-2 text-sm text-light">{t('remember me')}</span>
                         </label>
                     </div>
 
@@ -88,12 +91,12 @@ export default function Login({ status, canResetPassword }) {
                                 href={route('password.request')}
                                 className="underline text-light"
                             >
-                                Forgot your password?
+                                {t("forgot your password")}
                             </Link>
                         )}
 
-                        <PrimaryButton className="ml-4" processing={processing}>
-                            Accedi
+                        <PrimaryButton className="ml-4 btn-login" processing={processing}>
+                            {t('login')}
                         </PrimaryButton>
                     </div>
                 </form>
