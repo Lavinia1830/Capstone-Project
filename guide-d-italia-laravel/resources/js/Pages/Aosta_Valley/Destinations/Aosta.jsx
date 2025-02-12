@@ -10,8 +10,8 @@ export default function Aosta(props) {
     const [isHoveredBardFord, setIsHoveredBardFord] = useState(false);
     const [isHoveredArchofAugustus, setIsHoveredArchofAugustus] = useState(false);
     const [isHoveredViaFrancigena, setIsHoveredViaFrancigena] = useState(false);
-    const [isHoveredRomanMonumentsAosta, setIsHoveredRomanMonumentsAosta] = useState(false);
-    const [isHoveredPortaPretoria, setIsHoveredPortaPretoria] = useState(false);
+    const [isHoveredRomanTheatreAosta, setIsHoveredRomanTheatreAosta] = useState(false);
+    const [isHoveredPortaPraetoria, setIsHoveredPortaPraetoria] = useState(false);
     const [isHoveredCathedralofAosta, setIsHoveredCathedralofAosta] = useState(false);
 
     const { t } = useTranslation();
@@ -89,20 +89,20 @@ export default function Aosta(props) {
                     </div>
                     <div className='row d-flex justify-content-center mx-0 mb-4'>
                         <Card className='col-sm-12 col-md-6 col-lg-4 px-0 card_Aosta'>
-                            <CardBody className='bottone'>
+                            <CardBody className='botton'>
                             <Link 
-                                className="bottone_link" 
-                                href='/views/aosta_valley/medieval_castels/bard_ford'
+                                className="botton_link" 
+                                href='/views/aosta_valley/bard/bard_fort'
                                 onMouseEnter={() => setIsHoveredBardFord(true)}
                                 onMouseLeave={() => setIsHoveredBardFord(false)}
-                                >{t("bard ford")} {isHoveredBardFord && <i className="bi bi-chevron-right"></i>}
+                                >{t("bard fort")} {isHoveredBardFord && <i className="bi bi-chevron-right"></i>}
                             </Link>
                             </CardBody>
                         </Card>
                         <Card className='col-sm-12 col-md-6 col-lg-4 px-0 card_Aosta'>
-                            <CardBody className='bottone'>
+                            <CardBody className='botton'>
                             <Link 
-                                className="bottone_link" 
+                                className="botton_link" 
                                 href='/views/aosta_valley/aosta/arch_of_augustus'
                                 onMouseEnter={() => setIsHoveredArchofAugustus(true)}
                                 onMouseLeave={() => setIsHoveredArchofAugustus(false)}
@@ -111,46 +111,46 @@ export default function Aosta(props) {
                             </CardBody>
                         </Card>
                         <Card className='col-sm-12 col-md-6 col-lg-4 px-0 card_Aosta'>
-                            <CardBody className='bottone'>
+                            <CardBody className='botton'>
                             <Link 
-                                className="bottone_link" 
+                                className="botton_link" 
                                 href='/views/aosta_valley/aosta/via_francigena'
                                 onMouseEnter={() => setIsHoveredViaFrancigena(true)}
                                 onMouseLeave={() => setIsHoveredViaFrancigena(false)}
-                                >Via Francigena {isHoveredViaFrancigena && <i className="bi bi-chevron-right"></i>}
+                                >{t("via francigena")} {isHoveredViaFrancigena && <i className="bi bi-chevron-right"></i>}
                             </Link>
                             </CardBody>
                         </Card>
                         <Card className='col-sm-12 col-md-6 col-lg-4 px-0 card_Aosta'>
-                            <CardBody className='bottone'>
+                            <CardBody className='botton'>
                             <Link 
-                                className="bottone_link" 
-                                href='/views/aosta_valley/aosta/roman_monuments_in_aosta'
-                                onMouseEnter={() => setIsHoveredRomanMonumentsAosta(true)}
-                                onMouseLeave={() => setIsHoveredRomanMonumentsAosta(false)}
-                                >{t("roman monuments in aosta")} {isHoveredRomanMonumentsAosta && <i className="bi bi-chevron-right"></i>}
+                                className="botton_link" 
+                                href='/views/aosta_valley/aosta/roman_theatre_aosta'
+                                onMouseEnter={() => setIsHoveredRomanTheatreAosta(true)}
+                                onMouseLeave={() => setIsHoveredRomanTheatreAosta(false)}
+                                >{t("roman theatre of aosta")} {isHoveredRomanTheatreAosta && <i className="bi bi-chevron-right"></i>}
                             </Link>
                             </CardBody>
                         </Card>
                         <Card className='col-sm-12 col-md-6 col-lg-4 px-0 card_Aosta'>
-                            <CardBody className='bottone'>
+                            <CardBody className='botton'>
                             <Link 
-                                className="bottone_link" 
-                                href='/views/aosta_valley/aosta/porta_praetoria'
-                                onMouseEnter={() => setIsHoveredPortaPretoria(true)}
-                                onMouseLeave={() => setIsHoveredPortaPretoria(false)}
-                                >Porta Pretoria {isHoveredPortaPretoria && <i className="bi bi-chevron-right"></i>}
+                                className="botton_link" 
+                                href='/views/aosta_valley/aosta/porta_prætoria'
+                                onMouseEnter={() => setIsHoveredPortaPraetoria(true)}
+                                onMouseLeave={() => setIsHoveredPortaPraetoria(false)}
+                                >{t("porta prætoria")} {isHoveredPortaPraetoria && <i className="bi bi-chevron-right"></i>}
                             </Link>
                             </CardBody>
                         </Card>
                         <Card className='col-sm-12 col-md-6 col-lg-4 px-0 card_Aosta'>
-                            <CardBody className='bottone'>
+                            <CardBody className='botton'>
                             <Link 
-                                className="bottone_link" 
+                                className="botton_link" 
                                 href='/views/aosta_valley/aosta/cathedral_of_aosta'
                                 onMouseEnter={() => setIsHoveredCathedralofAosta(true)}
                                 onMouseLeave={() => setIsHoveredCathedralofAosta(false)}
-                                >{t("cathedral of aosta")} {isHoveredCathedralofAosta && <i className="bi bi-chevron-right"></i>}
+                                >{t("aosta cathedral")} {isHoveredCathedralofAosta && <i className="bi bi-chevron-right"></i>}
                             </Link>
                             </CardBody>
                         </Card>

@@ -1,35 +1,42 @@
 import React from 'react';
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout';
 import Footer from '@/Components/Footer';
-import { Link, Head } from '@inertiajs/react';
+import { Head } from '@inertiajs/react';
 import { Trans, useTranslation} from 'react-i18next';
 
-export default function Via_Francigena(props) {
+export default function Castle_of_Fénis(props) {
 
     const { t } = useTranslation();
 
     return (
         <>
-            <Head title={t("via francigena")}/>
+            <Head title={t("castle of fénis")}/>
             <AuthenticatedLayout
                 auth={props.auth}
                 errors={props.errors}
             >
                 <main>
-                    <div className='via_francigena' style={{ position: 'relative' }}>
-                        <h1 style={{ position: 'absolute', top: 20, left: 20 }}>{t("via francigena")}</h1>
+                    <div className='castle_of_fénis' style={{ position: 'relative' }}>
+                        <h1 style={{ position: 'absolute', top: 20, left: 20 }}>{t("castle of fénis")}</h1>
                         <span className='text-light' style={{ position: 'absolute', bottom: 50, left: 20 }}>{t("categories")}</span>
                         <p className='categories' style={{ position: 'absolute', bottom: 10, left: 20 }}>{t("worth seeing")}</p>
                     </div>
                     <div className="margin mt-3">
+                        <h2 className="color-subtitle">{t("the history")}</h2>
                         <p>
-                            <Trans i18nKey="via francigena1" components={{ strong: <strong/>, b: <b/>, br: <br/>, Link: <Link/> }}/> 
+                            <Trans i18nKey="castle of fénis1" components={{ b: <b/>, strong: <strong/>, br: <br/> }}/>
+                        </p>
+                    </div>
+                    <div className="margin mt-3">
+                        <h2 className="color-subtitle">{t("the view")}</h2>
+                        <p>
+                            <Trans i18nKey="castle of fénis2" components={{ b: <b/>, strong: <strong/>, i: <i/> }} />
                         </p>
                     </div>
                     <div className='margin mb-4'>
                         <h3 className='color-subtitle text-center'>{t("map")}</h3>
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1390.6513965691295!2d7.760040712523971!3d45.60214981800362!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47889662f190480b%3A0x842b3bfcaae2e952!2sStrada%20romana%20delle%20Gallie!5e1!3m2!1sit!2sit!4v1713781881979!5m2!1sit!2sit"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d583.2905089520714!2d7.488523781160795!3d45.736942191962584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4788db6199d53303%3A0x803a22a271b801a1!2sCastello%20di%20F%C3%A9nis!5e1!3m2!1sit!2sit!4v1713797415225!5m2!1sit!2sit"
                             width="600"
                             height="450"
                             style={{ border: 0 }}

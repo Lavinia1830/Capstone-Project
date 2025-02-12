@@ -38,7 +38,6 @@ Route::get('/home', function () {
         return Inertia::render('Aosta_Valley');
     })->middleware(['auth', 'verified'])->name('aosta_valley');
 
-
     /*Start Aosta*/
 
         Route::get('/destinations/aosta_valley/aosta', function () {
@@ -49,16 +48,114 @@ Route::get('/home', function () {
             return Inertia::render('Aosta_Valley/Views/Arch_of_Augustus');
         })->middleware(['auth', 'verified'])->name('arch_of_augustus');
 
+        Route::get('/views/aosta_valley/aosta/porta_prætoria', function () {
+            return Inertia::render('Aosta_Valley/Views/Porta_Prætoria');
+        })->middleware(['auth', 'verified'])->name('porta_prætorias');
+
+        Route::get('/views/aosta_valley/aosta/place_émile_chanoux', function () {
+            return Inertia::render('Aosta_Valley/Views/Place_Émile_Chanoux');
+        })->middleware(['auth', 'verified'])->name('place_émile_chanoux');
+
+        Route::get('/views/aosta_valley/aosta/cathedral_of_aosta', function () {
+            return Inertia::render('Aosta_Valley/Views/Cathedral_of_Aosta');
+        })->middleware(['auth', 'verified'])->name('cathedral_of_aosta');
+
+        Route::get('/views/aosta_valley/aosta/forensic_cryptoporticus', function () {
+            return Inertia::render('Aosta_Valley/Views/Forensic_Cryptoporticus');
+        })->middleware(['auth', 'verified'])->name('forensic_cryptoporticus');
+
+        Route::get('/events/aosta_valley/aosta/fair_of_saint_bear', function () {
+            return Inertia::render('Aosta_Valley/Events/Fair_of_Saint_Bear');
+        })->middleware(['auth', 'verified'])->name('fair_of_saint_bear');
+
         Route::get('/views/aosta_valley/aosta/via_francigena', function () {
-            return Inertia::render('Aosta_Valley/views/Via_Francigena');
+            return Inertia::render('Aosta_Valley/Views/Via_Francigena');
         })->middleware(['auth', 'verified'])->name('via_francigena');
+
+        Route::get('/views/aosta_valley/aosta/roman_theatre_aosta', function () {
+            return Inertia::render('Aosta_Valley/Views/Roman_Theatre');
+        })->middleware(['auth', 'verified'])->name('roman_theatre_aosta');
 
         Route::get('/visite/valle_d_aosta/parco_nazionale_del_gran_paradiso', function () {
             return Inertia::render('Valle_d_Aosta/Visite/Parco_Nazionale_del_Gran_Paradiso');
         })->middleware(['auth', 'verified'])->name('parco_nazionale_del_gran_paradiso');
 
     /*End Aosta*/
+
+    /*Start Castles of the Aosta Valley*/
+
+        Route::get('/views/aosta_valley/medieval_castles_of_the_aosta_valley', function () {
+            return Inertia::render('Aosta_Valley/Views/Medieval_Castles');
+        })->middleware(['auth', 'verified'])->name('medieval_castles_of_the_aosta_valley');
+
+        Route::get('/views/aosta_valley/gressoney_saint_jean/savoy_castle', function () {
+            return Inertia::render('Aosta_Valley/Views/Medieval_Castles/Savoy_Castle');
+        })->middleware(['auth', 'verified'])->name('savoy_castle');
+
+        Route::get('/views/aosta_valley/la_place/castle_of_issogne', function () {
+            return Inertia::render('Aosta_Valley/Views/Medieval_Castles/Castle_of_Issogne');
+        })->middleware(['auth', 'verified'])->name('castle_of_issogne');
+
+        Route::get('/views/aosta_valley/verrès/castle_of_verrès', function () {
+            return Inertia::render('Aosta_Valley/Views/Medieval_Castles/Castle_of_Verrès');
+        })->middleware(['auth', 'verified'])->name('castle_of_verrès');
+
+        Route::get('/views/aosta_valley/ussel/castle_of_ussel', function () {
+            return Inertia::render('Aosta_Valley/Views/Medieval_Castles/Castle_of_Ussel');
+        })->middleware(['auth', 'verified'])->name('castle_of_ussel');
+
+        Route::get('/views/aosta_valley/saint-denis/castle_of_cly', function () {
+            return Inertia::render('Aosta_Valley/Views/Medieval_Castles/Castle_of_Cly');
+        })->middleware(['auth', 'verified'])->name('castle_of_cly');
+
+        Route::get('/views/aosta_valley/fénis/castle_of_fénis', function () {
+            return Inertia::render('Aosta_Valley/Views/Medieval_Castles/Castle_of_Fénis');
+        })->middleware(['auth', 'verified'])->name('castle_of_fénis');
+
+        Route::get('/views/aosta_valley/bard/bard_fort', function () {
+            return Inertia::render('Aosta_Valley/Views/Medieval_Castles/Bard_Fort');
+        })->middleware(['auth', 'verified'])->name('bard_fort');
+
+        /*Start Bard Fort*/
+
+            Route::get('/view/aosta_valley/bard/bard_fort/the_alps_museum', function() {
+                return Inertia::render('Aosta_Valley/Views/Medieval_Castles/Bard_Fort/The_Alps_Museum');
+            })->middleware(['auth', 'verified'])->name('the_alps_museum');
+
+            Route::get('/view/aosta_valley/bard/bard_fort/the_alps_of_the_boys', function() {
+                return Inertia::render('Aosta_Valley/Views/Medieval_Castles/Bard_Fort/The_Alps_of_the_boys');
+            })->middleware(['auth', 'verified'])->name('the_alps_of_the_boys');
+
+            Route::get('/view/aosta_valley/bard/bard_fort/the_prisons', function() {
+                return Inertia::render('Aosta_Valley/Views/Medieval_Castles/Bard_Fort/The_Prisons');
+            })->middleware(['auth', 'verified'])->name('the_prisons');
+
+            Route::get('/view/aosta_valley/bard/bard_fort/museum_of_fortifications_and_frontiers', function() {
+                return Inertia::render('Aosta_Valley/Views/Medieval_Castles/Bard_Fort/Museum_of_Fortifications_and_Frontiers');
+            })->middleware(['auth', 'verified'])->name('museum_of_fortifications_and_frontiers');
+
+        /*End Bard Fort*/
     
+    /*End Castles of the Aosta Valley*/
+
+    /*Start Gran Paradiso National Park*/
+
+        Route::get('/mountain/aosta_valley/gran_paradiso_national_park', function () {
+            return Inertia::render('Mountain/Gran_Paradiso_National_Park');
+        })->middleware(['auth', 'verified'])->name('gran_paradiso_national_park');
+
+    /*End Gran Paradiso National Park*/
+
+    /*Start Matterhorn*/
+
+        Route::get('/mountain/aosta_valley/matterhorn', function () {
+            return Inertia::render('Mountain/Gran_Paradiso_National_Park');
+        })->middleware(['auth', 'verified'])->name('matterhorn');
+
+        
+
+    /*End Matterhorn*/
+
     /*Start Courmayeur*/  
 
         Route::get('/destinations/aosta_valley/courmayeur', function () {
