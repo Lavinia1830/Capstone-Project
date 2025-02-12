@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout';
 import { Head, Link } from '@inertiajs/react';
-import {Card, Button} from 'react-bootstrap';
+import {Card} from 'react-bootstrap';
 import Footer from '@/Components/Footer';
 import { Trans, useTranslation} from 'react-i18next';
 
@@ -10,6 +10,7 @@ import { Trans, useTranslation} from 'react-i18next';
 
     const [isHoveredAosta, setIsHoveredAosta] = useState(false);
     const [isHoveredCourmayeur, setIsHoveredCourmayeur] = useState(false);
+    const [isHoveredMedievalCastlesoftheAostaValley, setIsHoveredMedievalCastlesoftheAostaValley] = useState(false);
 
     const { t } = useTranslation();
 
@@ -85,9 +86,9 @@ import { Trans, useTranslation} from 'react-i18next';
                     </div>
                     <div className='row d-flex justify-content-center mx-0 mb-4'>
                         <Card className='col-sm-12 col-md-6 col-lg-4 px-0 card_Aosta_Valley'>
-                            <Card.Body className='bottone'>
+                            <Card.Body className='botton'>
                                 <Link 
-                                    className="bottone_link" 
+                                    className="botton_link" 
                                     href='/destinations/aosta_valley/aosta'
                                     onMouseEnter={() => setIsHoveredAosta(true)}
                                     onMouseLeave={() => setIsHoveredAosta(false)}
@@ -96,13 +97,24 @@ import { Trans, useTranslation} from 'react-i18next';
                             </Card.Body>
                         </Card>
                         <Card className='col-sm-12 col-md-6 col-lg-4 px-0 card_Aosta_Valley'>
-                            <Card.Body className='bottone'>
+                            <Card.Body className='botton'>
                                 <Link 
-                                    className="bottone_link" 
-                                    href='/destinazioni/valle_d_aosta/courmayeur'
+                                    className="botton_link" 
+                                    href='/destinations/aosta_valley/courmayeur'
                                     onMouseEnter={() => setIsHoveredCourmayeur(true)}
                                     onMouseLeave={() => setIsHoveredCourmayeur(false)}
                                     >{t("courmayeur")} {isHoveredCourmayeur && <i className="bi bi-chevron-right"></i>}
+                                </Link>
+                            </Card.Body>
+                        </Card>
+                        <Card className='col-sm-12 col-md-6 col-lg-4 px-0 card_Aosta_Valley'>
+                            <Card.Body className='botton'>
+                                <Link 
+                                    className="botton_link" 
+                                    href='/views/aosta_valley/medieval_castles_of_the_aosta_valley'
+                                    onMouseEnter={() => setIsHoveredMedievalCastlesoftheAostaValley(true)}
+                                    onMouseLeave={() => setIsHoveredMedievalCastlesoftheAostaValley(false)}
+                                    >{t("medieval castles of the aosta valley")} {isHoveredMedievalCastlesoftheAostaValley && <i className="bi bi-chevron-right"></i>}
                                 </Link>
                             </Card.Body>
                         </Card>

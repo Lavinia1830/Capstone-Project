@@ -9,7 +9,7 @@
 html, body {
   margin: 0;
   padding: 0;
-  overflow-x: hidden; /* Impedisce lo scroll laterale */
+  overflow-x: hidden; /* Prevents side-scrolling */
 }
 
 .logo{
@@ -21,7 +21,7 @@ hr{
 }
 
 
-/*Inizio Welcome*/
+/*Start Welcome*/
   .login-page, .bg-login {
     display: flex;
     justify-content: center;
@@ -63,9 +63,9 @@ hr{
   .btn-register:hover, .btn-login:hover, .btn-card:hover{
     background-color: #77966d !important;
   }
-/*Fine Welcome*/
+/*End Welcome*/
 
-/*Inizio in comune*/
+/*Start collective*/
   .color_link{
       color: #BDC667;
   }
@@ -79,7 +79,7 @@ hr{
   .color-subtitle{
     color: #544343 !important;
   }
-  .bottone{
+  .botton{
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     padding-top: 20px !important;
@@ -91,7 +91,7 @@ hr{
     position: absolute;
     bottom: 0;
   }
-  .bottone_link{
+  .botton_link{
     font-size: 1em;
     color: #fff;
     text-decoration: none;
@@ -100,10 +100,10 @@ hr{
     padding: 0.3em 1em;
     border-radius: 3px;
   }
-  .bottone_link:hover{
+  .botton_link:hover{
     color: #fff !important;
   }
-  .lista{
+  .list{
     list-style-type: disc;
   }
   .categories{
@@ -112,9 +112,9 @@ hr{
     text-align: center;
     border-radius: 5px;
   }
-/*Fine in comune*/
+/*End collective*/
 
-/*Inizio AuthenticatedLayout*/
+/*Start AuthenticatedLayout*/
   .bg-navbar{
     background-color: #25612C;
     border-bottom: 0;
@@ -122,13 +122,13 @@ hr{
   .link{
     text-decoration: none !important;
   }
-/*Fine AuthenticatedLayout*/
+/*End AuthenticatedLayout*/
 
-/*Inizio Footer*/
+/*Strat Footer*/
   .bg-footer{
     background-color: #25612C;
   }
-/*Fine Footer*/
+/*End Footer*/
 
 /*Start Aosta Valley*/
   .aosta_valley{
@@ -143,7 +143,7 @@ hr{
     display: flex;
   }
   .card_Aosta_Valley:nth-child(1){ 
-    background: url('../assets/Aosta_Valley/Aosta_Valle_d_Aosta.jpg') center/cover no-repeat;
+    background: url('../assets/Aosta_Valley/Aosta_Aosta_Valley.jpg') center/cover no-repeat;
     /* width: 30%; */
     height: 400px;
   }
@@ -152,7 +152,12 @@ hr{
     /* width: 30%; */
     height: 400px;
   }
-  /*Inizio Aosta*/
+  .card_Aosta_Valley:nth-child(3){ 
+    background: url('../assets/Aosta_Valley/Medieval_Castles_Aosta_Valley.jpg') center/cover no-repeat;
+    /* width: 30%; */
+    height: 400px;
+  }
+  /*Start Aosta*/
     .aosta{
       background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Aosta_Valley/Aosta_Aosta_Valley.jpg') center/cover no-repeat;
       padding: 250px 0;
@@ -165,7 +170,7 @@ hr{
       display: flex;
     }
     .card_Aosta:nth-child(1){ 
-      background: url('../assets/Aosta_Valley/Bard_Ford_Aosta_Aosta_Valley.jpg') center/cover no-repeat;
+      background: url('../assets/Aosta_Valley/Bard_Fort_Aosta_Valley.jpg') center/cover no-repeat;
       /* width: 30%; */
       height: 400px;
     }
@@ -180,12 +185,12 @@ hr{
       height: 400px;
     }
     .card_Aosta:nth-child(4){ 
-      background: url('../assets/Aosta_Valley/Roman_monuments_in_Aosta_Aosta_Valley.jpg') center/cover no-repeat;
+      background: url('../assets/Aosta_Valley/Roman_Theatre_Aosta_Aosta_Valley.jpg') center/cover no-repeat;
       /* width: 30%; */
       height: 400px;
     }
     .card_Aosta:nth-child(5){ 
-      background: url('../assets/Aosta_Valley/Porta_Pretoria_Aosta_Aosta_Valley.jpg') center/cover no-repeat;
+      background: url('../assets/Aosta_Valley/Porta_Prætoria_Aosta_Aosta_Valley.jpg') center/cover no-repeat;
       /* width: 30%; */
       height: 400px;
     }
@@ -194,199 +199,328 @@ hr{
       /* width: 30%; */
       height: 400px;
     }
-    /*Inizio Forte di Bard*/
-      .forte_di_bard{
-        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Forte_di_bard_Aosta_Valle_d_Aosta.jpg') center/cover no-repeat;
-        padding: 250px 0;  
-      }
-      .forte_di_bard h1{
-        color: #fff;
-        margin: 0 !important;
-      }
-    /*Fine Forte di Bard*/
-    /*Inizio Arco di Augusto*/
-      .arco_di_augusto{
-        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Arco_di_augusto_Aosta_Valle_d_Aosta.jpg') center/cover no-repeat;
+    /*Start Arch of Augustus*/
+      .arch_of_augustus{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Aosta_Valley/Arch_of_Augustus_Aosta_Aosta_Valley.jpg') center/cover no-repeat;
         padding: 250px 0;
       }
-      .arco_di_augusto h1{
+      .arch_of_augustus h1{
         color: #fff;
         margin: 0 !important;
       }
-    /*Fine Arco di Augusto*/
-    /*Inizio Via Francigena*/
+    /*End Arch of Augustus*/
+    /*Start Porta Prætoria*/
+      .porta_prætoria{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Aosta_Valley/Porta_Prætoria_Aosta_Aosta_Valley.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .porta_prætoria h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*End Porta Prætoria*/
+    /*Start Place Chanoux*/
+      .place_émile_chanoux{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Aosta_Valley/Place_Émile_Chanoux_Aosta_Aosta_Valley.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .place_émile_chanoux h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*End Place Chanoux*/
+    /*Start Cathedral of Aosta*/
+      .cathedral_of_aosta{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Aosta_Valley/Cathedral_of_Aosta_Aosta_Valley.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .cathedral_of_aosta h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*End Cathedral of Aosta*/
+    /*Start Forensic Cryptoporticus*/
+      .forensic_cryptoporticus{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Aosta_Valley/Forensic_Cryptoporticus_Aosta_Aosta_Valley.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .forensic_cryptoporticus h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*End Forensic Cryptoporticus*/
+    /*Start Events in Aosta Valley*/
+      /*Start Aosta Events*/
+        /*Start Fair of Sant Bear*/
+          .fair_of_saint_bear{
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Aosta_Valley/Sant_Orso_Fair_Aosta_Aosta_Valley.jpg') center/cover no-repeat;
+            padding: 250px 0;
+          }
+          .fair_of_saint_bear h1{
+            color: #fff;
+            margin: 0 !important;
+          }
+        /*End Fair of Sant Bear*/
+      /*End Aosta Events*/
+    /*End Events in Aosta Valley*/
+    /*Start Via Francigena*/
       .via_francigena{
-        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Via_francigena_Aosta_Valle_d_Aosta.jpg') center/cover no-repeat;
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Aosta_Valley/Via_francigena_Aosta_Aosta_Valley.jpg') center/cover no-repeat;
         padding: 250px 0;
       }
       .via_francigena h1{
         color: #fff;
         margin: 0 !important;
       }
-    /*Fine Via Francigena*/
-    /*Inizio Parco Nazionale del Gran Paradiso*/
-      .parco_nazionale_del_gran_paradiso{
-        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Parco_nazionale_del_gran_paradiso_Aosta_Valle_d_Aosta.jpg') center/cover no-repeat;
+    /*End Via Francigena*/
+    /*Start Roman Theatre*/
+      .roman_theatre_aosta{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Aosta_Valley/Roman_Theatre_Aosta_Aosta_Valley.jpg') center/cover no-repeat;
         padding: 250px 0;
       }
-      .parco_nazionale_del_gran_paradiso h1{
+      .roman_theatre_aosta h1{
         color: #fff;
         margin: 0 !important;
       }
-    /*Fine Parco Nazionale del Gran Paradiso*/
-    /*Inizio Castelli Medievali*/
-      .castelli_medievali{
-        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Castello_di_fenis_shutterstock_Aosta_Valle_d_Aosta.jpg') center/cover no-repeat;
+    /*End Roman Theatre*/
+    /*Start Medieval Castles*/
+      .medieval_castles{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Aosta_Valley/Medieval_Castles_Aosta_Valley.jpg') center/cover no-repeat;
         padding: 250px 0;
       }
-      .castelli_medievali h1{
+      .medieval_castles h1{
         color: #fff;
         margin: 0 !important;
       }
-      .card_Castelli_Medievali{
-        display: flex;
-      }
-      .card_Castel_Savoia:nth-child(1){
-        background: url('../assets/Valle_d_Aosta/Castel_savoia_Valle_d_Aosta.jpg') center/cover no-repeat;
-        /* width: 30%; */
-        height: 400px;
-      }
-      .card_Castello_di_Issogne:nth-child(1){
-        background: url('../assets/Valle_d_Aosta/Castello_di_issogne_Valle_d_Aosta.jpg') center/cover no-repeat;
-        /* width: 100%; */
-        height: 400px;
-      }
-      .card_Castello_di_Verrès:nth-child(1){
-        background: url('../assets/Valle_d_Aosta/Castello_di_verrès_Valle_d_Aosta.jpg') center/cover no-repeat;
-        /* width: 30%; */
-        height: 400px;
-      }
-      .card_Castello_di_Ussel:nth-child(1){
-        background: url('../assets/Valle_d_Aosta/Castello_di_ussel_Valle_d_Aosta.jpg') center/cover no-repeat;
-        /* width: 30%; */
-        height: 400px;
-      }
-      .card_Castello_di_Cly:nth-child(1){
-        background: url('../assets/Valle_d_Aosta/Castello_di_cly_Valle_d_Aosta.jpg') center/cover no-repeat;
-        /* width: 30%; */
-        height: 400px;
-      }
-      .card_Castello_di_Fénis:nth-child(1){
-        background: url('../assets/Valle_d_Aosta/Castello_di_fénis_Valle_d_Aosta.jpg') center/cover no-repeat;
-        /* width: 30%; */
-        height: 400px;
-      }
-      .card_Forte_di_Bard:nth-child(1){
-        background: url('../assets/Valle_d_Aosta/Forte_di_bard_Aosta_Valle_d_Aosta.jpg') center/cover no-repeat;
-        /* width: 30%; */
-        height: 400px;
-      }
-      .card_Castello_Reale_di_Sarre:nth-child(1){
-        background: url('../assets/Valle_d_Aosta/Castello_reale_di_sarre_Valle_d_Aosta.jpg') center/cover no-repeat;
-        /* width: 30%; */
-        height: 400px;
-      }
-      .card_Castello_di_Aymavilles:nth-child(1){
-        background: url('../assets/Valle_d_Aosta/Castello_di_aymavilles_Valle_d_Aosta.jpg') center/cover no-repeat;
-        /* width: 30%; */
-        height: 400px;
-      }
-      .card_Castello_Sarriod_de_la_Tour:nth-child(1){
-        background: url('../assets/Valle_d_Aosta/Castello_sarriod_de_la_tour_Valle_d_Aosta.jpg') center/cover no-repeat;
-        /* width: 30%; */
-        height: 400px;
-      }
-      /*Inizio Castel Savoia*/
-        .castel_savoia{
-          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Castel_savoia_Valle_d_Aosta.jpg') center/cover no-repeat;
-          padding: 250px 0;
+      /*Start Card Savoy Castle*/
+        .card_Savoy_Castle{
+          display: flex;
         }
-        .castel_savoia h1{
+        .card_Savoy_Castle:nth-child(1){
+          background: url('../assets/Aosta_Valley/Savoy_Castle_Aosta_Valley.jpg') center/cover no-repeat;
+          /* width: 30%; */
+          height: 300px;
+        }
+      /*End Card Savoy Castle*/
+      /*Start Card Castle of Issogne*/
+        .card_Castle_of_Issogne{
+          display: flex;
+        }
+        .card_Castle_of_Issogne:nth-child(1){
+          background: url('../assets/Aosta_Valley/Castle_of_Issogne_Aosta_Valley.jpg') center/cover no-repeat;
+          /* width: 30%; */
+          height: 300px;
+        }
+      /*End Card Castle of Issogne*/
+      /*Start Card Castle of Verrès*/
+        .card_Castle_of_Verrès{
+          display: flex;
+        }
+        .card_Castle_of_Verrès:nth-child(1){
+          background: url('../assets/Aosta_Valley/Castle_of_Verrès_Aosta_Valley.jpg') center/cover no-repeat;
+          /* width: 30%; */
+          height: 300px;
+        }
+      /*End Card Castle of Verrès*/
+      /*Start Card Castle of Ussel*/
+        .card_Castle_of_Ussel{
+          display: flex;
+        }
+        .card_Castle_of_Ussel:nth-child(1){
+          background: url('../assets/Aosta_Valley/Castle_of_Ussel_Aosta_Valley.jpg') center/cover no-repeat;
+          /* width: 30%; */
+          height: 300px;
+        }
+      /*End Card Castle of Ussel*/
+      /*Start Card Castle of Cly*/
+        .card_Castle_of_Cly{
+          display: flex;
+        }
+        .card_Castle_of_Cly:nth-child(1){
+          background: url('../assets/Aosta_Valley/Castle_of_Cly_Aosta_Valley.jpg') center/cover no-repeat;
+          /* width: 30%; */
+          height: 300px;
+        }
+      /*End Card Castle of Cly*/
+      /*Start Card Castle of Fénis*/
+        .card_Castle_of_Fénis{
+          display: flex;
+        }
+        .card_Castle_of_Fénis:nth-child(1){
+          background: url('../assets/Aosta_Valley/Castle_of_Fénis_Aosta_Valley.jpg') center/cover no-repeat;
+          /* width: 30%; */
+          height: 300px;
+        }
+      /*End Card Castle of Fénis*/
+      /*Start Card Bard Fort*/
+        .card_Bard_Fort{
+          display: flex;
+        }
+        .card_Bard_Fort:nth-child(1){
+          background: url('../assets/Aosta_Valley/Bard_Fort_Aosta_Valley.jpg') center/cover no-repeat;
+          /* width: 30%; */
+          height: 300px;
+        }
+      /*End Card Bard Fort*/
+      /*Start Card Royal Castle of Sarre*/
+        .card_Royal_Castle_of_Sarre{
+          display: flex;
+        }
+        .card_Royal_Castle_of_Sarre:nth-child(1){
+          background: url('../assets/Aosta_Valley/Royal_Castle_of_Sarre_Aosta_Valley.jpg') center/cover no-repeat;
+          /* width: 30%; */
+          height: 300px;
+        }
+      /*End Card Royal Castle of Sarre*/
+      /*Start Card Castles of Aymavilles*/
+        .card_Castle_of_Aymavilles{
+          display: flex;
+        }
+        .card_Castle_of_Aymavilles:nth-child(1){
+          background: url('../assets/Aosta_Valley/Castle_of_Aymavilles_Aosta_Valley.jpg') center/cover no-repeat;
+          /* width: 30%; */
+          height: 300px;
+        }
+      /*End Card Castles of Aymavilles*/
+      /*Start Card Castle of Sarriod de la Tour*/
+        .card_Castle_of_Sarriod_de_la_Tour{
+          display: flex;
+        }
+        .card_Castle_of_Sarriod_de_la_Tour:nth-child(1){
+          background: url('../assets/Aosta_Valley/Castle_Sarrios_de_la_Toru_Aosta_Valley.jpg') center/cover no-repeat;
+          /* width: 30%; */
+          height: 300px;
+        }
+      /*End Card Castle of Sarriod de la Tour*/
+    /*End Medieval Castles*/
+    /*Start Gran Paradiso National Park*/
+      .gran_paradiso_national_park{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Aosta_Valley/Gran_Paradizo_National_Park_Aosta_Valley.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .gran_paradiso_national_park h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*End Gran Paradiso National Park*/
+    /*Start Savoy Castle*/
+      .savoy_castle{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Aosta_Valley/Savoy_Castle_Aosta_Valley.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .savoy_castle h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*End Savoy Castle*/
+    /*Start Castle of Issogne*/
+      .castle_of_issogne{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Aosta_Valley/Castle_of_Issogne_Aosta_Valley.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .castle_of_issogne h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*End Castle of Issogne*/
+    /*Start Castle of Verrès*/
+      .castle_of_verrès{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Aosta_Valley/Castle_of_Verrès_Aosta_Valley.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .castle_of_verrès h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*End Castle of Verrès*/
+    /*Start Castle of Ussel*/
+      .castle_of_ussel{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Aosta_Valley/Castle_of_Ussel_Aosta_Valley.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .castle_of_ussel h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*End Castle of Ussel*/
+    /*Start Castle of Cly*/
+      .castle_of_cly{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Aosta_Valley/Castle_of_Cly_Aosta_Valley.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .castle_of_cly h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*End Castle of Cly*/
+    /*Start Castle of Fénis*/
+      .castle_of_fénis{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Aosta_Valley/Castle_of_Fénis_Aosta_Valley.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .castle_of_fénis h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*End Castle of Fénis*/
+    /*Start Bard Fort*/
+      .bard_fort{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Aosta_Valley/Bard_Fort_Aosta_Valley.jpg') center/cover no-repeat;
+        padding: 250px 0;  
+      }
+      .bard_fort h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+      /*Start The Alps Museum*/
+        .the_alps_museum{
+          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Aosta_Valley/The_alps_museum_Bard_Aosta_Valley.jpg') center/cover no-repeat;
+          padding: 250px 0; 
+        }
+        .the_alps_museum h1{
           color: #fff;
           margin: 0 !important;
         }
-      /*Fine Castel Savoia*/
-      /*Inizio Castello di Issogne*/
-        .castello_di_issogne{
-          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Castello_di_issogne_Valle_d_Aosta.jpg') center/cover no-repeat;
+      /*End The Alps Museum*/
+      /*Start The Alps of the boys*/
+        .the_alps_of_the_boys{
+          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets//Aosta_Valley/The_alps_of_the_boys_Bard_Aosta_Valley.jpg') center/cover no-repeat;
           padding: 250px 0;
         }
-        .castello_di_issogne h1{
+        .the_alps_of_the_boys h1{
           color: #fff;
           margin: 0 !important;
         }
-      /*Fine Castello di Issogne*/
-      /*Inizio Castello di Verrés*/
-        .castello_di_verres{
-          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Castello_di_verrès_Valle_d_Aosta.jpg') center/cover no-repeat;
+      /*End The Alps of the boys*/
+      /*Start The Prisons*/
+        .the_prisons{
+          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets//Aosta_Valley/The_Prison_Bard_Fort_Aosta_Valley.jpg') center/cover no-repeat;
           padding: 250px 0;
         }
-        .castello_di_verres h1{
+        .the_prisons h1{
           color: #fff;
           margin: 0 !important;
         }
-      /*Fine Castello di Verrés*/
-      /*Inizio Castello di Ussel*/
-        .castello_di_ussel{
-          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Castello_di_ussel_Valle_d_Aosta.jpg') center/cover no-repeat;
+      /*End The Prison*/
+      /*Start Museum of Fortifications and Frontiers*/
+        .museum_of_fortifications_and_frontiers{
+          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets//Aosta_Valley/Museum_of_Fortifications_and_Frontiers_Fort_Bard_Aosta_Valley.jpg') center/cover no-repeat;
           padding: 250px 0;
         }
-        .castello_di_ussel h1{
+        .museum_of_fortifications_and_frontiers h1{
           color: #fff;
           margin: 0 !important;
         }
-      /*Fine Castello di Ussel*/
-      /*Inizio Castello di Cły*/
-        .castello_di_cly{
-          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Castello_di_cly_Valle_d_Aosta.jpg') center/cover no-repeat;
-          padding: 250px 0;
-        }
-        .castello_di_cly h1{
-          color: #fff;
-          margin: 0 !important;
-        }
-      /*Fine Castello di Cły*/
-      /*Inizio Castello di Fénis*/
-        .castello_di_fénis{
-          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Castello_di_fénis_Valle_d_Aosta.jpg') center/cover no-repeat;
-          padding: 250px 0;
-        }
-        .castello_di_fénis h1{
-          color: #fff;
-          margin: 0 !important;
-        }
-      /*Fine Castello di Fénis*/
-      /*Inizio Castello Reale di Sarre*/
-        .castello_reale_di_sarre{
-          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Castello_reale_di_sarre_Valle_d_Aosta.jpg') center/cover no-repeat;
-          padding: 250px 0;
-        }
-        .castello_reale_di_sarre h1{
-          color: #fff;
-          margin: 0 !important;
-        }
-      /*Fine Castello Reale di Sarre*/
-      /*Inizio Castello Aymavilles*/
-        .castello_di_aymavilles{
-          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Castello_di_aymavilles_Valle_d_Aosta.jpg') center/cover no-repeat;
-          padding: 250px 0;
-        }
-        .castello_di_aymavilles h1{
-          color: #fff;
-          margin: 0 !important;
-        }
-      /*Fine Castello Aymavilles*/
-      /*Inizio Castello Sarriod de la Tour*/
-        .castello_sarriod_de_la_tour{
-          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Castello_sarriod_de_la_tour_Valle_d_Aosta.jpg') center/cover no-repeat;
-          padding: 250px 0;
-        }
-        .castello_sarriod_de_la_tour h1{
-          color: #fff;
-          margin: 0 !important;
-        }
-      /*Fine Castello Sarriod de la Tour*/
-    /*Fine Castelli Medievali*/
+      /*End Museum of Fortifications and Frontiers*/
+    /*End Bard Fort*/
+
+
+
+
+    
+    
+    
+    
     /*Inizio Torre di Bramafam*/
       .torre_di_bramafam{
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Torre_di_bramafam_Aosta_Valle_d_Aosta.jpg') center/cover no-repeat;
@@ -427,36 +561,7 @@ hr{
         margin: 0 !important;
       }
     /*Fine Ponte Romano*/
-    /*Inizio Porta Praetoria*/
-      .porta_praetoria{
-        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Porta_praetoria_Aosta_Valle_d_Aosta.jpg') center/cover no-repeat;
-        padding: 250px 0;
-      }
-      .porta_praetoria h1{
-        color: #fff;
-        margin: 0 !important;
-      }
-    /*Fine Porta Praetoria*/
-    /*Inizio Teatro Romano*/
-      .teatro_romano_aosta{
-        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Teatro_romano_Aosta_Valle_d_Aosta.jpg') center/cover no-repeat;
-        padding: 250px 0;
-      }
-      .teatro_romano_aosta h1{
-        color: #fff;
-        margin: 0 !important;
-      }
-    /*Fine Teatro Romano*/
-    /*Inizio Criptoportico Forense*/
-      .criptoportico_forense{
-        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Criptoportico_forense_Aosta_Valle_d_Aosta.jpg') center/cover no-repeat;
-        padding: 250px 0;
-      }
-      .criptoportico_forense h1{
-        color: #fff;
-        margin: 0 !important;
-      }
-    /*Fine Criptoportico Forense*/
+    
     /*Inizio Aosta Romana*/
       .aosta_romana{
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Aosta_romana_Valle_d_Aosta.jpg') center/cover no-repeat;
@@ -477,38 +582,6 @@ hr{
         margin: 0 !important;
       }
     /*Fine Museo Archeologico Regionale*/
-    /*Inizio Piazza Chanoux*/
-      .piazza_chanoux{
-        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Piazza_émile_chanoux_Aosta_Valle_d_Aosta.jpg') center/cover no-repeat;
-        padding: 250px 0;
-      }
-      .piazza_chanoux h1{
-        color: #fff;
-        margin: 0 !important;
-      }
-    /*Fine Piazza Chanoux*/
-    /*Inizio Cattedrale di Aosta*/
-      .cattedrale_di_aosta{
-        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Cattedrale_di_Aosta_Valle_d_Aosta.jpg') center/cover no-repeat;
-        padding: 250px 0;
-      }
-      .cattedrale_di_aosta h1{
-        color: #fff;
-        margin: 0 !important;
-      }
-    /*Fine Cattedrale di Aosta*/
-    /*Inzio Eventi ad Valle d'Aosta*/
-      /*Inizio Eventi Aosta*/
-        .fiera_di_sant_orso{
-          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Fiera_di_sant_orso_Aosta_Valle_d_Aosta.jpg') center/cover no-repeat;
-          padding: 250px 0;
-        }
-        .fiera_di_sant_orso h1{
-          color: #fff;
-          margin: 0 !important;
-        }
-      /*Fine Eventi Aosta*/
-    /*Fine Eventi ad Valle d'Aosta*/
   /*Fine Aosta*/
   /*Inzio Courmayeur*/
     .courmayeur{
@@ -6808,28 +6881,30 @@ hr{
 
 
 
-/*Media Query Smartphone*/
-@media screen and (max-width: 425px) {
-  /* Tablet */
-    .map-tablet {
-      display: none !important;
-    }
-  /* Desktop*/
-    .map-desktop {
-      display: none !important;
-    }
-    .margin{
-      margin: 0 2em;
-    }
-    /*Inizio Blog Valle d'Aosta*/
+/*Start Media Query Smartphone*/
+  @media screen and (max-width: 440px) {
+    /*Start Tablet */
+      .map-tablet {
+        display: none !important;
+      }
+    /*End Tablet*/
+    /*Start Desktop*/
+      .map-desktop {
+        display: none !important;
+      }
+      .margin{
+        margin: 0 2em;
+      }
+    /*End Desktop*/
+    /*Start Blog Valle d'Aosta*/
       .blog{
         margin: 0 10% !important;
       }
       .carta{
         padding-bottom: 1em;
       }
-    /*Fine Blog Valle d'Aosta*/
-    .mappa{
+    /*End Blog Valle d'Aosta*/
+    .map{
       width: 300px;
       height: 300px;
     }
@@ -6837,11 +6912,49 @@ hr{
     .gallery-image {
       width: 100%;
     }
-    
-}
+    /*Start Card Medieval Castles of the Aosta Valley*/
+      .card_Savoy_Castle:nth-child(1){
+        width: 50%;
+        height: 200px;
+      }
+      .card_Castle_of_Issogne:nth-child(1){
+        width: 50%;
+        height: 200px;
+      }
+      .card.card_Castle_of_Verrès:nth-child(1){
+        width: 50%;
+        height: 200px;
+      }
+      .card_Castle_of_Ussel:nth-child(1){
+        width: 50%;
+        height: 200px;
+      }
+      .card_Castle_of_Cly:nth-child(1){
+        width: 50%;
+        height: 200px;
+      }
+      .card_Bard_Fort:nth-child(1){
+        width: 50%;
+        height: 200px;
+      }
+      .card_Royal_Castle_of_Sarre:nth-child(1){
+        width: 50%;
+        height: 200px;
+      }
+      .card_Castle_of_Aymavilles:nth-child(1){
+        width: 50%;
+        height: 200px;
+      }
+      .card_Castle_of_Sarriod_de_la_Tour:nth-child(1){
+        width: 50%;
+        height: 200px;
+      }
+    /*End Card Medieval Castles of the Aosta Valley*/
+  }
+/*End Media Query Smartphone*/
 
 /*Media Query Tablet*/
-  @media screen and (min-width: 426px) and (max-width: 768px){
+  @media screen and (min-width: 441px) and (max-width: 800px){
     /*Inizio Smartphone*/
       .map-smartphone {
         display: none !important;
@@ -6865,16 +6978,54 @@ hr{
         margin-right: 1em !important;
       }
     /*Fine Luoghi visitati Valle d'Aosta*/
-      .mappa{
-        width: 350px;
+    .map{
+      width: 350px;
+      height: 300px;
+    }
+
+    .gallery-image {
+      width: 80%;
+    }
+    /*Start Card Medieval Castles of the Aosta Valley*/
+      .card_Savoy_Castle:nth-child(1){
+        width: 50%;
         height: 300px;
       }
-
-      .gallery-image {
-        width: 80%;
+      .card_Castle_of_Issogne:nth-child(1){
+        width: 50%;
+        height: 300px;
       }
+      .card.card_Castle_of_Verrès:nth-child(1){
+        width: 50%;
+        height: 300px;
+      }
+      .card_Castle_of_Ussel:nth-child(1){
+        width: 50%;
+        height: 300px;
+      }
+      .card_Castle_of_Cly:nth-child(1){
+        width: 50%;
+        height: 300px;
+      }
+      .card_Bard_Fort:nth-child(1){
+        width: 50%;
+        height: 300px;
+      }
+      .card_Royal_Castle_of_Sarre:nth-child(1){
+        width: 50%;
+        height: 300px;
+      }
+      .card_Castle_of_Aymavilles:nth-child(1){
+        width: 50%;
+        height: 300px;
+      }
+      .card_Castle_of_Sarriod_de_la_Tour:nth-child(1){
+        width: 50%;
+        height: 300px;
+      }
+    /*End Card Medieval Castles of the Aosta Valley*/
   }
-/*Fine Media Query Tablet*/
+/*End Media Query Tablet*/
 
 .photo-card-city{
     width: 100%;
@@ -6883,7 +7034,7 @@ hr{
   }
 
 /*Inizio Media Query Desktop*/
-  @media screen and (min-width: 769px){
+  @media screen and (min-width: 801px){
     /*Inizio Smartphone*/
       .map-smartphone {
         display: none !important;
@@ -6905,7 +7056,6 @@ hr{
     .la_venaria_reale video#mobile-video{
       display: none;
     }
-
     .gallery-image:hover {
       transform: scale(1.1);
     }
@@ -6916,4 +7066,5 @@ hr{
   .container{
     max-width: 1250px !important;
   }
+  
 }
