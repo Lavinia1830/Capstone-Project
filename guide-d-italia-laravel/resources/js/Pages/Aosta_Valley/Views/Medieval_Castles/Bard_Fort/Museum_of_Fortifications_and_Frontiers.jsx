@@ -24,14 +24,10 @@ export default function Museum_of_Fortifications_and_Frontiers(props) {
                 </main>
                 <div className="margin mt-3">
                     <p>
-                        <Trans i18nKey="the prisons1" components={{ br: <br/> }}/> 
-                    </p>
-                    <h2 className="color-subtitle">{t("the prisons2")}</h2>
-                    <p>
-                        {t("the prisons3")}
+                        <Trans i18nKey="museum of fortifications and frontiers1" components={{ b: <b/> }}/> 
                     </p>
                     <p>
-                        <Trans i18nKey="the prisons4" components={{ i: <i/> }}/> 
+                        {t("museum of fortifications and frontiers2")}
                     </p>
                     <p>
                         <Trans i18nKey="the prisons5" components={{ i: <i/> }}/> 
