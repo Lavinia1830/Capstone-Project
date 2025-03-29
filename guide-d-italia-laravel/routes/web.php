@@ -38,11 +38,11 @@ Route::get('/home', function () {
         return Inertia::render('Aosta_Valley');
     })->middleware(['auth', 'verified'])->name('aosta_valley');
 
-    /*Start Aosta*/
+    Route::get('/destinations/aosta_valley/aosta', function () {
+        return Inertia::render('Aosta_Valley/Destinations/Aosta');
+    })->middleware(['auth', 'verified'])->name('aosta');
 
-        Route::get('/destinations/aosta_valley/aosta', function () {
-            return Inertia::render('Aosta_Valley/Destinations/Aosta');
-        })->middleware(['auth', 'verified'])->name('aosta');
+    /*Start Aosta*/
 
         Route::get('/views/aosta_valley/aosta/arch_of_augustus', function () {
             return Inertia::render('Aosta_Valley/Views/Arch_of_Augustus');
@@ -76,9 +76,9 @@ Route::get('/home', function () {
             return Inertia::render('Aosta_Valley/Views/Roman_Theatre');
         })->middleware(['auth', 'verified'])->name('roman_theatre_aosta');
 
-        Route::get('/visite/valle_d_aosta/parco_nazionale_del_gran_paradiso', function () {
-            return Inertia::render('Valle_d_Aosta/Visite/Parco_Nazionale_del_Gran_Paradiso');
-        })->middleware(['auth', 'verified'])->name('parco_nazionale_del_gran_paradiso');
+        Route::get('/views/aosta_valley/gran_paradiso_national_park', function () {
+            return Inertia::render('Aosta_Valley/Views/Gran_Paradiso_National_Park');
+        })->middleware(['auth', 'verified'])->name('gran_paradiso_national_park');
 
     /*End Aosta*/
 
@@ -135,7 +135,19 @@ Route::get('/home', function () {
             })->middleware(['auth', 'verified'])->name('museum_of_fortifications_and_frontiers');
 
         /*End Bard Fort*/
+
+        Route::get('/views/aosta_valley/sarre/royal_castle_of_sarre', function () {
+            return Inertia::render('Aosta_Valley/Views/Medieval_Castles/Royal_Castle_of_Sarre');
+        })->middleware(['auth', 'verified'])->name('royal_castle_of_sarre');
     
+        Route::get('/views/aosta_valley/aymavilles/castle_of_aymavilles', function () {
+            return Inertia::render('Aosta_Valley/Views/Medieval_Castles/Castle_of_Aymavilles');
+        })->middleware(['auth', 'verified'])->name('castle_of_aymavilles');
+
+        Route::get('/views/aosta_valley/saint-pierre/castle_of_sarriod_de_la_tour', function () {
+            return Inertia::render('Aosta_Valley/Views/Medieval_Castles/Castle_of_Sarriod_de_la_Tour');
+        })->middleware(['auth', 'verified'])->name('castle_of_sarriod_de_la_tour');
+
     /*End Castles of the Aosta Valley*/
 
     /*Start Gran Paradiso National Park*/
@@ -146,16 +158,6 @@ Route::get('/home', function () {
 
     /*End Gran Paradiso National Park*/
 
-    /*Start Matterhorn*/
-
-        Route::get('/mountain/aosta_valley/matterhorn', function () {
-            return Inertia::render('Mountain/Gran_Paradiso_National_Park');
-        })->middleware(['auth', 'verified'])->name('matterhorn');
-
-        
-
-    /*End Matterhorn*/
-
     /*Start Courmayeur*/  
 
         Route::get('/destinations/aosta_valley/courmayeur', function () {
@@ -163,10 +165,6 @@ Route::get('/home', function () {
         })->middleware(['auth', 'verified'])->name('courmayeur');
 
     /*End Courmayeur*/
-
-    Route::get('/destinazioni/valle_d_aosta/cervinia_valtournanche', function () {
-        return Inertia::render('Valle_d_Aosta/Destinazioni/Cervinia_Valtournanche');
-    })->middleware(['auth', 'verified'])->name('cervinia_valtournanche');
 
     Route::get('/laghi/valle_d_aosta/lago_di_goillet', function () {
         return Inertia::render('Laghi/Lago_di_Goillet');
@@ -180,7 +178,438 @@ Route::get('/home', function () {
         return Inertia::render('Valle_d_Aosta/Destinazioni/Valpelline');
     })->middleware(['auth', 'verified'])->name('valpelline');
 
-/*End Valle d'Aosta*/
+/*End Aosta Valley*/
+
+/*Start River*/
+
+    Route::get('/rivers/adige_river', function () {
+        return Inertia::render('Rivers/Adige_River');
+    })->middleware(['auth', 'verified'])->name('adige_river');
+
+/*Finish River*/
+
+/*Start Lakes*/
+
+    Route::get('/lakes/lake_garda', function () {
+        return Inertia::render('Lakes/Lake_Garda');
+    })->middleware(['auth', 'verified'])->name('lake_garda');
+
+/*Finish Lakes*/
+
+
+/*Start Seas*/
+
+    Route::get('/seas/liguria/ligurian_sea', function () {
+        return Inertia::render('Seas/Ligurian_Sea');
+    })->middleware(['auth', 'verified'])->name('ligurian_sea');
+
+    Route::get('/seas/adriatic_sea', function () {
+        return Inertia::render('Seas/Adriatic_Sea');
+    })->middleware(['auth', 'verified'])->name('adriatic_sea');
+
+/*Finish Seas*/
+
+
+/*Start Mountain*/
+
+
+    /*Start Aosta Valley*/
+
+        Route::get('/mountain/aosta_valley/mont_blanc', function () {
+            return Inertia::render('Mountain/Mont_Blanc');
+        })->middleware(['auth', 'verified'])->name('mont_blanc');
+
+        Route::get('/mountain/aosta_valley/monte_rosa', function () {
+            return Inertia::render('Mountain/Monte_Rosa');
+        })->middleware(['auth', 'verified'])->name('monte_rosa');
+
+        Route::get('/mountain/aosta_valley/mount_matterhorn', function () {
+            return Inertia::render('Mountain/Mount_Matterhorn');
+        })->middleware(['auth', 'verified'])->name('mount_matterhorn');
+        
+
+        Route::get('/mountain/monte_bondone', function () {
+            return Inertia::render('Mountain/Monte_Bondone');
+        })->middleware(['auth', 'verified'])->name('monte_bondone');
+    
+    /*End Aosta Valley*/
+
+/*Finish Mountain*/
+
+/*Start Nature*/ 
+
+    /*Start Aosta Valley*/ 
+        
+        Route::get('/nature/aosta_valley/cervinia_nature', function () {
+            return Inertia::render('Mountain/Cervinia_Nature');
+        })->middleware(['auth', 'verified'])->name('cervinia_nature');
+
+    /*End Aosta Valley*/ 
+
+/*End Nature*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Inizio Valle d'Aosta*/
+
+    Route::get('/aosta_valley', function () {
+        return Inertia::render('Aosta_Valley');
+    })->middleware(['auth', 'verified'])->name('aosta_valley');
+
+    Route::get('/destinazioni/valle_d_aosta/aosta', function () {
+        return Inertia::render('Aosta_Valley/Destinations/Aosta');
+    })->middleware(['auth', 'verified'])->name('aosta');
+
+    /*Inizio Aosta*/
+
+        Route::get('/visite/valle_d_aosta/aosta/arco_di_augusto', function () {
+            return Inertia::render('Aosta_Valley/Views/Arch_of_Augustus');
+        })->middleware(['auth', 'verified'])->name('arco_di_augusto');
+
+        Route::get('/visite/valle_d_aosta/aosta/porta_prætoria', function () {
+            return Inertia::render('Aosta_Valley/Views/Porta_Prætoria');
+        })->middleware(['auth', 'verified'])->name('porta_prætorias');
+
+        Route::get('/visite/valle_d_aosta/aosta/piazza_emile_chanoux', function () {
+            return Inertia::render('Aosta_Valley/Views/Place_Émile_Chanoux');
+        })->middleware(['auth', 'verified'])->name('piazza_emile_chanoux');
+
+        Route::get('/visite/valled_aosta/aosta/cattedrale_di_aosta', function () {
+            return Inertia::render('Aosta_Valley/Views/Cathedral_of_Aosta');
+        })->middleware(['auth', 'verified'])->name('cattedrale_di_aosta');
+
+        Route::get('/viste/valle_d_aosta/aosta/criptoportico_forense', function () {
+            return Inertia::render('Aosta_Valley/Views/Forensic_Cryptoporticus');
+        })->middleware(['auth', 'verified'])->name('criptoportico_forense');
+
+        Route::get('/eventi/valle_d_aosta/aosta/fiera_di_sant_orso', function () {
+            return Inertia::render('Aosta_Valley/Events/Fair_of_Saint_Bear');
+        })->middleware(['auth', 'verified'])->name('fiera_di_sant_orso');
+
+        Route::get('/visite/valle_d_aosta/aosta/via_francigena', function () {
+            return Inertia::render('Aosta_Valley/Views/Via_Francigena');
+        })->middleware(['auth', 'verified'])->name('via_francigena');
+
+        Route::get('/visite/valle_d_aosta/aosta/teatro_romano_aosta', function () {
+            return Inertia::render('Aosta_Valley/Views/Roman_Theatre');
+        })->middleware(['auth', 'verified'])->name('teatro_romano_aosta');
+
+    /*Fine Aosta*/
+
+    /*Inizio Castelli della Valle d'Aosta*/
+
+        Route::get('/visite/valle_aosta/castelli_medievali_della_valle_d_aosta', function () {
+            return Inertia::render('Aosta_Valley/Views/Medieval_Castles');
+        })->middleware(['auth', 'verified'])->name('castelli_medievali_della_valle_d_aosta');
+
+        Route::get('/visite/valle_d_aosta/gressoney_saint_jean/castello_savoia', function () {
+            return Inertia::render('Aosta_Valley/Views/Medieval_Castles/Savoy_Castle');
+        })->middleware(['auth', 'verified'])->name('castello_savoia');
+
+        Route::get('/visite/valle_d_aosta/la_place/castello_di_issogne', function () {
+            return Inertia::render('Aosta_Valley/Views/Medieval_Castles/Castle_of_Issogne');
+        })->middleware(['auth', 'verified'])->name('castello_di_issogne');
+
+        Route::get('/visite/valle_d_aosta/verrès/castello_di_verrès', function () {
+            return Inertia::render('Aosta_Valley/Views/Medieval_Castles/Castle_of_Verrès');
+        })->middleware(['auth', 'verified'])->name('castello_di_verrès');
+
+        Route::get('/visite/valle_d_aosta/ussel/castello_di_ussel', function () {
+            return Inertia::render('Aosta_Valley/Views/Medieval_Castles/Castle_of_Ussel');
+        })->middleware(['auth', 'verified'])->name('castello_di_ussel');
+
+        Route::get('/visite/valle_d_aosta/saint-denis/castello_di_cly', function () {
+            return Inertia::render('Aosta_Valley/Views/Medieval_Castles/Castle_of_Cly');
+        })->middleware(['auth', 'verified'])->name('castello_di_cly');
+
+        Route::get('/visite/valle_d_aosta/fénis/castello_di_fénis', function () {
+            return Inertia::render('Aosta_Valley/Views/Medieval_Castles/Castle_of_Fénis');
+        })->middleware(['auth', 'verified'])->name('castle_of_fénis');
+
+        Route::get('/visite/valle_d_aosta/bard/forte_di_bard', function () {
+            return Inertia::render('Aosta_Valley/Views/Medieval_Castles/Bard_Fort');
+        })->middleware(['auth', 'verified'])->name('forte_di_bard');
+
+        /*Inizio Fonte di Bard*/
+
+            Route::get('/visita/valle_d_aosta/bard/forte_di_bard/il_museo_delle_alpi', function() {
+                return Inertia::render('Aosta_Valley/Views/Medieval_Castles/Bard_Fort/The_Alps_Museum');
+            })->middleware(['auth', 'verified'])->name('il_museo_delle_alpi');
+
+            Route::get('/visita/valle_d_aosta/bard/forte_di_bard/le_alpi_dei_ragazzi', function() {
+                return Inertia::render('Aosta_Valley/Views/Medieval_Castles/Bard_Fort/The_Alps_of_the_boys');
+            })->middleware(['auth', 'verified'])->name('le_alpi_dei_ragazzi');
+
+            Route::get('/visita/valle_d_aosta/bard/forte_di_bard/le_prigioni', function() {
+                return Inertia::render('Aosta_Valley/Views/Medieval_Castles/Bard_Fort/The_Prisons');
+            })->middleware(['auth', 'verified'])->name('le_prigioni');
+
+            Route::get('/visita/valle_d_aosta/bard/forte_di_bard/museo_delle_fortificazioni_e_delle_frontiere', function() {
+                return Inertia::render('Aosta_Valley/Views/Medieval_Castles/Bard_Fort/Museum_of_Fortifications_and_Frontiers');
+            })->middleware(['auth', 'verified'])->name('museo_delle_fortificazioni_e_delle_frontiere');
+
+        /*Fine Fonte di Bard*/
+
+        Route::get('/visita/valle_d_aosta/sarre/castello_reale_di_sarre', function () {
+            return Inertia::render('Aosta_Valley/Views/Medieval_Castles/Royal_Castle_of_Sarre');
+        })->middleware(['auth', 'verified'])->name('castello_reale_di_sarre');
+
+        Route::get('/visita/valle_d_aosta/aymavilles/castello_di_aymavilles', function () {
+            return Inertia::render('Aosta_Valley/Views/Medieval_Castles/Castle_of_Aymavilles');
+        })->middleware(['auth', 'verified'])->name('castello_di_aymavilles');
+
+        Route::get('/visita/Valle_d_aosta/saint-pierre/castello_di_sarriod_de_la_tour', function () {
+            return Inertia::render('Aosta_Valley/Views/Medieval_Castles/Castle_of_Sarriod_de_la_Tour');
+        })->middleware(['auth', 'verified'])->name('castello_di_sarriod_de_la_tour');
+
+    /*Fine Castelli della Valle d'Aosta*/
+
+    /*Inizio Parco Nazionale del Gran Paradiso*/
+
+        Route::get('/montagna/valle_d_aosta/parco_nazionale_del_gran_paradiso', function () {
+            return Inertia::render('Mountain/Gran_Paradiso_National_Park');
+        })->middleware(['auth', 'verified'])->name('parco_nazionale_del_gran_paradiso');
+
+    /*Fine Parco Nazionale del Gran Paradiso*/
+
+    /*Inizio Courmayeur*/  
+
+        Route::get('/destinazioni/valle_d_aosta/courmayeur', function () {
+            return Inertia::render('Aosta_Valley/Destinations/Courmayeur');
+        })->middleware(['auth', 'verified'])->name('courmayeur');
+
+    /*fine Courmayeur*/
+
+
+/*Fine Valle d'Aosta*/
+
+/*Inizio Montagna*/
+
+    /*Inizio Valle d'Aosta*/
+
+        Route::get('/montagna/valle_d_aosta/monte_rosa', function () {
+                return Inertia::render('Mountain/Monte_Rosa');
+            })->middleware(['auth', 'verified'])->name('monte_rosa');
+
+        Route::get('/montagna/valle_d_aosta/monte_bianco', function () {
+            return Inertia::render('Mountain/Mont_Blanc');
+        })->middleware(['auth', 'verified'])->name('monte_bianco');
+
+        Route::get('/montagna/valle_d_aosta/monte_cervino', function () {
+            return Inertia::render('Mountain/Mount_Matterhorn');
+        })->middleware(['auth', 'verified'])->name('monte_cervino');
+    
+    /*Fine Valle d'Aosta*/
+
+/*fine Montagna*/
+
+
+/*Inizio Natura*/ 
+
+    /*Inizio Valle d'Aosta*/ 
+     
+        Route::get('/natura/valle_d_aosta/cervinia_natura', function () {
+            return Inertia::render('Mountain/Cervinia_Nature');
+        })->middleware(['auth', 'verified'])->name('cervinia_nature');
+
+    /*Fine Valle d'Aosta*/ 
+
+/*Fine Natura*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
 /*Start Piedmond */
     Route::get('/piedmond', function () {
@@ -1797,55 +2226,7 @@ Route::get('/home', function () {
 /*Fine Sardegna*/
 
 
-/*Start River*/
 
-    Route::get('/rivers/adige_river', function () {
-        return Inertia::render('Rivers/Adige_River');
-    })->middleware(['auth', 'verified'])->name('adige_river');
-
-/*Finish River*/
-
-/*Start Lakes*/
-
-    Route::get('/lakes/lake_garda', function () {
-        return Inertia::render('Lakes/Lake_Garda');
-    })->middleware(['auth', 'verified'])->name('lake_garda');
-
-/*Finish Lakes*/
-
-
-/*Start Seas*/
-
-    Route::get('/seas/liguria/ligurian_sea', function () {
-        return Inertia::render('Seas/Ligurian_Sea');
-    })->middleware(['auth', 'verified'])->name('ligurian_sea');
-
-    Route::get('/seas/adriatic_sea', function () {
-        return Inertia::render('Seas/Adriatic_Sea');
-    })->middleware(['auth', 'verified'])->name('adriatic_sea');
-
-/*Finish Seas*/
-
-
-/*Start Mountain*/
-
-    Route::get('/montain/valle_d_aosta/monte_bianco', function () {
-        return Inertia::render('Montain/Monte_Bianco');
-    })->middleware(['auth', 'verified'])->name('monte_bianco');
-
-    Route::get('/montain/valle_d_aosta/monte_rosa', function () {
-        return Inertia::render('Montain/Monte_Rosa');
-    })->middleware(['auth', 'verified'])->name('monte_rosa');
-
-    Route::get('/montain/valle_d_aosta/monte_cervino', function () {
-        return Inertia::render('Montain/Monte_Cervino');
-    })->middleware(['auth', 'verified'])->name('monte_cervino');
-
-    Route::get('/montain/monte_bondone', function () {
-        return Inertia::render('Montain/Monte_Bondone');
-    })->middleware(['auth', 'verified'])->name('monte_bondone');
-
-/*Finish Mountain*/
 
 
 
