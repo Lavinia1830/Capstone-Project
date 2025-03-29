@@ -112,6 +112,7 @@ hr{
     text-align: center;
     border-radius: 5px;
   }
+  
 /*End collective*/
 
 /*Start AuthenticatedLayout*/
@@ -144,17 +145,14 @@ hr{
   }
   .card_Aosta_Valley:nth-child(1){ 
     background: url('../assets/Aosta_Valley/Aosta_Aosta_Valley.jpg') center/cover no-repeat;
-    /* width: 30%; */
     height: 400px;
   }
   .card_Aosta_Valley:nth-child(2){ 
-    background: url('../assets/Aosta_Valley/Courmayeur_Valle_d_Aosta.jpg') center/cover no-repeat;
-    /* width: 30%; */
+    background: url('../assets/Aosta_Valley/Courmayeur_Aosta_Valley.jpg') center/cover no-repeat;
     height: 400px;
   }
   .card_Aosta_Valley:nth-child(3){ 
     background: url('../assets/Aosta_Valley/Medieval_Castles_Aosta_Valley.jpg') center/cover no-repeat;
-    /* width: 30%; */
     height: 400px;
   }
   /*Start Aosta*/
@@ -298,7 +296,6 @@ hr{
         }
         .card_Savoy_Castle:nth-child(1){
           background: url('../assets/Aosta_Valley/Savoy_Castle_Aosta_Valley.jpg') center/cover no-repeat;
-          /* width: 30%; */
           height: 300px;
         }
       /*End Card Savoy Castle*/
@@ -387,7 +384,7 @@ hr{
           display: flex;
         }
         .card_Castle_of_Sarriod_de_la_Tour:nth-child(1){
-          background: url('../assets/Aosta_Valley/Castle_Sarrios_de_la_Toru_Aosta_Valley.jpg') center/cover no-repeat;
+          background: url('../assets/Aosta_Valley/Castle_of_Sarrios_de_la_Toru_Aosta_Valley.jpg') center/cover no-repeat;
           /* width: 30%; */
           height: 300px;
         }
@@ -513,6 +510,256 @@ hr{
         }
       /*End Museum of Fortifications and Frontiers*/
     /*End Bard Fort*/
+    /*Start Royal Castle of Sarre*/
+      .royal_castle_of_sarre{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets//Aosta_Valley/Royal_Castle_of_Sarre_Aosta_Valley.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .royal_castle_of_sarre h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*End Royal Castle of Sarre*/
+    /*Start Castle of Aymavilles*/
+      .castle_of_aymavilles{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Aosta_Valley/Castle_of_Aymavilles_Aosta_Valley.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .castle_of_aymavilles h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*End Castle of Aymavilles/
+    /*Start Castle of Sarriod de la Tour*/
+      .castle_of_sarriod_de_la_tour{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Aosta_Valley/Castle_of_Sarrios_de_la_Toru_Aosta_Valley.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .castle_of_sarriod_de_la_tour h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*End Castle of Sarriod de la Tour*/
+    /*Inzio Courmayeur*/
+      .courmayeur{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Aosta_Valley/Courmayeur_Aosta_Valley.jpg') top/cover  no-repeat;
+        padding: 250px 0;
+      }
+      .courmayeur h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+      .card_Courmayeur_Mountain:nth-child(1){ 
+        background: url('../assets/Aosta_Valley/Courmayeur_Mountain_Aosta_Valley.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Ferret_Valley:nth-child(1){ 
+        background: url('../assets/Aosta_Valley/Ferret_Valley_Aosta_Valley.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Courmayeur:nth-child(1){ 
+        background: url('../assets/Aosta_Valley/Mont_Blanc_Aosta_Valley.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Courmayeur:nth-child(2){ 
+        background: url('../assets/Aosta_Valley/Skyway_Mont_Balnc_Aosta_Valley.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+    /*End Courmayeur*/
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+      /*Inzio Chiesa dei Santi Pantaleone e Valantino*/
+        .chiesa_dei_santi_pantaleone_e_valentino{
+          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Chiesa_dei_santi_pantaleone_e_valantino_Courmayeur_Valle_d_Aosta.jpg') center/cover no-repeat;
+          padding: 250px 0;
+        }
+        .chiesa_dei_santi_pantaleone_e_valentino h1{
+          color: #fff;
+          margin: 0 !important;
+        }
+      /*Fine Chiesa dei Santi Pantaleone e Valantino*/
+      /*Inizio Museo Duca degli Abruzzi*/
+        .museo_duca_degli_abruzzi{
+          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Museo_duca_degli_abruzzi_Courmayeur_Valle_d_Aosta.jpg') center/cover no-repeat;
+          padding: 250px 0;
+        }
+        .museo_duca_degli_abruzzi h1{
+          color: #fff;
+          margin: 0 !important;
+        }
+      /*Fine Museo Duca degli Abruzzi*/
+      /*Inzio Festa della Badoche*/
+        .festa_della_badoche{
+          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Festa_della_badoche_Courmayeur_Valle_d_Aosta.jpg') center/cover no-repeat;
+          padding: 250px 0;
+        }
+        .festa_della_badoche h1{
+          color: #fff;
+          margin: 0 !important;
+        }
+      /*Fine Festa della Badoche*/
+      /*Inizio Courmayeur Montagna*/
+        .courmayeur_montagna{
+          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Courmayeur_Montagna_Valle_d_Aosta.jpg') center/cover no-repeat;
+          padding: 250px 0;
+        }
+        .courmayeur_montagna h1{
+          color: #fff;
+          margin: 0 !important;
+        }
+        /*Inizio Val Ferret*/
+          .val_ferret{
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Val_ferret_Valle_d_Aosta.jpg') center/cover no-repeat;
+            padding: 250px 0;
+          }
+          .val_ferret h1{
+            color: #fff;
+            margin: 0 !important;
+          }
+        /*Fine Val Ferret*/
+        /*Inizio Funivia Skyway Monte Bianco*/
+          .funivia_skyway_monte_bianco{
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Funivia_skyway _monte_bianco_Courmayeur_Valle_d_Aosta.jpg') center/cover no-repeat;
+            padding: 250px 0;
+          }
+          .funivia_skyway_monte_bianco h1{
+            color: #fff;
+            margin: 0 !important;
+          }
+          .card_Funivia_Skyway_MB:nth-child(1){
+            background: url('../assets/Valle_d_Aosta/Courmayeur_Montagna_Valle_d_Aosta.jpg') center/cover no-repeat;
+            /* width: 30%; */
+            height: 400px;
+          }
+          .card_Funivia_Skyway_MB:nth-child(2){
+            background: url('../assets/Valle_d_Aosta/Monte_bianco_Valle_d_Aosta.jpg') center/cover no-repeat;
+            /* width: 30%; */
+            height: 400px;
+          }
+          .card_Funivia_Skyway_MB_Aosta:nth-child(1){
+            background: url('../assets/Valle_d_Aosta/Aosta_Valle_d_Aosta.jpg') center/cover no-repeat;
+            /* width: 30%; */
+            height: 400px;
+          }
+        /*End Funivia Skyway Monte Bianco*/
+        
+      /*End Courmayeur Montagna*/
+    /*End Courmayeur*/
+    /*Start Montain*/
+      /*Start Mont Blanc*/
+        .mont_blanc{
+          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Aosta_Valley/Mont_Blanc_Aosta_Valley.jpg') center/cover no-repeat;
+          padding: 250px 0;
+        }
+        .mont_blanc h1{
+          color: #fff;
+          margin: 0 !important;
+        }
+      /*End Mont Blanc*/
+      /*Start Mount Matterhorn*/
+        .mount_matterhorn{
+          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Aosta_Valley/Matterhorn_Mountain_Aosta_Valley.jpg') center/cover no-repeat;
+          padding: 250px 0;
+        }
+        .mount_matterhorn h1{
+          color: #fff;
+          margin: 0 !important;
+        }
+      /*End Mount Matterhorn*/
+      /*Start Monte Rosa*/
+        .monte_rosa{
+          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Aosta_Valley/Monte_rosa_Courmayeur_Aosta_Valley.jpg') center/cover no-repeat;
+          padding: 250px 0;
+        }
+        .monte_rosa h1{
+          color: #fff;
+          margin: 0 !important;
+        }
+      /*End Monte Rosa*/
+      
+    /*End Montain*/
+
+    /*Start Nature*/
+      /*Start Cervinia nature*/
+        .cervinia_nature{
+          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Aosta_Valley/Cervinia_and_its_Valley_Aosta_Valley.jpg') center/cover no-repeat;
+          padding: 250px 0;
+        }
+        .cervinia_nature h1{
+          color: #fff;
+          margin: 0 !important;
+        }
+        .card_Breuil_Cervinia:nth-child(1){ 
+          background: url('../assets/Aosta_Valley/Breuil_Cervinia_Aosta_Valley.jpg') center/cover no-repeat;
+          /* width: 30%; */
+          height: 400px;
+        }
+        .card_Cervinia_Valtournanche:nth-child(1){ 
+          background: url('../assets/Aosta_Valley/Cervinia_valtournanche_Aosta_Valley.jpg') center/cover no-repeat;
+          /* width: 30%; */
+          height: 400px;
+        }
+        .card_Blue_Lake:nth-child(1){ 
+          background: url('../assets/Aosta_Valley/Blue_Lake_Cervinia_Valtournenche_Aosta_Valley.jpg') center/cover no-repeat;
+          /* width: 30%; */
+          height: 400px;
+        }
+      /*End Cervinia nature*/
+    /*End Nature*/
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -583,131 +830,7 @@ hr{
       }
     /*Fine Museo Archeologico Regionale*/
   /*Fine Aosta*/
-  /*Inzio Courmayeur*/
-    .courmayeur{
-      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Courmayeur_Valle_d_Aosta.jpg') top/cover  no-repeat;
-      padding: 250px 0;
-    }
-    .courmayeur h1{
-      color: #fff;
-      margin: 0 !important;
-    }
-    .card_Courmayeur_Montagna:nth-child(1){ 
-      background: url('../assets/Valle_d_Aosta/Courmayeur_Montagna_Valle_d_Aosta.jpg') center/cover no-repeat;
-      /* width: 30%; */
-      height: 400px;
-    }
-    .card_Val_Ferret:nth-child(1){ 
-      background: url('../assets/Valle_d_Aosta/Val_ferret_Valle_d_Aosta.jpg') center/cover no-repeat;
-      /* width: 30%; */
-      height: 400px;
-    }
-    .card_Courmayeur:nth-child(1){ 
-      background: url('../assets/Valle_d_Aosta/Monte_bianco_Valle_d_Aosta.jpg') center/cover no-repeat;
-      /* width: 30%; */
-      height: 400px;
-    }
-    .card_Courmayeur:nth-child(2){ 
-      background: url('../assets/Valle_d_Aosta/Skyway_monte_bianco_Valle_d_Asota.jpg') center/cover no-repeat;
-      /* width: 30%; */
-      height: 400px;
-    }
-    /*Inizio Monte Bianco*/
-      .monte_bianco{
-        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Monte_bianco_Valle_d_Aosta.jpg') center/cover no-repeat;
-        padding: 250px 0;
-      }
-      .monte_bianco h1{
-        color: #fff;
-        margin: 0 !important;
-      }
-    /*Fine Monte Bianco*/
-    /*Inzio Chiesa dei Santi Pantaleone e Valantino*/
-      .chiesa_dei_santi_pantaleone_e_valentino{
-        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Chiesa_dei_santi_pantaleone_e_valantino_Courmayeur_Valle_d_Aosta.jpg') center/cover no-repeat;
-        padding: 250px 0;
-      }
-      .chiesa_dei_santi_pantaleone_e_valentino h1{
-        color: #fff;
-        margin: 0 !important;
-      }
-    /*Fine Chiesa dei Santi Pantaleone e Valantino*/
-    /*Inizio Museo Duca degli Abruzzi*/
-      .museo_duca_degli_abruzzi{
-        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Museo_duca_degli_abruzzi_Courmayeur_Valle_d_Aosta.jpg') center/cover no-repeat;
-        padding: 250px 0;
-      }
-      .museo_duca_degli_abruzzi h1{
-        color: #fff;
-        margin: 0 !important;
-      }
-    /*Fine Museo Duca degli Abruzzi*/
-    /*Inzio Festa della Badoche*/
-      .festa_della_badoche{
-        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Festa_della_badoche_Courmayeur_Valle_d_Aosta.jpg') center/cover no-repeat;
-        padding: 250px 0;
-      }
-      .festa_della_badoche h1{
-        color: #fff;
-        margin: 0 !important;
-      }
-    /*Fine Festa della Badoche*/
-    /*Inizio Courmayeur Montagna*/
-      .courmayeur_montagna{
-        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Courmayeur_Montagna_Valle_d_Aosta.jpg') center/cover no-repeat;
-        padding: 250px 0;
-      }
-      .courmayeur_montagna h1{
-        color: #fff;
-        margin: 0 !important;
-      }
-      /*Inizio Val Ferret*/
-        .val_ferret{
-          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Val_ferret_Valle_d_Aosta.jpg') center/cover no-repeat;
-          padding: 250px 0;
-        }
-        .val_ferret h1{
-          color: #fff;
-          margin: 0 !important;
-        }
-      /*Fine Val Ferret*/
-      /*Inizio Funivia Skyway Monte Bianco*/
-        .funivia_skyway_monte_bianco{
-          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Funivia_skyway _monte_bianco_Courmayeur_Valle_d_Aosta.jpg') center/cover no-repeat;
-          padding: 250px 0;
-        }
-        .funivia_skyway_monte_bianco h1{
-          color: #fff;
-          margin: 0 !important;
-        }
-        .card_Funivia_Skyway_MB:nth-child(1){
-          background: url('../assets/Valle_d_Aosta/Courmayeur_Montagna_Valle_d_Aosta.jpg') center/cover no-repeat;
-          /* width: 30%; */
-          height: 400px;
-        }
-        .card_Funivia_Skyway_MB:nth-child(2){
-          background: url('../assets/Valle_d_Aosta/Monte_bianco_Valle_d_Aosta.jpg') center/cover no-repeat;
-          /* width: 30%; */
-          height: 400px;
-        }
-        .card_Funivia_Skyway_MB_Aosta:nth-child(1){
-          background: url('../assets/Valle_d_Aosta/Aosta_Valle_d_Aosta.jpg') center/cover no-repeat;
-          /* width: 30%; */
-          height: 400px;
-        }
-      /*Fine Funivia Skyway Monte Bianco*/
-      /*Inizio Monte Rosa*/
-        .monte_rosa{
-          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Monte_rosa_Courmayeur_Valle_d_Aosta.jpg') center/cover no-repeat;
-          padding: 250px 0;
-        }
-        .monte_rosa h1{
-          color: #fff;
-          margin: 0 !important;
-        }
-      /*Fine Monte Rosa*/
-    /*Fine Courmayeur Montagna*/
-  /*Fine Courmayeur*/
+  
   /*Inizio Cervinia Valtournanche*/
     .cervinia_valtournanche{
       background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Cervinia_valtournanche_Valle_d_Aosta.jpg') center/cover no-repeat;
@@ -765,16 +888,7 @@ hr{
         margin: 0 !important;
       }
     /*Fine Grotte delle Busserailles*/
-    /*Inizio Monte Cervino*/
-      .monte_cervino{
-        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Monte_cervino_Valle_d_Aosta.jpg') center/cover no-repeat;
-        padding: 250px 0;
-      }
-      .monte_cervino h1{
-        color: #fff;
-        margin: 0 !important;
-      }
-    /*Fine Monte Cervino*/
+    
     /*Inizio Lago di Goillet*/
       .lago_di_goillet{
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Lago_di_goillet_Valle_d_Aosta.jpg') center/cover no-repeat;
@@ -1188,6 +1302,128 @@ hr{
       }
   /*Fine Cogne*/
 /*Fine Valle d'Aosta*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*Inizio Piemonte*/
@@ -6912,8 +7148,12 @@ hr{
     .gallery-image {
       width: 100%;
     }
+
+    .body{
+      margin: 0 20px;
+    }
     /*Start Card Medieval Castles of the Aosta Valley*/
-      .card_Savoy_Castle:nth-child(1){
+      /* .card_Savoy_Castle:nth-child(1){
         width: 50%;
         height: 200px;
       }
@@ -6948,36 +7188,36 @@ hr{
       .card_Castle_of_Sarriod_de_la_Tour:nth-child(1){
         width: 50%;
         height: 200px;
-      }
+      } */
     /*End Card Medieval Castles of the Aosta Valley*/
   }
 /*End Media Query Smartphone*/
 
-/*Media Query Tablet*/
+/*Start Media Query Tablet*/
   @media screen and (min-width: 441px) and (max-width: 800px){
-    /*Inizio Smartphone*/
+    /*Start Smartphone*/
       .map-smartphone {
         display: none !important;
       }
-    /*Fine Smartphone*/
-    /*Inizio Desktop*/
+    /*End Smartphone*/
+    /*Start Desktop*/
       .map-desktop {
         display: none !important;
       }
       .margin{
         margin: 0 30px;
       }
-    /*Fine Desktop*/
-    /*Inizio Blog Valle d'Aosta*/
+    /*End Desktop*/
+    /*Start Blog Aosta Valley*/
       .blog{
         margin: 0 1% !important;
       }
-    /*Fine Blog Valle d'Aosta*/
-    /*Inizio Luoghi visitati Valle d'Aosta*/
+    /*End Blog Aosta Valley*/
+    /*Start Luoghi visitati Aosta Valley*/
       .my-card{
         margin-right: 1em !important;
       }
-    /*Fine Luoghi visitati Valle d'Aosta*/
+    /*End Luoghi visitati Aosta Valley*/
     .map{
       width: 350px;
       height: 300px;
@@ -6986,8 +7226,12 @@ hr{
     .gallery-image {
       width: 80%;
     }
+
+    .body{
+      margin: 0 50px;
+    }
     /*Start Card Medieval Castles of the Aosta Valley*/
-      .card_Savoy_Castle:nth-child(1){
+      /* .card_Savoy_Castle:nth-child(1){
         width: 50%;
         height: 300px;
       }
@@ -7022,7 +7266,7 @@ hr{
       .card_Castle_of_Sarriod_de_la_Tour:nth-child(1){
         width: 50%;
         height: 300px;
-      }
+      } */
     /*End Card Medieval Castles of the Aosta Valley*/
   }
 /*End Media Query Tablet*/
@@ -7059,7 +7303,11 @@ hr{
     .gallery-image:hover {
       transform: scale(1.1);
     }
+    .body{
+      margin: 0 80px;
+    }
   }
+
 /*Fine Media Query Desktop*/
 
 @media screen and (min-width: 1400px){

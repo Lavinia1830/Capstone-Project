@@ -37,7 +37,7 @@ export default function Via_Francigena(props) {
                             loading="lazy"
                             referrerPolicy="no-referrer-when-downgrade"
                             title="Google Map"
-                            className='mx-auto mappa'
+                            className='mx-auto map'
                         ></iframe>
                     </div>
                 </main>
