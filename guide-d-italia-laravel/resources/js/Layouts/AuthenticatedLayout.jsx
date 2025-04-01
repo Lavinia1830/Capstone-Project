@@ -1,33 +1,33 @@
 import { useState } from 'react';
 import { Link } from '@inertiajs/react';
-import {NavDropdown} from 'react-bootstrap';
-import Dropdown from '@/Components/Dropdown';
+import { NavDropdown, Dropdown } from 'react-bootstrap';
 import ResponsiveNavLink from '@/Components/ResponsiveNavLink';
 import ApplicationLogo from '@/Components/ApplicationLogo';
 import NavLink from '@/Components/NavLink';
 import LanguageSwitcher from '@/Components/LanguageSwitcher';
 import { useTranslation } from 'react-i18next';
 
-export default function Authenticated({ auth, header, children }) {
+export default function Authenticated({ auth, children }) {
     const [showingNavigationDropdown, setShowingNavigationDropdown] = useState(false);
 
-    const { t } = useTranslation();
+    const { i18n, t } = useTranslation();
+
+    const locale = i18n.language;
+    const login = locale === 'en' ? '/login' : '/accedi';
+    const register = locale === 'en' ? '/register' : '/registrati';
 
     return (
-        <div className="min-h-screen bg-gray-100">
+        <div className="min-h-screen">
             <nav className="bg-navbar border-b border-gray-100">
                 <div className=" px-4 sm:px-6 lg:px-8">
                     <div className="flex justify-between h-16">
                         <div className="flex">
                             <div className="shrink-0 flex items-center">
-                                <Link href="/home" className='text-decoration-none text-dark'>
+                                <Link href="/" className='text-decoration-none text-dark'>
                                     <ApplicationLogo/>
                                 </Link>
                             </div>
                             <div className="flex items-center hidden space-x-8 lg:-my-px lg:ml-10 lg:flex">
-                                <NavLink href={route('home')} active={route().current('home')} className="text-decoration-none color_link">
-                                    Home
-                                </NavLink>
                                 <NavDropdown title={t("regions")} style={{ marginTop: '3px'}} id="basic-nav-dropdown">
                                     <NavDropdown.Item>
                                         <NavLink className='text-decoration-none color_link' href="/abruzzo">Abruzzo</NavLink>
@@ -114,42 +114,37 @@ export default function Authenticated({ auth, header, children }) {
                             </div>
                         </div>
                         <div className="hidden lg:flex lg:items-center lg:ml-6">
-                            <div className="ml-3 relative">
-                                <Dropdown>
-                                    <Dropdown.Trigger>
-                                        <span className="inline-flex rounded-md">
-                                            <button
-                                                type="button"
-                                                className="inline-flex items-center px-3 py-2 border border-transparent text-sm leading-4 font-medium rounded-md text-gray-500 bg-white hover:text-gray-700 focus:outline-none transition ease-in-out duration-150"
-                                            >
-                                                {auth.user.name}
-
-                                                <svg
-                                                    className="ml-2 -mr-0.5 h-4 w-4"
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    viewBox="0 0 20 20"
-                                                    fill="currentColor"
-                                                >
-                                                    <path
-                                                        fillRule="evenodd"
-                                                        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                                                        clipRule="evenodd"
-                                                    />
-                                                </svg>
-                                            </button>
-                                        </span>
-                                    </Dropdown.Trigger>
-
-                                    <Dropdown.Content>
-                                        <ResponsiveNavLink href={route('profile.edit')}>{t('profile')}</ResponsiveNavLink>
-                                        <ResponsiveNavLink href={route('logout')} method="post" as="button">
-                                            {t("log out")}
+                            <div className="flex items-center space-x-4 ml-auto">
+                                {/* Authentication Links */}
+                                {!auth?.user && (
+                                    <>
+                                        <ResponsiveNavLink href={login} className="text-decoration-none">
+                                            {t('login')}
                                         </ResponsiveNavLink>
-                                    </Dropdown.Content>
-                                </Dropdown>
-                                
+                                        <ResponsiveNavLink href={register} className="text-decoration-none">
+                                            {t('register')}
+                                        </ResponsiveNavLink>
+                                    </>
+                                )}
+
+                                {/* User Dropdown */}
+                                {auth?.user && (
+                                    <Dropdown>
+                                        <Dropdown.Toggle className="inline-flex items-center px-3 py-2 border border-transparent text-sm leading-4 font-medium rounded-md text-black bg-white hover:text-gray-700 focus:outline-none transition ease-in-out duration-150">
+                                            <span className="text-black truncate w-[70px]">{auth.user.name}</span>
+                                        </Dropdown.Toggle>
+                                        <Dropdown.Menu>
+                                            <ResponsiveNavLink href={route('profile.edit')} className="text-decoration-none">
+                                                {t('profile')}
+                                            </ResponsiveNavLink>
+                                            <ResponsiveNavLink href={route('logout')} method="post" as="button">
+                                                {t('log out')}
+                                            </ResponsiveNavLink>
+                                        </Dropdown.Menu>
+                                    </Dropdown>
+                                )}
                             </div>
-                            <LanguageSwitcher/>
+                            <LanguageSwitcher />
                         </div>
 
                         <div className="-mr-2 flex items-center lg:hidden">
@@ -180,9 +175,6 @@ export default function Authenticated({ auth, header, children }) {
 
                 <div className={(showingNavigationDropdown ? 'block' : 'hidden') + ' lg:hidden'}>
                     <div className="ps-4 pt-2 pb-3 space-y-1">
-                        <NavLink href={route('home')} active={route().current('home')} className="text-decoration-none color_link">
-                            Home
-                        </NavLink>
                         <h6 className='ms-1 fw-bold'>{t("regions")}</h6>
                         <div className="ms-3">
                             <NavDropdown.Item>
@@ -275,21 +267,29 @@ export default function Authenticated({ auth, header, children }) {
                     </div>
 
                     <div className="pt-4 pb-1 border-t border-gray-200">
-                        <div className="px-4">
-                            <div className="font-medium fw-bold">
-                                {auth.user.name}
+                        {auth?.user ? (
+                            <div>
+                                <div className="px-4">
+                                    <div className="font-medium fw-bold text-white">
+                                        {auth.user.name}
+                                    </div>
+                                    <div className="font-medium text-white">{auth.user.email}</div>
+                                </div>
+                                <div className="mt-3 space-y-1">
+                                    <ResponsiveNavLink href={route('profile.edit')} className='text-decoration-none'>{t('profile')}</ResponsiveNavLink>
+                                    <ResponsiveNavLink method="post" href={route('logout')} as="button">
+                                        {t("log out")}
+                                    </ResponsiveNavLink>
+                                </div>
                             </div>
-                            <div className="font-medium">{auth.user.email}</div>
-                        </div>
-
-                        <div className="mt-3 space-y-1">
-                            <ResponsiveNavLink href={route('profile.edit')}>{t('profile')}</ResponsiveNavLink>
-                            <ResponsiveNavLink method="post" href={route('logout')} as="button">
-                                {t("log out")}
-                            </ResponsiveNavLink>
-                        </div>
+                        ) : (
+                            <div className="flex space-x-4">
+                                <ResponsiveNavLink href={login} className="text-decoration-none">{t('login')}</ResponsiveNavLink>
+                                <ResponsiveNavLink href={register} className="text-decoration-none">{t('register')}</ResponsiveNavLink>
+                            </div>
+                        )}
                     </div>
-                    <LanguageSwitcher/>
+                    <LanguageSwitcher />
                 </div>
             </nav>
 
