@@ -130,8 +130,8 @@ export default function Authenticated({ auth, children }) {
                                 {/* User Dropdown */}
                                 {auth?.user && (
                                     <Dropdown>
-                                        <Dropdown.Toggle className="inline-flex items-center px-3 py-2 border border-transparent text-sm leading-4 font-medium rounded-md text-black bg-white hover:text-gray-700 focus:outline-none transition ease-in-out duration-150">
-                                            <span className="text-black truncate w-[70px]">{auth.user.name}</span>
+                                        <Dropdown.Toggle className="flex items-center px-3 py-2 bg-black rounded-md shadow">
+                                            <span className="text-white truncate w-[70px]">{auth.user.name}</span>
                                         </Dropdown.Toggle>
                                         <Dropdown.Menu>
                                             <ResponsiveNavLink href={route('profile.edit')} className="text-decoration-none">

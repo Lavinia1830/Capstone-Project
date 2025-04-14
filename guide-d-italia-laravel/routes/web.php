@@ -37,11 +37,11 @@ Route::get('/', function () {
 
     Route::get('/aosta_valley', function () {
         return Inertia::render('Aosta_Valley');
-    })->middleware(['auth', 'verified'])->name('aosta_valley');
+    });
 
     Route::get('/destinations/aosta_valley/aosta', function () {
         return Inertia::render('Aosta_Valley/Destinations/Aosta');
-    })->middleware(['auth', 'verified'])->name('aosta');
+    });
 
     /*Start Aosta*/
 
