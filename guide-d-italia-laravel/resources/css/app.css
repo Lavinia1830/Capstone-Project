@@ -13,12 +13,77 @@ html, body {
 }
 
 .logo{
-    width: 60px;
+  width: 60px;
 }
 
 hr{
   color: #77966d !important;
 }
+
+.scroll-container {
+  display: flex;
+  overflow-x: auto;
+  scrollbar-width: smooth;
+  -ms-overflow-style: none;
+  white-space: nowrap;
+}
+
+.scroll-container::-webkit-scrollbar {
+  display: none;
+}
+
+.scroll-item {
+  display: flex;
+  align-items: center; /* Centra verticalmente */
+  justify-content: flex-start; /* Posiziona l'immagine e il testo in fila */
+  gap: 15px; /* Spazio tra immagine e titolo */
+  min-width: 350px;
+  padding: 20px;
+}
+
+.scroll-image {
+  width: 100px; /* Regola la dimensione dell'immagine */
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.scroll-item {
+  width: 100%; /* Permette al contenitore di adattarsi */
+}
+
+.scroll-wrapper {
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+  width: 100%;
+}
+
+.space_title{
+  white-space: pre-line;
+}
+
+/* .scroll-button {
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 50%;
+  position: absolute;
+} */
+
+.left {
+  left: 0;
+}
+
+.right {
+  right: 0;
+}
+
+
+
 
 
 /*Start Welcome*/
@@ -68,6 +133,7 @@ hr{
 /*Start collective*/
   .color_link{
       color: #BDC667;
+      text-decoration: none !important;
   }
   .color_link:hover{
       text-decoration: underline !important;
@@ -570,10 +636,243 @@ hr{
         height: 400px;
       }
     /*End Courmayeur*/
+    /*Inizio Champoluc*/
+      .champoluc{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Aosta_Valley/Champoluc_Aosta_Valley.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .champoluc h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+      .card_Champoluc{
+        display: flex;
+      }
+      .card_Champoluc:nth-child(1){
+        background: url('../assets/Aosta_Valley/Parish_Church_of_San_Martino_Champoluc_Aosta_Valley.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Champoluc:nth-child(2){
+        background: url('../assets/Aosta_Valley/Permanent_exhibition_of_typical_crafts_Champoluc_Aosta_Valley.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Champoluc:nth-child(3){
+        background: url('../assets/Aosta_Valley/Sanctuary_notre_dame_du_bon_secours_Champoluc_Aosta_Valley.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      } 
+      /*Start Parish Church of San Martino*/
+        .la_chiesa_parrocchiale_di_san_martino{
+          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Aosta_Valley/Parish_Church_of_San_Martino_Champoluc_Aosta_Valley.jpg') center/cover no-repeat;
+          padding: 250px 0;
+        }
+        .la_chiesa_parrocchiale_di_san_martino h1{
+          color: #fff;
+          margin: 0 !important;
+        }
+      /*End Parish Church of San Martino*/
+      /*Start Permanent exhibitionoftypicalcrafts*/
+        .permanent_exhibition_of_typical_crafts{
+          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Aosta_Valley/Permanent_exhibition_of_typical_crafts_Champoluc_Aosta_Valley.jpg') center/cover no-repeat;
+          padding: 250px 0;
+        }
+        .permanent_exhibition_of_typical_crafts h1{
+          color: #fff;
+          margin: 0 !important;
+        }
+      /*End Permanent exhibition of typical crafts*/
+      /*Start Sanctuary Notre Dame du Bon Secours*/
+        .sanctuary_notre_dame_du_bon_secours{
+          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Aosta_Valley/Sanctuary_notre_dame_du_bon_secours_Champoluc_Aosta_Valley.jpg') center/cover no-repeat;
+          padding: 250px 0;
+        }
+        .sanctuary_notre_dame_du_bon_secours h1{
+          color: #fff;
+          margin: 0 !important;
+        }
+      /*End Sanctuary Notre Dame du Bon Secours*/
+    /*End Champoluc*/
+  /*End Aosta*/
+/*End Aosta Valley*/
+
+
+
+
+
+
+
+
+
+
+
+/*Start Lazio*/
+
+  .lazio{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Lazio/Lazio.jpg') center/cover no-repeat;
+    padding: 250px 0;
+  }
+  .lazio h1{
+    color: #fff;
+    margin: 0 !important;
+  }
+
+  /*Start Rome*/
+
+    .rome{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Lazio/City/Rome_Lazio.jpg') center/cover no-repeat;
+      padding: 250px 0;
+    }
+    .rome h1{
+      color: #fff;
+      margin: 0 !important;
+    }
+
+    /*Start Imperial Fora*/
+
+      .imperial_fora {
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Lazio/City/Rome/Monuments/Imperial_Fora_Rome_Lazio.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+
+      .imperial_fora h1 {
+        color: #fff;
+        margin: 0 !important;
+      }
     
+    /*End Imperial Fora*/
+
+  /*End Rome*/
+
+  /*Start Nature*/
+    
+    .garden_of_ninfa{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Lazio/Nature/Garden_of_Ninfa_Lazio.jpg') center/cover no-repeat;
+      padding: 250px 0;
+    }
+    .garden_of_ninfa h1{
+      color: #fff;
+      margin: 0 !important;
+    }
+
+  /*End Nature*/
+
+/*End Lazio*/
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*Start Montain*/
+    /*Start Mont Blanc*/
+      .mont_blanc{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Aosta_Valley/Mont_Blanc_Aosta_Valley.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .mont_blanc h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*End Mont Blanc*/
+    /*Start Mount Matterhorn*/
+      .mount_matterhorn{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Aosta_Valley/Matterhorn_Mountain_Aosta_Valley.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .mount_matterhorn h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*End Mount Matterhorn*/
+    /*Start Monte Rosa*/
+      .monte_rosa{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Aosta_Valley/Monte_rosa_Courmayeur_Aosta_Valley.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .monte_rosa h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*End Monte Rosa*/
+    /*Start Breuil Cervinia*/
+      .breuil_cervinia{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Aosta_Valley/Breuil_Cervinia_Aosta_Valley.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .breuil_cervinia h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*End Breuil Cervinia*/
+    /*Start Cervinia-Valtournenche*/
+      .cervinia_valtournenche{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Aosta_Valley/Cervinia_valtournanche_Aosta_Valley.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .cervinia_valtournenche h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*End Cervinia-Valtournenche*/
+  /*End Montain*/
+
+  /*Start Nature*/
+      /*Start Cervinia nature*/
+      .cervinia_nature{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Aosta_Valley/Cervinia_and_its_Valley_Aosta_Valley.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .cervinia_nature h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+      .card_Breuil_Cervinia:nth-child(1){ 
+        background: url('../assets/Aosta_Valley/Breuil_Cervinia_Aosta_Valley.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Cervinia_Valtournanche:nth-child(1){ 
+        background: url('../assets/Aosta_Valley/Cervinia_valtournanche_Aosta_Valley.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+      .card_Blue_Lake:nth-child(1){ 
+        background: url('../assets/Aosta_Valley/Blue_Lake_Cervinia_Valtournenche_Aosta_Valley.jpg') center/cover no-repeat;
+        /* width: 30%; */
+        height: 400px;
+      }
+    /*End Cervinia nature*/
+  /*End Nature*/
+  /*Start Lakes*/
+    /*Start Blue Lake*/
+      .blue_lake{
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Aosta_Valley/Blue_Lake_Cervinia_Valtournenche_Aosta_Valley.jpg') center/cover no-repeat;
+        padding: 250px 0;
+      }
+      .blue_lake h1{
+        color: #fff;
+        margin: 0 !important;
+      }
+    /*End Blue Lake*/
+  /*End Lakes*/
 
 
 
@@ -640,7 +939,7 @@ hr{
           margin: 0 !important;
         }
       /*Fine Festa della Badoche*/
-      /*Inizio Courmayeur Montagna*/
+      /* Courmayeur Montagna*/
         .courmayeur_montagna{
           background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Courmayeur_Montagna_Valle_d_Aosta.jpg') center/cover no-repeat;
           padding: 250px 0;
@@ -687,67 +986,10 @@ hr{
         
       /*End Courmayeur Montagna*/
     /*End Courmayeur*/
-    /*Start Montain*/
-      /*Start Mont Blanc*/
-        .mont_blanc{
-          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Aosta_Valley/Mont_Blanc_Aosta_Valley.jpg') center/cover no-repeat;
-          padding: 250px 0;
-        }
-        .mont_blanc h1{
-          color: #fff;
-          margin: 0 !important;
-        }
-      /*End Mont Blanc*/
-      /*Start Mount Matterhorn*/
-        .mount_matterhorn{
-          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Aosta_Valley/Matterhorn_Mountain_Aosta_Valley.jpg') center/cover no-repeat;
-          padding: 250px 0;
-        }
-        .mount_matterhorn h1{
-          color: #fff;
-          margin: 0 !important;
-        }
-      /*End Mount Matterhorn*/
-      /*Start Monte Rosa*/
-        .monte_rosa{
-          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Aosta_Valley/Monte_rosa_Courmayeur_Aosta_Valley.jpg') center/cover no-repeat;
-          padding: 250px 0;
-        }
-        .monte_rosa h1{
-          color: #fff;
-          margin: 0 !important;
-        }
-      /*End Monte Rosa*/
-      
-    /*End Montain*/
-
-    /*Start Nature*/
-      /*Start Cervinia nature*/
-        .cervinia_nature{
-          background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Aosta_Valley/Cervinia_and_its_Valley_Aosta_Valley.jpg') center/cover no-repeat;
-          padding: 250px 0;
-        }
-        .cervinia_nature h1{
-          color: #fff;
-          margin: 0 !important;
-        }
-        .card_Breuil_Cervinia:nth-child(1){ 
-          background: url('../assets/Aosta_Valley/Breuil_Cervinia_Aosta_Valley.jpg') center/cover no-repeat;
-          /* width: 30%; */
-          height: 400px;
-        }
-        .card_Cervinia_Valtournanche:nth-child(1){ 
-          background: url('../assets/Aosta_Valley/Cervinia_valtournanche_Aosta_Valley.jpg') center/cover no-repeat;
-          /* width: 30%; */
-          height: 400px;
-        }
-        .card_Blue_Lake:nth-child(1){ 
-          background: url('../assets/Aosta_Valley/Blue_Lake_Cervinia_Valtournenche_Aosta_Valley.jpg') center/cover no-repeat;
-          /* width: 30%; */
-          height: 400px;
-        }
-      /*End Cervinia nature*/
-    /*End Nature*/
+    
+    
+    
+    
 
 
 
@@ -858,16 +1100,7 @@ hr{
       /* width: 30%; */
       height: 400px;
     }
-    /*Inizio Lago Blu*/
-      .lago_blu{
-        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Lago_blu_Cervinia_Valtournanche_Valle_d_Aosta.jpg') center/cover no-repeat;
-        padding: 250px 0;
-      }
-      .lago_blu h1{
-        color: #fff;
-        margin: 0 !important;
-      }
-    /*Fine Lago Blu*/
+    
     /*Inizio Marmitte dei Giganti*/
       .marmitte_dei_giganti{
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Marmitte_dei_giganti_Cervinia_Valtournanche.jpg') center/cover no-repeat;
@@ -958,64 +1191,7 @@ hr{
       }
     /*Fine Grappa Valdostana*/
   /*Fine Enogastronomia*/
-  /*Inizio Champoluc*/
-    .champoluc{
-      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Champoluc_Valle_d_Aosta.jpg') center/cover no-repeat;
-      padding: 250px 0;
-    }
-    .champoluc h1{
-      color: #fff;
-      margin: 0 !important;
-    }
-    .card_Champoluc{
-      display: flex;
-    }
-    .card_Champoluc:nth-child(1){
-      background: url('../assets/Valle_d_Aosta/La_chiesa_parrocciale_di_san_martino_Champoluc_Valle_d_Aosta.jpg') center/cover no-repeat;
-      /* width: 30%; */
-      height: 400px;
-    }
-    .card_Champoluc:nth-child(2){
-      background: url('../assets/Valle_d_Aosta/La_mostra_permanente_dell_artigianato_tipico_Champoluc_Valle_d_Aosta.jpg') center/cover no-repeat;
-      /* width: 30%; */
-      height: 400px;
-    }
-    .card_Champoluc:nth-child(3){
-      background: url('../assets/Valle_d_Aosta/Santuario_notre_dame_du_bon_secours_Champoluc_Valle_d_Aosta.jpg') center/cover no-repeat;
-      /* width: 30%; */
-      height: 400px;
-    } 
-    /*Inizio La Chiesa Parrocciale di San Martino*/
-      .la_chiesa_parrocchiale_di_san_martino{
-        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/La_chiesa_parrocciale_di_san_martino_Champoluc_Valle_d_Aosta.jpg') center/cover no-repeat;
-        padding: 250px 0;
-      }
-      .la_chiesa_parrocchiale_di_san_martino h1{
-        color: #fff;
-        margin: 0 !important;
-      }
-    /*Fine La Chiesa Parrocciale di San Martino*/
-    /*Inizio La mostra permanente dell'artigianato tipico*/
-      .la_mostra_permanente_dell_artigianato_tipico{
-        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/La_mostra_permanente_dell_artigianato_tipico_Champoluc_Valle_d_Aosta.jpg') center/cover no-repeat;
-        padding: 250px 0;
-      }
-      .la_mostra_permanente_dell_artigianato_tipico h1{
-        color: #fff;
-        margin: 0 !important;
-      }
-    /*Fine La mostra permanente dell'artigianato tipico*/
-    /*Inizio Santuario Notre Dame du Bon Secours*/
-      .il_santuario_notre_dame_du_bon_secours{
-        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Santuario_notre_dame_du_bon_secours_Champoluc_Valle_d_Aosta.jpg') center/cover no-repeat;
-        padding: 250px 0;
-      }
-      .il_santuario_notre_dame_du_bon_secours h1{
-        color: #fff;
-        margin: 0 !important;
-      }
-    /*Fine Santuario Notre Dame du Bon Secours*/
-  /*Fine Champoluc*/
+  
   /*Inizio festa delle Guide Apine*/
     .festa_delle_guide_alpine{
       background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Valle_d_Aosta/Festa_delle_guide_alpine_Champoluc_Valle_d_Aosta.jpg') center/cover no-repeat;
@@ -5662,162 +5838,7 @@ hr{
   /*Fine Ancona*/
 /*Fine Marche*/
 
-/*Inizio Lazio*/
-  .lazio{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Lazio/Lazio.jpg') center/cover no-repeat;
-    padding: 250px 0;
-  }
-  .lazio h1{
-    color: #fff;
-    margin: 0 !important;
-  }
-  .card_Lazio{
-    display: flex;
-  }
-  .card_Lazio:nth-child(1){
-    background: url('../assets/Lazio/Roma_Lazio.jpg') center/cover no-repeat;
-    /* width: 30%; */
-    height: 400px;
-  }
-  /*Inizio Roma*/
-    .roma{
-      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Lazio/Roma_Lazio.jpg') center/cover no-repeat;
-      padding: 250px 0;
-    }
-    .roma h1{
-      color: #fff;
-      margin: 0 !important;
-    }
-    .card_Roma{
-      display: flex;
-    }
-    .card_Roma:nth-child(1){
-      background: url('../assets/Lazio/Colosseo_Roma_Lazio.jpg') center/cover no-repeat;
-      /* width: 30%; */
-      height: 400px;
-    }
-    .card_Roma:nth-child(2){
-      background: url('../assets/Lazio/Museo_e_galleria_borghese_Roma_Lazio.jpg') center/cover no-repeat;
-      /* width: 30%; */
-      height: 400px;
-    }
-    .card_Roma:nth-child(3){
-      background: url('../assets/Lazio/Pantheon_Roma_Lazio.jpg') center/cover no-repeat;
-      /* width: 30%; */
-      height: 400px;
-    }
-    .card_Roma:nth-child(4){
-      background: url('../assets/Lazio/Foro_romano_Roma_Lazio.jpg') center/cover no-repeat;
-      /* width: 30%; */
-      height: 400px;
-    }
-    .card_Roma:nth-child(5){
-      background: url('../assets/Lazio/Fontana_di_trevi_Roma_Lazio.jpg') center/cover no-repeat;
-      /* width: 30%; */
-      height: 400px;
-    }
-    .card_Roma:nth-child(6){
-      background: url('../assets/Lazio/Castel_sant_angelo_Roma_Lazio.jpg') center/cover no-repeat;
-      /* width: 30%; */
-      height: 400px;
-    }
-    .card_Roma:nth-child(7){
-      background: url('../assets/Lazio/Piazza_venezia_Roma_Lazio.jpg') center/cover no-repeat;
-      /* width: 30%; */
-      height: 400px;
-    }
-    .card_Roma:nth-child(8){
-      background: url('../assets/Lazio/Piazza_navona_Roma_Lazio.jpg') center/cover no-repeat;
-      /* width: 30%; */
-      height: 400px;
-    }
-    .card_Roma:nth-child(9){
-      background: url('../assets/Lazio/Piazza_di_spagna_Roma_Lazio.jpg') center/cover no-repeat;
-      /* width: 30%; */
-      height: 400px;
-    }
-    .card_Roma:nth-child(10){
-      background: url('../assets/Lazio/Circo_massimo_Roma_Lazio.jpg') center/cover no-repeat;
-      /* width: 30%; */
-      height: 400px;
-    }
-    .card_Roma:nth-child(11){
-      background: url('../assets/Lazio/Bocca_della_verità_Roma_Lazio.jpg') center/cover no-repeat;
-      /* width: 30%; */
-      height: 400px;
-    }
-    .card_Roma:nth-child(12){
-      background: url('../assets/Lazio/Piazza_san_pietro_Roma_Lazio.jpg') center/cover no-repeat;
-      /* width: 30%; */
-      height: 400px;
-    }
-    .card_Roma:nth-child(13){
-      background: url('../assets/Lazio/Campidoglio_Roma_Lazio.jpg') center/cover no-repeat;
-      /* width: 30%; */
-      height: 400px;
-    }
-    .card_Roma:nth-child(14){
-      background: url('../assets/Lazio/Isola_tiberina_Roma_Lazio.jpg') center/cover no-repeat;
-      /* width: 30%; */
-      height: 400px;
-    }
-    .card_Roma:nth-child(15){
-      background: url('../assets/Lazio/Terme_di_caracalla_Roma_Lazio.jpg') center/cover no-repeat;
-      /* width: 30%; */
-      height: 400px;
-    }
-    .card_Roma:nth-child(16){
-      background: url('../assets/Lazio/Quirinale_Roma_Lazio.jpg') center/cover no-repeat;
-      /* width: 30%; */
-      height: 400px;
-    }
-    .card_Roma:nth-child(17){
-      background: url('../assets/Lazio/Villa_borghese_Roma_Lazio.jpg') center/cover no-repeat;
-      /* width: 30%; */
-      height: 400px;
-    }
-    .card_Roma:nth-child(18){
-      background: url('../assets/Lazio/Parco_appia_antica_Roma_Lazio.jpg') center/cover no-repeat;
-      /* width: 30%; */
-      height: 400px;
-    }
-    .card_Roma:nth-child(19){
-      background: url('../assets/Lazio/Fosse_ardeatine_Roma_Lazio.jpg') center/cover no-repeat;
-      /* width: 30%; */
-      height: 400px;
-    }
-    .card_Roma:nth-child(20){
-      background: url('../assets/Lazio/Ghetto_Roma_Lazio.jpg') center/cover no-repeat;
-      /* width: 30%; */
-      height: 400px;
-    }
-    .card_Roma:nth-child(21){
-      background: url('../assets/Lazio/Museo_della_liberazione_Roma_Lazio.jpg') center/cover no-repeat;
-      /* width: 30%; */
-      height: 400px;
-    }
-    .card_Roma:nth-child(22){
-      background: url('../assets/Lazio/Terrazza_del_pincio_Roma_Lazio.jpg') center/cover no-repeat;
-      /* width: 30%; */
-      height: 400px;
-    }
-    .card_Roma:nth-child(23){
-      background: url('../assets/Lazio/Parco_degli_acquedotti_Roma_Lazio.jpg') center/cover no-repeat;
-      /* width: 30%; */
-      height: 400px;
-    }
-    /*Inizio Colosseo*/
-      .colosseo{
-        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/Lazio/Colosseo_Roma_Lazio.jpg') center/cover no-repeat;
-        padding: 250px 0;
-      }
-      .colosseo h1{
-        color: #fff;
-        margin: 0 !important;
-      }
-    /*Fine Colosseo*/
-  /*Fine Roma*/
-/*Fine Lazio*/
+
 
 /*Inizio Abruzzo*/
   .abruzzo{
@@ -7306,6 +7327,10 @@ hr{
     .body{
       margin: 0 80px;
     }
+
+    .arrows{ 
+      display: none;
+    }
   }
 
 /*Fine Media Query Desktop*/
@@ -7313,6 +7338,10 @@ hr{
 @media screen and (min-width: 1400px){
   .container{
     max-width: 1250px !important;
+  }
+
+  .arrows{ 
+    display: none;
   }
   
 }

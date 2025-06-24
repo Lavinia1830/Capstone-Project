@@ -27,6 +27,7 @@
   "region to visit": "Scegli una regione che vuoi visitare!",
   "profile": "Profilo",
   "log out": "Disconetti",
+  "lake": "Lago",
   "description_aosta_valley": "La più piccola Regione d'Italia, al confine con Francia e Svizzera, è costellata dalle più alte vette delle Alpi come <b>il Cervino</b>, <b>il Monte Rosa</b>, <b>il Gran Paradiso</b> e sua maestà <b>il Monte Bianco</b>. <br/> Destinazione ideale per gli amanti degli sport invernali, con gli sci ai piedi qui non ci si può che divertire, con le sue verdi valli e i castelli fiabeschi la <strong>Valle d’Aosta</strong> è un luogo incantevole da vivere tutto l’anno.",
   "origins and historical notes on the aosta valley": "Origini e cenni storici sulla Valle d'Aosta",
   "origins and historical notes on the aosta valley1": "Abitato fin dal IV secolo a.C. dal <b>popolo dei Salassi</b>, territorio della Valle d'Aosta fu conquistato dai Romani nel 25 a.C. che fondarono Augusta Prætoria Salassorum, l'attuale <Link href='/destinazioni/valle_d_aosta/aosta' className='text-decoration-none color_link'>Aosta</Link>, dove si erge ancora l'imponente <Link href='/visite/valle_d_aosta/aosta/arco_di_augusto' className='text-decoration-none color_link'>Arco di Augusto</Link> in ricordo di quella vittoria.",
@@ -38,8 +39,8 @@
   "top cities in aosta valley2": "A nord del <Link href='/montagna/valle_d_aosta/parco_nazionele_del_gran_paradiso' className='text-decoration-none color_link'>Parco Nazionale del Gran Paradiso</Link>, che include parte del territorio valdostano intorno all'omonimo massiccio, si susseguono le altre città della regione. <Link href='/destinazioni/valle_d_aosta/courmayeur' className='text-decoration-none color_link'>Courmayeur</Link>, sulle pendici del <Link href='/montagna/valle_d_aosta/monte_bianco' className='text-decoration-none color_link'>Monte Bianco</Link>, è un gioiello molto amato per le sue piste da sci e i suggestivi ghiacciai.",
   "top cities in aosta valley3": "<b>Saint-Vincent </b> e <b>Châtillon</b>, molto vicine tra loro, offrono stupendi castelli, rilassanti terme e centri benessere all'avanguardia e il <b>Casino de la Vallée</b>, uno dei quattro presenti in Italia.",
   "what to see in aosta valley": "Cosa vedere in Valle d'Aosta",
-  "what to see in aosta valley1": "Nel paradiso naturale della Valle d’Aosta., tra le vette più alte d'Europa come il <Link href='/montagna/valle_d_aosta/monte_rosa className='text-decoration-none color_link'>Monte Rosa</Link> e il <Link href='/mountagma/valle_d_aosta/cervino' className='text-decoration-none color_link'>Cervino</Link>, e bagnato dalla Dora Baltea, c'è l'imbarazzo della scelta quando si tratta di decidere cosa vedere.",
-  "what to see in aosta valley2": "Nell'area alle pendici delle due montagne potete mettervi alla prova nella stazione turistica di <Link href='/natura/valle_d_aosta/cervinia_nature' className='text-decoration-none color_link'>Cervinia - Valtournenche</Link>, sia d'inverno che d'estate, e farvi incantare dalle magiche acque del <Link href='/laghi/valle_d_aosta/lago_blu' className='text-decoration-none color_link'>Lago Blu di Cervinia</Link> a 1981 metri di altezza o dalla fiabesca Valle d'Ayas in cui sorge <Link href='/destinazioni/valle_d_aosta/champoluc' className='text-decoration-none color_link'>Champoluc</Link>.",
+  "what to see in aosta valley1": "Nel paradiso naturale della Valle d’Aosta., tra le vette più alte d'Europa come il <Link href='/montagna/valle_d_aosta/monte_rosa' title='Monte Rosa' className='color_link'>Monte Rosa</Link> e il <Link href='/montagna/valle_d_aosta/monte_cervino' className='text-decoration-none color_link'>Cervino</Link>, e bagnato dalla Dora Baltea, c'è l'imbarazzo della scelta quando si tratta di decidere cosa vedere.",
+  "what to see in aosta valley2": "Nell'area alle pendici delle due montagne potete mettervi alla prova nella stazione turistica di <Link href='/natura/valle_d_aosta/cervinia_natura' className='color_link'>Cervinia - Valtournenche</Link>, sia d'inverno che d'estate, e farvi incantare dalle magiche acque del <Link href='/laghi/valle_d_aosta/lago_blu' className='text-decoration-none color_link'>Lago Blu di Cervinia</Link> a 1981 metri di altezza o dalla fiabesca Valle d'Ayas in cui sorge <Link href='/destinazioni/valle_d_aosta/champoluc' className='text-decoration-none color_link'>Champoluc</Link>.",
   "what to see in aosta valley3": "Più a sud il <b>Gran Paradiso</b> si lascia scoprire pian piano tra natura incontaminata, castelli, valli, impianti sciistici e tracce dell'antica Roma come il <b>ponte-acquedotto di Pont d'Ael</b>.",
   "what to see in aosta valley4": "Verso il confine con la Francia, dominato dai 4.807 metri del <b>Monte Bianco</b>, potete godere delle bellezze paesaggistiche e naturali de <b>La Thuile</b> tra ghiacciai, passeggiate e giri in mountain bike sul <b>colle del Piccolo San Bernardo</b>.",
   "what to see in aosta valley5": "Poco più a nord, nei pressi di <b>Courmayeur</b>, d'estate immergetevi nella splendida <b>Val Veny</b> coi suoi maestosi ghiacciai o in Val Ferret con le sue verdi passeggiate, il magico bosco del Peuterey, i laghi di Miage e Combal e l'antico santuario di Notre-Dame de Guérison.",
@@ -316,6 +317,192 @@
   "mount matterhorn5": "Il Cervino in funivia",
   "mount matterhorn6": "Se siete a Breuil-Cervinia e volete ammirare il Cerrvino da vicino allora calite con gli impianti fino a <b>Plateau Rosa</b>, <b>paradiso dello sci</b>, <b>invernale</b> ed <b>estivo</b>. <br/> La <b>funivia</b>permette di ragiungere il comprensorio per sciare, ma è una <b>esperienza da non perdere</b> anche per chi non scia e desidera godersi il panorama, il cielo terso e l'aria frizzante.",
   "mount matterhorn7": "L'area turistica del Monte Cervino",
-  "mount matterhorn8": "Risalendo la Valtournenche, che si imbocca a Châtillon, si comincia già a scorgere il <strong>Monte Cervino</b> da <b>Antey-Saint-Andrè</b>. Gli altri comuni si affacciano sulla valle da balconate pianeggianti: <b>Torgnon</b> e <b>La Magdeleine</b>, della cartteristica architettura alpina, <b>chamois</b>, raggiungibile solo in funivia o a piedi, e <b>Valtournenche</b> che ha nel suo territorio la celebre <b>Breuil-Cervinia</b> con la sua <b>vasta area sciistica</b> che si estende fino a Zermatt, in Svizzera."
+  "mount matterhorn8": "Risalendo la Valtournenche, che si imbocca a Châtillon, si comincia già a scorgere il <strong>Monte Cervino</b> da <b>Antey-Saint-Andrè</b>. Gli altri comuni si affacciano sulla valle da balconate pianeggianti: <b>Torgnon</b> e <b>La Magdeleine</b>, della cartteristica architettura alpina, <b>chamois</b>, raggiungibile solo in funivia o a piedi, e <b>Valtournenche</b> che ha nel suo territorio la celebre <b>Breuil-Cervinia</b> con la sua <b>vasta area sciistica</b> che si estende fino a Zermatt, in Svizzera.",
+  "cervinia nature": "Cervinia e la sua valle",
+  "cervinia nature1": "Uno dei comprensori sciistici più apprezzati in Europa, in primavera si trsforma nel paradiso dell'outdoor e della vacanza attiva.",
+  "cervinia nature2": "Tutti la conoscono come <strong>Cervinia</strong>, località sciistica della Valle d'Aosta, rinomata per la bellezza dei suoi paesaggi e la varietà delle piste da sci, ma Cervinia è solo il nome con cui viene indicata dai suoi frequentatori un'area di montagna molto più vasta. Il comprensorio di Breuil-Cervinia, questo il nome per intero, indica un'area che si estende dai 1.524 metri del comune di Valtournenche, ai 3.408 metri del Plateau Rosà, e sfiora i 4.000 metri con il Piccolo Cervino. E include anche i 4.478 metri dell'imponente massiccio del Cervinio, la ontagna simbolo della zona, 'la piramide perfetta'.",
+  "cervinia nature3": "Il nome <b>Breuil-Cervinia</b> non è casuale. In dialetto valdostano, '<b>breuil' significa 'terra di molte acque</b>', a testimoniare i tantissimi laghi, torrenti e corsi d'acqua che caratterizzavano la zona dell'insediamento originario del paese.</br> Breuil-Cervinia è infatti sorta più di duecento anni fa <b>ai piedi del Cervinio</b>, nella <b>conca del Breuil</b>, immenso pascolo fino a quel momento raggiungibile solo dopo ore di cammino.</br> Negli anni '30 le costruzioni nella conca del Breuil si contavano con le dita di una mano, fino a quando nel 1934 fu fondata la Società Cervino e costruita nel 1936 la prima <b>funivia Breuil-Plan Maison</b>, evento che diede origine allo sviluppo di quello che è attualmente dei <b>maggiori comprensori sciistici d'Italia e  d'Europa</b>.",
+  "cervinia nature4": "Il comprensorio sciistico di Breuil-Cervinia Valtournenche Zermatt è uno dei più estesi dell'Alpi</b>. Si sviluppa su tre vallate e due nazioni, Italia e Svizzera, <b>con oltre 360 chilometri di piste</b>, talmete varie ed numerose che permettono di sciare alternando percorsi semplici e più impegnativi.</br> Nell'area non si pratica solo lo sci alpino, grazie alla presenza di un famoso <b>snowpark</b>, l'<b>Indianpark</b> di Cervinia - nato nel 2003 -, <b>un'area di freestyle lunga più di 400 metri e larga 10</b>, rivolta a snowborder e freestyle skier di ogni livello.</br> A Valtournenche si trova invece il <b>Wild West Park</b>, un tracciato permanente di <b>skicross</b> e <b>jump</b> per il freestyle.",
+  "cervinia nature5": "Breuil-Cervinia è cosiderata la <b>meta ideale per lo sci di fondo, con un anello di 3 km, indicato sia per principianti sia per esperti</b>. Grazie all'alta quota (2.050 metri), la pista è innevata naturalmente ed è aperta tutto l'inverno. Comoda daa raggiungere, la pista è situata all'ingresso del paese, col Monte Cervinio che fa da sfondo, circondata dalla catena del Grandes Murailles, una carrellata di cime che non scendono mai sotto i 3.500 metri. In località <b>Champlève</b>, a Valtournenche, <b>si trovano altri due anelli, uno di 4 km e uno di 6,5 km a Maen</b>.",
+  "cervinia nature6": "Il tratto distintivo della località Breuil-Cervinia è senza dubbio la <b>possibilità di sciare durante tutto l'arco dell'anno. Parte degli inpianti del <b>Matterhorn Ski Paradise</b>, il comprensorio sciistico italo-svizzero che collega le località di Valtournanche, Breuil-Cervinia e Zermatt, si trovano infatti sul <b>ghiacciaio del Plateau Rosà</b> che è sempre ben innevato. Servito da <b>circa 350 km di pist</b>, il plateau dispone di molti impianti di rialita, tra cui una funivia che sale fin quasi alla vetta del Piccolo Cervino.",
+  "cervinia nature7": "Splendido, non lontano dal centro abitato di Cervinia, sorge il <b>Lago Blu</b>, nel quale si specchia l'imponente vetta. Oltre il Lago Blu nella valle merita una visita anche il <b>Lago Goillet</b>, un suddestivo bacino artificiale a 2.550 metri di altitudine, chiuso da una diga, usato per la produzione di energia idroelettrica e anche per l'innevamento delle piste.",
+  "cervinia nature8": "<b>In estate</b>, altre all'alpinismo, che fa dal Cervino una meta ambita a livello internazionale, <b>è possibile praticare il trekking e l'escursionismo</b>. Molto praticati sono anche il <b>parapendio</b> e la <b>mountain bike</b>. per gli amanti degli sport estremi sono a diposizione un'emozionante <b>via ferrata</b> e <b>pareti per l'arrampicata</b>.",
+  "cervinia nature9": "Per gli amanti del golf, nella valle si trova il <b>Golf Club del Cervino</b>, a 18 buche, uno dei campi situati ad altezza più elevata nel mondo (con isuoi 2050 m), e fondato nel 1955. Durante i mesi invernali il tracciato del campo di golf diventa una pista per la pratica dello sci di fondo.",
+  "breuil cervinia": "Breuil - Cervinia",
+  "breuil cervinia1": "Tra i ghiacciai ai piedi del Monte Cervino",
+  "breuil cervinia2": "Non solo uno dei centri turistici di alta montagna più famosi dell <Link href='/valle_d_aosta' title=\"Valle d'Aosta\" className='color_link'>Valle d'Aosta</Link>, ma anche una meta di vacanza di rilievo internazionale. Parliamo di <strong>Breuil-Cervinia</strong>, una moderna stazione turistica ai piedi del Monte Cervino molto frequentata sia d'inverno sia d'estate, con tracciati adatti a tutti i livelli. Nei circa 90 km che si estendono tra nevai, morene e praterie si trovano anche itinerari adatti alle bici elettriche.",
+  "breuil cervinia3": "Il suo <b>comprensorio sciistico</b> uno dei più estesi delle Alpi, è collegato con le piste di Valtournanche e quelle svizzere di Zermatt, dove, sul ghiacciaio, è possibile sciare anche di estate.",
+  "breuil cervinia4": "Sugli sci o a piedi, con la dovuta attrezzatura e accompagnati da guede esperte, potete raggiungere la <b>Grotta di ghiaccio</b>, una delle meraviglie alpine. A <b>Plateau Rosà</b>, a 3.500 metri di sltitudine, visitate il museo \"Una montagna di lavoro\", osservando fotografie e attrezzature che raccontano l'impresa della costruzione delle finivie del Plateau Rosà e del Furggen.",
+  "breuil cervinia5": "In paese, invece, fermatevi per una sosta alla <b>Capanna Luigi Amedeo di Savoia</Link>, un tempo rifugio d'alta quota e ora museo dedicato alla storia dell'alpinismo.",
+  "breuil cervinia6": "Siete appassionati di golf? Presso il lago Layet, più noto come <b>Lago Blu del Cervino</b>, sovrastato dalla Gran Becca, potete giocare in campo a 18 busche, di oltre 5 km e tra i più alti d'Europa.",
+  "cervinia valtournenche": "Cervinia - Valtournenche",
+  "cervinia valtournenche1": "Un luogo da sogno per gli amanti dello sci alle falde del Cervino",
+  "cervinia valtournenche2": "È uno dei principali punti di riferimento in Italia per gli amanti dello sci: <b>Breuil-Cervinia</b>, frazione del comune valdostano di <strong>Valtournanche</strong>, sorge alle falde del Cervino a 2000 metri sul livello del mare e vanta uno dei comprensori sciistici più emozionanti di tutte le Alpi, il <b>Cervino Ski Paradise</b>.",
+  "cervinia valtournenche3": "La stagione invernale scatta già all'inizio di ottobre e si prptrae fino a maggio, offrendo a grandi e piccini la possibilità di trascorrere vacanze e brevi soggiorni tra 322 chilometridi piste per sci e snowboard e 51 impianti di risalita che vanno dai 1.500 ai 3899 metri di altitudine.",
+  "cervinia valtournenche4": "<strong>Valtournanche</strong> rimane un paradiso da scoprire anche durante la stagione estiva, con infinite possibilità di escursioni alla scoperta di borghi com <b>La Magdeleine</b> e gioelli naturalistici come il <Link href='/laghi/valle_d_aosta/lago_blu' title='Lago Blu' className='color_link'>Lago Blu</Link> alle porte di Cervinia, le <b>Marmitte dei Giganti</b> e le <b>Grotte delle Busserailles</b>, ma anche il lago di Maen e il lago Lod. Chi ama lo shopping e l'alta moda non può non farsi tentare dalle vie del centro storico di Breuil-Cervinia e Valtournanche, concedendosi qualche pausa per scoprire i cibi e vini della Valle d'Aosta.",
+  "cervinia valtournenche5": "Non dimenticate di passare da Motta di Pleté per scattare una foto seduti sulla <b>panchina gigante</b> più alta del mondo, a 2.860 metri di altitudine.",
+  "blue lake": "Lago Blu",
+  "blue lake1": "Lo specchio del Cervino",
+  "blue lake2": "Tra le cime della <Link href='/valle_d_aosta' title=\"Valle d'Aosta\" className='color_link'>Valle d'Aosta</Link>, a poso distanza da Cervinia, si trova un suggestivo specchio naturale. Il <strong>Lago Blu</strong> è inconfondibile grazie al suo caratteristico colore che varia tra il blu e il verde per via delle particolari alghe che crescono al suo interno. Nelle giornate limpide, nelle sue acque si specchia il <Link href='/montagna/valle_d_aosta/monte_cervino' title='Monte Cervino' className='color_link'>Monte Cervino</Link>, maestoso e imponente.",
+  "blue lake3": "I dintorni del lago hanno molto da offrire. Tra escursioni in mezzo alla natura e impianti sciistici, potete cimentarvi in numerose attività. Durante i mesi più caldi, le sponde del Lago Blu si rivelano il luogo ideale per un <b>picnic</b> all'aria aperta. Allontanandovi di poco, potrete raggiungere il <b>Lago Goillet</b>, da cui godere di una splendida visita su cime come il Colle del Teodulo, la Testa Grigia e la Dent d'Hérens.",
+  "blue lake4": "Non dimenticate, poi di gustare <b>specilità titpiche valdostane</b>: vivamente consigliata è la <b>polenta concia</b>, vera prelibatezza della regione, preparata con burro e formaggi.",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  "lazio": "Il Lazio è una regione ricchissima di testimonianze storiche, a partire da Roma.",
+  "index": "Indice",
+  "index lazio": "Origini e cenni storici sul Lazio",
+  "index lazio1": "Le città principali del Lazio",
+  "index lazio2": "Cosa vedere nel Lazio: 4 tappe dondamentali",
+  "index lazio3": "Prodotti tipici del Lazio: 6 delizie da essaporare",
+  "lazio1": "<b>Roma</b>, da quello che si ha lasciato e da quello che continua a rappresentare: ex capitale dell'Impero Romano, poi cuore della cristianità con la sua Piazza San Pietro e la sede pontificia.",
+  "lazio2": "Ma il <b>Lazio non è solo Roma</b>: è anche la terra di chiese storiche e abbazie sparse sul territorio, di grandi e piccoli centri storici e borghi suggestivi, delle vie consolari da Roma si dirigono a raggiera verso il resto d'Italia, attraversando il Lazio e i suo paesaggi.",
+  "lazio3": "L'area è davvero tutta da scoprire, tra laghi, monti, spiagge e la bella campagna all'ombra di antichi acquedotti o manieri.",
+  "lazio4": "Roma divenne presto una della città più importanti del mondo conosciuto. La vera espansione della città avvenne al tempo della Repubblica romana, periodo in cui i Romani conquistarono gran parte dell'Europa e del nord Africa, oltre a costruire importanti monumenti e produrre capolavori nel mondo delle arti.",
+  "lazio5": "Il periodo più florido arrivò con Augusto imperatore, che diede inizio all'<b>Impero Romano</b> e promesse l'arte e la cultura, mentre il Cristianesimo trasformò profondamente la struttura sociale a partire dell'Imperatore Costantino. Con la fine dell'Impero e le invasioni barbariche, Roma perse la sua centralità politica, ma rimase il centro spirituale d'Europa come residenza dei Papi e nucleo dello Stato dell Chiesa per un millennio esteso su buona parte dell'Italia centrale.",
+  "lazio6": "Con la fine del regno dei Papi, il potere passò al Regno d'Italia, di cui diventò presto capitale. Oggi è la capitale dell Repubblica italiana.",
+  "lazio7": "<Link href='/destinazioni/lazio/roma' className='color_link'>Roma</Link> è ovviamente la prima città del Lazio, meraviglia inclusa tra Patrimoni dell'Umanità UNESCO. Nella città eterna spiccano luoghi simbolo del mondo come la Città del Vaticano, la Basilica di San Pietro, i Musei Vaticani e la Cappella Sistina, gli acquedotti romani e la Fontana di Trevi.",
+  "lazio8": "Grazie alla vastità dei suoi siti archeologici, Roma è un mueso a cielo aperto: il <b>Foro Romano</b>, racchiuso tra il Palatino, il Campidoglio, Via dei <Link href='/visite/lazio/roma/fori_imperiali' className='color_link'>Fori Imperiali</Link> e il Colosseo, conserva i resti di edifici e monumeti che hanno fatto la storia della città.",
+  "lazio9": "Il <b>Colosseo</b>, in particolare, è iconico: è stato il più grande anfiteatro in cui si svolgevano i combattimenti tra gladiatori.",
+  "lazio10": "Quasi obbligatoria anche una visita al <b>Pantheon</b>, importante monumento religioso della Roma antica costruito ai tempi di Augusto e dedicato a tutte le divinità.",
+  "lazio11": "Vale la pena visitare <b>Villa Torlonia</b>, una storica villa romana in città, circondata da un enorme parco tra statue, fontane e un piccolo specchio d'acqua chiamato Lago del Fucino.",
+  "lazio12": "Imperdibile <b>l'Isola Tiberina</b>, nel cuore di Roma, sul Tevere. Un'isola urbana simbolo indiscusso della Capitale che custodisce testimonianze di ogni epoca, dai ponti di età romana alle chiese rinascimentali.",
+  "lazio13": "Allontanandosi un poco dalla città eterna verrete catturati dal fascino medievale e pittoresco del centro di <b>Viterbo</b>, che rimanda al 1200, in cui la città fu la sede dei Papi. Ricca di munumenti, ospitò il primo e più lungo conclave della storia della Chiesa e ancora oggi è ricca di interessanti chiese, palazzi storici, castelli, torri e ballissime piazze.",
+  "lazio14": "<b>Frosinone</b> è una città nella stessa provincia della ciociaria e ha origini antiche, con un travagliato passato di terremoti e saccheggi e alcune testimonianze storiche di grandissima importanza.",
+  "lazio15": "<b>Latina</b> è stata edificata durante il fascismo in quella che una volta era la palude pontina ed è caratterizzata da un'interessante architettura razionalista, ma anche da una provincia ricca di attrattive: le Isole Pontine, i laghi costieri e il Parco Nazionale Circeo. Poco fuori città, imperdibile è il <Link href='/natura/lazio/giardini_di_ninfa' className='color_link'>Giardini di Ninfa</Link> monumento naturale della Repubblica. Si tratta di uno spendido giardino all'inglese dell'aspetto romantico realizzato da Gelasio Caetani nel 1921.",
+  "lazio16": "<b>Rieti</b> è una città antica con dintorini ricchi di borghi interessanti, ma anche un paesaggio e un patrimonio storico inuci nel loro genere.",
+  "lazio17": "Oltre alle città principali, il Lazio offre tantissime attrattive. La prima è <Link href='/destinazioni/lazio/viterbo/civita_di_bagnoregio' className='color_link'>Civita di Bagnoregio</Link>, luogo incantevole nel viterbese, definita la \"città che muore\" a causa della precarità della sua struttura: è posta su uno sperone tufaceo in continua erosione. Si può raggiungere in auto in circa due ore da Roma.",
+  "lazio18": "Un'immersione nella natura è garantita sul <Link href='/laghi/lazio/lago_di_bracciano' className='color_link'>Lago di Bracciano</Link>, a circa un'ora d'auto dal centro, il lago di origini vulvaniche è popolato fin dal Neolitico, con un paesaggio da cartolina reso unico da boschi, borghi storici, dolci colline e casolari.",
+  "lazio19": "Gli amanti del trakking devono appuntarsi i <b>Monti Lepini</b> che costituiscono insieme ai Monti Ausoni e Aurunci la catena montuosa più vasta del Lazio, raggiungibili in circa un'ora e mezza d'auto. Piuttosto selvaggi, offrono molti itinerari nella natura. La vista è mozzafiato, ma, se non volete spostarvi stroppo dalla capitale, dei bei percosi a piedi si trovano anche sui <b>Colli Albani</b>. Ci troviamo nella zona dei <Link href='/visite/lazio/castelli_romani' className='color_link'>Castelli Romani</Link>, dove trovare tanti sentieri da percorrere e attività da provare. Il punto di partenza più rinomato è <b>Rocca di Papa</b> mentre la cima più famosa dei Colli Albani è il Monte Cavo, alto quasi 1000 metri, un vulcano ormai spento di 10.000 anni.",
+  "lazio20": "L'<Link href='/isole/lazio/isola_di_ponza' className='color_link'>Isola di Ponza</Link> è una meta glamour per gli amanti del mare: è la principale tra le isole Pontine e sfoggia un mare cristallino, coste sabbiose e affascinanti grotte. È raggiungibile in un'ora di treno da Roma fino al porto di Anzio, e da lì un comodo traghetto raggiunge il bel porticciolo.",
+  "lazio21": "La cucina laziale è nota per i suoi particolari formati di pasta come i <b>bucatini</b>, grossi spaghetti forati di grano duro, che conquistano il palato con qualsiasi condimento, e i <b>capelli d'angelo</b>, tagliilini molto fini usati per brodi e minestre.",
+  "lazio22": "Tra le golosità spicca il <b>pecorino romano</b>, un formaggio e pasta dura ottenuto dal latte intero di pecora di razza sarda, e la <b>porchetta di Ariccia</b>, a base di carne suina cotta, dalla consistenza tenera.",
+  "lazio23": "Tra i prodotti tipici romani troviamo il <b>carciofo ramanesco</b>, senza spine e privo di pelutia interna, dal sapore intenso e dolce e <b>l'oliva di Gaeta</b>, leggermente affusolata e dal sapore aromatico.",
+  "st peter's basilica": "La Basilica di San Pietro",
+  "vatican museums": "Musei Vaticani",
+  "aqueducts park": "Parco degli Acquedotti",
+  "trevi fountain": "Fontana di Trevi",
+  "roman forum": "Foro Romano",
+  "palatine": "Palatino",
+  "capitol square": "Piazza del Campidoglio",
+  "imperial forums street": "Via dei Fori Imperiali",
+  "colosseum": "Colosseo",
+  "pantheon": "Pantheon",
+  "tiber island": "Isola Tiberina",
+  "viterbo": "Viterbo",
+  "frosinone": "Frosinone",
+  "latin": "Latina",
+  "pontine islands": "Isole Ponziane",
+  "circeo national park": "Parco Nazionale del Circeo",
+  
+  "rieti": "Rieti",
+  "lazio rome": "Lazio, Roma",
+  "city of bagnoregio": "Civita di Bagnoregio",
+  "ponza island": "Isola di Ponza",
+  "lake bracciano": "Lago di Bracciano",
+  "pose's rock": "Rocca di Papa",
+
+  "rome": "Roma",
+  "rome1": "Storia, monumenti, bellezza fanno di Roma un'esperienza che può cambiare la vita.",
+  "index rome": "Storia e curiosità su Roma",
+  "index rome1": "Cosa vedere a Roma: 11 luoghi iconici da non perdere",
+  "index rome2": "Cosa fare a Roma: 7 propeste tra cultura, sport e shopping",
+  "index rome3": "Cosa mangiare a Roma 6 piatti che sanno di tradizione",
+  "index rome4": "Luoghi insoliti di Roma: 6 gioelli (semi) nascoscti",
+  "rome2": "Il centro sfogia luoghi-mito come il <b>Colosseo</b>, i <b>Fori Imperiali</b>, il <b>Pantheon</b> o la <b>Fontana</b>, ma anche quartieri pieni di fascino, dove si respira la vera romanità, fatta di cultura locale e buona cucina. Senza dimenticare che Roma ha <b>il Vaticano</b> e <b>Piazza San Pietro</b>, tra le mete religiose più frequentate del mondo.",
+  "rome3": "Secondo la tradizione, Roma venne fondata il 21 aprile 753 a.C. da Romolo. Una serie di guerre e <b>conquiste</b> portarono nel 27 a.C. ala fondazione dell'<b>Impero romano</b>. nel 395 fu diviso in due parti: l'Impero romano d'Occidente, che terminò nel 476, w quello d 'Oriente, che durò fino al 1453. Roma tornò ad essere al mentro del mondo durante il <b>Rinascimento</b>, ovvero tra gli anni quaranta del 1400 e la prima metà del 1500, diventando fucina di talenti come Michelangelo e Raffaello. Tra le opere realizzate in quel periodo spiccano la nuova <Link href='/visite/lazio/roma/basilica_di_san_pietro_e_la_cappella_sistina' className='color_link'>Basilica di San Pietro e la Cappella Sistina</Link>. Purtroppo diversi edifici rinascimentali vennero abbattuti nel <b>1900</b>, durante il ventennio fascista, per via della rivoluzione urbanistica voluta da Benito Mussolini. Nel 1946, finita la seconda guerra mondiale, Roma divenne Capitale della Repubblica Italiana e cominciò a rifiorire.",
+  "rome4": "Una volta arrivati a <strong>Roma</strong> si rischia di entrare in crisi: a ogni angolo ci sono attrazioni da lasciare senza fiato.",
+  "rome5": "<b>La Roma archeologica</b>: uno dei simboli della Capitale è <b>il Colosseo</b>, il più grande e famoso anfiteatro romano del mondo costruito tra il 70 e l'80 d. C., teatro do lotte fra gladiatori, ma anche di giochi e spettacoli circensi. Un tuffo nel passato ce lo regalano anche i <Link href='/visite/lazio/roma/fori_imperiali' className='color_link'>Fori Imperiali</Link>, rovine di cinque piazze monmentali costruite tra il 46 a.C. e il 113 d.C. Una volta qui, allungatevi fino a <b>Piazza Venezia</b> situata ai piedi del Campidoglio. E che dire dell'<b>Ara Pacis</b> Augustae o Altare della Pace? Costruita per celebrare il ritorno di Augusto dalla sua campagne in Spagna e in Gallia, la struttuara in marmo è un capolavoro della scultura romana Oggi, l'altare è custrodito in un museo.",
+  "rome6": "<b>Roma e le sue fontane</b>: tappa obbligatoria per chi ama le sculture e i gochi d'acqua è la <b>Fontana di Trevi</b>, dove è di rito il lancio della monetina a occhi chiusi e di spalle, con ;a mano destra verso il lato sinistro. E non può mancare <b>Piazza navona</b> con la spettacoloare Fontana dei Quattro Fiumi.",
+  "rome7": "<b>Roma e le sue piazze</b>: è piacevolissimo perdersi nelle grandi piazze della città, come <b>Piazza di Spagna</b>, impreziosita della suggestiva Scalinata di Trinità dei Monti con i suoi 130 gradini. Poi c'è <b>Piazza San Pietro</b>, meta di pelligrinaggio dei fedeli cattolici provenienti da tutto il mondo.",
+  "rome8": "<b>Roma e la spiritualità</b>: il Vaticano è casa del Papa, ma anche dell'arte con la A minuscola. I <b>Musei Vaticani</b> regalano un percorso artistico unico al mondo, con gli appartamenti papali affrescati da Michelangelo e Raffaello e la <b>Cappella Sisitina</b>, dove si può ammirare il \"Giudizio universale\" di Michelangelo. C'è inoltre il <b>Pantheon</b>, tempio dedicato alle divinità classiche poi convertito in basilica crestiana.",
+  "rome9": "<b>Roma tra passato e presente</b>: glia appassionati d'arte non possono evitare <b>Villa Borghese</b>dato che la sua <b>Galleria Borghese</b> ospita opere di artisti come Gian Lorenzo Bernini, Antonio Canova, Caravaggio, Raffaello, Tiziano. Poi vale la pena salire al <b>Quirinale</b>, un tempo dimora ufficiale dei re d'Italia e oggi dei presidenti della Repubblica. Se riuscire, raggiungete anche l'<b>EUR</b>, il quatiere fatto costruito negli anni trenta per l'Esposizione Universale prevista a Roma.",
+  "rome10": "Quando si è a <strong>Roma</strong> viene spontaneo dedicarsi a <b>musei</b> e <b>siti archeologici</b>, però la città offre anche altre <b>cose da fare</b>. Una buona idea potrebbe essere una <b>passeggiata a cavallo</b>: tra gli itinerari imperdibili (anche a piedi) c'è quello sull'Appia Antica, che permette di immerrgersi nella natura e al tempo stesso scoprire le meraviglie archeologiche disseminate lungo il percorso.",
+  "rome11": "In alternativa si può prendere un battello turistico e fare una <b>gita sul Tevere</b> e anche in questo caso ci sono più itinerari, della Foce del Tevere a Ostia Antica.",
+  "rome12": "Può valere il viaggio una passeggiata a <b>Villa Borghese</b>, 80 ettari di natura, monumenti e vari spunti culturali. Chi vuole invece dedicarsi allo <b>shopping</b> può calarsi nella tradizione del <b>mercato di Campo de' Fiori</b> o nel glamour di via dei <b>Condotti</b> e <b>via del Corso</b>.",
+  "rome13": "Da non trascurare è naturalmente l'aspetto culinario. La <Link href='/food/lazio/cucina_laziale' className='color_link'>cucina laziale</Link> e romana è caratterizzata da sapori forti e decisi. Ecco qualche suggerimento su <b>cosa mangiare a Roma</b>:",
+  "rome14": "Un primo come la ,b.Pasta alla carbonara</b., a base di uova, guanciale e pecorino romano, è quasi il piatto ufficiale della città. In alternativa si possono gustare i <b>Bucatini all'amatriciana</b>, pasta condita con guanciale, pomodori pelati e pecorino romano. Un piatto che può mwttere d'accordo tutti sono gli <b>Gnocchi alla romana</b>, fatti con un impasto a base di semolino.",
+  "rome15": "Se invece si vuole puntare su un secondo di carne, si può partire dai <b>Saltimbocca alla romana</b> (preparati con fettine di vitello rivestite di prociutto crudo e salvia) e apprdare alla <b>Coda alla vaccinara</b> (coda di bovino stufata e condita con verdure varie). Da non dimenticare la <b>Trippa alla romana</b>, nota anche nella versione della mitica Sora Lella, che aggiungeva ingredienti come la mente e il pecorino romano.",
+  "rome16": "C'è poi una <strong>Roma</strong> poco conosciuta ed estremamente affascinate. È quella dei <b>luoghi insoliti</b>.",
+  "rome17": "Tra i più caratteristici c'è il <b>Quartiere Coppedé</b>, un cmplesso di edifici nel quartiere Trieste, in cui si mischiano generi architettonici diversi, dal gotico al barocco, dal Liberty all'Art Decò.",
+  "rome18": "Nel rione Monti si trova invece la <b>Basilica di San Pietro in Vincoli</b>, all'interno della quale è custodita la tomba di Giulio II e dove si può ammirare il \"Mosé\", la celebre scultura di Michelangelo.",
+  "rome19": "Uno dei luoghi più suggestivi della Capitale è sicuramente il <b>Giardino degli aranci</b>, in cima al colle Aventino, con una vista spettacolare sulla città. Da cisitare anche il <b>Cimitero avattolico di</b> <strong>Roma</strong> (nel rione Testaccio), il Ghetto ebraico, tra i più antichi al mondo, e la <b>Cripta dei Cappuccini</b>, nei pressi di Piazza Barberini.",
+  "sistine chapel": "Cappella Sisitina",
+  "venice square": "Piazza Venezia",
+  "ara pacis museum": "Museo dell'Ara Pacis",
+  "navona square": "Piazza Navona",
+  "spanish steps": "Piazza di Spagna",
+  "villa borghese": "Villa Borghese",
+  "eur": "Eur",
+  "ancient appian way": "Via Appia Antica",
+  "ostia beach": "Lido di Ostia",
+  "lazio ostia lido": "Lazio, Ostia Lido",
+  "field of flowers": "Campo de' Fiori",
+  "the street of the course": "Via del Corso",
+  "basilica of st. peter in chains": "Basilica di San Pietro in Vincoli",
+  "orange garden": "Giardino degli Aranci",
+  "non catholic cemetery": "Cimitero Acattolico",
+
+  "to see": "Da vedere",
+  "imperial fora": "Fori Imperiali",
+  "imperial fora1": "Un'immersione nel cuore della vita politica, economica e religiosa di Roma antica.",
+  "index imperial fora": "Foro di Cesare", 
+  "index imperial fora1": "Foro di Augusto",
+  "index imperial fora2": "Il Tempio della Pace",
+  "index imperial fora3": "Foro di Nerva",
+  "index imperial fora4": "Foro di Traiano",
+  "imperial fora2": "I Fori Imperiali di <b>Roma</b> raccolgono una serie di <b>piazze monumentali</b> edificate tre il 46 a.C e il 113 d.C. Vengono considerati il centro dell'attività politica di Roma antica, un luogo che nel corso dei secoli si è arricchito di strutture ed edifici.",
+  "imperial fora3": "La prima struttura che si incontra in questo sontuoso complesso è il <b>Foro di Cesare</b>. Questa piazza, voluta da <b>Giulio Cesare</b> per motivi propagandistici, fu inaugurata nel 46 a.C. e terminata dall'imperatore Ottaviano Augusto. La piazza presenta due portici sul lato est e ovest mentre in fondo troneggia il tempio dedicato a Venere Genitrice. Il terreno sul quale fu edificata la struttura fu acquistato direttamente da Cesare; il foro venne accostato alle strutture del vecchio centro politico per attribuirgli maggiore visibilità e prestigio.",
+  "imperial fora4": "Proseguendo nel nostro itinerario incontriamo il <b>Foro di Augusto</b>. Fu realizzato per volere il <b>Ottaviano Augusto</b> unitamente al <b>tempio di Marte Ultore</b> (dal lat. ultorvendicatore). Il tempio era stato promesso dall'imperatore in voto al dio in occasione della vittoria nnella battaglia di Filippi (42 a.C.). Fu tuttavia inaugurato solo 40 annii dopo e inserito in una seconda piazza monumentale, intitolata appunto ad Augusto. La pianta del foro è ortogonale; sul versante nord si ergeva il tempio di Marte, appoggiato ad un muro (ancora oggi visibile) che divideva il foro del quartiere popolare della Suburra. Il foro è alternato da ampie esedre destinate a ospitare le attività dei tribunali e ad arricchire l'area vi erano statue ispirate alla storia di Roma, ai membri della gens Giulia, a Enea e Romolo.",
+  "imperial fora5": "È il 75 d.C. Vespasiano ha appena conquistato Gerusalemme. Tra il Foro di Augusto e quelo di Cesare sorge uno spazio dedicato all'immperatore, inizialmente non compreso all'interno dei Firi, conosciuto come <b>Tempio della Pace</b>. Questo luogo a pianta quadrata aveva le sembrianze di un giardino-museo, con vasche d'acqua e basamenti per le statue. L'area, distrutta da un incendio, fu ricostruita durante l'epoca severiana (III sec. d.C.) per ospitare la <b>Forma Urbis Severiana</b>, una pianta di Roma antica incisa su lastre di marmo giunte a noi solo in parte.",
+  "imperial fora6": "Fu Domiziano a realizzare una piazza per unificare lo spazio rimasto libero tra il Tempio della Pace e i Fari di Cesare e di Augusto. L'imperatore non riesci a inaugurare la propria opera, morì nel 96 d. C., lasciando il trono a Nerva. Nacque così il <b>Foro di Nerva</b> con annesso il <b>tempio di Minerva</b>, protettrice dell'imperatore. Il foro prese inoltre l'attributo di \"transitorio\" per la sua funzione di passaggio.",
+  "imperial fora7": "I lavori iniziati da Domiziano furono in parte continuati da Traiano, al quale è intitolato il quato Foro. La piazza venica utilizzata per accogliere accampamenti militari e, in minima parte, per lo svolgimeto delle attivtià forensi. Alle sue spalle sorge ancora oggi la <b>Colonna di Traiano</b> che racconta le gesta dell'imperatore nella guerra contro i Daci. All'edificazione del Foro seguirono la realizzazione della <b>Basilica Argentaria</b>, dei <b>Mercati Traianei</b> e la ricostruzione del <tempio di Venere Genitrice</b>. Si giunge infine alla <b>Basilica Ulpia</b>, la più grande del periodo romano, costruita su progetto di Apollodoro di Damasco tra il 106 e il 113 d.C. ed inserita nel Foro Traianeo. Lo spazio aveva funzioni forensi e commerciali ma era anche luogo della cosiddetta manomissione (dal lat. manumissio - condono, affrancamento), ossia l'atto pubblico di liberazione di uno schiavo da parte del padrone.",
+
+
+  "garden of ninfa": "Giardino di Ninfa",
+  "garden of ninfa1": "Immergiti nella bellezza del giardino più romantico del mondo.",
+  "garden of ninfa2": "Il <strong>Giardino di Ninfa</strong>,  realizzato sui ruderi della città medievale di Ninfa, nell’agro pontino, vicino a Latina, è stato classificato dal New York Times tra <bi più belli e romantici giardini del mondo</b>. Dichiarato <b>Monumento Naturale dalla Regione Lazio</b>, il giardino, dato il delicatissimo equilibrio ambientale, si può vedere solo in alcuni giorni dell’anno, ma la bellezza di questo luogo merita assolutamente una visita.",
+  "garden of ninfa3": "Il nome <b>Ninfa</b> deriva da un tempietto di epoca romana, dedicato alle <b>Ninfe Naiadi</b>,divinità delle acque sorgive, situato nell’attuale giardino. Nel XIV secolo, la città di Ninfa fu distrutta e dal XVI secolo diversi esponenti della famiglia <b>Caetani</b> presente nel territorio pontino e lepino da molti secoli, decise di creare un giardino con <b>pregiate varietà botaniche, polle d’acqua</b> e <b>fontane</b>. Tuttavia, solo nell’Ottocento Ada Bootle Wilbraham, moglie di Onoraro Caetani, e i suoi figli realizzarono un vero e proprio <b>giardino in stile anglosassone</b>, bonificando le paludi, piantando cipressi, lecci, faggi, e restaurando alcune rovine, fra cui il palazzo baronale. La cura del giardino fu continuata dai discendenti della famiglia Caetani, fino all’ultima erede, Lelia, che ha aggiunto diverse specie botaniche e ha istituito la <b>Fondazione Roffredo Caetani</b> che tutt’oggi si occupa della tutela del giardino di Ninfa e del castello di <b>Sermoneta</b>. Negli otto ettari di paesaggio sono presenti <b>1300 specie botaniche</b>. Si possono ammirare diciannove varietà di magnolia decidua, betulla, iris d'acqua e diversi aceri giapponesi. Spettacolari sono anche i ciliegi ornamentali che fioriscono in primavera, i meli e l'albero dei tulipani. Ci sono molte varietà di rose che si arrampicano sugli alberi e sulle rovine lungo il fiume e i ruscelli, rendendo questo luogo particolarmente romantico. Si possono ammirare anche <b>piante tropicali</b> come l'avocado, la Gunnera manicata sudamericana e i banani.",
+
+  "caetani castle of sermoneta": "Castello Caetani di Sermoneta",
+  "sermoneta": "Sermoneta",
+  "lazio sermoneta": "Lazio, Sermoneta",
+  
+  "trajan's markets museum of the imperial forums": "Mercati di Traiano Museo dei Fori Imperiali"
 }
   
