@@ -2,23 +2,41 @@
     "search": [
         {
             "id": "1",
-            "title": "Aosta Valley",
-            "url": "http://127.0.0.1:8000/aosta_valley"
+            "title": "Lazio",
+            "url": "http://127.0.0.1:8000/lazio"
+        }
+    ],
+
+    "tendenze": [
+        {
+          "id": "1",
+          "name": "Parco Archeologico del Colosseo",
+          "url": "http://127.0.0.1:8000/musei/lazio/colosseo",
+          "img": "http://media.beniculturali.it/mibac/files/boards/be78e33bc8ca0c99bff70aa174035096/Luoghi/Parco%20archeologico%20del%20Colosseo%20-%20Colosseo.%20Anfiteatro%20Flavio.jpg",
+          "visitatori": 14733395
         },
         {
-            "id": "2",
-            "title": "Aosta",
-            "url": "http://127.0.0.1:8000/destinations/aosta_valley/aosta"
+          "id": "2",
+          "name": "Galleria degli uffizzi",
+          "url": "http://127.0.0.1:8000/musei/toscana/firenze/uffizi_firenze",
+          "img": "http://media.beniculturali.it/mibac/files/boards/be78e33bc8ca0c99bff70aa174035096/Luoghi/23_Firenze-Uffizi.jpg",
+          "visitatori": 5294968
         },
         {
             "id": "3",
-            "title": "Arch of Augustus",
-            "url": "http://127.0.0.1:8000/views/aosta_valley/aosta/arch_of_augustus"
+            "name": "Il Parco Archeoloco di Pompei",
+            "url": "http://127.0.0.1:8000/musei/campania/pompei",
+            "img": "http://media.beniculturali.it/mibac/files/boards/f9ce94e04b805dba7e51aa3df1b2f11a/Pompei%20nuove%20foto/Pompei%20-%20Foro%20%20©Silvia%20Vacca%20(2).jpg",
+            "visitatori": 4267233
         },
         {
             "id": "4",
-            "title": "Via Francigena",
-            "url": "http://127.0.0.1:8000/views/aosta_valley/aosta/via_francigena"
+            "name": "Il Parco Archeoloco di Pompei",
+            "url": "http://127.0.0.1:8000/musei/lazio/roma/bocca_della_verità",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Et%C3%A0_imperiale%2C_chiusino_a_forma_di_mascherone_di_divinit%C3%A0_fluviale%2C_detta_bocca_della_verit%C3%A0%2C_collocata_qui_nel_1632.jpg",
+            "visitatori": 42672331
         }
     ]
+      
+      
   }

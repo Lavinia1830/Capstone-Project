@@ -14,6 +14,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+use Illuminate\Support\Facades\File;
+
+Route::get('/tendenze', function () {
+    $json = json_decode(File::get(base_path('db.json')), true);
+    return response()->json($json['tendenze']);
+});
+
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
