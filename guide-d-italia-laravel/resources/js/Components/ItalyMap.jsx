@@ -1,10 +1,8 @@
 
 import React from 'react';
-import MappaItaly from '../../assets/italy-map.png';
+import MappaItaly from '../../assets/map-italy.png';
 import { useTranslation } from 'react-i18next';
 import '../../css/app.css';
-import Marche from '@/Pages/Marche';
-import Campania from '@/Pages/Campania';
 
 export default function ItalyMap() {
   const { i18n,t } = useTranslation();
@@ -34,7 +32,6 @@ export default function ItalyMap() {
   return (
     <>
       <main>
-        <h1 className='mt-1 text-center'>{t('region to visit')}</h1>
         <div className="map-container d-flex justify-content-center align-items-center">
           <img id="italy-map-smartphone" className='map-smartphone' src={MappaItaly} width="300" height="375" useMap="#imgmap202422792115" alt="Mappa dell'Italia" />
           <map id="imgmap202422792115" name="imgmap202422792115">

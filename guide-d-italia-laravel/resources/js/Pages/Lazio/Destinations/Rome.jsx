@@ -128,7 +128,7 @@ export default function Rome(props) {
                         <p className='categories' style={{ position: 'absolute', bottom: 10, left: 20 }}>{t("city")}</p>
                     </div>
                     <div className="body">
-                        <p className='mt-2 text-center'>{t("lazio")}</p>
+                        <p className='mt-2 text-center'>{t("rome1")}</p>
                         <div>
                             <h4 className='text-center'>{t("index")}</h4>
                             <ul className='text-center'>

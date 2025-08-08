@@ -24,7 +24,6 @@ class Kernel extends HttpKernel
         \App\Http\Middleware\SetLocale::class,
     ];
 
-
     /**
      * The application's route middleware groups.
      *
@@ -69,5 +68,4 @@ class Kernel extends HttpKernel
         'verified' => \Illuminate\Auth\Middleware\EnsureEmailIsVerified::class,
     ];
 
-    
 }
