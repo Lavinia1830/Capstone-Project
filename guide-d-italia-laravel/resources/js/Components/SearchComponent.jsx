@@ -68,7 +68,7 @@ export default function CercaComponent() {
               onChange={handleChange}
             />
             <button
-              className="btn btn-outline-success my-2 my-sm-0 me-3 text-white"
+              className="btn my-2 my-sm-0 me-3 text-white"
               type="submit"
               id="searchsubmit"
             >

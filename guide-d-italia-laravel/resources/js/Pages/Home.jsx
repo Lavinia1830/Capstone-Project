@@ -9,23 +9,19 @@ import { useTranslation } from 'react-i18next';
 const apiUrl = 'http://localhost:3000/';
 
 export default function Home(props) {
-
     const { t } = useTranslation();
-
 
     const [query, setQuery] = useState('');
     const [searchResults, setSearchResults] = useState([]);
     const [error, setError] = useState(null);
-    const [searched, setSearched] = useState(false); // Nuovo stato per tenere traccia se la ricerca è stata eseguita
+    const [searched, setSearched] = useState(false);
 
     useEffect(() => {
         getAllSearch();
     }, []);
 
     const getAllSearch = () => {
-        fetch(apiUrl + 'search', {
-            method: "GET"
-        })
+        fetch(apiUrl + 'search', { method: "GET" })
             .then(response => response.json())
             .then(data => {
                 setSearchResults(data);
@@ -43,30 +39,26 @@ export default function Home(props) {
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        // Esegui la ricerca solo se è stata inserita una query
         if (query.trim() !== '') {
-            // Filtra i risultati in base alla query
             const filteredResults = searchResults.filter(result =>
                 result.title.toLowerCase().includes(query.toLowerCase())
             );
             setSearchResults(filteredResults);
             setError('');
-            setSearched(true); // Imposta searched a true dopo aver eseguito la ricerca
+            setSearched(true);
         } else {
             setError('Inserisci un termine di ricerca valido.');
         }
     };
 
-    
-
     return (
         <>
-            <Head title={t("Home")}/>
+            <Head title={t("Home")} />
             <AuthenticatedLayout
                 auth={props.auth}
                 errors={props.errors}
             >
-                <div className="bg-green-50 text-green-900">
+                <div className="text-green-900" style={{ marginTop: "60px" }}>
                     <main className="p-8 grid lg:grid-cols-2 gap-6">
                         <section>
                             <h2 className=" font-bold mb-4">{t("home1")}</h2>
@@ -92,9 +84,7 @@ export default function Home(props) {
                                     </div>
                                 </form>
                             </div>
-                            {/* Qui aggiungi il codice per mostrare i risultati della ricerca e gestire gli errori */}
                             {error && <div className="alert alert-danger" role="alert">{error}</div>}
-                            {/* Visualizza i risultati solo se la ricerca è stata eseguita */}
                             {searched && (
                                 <>
                                     {searchResults.length > 0 ? (
@@ -118,14 +108,12 @@ export default function Home(props) {
                             </div>
                         </section>
 
-                    <TrendingMuseums/>
-
+                        <TrendingMuseums />
                     </main>
 
                     <Footer />
                 </div>
             </AuthenticatedLayout>
         </>
-
     );
 }

@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Link } from '@inertiajs/react';
 import { NavDropdown, Dropdown } from 'react-bootstrap';
 import ResponsiveNavLink from '@/Components/ResponsiveNavLink';
@@ -16,18 +16,38 @@ export default function AuthenticatedLayout({ auth, children }) {
     const login = locale === 'en' ? '/login' : '/accedi';
     const register = locale === 'en' ? '/register' : '/registrati';
 
+    const [show, setShow] = useState(true);
+    let lastScrollTop = 0;
+
+    useEffect(() => {
+        const handleScroll = () => {
+          const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+          if (scrollTop > lastScrollTop) {
+            // Scroll giù → nascondo
+            setShow(false);
+          } else {
+            // Scroll su → mostro
+            setShow(true);
+          }
+          lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // evita valori negativi
+        };
+    
+        window.addEventListener("scroll", handleScroll);
+        return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
     return (
         <div>
-            <nav className="bg-navbar border-b border-gray-100">
-                <div className=" px-4 sm:px-6 lg:px-8">
+            <nav className="bg-navbar border-b fixed-top shadow " style={{ top: show ? "0" : "-70px", transition: "top 0.4s" }}>
+                <div className="pnavbar sm:px-6 lg:px-8">
                     <div className="flex justify-between h-16">
-                        <div className="flex">
+                        <div className="flex" >
                             <div className="shrink-0 flex items-center">
                                 <Link href="/" className='text-dark'>
                                     <ApplicationLogo/>
                                 </Link>
                             </div>
-                            <div className="flex items-center hidden space-x-8 lg:-my-px lg:ml-10 lg:flex">
+                            <div className="flex items-center hidden space-x-8 lg:-my-px lg:ml-2 lg:flex ">
                                 <NavDropdown title={t("regions")} className='text-dark' style={{ marginTop: '3px'}} id="basic-nav-dropdown">
                                     <NavDropdown.Item>
                                         <NavLink className='color_link' href="/abruzzo">Abruzzo</NavLink>
@@ -113,11 +133,6 @@ export default function AuthenticatedLayout({ auth, children }) {
                                 <NavDropdown title={t("events")} className='text-dark' style={{ marginTop: '3px'}} id="basic-nav-dropdown">
                                     <NavDropdown.Item>
                                         <NavLink className='color_link' href="/events">Eventi</NavLink>
-                                    </NavDropdown.Item>
-                                </NavDropdown>
-                                <NavDropdown title={t("favorite")} className='text-dark' style={{ marginTop: '3px'}} id="basic-nav-dropdown">
-                                    <NavDropdown.Item>
-                                        <NavLink className='color_link' href="/favorite">Priferiti</NavLink>
                                     </NavDropdown.Item>
                                 </NavDropdown>
                             </div>
@@ -276,12 +291,6 @@ export default function AuthenticatedLayout({ auth, children }) {
                         <div className="ms-3">
                             <NavDropdown.Item>
                                 <NavLink className='color_link' href="/events">Eventi</NavLink>
-                            </NavDropdown.Item>
-                        </div>
-                        <h6 className='ms-1 fw-bold text-dark'>{t("favorite")}</h6>
-                        <div className="ms-3">
-                            <NavDropdown.Item>
-                                <NavLink className='color_link' href="/favorite">Priferiti</NavLink>
                             </NavDropdown.Item>
                         </div>
                     </div>

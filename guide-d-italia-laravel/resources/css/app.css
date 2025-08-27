@@ -3,113 +3,278 @@
 @tailwind utilities;
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html, body {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden; /* Prevents side-scrolling */
-  }
-  
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  /* Prevents side-scrolling */
+}
+
+.mparagraph {
+  margin: 5px 50px;
+}
+
+/*Start Welcome*/
+
+.login-page, .bg-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* Imposta l'altezza della pagina di login per coprire l'intera altezza della viewport */
+  background: url('../assets/Sfondo_access.jpeg') center/cover no-repeat;
+  background-size: cover;
+}
+
+.login-form {
+  padding: 40px !important;
+  border-radius: 10px;
+  background-color: rgba(33, 107, 90, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 8px;
+  z-index: 1000;
+}
+
+.login-form h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #56282d;
+}
+
+/*End Welcome*/
 
 /*Start Collective*/
-    .color_link {
-        color: #BDC667;
-        text-decoration: none !important;
-        border-bottom: none;
-        width: 100%;
-    }
+.color_link {
+  color: #BDC667;
+  text-decoration: none !important;
+  border-bottom: none;
+  width: 100%;
+}
 
-    .color_link:hover {
-        text-decoration: underline !important;
-        color: #000 !important;
-        border-bottom: none;
-    }
+.color_link:hover {
+  text-decoration: underline !important;
+  color: #000 !important;
+  border-bottom: none;
+}
+
+.color_subtitle {
+  color: #13a600;
+}
+
+.btn-register,
+.btn-login,
+.btn-confpassword,
+.btn-forpassword,
+.btn-resetpassword,
+.btn-verifyemail,
+.btn-upiform,
+.btn-upform {
+  display: inline;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #25612C;
+  /* Verde */
+  color: white;
+  transition: background-color 1s ease !important;
+  transition: color 1s ease !important;
+}
+
+.btn-registrati:hover,
+.btn-accedi:hover,
+.btn-confpassword:hover,
+.btn-forpassword:hover,
+.btn-resetpassword:hover,
+.btn-verifyemail:hover,
+.btn-upiform:hover,
+.btn-upform:hover,
+.btn-upform:hover {
+  background-color: #77966d !important;
+}
+
 /*End Collective*/
 
 /*Start AuthenticatedLayout*/
-    .bg-navbar{
-        background-color: #25612C;
-        border-bottom: 0;
-    }
-    .link{
-        text-decoration: none !important;
-    }
-  
-    .logo{
-        width: 60px;
-    }
-  
-/*End AuthenticatedLayout*/
+
+.bg-navbar {
+  background-color: #fff;
+  border-bottom: 0;
+}
+
+.logo {
+  width: 60px;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  transition: transform 0.3s ease-in-out;
+}
+
+
+
+/* End AuthenticatedLayout */
 
 /*Start Lazio*/
-    .lazio{
-        background-color: #25612C;
-        padding: 60px 0;
+
+  .lazio {
+    background-color: #00a113;
+    padding: 60px 0;
+    margin-top: 60px;
+  }
+
+  .lazio h1 {
+    color: #fff;
+    margin: 0 !important;
+  }
+
+  #navbarLazio {
+    width: 100%;
+    background-color: transparent;
+    padding: 15px 20px;
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    transition: background-color 0.3s, padding 0.3s, box-shadow 0.3s;
+  }
+
+  #navbarLazio.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 8px 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+  }
+
+  #navbarLazio ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 30px;
+  }
+
+  .card{
+    height: 400px;
+    width: 340px;
+  }
+
+  .card-img{ 
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+  }
+
+  .card .card-title{
+    font-size: 20px;
+    margin: 10px 50px;
+  }
+
+
+  
+
+  /*Bassa di scrorrimento*/
+  /* ::-webkit-scrollbar { width: 8px; }
+    ::-webkit-scrollbar-thumb { background: #00a113; border-radius: 4px; } */
+
+  /* Start Rome */
+
+    .rome {
+      background-color: #25612C;
+      padding: 60px 0;
     }
-    .lazio h1{
-        color: #fff;
-        margin: 0 !important;
+
+    .rome h1 {
+      color: #fff;
+      margin: 0 !important;
     }
+
+
+
+  /* End Rome */
+
 /*End Lazio*/
 
-/*Strat Footer*/
-  .bg-footer{
-    background-color: #25612C;
+/* Strat Footer */
+
+  .bg-footer {
+    background-color: #00a113;
   }
+
 /*End Footer*/
 
-/*End Collective*/
-
-/*Start Media Query Smartphone*/
-@media screen and (max-width: 440px) {
+/* Start Media Query Smartphone */
+  @media screen and (max-width: 440px) {
 
     /*Start Tablet */
     .map-tablet {
-        display: none !important;
+      display: none !important;
+    }
+
+    .pnavbar {
+      padding: 0 2em !important;
     }
 
     /*End Tablet*/
     /*Start Desktop*/
     .map-desktop {
-        display: none !important;
+      display: none !important;
     }
-}
+  }
 
 /*End */
 
 /*Start Media Query Tablet*/
-@media screen and (min-width: 441px) and (max-width: 800px) {
+  @media screen and (min-width: 441px) and (max-width: 800px) {
 
     /*Start Smartphone*/
     .map-smartphone {
-        display: none !important;
+      display: none !important;
+    }
+
+    .pnavbar {
+      padding: 0 3em !important;
     }
 
     /*End Smartphone*/
     /*Start Desktop*/
     .map-desktop {
-        display: none !important;
+      display: none !important;
     }
-}
+  }
 
 /*End*/
 
 /*Inizio Media Query Desktop*/
-@media screen and (min-width: 801px) {
+  @media screen and (min-width: 801px) {
 
     /*Inizio Smartphone*/
     .map-smartphone {
-        display: none !important;
+      display: none !important;
+    }
+
+    .pnavbar {
+      padding: 0 5em !important;
     }
 
 
-    /*Fine Smartphone*/
-    /*Inizio Tablet*/
+  /*Fine Smartphone*/
+
+  /*Inizio Tablet*/
     .map-desktop {
-        display: none !important;
+      display: none !important;
     }
-}
+  }
 
 /*End*/
