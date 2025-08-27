@@ -4,9 +4,13 @@ import InputError from '@/Components/InputError';
 import InputLabel from '@/Components/InputLabel';
 import PrimaryButton from '@/Components/PrimaryButton';
 import TextInput from '@/Components/TextInput';
+import { useTranslation } from 'react-i18next';
 import { Head, useForm } from '@inertiajs/react';
 
 export default function ResetPassword({ token, email }) {
+    
+    const { t } = useTranslation();
+    
     const { data, setData, post, processing, errors, reset } = useForm({
         token: token,
         email: email,
@@ -69,7 +73,7 @@ export default function ResetPassword({ token, email }) {
                 </div>
 
                 <div className="mt-4">
-                    <InputLabel forInput="password_confirmation" value="Confirm Password" />
+                    <InputLabel forInput="password_confirmation" value={t("confirm fassword")} />
 
                     <TextInput
                         type="password"
@@ -84,8 +88,8 @@ export default function ResetPassword({ token, email }) {
                 </div>
 
                 <div className="flex items-center justify-end mt-4">
-                    <PrimaryButton className="ml-4" processing={processing}>
-                        Reset Password
+                    <PrimaryButton className="ml-4 btn-resetpassword" processing={processing}>
+                        {t("reset password")}
                     </PrimaryButton>
                 </div>
             </form>

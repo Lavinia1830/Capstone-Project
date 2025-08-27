@@ -5,8 +5,12 @@ import InputLabel from '@/Components/InputLabel';
 import PrimaryButton from '@/Components/PrimaryButton';
 import TextInput from '@/Components/TextInput';
 import { Head, useForm } from '@inertiajs/react';
+import { useTranslation } from 'react-i18next';
 
 export default function ConfirmPassword() {
+
+    const { t } = useTranslation();
+
     const { data, setData, post, processing, errors, reset } = useForm({
         password: '',
     });
@@ -32,7 +36,7 @@ export default function ConfirmPassword() {
             <Head title="Confirm Password" />
 
             <div className="mb-4 text-sm text-gray-600">
-                This is a secure area of the application. Please confirm your password before continuing.
+                {t("confirm password")}
             </div>
 
             <form onSubmit={submit}>
@@ -53,8 +57,8 @@ export default function ConfirmPassword() {
                 </div>
 
                 <div className="flex items-center justify-end mt-4">
-                    <PrimaryButton className="ml-4" processing={processing}>
-                        Confirm
+                    <PrimaryButton className="ml-4 btn-confpassword" processing={processing}>
+                        {t("confirm")}
                     </PrimaryButton>
                 </div>
             </form>
