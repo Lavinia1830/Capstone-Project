@@ -1,10 +1,35 @@
-import React from 'react';
+import React, { useState } from 'react';
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout';
 import ItalyMap from './ItalyMap';
 import Footer from '@/Components/Footer';
 import { Head } from '@inertiajs/react';
 
 export default function Home(props) {
+
+  const [query, setQuery] = useState('');
+  const [error, setError] = useState(null);
+  const [searched, setSearched] = useState(false); // Nuovo stato per tenere traccia se la ricerca è stata eseguita
+
+  const handleChange = (event) => {
+    setQuery(event.target.value);
+  };
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    // Esegui la ricerca solo se è stata inserita una query
+    if (query.trim() !== '') {
+      // Filtra i risultati in base alla query
+      const filteredResults = searchResults.filter(result =>
+        result.title.toLowerCase().includes(query.toLowerCase())
+      );
+      setSearchResults(filteredResults);
+      setError('');
+      setSearched(true); // Imposta searched a true dopo aver eseguito la ricerca
+    } else {
+      setError('Inserisci un termine di ricerca valido.');
+    }
+  };
+
   return (
     <>
       <Head title="Home"/>
@@ -12,10 +37,66 @@ export default function Home(props) {
           auth={props.auth}
           errors={props.errors}
       >
-        <ItalyMap/>
-        <Footer/>
-      </AuthenticatedLayout>
-    </>
+        <div className="bg-green-50 text-green-900">
+          <main className="p-8 grid lg:grid-cols-2 gap-6">
+            <section>
+              <h2 className=" font-bold mb-4">Quale regione vuoi visitare?</h2>
+                <div>
+                  <h4>Cerca</h4>
+                  <form onSubmit={handleSubmit} className="form-inline my-2">
+                    <div className='d-flex'>
+                      <input
+                        className="form-control mr-sm-2"
+                        type="search"
+                        placeholder="Search"
+                        aria-label="Search"
+                        value={query}
+                        onChange={handleChange}
+                      />
+                      <button
+                        className="btn btn-outline-success my-2 my-sm-0 me-3"
+                        type="submit"
+                        id="searchsubmit"
+                      >
+                        Cerca
+                      </button>
+                    </div>
+                  </form>
+                </div>
+                {/* Qui aggiungi il codice per mostrare i risultati della ricerca e gestire gli errori */}
+                {error && <div className="alert alert-danger" role="alert">{error}</div>}
+                {/* Visualizza i risultati solo se la ricerca è stata eseguita */}
+                {searched && (
+                  <>
+                    {searchResults.length > 0 ? (
+                      <div>
+                        <h4>Risultati della ricerca</h4>
+                        <ul>
+                          {searchResults.map((result, index) => (
+                            <li key={index}>
+                              <Link href={result.url} className='text-decoration-none color_link'>{result.title}</Link>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    ) : (
+                      <p>Nessun risultato trovato</p>
+                    )}
+                  </>
+                )}
+                <div className="mt-6">
+                  <ItalyMap />
+                </div>
+              </section>
+
+              {/* <TrendingMuseums/> */}
+
+                    </main>
+
+                    <Footer />
+                </div>
+            </AuthenticatedLayout>
+        </>
     
   )
 }
