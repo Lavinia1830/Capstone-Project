@@ -83,7 +83,7 @@ return [
     |
     */
 
-    'locale' => 'en',
+    'locale' => 'it',
 
     /*
     |--------------------------------------------------------------------------
@@ -185,6 +185,11 @@ return [
         // 'Example' => App\Facades\Example::class,
     ])->toArray(),
 
-    'available_locales' => ['en', 'it'],
+    'available_locales' => [
+        'it',
+        'en',
+        'fr',
+        'es',
+    ],
 
 ];

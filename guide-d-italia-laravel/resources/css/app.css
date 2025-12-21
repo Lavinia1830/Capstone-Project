@@ -66,13 +66,13 @@ html, body {
 @media screen and (max-width: 440px) {
 
     /*Start Tablet */
-    .map-tablet {
+    .mappa-tablet {
         display: none !important;
     }
 
     /*End Tablet*/
     /*Start Desktop*/
-    .map-desktop {
+    .mappa-desktop {
         display: none !important;
     }
 }
@@ -83,13 +83,13 @@ html, body {
 @media screen and (min-width: 441px) and (max-width: 800px) {
 
     /*Start Smartphone*/
-    .map-smartphone {
+    .mappa-smartphone {
         display: none !important;
     }
-
     /*End Smartphone*/
+
     /*Start Desktop*/
-    .map-desktop {
+    .mappa-desktop {
         display: none !important;
     }
 }
@@ -100,14 +100,14 @@ html, body {
 @media screen and (min-width: 801px) {
 
     /*Inizio Smartphone*/
-    .map-smartphone {
+    .mappa-smartphone {
         display: none !important;
     }
 
 
     /*Fine Smartphone*/
     /*Inizio Tablet*/
-    .map-desktop {
+    .mappa-tablet {
         display: none !important;
     }
 }

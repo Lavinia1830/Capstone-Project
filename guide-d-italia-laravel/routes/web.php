@@ -25,6 +25,8 @@ Route::get('/', function () {
     ]);
 });
 
+
+
 Route::get('/views/lazio/roma/colosseum', function () {
     return Inertia::render('Colosseum');
 });

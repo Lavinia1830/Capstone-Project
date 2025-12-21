@@ -13,8 +13,11 @@ class SetLocale
         // Recupera la lingua dalla sessione o dall'URL
         $locale = $request->get('lang', session('locale', config('app.locale')));
 
+        $availableLocales = config('app.available_locales', []);
+
+
         // Verifica se la lingua è disponibile
-        if (in_array($locale, config('app.available_locales'))) {
+        if (in_array($locale, $availableLocales)) {
             App::setLocale($locale);
             session(['locale' => $locale]);
         }
