@@ -1,0 +1,11 @@
+{
+  "home": "Home",
+  "home1": "Quale regione vuoi visitare?",
+  "search": "Cerca",
+  "search results": "Risultati della ricerca",
+  "no results found": "Nessun risultato trovato",
+  "trends": "Tendenze",
+  "lazio": "Le città del <strong>Lazio</strong> offrono un viaggio unico tra civiltà antiche, borghi medievali, paesaggi naturali e tesori artistici. Da <span className='fw-bold'>Roma</span>, capitale eterna e simbolo mondiale della storia, alle gemme meno conosciute come <span className='fw-bold'>Rieti</span>, <span className='fw-bold'>Viterbo</span> e <span className='fw-bold'>Tivoli</span>, la regione è mosaico di coltura, natura e tradizione. Ogni città recconta un capitolo diverso della storia italiana, offendo esperienze autentiche a pochi passi l'una dell'altra.",
+  "card-lazio-title": "Rome",
+  "card-lazio-text": "Capitale d'Italia e cuore pulsante della storia occidentale, Roma è una città monumentale che fonde poassato e presente. Dall'imponente Colosseo ai capolavori del Vaticano, ogni angolo racconta secoli di arte, cultura e spiritualità. È una decisione imperdibile per chi desidera vivere la grande bellezza italiana"
+}

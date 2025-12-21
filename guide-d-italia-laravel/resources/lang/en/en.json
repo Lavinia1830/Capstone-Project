@@ -1,0 +1,14 @@
+{
+  "home": "Home",
+  "home1": "Which region do you want to visit?",
+  "search": "Search",
+  "search results": "Search results",
+  "no results found": "No results found",
+  "trends": "Trends",
+  "view city": "View City",
+  "lazio": "The cities of <strong>Lazio</strong> offer a unique journey through ancient civilizations, medieval towns, natural landscapes, and artistic treasures. For <span className='fw-bold'>Rome</span> the eternal city and global icon of history to hidden gems like <span className='fw-bold'>Rieti</span>, <span className='fw-bold'>Viterbo</span> and <span className='fw-bold'>Tivoli</span>, the region is a mosaic of culture, nature, and tradition. Each city tells a different chapter of Italy's story, offering authentic experiences just a short distance from one another.",
+  "card-lazio-title": "Rome",
+  "card-lazio-text": "The capital of Italy and the heart of Western history, Rome is a monumental city where past and present blend seamlessly. From the iconic Colosseum to the masterpieces of the Vatican, every corner tells a story of art, culture, and spirituality. It’s a must-visit for anyone seeking the timeless beauty of Italy.",
+  "card-lazio-title1": "Viterbo",
+  "card-lazio-text1": "Know as the \"City of the Popes\", Viterbo boasts one of the best-preserved medieval centers in Italy. Famous for its natural hut springs, noble palaces, and the charming San Pallegrino district, it offers a journey through time immersed in relaxation and tradition."
+}
